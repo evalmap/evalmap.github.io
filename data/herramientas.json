@@ -12,7 +12,7 @@
     "Fase": "Proceso/Final",
     "Participación": "Docente/Alumno/Iguales",
     "Etiquetas": "rubrica; analitica",
-    "Descripción detallada": "La rúbrica analítica es una matriz que desglosa la tarea en criterios separados y describe los niveles de desempeño para cada uno. Cada criterio se valora de forma independiente, lo que permite dar una retroalimentación precisa sobre qué aspectos están bien y cuáles necesitan mejora.\n\nCómo usarla: se diseña una tabla donde las filas son los criterios (p. ej., 'estructura', 'argumentación', 'corrección lingüística') y las columnas son los niveles (p. ej., 'excelente', 'satisfactorio', 'en proceso', 'inicial'). Cada celda contiene un descriptor que explica cómo es el desempeño en ese nivel para ese criterio. Al evaluar, el docente lee cada fila y marca el nivel que mejor describe lo observado.\n\nEs la herramienta más adecuada para tareas complejas donde importa dar retroalimentación detallada. Requiere tiempo de diseño, pero una vez creada puede reutilizarse y compartirse con el alumnado como guía.",
+    "Descripción detallada": "La rúbrica analítica es una matriz que desglosa la tarea en criterios separados y describe los niveles de desempeño para cada uno. Cada criterio se valora de forma independiente, lo que permite dar una retroalimentación precisa sobre qué aspectos están bien y cuáles necesitan mejora.\n\nCómo usarla: se diseña una tabla donde las filas son los criterios (p. ej., 'estructura', 'argumentación', 'corrección lingüística') y las columnas son los niveles (p. ej., 'excelente', 'satisfactorio', 'en proceso', 'inicial'). Cada celda contiene un descriptor que explica cómo es el desempeño en ese nivel para ese criterio. Al evaluar, el docente lee cada fila y marca el nivel que mejor describe lo observado.\n\nEs el instrumento de evaluación más adecuado para tareas complejas donde importa dar retroalimentación detallada. Requiere tiempo de diseño, pero una vez creada puede reutilizarse y compartirse con el alumnado como guía.",
     "rel_ins": [
       "INS_INFO_LAB",
       "INS_DEF_PROY",
@@ -347,7 +347,7 @@
     "Fase": "Proceso/Final",
     "Participación": "Docente",
     "Etiquetas": "competencial",
-    "Descripción detallada": "La rúbrica competencial está diseñada para valorar el grado de desarrollo de una competencia específica (comunicativa, matemática, digital, científica, etc.) a través de una tarea contextualizada. Sus criterios están alineados con los descriptores operativos del nivel educativo.\n\nCómo usarla: los criterios reflejan los elementos clave de la competencia (p. ej., para la competencia comunicativa: 'comprende textos complejos', 'produce textos adecuados al contexto', 'argumenta con evidencias'). Cada criterio tiene 3-4 niveles descritos. Puede usarse para valorar una sola tarea o como perfil acumulado a lo largo del curso.\n\nEs la herramienta más adecuada para la evaluación por competencias que exige el marco curricular actual.",
+    "Descripción detallada": "La rúbrica competencial está diseñada para valorar el grado de desarrollo de una competencia específica (comunicativa, matemática, digital, científica, etc.) a través de una tarea contextualizada. Sus criterios están alineados con los descriptores operativos del nivel educativo.\n\nCómo usarla: los criterios reflejan los elementos clave de la competencia (p. ej., para la competencia comunicativa: 'comprende textos complejos', 'produce textos adecuados al contexto', 'argumenta con evidencias'). Cada criterio tiene 3-4 niveles descritos. Puede usarse para valorar una sola tarea o como perfil acumulado a lo largo del curso.\n\nEs el instrumento de evaluación más adecuado para la evaluación por competencias que exige el marco curricular actual.",
     "rel_ins": [
       "INS_DEF_PROY",
       "INS_CASO",
@@ -392,7 +392,7 @@
     "Fase": "Inicial/Proceso/Final",
     "Participación": "Docente/Alumno/Iguales",
     "Etiquetas": "lista; cotejo",
-    "Descripción detallada": "La lista de cotejo es una herramienta de verificación que enumera los elementos, pasos o comportamientos que deben estar presentes en una tarea o actuación. Para cada ítem, el evaluador marca simplemente si está presente (sí/no) o si se ha cumplido.\n\nCómo usarla: se elabora una lista de indicadores concretos y observables (p. ej., 'incluye introducción', 'cita las fuentes', 'usa el material de seguridad'). Durante o después de la actividad, se marca cada ítem. No hay niveles intermedios; es una verificación binaria.\n\nEs rápida de aplicar y muy útil para actividades con requisitos claros y cerrados: protocolos de laboratorio, presentaciones con requisitos definidos, procedimientos técnicos. Para tareas con matices cualitativos, es preferible una rúbrica o escala.",
+    "Descripción detallada": "La lista de cotejo es un instrumento de evaluación que verifica que enumera los elementos, pasos o comportamientos que deben estar presentes en una tarea o actuación. Para cada ítem, el evaluador marca simplemente si está presente (sí/no) o si se ha cumplido.\n\nCómo usarla: se elabora una lista de indicadores concretos y observables (p. ej., 'incluye introducción', 'cita las fuentes', 'usa el material de seguridad'). Durante o después de la actividad, se marca cada ítem. No hay niveles intermedios; es una verificación binaria.\n\nEs rápida de aplicar y muy útil para actividades con requisitos claros y cerrados: protocolos de laboratorio, presentaciones con requisitos definidos, procedimientos técnicos. Para tareas con matices cualitativos, es preferible una rúbrica o escala.",
     "rel_ins": [
       "INS_BILLETE",
       "INS_CUADERNO",
@@ -933,7 +933,7 @@
     "Fase": "Proceso",
     "Participación": "Docente",
     "Etiquetas": "descriptivo",
-    "Descripción detallada": "El registro descriptivo es una herramienta narrativa en la que el docente describe con cierto detalle el desempeño de un alumno o grupo durante una actividad o periodo, sin reducirlo a una puntuación.\n\nCómo usarlo: se redacta una descripción cualitativa que explica qué hizo el alumno, cómo lo hizo y qué evidencias se observaron. Puede estructurarse por criterios o por momentos de la actividad. Es más elaborado que el registro anecdótico y más apropiado para informes periódicos.\n\nPermite comunicar a las familias y al propio alumno una imagen rica y matizada del aprendizaje, más allá de lo que puede transmitir una nota numérica.",
+    "Descripción detallada": "El registro descriptivo es un instrumento de evaluación narrativo en la que el docente describe con cierto detalle el desempeño de un alumno o grupo durante una actividad o periodo, sin reducirlo a una puntuación.\n\nCómo usarlo: se redacta una descripción cualitativa que explica qué hizo el alumno, cómo lo hizo y qué evidencias se observaron. Puede estructurarse por criterios o por momentos de la actividad. Es más elaborado que el registro anecdótico y más apropiado para informes periódicos.\n\nPermite comunicar a las familias y al propio alumno una imagen rica y matizada del aprendizaje, más allá de lo que puede transmitir una nota numérica.",
     "rel_ins": [
       "INS_DEF_PROY",
       "INS_LAB",
@@ -985,7 +985,7 @@
     "Fase": "Proceso",
     "Participación": "Docente",
     "Etiquetas": "diario profesor",
-    "Descripción detallada": "El diario del profesor es un cuaderno o documento digital donde el docente registra sus reflexiones sobre el desarrollo de las clases: qué funcionó, qué no, qué aprendió el alumnado, qué dificultades surgieron y qué cambiaría la próxima vez.\n\nCómo usarlo: conviene escribir en él con regularidad (al final de cada sesión o semana) y de forma reflexiva, no solo descriptiva. Preguntas como '¿qué evidencias de aprendizaje observé hoy?', '¿qué alumnos me preocupan y por qué?' o '¿qué ajustaría?' orientan la reflexión.\n\nNo es solo un registro de lo que ocurrió, sino una herramienta de mejora de la práctica docente. Con el tiempo, se convierte en una fuente valiosa de información para ajustar la planificación.",
+    "Descripción detallada": "El diario del profesor es un cuaderno o documento digital donde el docente registra sus reflexiones sobre el desarrollo de las clases: qué funcionó, qué no, qué aprendió el alumnado, qué dificultades surgieron y qué cambiaría la próxima vez.\n\nCómo usarlo: conviene escribir en él con regularidad (al final de cada sesión o semana) y de forma reflexiva, no solo descriptiva. Preguntas como '¿qué evidencias de aprendizaje observé hoy?', '¿qué alumnos me preocupan y por qué?' o '¿qué ajustaría?' orientan la reflexión.\n\nNo es solo un registro de lo que ocurrió, sino un instrumento de mejora de la práctica docente. Con el tiempo, se convierte en una fuente valiosa de información para ajustar la planificación.",
     "rel_ins": [
       "INS_PART",
       "INS_TRAB_COOP",
@@ -1091,7 +1091,7 @@
     "Fase": "Proceso",
     "Participación": "Docente/Grupo",
     "Etiquetas": "grupo; seguimiento",
-    "Descripción detallada": "La hoja de seguimiento grupal es una versión colectiva de la hoja de seguimiento individual: recoge en una misma tabla información de todos los alumnos del grupo, lo que permite comparar y detectar tendencias generales.\n\nCómo usarla: cada fila es un alumno y cada columna es un criterio, tarea o momento de observación. El docente la actualiza periódicamente. Una ojeada al conjunto permite identificar qué alumnos necesitan más atención, qué criterios el grupo en general no ha alcanzado y qué aspectos han mejorado.\n\nEs una herramienta de gestión de aula muy útil para docentes con varios grupos, ya que permite mantener una visión global del estado del aprendizaje.",
+    "Descripción detallada": "La hoja de seguimiento grupal es una versión colectiva de la hoja de seguimiento individual: recoge en una misma tabla información de todos los alumnos del grupo, lo que permite comparar y detectar tendencias generales.\n\nCómo usarla: cada fila es un alumno y cada columna es un criterio, tarea o momento de observación. El docente la actualiza periódicamente. Una ojeada al conjunto permite identificar qué alumnos necesitan más atención, qué criterios el grupo en general no ha alcanzado y qué aspectos han mejorado.\n\nEs un instrumento de seguimiento de aula muy útil para docentes con varios grupos, ya que permite mantener una visión global del estado del aprendizaje.",
     "rel_ins": [
       "INS_DEF_PROY",
       "INS_TRAB_COOP",
@@ -1398,7 +1398,7 @@
     "Fase": "Diseño",
     "Participación": "Docente",
     "Etiquetas": "descriptores",
-    "Descripción detallada": "El banco de descriptores es una colección de frases descriptivas listas para usar en la construcción de rúbricas, informes y fichas de retroalimentación. Evita tener que redactar descriptores desde cero cada vez.\n\nCómo usarlo: se organiza por criterios, competencias o áreas, con descriptores para distintos niveles de desempeño. Al diseñar una rúbrica, el docente selecciona y adapta los descriptores del banco en lugar de redactarlos desde cero.\n\nEs una herramienta de eficiencia que reduce el tiempo de diseño de instrumentos de evaluación y favorece la coherencia terminológica entre distintas asignaturas o docentes del mismo departamento.",
+    "Descripción detallada": "El banco de descriptores es una colección de frases descriptivas listas para usar en la construcción de rúbricas, informes y fichas de retroalimentación. Evita tener que redactar descriptores desde cero cada vez.\n\nCómo usarlo: se organiza por criterios, competencias o áreas, con descriptores para distintos niveles de desempeño. Al diseñar una rúbrica, el docente selecciona y adapta los descriptores del banco en lugar de redactarlos desde cero.\n\nEs un instrumento de eficiencia que reduce el tiempo de diseño de instrumentos de evaluación y favorece la coherencia terminológica entre distintas asignaturas o docentes del mismo departamento.",
     "rel_ins": [
       "INS_PORT",
       "INS_DEF_PROY",
@@ -1553,7 +1553,7 @@
     "Fase": "Inicial/Proceso/Final",
     "Participación": "Alumno",
     "Etiquetas": "autoevaluacion",
-    "Descripción detallada": "La escala de autoevaluación es una herramienta que el propio alumno usa para valorar su desempeño, proceso o producto según criterios predefinidos. Puede ser numérica, de frecuencia o cualitativa.\n\nCómo usarla: se proporciona al alumno una lista de indicadores y una escala para cada uno. El alumno la completa de forma individual y honesta. Para que sea efectiva, los criterios deben haber sido trabajados previamente y el alumno debe comprender qué significa cada nivel.\n\nSu valor es principalmente metacognitivo: obliga al alumno a reflexionar sobre su propio aprendizaje. Puede combinarse con la valoración del docente para identificar discrepancias y trabajarlas en tutoría.",
+    "Descripción detallada": "La escala de autoevaluación es un instrumento de evaluación que el propio alumno usa para valorar su desempeño, proceso o producto según criterios predefinidos. Puede ser numérica, de frecuencia o cualitativa.\n\nCómo usarla: se proporciona al alumno una lista de indicadores y una escala para cada uno. El alumno la completa de forma individual y honesta. Para que sea efectiva, los criterios deben haber sido trabajados previamente y el alumno debe comprender qué significa cada nivel.\n\nSu valor es principalmente metacognitivo: obliga al alumno a reflexionar sobre su propio aprendizaje. Puede combinarse con la valoración del docente para identificar discrepancias y trabajarlas en tutoría.",
     "rel_ins": [
       "INS_DIARIO",
       "INS_KPSI",
@@ -2061,7 +2061,7 @@
     "Fase": "Proceso/Final",
     "Participación": "Docente",
     "Etiquetas": "hoja calculo",
-    "Descripción detallada": "La hoja de cálculo de evaluación (Excel, Google Sheets, etc.) es un registro digital que centraliza todas las calificaciones y permite calcular automáticamente medias, ponderaciones y notas finales.\n\nCómo usarla: se organiza con alumnos en filas y tareas o criterios en columnas. Las fórmulas calculan automáticamente las medias ponderadas. Puede incluir gráficos de progreso, filtros por alumno o criterio y exportación a informes.\n\nEs la herramienta más eficiente para gestionar la calificación de grupos grandes. Con macros o complementos específicos, puede generar informes personalizados para cada alumno automáticamente.",
+    "Descripción detallada": "La hoja de cálculo de evaluación (Excel, Google Sheets, etc.) es un registro digital que centraliza todas las calificaciones y permite calcular automáticamente medias, ponderaciones y notas finales.\n\nCómo usarla: se organiza con alumnos en filas y tareas o criterios en columnas. Las fórmulas calculan automáticamente las medias ponderadas. Puede incluir gráficos de progreso, filtros por alumno o criterio y exportación a informes.\n\nEs el instrumento de evaluación más eficiente para gestionar la calificación de grupos grandes. Con macros o complementos específicos, puede generar informes personalizados para cada alumno automáticamente.",
     "rel_ins": [
       "INS_PR_OBJ",
       "INS_MEM_PROY",
@@ -2675,7 +2675,7 @@
     "Fase": "Inicial/Proceso",
     "Participación": "Docente",
     "Etiquetas": "sociograma; convivencia; grupo",
-    "Descripción detallada": "El sociograma representa relaciones dentro del grupo: preferencias de trabajo, apoyos, rechazos, liderazgos o aislamiento.\n\nCómo usarlo: se recoge información mediante preguntas cuidadosas, se analiza de forma confidencial y se usa para mejorar agrupamientos o convivencia, no para etiquetar al alumnado.\n\nEs una herramienta de evaluación del contexto social del aprendizaje más que de rendimiento académico.",
+    "Descripción detallada": "El sociograma representa relaciones dentro del grupo: preferencias de trabajo, apoyos, rechazos, liderazgos o aislamiento.\n\nCómo usarlo: se recoge información mediante preguntas cuidadosas, se analiza de forma confidencial y se usa para mejorar agrupamientos o convivencia, no para etiquetar al alumnado.\n\nEs un instrumento de evaluación del contexto social del aprendizaje más que de rendimiento académico.",
     "rel_ins": [
       "INS_ASAM",
       "INS_TRAB_COOP"
@@ -2712,7 +2712,7 @@
     "Fase": "Diseño/Proceso/Final",
     "Participación": "Docente",
     "Etiquetas": "criterios; evidencias; trazabilidad",
-    "Descripción detallada": "El mapa de evidencias por criterio relaciona cada criterio de evaluación con las tareas que lo evidencian, los instrumentos usados y las herramientas de valoración.\n\nCómo usarlo: se construye como tabla de planificación y seguimiento. Permite detectar criterios sobrerrepresentados, criterios sin evidencias y decisiones de calificación poco justificadas.\n\nEs una herramienta clave para evaluación criterial y triangulación de evidencias.",
+    "Descripción detallada": "El mapa de evidencias por criterio relaciona cada criterio de evaluación con las tareas que lo evidencian, los medios/evidencias usados y los instrumentos de evaluación aplicados.\n\nCómo usarlo: se construye como tabla de planificación y seguimiento. Permite detectar criterios sobrerrepresentados, criterios sin evidencias y decisiones de calificación poco justificadas.\n\nEs un instrumento de evaluación clave para la evaluación criterial y triangulación de evidencias.",
     "rel_ins": [
       "INS_TAREA_COMP_INT",
       "INS_EPORT_SEL",

@@ -11,7 +11,7 @@
     "Fase": "Proceso",
     "Participación": "Docente",
     "Etiquetas": "individual; aula",
-    "Descripción detallada": "El trabajo individual en aula es una actividad que el alumno realiza de forma autónoma durante la clase, sin apoyo directo de compañeros. Permite al docente observar en directo el nivel de autonomía, la organización y la capacidad de resolución de cada alumno.\n\nCómo usarlo para evaluar: mientras el alumnado trabaja, el docente circula por el aula y observa con una escala de observación o lista de cotejo. Registra quién avanza con soltura, quién se bloquea y en qué punto. También puede recoger el resultado final (ejercicio, tarea, esquema) y valorarlo con una guía de corrección.\n\nEs uno de los instrumentos más habituales porque permite información tanto del proceso como del resultado, en condiciones controladas y sin interferencia de otros alumnos.",
+    "Descripción detallada": "El trabajo individual en aula es una actividad que el alumno realiza de forma autónoma durante la clase, sin apoyo directo de compañeros. Permite al docente observar en directo el nivel de autonomía, la organización y la capacidad de resolución de cada alumno.\n\nCómo usarlo para evaluar: mientras el alumnado trabaja, el docente circula por el aula y observa con una escala de observación o lista de cotejo. Registra quién avanza con soltura, quién se bloquea y en qué punto. También puede recoger el resultado final (ejercicio, tarea, esquema) y valorarlo con una guía de corrección.\n\nEs una de las evidencias evaluables más habituales porque permite información tanto del proceso como del resultado, en condiciones controladas y sin interferencia de otros alumnos.",
     "rel_tec": [
       "TEC_OBS_SIS",
       "TEC_OBS_INC"
@@ -244,7 +244,7 @@
     "Fase": "Proceso",
     "Participación": "Docente/Iguales",
     "Etiquetas": "asamblea",
-    "Descripción detallada": "La asamblea es una reunión del grupo-clase donde se toman decisiones colectivas, se comparten experiencias o se debaten normas y conflictos. En contextos educativos, se usa especialmente en Infantil y Primaria, aunque también en tutoría y proyectos de convivencia.\n\nCómo usarla para evaluar: permite observar competencias sociales y comunicativas: respeto al turno, escucha, argumentación, propuesta de soluciones. Un registro anecdótico o una escala de participación recogen las evidencias más significativas.\n\nNo es un instrumento de evaluación académica en sentido estricto, pero sí permite evaluar competencias cívicas, de comunicación y de resolución de conflictos.",
+    "Descripción detallada": "La asamblea es una reunión del grupo-clase donde se toman decisiones colectivas, se comparten experiencias o se debaten normas y conflictos. En contextos educativos, se usa especialmente en Infantil y Primaria, aunque también en tutoría y proyectos de convivencia.\n\nCómo usarla para evaluar: permite observar competencias sociales y comunicativas: respeto al turno, escucha, argumentación, propuesta de soluciones. Un registro anecdótico o una escala de participación recogen las evidencias más significativas.\n\nNo es una evidencia de evaluación académica formal en sentido estricto, pero sí permite evaluar competencias cívicas, de comunicación y de resolución de conflictos.",
     "rel_tec": [
       "TEC_ORAL",
       "TEC_OBS_SIS"
@@ -287,7 +287,7 @@
     "Fase": "Proceso",
     "Participación": "Docente",
     "Etiquetas": "laboratorio; ciencias",
-    "Descripción detallada": "La práctica de laboratorio es una actividad experimental en la que el alumnado aplica procedimientos científicos para observar fenómenos, comprobar hipótesis o desarrollar habilidades técnicas. Requiere planificación, uso de materiales específicos y registro de resultados.\n\nCómo usarla para evaluar: permite evaluar tanto el proceso (cómo aplica el protocolo, cómo maneja el material, cómo registra observaciones) como el producto (informe de laboratorio). El docente observa con una lista de cotejo de proceso y después valora el informe con una rúbrica.\n\nEs uno de los instrumentos más ricos para la evaluación competencial en ciencias, ya que integra conocimientos, procedimientos y actitudes en una sola actividad.",
+    "Descripción detallada": "La práctica de laboratorio es una actividad experimental en la que el alumnado aplica procedimientos científicos para observar fenómenos, comprobar hipótesis o desarrollar habilidades técnicas. Requiere planificación, uso de materiales específicos y registro de resultados.\n\nCómo usarla para evaluar: permite evaluar tanto el proceso (cómo aplica el protocolo, cómo maneja el material, cómo registra observaciones) como el producto (informe de laboratorio). El docente observa con una lista de cotejo de proceso y después valora el informe con una rúbrica.\n\nEs una de las evidencias evaluables más ricas para la evaluación competencial en ciencias, ya que integra conocimientos, procedimientos y actitudes en una sola actividad.",
     "rel_tec": [
       "TEC_OBS_SIS"
     ],
@@ -455,7 +455,7 @@
     "Fase": "Proceso/Final",
     "Participación": "Docente/Iguales",
     "Etiquetas": "dramatizacion",
-    "Descripción detallada": "La dramatización es la representación escénica de una situación, texto o historia. El alumnado interpreta personajes, ensaya y presenta ante el grupo. Puede ser improvisada o preparada.\n\nCómo usarla para evaluar: se valora la expresión oral y corporal, la comprensión del texto o situación representada, la memorización, la cooperación en el ensayo y la calidad de la presentación. Una rúbrica oral y de desempeño, aplicada por el docente o como coevaluación, recoge estas dimensiones.\n\nEs un instrumento especialmente rico para lengua y literatura, idiomas extranjeros y educación artística, ya que integra comprensión, expresión, creatividad y trabajo en equipo.",
+    "Descripción detallada": "La dramatización es la representación escénica de una situación, texto o historia. El alumnado interpreta personajes, ensaya y presenta ante el grupo. Puede ser improvisada o preparada.\n\nCómo usarla para evaluar: se valora la expresión oral y corporal, la comprensión del texto o situación representada, la memorización, la cooperación en el ensayo y la calidad de la presentación. Una rúbrica oral y de desempeño, aplicada por el docente o como coevaluación, recoge estas dimensiones.\n\nEs una evidencia especialmente rica para lengua y literatura, idiomas extranjeros y educación artística, ya que integra comprensión, expresión, creatividad y trabajo en equipo.",
     "rel_tec": [
       "TEC_OBS_SIS"
     ],
@@ -727,7 +727,7 @@
     "Fase": "Proceso",
     "Participación": "Alumno",
     "Etiquetas": "diario; metacognicion",
-    "Descripción detallada": "El diario de aprendizaje es un registro personal donde el alumno anota periódicamente qué ha aprendido, qué le ha costado, qué preguntas tiene y cómo se siente respecto al proceso. Tiene una dimensión reflexiva y metacognitiva que va más allá del cuaderno de clase.\n\nCómo usarlo para evaluar: el docente puede proporcionar preguntas guía ('¿qué aprendí hoy?', '¿qué todavía no entiendo bien?', '¿qué cambiaría de cómo estudié?'). Se valora la profundidad de la reflexión, la honestidad y la conexión entre lo aprendido y la experiencia personal.\n\nEs un instrumento poderoso para el desarrollo de la metacognición y la autonomía. Su evaluación debe valorar la reflexión, no la calidad de redacción ni si las respuestas son 'correctas'.",
+    "Descripción detallada": "El diario de aprendizaje es un registro personal donde el alumno anota periódicamente qué ha aprendido, qué le ha costado, qué preguntas tiene y cómo se siente respecto al proceso. Tiene una dimensión reflexiva y metacognitiva que va más allá del cuaderno de clase.\n\nCómo usarlo para evaluar: el docente puede proporcionar preguntas guía ('¿qué aprendí hoy?', '¿qué todavía no entiendo bien?', '¿qué cambiaría de cómo estudié?'). Se valora la profundidad de la reflexión, la honestidad y la conexión entre lo aprendido y la experiencia personal.\n\nEs una actividad de gran potencial para el desarrollo de la metacognición y la autonomía. Su evaluación debe valorar la reflexión, no la calidad de redacción ni si las respuestas son 'correctas'.",
     "rel_tec": [
       "TEC_PROC_REFLEX"
     ],
@@ -868,7 +868,7 @@
     "Fase": "Final",
     "Participación": "Docente",
     "Etiquetas": "investigacion",
-    "Descripción detallada": "El informe de investigación documenta el proceso y resultados de una indagación o investigación: pregunta de investigación, estado de la cuestión, metodología, resultados, discusión y conclusiones. Es más extenso y estructurado que el informe de laboratorio.\n\nCómo usarlo para evaluar: una rúbrica analítica que valore cada sección por separado permite retroalimentación precisa. Especial atención a la calidad de las fuentes usadas, la coherencia entre la pregunta y la metodología, y la capacidad de interpretar los resultados críticamente.\n\nEs el instrumento más adecuado para evaluar competencias de investigación en ESO, Bachillerato y FP. Puede complementarse con la defensa oral del informe.",
+    "Descripción detallada": "El informe de investigación documenta el proceso y resultados de una indagación o investigación: pregunta de investigación, estado de la cuestión, metodología, resultados, discusión y conclusiones. Es más extenso y estructurado que el informe de laboratorio.\n\nCómo usarlo para evaluar: una rúbrica analítica que valore cada sección por separado permite retroalimentación precisa. Especial atención a la calidad de las fuentes usadas, la coherencia entre la pregunta y la metodología, y la capacidad de interpretar los resultados críticamente.\n\nEs la evidencia más adecuada para evaluar competencias de investigación en ESO, Bachillerato y FP. Puede complementarse con la defensa oral del informe.",
     "rel_tec": [
       "TEC_PROD"
     ],
@@ -950,7 +950,7 @@
     "Fase": "Final",
     "Participación": "Docente",
     "Etiquetas": "ensayo",
-    "Descripción detallada": "El ensayo es un texto argumentativo en el que el alumno defiende una tesis o posición sobre un tema, apoyándose en argumentos, ejemplos y fuentes. A diferencia de la monografía, tiene una voz personal más marcada.\n\nCómo usarlo para evaluar: se valora la claridad de la tesis, la calidad de los argumentos, el uso de evidencias, la cohesión del texto y la corrección lingüística. Una rúbrica analítica permite retroalimentación específica sobre cada dimensión.\n\nEs un instrumento especialmente adecuado para evaluar pensamiento crítico, argumentación y escritura académica en lengua, filosofía, ciencias sociales y humanidades.",
+    "Descripción detallada": "El ensayo es un texto argumentativo en el que el alumno defiende una tesis o posición sobre un tema, apoyándose en argumentos, ejemplos y fuentes. A diferencia de la monografía, tiene una voz personal más marcada.\n\nCómo usarlo para evaluar: se valora la claridad de la tesis, la calidad de los argumentos, el uso de evidencias, la cohesión del texto y la corrección lingüística. Una rúbrica analítica permite retroalimentación específica sobre cada dimensión.\n\nEs una tarea especialmente adecuada para evaluar pensamiento crítico, argumentación y escritura académica en lengua, filosofía, ciencias sociales y humanidades.",
     "rel_tec": [
       "TEC_PROD"
     ],
@@ -993,7 +993,7 @@
     "Fase": "Proceso/Final",
     "Participación": "Docente",
     "Etiquetas": "comentario; texto",
-    "Descripción detallada": "El comentario de texto es un análisis crítico de un fragmento (literario, histórico, científico, filosófico) que el alumno lleva a cabo siguiendo una estructura: comprensión, contextualización, análisis formal y valoración personal.\n\nCómo usarlo para evaluar: se valora la comprensión global del texto, la identificación de ideas principales, la contextualización adecuada, la calidad del análisis y la coherencia de la valoración. La guía de corrección o rúbrica debe adaptarse al tipo de texto y a la etapa.\n\nEs uno de los instrumentos más habituales en lengua y literatura, historia y filosofía. Permite evaluar comprensión lectora en profundidad, análisis y escritura.",
+    "Descripción detallada": "El comentario de texto es un análisis crítico de un fragmento (literario, histórico, científico, filosófico) que el alumno lleva a cabo siguiendo una estructura: comprensión, contextualización, análisis formal y valoración personal.\n\nCómo usarlo para evaluar: se valora la comprensión global del texto, la identificación de ideas principales, la contextualización adecuada, la calidad del análisis y la coherencia de la valoración. La guía de corrección o rúbrica debe adaptarse al tipo de texto y a la etapa.\n\nEs una de las evidencias evaluables más habituales en lengua y literatura, historia y filosofía. Permite evaluar comprensión lectora en profundidad, análisis y escritura.",
     "rel_tec": [
       "TEC_PROD",
       "TEC_PRUEBA"
@@ -1036,7 +1036,7 @@
     "Fase": "Proceso/Final",
     "Participación": "Docente",
     "Etiquetas": "datos; grafica",
-    "Descripción detallada": "El comentario de gráfica o datos consiste en interpretar y explicar la información contenida en gráficos, tablas, mapas o conjuntos de datos. El alumno debe describir, analizar y extraer conclusiones de los datos presentados.\n\nCómo usarlo para evaluar: se valora si el alumno identifica correctamente las variables, describe tendencias y patrones, interpreta los datos en contexto y extrae conclusiones justificadas. Una guía de corrección por etapas (descripción → análisis → conclusión) orienta tanto la corrección como la realización de la tarea.\n\nEs un instrumento clave en matemáticas, ciencias, geografía, economía y cualquier área que trabaje con datos cuantitativos.",
+    "Descripción detallada": "El comentario de gráfica o datos consiste en interpretar y explicar la información contenida en gráficos, tablas, mapas o conjuntos de datos. El alumno debe describir, analizar y extraer conclusiones de los datos presentados.\n\nCómo usarlo para evaluar: se valora si el alumno identifica correctamente las variables, describe tendencias y patrones, interpreta los datos en contexto y extrae conclusiones justificadas. Una guía de corrección por etapas (descripción → análisis → conclusión) orienta tanto la corrección como la realización de la tarea.\n\nEs una tarea clave en matemáticas, ciencias, geografía, economía y cualquier área que trabaje con datos cuantitativos.",
     "rel_tec": [
       "TEC_PROD"
     ],
@@ -1075,7 +1075,7 @@
     "Fase": "Proceso",
     "Participación": "Docente",
     "Etiquetas": "resumen",
-    "Descripción detallada": "El resumen es la síntesis de un texto o contenido, recogiendo las ideas principales de forma breve y con las propias palabras del alumno. Implica comprensión, selección y reformulación.\n\nCómo usarlo para evaluar: se valora si el alumno identifica las ideas principales (no las secundarias o los ejemplos), si prescinde de información irrelevante, si usa sus propias palabras y si el resumen es coherente y bien proporcionado. Una guía de corrección o lista de cotejo sencilla es suficiente.\n\nEs un instrumento muy accesible para evaluar la comprensión lectora y la capacidad de síntesis en cualquier etapa y materia.",
+    "Descripción detallada": "El resumen es la síntesis de un texto o contenido, recogiendo las ideas principales de forma breve y con las propias palabras del alumno. Implica comprensión, selección y reformulación.\n\nCómo usarlo para evaluar: se valora si el alumno identifica las ideas principales (no las secundarias o los ejemplos), si prescinde de información irrelevante, si usa sus propias palabras y si el resumen es coherente y bien proporcionado. Una guía de corrección o lista de cotejo sencilla es suficiente.\n\nEs una tarea muy accesible para evaluar la comprensión lectora y la capacidad de síntesis en cualquier etapa y materia.",
     "rel_tec": [
       "TEC_PROD"
     ],
@@ -1231,7 +1231,7 @@
     "Fase": "Proceso/Final",
     "Participación": "Docente",
     "Etiquetas": "linea tiempo",
-    "Descripción detallada": "La línea del tiempo es una representación gráfica cronológica de hechos, periodos o procesos, que permite visualizar la secuencia temporal y las relaciones entre eventos.\n\nCómo usarla para evaluar: se valora la selección de hechos relevantes, la precisión de las fechas, la proporcionalidad de los intervalos temporales, la inclusión de información contextual y la claridad de la presentación. Una lista de cotejo o rúbrica sencilla es suficiente.\n\nEs un instrumento clave en historia, biología (evolución), literatura (movimientos literarios) y cualquier área con dimensión temporal.",
+    "Descripción detallada": "La línea del tiempo es una representación gráfica cronológica de hechos, periodos o procesos, que permite visualizar la secuencia temporal y las relaciones entre eventos.\n\nCómo usarla para evaluar: se valora la selección de hechos relevantes, la precisión de las fechas, la proporcionalidad de los intervalos temporales, la inclusión de información contextual y la claridad de la presentación. Una lista de cotejo o rúbrica sencilla es suficiente.\n\nEs una tarea clave en historia, biología (evolución), literatura (movimientos literarios) y cualquier área con dimensión temporal.",
     "rel_tec": [
       "TEC_PROD"
     ],
@@ -1307,7 +1307,7 @@
     "Fase": "Proceso/Final",
     "Participación": "Docente",
     "Etiquetas": "lectura",
-    "Descripción detallada": "La ficha de lectura recoge información estructurada sobre una lectura: identificación del texto (autor, título, género), resumen, ideas principales, opinión personal y valoración crítica. Es una herramienta de mediación entre la lectura y la escritura académica.\n\nCómo usarla para evaluar: se valora la comprensión del texto, la capacidad de síntesis, la profundidad del comentario personal y la conexión entre el texto y el conocimiento previo o el contexto del alumno. Una plantilla estructurada con criterios claros facilita la corrección.\n\nEs especialmente útil en lengua y literatura, filosofía, ciencias sociales y cualquier materia que incorpore lectura de textos como fuente de aprendizaje.",
+    "Descripción detallada": "La ficha de lectura recoge información estructurada sobre una lectura: identificación del texto (autor, título, género), resumen, ideas principales, opinión personal y valoración crítica. Es una actividad de mediación entre la lectura y la escritura académica.\n\nCómo usarla para evaluar: se valora la comprensión del texto, la capacidad de síntesis, la profundidad del comentario personal y la conexión entre el texto y el conocimiento previo o el contexto del alumno. Una plantilla estructurada con criterios claros facilita la corrección.\n\nEs especialmente útil en lengua y literatura, filosofía, ciencias sociales y cualquier materia que incorpore lectura de textos como fuente de aprendizaje.",
     "rel_tec": [
       "TEC_PROD"
     ],
@@ -1346,7 +1346,7 @@
     "Fase": "Final",
     "Participación": "Docente",
     "Etiquetas": "reseña",
-    "Descripción detallada": "La reseña es un texto que describe, analiza y valora críticamente una obra (libro, película, exposición, experimento, etc.). Combina descripción objetiva y valoración argumentada.\n\nCómo usarla para evaluar: se valora la descripción precisa del objeto reseñado, la calidad del análisis, la solidez de los argumentos valorativos y la coherencia del texto. Una rúbrica que diferencie descripción, análisis y valoración permite retroalimentación específica.\n\nEs un instrumento excelente para evaluar pensamiento crítico, escritura argumentativa y capacidad de emitir juicios fundamentados. Adecuado en lengua, literatura, arte y ciencias.",
+    "Descripción detallada": "La reseña es un texto que describe, analiza y valora críticamente una obra (libro, película, exposición, experimento, etc.). Combina descripción objetiva y valoración argumentada.\n\nCómo usarla para evaluar: se valora la descripción precisa del objeto reseñado, la calidad del análisis, la solidez de los argumentos valorativos y la coherencia del texto. Una rúbrica que diferencie descripción, análisis y valoración permite retroalimentación específica.\n\nEs una tarea excelente para evaluar pensamiento crítico, escritura argumentativa y capacidad de emitir juicios fundamentados. Adecuado en lengua, literatura, arte y ciencias.",
     "rel_tec": [
       "TEC_PROD"
     ],
@@ -1428,7 +1428,7 @@
     "Fase": "Final",
     "Participación": "Docente",
     "Etiquetas": "memoria; proyecto",
-    "Descripción detallada": "La memoria de proyecto es el documento escrito que recoge todo el proceso y resultado de un proyecto: planificación inicial, desarrollo, dificultades encontradas, soluciones adoptadas, resultado final y reflexión sobre el aprendizaje.\n\nCómo usarla para evaluar: se valora tanto la calidad del proceso documentado como la del resultado. Una rúbrica que diferencie secciones (planificación, desarrollo, producto, reflexión) permite retroalimentación específica. La reflexión final sobre lo aprendido tiene especial valor metacognitivo.\n\nEs el instrumento de evaluación principal en proyectos de aprendizaje-servicio, proyectos interdisciplinares y trabajos de investigación de Bachillerato.",
+    "Descripción detallada": "La memoria de proyecto es el documento escrito que recoge todo el proceso y resultado de un proyecto: planificación inicial, desarrollo, dificultades encontradas, soluciones adoptadas, resultado final y reflexión sobre el aprendizaje.\n\nCómo usarla para evaluar: se valora tanto la calidad del proceso documentado como la del resultado. Una rúbrica que diferencie secciones (planificación, desarrollo, producto, reflexión) permite retroalimentación específica. La reflexión final sobre lo aprendido tiene especial valor metacognitivo.\n\nEs la evidencia evaluable principal en proyectos de aprendizaje-servicio, proyectos interdisciplinares y trabajos de investigación de Bachillerato.",
     "rel_tec": [
       "TEC_PROD"
     ],
@@ -1471,7 +1471,7 @@
     "Fase": "Inicial/Proceso",
     "Participación": "Docente/Grupo",
     "Etiquetas": "planificacion",
-    "Descripción detallada": "El plan de trabajo es un documento previo al inicio de un proyecto en el que el alumno o equipo define objetivos, tareas, responsables, recursos y plazos. Permite evaluar la capacidad de planificación antes de ejecutar.\n\nCómo usarlo para evaluar: se valora la claridad de los objetivos, el realismo de los plazos, la distribución equitativa de tareas y la previsión de dificultades. Al finalizar el proyecto, puede compararse el plan inicial con lo que realmente sucedió, lo que añade valor reflexivo.\n\nEs una herramienta formativa que ayuda al alumnado a desarrollar competencias de organización y gestión del tiempo, fundamentales para la autonomía.",
+    "Descripción detallada": "El plan de trabajo es un documento previo al inicio de un proyecto en el que el alumno o equipo define objetivos, tareas, responsables, recursos y plazos. Permite evaluar la capacidad de planificación antes de ejecutar.\n\nCómo usarlo para evaluar: se valora la claridad de los objetivos, el realismo de los plazos, la distribución equitativa de tareas y la previsión de dificultades. Al finalizar el proyecto, puede compararse el plan inicial con lo que realmente sucedió, lo que añade valor reflexivo.\n\nEs una actividad formativa que ayuda al alumnado al alumnado a desarrollar competencias de organización y gestión del tiempo, fundamentales para la autonomía.",
     "rel_tec": [
       "TEC_PROC_REFLEX"
     ],
@@ -1512,7 +1512,7 @@
     "Fase": "Proceso",
     "Participación": "Grupo",
     "Etiquetas": "acta",
-    "Descripción detallada": "El acta de reunión es el registro escrito de lo que ocurrió en una reunión del grupo: quién asistió, qué se debatió, qué acuerdos se tomaron y qué tareas se asignaron. Es un instrumento habitual en trabajo cooperativo y proyectos grupales.\n\nCómo usarla para evaluar: el docente puede revisar las actas para comprobar que el grupo funciona de forma organizada, que los roles rotan, que los acuerdos se cumplen y que la reflexión sobre el trabajo es genuina. También puede usarse como evidencia de proceso.\n\nDesarrolla habilidades de comunicación formal, organización y responsabilidad compartida. Es especialmente útil en proyectos de larga duración.",
+    "Descripción detallada": "El acta de reunión es el registro escrito de lo que ocurrió en una reunión del grupo: quién asistió, qué se debatió, qué acuerdos se tomaron y qué tareas se asignaron. Es una evidencia habitual en trabajo cooperativo y proyectos grupales.\n\nCómo usarla para evaluar: el docente puede revisar las actas para comprobar que el grupo funciona de forma organizada, que los roles rotan, que los acuerdos se cumplen y que la reflexión sobre el trabajo es genuina. También puede usarse como evidencia de proceso.\n\nDesarrolla habilidades de comunicación formal, organización y responsabilidad compartida. Es especialmente útil en proyectos de larga duración.",
     "rel_tec": [
       "TEC_PROC_REFLEX",
       "TEC_ANAL_DOC"
@@ -1592,7 +1592,7 @@
     "Fase": "Proceso/Final",
     "Participación": "Alumno",
     "Etiquetas": "reflexion",
-    "Descripción detallada": "La ficha de reflexión es un documento breve donde el alumno responde a preguntas metacognitivas sobre su proceso de aprendizaje: qué aprendió, cómo lo aprendió, qué le costó, qué cambiaría y qué quiere saber más.\n\nCómo usarla para evaluar: se valora la profundidad de la reflexión, la capacidad de identificar dificultades propias y la conexión entre el aprendizaje y la experiencia personal. No debe valorarse si las respuestas son 'correctas', sino si son honestas y reflexivas.\n\nEs un instrumento de cierre muy eficaz para sesiones, unidades o proyectos. Convierte la evaluación en un momento de aprendizaje sobre el propio aprendizaje.",
+    "Descripción detallada": "La ficha de reflexión es un documento breve donde el alumno responde a preguntas metacognitivas sobre su proceso de aprendizaje: qué aprendió, cómo lo aprendió, qué le costó, qué cambiaría y qué quiere saber más.\n\nCómo usarla para evaluar: se valora la profundidad de la reflexión, la capacidad de identificar dificultades propias y la conexión entre el aprendizaje y la experiencia personal. No debe valorarse si las respuestas son 'correctas', sino si son honestas y reflexivas.\n\nEs una actividad de cierre muy eficaz para sesiones, unidades o proyectos. Convierte la evaluación en un momento de aprendizaje sobre el propio aprendizaje.",
     "rel_tec": [
       "TEC_PROC_REFLEX"
     ],
@@ -1637,7 +1637,7 @@
     "Fase": "Final",
     "Participación": "Alumno",
     "Etiquetas": "autoinforme",
-    "Descripción detallada": "El autoinforme es un documento más extenso que la ficha de reflexión, donde el alumno describe y valora su propio proceso de aprendizaje durante un periodo: qué hizo, cómo evolucionó, qué logró, qué le faltó y qué aprendió sobre sí mismo como aprendiz.\n\nCómo usarlo para evaluar: se valora la honestidad, la profundidad, la capacidad de identificar patrones propios y la conexión entre la reflexión y las evidencias del portfolio. Puede complementar la calificación del docente en la evaluación sumativa.\n\nEs un instrumento de alto valor metacognitivo, especialmente en portfolios, proyectos de larga duración y evaluación por competencias.",
+    "Descripción detallada": "El autoinforme es un documento más extenso que la ficha de reflexión, donde el alumno describe y valora su propio proceso de aprendizaje durante un periodo: qué hizo, cómo evolucionó, qué logró, qué le faltó y qué aprendió sobre sí mismo como aprendiz.\n\nCómo usarlo para evaluar: se valora la honestidad, la profundidad, la capacidad de identificar patrones propios y la conexión entre la reflexión y las evidencias del portfolio. Puede complementar la calificación del docente en la evaluación sumativa.\n\nEs una evidencia de alto valor metacognitivo, especialmente en portfolios, proyectos de larga duración y evaluación por competencias.",
     "rel_tec": [
       "TEC_PROC_REFLEX"
     ],
@@ -1678,7 +1678,7 @@
     "Fase": "Proceso/Final",
     "Participación": "Docente",
     "Etiquetas": "problemas",
-    "Descripción detallada": "La resolución de problemas como instrumento consiste en presentar al alumno una situación problemática real o contextualizada que debe analizar, planificar, resolver y justificar. Va más allá del ejercicio mecánico: requiere razonamiento y aplicación.\n\nCómo usarla para evaluar: se valora el proceso completo (comprensión del problema, planificación, ejecución, verificación) además del resultado. Pedir al alumno que explique su razonamiento (por escrito o verbalmente) añade información sobre su pensamiento. Una guía de corrección por etapas es la herramienta más adecuada.\n\nEs el instrumento central de la evaluación competencial en matemáticas, física, química, tecnología y economía.",
+    "Descripción detallada": "La resolución de problemas como evidencia evaluable consiste en presentar al alumno una situación problemática real o contextualizada que debe analizar, planificar, resolver y justificar. Va más allá del ejercicio mecánico: requiere razonamiento y aplicación.\n\nCómo usarla para evaluar: se valora el proceso completo (comprensión del problema, planificación, ejecución, verificación) además del resultado. Pedir al alumno que explique su razonamiento (por escrito o verbalmente) añade información sobre su pensamiento. Una guía de corrección por etapas es la herramienta más adecuada.\n\nEs la evidencia central de la evaluación competencial en matemáticas, física, química, tecnología y economía.",
     "rel_tec": [
       "TEC_PRUEBA"
     ],
@@ -1991,7 +1991,7 @@
     "Fase": "Final",
     "Participación": "Docente",
     "Etiquetas": "prueba practica",
-    "Descripción detallada": "La prueba práctica es una evaluación en la que el alumno demuestra una habilidad, procedimiento o competencia ejecutándola en tiempo real: disección, análisis de muestra, construcción de un circuito, interpretación musical, reparación de un dispositivo.\n\nCómo usarla para evaluar: el docente observa la ejecución con una lista de cotejo de proceso o rúbrica de desempeño. Si el producto es valorable (resultado del análisis, circuito funcionando), puede añadirse una valoración del resultado final.\n\nEs el instrumento más adecuado para evaluar saber hacer: procedimientos técnicos, habilidades artísticas, prácticas de laboratorio y competencias profesionales en FP.",
+    "Descripción detallada": "La prueba práctica es una evaluación en la que el alumno demuestra una habilidad, procedimiento o competencia ejecutándola en tiempo real: disección, análisis de muestra, construcción de un circuito, interpretación musical, reparación de un dispositivo.\n\nCómo usarla para evaluar: el docente observa la ejecución con una lista de cotejo de proceso o rúbrica de desempeño. Si el producto es valorable (resultado del análisis, circuito funcionando), puede añadirse una valoración del resultado final.\n\nEs la tarea más adecuada para evaluar el saber hacer: procedimientos técnicos, habilidades artísticas, prácticas de laboratorio y competencias profesionales en FP.",
     "rel_tec": [
       "TEC_PRUEBA"
     ],
@@ -2030,7 +2030,7 @@
     "Fase": "Final",
     "Participación": "Docente",
     "Etiquetas": "competencial",
-    "Descripción detallada": "La prueba competencial contextualizada es una prueba escrita u oral que presenta situaciones reales o verosímiles y pide al alumno que aplique sus conocimientos para analizarlas, interpretarlas o resolverlas. Es la forma de prueba más alineada con la evaluación competencial.\n\nCómo usarla para evaluar: cada tarea de la prueba está asociada a un criterio de evaluación y a una competencia específica. Se valora con rúbricas o guías de corrección que contemplan el razonamiento y la aplicación, no solo el resultado correcto.\n\nEs la herramienta que mejor articula la calificación con la evaluación por criterios y competencias exigida por el marco curricular actual.",
+    "Descripción detallada": "La prueba competencial contextualizada es una prueba escrita u oral que presenta situaciones reales o verosímiles y pide al alumno que aplique sus conocimientos para analizarlas, interpretarlas o resolverlas. Es la forma de prueba más alineada con la evaluación competencial.\n\nCómo usarla para evaluar: cada tarea de la prueba está asociada a un criterio de evaluación y a una competencia específica. Se valora con rúbricas o guías de corrección que contemplan el razonamiento y la aplicación, no solo el resultado correcto.\n\nEs la evidencia que mejor articula la calificación con la evaluación por criterios y competencias exigida por el marco curricular actual.",
     "rel_tec": [
       "TEC_PRUEBA",
       "TEC_TRIANG"
@@ -2243,7 +2243,7 @@
     "Fase": "Final",
     "Participación": "Docente",
     "Etiquetas": "presentacion digital",
-    "Descripción detallada": "La presentación digital (PowerPoint, Google Slides, Canva, Prezi, etc.) es un soporte visual para una exposición oral. El alumno debe diseñarla de forma que apoye su discurso sin reemplazarlo.\n\nCómo usarla para evaluar: conviene valorar por separado el diseño de la presentación (organización, legibilidad, uso de imágenes) y la calidad de la exposición oral que la acompaña. Una rúbrica que contempla ambas dimensiones evita confundir una presentación visualmente atractiva con un discurso de calidad.\n\nEs un instrumento muy habitual pero que requiere orientación explícita sobre qué hace una buena presentación (texto mínimo, imágenes relevantes, legibilidad).",
+    "Descripción detallada": "La presentación digital (PowerPoint, Google Slides, Canva, Prezi, etc.) es un soporte visual para una exposición oral. El alumno debe diseñarla de forma que apoye su discurso sin reemplazarlo.\n\nCómo usarla para evaluar: conviene valorar por separado el diseño de la presentación (organización, legibilidad, uso de imágenes) y la calidad de la exposición oral que la acompaña. Una rúbrica que contempla ambas dimensiones evita confundir una presentación visualmente atractiva con un discurso de calidad.\n\nEs una tarea muy habitual pero que requiere orientación explícita sobre qué hace una buena presentación (texto mínimo, imágenes relevantes, legibilidad).",
     "rel_tec": [
       "TEC_PROD",
       "TEC_ORAL"
@@ -2325,7 +2325,7 @@
     "Fase": "Final",
     "Participación": "Docente",
     "Etiquetas": "videotutorial",
-    "Descripción detallada": "El videotutorial es un vídeo en el que el alumno explica paso a paso cómo hacer algo: resolver un problema matemático, usar una herramienta, realizar un procedimiento de laboratorio, etc. Requiere dominar el contenido para poder explicarlo.\n\nCómo usarlo para evaluar: se valora la claridad y precisión de la explicación, el orden lógico de los pasos, la corrección del contenido y la calidad de la producción. Si el alumno puede explicar algo de forma que otro lo entienda, demuestra comprensión profunda.\n\nEs un excelente instrumento para evaluar comprensión procedimental y la capacidad de comunicar conocimiento. La enseñanza entre iguales (peer teaching) tiene un alto valor de aprendizaje.",
+    "Descripción detallada": "El videotutorial es un vídeo en el que el alumno explica paso a paso cómo hacer algo: resolver un problema matemático, usar una herramienta, realizar un procedimiento de laboratorio, etc. Requiere dominar el contenido para poder explicarlo.\n\nCómo usarlo para evaluar: se valora la claridad y precisión de la explicación, el orden lógico de los pasos, la corrección del contenido y la calidad de la producción. Si el alumno puede explicar algo de forma que otro lo entienda, demuestra comprensión profunda.\n\nEs una excelente evidencia para evaluar comprensión procedimental y la capacidad de comunicar conocimiento. La enseñanza entre iguales (peer teaching) tiene un alto valor de aprendizaje.",
     "rel_tec": [
       "TEC_PROD"
     ],
@@ -2522,7 +2522,7 @@
     "Fase": "Proceso/Final",
     "Participación": "Docente/Iguales",
     "Etiquetas": "prototipo",
-    "Descripción detallada": "El prototipo es una versión funcional (aunque incompleta o simplificada) de un producto, dispositivo o solución diseñada para probar su viabilidad y obtener retroalimentación antes del producto final.\n\nCómo usarlo para evaluar: se valora la funcionalidad (¿cumple su función?), la adecuación a los requisitos, la calidad del diseño y la reflexión sobre lo que funciona y lo que habría que mejorar. El proceso de iteración (probar → mejorar → probar) es tan valioso como el prototipo final.\n\nEs el instrumento central en proyectos de design thinking, tecnología, FP y cualquier proceso de diseño centrado en el usuario.",
+    "Descripción detallada": "El prototipo es una versión funcional (aunque incompleta o simplificada) de un producto, dispositivo o solución diseñada para probar su viabilidad y obtener retroalimentación antes del producto final.\n\nCómo usarlo para evaluar: se valora la funcionalidad (¿cumple su función?), la adecuación a los requisitos, la calidad del diseño y la reflexión sobre lo que funciona y lo que habría que mejorar. El proceso de iteración (probar → mejorar → probar) es tan valioso como el prototipo final.\n\nEs la evidencia central en proyectos de design thinking, tecnología, FP y cualquier proceso de diseño centrado en el usuario.",
     "rel_tec": [
       "TEC_PROD",
       "TEC_OBS_SIS"
@@ -2604,7 +2604,7 @@
     "Fase": "Proceso/Final",
     "Participación": "Docente",
     "Etiquetas": "blog",
-    "Descripción detallada": "La entrada de blog es un texto de divulgación personal o académica publicado en un blog, que combina rigor en el contenido con un estilo más accesible y personal que el texto académico formal.\n\nCómo usarla para evaluar: se valora la adecuación al destinatario, la precisión del contenido, la originalidad del enfoque, la calidad de la escritura y el uso de recursos digitales (imágenes, enlaces). Una rúbrica que diferencie contenido y formato es adecuada.\n\nEs un buen instrumento para trabajar la escritura con una audiencia real y desarrollar la voz propia del alumno. El hecho de que sea publicado añade motivación y responsabilidad.",
+    "Descripción detallada": "La entrada de blog es un texto de divulgación personal o académica publicado en un blog, que combina rigor en el contenido con un estilo más accesible y personal que el texto académico formal.\n\nCómo usarla para evaluar: se valora la adecuación al destinatario, la precisión del contenido, la originalidad del enfoque, la calidad de la escritura y el uso de recursos digitales (imágenes, enlaces). Una rúbrica que diferencie contenido y formato es adecuada.\n\nEs una buena actividad para trabajar la escritura con una audiencia real y desarrollar la voz propia del alumno. El hecho de que sea publicado añade motivación y responsabilidad.",
     "rel_tec": [
       "TEC_PROD"
     ],
@@ -2735,7 +2735,7 @@
     "Fase": "Proceso/Final",
     "Participación": "Alumno/Docente",
     "Etiquetas": "portfolio digital",
-    "Descripción detallada": "El portfolio digital es una colección organizada de evidencias de aprendizaje almacenadas en formato digital (Google Sites, Seesaw, Mahara, carpeta de Drive, etc.), con reflexiones del alumno sobre cada evidencia.\n\nCómo usarlo para evaluar: se valoran la selección de evidencias (¿muestra lo más significativo?), la calidad de las reflexiones (¿qué aprendí con esto?, ¿cómo lo haría diferente?) y la organización general. El portfolio digital permite compartirlo con familias y otros docentes.\n\nEs la herramienta más completa para la evaluación por competencias y el seguimiento longitudinal del aprendizaje. Desarrolla la autonomía y la metacognición del alumno.",
+    "Descripción detallada": "El portfolio digital es una colección organizada de evidencias de aprendizaje almacenadas en formato digital (Google Sites, Seesaw, Mahara, carpeta de Drive, etc.), con reflexiones del alumno sobre cada evidencia.\n\nCómo usarlo para evaluar: se valoran la selección de evidencias (¿muestra lo más significativo?), la calidad de las reflexiones (¿qué aprendí con esto?, ¿cómo lo haría diferente?) y la organización general. El portfolio digital permite compartirlo con familias y otros docentes.\n\nEs la evidencia más completa para la evaluación por competencias y el seguimiento longitudinal del aprendizaje. Desarrolla la autonomía y la metacognición del alumno.",
     "rel_tec": [
       "TEC_PROD",
       "TEC_PROC_REFLEX",
@@ -2870,7 +2870,7 @@
     "Fase": "Inicial",
     "Participación": "Grupo",
     "Etiquetas": "lluvia ideas",
-    "Descripción detallada": "La lluvia de ideas (brainstorming) es una actividad en la que el alumnado genera de forma libre y sin censura todas las ideas que se les ocurren sobre un tema o problema. Se usa para activar conocimientos previos, generar hipótesis o explorar soluciones posibles.\n\nCómo usarla para evaluar: no tiene función calificadora en sí misma, pero permite al docente detectar qué saben y cómo piensan los alumnos sobre el tema antes de empezar. Las ideas generadas pueden clasificarse, debatirse y revisarse al final de la unidad.\n\nEs una herramienta diagnóstica y motivadora. En grupos, puede revelar la riqueza colectiva de conocimientos previos y las ideas más y menos extendidas.",
+    "Descripción detallada": "La lluvia de ideas (brainstorming) es una actividad en la que el alumnado genera de forma libre y sin censura todas las ideas que se les ocurren sobre un tema o problema. Se usa para activar conocimientos previos, generar hipótesis o explorar soluciones posibles.\n\nCómo usarla para evaluar: no tiene función calificadora en sí misma, pero permite al docente detectar qué saben y cómo piensan los alumnos sobre el tema antes de empezar. Las ideas generadas pueden clasificarse, debatirse y revisarse al final de la unidad.\n\nEs una actividad diagnóstica y motivadora. En grupos, puede revelar la riqueza colectiva de conocimientos previos y las ideas más y menos extendidas.",
     "rel_tec": [
       "TEC_SONDEO",
       "TEC_ORAL"
@@ -2915,7 +2915,7 @@
     "Fase": "Proceso",
     "Participación": "Docente/Iguales",
     "Etiquetas": "borrador",
-    "Descripción detallada": "El borrador es una versión preliminar de un trabajo, no terminada ni pulida, que el alumno entrega para recibir retroalimentación antes de la entrega final. Es el instrumento central de la evaluación formativa en tareas escritas.\n\nCómo usarlo para evaluar: el docente (o los compañeros en coevaluación) lee el borrador y ofrece retroalimentación específica sobre qué está bien y qué debe mejorar. No se califica el borrador; se califica la versión final después de la revisión.\n\nEl ciclo borrador → retroalimentación → revisión → entrega final es uno de los procesos más efectivos para mejorar la escritura y el aprendizaje en general.",
+    "Descripción detallada": "El borrador es una versión preliminar de un trabajo, no terminada ni pulida, que el alumno entrega para recibir retroalimentación antes de la entrega final. Es la evidencia central de la evaluación formativa en tareas escritas.\n\nCómo usarlo para evaluar: el docente (o los compañeros en coevaluación) lee el borrador y ofrece retroalimentación específica sobre qué está bien y qué debe mejorar. No se califica el borrador; se califica la versión final después de la revisión.\n\nEl ciclo borrador → retroalimentación → revisión → entrega final es uno de los procesos más efectivos para mejorar la escritura y el aprendizaje en general.",
     "rel_tec": [
       "TEC_PROC_REFLEX",
       "TEC_PROD"
