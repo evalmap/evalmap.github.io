@@ -329,9 +329,10 @@ function showDetailPanel(name, cat) {
   document.getElementById('detail-empty').style.display   = 'none';
   document.getElementById('detail-content').style.display = 'flex';
 
-  // Switch to top/left anchoring once so CSS resize works from the start
-  if (!cardPositionFixed) {
+  // Switch to top/left anchoring once so CSS resize works from the start (desktop only)
+  if (!cardPositionFixed && window.innerWidth > 720) {
     requestAnimationFrame(() => {
+      if (window.innerWidth <= 720) return;
       const dc    = document.getElementById('detail-text');
       const panel = dc.parentElement.getBoundingClientRect();
       const rect  = dc.getBoundingClientRect();
@@ -1112,7 +1113,128 @@ function initEvents() {
     GRAPH.camera = { x: 0, y: 0, scale: 1 };
   });
 
-  window.addEventListener('resize', graphResizeCanvas);
+  // ── Touch support for canvas (pan, pinch-zoom, tap) ──────────
+  let lastTouchDist = 0;
+  let lastTouchMidX = 0, lastTouchMidY = 0;
+
+  hubCanvas.addEventListener('touchstart', e => {
+    if (!GRAPH.nodes.length) return;
+    e.preventDefault();
+    if (e.touches.length === 1) {
+      const t = e.touches[0];
+      const rect = hubCanvas.getBoundingClientRect();
+      const idx  = graphHitTest(t.clientX - rect.left, t.clientY - rect.top);
+      if (idx > 0) {
+        GRAPH.dragNode = idx;
+        GRAPH.nodes[idx].fixed = true;
+        GRAPH.alpha    = Math.max(GRAPH.alpha, 0.3);
+        GRAPH.panMoved = false;
+        GRAPH.panStart = { x: t.clientX, y: t.clientY };
+      } else {
+        GRAPH.isPanning = true;
+        GRAPH.panMoved  = false;
+        GRAPH.panStart  = { x: t.clientX, y: t.clientY };
+        GRAPH.camStart  = { x: GRAPH.camera.x, y: GRAPH.camera.y };
+      }
+    } else if (e.touches.length === 2) {
+      const dx = e.touches[0].clientX - e.touches[1].clientX;
+      const dy = e.touches[0].clientY - e.touches[1].clientY;
+      lastTouchDist = Math.hypot(dx, dy);
+      lastTouchMidX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+      lastTouchMidY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+      GRAPH.isPanning = false;
+      if (GRAPH.dragNode >= 0) {
+        GRAPH.nodes[GRAPH.dragNode].fixed = false;
+        GRAPH.dragNode = -1;
+      }
+    }
+  }, { passive: false });
+
+  hubCanvas.addEventListener('touchmove', e => {
+    if (!GRAPH.nodes.length) return;
+    e.preventDefault();
+    const rect = hubCanvas.getBoundingClientRect();
+    if (e.touches.length === 1) {
+      const t = e.touches[0];
+      if (GRAPH.dragNode >= 0) {
+        if (Math.hypot(t.clientX - GRAPH.panStart.x, t.clientY - GRAPH.panStart.y) > 4)
+          GRAPH.panMoved = true;
+        const dpr = window.devicePixelRatio || 1;
+        const cw  = hubCanvas.width / dpr, ch = hubCanvas.height / dpr;
+        const cam = GRAPH.camera;
+        const nd  = GRAPH.nodes[GRAPH.dragNode];
+        nd.x  = (t.clientX - rect.left - cw / 2) / cam.scale + cam.x;
+        nd.y  = (t.clientY - rect.top  - ch / 2) / cam.scale + cam.y;
+        nd.vx = 0; nd.vy = 0;
+        return;
+      }
+      if (GRAPH.isPanning) {
+        const dx = t.clientX - GRAPH.panStart.x;
+        const dy = t.clientY - GRAPH.panStart.y;
+        if (Math.hypot(dx, dy) > 3) GRAPH.panMoved = true;
+        GRAPH.camera.x = GRAPH.camStart.x - dx / GRAPH.camera.scale;
+        GRAPH.camera.y = GRAPH.camStart.y - dy / GRAPH.camera.scale;
+      }
+    } else if (e.touches.length === 2) {
+      const dx   = e.touches[0].clientX - e.touches[1].clientX;
+      const dy   = e.touches[0].clientY - e.touches[1].clientY;
+      const dist = Math.hypot(dx, dy);
+      if (lastTouchDist > 0) {
+        const dpr  = window.devicePixelRatio || 1;
+        const cw   = hubCanvas.width / dpr, ch = hubCanvas.height / dpr;
+        const cam  = GRAPH.camera;
+        const mx   = ((e.touches[0].clientX + e.touches[1].clientX) / 2) - rect.left;
+        const my   = ((e.touches[0].clientY + e.touches[1].clientY) / 2) - rect.top;
+        const wx   = (mx - cw / 2) / cam.scale + cam.x;
+        const wy   = (my - ch / 2) / cam.scale + cam.y;
+        const factor = dist / lastTouchDist;
+        cam.scale  = Math.max(0.2, Math.min(6, cam.scale * factor));
+        cam.x      = wx - (mx - cw / 2) / cam.scale;
+        cam.y      = wy - (my - ch / 2) / cam.scale;
+      }
+      lastTouchDist = dist;
+    }
+  }, { passive: false });
+
+  hubCanvas.addEventListener('touchend', e => {
+    e.preventDefault();
+    const wasPanning = GRAPH.isPanning;
+    if (GRAPH.dragNode >= 0) {
+      GRAPH.nodes[GRAPH.dragNode].fixed = false;
+      GRAPH.dragNode = -1;
+      GRAPH.alpha = Math.max(GRAPH.alpha, 0.1);
+    }
+    GRAPH.isPanning = false;
+    lastTouchDist   = 0;
+    if (!GRAPH.panMoved && wasPanning && e.changedTouches.length === 1) {
+      const t    = e.changedTouches[0];
+      const rect = hubCanvas.getBoundingClientRect();
+      const idx  = graphHitTest(t.clientX - rect.left, t.clientY - rect.top);
+      if (idx > 0 && GRAPH.nodes[idx]) {
+        const nd = GRAPH.nodes[idx];
+        if (nd.cat !== state.cat) {
+          showCatalog(nd.cat);
+          setTimeout(() => showDetailPanel(nd.name, nd.cat), 0);
+        } else {
+          showDetailPanel(nd.name, nd.cat);
+        }
+      }
+    }
+    GRAPH.panMoved = false;
+  }, { passive: false });
+
+  window.addEventListener('resize', () => {
+    graphResizeCanvas();
+    if (window.innerWidth <= 720) {
+      const dc = document.getElementById('detail-text');
+      dc.style.bottom = '';
+      dc.style.right  = '';
+      dc.style.top    = '';
+      dc.style.left   = '';
+      dc.style.maxHeight = '';
+      cardPositionFixed = false;
+    }
+  });
 
   // Draggable detail card
   const detailCard   = document.getElementById('detail-text');
@@ -1164,6 +1286,46 @@ p{margin:0 0 .6rem}.type{color:#64748b;font-style:italic}.brief{font-size:1.05re
     a.click();
     URL.revokeObjectURL(a.href);
     flashBtn(document.getElementById('btn-dl-card'));
+  });
+
+  // Touch drag for detail card (resize bottom sheet on mobile, move on desktop)
+  let touchCardDrag = null;
+  dragHandle.addEventListener('touchstart', e => {
+    if (e.touches.length !== 1) return;
+    e.preventDefault();
+    e.stopPropagation();
+    if (window.innerWidth <= 720) {
+      touchCardDrag = { startY: e.touches[0].clientY, startH: detailCard.offsetHeight };
+    } else {
+      const rect  = detailCard.getBoundingClientRect();
+      const panel = detailCard.parentElement.getBoundingClientRect();
+      detailCard.style.bottom = 'auto'; detailCard.style.right = 'auto';
+      detailCard.style.top    = (rect.top  - panel.top)  + 'px';
+      detailCard.style.left   = (rect.left - panel.left) + 'px';
+      touchCardDrag = { desktop: true, startX: e.touches[0].clientX, startY: e.touches[0].clientY,
+                        startTop: rect.top - panel.top, startLeft: rect.left - panel.left };
+    }
+    dragHandle.classList.add('dragging');
+  }, { passive: false });
+
+  document.addEventListener('touchmove', e => {
+    if (!touchCardDrag) return;
+    e.preventDefault();
+    if (touchCardDrag.desktop) {
+      const panel = detailCard.parentElement.getBoundingClientRect();
+      const maxL  = panel.width  - detailCard.offsetWidth;
+      const maxT  = panel.height - 40;
+      detailCard.style.left = Math.max(0, Math.min(maxL, touchCardDrag.startLeft + e.touches[0].clientX - touchCardDrag.startX)) + 'px';
+      detailCard.style.top  = Math.max(0, Math.min(maxT, touchCardDrag.startTop  + e.touches[0].clientY - touchCardDrag.startY)) + 'px';
+    } else {
+      const dy   = touchCardDrag.startY - e.touches[0].clientY;
+      const maxH = detailCard.parentElement.offsetHeight * 0.85;
+      detailCard.style.maxHeight = Math.max(80, Math.min(maxH, touchCardDrag.startH + dy)) + 'px';
+    }
+  }, { passive: false });
+
+  document.addEventListener('touchend', () => {
+    if (touchCardDrag) { touchCardDrag = null; dragHandle.classList.remove('dragging'); }
   });
 
   dragHandle.addEventListener('mousedown', e => {
