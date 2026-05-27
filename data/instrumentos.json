@@ -1856,7 +1856,7 @@
     "Fase": "Inicial/Proceso/Final",
     "Participación": "Docente",
     "Etiquetas": "test",
-    "Descripción detallada": "La prueba tipo test presenta ítems de opción múltiple con una respuesta correcta y varios distractores (opciones incorrectas plausibles). Es un subtipo de prueba objetiva muy extendido.\n\nCómo usarla para evaluar: los distractores deben ser plausibles pero claramente incorrectos para quien ha aprendido el contenido. Evitar respuestas como 'todas las anteriores' o 'ninguna de las anteriores', que facilitan el acierto por eliminación. El baremo debe especificar si hay penalización por error para desincentivar las respuestas al azar.\n\nEs muy eficiente para evaluar grandes cantidades de contenido en poco tiempo, pero no debe ser el único instrumento de evaluación.",
+    "Descripción detallada": "La prueba tipo test presenta ítems de opción múltiple con una respuesta correcta y varios distractores (opciones incorrectas plausibles). Es un subtipo de prueba objetiva muy extendido.\n\nCómo usarla para evaluar: los distractores deben ser plausibles pero claramente incorrectos para quien ha aprendido el contenido. Evitar respuestas como 'todas las anteriores' o 'ninguna de las anteriores', que facilitan el acierto por eliminación. El baremo debe especificar si hay penalización por error para desincentivar las respuestas al azar.\n\nEs muy eficiente para evaluar grandes cantidades de contenido en poco tiempo, pero no debe ser la única evidencia de evaluación.",
     "rel_tec": [
       "TEC_PRUEBA",
       "TEC_SONDEO"
@@ -3050,7 +3050,7 @@
     "Fase": "Proceso",
     "Participación": "Iguales",
     "Etiquetas": "pares",
-    "Descripción detallada": "La revisión por pares es el proceso en que un alumno lee y comenta el trabajo de un compañero, aplicando criterios compartidos, con el objetivo de ayudarle a mejorarlo antes de la entrega final.\n\nCómo usarla para evaluar: se proporciona una ficha de revisión o rúbrica de coevaluación con criterios concretos. El revisor debe dar retroalimentación específica y accionable, no solo decir 'está bien' o 'mejora la redacción'. El proceso mismo de revisar el trabajo ajeno es una poderosa experiencia de aprendizaje.\n\nEs uno de los instrumentos de evaluación formativa con mayor impacto en la calidad del trabajo final. Desarrolla pensamiento crítico, comprensión de los criterios y empatía.",
+    "Descripción detallada": "La revisión por pares es el proceso en que un alumno lee y comenta el trabajo de un compañero, aplicando criterios compartidos, con el objetivo de ayudarle a mejorarlo antes de la entrega final.\n\nCómo usarla para evaluar: se proporciona una ficha de revisión o rúbrica de coevaluación con criterios concretos. El revisor debe dar retroalimentación específica y accionable, no solo decir 'está bien' o 'mejora la redacción'. El proceso mismo de revisar el trabajo ajeno es una poderosa experiencia de aprendizaje.\n\nEs una de las evidencias evaluables formativas con mayor impacto en la calidad del trabajo final. Desarrolla pensamiento crítico, comprensión de los criterios y empatía.",
     "rel_tec": [
       "TEC_PROC_REFLEX"
     ],
