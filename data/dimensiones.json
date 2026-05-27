@@ -916,7 +916,20 @@
     "rel_ins": [
       "INS_TAREA_COMP_INT",
       "INS_CUAD_DIG",
-      "INS_EPORT_SEL"
+      "INS_EPORT_SEL",
+      "INS_EXPO",
+      "INS_VIDEO",
+      "INS_PODCAST",
+      "INS_INFOG",
+      "INS_MAP_CONC",
+      "INS_PR_PRACT",
+      "INS_LAB",
+      "INS_ENTREV",
+      "INS_PORT",
+      "INS_DOC_COL",
+      "INS_F_REFLEX",
+      "INS_BILLETE",
+      "INS_SEMAF"
     ],
     "rel_her": [
       "HER_ESC_PROG",
@@ -926,8 +939,21 @@
     "rel_meta": {
       "rel_ins": {
         "INS_TAREA_COMP_INT": "principal",
-        "INS_CUAD_DIG": "complementaria",
-        "INS_EPORT_SEL": "principal"
+        "INS_CUAD_DIG": "principal",
+        "INS_EPORT_SEL": "principal",
+        "INS_EXPO": "complementaria",
+        "INS_VIDEO": "complementaria",
+        "INS_PODCAST": "complementaria",
+        "INS_INFOG": "complementaria",
+        "INS_MAP_CONC": "complementaria",
+        "INS_PR_PRACT": "complementaria",
+        "INS_LAB": "complementaria",
+        "INS_ENTREV": "complementaria",
+        "INS_PORT": "complementaria",
+        "INS_DOC_COL": "complementaria",
+        "INS_F_REFLEX": "complementaria",
+        "INS_BILLETE": "ocasional",
+        "INS_SEMAF": "ocasional"
       },
       "rel_her": {
         "HER_ESC_PROG": "principal",
@@ -936,7 +962,7 @@
       }
     },
     "tipo_entidad": "dimension",
-    "Medios/evidencias asociados": "Tarea competencial integrada; Cuaderno digital; E-portfolio con evidencias seleccionadas",
+    "Medios/evidencias asociados": "Tarea competencial integrada; Cuaderno digital; E-portfolio con evidencias seleccionadas; Exposición oral; Vídeo; Podcast; Infografía; Mapa conceptual; Prueba práctica; Práctica de laboratorio; Entrevista; Porfolio; Documento colaborativo; Ficha de reflexión; Billete de salida; Semáforo de aprendizaje",
     "Instrumentos de evaluación recomendados": "Escala de progreso; Plantilla de feedback/feedforward; Mapa de evidencias por criterio"
   },
   {
