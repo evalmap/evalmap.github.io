@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa de Evaluación</title>
+  <meta name="description" content="Explora técnicas, instrumentos y herramientas de evaluación educativa">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="app">
+
+  <header class="top-bar">
+    <button class="top-bar-brand" id="btn-home" title="Inicio">
+      <img src="favicon.svg" class="logo-icon" alt="" width="24" height="24">
+      <span>Mapa de Evaluación</span>
+    </button>
+    <div class="cat-tabs" id="cat-tabs" style="display:none">
+      <button class="cat-tab" data-cat="tecnicas">🔬 Técnicas</button>
+      <button class="cat-tab" data-cat="instrumentos">📄 Instrumentos</button>
+      <button class="cat-tab" data-cat="herramientas">🛠️ Herramientas</button>
+      <span class="cat-tab-separator" aria-hidden="true"></span>
+      <button class="cat-tab cat-tab-transversal" data-cat="dimensiones">🧭 Dimensiones transversales</button>
+    </div>
+    <div class="top-bar-actions">
+      <div class="catalog-count" id="catalog-count" style="display:none"></div>
+      <button class="theme-btn" id="btn-theme">🌙 Oscuro</button>
+    </div>
+  </header>
+
+  <!-- ── HOME VIEW ─────────────────────────────────────── -->
+  <div id="view-home" class="view active">
+    <div class="home-hero">
+      <h1>Mapa de Evaluación</h1>
+      <p>Explora técnicas, instrumentos y herramientas para diseñar evaluaciones ricas y coherentes con tu actividad docente.</p>
+    </div>
+    <div class="home-map">
+      <div class="home-flow">
+
+        <div class="home-card tec" data-cat="tecnicas">
+          <div class="home-card-icon">🔬</div>
+          <div class="home-card-count" id="count-tec">7 técnicas</div>
+          <h2>Técnicas</h2>
+          <p>Procedimientos concretos para recoger evidencias del aprendizaje.</p>
+          <div class="home-card-btn">Explorar →</div>
+        </div>
+
+        <div class="home-card ins" data-cat="instrumentos">
+          <div class="home-card-icon">📄</div>
+          <div class="home-card-count" id="count-ins">75 instrumentos</div>
+          <h2>Instrumentos</h2>
+          <p>Actividades y tareas que generan evidencias evaluables del aprendizaje.</p>
+          <div class="home-card-btn">Explorar →</div>
+        </div>
+
+        <div class="home-card her" data-cat="herramientas">
+          <div class="home-card-icon">🛠️</div>
+          <div class="home-card-count" id="count-her">50 herramientas</div>
+          <h2>Herramientas</h2>
+          <p>Recursos para registrar, valorar e interpretar las evidencias de aprendizaje.</p>
+          <div class="home-card-btn">Explorar →</div>
+        </div>
+
+      </div>
+
+      <div class="home-card dim home-transversal" data-cat="dimensiones">
+        <div class="home-card-icon">🧭</div>
+        <div>
+          <div class="home-card-count" id="count-dim">14 dimensiones</div>
+          <h2>Dimensiones</h2>
+          <div class="home-card-kicker">Eje transversal del mapa</div>
+          <p>Finalidad, agente, momento, enfoque y soporte cruzan técnicas, instrumentos y herramientas para dar sentido pedagógico a la evaluación.</p>
+        </div>
+        <div class="home-card-btn">Explorar →</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── CATALOG VIEW ───────────────────────────────────── -->
+  <div id="view-catalog" class="view">
+
+    <div class="catalog-body">
+
+      <!-- Left: filter + card list -->
+      <div class="catalog-list-panel">
+        <div class="filter-bar" id="filter-bar">
+          <div class="search-wrap">
+            <span class="search-icon">🔍</span>
+            <input type="search" class="search-input" id="search-input" placeholder="Buscar...">
+          </div>
+          <div class="filter-row" id="filter-chips"></div>
+        </div>
+        <div class="cards-list" id="cards-grid"></div>
+      </div>
+
+      <!-- Right: detail panel -->
+      <div class="catalog-detail-panel" id="detail-panel">
+        <div class="detail-empty" id="detail-empty">
+          <div class="empty-icon">👈</div>
+          <p>Selecciona un elemento<br>para ver sus relaciones</p>
+        </div>
+        <div class="detail-content" id="detail-content" style="display:none">
+          <canvas id="hub-canvas" aria-hidden="true"></canvas>
+          <div class="graph-controls">
+            <button class="graph-toggle-btn" id="btn-toggle-graph" type="button" title="Muestra relaciones adicionales conectadas a los nodos visibles.">Expandir relaciones</button>
+            <button class="graph-toggle-btn active" id="btn-toggle-essential" type="button" title="Ahora se muestran solo relaciones principales y complementarias. Pulsa para mostrar también las ocasionales.">Modo: esenciales</button>
+            <div class="graph-cat-filters" aria-label="Categorías visibles en el grafo">
+              <span class="graph-cat-label">Ver:</span>
+              <button class="graph-cat-chip tec" data-graph-cat="tecnicas" type="button" aria-label="Técnicas">🔬</button>
+              <button class="graph-cat-chip ins" data-graph-cat="instrumentos" type="button" aria-label="Instrumentos">📄</button>
+              <button class="graph-cat-chip her" data-graph-cat="herramientas" type="button" aria-label="Herramientas">🛠️</button>
+              <button class="graph-cat-chip dim" data-graph-cat="dimensiones" type="button" aria-label="Dimensiones transversales">🧭</button>
+            </div>
+          </div>
+          <div class="graph-legend" aria-hidden="true">
+            <span><i class="legend-line principal"></i>Principal</span>
+            <span><i class="legend-line complementaria"></i>Complementaria</span>
+            <span><i class="legend-line ocasional"></i>Ocasional</span>
+            <span><i class="legend-line transversal"></i>Dimensión</span>
+          </div>
+          <div class="detail-text" id="detail-text">
+            <div class="detail-card-header" id="detail-drag-handle" title="Arrastrar para mover">
+              <div class="detail-card-actions">
+                <button class="detail-tool-btn" id="btn-copy-card" title="Copiar como Markdown">
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="9" height="10" rx="1.5"/><path d="M11 4V3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h2"/></svg>
+                </button>
+                <button class="detail-tool-btn" id="btn-print-card" title="Imprimir">
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="10" height="7" rx="1"/><path d="M5 6V3h6v3"/><rect x="5.5" y="10" width="5" height="1.5" rx="0.5" fill="currentColor" stroke="none"/><circle cx="11.5" cy="8.5" r="0.6" fill="currentColor" stroke="none"/></svg>
+                </button>
+                <button class="detail-tool-btn" id="btn-dl-card" title="Descargar Markdown">
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v8"/><path d="M5 7l3 3 3-3"/><path d="M2 13h12"/></svg>
+                </button>
+              </div>
+            </div>
+            <div id="detail-text-body"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="src/app.js"></script>
+</body>
+</html>
