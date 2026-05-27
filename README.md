@@ -1,6 +1,6 @@
 # Mapa de Evaluación
 
-Aplicación web para explorar y relacionar técnicas, instrumentos, herramientas y dimensiones transversales de evaluación educativa.
+Aplicación web para explorar y relacionar técnicas, evidencias evaluables, instrumentos de evaluación y dimensiones transversales de la evaluación educativa.
 
 ## Cómo ejecutar
 
@@ -27,8 +27,8 @@ python3 -m http.server 8080
 │   └── export.js           # Exportación de resultados
 └── data/
     ├── tecnicas.json        # Catálogo de técnicas (12 registros)
-    ├── instrumentos.json    # Catálogo de instrumentos (83 registros)
-    ├── herramientas.json    # Catálogo de herramientas (57 registros)
+    ├── instrumentos.json    # Catálogo de evidencias evaluables (83 registros)
+    ├── herramientas.json    # Catálogo de instrumentos de evaluación (57 registros)
     └── dimensiones.json     # Dimensiones transversales de evaluación (20 registros)
 ```
 
@@ -40,12 +40,12 @@ Mapa visual de las cuatro categorías con acceso directo a cada catálogo.
 ### Catálogo
 Vista de dos paneles: lista filtrable a la izquierda y detalle con grafo de relaciones a la derecha.
 
-- **Categorías**: Técnicas, Instrumentos, Herramientas y Dimensiones transversales.
+- **Categorías**: Técnicas, Evidencias evaluables, Instrumentos de evaluación y Dimensiones transversales.
 - **Filtros**: búsqueda por texto y chips de filtrado por atributos específicos de cada categoría.
 - **Grafo de relaciones**: al seleccionar un elemento se genera un grafo interactivo que muestra sus conexiones. Las dimensiones transversales aparecen siempre a la izquierda del nodo central.
   - **Expandir relaciones**: muestra conexiones de segundo nivel.
   - **Modo: esenciales / todas**: filtra por tipo de relación (principal + complementaria, u ocasional también).
-  - **Ver**: activa/desactiva categorías en el grafo (Técnicas, Instrumentos, Herramientas, Dimensiones).
+  - **Ver**: activa/desactiva categorías en el grafo (Técnicas, Evidencias evaluables, Instrumentos de evaluación, Dimensiones).
   - **Tipos de relación**: principal, complementaria, ocasional y transversal (dimensiones).
 - **Panel de detalle**: ficha completa del elemento con descripción, relaciones agrupadas y acciones de copiar (Markdown) e imprimir.
 
@@ -54,8 +54,8 @@ Vista de dos paneles: lista filtrable a la izquierda y detalle con grafo de rela
 | Categoría | Registros | Descripción |
 |---|---|---|
 | Técnicas | 12 | Procedimientos para recoger evidencias del aprendizaje |
-| Instrumentos | 83 | Actividades, productos o situaciones que generan evidencias |
-| Herramientas | 57 | Recursos, plantillas y registros de apoyo a la evaluación |
-| Dimensiones | 20 | Dimensiones transversales que atraviesan técnicas e instrumentos |
+| Evidencias evaluables | 83 | Tareas, actividades y producciones mediante las que el alumnado hace visible su aprendizaje |
+| Instrumentos de evaluación | 57 | Rúbricas, escalas, listas y registros para valorar y retroalimentar evidencias |
+| Dimensiones | 20 | Ejes transversales que contextualizan la evaluación: finalidad, agente, enfoque, etc. |
 
 Las relaciones entre categorías tienen tres intensidades: **principal**, **complementaria** y **ocasional**.

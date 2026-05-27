@@ -1,17 +1,17 @@
 # Mapa de Evaluación Educativa
 
-> Guía de procedimientos, dimensiones, instrumentos y herramientas para diseñar evaluaciones educativas coherentes.
+> Guía de técnicas, dimensiones, evidencias evaluables e instrumentos de evaluación para diseñar evaluaciones educativas coherentes.
 
 ## Índice
 
 1. [Técnicas de evaluación](#técnicas-de-evaluación)
 2. [Dimensiones transversales](#dimensiones-transversales)
-3. [Instrumentos de evaluación](#instrumentos-de-evaluación)
-4. [Herramientas de evaluación](#herramientas-de-evaluación)
+3. [Evidencias evaluables](#evidencias-evaluables)
+4. [Instrumentos de evaluación](#instrumentos-de-evaluación)
 
 ## Marco Conceptual
 
-Las **técnicas** son procedimientos de recogida de evidencias. Las **dimensiones** sitúan pedagógicamente la evaluación: finalidad, momento, agente, enfoque, tipo de evidencia o soporte. Los **instrumentos** son actividades, productos o situaciones que generan evidencias. Las **herramientas** permiten registrar, valorar, interpretar, retroalimentar o calificar esas evidencias.
+Las **técnicas** son procedimientos de recogida, análisis o contraste de evidencias de aprendizaje. Las **dimensiones** sitúan pedagógicamente la evaluación: finalidad, momento, agente evaluador, enfoque curricular, tipo de evidencia, soporte o contexto metodológico. Las **evidencias evaluables** son las tareas, actividades, productos, actuaciones o respuestas mediante las cuales el alumnado hace visible su aprendizaje. Los **instrumentos de evaluación** permiten registrar, valorar, retroalimentar, calificar o comunicar esas evidencias.
 
 ## Técnicas de Evaluación
 
@@ -37,9 +37,9 @@ Es especialmente útil en actividades prácticas, debates, exposiciones, tallere
 
 **Limitaciones:** Puede ser subjetiva si no hay criterios claros.
 
-**Instrumentos asociados:** Debate, Exposición oral, Práctica de laboratorio, Taller, Trabajo cooperativo, Simulación, Trabajo individual en aula, Participación en clase, Asamblea, Dramatización, Prototipo
+**Medios/evidencias asociados:** Debate, Exposición oral, Práctica de laboratorio, Taller, Trabajo cooperativo, Simulación, Trabajo individual en aula, Participación en clase, Asamblea, Dramatización, Prototipo
 
-**Herramientas relacionadas:** Lista de cotejo o control, Escala de observación, Rúbrica analítica, Registro anecdótico
+**Instrumentos de evaluación relacionados:** Lista de cotejo o control, Escala de observación, Rúbrica analítica, Registro anecdótico
 
 ---
 
@@ -65,9 +65,9 @@ No sustituye a la observación sistemática, sino que la complementa aportando e
 
 **Limitaciones:** No sustituye a una observación sistemática.
 
-**Instrumentos asociados:** Trabajo individual en aula, Participación en clase, Trabajo cooperativo
+**Medios/evidencias asociados:** Trabajo individual en aula, Participación en clase, Trabajo cooperativo
 
-**Herramientas relacionadas:** Registro anecdótico, Notas de campo, Diario del profesor
+**Instrumentos de evaluación relacionados:** Registro anecdótico, Notas de campo, Diario del profesor
 
 ---
 
@@ -93,9 +93,9 @@ Cuando el producto final no refleja todo el aprendizaje (porque el proceso fue c
 
 **Limitaciones:** No muestra todo el proceso si no se acompaña de seguimiento.
 
-**Instrumentos asociados:** Cuaderno de clase, Informe de laboratorio, Defensa de proyecto, Ensayo, Infografía, Vídeo, Podcast, Maqueta, Porfolio, Informe de investigación, Monografía, Comentario de texto, Comentario de gráfica o datos, Resumen, Esquema, Mapa conceptual, Mapa mental, Línea del tiempo, Glosario, Ficha de lectura, Reseña, Artículo divulgativo, Memoria de proyecto, Estudio de caso, Prueba con documentos, Póster académico, Presentación digital, Videotutorial, Cómic, Modelo digital, Prototipo, Página web, Entrada de blog, Documento colaborativo, Portfolio digital, Mapa conceptual inicial, Borrador, Entrega parcial
+**Medios/evidencias asociados:** Cuaderno de clase, Informe de laboratorio, Defensa de proyecto, Ensayo, Infografía, Vídeo, Podcast, Maqueta, Porfolio, Informe de investigación, Monografía, Comentario de texto, Comentario de gráfica o datos, Resumen, Esquema, Mapa conceptual, Mapa mental, Línea del tiempo, Glosario, Ficha de lectura, Reseña, Artículo divulgativo, Memoria de proyecto, Estudio de caso, Prueba con documentos, Póster académico, Presentación digital, Videotutorial, Cómic, Modelo digital, Prototipo, Página web, Entrada de blog, Documento colaborativo, Portfolio digital, Mapa conceptual inicial, Borrador, Entrega parcial
 
-**Herramientas relacionadas:** Rúbrica analítica, Guía de corrección, Escala descriptiva, Ficha de retroalimentación
+**Instrumentos de evaluación relacionados:** Rúbrica analítica, Guía de corrección, Escala descriptiva, Ficha de retroalimentación
 
 ---
 
@@ -121,9 +121,9 @@ Son útiles para acreditar logros y para comparar resultados, pero no deben ser 
 
 **Limitaciones:** Puede reducir la evaluación si se usa como única evidencia.
 
-**Instrumentos asociados:** Prueba escrita de desarrollo, Prueba tipo test, Prueba oral, Prueba práctica, Cuestionario digital, Comentario de texto, Resolución de problemas, Estudio de caso, Prueba objetiva, Prueba de respuesta corta, Prueba competencial contextualizada, Prueba con documentos
+**Medios/evidencias asociados:** Prueba escrita de desarrollo, Prueba tipo test, Prueba oral, Prueba práctica, Cuestionario digital, Comentario de texto, Resolución de problemas, Estudio de caso, Prueba objetiva, Prueba de respuesta corta, Prueba competencial contextualizada, Prueba con documentos
 
-**Herramientas relacionadas:** Guía de corrección, Baremo, Plantilla de corrección, Rúbrica analítica, Escala numérica
+**Instrumentos de evaluación relacionados:** Guía de corrección, Baremo, Plantilla de corrección, Rúbrica analítica, Escala numérica
 
 ---
 
@@ -149,9 +149,9 @@ Permiten valorar comprensión profunda, argumentación, capacidad de síntesis, 
 
 **Limitaciones:** Puede depender de factores emocionales.
 
-**Instrumentos asociados:** Debate, Coloquio, Entrevista, Exposición oral, Defensa de proyecto, Asamblea, Juego de rol, Pregunta oral estructurada, Prueba oral, Presentación digital, Podcast, Foro de discusión, Lluvia de ideas
+**Medios/evidencias asociados:** Debate, Coloquio, Entrevista, Exposición oral, Defensa de proyecto, Asamblea, Juego de rol, Pregunta oral estructurada, Prueba oral, Presentación digital, Podcast, Foro de discusión, Lluvia de ideas
 
-**Herramientas relacionadas:** Rúbrica oral, Escala de observación, Lista de cotejo o control, Registro anecdótico
+**Instrumentos de evaluación relacionados:** Rúbrica oral, Escala de observación, Lista de cotejo o control, Registro anecdótico
 
 ---
 
@@ -175,9 +175,9 @@ Es especialmente útil en evaluación diagnóstica y formativa, porque proporcio
 
 **Limitaciones:** Puede dar evidencias superficiales si las preguntas no están bien formuladas o no se usan después para tomar decisiones docentes.
 
-**Instrumentos asociados:** KPSI, Mapa conceptual inicial, Lluvia de ideas, Billete de salida, Pregunta oral estructurada, Cuestionario digital, Prueba de respuesta corta, Prueba tipo test, Semáforo de aprendizaje
+**Medios/evidencias asociados:** KPSI, Mapa conceptual inicial, Lluvia de ideas, Billete de salida, Pregunta oral estructurada, Cuestionario digital, Prueba de respuesta corta, Prueba tipo test, Semáforo de aprendizaje
 
-**Herramientas relacionadas:** Formulario digital, Escala de autoevaluación, Lista de cotejo o control, Registro descriptivo, Hoja de seguimiento individual
+**Instrumentos de evaluación relacionados:** Formulario digital, Escala de autoevaluación, Lista de cotejo o control, Registro descriptivo, Hoja de seguimiento individual
 
 ---
 
@@ -201,9 +201,9 @@ Es especialmente útil en proyectos, portfolios, trabajos cooperativos y tareas 
 
 **Limitaciones:** Requiere seguimiento continuado y criterios claros para no convertirse en mera acumulación de documentos.
 
-**Instrumentos asociados:** Diario de aprendizaje, Ficha de reflexión, Autoinforme, Borrador, Entrega parcial, Bitácora de proyecto, Revisión por pares, Dos estrellas y un deseo, Semáforo de aprendizaje, Plan de trabajo, Acta de reunión, Contrato de aprendizaje, Documento colaborativo, Porfolio, Portfolio digital
+**Medios/evidencias asociados:** Diario de aprendizaje, Ficha de reflexión, Autoinforme, Borrador, Entrega parcial, Bitácora de proyecto, Revisión por pares, Dos estrellas y un deseo, Semáforo de aprendizaje, Plan de trabajo, Acta de reunión, Contrato de aprendizaje, Documento colaborativo, Porfolio, Portfolio digital
 
-**Herramientas relacionadas:** Rúbrica de proceso, Ficha de retroalimentación, Hoja de seguimiento individual, Registro de compromisos de mejora, Escala de autoevaluación, Historial de revisión, Panel de progreso
+**Instrumentos de evaluación relacionados:** Rúbrica de proceso, Ficha de retroalimentación, Hoja de seguimiento individual, Registro de compromisos de mejora, Escala de autoevaluación, Historial de revisión, Panel de progreso
 
 ---
 
@@ -227,9 +227,9 @@ Es útil para obtener evidencias profundas, pero debe planificarse para evitar i
 
 **Limitaciones:** Consume tiempo y requiere un guion común para asegurar equidad.
 
-**Instrumentos asociados:** Entrevista, Defensa de proyecto, Portfolio digital
+**Medios/evidencias asociados:** Entrevista, Defensa de proyecto, Portfolio digital
 
-**Herramientas relacionadas:** Guía de corrección, Rúbrica oral, Registro anecdótico, Guía de observación
+**Instrumentos de evaluación relacionados:** Guía de corrección, Rúbrica oral, Registro anecdótico, Guía de observación
 
 ---
 
@@ -253,9 +253,9 @@ Son útiles por su rapidez y comparabilidad, pero no deben sustituir a evidencia
 
 **Limitaciones:** La calidad depende mucho de la formulación de las preguntas.
 
-**Instrumentos asociados:** Cuestionario digital, KPSI, Billete de salida
+**Medios/evidencias asociados:** Cuestionario digital, KPSI, Billete de salida
 
-**Herramientas relacionadas:** Formulario digital, Escala de autoevaluación, Plantilla de corrección
+**Instrumentos de evaluación relacionados:** Formulario digital, Escala de autoevaluación, Plantilla de corrección
 
 ---
 
@@ -279,9 +279,9 @@ Es una técnica útil para evaluación continua y criterial, especialmente cuand
 
 **Limitaciones:** Puede sobrevalorar lo que se documenta y dejar fuera actuaciones no registradas.
 
-**Instrumentos asociados:** Cuaderno de clase, Portfolio digital, Acta de reunión, Documento colaborativo
+**Medios/evidencias asociados:** Cuaderno de clase, Portfolio digital, Acta de reunión, Documento colaborativo
 
-**Herramientas relacionadas:** Mapa de evidencias por criterio, Historial de revisión, Banco digital de evidencias
+**Instrumentos de evaluación relacionados:** Mapa de evidencias por criterio, Historial de revisión, Banco digital de evidencias
 
 ---
 
@@ -305,9 +305,9 @@ Es especialmente útil en proyectos colaborativos y portfolios digitales.
 
 **Limitaciones:** Las trazas digitales requieren interpretación pedagógica y respeto a la privacidad.
 
-**Instrumentos asociados:** Foro de discusión, Documento colaborativo, Cuaderno digital, Portfolio digital
+**Medios/evidencias asociados:** Foro de discusión, Documento colaborativo, Cuaderno digital, Portfolio digital
 
-**Herramientas relacionadas:** Historial de revisión, Analíticas de aprendizaje, Panel de progreso
+**Instrumentos de evaluación relacionados:** Historial de revisión, Analíticas de aprendizaje, Panel de progreso
 
 ---
 
@@ -331,9 +331,9 @@ Es clave en evaluación competencial y criterial, porque evita decidir a partir 
 
 **Limitaciones:** Requiere decidir qué evidencias pesan más y evitar duplicar la misma evidencia.
 
-**Instrumentos asociados:** Tarea competencial integrada, E-portfolio con evidencias seleccionadas, Prueba competencial contextualizada
+**Medios/evidencias asociados:** Tarea competencial integrada, E-portfolio con evidencias seleccionadas, Prueba competencial contextualizada
 
-**Herramientas relacionadas:** Mapa de evidencias por criterio, Tabla de calificación por criterios, Perfil de logro
+**Instrumentos de evaluación relacionados:** Mapa de evidencias por criterio, Tabla de calificación por criterios, Perfil de logro
 
 ---
 
@@ -361,9 +361,9 @@ Su valor principal es metacognitivo: obliga al alumnado a reflexionar sobre lo q
 
 **Precauciones:** Requiere entrenamiento para evitar respuestas superficiales.
 
-**Instrumentos asociados:** Diario de aprendizaje, Porfolio, Contrato de aprendizaje, Ficha de reflexión, Autoinforme, KPSI, Semáforo de aprendizaje, Billete de salida, Checklist de laboratorio
+**Medios/evidencias asociados:** Diario de aprendizaje, Porfolio, Contrato de aprendizaje, Ficha de reflexión, Autoinforme, KPSI, Semáforo de aprendizaje, Billete de salida, Checklist de laboratorio
 
-**Herramientas relacionadas:** Escala de autoevaluación, Diana de evaluación, Rúbrica de autoevaluación, Lista de cotejo o control, Semáforo de evaluación, Lista de cotejo de autoevaluación, Registro de compromisos de mejora
+**Instrumentos de evaluación relacionados:** Escala de autoevaluación, Diana de evaluación, Rúbrica de autoevaluación, Lista de cotejo o control, Semáforo de evaluación, Lista de cotejo de autoevaluación, Registro de compromisos de mejora
 
 ---
 
@@ -389,9 +389,9 @@ Su función principal es formativa: los comentarios de los compañeros, combinad
 
 **Precauciones:** Puede ser poco fiable sin criterios claros.
 
-**Instrumentos asociados:** Trabajo cooperativo, Debate, Asamblea, Exposición oral, Acta de reunión, Documento colaborativo, Revisión por pares, Dos estrellas y un deseo
+**Medios/evidencias asociados:** Trabajo cooperativo, Debate, Asamblea, Exposición oral, Acta de reunión, Documento colaborativo, Revisión por pares, Dos estrellas y un deseo
 
-**Herramientas relacionadas:** Rúbrica de coevaluación, Escala de observación, Formulario digital, Rúbrica oral, Rúbrica de trabajo cooperativo, Registro de trabajo cooperativo, Ficha de coevaluación
+**Instrumentos de evaluación relacionados:** Rúbrica de coevaluación, Escala de observación, Formulario digital, Rúbrica oral, Rúbrica de trabajo cooperativo, Registro de trabajo cooperativo, Ficha de coevaluación
 
 ---
 
@@ -417,9 +417,9 @@ No debe ser la única forma de evaluación: combinarla con autoevaluación y coe
 
 **Precauciones:** No debe excluir autoevaluación y coevaluación.
 
-**Instrumentos asociados:** Práctica de laboratorio, Exposición oral, Defensa de proyecto, Porfolio, Informe de laboratorio, Informe de investigación, Monografía, Ensayo, Prueba escrita de desarrollo, Prueba objetiva, Prueba tipo test, Prueba de respuesta corta, Prueba oral, Prueba práctica, Prueba competencial contextualizada, Prueba con documentos, Trabajo cooperativo, Prueba de libro abierto
+**Medios/evidencias asociados:** Práctica de laboratorio, Exposición oral, Defensa de proyecto, Porfolio, Informe de laboratorio, Informe de investigación, Monografía, Ensayo, Prueba escrita de desarrollo, Prueba objetiva, Prueba tipo test, Prueba de respuesta corta, Prueba oral, Prueba práctica, Prueba competencial contextualizada, Prueba con documentos, Trabajo cooperativo, Prueba de libro abierto
 
-**Herramientas relacionadas:** Rúbrica analítica, Guía de corrección, Lista de cotejo o control, Escala de observación, Cuaderno de calificaciones, Acta de evaluación
+**Instrumentos de evaluación relacionados:** Rúbrica analítica, Guía de corrección, Lista de cotejo o control, Escala de observación, Cuaderno de calificaciones, Acta de evaluación
 
 ---
 
@@ -445,7 +445,7 @@ Una buena evaluación diagnóstica permite al docente partir de donde está el a
 
 **Precauciones:** No debe utilizarse para penalizar.
 
-**Instrumentos asociados:** Mapa conceptual, Prueba objetiva, Prueba tipo test, Prueba de respuesta corta, KPSI, Mapa conceptual inicial, Lluvia de ideas
+**Medios/evidencias asociados:** Mapa conceptual, Prueba objetiva, Prueba tipo test, Prueba de respuesta corta, KPSI, Mapa conceptual inicial, Lluvia de ideas
 
 ---
 
@@ -471,9 +471,9 @@ La evaluación formativa requiere tiempo y planificación, pero es la que más i
 
 **Precauciones:** Requiere tiempo para devolver información útil.
 
-**Instrumentos asociados:** Trabajo individual en aula, Participación en clase, Coloquio, Asamblea, Entrevista, Pregunta oral estructurada, Cuaderno de clase, Diario de aprendizaje, Porfolio, Resumen, Esquema, Mapa mental, Glosario, Ficha de lectura, Plan de trabajo, Contrato de aprendizaje, Ficha de reflexión, Prueba de respuesta corta, Documento colaborativo, Lluvia de ideas, Borrador, Entrega parcial, Bitácora de proyecto, Revisión por pares, Dos estrellas y un deseo, Semáforo de aprendizaje, Billete de salida, Trabajo cooperativo, Seminario socrático, Checklist de laboratorio
+**Medios/evidencias asociados:** Trabajo individual en aula, Participación en clase, Coloquio, Asamblea, Entrevista, Pregunta oral estructurada, Cuaderno de clase, Diario de aprendizaje, Porfolio, Resumen, Esquema, Mapa mental, Glosario, Ficha de lectura, Plan de trabajo, Contrato de aprendizaje, Ficha de reflexión, Prueba de respuesta corta, Documento colaborativo, Lluvia de ideas, Borrador, Entrega parcial, Bitácora de proyecto, Revisión por pares, Dos estrellas y un deseo, Semáforo de aprendizaje, Billete de salida, Trabajo cooperativo, Seminario socrático, Checklist de laboratorio
 
-**Herramientas relacionadas:** Ficha de retroalimentación, Lista de cotejo o control, Escala de observación, Escala de valoración, Registro descriptivo, Diario del profesor, Hoja de seguimiento grupal, Registro de participación, Notas de campo, Ficha de valoración, Semáforo de evaluación, Registro de compromisos de mejora, Escala verbal, Historial de revisión, Panel de progreso, Analíticas de aprendizaje, Banco digital de evidencias, Escala de progreso, Guía de observación, Plantilla de feedback/feedforward, Contrato de grupo, Sociograma
+**Instrumentos de evaluación relacionados:** Ficha de retroalimentación, Lista de cotejo o control, Escala de observación, Escala de valoración, Registro descriptivo, Diario del profesor, Hoja de seguimiento grupal, Registro de participación, Notas de campo, Ficha de valoración, Semáforo de evaluación, Registro de compromisos de mejora, Escala verbal, Historial de revisión, Panel de progreso, Analíticas de aprendizaje, Banco digital de evidencias, Escala de progreso, Guía de observación, Plantilla de feedback/feedforward, Contrato de grupo, Sociograma
 
 ---
 
@@ -499,9 +499,9 @@ Cuando se combina con evaluación formativa a lo largo del proceso, la nota fina
 
 **Precauciones:** No debe ser la única fuente de información.
 
-**Instrumentos asociados:** Exposición oral, Monografía, Ensayo, Comentario de texto, Reseña, Artículo divulgativo, Autoinforme, Prueba escrita de desarrollo, Prueba objetiva, Prueba tipo test, Prueba oral, Prueba con documentos
+**Medios/evidencias asociados:** Exposición oral, Monografía, Ensayo, Comentario de texto, Reseña, Artículo divulgativo, Autoinforme, Prueba escrita de desarrollo, Prueba objetiva, Prueba tipo test, Prueba oral, Prueba con documentos
 
-**Herramientas relacionadas:** Rúbrica analítica, Guía de corrección, Baremo, Cuaderno de calificaciones, Rúbrica global u holística, Rúbrica de producto, Rúbrica oral, Escala de valoración, Plantilla de corrección, Ficha de valoración, Matriz de valoración, Tabla de calificación por criterios, Matriz de ponderación, Escala numérica, Escala verbal, Conversor de niveles a calificación, Hoja de cálculo de evaluación, Informe individual de evaluación, Acta de evaluación, Rúbrica digital
+**Instrumentos de evaluación relacionados:** Rúbrica analítica, Guía de corrección, Baremo, Cuaderno de calificaciones, Rúbrica global u holística, Rúbrica de producto, Rúbrica oral, Escala de valoración, Plantilla de corrección, Ficha de valoración, Matriz de valoración, Tabla de calificación por criterios, Matriz de ponderación, Escala numérica, Escala verbal, Conversor de niveles a calificación, Hoja de cálculo de evaluación, Informe individual de evaluación, Acta de evaluación, Rúbrica digital
 
 ---
 
@@ -527,9 +527,9 @@ La evaluación competencial implica evaluar de forma integrada varios saberes y 
 
 **Precauciones:** Requiere buenos contextos y criterios observables.
 
-**Instrumentos asociados:** Ensayo, Comentario de texto, Línea del tiempo, Reseña, Artículo divulgativo, Estudio de caso, Prueba competencial contextualizada, Prueba con documentos, Infografía, Póster académico, Cómic, Prueba de libro abierto, Tarea competencial integrada, Situación-problema
+**Medios/evidencias asociados:** Ensayo, Comentario de texto, Línea del tiempo, Reseña, Artículo divulgativo, Estudio de caso, Prueba competencial contextualizada, Prueba con documentos, Infografía, Póster académico, Cómic, Prueba de libro abierto, Tarea competencial integrada, Situación-problema
 
-**Herramientas relacionadas:** Rúbrica competencial, Perfil de logro, Matriz de valoración, Banco de descriptores, Tabla de calificación por criterios, Lista de indicadores por criterio, Mapa de evidencias por criterio
+**Instrumentos de evaluación relacionados:** Rúbrica competencial, Perfil de logro, Matriz de valoración, Banco de descriptores, Tabla de calificación por criterios, Lista de indicadores por criterio, Mapa de evidencias por criterio
 
 ---
 
@@ -555,9 +555,9 @@ Es especialmente útil en ciencias experimentales, educación física, artes, FP
 
 **Precauciones:** Puede requerir evidencias complementarias.
 
-**Instrumentos asociados:** Participación en clase, Coloquio, Taller, Simulación, Exposición oral, Defensa de proyecto, Entrevista, Pregunta oral estructurada, Prueba oral, Prueba práctica, Presentación digital, Videotutorial, Maqueta, Prototipo, Trabajo cooperativo, Seminario socrático, Checklist de laboratorio
+**Medios/evidencias asociados:** Participación en clase, Coloquio, Taller, Simulación, Exposición oral, Defensa de proyecto, Entrevista, Pregunta oral estructurada, Prueba oral, Prueba práctica, Presentación digital, Videotutorial, Maqueta, Prototipo, Trabajo cooperativo, Seminario socrático, Checklist de laboratorio
 
-**Herramientas relacionadas:** Escala de observación, Lista de cotejo o control, Rúbrica de producto, Rúbrica oral, Registro descriptivo, Registro de participación, Guía de observación
+**Instrumentos de evaluación relacionados:** Escala de observación, Lista de cotejo o control, Rúbrica de producto, Rúbrica oral, Registro descriptivo, Registro de participación, Guía de observación
 
 ---
 
@@ -583,9 +583,9 @@ Permite evaluar de forma integrada múltiples competencias y criterios a la vez,
 
 **Precauciones:** Requiere seguimiento para evitar valorar solo el producto final.
 
-**Instrumentos asociados:** Memoria de proyecto, Plan de trabajo, Prototipo, Bitácora de proyecto, Trabajo cooperativo
+**Medios/evidencias asociados:** Memoria de proyecto, Plan de trabajo, Prototipo, Bitácora de proyecto, Trabajo cooperativo
 
-**Herramientas relacionadas:** Hoja de seguimiento individual, Rúbrica de proceso, Rúbrica de trabajo cooperativo, Hoja de seguimiento grupal, Registro de trabajo cooperativo, Contrato de grupo
+**Instrumentos de evaluación relacionados:** Hoja de seguimiento individual, Rúbrica de proceso, Rúbrica de trabajo cooperativo, Hoja de seguimiento grupal, Registro de trabajo cooperativo, Contrato de grupo
 
 ---
 
@@ -611,9 +611,9 @@ Es especialmente adecuada en ciencias naturales, ciencias sociales y proyectos d
 
 **Precauciones:** Puede requerir andamiaje y fuentes adecuadas.
 
-**Instrumentos asociados:** Práctica de laboratorio, Informe de laboratorio, Informe de investigación
+**Medios/evidencias asociados:** Práctica de laboratorio, Informe de laboratorio, Informe de investigación
 
-**Herramientas relacionadas:** Guía de corrección, Lista de cotejo o control
+**Instrumentos de evaluación relacionados:** Guía de corrección, Lista de cotejo o control
 
 ---
 
@@ -639,9 +639,9 @@ Adecuada en matemáticas, física, química, tecnología, economía y cualquier 
 
 **Precauciones:** No basta con el resultado.
 
-**Instrumentos asociados:** Comentario de gráfica o datos, Resolución de problemas, Situación-problema, Escape room o reto gamificado
+**Medios/evidencias asociados:** Comentario de gráfica o datos, Resolución de problemas, Situación-problema, Escape room o reto gamificado
 
-**Herramientas relacionadas:** Guía de corrección, Escala descriptiva
+**Instrumentos de evaluación relacionados:** Guía de corrección, Escala descriptiva
 
 ---
 
@@ -667,9 +667,9 @@ Especialmente útil en ciencias sociales, salud, derecho, economía, historia y 
 
 **Precauciones:** La calidad del caso condiciona la evaluación.
 
-**Instrumentos asociados:** Estudio de caso
+**Medios/evidencias asociados:** Estudio de caso
 
-**Herramientas relacionadas:** Rúbrica analítica, Escala descriptiva
+**Instrumentos de evaluación relacionados:** Rúbrica analítica, Escala descriptiva
 
 ---
 
@@ -695,9 +695,9 @@ Adecuada para evaluar comunicación, toma de decisiones, resolución de conflict
 
 **Precauciones:** Puede simplificar en exceso la realidad.
 
-**Instrumentos asociados:** Simulación, Juego de rol, Dramatización, Escape room o reto gamificado
+**Medios/evidencias asociados:** Simulación, Juego de rol, Dramatización, Escape room o reto gamificado
 
-**Herramientas relacionadas:** Rúbrica analítica, Escala de observación, Registro anecdótico
+**Instrumentos de evaluación relacionados:** Rúbrica analítica, Escala de observación, Registro anecdótico
 
 ---
 
@@ -723,9 +723,9 @@ Las evidencias digitales permiten evaluar la competencia digital de forma autén
 
 **Precauciones:** Las analíticas no sustituyen al juicio pedagógico.
 
-**Instrumentos asociados:** Cuestionario digital, Infografía, Presentación digital, Vídeo, Podcast, Modelo digital, Página web, Entrada de blog, Foro de discusión, Documento colaborativo, Portfolio digital, Cuaderno digital
+**Medios/evidencias asociados:** Cuestionario digital, Infografía, Presentación digital, Vídeo, Podcast, Modelo digital, Página web, Entrada de blog, Foro de discusión, Documento colaborativo, Portfolio digital, Cuaderno digital
 
-**Herramientas relacionadas:** Rúbrica digital, Historial de revisión, Panel de progreso, Hoja de cálculo de evaluación, Formulario digital, Analíticas de aprendizaje, Banco digital de evidencias
+**Instrumentos de evaluación relacionados:** Rúbrica digital, Historial de revisión, Panel de progreso, Hoja de cálculo de evaluación, Formulario digital, Analíticas de aprendizaje, Banco digital de evidencias
 
 ---
 
@@ -749,9 +749,9 @@ Es especialmente importante en enfoques competenciales, porque permite justifica
 
 **Precauciones:** Requiere traducir criterios amplios en indicadores observables sin fragmentar en exceso el aprendizaje.
 
-**Instrumentos asociados:** Tarea competencial integrada, Situación-problema, E-portfolio con evidencias seleccionadas, Prueba de libro abierto
+**Medios/evidencias asociados:** Tarea competencial integrada, Situación-problema, E-portfolio con evidencias seleccionadas, Prueba de libro abierto
 
-**Herramientas relacionadas:** Lista de indicadores por criterio, Mapa de evidencias por criterio, Rúbrica competencial, Tabla de calificación por criterios
+**Instrumentos de evaluación relacionados:** Lista de indicadores por criterio, Mapa de evidencias por criterio, Rúbrica competencial, Tabla de calificación por criterios
 
 ---
 
@@ -775,9 +775,9 @@ Su finalidad es aumentar la validez de la evaluación: que el resultado refleje 
 
 **Precauciones:** La flexibilidad no debe rebajar los criterios, sino diversificar caminos y apoyos para evidenciarlos.
 
-**Instrumentos asociados:** Tarea competencial integrada, Cuaderno digital, E-portfolio con evidencias seleccionadas
+**Medios/evidencias asociados:** Tarea competencial integrada, Cuaderno digital, E-portfolio con evidencias seleccionadas
 
-**Herramientas relacionadas:** Escala de progreso, Plantilla de feedback/feedforward, Mapa de evidencias por criterio
+**Instrumentos de evaluación relacionados:** Escala de progreso, Plantilla de feedback/feedforward, Mapa de evidencias por criterio
 
 ---
 
@@ -801,9 +801,9 @@ Bien usada, permite que la evaluación sea parte del aprendizaje y no solo una c
 
 **Precauciones:** No debe confundirse con acumular muchas notas; exige seleccionar evidencias significativas.
 
-**Instrumentos asociados:** Cuaderno digital, E-portfolio con evidencias seleccionadas, Entrega parcial, Borrador
+**Medios/evidencias asociados:** Cuaderno digital, E-portfolio con evidencias seleccionadas, Entrega parcial, Borrador
 
-**Herramientas relacionadas:** Escala de progreso, Panel de progreso, Banco digital de evidencias, Hoja de seguimiento individual
+**Instrumentos de evaluación relacionados:** Escala de progreso, Panel de progreso, Banco digital de evidencias, Hoja de seguimiento individual
 
 ---
 
@@ -827,9 +827,9 @@ Tiene más impacto cuando llega durante el proceso, se centra en criterios concr
 
 **Precauciones:** Debe ser específica, oportuna y accionable; una nota sola no es retroalimentación suficiente.
 
-**Instrumentos asociados:** Borrador, Revisión por pares, Dos estrellas y un deseo, Entrega parcial, E-portfolio con evidencias seleccionadas
+**Medios/evidencias asociados:** Borrador, Revisión por pares, Dos estrellas y un deseo, Entrega parcial, E-portfolio con evidencias seleccionadas
 
-**Herramientas relacionadas:** Plantilla de feedback/feedforward, Ficha de retroalimentación, Registro de compromisos de mejora
+**Instrumentos de evaluación relacionados:** Plantilla de feedback/feedforward, Ficha de retroalimentación, Registro de compromisos de mejora
 
 ---
 
@@ -853,9 +853,9 @@ Es una función necesaria del sistema educativo, pero debe distinguirse de la re
 
 **Precauciones:** Debe apoyarse en criterios y evidencias suficientes; no sustituye a la evaluación formativa.
 
-**Instrumentos asociados:** Prueba competencial contextualizada, Tarea competencial integrada, E-portfolio con evidencias seleccionadas
+**Medios/evidencias asociados:** Prueba competencial contextualizada, Tarea competencial integrada, E-portfolio con evidencias seleccionadas
 
-**Herramientas relacionadas:** Tabla de calificación por criterios, Matriz de ponderación, Informe individual de evaluación, Acta de evaluación, Mapa de evidencias por criterio
+**Instrumentos de evaluación relacionados:** Tabla de calificación por criterios, Matriz de ponderación, Informe individual de evaluación, Acta de evaluación, Mapa de evidencias por criterio
 
 ---
 
@@ -879,13 +879,13 @@ Es especialmente valiosa porque hace visibles los criterios y convierte la evalu
 
 **Precauciones:** Requiere criterios claros y acompañamiento; no debe delegar sin guía la responsabilidad docente.
 
-**Instrumentos asociados:** Trabajo cooperativo, Revisión por pares, Contrato de aprendizaje, E-portfolio con evidencias seleccionadas, Escape room o reto gamificado, Seminario socrático
+**Medios/evidencias asociados:** Trabajo cooperativo, Revisión por pares, Contrato de aprendizaje, E-portfolio con evidencias seleccionadas, Escape room o reto gamificado, Seminario socrático
 
-**Herramientas relacionadas:** Contrato de grupo, Ficha de coevaluación, Rúbrica de coevaluación, Registro de compromisos de mejora, Sociograma
+**Instrumentos de evaluación relacionados:** Contrato de grupo, Ficha de coevaluación, Rúbrica de coevaluación, Registro de compromisos de mejora, Sociograma
 
 ---
 
-## Instrumentos de Evaluación
+## Evidencias Evaluables
 
 ### 1. Trabajo individual en aula
 
@@ -905,7 +905,7 @@ Es uno de los instrumentos más habituales porque permite información tanto del
 
 **Técnicas asociadas:** Observación sistemática, Observación incidental
 
-**Herramientas recomendadas:** Cuaderno de calificaciones, Escala de observación, Hoja de seguimiento individual, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Cuaderno de calificaciones, Escala de observación, Hoja de seguimiento individual, Lista de cotejo o control
 
 **Dimensiones asociadas:** Finalidad formativa
 
@@ -929,7 +929,7 @@ Para que la evaluación sea justa, no debe reducirse al producto final: dos grup
 
 **Técnicas asociadas:** Observación sistemática, Observación incidental
 
-**Herramientas recomendadas:** Diario del profesor, Ficha de coevaluación, Rúbrica de trabajo cooperativo, Contrato de grupo, Sociograma, Guía de observación
+**Instrumentos de evaluación recomendados:** Diario del profesor, Ficha de coevaluación, Rúbrica de trabajo cooperativo, Contrato de grupo, Sociograma, Guía de observación
 
 **Dimensiones asociadas:** Coevaluación, Finalidad formativa, Evidencia de desempeño, Trabajo por proyectos, Heteroevaluación, Evaluación compartida y participativa
 
@@ -953,7 +953,7 @@ Debe valorarse la calidad de las aportaciones, no solo la cantidad. Un alumno qu
 
 **Técnicas asociadas:** Observación sistemática, Observación incidental
 
-**Herramientas recomendadas:** Cuaderno de calificaciones, Diario del profesor, Escala de observación, Registro de participación
+**Instrumentos de evaluación recomendados:** Cuaderno de calificaciones, Diario del profesor, Escala de observación, Registro de participación
 
 **Dimensiones asociadas:** Finalidad formativa, Evidencia de desempeño
 
@@ -977,7 +977,7 @@ El debate permite evaluar competencias que no son visibles en pruebas escritas: 
 
 **Técnicas asociadas:** Intercambios orales, Observación sistemática
 
-**Herramientas recomendadas:** Escala de observación, Ficha de coevaluación
+**Instrumentos de evaluación recomendados:** Escala de observación, Ficha de coevaluación
 
 **Dimensiones asociadas:** Coevaluación
 
@@ -1001,7 +1001,7 @@ Es especialmente adecuado para evaluar comprensión lectora, análisis de textos
 
 **Técnicas asociadas:** Intercambios orales
 
-**Herramientas recomendadas:** Escala de observación, Registro anecdótico
+**Instrumentos de evaluación recomendados:** Escala de observación, Registro anecdótico
 
 **Dimensiones asociadas:** Finalidad formativa, Evidencia de desempeño
 
@@ -1025,7 +1025,7 @@ No es un instrumento de evaluación académica en sentido estricto, pero sí per
 
 **Técnicas asociadas:** Intercambios orales, Observación sistemática
 
-**Herramientas recomendadas:** Registro de participación, Escala de observación
+**Instrumentos de evaluación recomendados:** Registro de participación, Escala de observación
 
 **Dimensiones asociadas:** Finalidad formativa, Coevaluación
 
@@ -1049,7 +1049,7 @@ Es uno de los instrumentos más ricos para la evaluación competencial en cienci
 
 **Técnicas asociadas:** Observación sistemática
 
-**Herramientas recomendadas:** Diario del profesor, Escala de observación, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Diario del profesor, Escala de observación, Lista de cotejo o control
 
 **Dimensiones asociadas:** Indagación, Heteroevaluación
 
@@ -1073,7 +1073,7 @@ Es especialmente adecuado para evaluar procedimientos, creatividad y aplicación
 
 **Técnicas asociadas:** Observación sistemática
 
-**Herramientas recomendadas:** Lista de cotejo o control, Escala de observación, Rúbrica analítica
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Escala de observación, Rúbrica analítica
 
 **Dimensiones asociadas:** Evidencia de desempeño
 
@@ -1097,7 +1097,7 @@ Permite evaluar habilidades difíciles de observar en otras situaciones: toma de
 
 **Técnicas asociadas:** Observación sistemática
 
-**Herramientas recomendadas:** Escala de observación, Rúbrica analítica, Registro descriptivo
+**Instrumentos de evaluación recomendados:** Escala de observación, Rúbrica analítica, Registro descriptivo
 
 **Dimensiones asociadas:** Simulación, Evidencia de desempeño
 
@@ -1121,7 +1121,7 @@ Es especialmente útil en historia, ciencias sociales, ética, idiomas y educaci
 
 **Técnicas asociadas:** Intercambios orales
 
-**Herramientas recomendadas:** Rúbrica analítica, Registro anecdótico, Escala de observación
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Registro anecdótico, Escala de observación
 
 **Dimensiones asociadas:** Simulación
 
@@ -1145,7 +1145,7 @@ Es un instrumento especialmente rico para lengua y literatura, idiomas extranjer
 
 **Técnicas asociadas:** Observación sistemática
 
-**Herramientas recomendadas:** Escala de observación, Rúbrica oral
+**Instrumentos de evaluación recomendados:** Escala de observación, Rúbrica oral
 
 **Dimensiones asociadas:** Simulación
 
@@ -1169,7 +1169,7 @@ Permite evaluar competencia comunicativa oral, capacidad de síntesis y dominio 
 
 **Técnicas asociadas:** Intercambios orales, Observación sistemática
 
-**Herramientas recomendadas:** Banco de descriptores, Conversor de niveles a calificación, Escala de observación, Lista de cotejo o control, Rúbrica oral
+**Instrumentos de evaluación recomendados:** Banco de descriptores, Conversor de niveles a calificación, Escala de observación, Lista de cotejo o control, Rúbrica oral
 
 **Dimensiones asociadas:** Evidencia de desempeño, Finalidad sumativa, Coevaluación, Heteroevaluación
 
@@ -1193,7 +1193,7 @@ Añade valor al proyecto porque obliga al alumnado a comprender realmente lo que
 
 **Técnicas asociadas:** Intercambios orales, Análisis de producciones, Entrevista evaluativa
 
-**Herramientas recomendadas:** Acta de evaluación, Banco de descriptores, Conversor de niveles a calificación, Escala de observación, Rúbrica oral
+**Instrumentos de evaluación recomendados:** Acta de evaluación, Banco de descriptores, Conversor de niveles a calificación, Escala de observación, Rúbrica oral
 
 **Dimensiones asociadas:** Evidencia de desempeño, Heteroevaluación
 
@@ -1217,7 +1217,7 @@ Es especialmente útil para alumnos con dificultades de expresión escrita o cua
 
 **Técnicas asociadas:** Intercambios orales, Entrevista evaluativa
 
-**Herramientas recomendadas:** Registro anecdótico, Escala de observación
+**Instrumentos de evaluación recomendados:** Registro anecdótico, Escala de observación
 
 **Dimensiones asociadas:** Finalidad formativa, Evidencia de desempeño
 
@@ -1241,7 +1241,7 @@ Es una de las formas más inmediatas y frecuentes de evaluación formativa: perm
 
 **Técnicas asociadas:** Intercambios orales, Sondeo y cuestionamiento
 
-**Herramientas recomendadas:** Escala de observación, Registro anecdótico
+**Instrumentos de evaluación recomendados:** Escala de observación, Registro anecdótico
 
 **Dimensiones asociadas:** Finalidad formativa, Evidencia de desempeño
 
@@ -1265,7 +1265,7 @@ Es una ventana al proceso de aprendizaje del alumno que no dejan otras evidencia
 
 **Técnicas asociadas:** Análisis de producciones, Análisis documental
 
-**Herramientas recomendadas:** Cuaderno de calificaciones, Escala de observación, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Cuaderno de calificaciones, Escala de observación, Lista de cotejo o control
 
 **Dimensiones asociadas:** Finalidad formativa
 
@@ -1289,7 +1289,7 @@ Es un instrumento poderoso para el desarrollo de la metacognición y la autonom�
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Herramientas recomendadas:** Diana de evaluación, Escala de autoevaluación, Escala verbal, Ficha de retroalimentación
+**Instrumentos de evaluación recomendados:** Diana de evaluación, Escala de autoevaluación, Escala verbal, Ficha de retroalimentación
 
 **Dimensiones asociadas:** Autoevaluación, Finalidad formativa
 
@@ -1313,7 +1313,7 @@ Permite una evaluación longitudinal y auténtica. Desarrolla la autonomía, la 
 
 **Técnicas asociadas:** Análisis de producciones, Análisis de procesos y reflexiones
 
-**Herramientas recomendadas:** Banco de descriptores, Escala descriptiva, Escala verbal, Hoja de cálculo de evaluación, Hoja de seguimiento individual, Matriz de ponderación
+**Instrumentos de evaluación recomendados:** Banco de descriptores, Escala descriptiva, Escala verbal, Hoja de cálculo de evaluación, Hoja de seguimiento individual, Matriz de ponderación
 
 **Dimensiones asociadas:** Finalidad formativa, Autoevaluación, Heteroevaluación
 
@@ -1337,7 +1337,7 @@ Combina la evaluación del proceso (qué hicieron en el laboratorio) con la del 
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Guía de corrección, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección, Lista de cotejo o control
 
 **Dimensiones asociadas:** Indagación, Heteroevaluación
 
@@ -1361,7 +1361,7 @@ Es el instrumento más adecuado para evaluar competencias de investigación en E
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Guía de corrección, Tabla de calificación por criterios
+**Instrumentos de evaluación recomendados:** Guía de corrección, Tabla de calificación por criterios
 
 **Dimensiones asociadas:** Indagación, Heteroevaluación
 
@@ -1385,7 +1385,7 @@ Es especialmente útil en Bachillerato y FP para desarrollar y evaluar la escrit
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Guía de corrección
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección
 
 **Dimensiones asociadas:** Finalidad sumativa, Heteroevaluación
 
@@ -1409,7 +1409,7 @@ Es un instrumento especialmente adecuado para evaluar pensamiento crítico, argu
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Guía de corrección, Tabla de calificación por criterios
+**Instrumentos de evaluación recomendados:** Guía de corrección, Tabla de calificación por criterios
 
 **Dimensiones asociadas:** Finalidad sumativa, Enfoque competencial, Heteroevaluación
 
@@ -1433,7 +1433,7 @@ Es uno de los instrumentos más habituales en lengua y literatura, historia y fi
 
 **Técnicas asociadas:** Análisis de producciones, Pruebas específicas
 
-**Herramientas recomendadas:** Guía de corrección, Rúbrica analítica
+**Instrumentos de evaluación recomendados:** Guía de corrección, Rúbrica analítica
 
 **Dimensiones asociadas:** Enfoque competencial, Finalidad sumativa
 
@@ -1457,7 +1457,7 @@ Es un instrumento clave en matemáticas, ciencias, geografía, economía y cualq
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Escala de observación
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala de observación
 
 **Dimensiones asociadas:** Resolución de problemas
 
@@ -1481,7 +1481,7 @@ Es un instrumento muy accesible para evaluar la comprensión lectora y la capaci
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Lista de cotejo o control, Escala descriptiva
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Escala descriptiva
 
 **Dimensiones asociadas:** Finalidad formativa
 
@@ -1505,7 +1505,7 @@ Es especialmente útil para evaluar la comprensión y la organización del conoc
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Lista de cotejo o control, Escala de observación
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Escala de observación
 
 **Dimensiones asociadas:** Finalidad formativa
 
@@ -1529,7 +1529,7 @@ Permite evaluar la estructura del conocimiento de un alumno: no solo si sabe los
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Lista de cotejo o control
 
 **Dimensiones asociadas:** Finalidad diagnóstica
 
@@ -1553,7 +1553,7 @@ Es especialmente útil para explorar ideas previas, hacer lluvias de ideas estru
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Escala de observación, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Escala de observación, Lista de cotejo o control
 
 **Dimensiones asociadas:** Finalidad formativa
 
@@ -1577,7 +1577,7 @@ Es un instrumento clave en historia, biología (evolución), literatura (movimie
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control
 
 **Dimensiones asociadas:** Enfoque competencial
 
@@ -1601,7 +1601,7 @@ Es útil como tarea continua a lo largo de una unidad y como herramienta de estu
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Lista de cotejo o control, Guía de corrección
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Guía de corrección
 
 **Dimensiones asociadas:** Finalidad formativa
 
@@ -1625,7 +1625,7 @@ Es especialmente útil en lengua y literatura, filosofía, ciencias sociales y c
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Lista de cotejo o control, Escala de observación
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Escala de observación
 
 **Dimensiones asociadas:** Finalidad formativa
 
@@ -1649,7 +1649,7 @@ Es un instrumento excelente para evaluar pensamiento crítico, escritura argumen
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Guía de corrección
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección
 
 **Dimensiones asociadas:** Enfoque competencial, Finalidad sumativa
 
@@ -1673,7 +1673,7 @@ Desarrolla la competencia comunicativa escrita, la comprensión profunda de la m
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Escala descriptiva
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala descriptiva
 
 **Dimensiones asociadas:** Enfoque competencial, Finalidad sumativa
 
@@ -1697,7 +1697,7 @@ Es el instrumento de evaluación principal en proyectos de aprendizaje-servicio,
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Conversor de niveles a calificación, Hoja de cálculo de evaluación, Hoja de seguimiento individual, Matriz de ponderación
+**Instrumentos de evaluación recomendados:** Conversor de niveles a calificación, Hoja de cálculo de evaluación, Hoja de seguimiento individual, Matriz de ponderación
 
 **Dimensiones asociadas:** Trabajo por proyectos
 
@@ -1721,7 +1721,7 @@ Es una herramienta formativa que ayuda al alumnado a desarrollar competencias de
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Herramientas recomendadas:** Lista de cotejo o control, Hoja de seguimiento individual
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Hoja de seguimiento individual
 
 **Dimensiones asociadas:** Finalidad formativa, Trabajo por proyectos
 
@@ -1745,7 +1745,7 @@ Desarrolla habilidades de comunicación formal, organización y responsabilidad 
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones, Análisis documental
 
-**Herramientas recomendadas:** Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control
 
 **Dimensiones asociadas:** Coevaluación
 
@@ -1769,7 +1769,7 @@ Favorece la autonomía, la motivación intrínseca y la responsabilidad. Es espe
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Herramientas recomendadas:** Registro de compromisos de mejora
+**Instrumentos de evaluación recomendados:** Registro de compromisos de mejora
 
 **Dimensiones asociadas:** Autoevaluación, Finalidad formativa, Evaluación compartida y participativa
 
@@ -1793,7 +1793,7 @@ Es un instrumento de cierre muy eficaz para sesiones, unidades o proyectos. Conv
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Herramientas recomendadas:** Diana de evaluación, Escala de observación, Escala verbal, Ficha de retroalimentación
+**Instrumentos de evaluación recomendados:** Diana de evaluación, Escala de observación, Escala verbal, Ficha de retroalimentación
 
 **Dimensiones asociadas:** Autoevaluación, Finalidad formativa
 
@@ -1817,7 +1817,7 @@ Es un instrumento de alto valor metacognitivo, especialmente en portfolios, proy
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Herramientas recomendadas:** Rúbrica de autoevaluación, Escala de observación
+**Instrumentos de evaluación recomendados:** Rúbrica de autoevaluación, Escala de observación
 
 **Dimensiones asociadas:** Autoevaluación, Finalidad sumativa
 
@@ -1841,7 +1841,7 @@ Es el instrumento central de la evaluación competencial en matemáticas, físic
 
 **Técnicas asociadas:** Pruebas específicas
 
-**Herramientas recomendadas:** Guía de corrección, Rúbrica competencial
+**Instrumentos de evaluación recomendados:** Guía de corrección, Rúbrica competencial
 
 **Dimensiones asociadas:** Resolución de problemas
 
@@ -1865,7 +1865,7 @@ Es especialmente adecuado en ciencias de la salud, ciencias sociales, derecho, h
 
 **Técnicas asociadas:** Pruebas específicas, Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Guía de corrección, Rúbrica competencial
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección, Rúbrica competencial
 
 **Dimensiones asociadas:** Estudio de casos, Enfoque competencial
 
@@ -1889,7 +1889,7 @@ Permite evaluar comprensión profunda, capacidad de síntesis y escritura acadé
 
 **Técnicas asociadas:** Pruebas específicas
 
-**Herramientas recomendadas:** Baremo, Escala numérica, Guía de corrección, Matriz de ponderación, Rúbrica analítica
+**Instrumentos de evaluación recomendados:** Baremo, Escala numérica, Guía de corrección, Matriz de ponderación, Rúbrica analítica
 
 **Dimensiones asociadas:** Finalidad sumativa, Heteroevaluación
 
@@ -1913,7 +1913,7 @@ Es eficiente para comprobar conocimientos declarativos y algunas aplicaciones o 
 
 **Técnicas asociadas:** Pruebas específicas
 
-**Herramientas recomendadas:** Baremo, Escala numérica, Hoja de cálculo de evaluación, Plantilla de corrección
+**Instrumentos de evaluación recomendados:** Baremo, Escala numérica, Hoja de cálculo de evaluación, Plantilla de corrección
 
 **Dimensiones asociadas:** Finalidad sumativa, Finalidad diagnóstica, Heteroevaluación
 
@@ -1937,7 +1937,7 @@ Es muy eficiente para evaluar grandes cantidades de contenido en poco tiempo, pe
 
 **Técnicas asociadas:** Pruebas específicas, Sondeo y cuestionamiento
 
-**Herramientas recomendadas:** Baremo, Escala numérica
+**Instrumentos de evaluación recomendados:** Baremo, Escala numérica
 
 **Dimensiones asociadas:** Finalidad sumativa, Finalidad diagnóstica, Heteroevaluación
 
@@ -1961,7 +1961,7 @@ Equilibra la eficiencia de la prueba objetiva con la necesidad de que el alumno 
 
 **Técnicas asociadas:** Pruebas específicas, Sondeo y cuestionamiento
 
-**Herramientas recomendadas:** Guía de corrección, Baremo
+**Instrumentos de evaluación recomendados:** Guía de corrección, Baremo
 
 **Dimensiones asociadas:** Finalidad formativa, Finalidad diagnóstica, Heteroevaluación
 
@@ -1985,7 +1985,7 @@ Permite valorar comprensión real (no memorización de texto) y expresión oral.
 
 **Técnicas asociadas:** Pruebas específicas, Intercambios orales
 
-**Herramientas recomendadas:** Acta de evaluación, Rúbrica oral
+**Instrumentos de evaluación recomendados:** Acta de evaluación, Rúbrica oral
 
 **Dimensiones asociadas:** Finalidad sumativa, Evidencia de desempeño, Heteroevaluación
 
@@ -2009,7 +2009,7 @@ Es el instrumento más adecuado para evaluar saber hacer: procedimientos técnic
 
 **Técnicas asociadas:** Pruebas específicas
 
-**Herramientas recomendadas:** Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control
 
 **Dimensiones asociadas:** Evidencia de desempeño, Heteroevaluación
 
@@ -2033,7 +2033,7 @@ Es la herramienta que mejor articula la calificación con la evaluación por cri
 
 **Técnicas asociadas:** Pruebas específicas, Triangulación de evidencias
 
-**Herramientas recomendadas:** Guía de corrección, Rúbrica competencial, Tabla de calificación por criterios
+**Instrumentos de evaluación recomendados:** Guía de corrección, Rúbrica competencial, Tabla de calificación por criterios
 
 **Dimensiones asociadas:** Enfoque competencial, Heteroevaluación, Calificación y acreditación
 
@@ -2057,7 +2057,7 @@ Es el formato de prueba más habitual en historia, geografía, ciencias sociales
 
 **Técnicas asociadas:** Pruebas específicas, Análisis de producciones
 
-**Herramientas recomendadas:** Guía de corrección, Rúbrica analítica
+**Instrumentos de evaluación recomendados:** Guía de corrección, Rúbrica analítica
 
 **Dimensiones asociadas:** Enfoque competencial, Finalidad sumativa, Heteroevaluación
 
@@ -2081,7 +2081,7 @@ Ahorra tiempo de corrección, permite retroalimentación inmediata y facilita el
 
 **Técnicas asociadas:** Pruebas específicas, Sondeo y cuestionamiento, Encuesta y cuestionario
 
-**Herramientas recomendadas:** Formulario digital, Analíticas de aprendizaje
+**Instrumentos de evaluación recomendados:** Formulario digital, Analíticas de aprendizaje
 
 **Dimensiones asociadas:** Evidencias digitales
 
@@ -2105,7 +2105,7 @@ Desarrolla la competencia comunicativa visual, la capacidad de síntesis y la cr
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Lista de cotejo o control
 
 **Dimensiones asociadas:** Enfoque competencial, Evidencias digitales
 
@@ -2129,7 +2129,7 @@ Es especialmente adecuado en ciencias, tecnología y proyectos de investigación
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Escala de observación
+**Instrumentos de evaluación recomendados:** Escala de observación
 
 **Dimensiones asociadas:** Enfoque competencial
 
@@ -2153,7 +2153,7 @@ Es un instrumento muy habitual pero que requiere orientación explícita sobre q
 
 **Técnicas asociadas:** Análisis de producciones, Intercambios orales
 
-**Herramientas recomendadas:** Rúbrica analítica, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Lista de cotejo o control
 
 **Dimensiones asociadas:** Evidencias digitales, Evidencia de desempeño
 
@@ -2177,7 +2177,7 @@ Desarrolla la competencia digital, la comunicación audiovisual y la creatividad
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica de producto, Escala de valoración
+**Instrumentos de evaluación recomendados:** Rúbrica de producto, Escala de valoración
 
 **Dimensiones asociadas:** Evidencias digitales
 
@@ -2201,7 +2201,7 @@ Es un excelente instrumento para evaluar comprensión procedimental y la capacid
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Lista de cotejo o control
 
 **Dimensiones asociadas:** Evidencia de desempeño
 
@@ -2225,7 +2225,7 @@ Favorece la expresión oral en un formato diferente al de la exposición presenc
 
 **Técnicas asociadas:** Intercambios orales, Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica oral, Escala de valoración
+**Instrumentos de evaluación recomendados:** Rúbrica oral, Escala de valoración
 
 **Dimensiones asociadas:** Evidencias digitales
 
@@ -2249,7 +2249,7 @@ Es especialmente útil en lengua y literatura, historia, ciencias y educación a
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Escala de observación
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala de observación
 
 **Dimensiones asociadas:** Enfoque competencial
 
@@ -2273,7 +2273,7 @@ Es especialmente útil en tecnología, arquitectura, geografía, historia y cien
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Lista de cotejo o control
 
 **Dimensiones asociadas:** Evidencia de desempeño
 
@@ -2297,7 +2297,7 @@ Desarrolla la competencia digital y el pensamiento espacial. Es especialmente ad
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Escala de observación
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala de observación
 
 **Dimensiones asociadas:** Evidencias digitales
 
@@ -2321,7 +2321,7 @@ Es el instrumento central en proyectos de design thinking, tecnología, FP y cua
 
 **Técnicas asociadas:** Análisis de producciones, Observación sistemática
 
-**Herramientas recomendadas:** Hoja de seguimiento individual, Rúbrica de producto
+**Instrumentos de evaluación recomendados:** Hoja de seguimiento individual, Rúbrica de producto
 
 **Dimensiones asociadas:** Trabajo por proyectos, Evidencia de desempeño
 
@@ -2345,7 +2345,7 @@ Desarrolla competencia digital, comunicación multimodal y comprensión de la ma
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica digital, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Rúbrica digital, Lista de cotejo o control
 
 **Dimensiones asociadas:** Evidencias digitales
 
@@ -2369,7 +2369,7 @@ Es un buen instrumento para trabajar la escritura con una audiencia real y desar
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Escala de observación
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala de observación
 
 **Dimensiones asociadas:** Evidencias digitales
 
@@ -2393,7 +2393,7 @@ Permite la participación de alumnos que no intervienen fácilmente en debates p
 
 **Técnicas asociadas:** Intercambios orales, Análisis de interacciones digitales
 
-**Herramientas recomendadas:** Registro de participación, Rúbrica oral
+**Instrumentos de evaluación recomendados:** Registro de participación, Rúbrica oral
 
 **Dimensiones asociadas:** Evidencias digitales
 
@@ -2417,7 +2417,7 @@ Es especialmente útil para proyectos grupales donde la contribución individual
 
 **Técnicas asociadas:** Análisis de producciones, Análisis de procesos y reflexiones, Análisis documental, Análisis de interacciones digitales
 
-**Herramientas recomendadas:** Historial de revisión, Rúbrica analítica, Hoja de seguimiento individual
+**Instrumentos de evaluación recomendados:** Historial de revisión, Rúbrica analítica, Hoja de seguimiento individual
 
 **Dimensiones asociadas:** Evidencias digitales, Coevaluación, Finalidad formativa
 
@@ -2441,7 +2441,7 @@ Es la herramienta más completa para la evaluación por competencias y el seguim
 
 **Técnicas asociadas:** Análisis de producciones, Análisis de procesos y reflexiones, Entrevista evaluativa, Análisis documental, Análisis de interacciones digitales
 
-**Herramientas recomendadas:** Panel de progreso, Banco digital de evidencias
+**Instrumentos de evaluación recomendados:** Panel de progreso, Banco digital de evidencias
 
 **Dimensiones asociadas:** Evidencias digitales
 
@@ -2465,7 +2465,7 @@ Es una herramienta de diagnóstico rápida y valiosa que permite al docente ajus
 
 **Técnicas asociadas:** Sondeo y cuestionamiento, Encuesta y cuestionario
 
-**Herramientas recomendadas:** Escala de autoevaluación, Formulario digital, Registro descriptivo
+**Instrumentos de evaluación recomendados:** Escala de autoevaluación, Formulario digital, Registro descriptivo
 
 **Dimensiones asociadas:** Finalidad diagnóstica, Autoevaluación
 
@@ -2489,7 +2489,7 @@ Permite al docente detectar concepciones previas, tanto correctas como erróneas
 
 **Técnicas asociadas:** Sondeo y cuestionamiento, Análisis de producciones
 
-**Herramientas recomendadas:** Lista de cotejo o control, Registro descriptivo, Formulario digital
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Registro descriptivo, Formulario digital
 
 **Dimensiones asociadas:** Finalidad diagnóstica
 
@@ -2513,7 +2513,7 @@ Es una herramienta diagnóstica y motivadora. En grupos, puede revelar la riquez
 
 **Técnicas asociadas:** Sondeo y cuestionamiento, Intercambios orales
 
-**Herramientas recomendadas:** Notas de campo, Registro anecdótico, Registro descriptivo
+**Instrumentos de evaluación recomendados:** Notas de campo, Registro anecdótico, Registro descriptivo
 
 **Dimensiones asociadas:** Finalidad diagnóstica, Finalidad formativa
 
@@ -2537,7 +2537,7 @@ El ciclo borrador → retroalimentación → revisión → entrega final es uno 
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones, Análisis de producciones
 
-**Herramientas recomendadas:** Ficha de retroalimentación, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Ficha de retroalimentación, Lista de cotejo o control
 
 **Dimensiones asociadas:** Finalidad formativa, Evaluación continua, Retroalimentación y feedforward
 
@@ -2561,7 +2561,7 @@ Evita la acumulación de trabajo al final y permite detectar problemas de compre
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones, Análisis de producciones
 
-**Herramientas recomendadas:** Hoja de seguimiento individual, Rúbrica de proceso, Ficha de retroalimentación
+**Instrumentos de evaluación recomendados:** Hoja de seguimiento individual, Rúbrica de proceso, Ficha de retroalimentación
 
 **Dimensiones asociadas:** Finalidad formativa, Evaluación continua, Retroalimentación y feedforward
 
@@ -2585,7 +2585,7 @@ Hace visible el proceso de aprendizaje, que de otro modo solo se conoce por el p
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Herramientas recomendadas:** Hoja de seguimiento individual, Escala de observación, Rúbrica de proceso
+**Instrumentos de evaluación recomendados:** Hoja de seguimiento individual, Escala de observación, Rúbrica de proceso
 
 **Dimensiones asociadas:** Trabajo por proyectos, Finalidad formativa
 
@@ -2609,7 +2609,7 @@ Es uno de los instrumentos de evaluación formativa con mayor impacto en la cali
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Herramientas recomendadas:** Ficha de coevaluación, Rúbrica de coevaluación, Ficha de retroalimentación
+**Instrumentos de evaluación recomendados:** Ficha de coevaluación, Rúbrica de coevaluación, Ficha de retroalimentación
 
 **Dimensiones asociadas:** Coevaluación, Finalidad formativa, Retroalimentación y feedforward, Evaluación compartida y participativa
 
@@ -2633,7 +2633,7 @@ Es una herramienta especialmente adecuada para introducir la coevaluación con g
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Herramientas recomendadas:** Ficha de retroalimentación, Ficha de coevaluación
+**Instrumentos de evaluación recomendados:** Ficha de retroalimentación, Ficha de coevaluación
 
 **Dimensiones asociadas:** Coevaluación, Finalidad formativa, Retroalimentación y feedforward
 
@@ -2657,7 +2657,7 @@ Es una herramienta de evaluación formativa instantánea que permite al docente 
 
 **Técnicas asociadas:** Sondeo y cuestionamiento, Análisis de procesos y reflexiones
 
-**Herramientas recomendadas:** Semáforo de evaluación, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Semáforo de evaluación, Lista de cotejo o control
 
 **Dimensiones asociadas:** Autoevaluación, Finalidad formativa
 
@@ -2681,7 +2681,7 @@ Es una de las estrategias de evaluación formativa más sencillas y efectivas. C
 
 **Técnicas asociadas:** Sondeo y cuestionamiento, Encuesta y cuestionario
 
-**Herramientas recomendadas:** Formulario digital, Lista de cotejo o control, Ficha de retroalimentación
+**Instrumentos de evaluación recomendados:** Formulario digital, Lista de cotejo o control, Ficha de retroalimentación
 
 **Dimensiones asociadas:** Autoevaluación, Finalidad formativa
 
@@ -2705,7 +2705,7 @@ Es adecuada para evaluar comprensión profunda, manejo de fuentes y aplicación 
 
 **Técnicas asociadas:** Pruebas específicas
 
-**Herramientas recomendadas:** Guía de corrección, Rúbrica analítica, Baremo
+**Instrumentos de evaluación recomendados:** Guía de corrección, Rúbrica analítica, Baremo
 
 **Dimensiones asociadas:** Enfoque competencial, Evaluación criterial, Heteroevaluación
 
@@ -2729,7 +2729,7 @@ Es una de las formas más potentes de evaluación competencial, siempre que la s
 
 **Técnicas asociadas:** Análisis de producciones, Observación sistemática, Triangulación de evidencias
 
-**Herramientas recomendadas:** Rúbrica competencial, Mapa de evidencias por criterio, Lista de indicadores por criterio
+**Instrumentos de evaluación recomendados:** Rúbrica competencial, Mapa de evidencias por criterio, Lista de indicadores por criterio
 
 **Dimensiones asociadas:** Enfoque competencial, Evaluación criterial, Evaluación inclusiva y DUA, Calificación y acreditación
 
@@ -2753,7 +2753,7 @@ Es especialmente adecuada para matemáticas, ciencias, tecnología y materias do
 
 **Técnicas asociadas:** Pruebas específicas, Análisis de producciones
 
-**Herramientas recomendadas:** Rúbrica analítica, Guía de corrección, Lista de indicadores por criterio
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección, Lista de indicadores por criterio
 
 **Dimensiones asociadas:** Resolución de problemas, Enfoque competencial, Evaluación criterial
 
@@ -2777,7 +2777,7 @@ Conviene usarlo con criterios claros, porque la motivación del juego puede ocul
 
 **Técnicas asociadas:** Observación sistemática, Análisis de producciones
 
-**Herramientas recomendadas:** Guía de observación, Rúbrica de trabajo cooperativo, Registro anecdótico
+**Instrumentos de evaluación recomendados:** Guía de observación, Rúbrica de trabajo cooperativo, Registro anecdótico
 
 **Dimensiones asociadas:** Simulación, Resolución de problemas, Evaluación compartida y participativa
 
@@ -2801,7 +2801,7 @@ Permite evaluar pensamiento crítico y comprensión profunda, pero requiere entr
 
 **Técnicas asociadas:** Intercambios orales, Entrevista evaluativa
 
-**Herramientas recomendadas:** Rúbrica oral, Guía de observación, Registro de participación
+**Instrumentos de evaluación recomendados:** Rúbrica oral, Guía de observación, Registro de participación
 
 **Dimensiones asociadas:** Evidencia de desempeño, Evaluación compartida y participativa, Finalidad formativa
 
@@ -2825,7 +2825,7 @@ Es útil porque hace visibles procedimientos que un informe final no muestra.
 
 **Técnicas asociadas:** Observación sistemática
 
-**Herramientas recomendadas:** Lista de cotejo o control, Guía de observación, Registro anecdótico
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Guía de observación, Registro anecdótico
 
 **Dimensiones asociadas:** Evidencia de desempeño, Finalidad formativa, Autoevaluación
 
@@ -2849,7 +2849,7 @@ Es útil para evaluación continua y competencia digital, siempre que haya crite
 
 **Técnicas asociadas:** Análisis documental, Análisis de interacciones digitales, Análisis de procesos y reflexiones
 
-**Herramientas recomendadas:** Historial de revisión, Panel de progreso, Banco digital de evidencias
+**Instrumentos de evaluación recomendados:** Historial de revisión, Panel de progreso, Banco digital de evidencias
 
 **Dimensiones asociadas:** Evidencias digitales, Evaluación continua, Evaluación inclusiva y DUA
 
@@ -2873,13 +2873,13 @@ Es especialmente adecuado para evaluación continua, criterial y competencial.
 
 **Técnicas asociadas:** Análisis documental, Análisis de procesos y reflexiones, Triangulación de evidencias
 
-**Herramientas recomendadas:** Mapa de evidencias por criterio, Banco digital de evidencias, Escala de progreso
+**Instrumentos de evaluación recomendados:** Mapa de evidencias por criterio, Banco digital de evidencias, Escala de progreso
 
 **Dimensiones asociadas:** Evaluación criterial, Evaluación continua, Retroalimentación y feedforward, Calificación y acreditación, Evaluación compartida y participativa, Evaluación inclusiva y DUA
 
 ---
 
-## Herramientas de Evaluación
+## Instrumentos de Evaluación
 
 ### 1. Rúbrica analítica
 
@@ -2903,7 +2903,7 @@ Es la herramienta más adecuada para tareas complejas donde importa dar retroali
 
 **Técnicas asociadas:** Observación sistemática, Análisis de producciones, Pruebas específicas
 
-**Instrumentos compatibles:** Informe de laboratorio, Defensa de proyecto, Exposición oral, Debate, Vídeo, Práctica de laboratorio, Taller, Simulación, Juego de rol, Monografía, Comentario de texto, Comentario de gráfica o datos, Mapa conceptual, Reseña, Artículo divulgativo, Estudio de caso, Prueba escrita de desarrollo, Prueba con documentos, Infografía, Presentación digital, Videotutorial, Cómic, Maqueta, Modelo digital, Entrada de blog, Documento colaborativo, Prueba de libro abierto, Situación-problema
+**Medios/evidencias compatibles:** Informe de laboratorio, Defensa de proyecto, Exposición oral, Debate, Vídeo, Práctica de laboratorio, Taller, Simulación, Juego de rol, Monografía, Comentario de texto, Comentario de gráfica o datos, Mapa conceptual, Reseña, Artículo divulgativo, Estudio de caso, Prueba escrita de desarrollo, Prueba con documentos, Infografía, Presentación digital, Videotutorial, Cómic, Maqueta, Modelo digital, Entrada de blog, Documento colaborativo, Prueba de libro abierto, Situación-problema
 
 **Dimensiones asociadas:** Heteroevaluación, Finalidad sumativa, Estudio de casos, Simulación
 
@@ -2929,7 +2929,7 @@ Adecuada cuando el tiempo es limitado, cuando la tarea es corta o cuando se quie
 
 **Limitaciones:** Ofrece menos información diagnóstica.
 
-**Instrumentos compatibles:** Ensayo, Exposición oral, Defensa de proyecto
+**Medios/evidencias compatibles:** Ensayo, Exposición oral, Defensa de proyecto
 
 **Dimensiones asociadas:** Finalidad sumativa
 
@@ -2957,7 +2957,7 @@ Es fundamental en proyectos de larga duración, investigaciones y portfolios, do
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Instrumentos compatibles:** Defensa de proyecto, Portfolio digital, Bitácora de proyecto, Entrega parcial
+**Medios/evidencias compatibles:** Defensa de proyecto, Portfolio digital, Bitácora de proyecto, Entrega parcial
 
 **Dimensiones asociadas:** Trabajo por proyectos
 
@@ -2983,7 +2983,7 @@ Se complementa con la rúbrica de proceso en proyectos extensos. Usada sola, pue
 
 **Limitaciones:** Puede dejar fuera el proceso si se usa sola.
 
-**Instrumentos compatibles:** Infografía, Informe de laboratorio, Maqueta, Vídeo, Página web, Prototipo
+**Medios/evidencias compatibles:** Infografía, Informe de laboratorio, Maqueta, Vídeo, Página web, Prototipo
 
 **Dimensiones asociadas:** Finalidad sumativa, Evidencia de desempeño
 
@@ -3011,7 +3011,7 @@ Compartirla antes de la actuación permite al alumnado prepararse con mayor orie
 
 **Técnicas asociadas:** Intercambios orales, Entrevista evaluativa
 
-**Instrumentos compatibles:** Debate, Defensa de proyecto, Entrevista, Exposición oral, Podcast, Dramatización, Prueba oral, Foro de discusión, Seminario socrático
+**Medios/evidencias compatibles:** Debate, Defensa de proyecto, Entrevista, Exposición oral, Podcast, Dramatización, Prueba oral, Foro de discusión, Seminario socrático
 
 **Dimensiones asociadas:** Evidencia de desempeño, Coevaluación, Finalidad sumativa
 
@@ -3037,7 +3037,7 @@ Es especialmente útil para evitar que el trabajo grupal diluya la responsabilid
 
 **Limitaciones:** Requiere evidencias de participación real.
 
-**Instrumentos compatibles:** Trabajo cooperativo, Defensa de proyecto, Documento colaborativo, Escape room o reto gamificado
+**Medios/evidencias compatibles:** Trabajo cooperativo, Defensa de proyecto, Documento colaborativo, Escape room o reto gamificado
 
 **Dimensiones asociadas:** Coevaluación, Trabajo por proyectos
 
@@ -3063,7 +3063,7 @@ Es la herramienta más adecuada para la evaluación por competencias que exige e
 
 **Limitaciones:** Debe formular indicadores observables.
 
-**Instrumentos compatibles:** Defensa de proyecto, Estudio de caso, Resolución de problemas, Simulación, Prueba competencial contextualizada, Tarea competencial integrada
+**Medios/evidencias compatibles:** Defensa de proyecto, Estudio de caso, Resolución de problemas, Simulación, Prueba competencial contextualizada, Tarea competencial integrada
 
 **Dimensiones asociadas:** Enfoque competencial, Evaluación criterial
 
@@ -3091,7 +3091,7 @@ Es rápida de aplicar y muy útil para actividades con requisitos claros y cerra
 
 **Técnicas asociadas:** Observación sistemática, Intercambios orales, Sondeo y cuestionamiento
 
-**Instrumentos compatibles:** Billete de salida, Cuaderno de clase, Informe de laboratorio, Práctica de laboratorio, Semáforo de aprendizaje, Trabajo individual en aula, Taller, Exposición oral, Resumen, Esquema, Mapa conceptual, Mapa mental, Línea del tiempo, Glosario, Ficha de lectura, Plan de trabajo, Acta de reunión, Prueba práctica, Infografía, Presentación digital, Videotutorial, Maqueta, Página web, Mapa conceptual inicial, Borrador, Checklist de laboratorio
+**Medios/evidencias compatibles:** Billete de salida, Cuaderno de clase, Informe de laboratorio, Práctica de laboratorio, Semáforo de aprendizaje, Trabajo individual en aula, Taller, Exposición oral, Resumen, Esquema, Mapa conceptual, Mapa mental, Línea del tiempo, Glosario, Ficha de lectura, Plan de trabajo, Acta de reunión, Prueba práctica, Infografía, Presentación digital, Videotutorial, Maqueta, Página web, Mapa conceptual inicial, Borrador, Checklist de laboratorio
 
 **Dimensiones asociadas:** Autoevaluación, Heteroevaluación, Finalidad formativa, Evidencia de desempeño, Indagación
 
@@ -3119,7 +3119,7 @@ Cómo usarla: se definen los indicadores que se van a observar y se elige una es
 
 **Técnicas asociadas:** Observación sistemática, Intercambios orales
 
-**Instrumentos compatibles:** Debate, Defensa de proyecto, Exposición oral, Práctica de laboratorio, Pregunta oral estructurada, Trabajo cooperativo, Trabajo individual en aula, Participación en clase, Coloquio, Asamblea, Taller, Simulación, Juego de rol, Dramatización, Entrevista, Cuaderno de clase, Comentario de gráfica o datos, Esquema, Mapa mental, Ficha de lectura, Ficha de reflexión, Autoinforme, Póster académico, Cómic, Modelo digital, Entrada de blog, Bitácora de proyecto
+**Medios/evidencias compatibles:** Debate, Defensa de proyecto, Exposición oral, Práctica de laboratorio, Pregunta oral estructurada, Trabajo cooperativo, Trabajo individual en aula, Participación en clase, Coloquio, Asamblea, Taller, Simulación, Juego de rol, Dramatización, Entrevista, Cuaderno de clase, Comentario de gráfica o datos, Esquema, Mapa mental, Ficha de lectura, Ficha de reflexión, Autoinforme, Póster académico, Cómic, Modelo digital, Entrada de blog, Bitácora de proyecto
 
 **Dimensiones asociadas:** Coevaluación, Heteroevaluación, Finalidad formativa, Evidencia de desempeño, Simulación
 
@@ -3145,7 +3145,7 @@ Adecuada cuando el docente tiene suficiente experiencia para aplicar criterios i
 
 **Limitaciones:** Menos precisa que una rúbrica completa.
 
-**Instrumentos compatibles:** Cuaderno de clase, Participación en clase, Podcast, Resumen, Vídeo
+**Medios/evidencias compatibles:** Cuaderno de clase, Participación en clase, Podcast, Resumen, Vídeo
 
 **Dimensiones asociadas:** Finalidad formativa, Finalidad sumativa
 
@@ -3173,7 +3173,7 @@ Es un buen punto de partida para docentes que quieren introducir criterios más 
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos compatibles:** Comentario de texto, Exposición oral, Resolución de problemas, Porfolio, Resumen, Artículo divulgativo
+**Medios/evidencias compatibles:** Comentario de texto, Exposición oral, Resolución de problemas, Porfolio, Resumen, Artículo divulgativo
 
 **Dimensiones asociadas:** Resolución de problemas, Estudio de casos
 
@@ -3201,7 +3201,7 @@ Aumenta la consistencia de la corrección entre distintas correcciones del mismo
 
 **Técnicas asociadas:** Análisis de producciones, Pruebas específicas, Entrevista evaluativa
 
-**Instrumentos compatibles:** Prueba escrita de desarrollo, Resolución de problemas, Comentario de texto, Informe de laboratorio, Informe de investigación, Monografía, Ensayo, Glosario, Reseña, Estudio de caso, Prueba de respuesta corta, Prueba competencial contextualizada, Prueba con documentos, Prueba de libro abierto, Situación-problema
+**Medios/evidencias compatibles:** Prueba escrita de desarrollo, Resolución de problemas, Comentario de texto, Informe de laboratorio, Informe de investigación, Monografía, Ensayo, Glosario, Reseña, Estudio de caso, Prueba de respuesta corta, Prueba competencial contextualizada, Prueba con documentos, Prueba de libro abierto, Situación-problema
 
 **Dimensiones asociadas:** Heteroevaluación, Finalidad sumativa, Indagación, Resolución de problemas
 
@@ -3229,7 +3229,7 @@ Es especialmente útil cuando hay muchas pruebas que corregir o cuando varios do
 
 **Técnicas asociadas:** Pruebas específicas, Encuesta y cuestionario
 
-**Instrumentos compatibles:** Prueba tipo test, Cuestionario digital, Prueba de respuesta corta, Prueba objetiva
+**Medios/evidencias compatibles:** Prueba tipo test, Cuestionario digital, Prueba de respuesta corta, Prueba objetiva
 
 **Dimensiones asociadas:** Finalidad sumativa
 
@@ -3257,7 +3257,7 @@ Un baremo bien diseñado refleja la importancia relativa de cada contenido o com
 
 **Técnicas asociadas:** Pruebas específicas
 
-**Instrumentos compatibles:** Prueba escrita de desarrollo, Resolución de problemas, Informe de laboratorio, Comentario de texto, Prueba objetiva, Prueba tipo test, Prueba de respuesta corta, Prueba de libro abierto
+**Medios/evidencias compatibles:** Prueba escrita de desarrollo, Resolución de problemas, Informe de laboratorio, Comentario de texto, Prueba objetiva, Prueba tipo test, Prueba de respuesta corta, Prueba de libro abierto
 
 **Dimensiones asociadas:** Finalidad sumativa
 
@@ -3285,7 +3285,7 @@ Es especialmente útil en etapas sin calificación numérica, para completar bol
 
 **Técnicas asociadas:** Observación sistemática, Observación incidental, Intercambios orales, Entrevista evaluativa
 
-**Instrumentos compatibles:** Práctica de laboratorio, Lluvia de ideas, Participación en clase, Pregunta oral estructurada, Coloquio, Juego de rol, Entrevista, Escape room o reto gamificado, Checklist de laboratorio
+**Medios/evidencias compatibles:** Práctica de laboratorio, Lluvia de ideas, Participación en clase, Pregunta oral estructurada, Coloquio, Juego de rol, Entrevista, Escape room o reto gamificado, Checklist de laboratorio
 
 **Dimensiones asociadas:** Simulación
 
@@ -3313,7 +3313,7 @@ Permite comunicar a las familias y al propio alumno una imagen rica y matizada d
 
 **Técnicas asociadas:** Sondeo y cuestionamiento
 
-**Instrumentos compatibles:** Defensa de proyecto, Práctica de laboratorio, Simulación, KPSI, Mapa conceptual inicial, Lluvia de ideas
+**Medios/evidencias compatibles:** Defensa de proyecto, Práctica de laboratorio, Simulación, KPSI, Mapa conceptual inicial, Lluvia de ideas
 
 **Dimensiones asociadas:** Finalidad formativa, Evidencia de desempeño
 
@@ -3341,7 +3341,7 @@ No es solo un registro de lo que ocurrió, sino una herramienta de mejora de la 
 
 **Técnicas asociadas:** Observación incidental
 
-**Instrumentos compatibles:** Participación en clase, Trabajo cooperativo, Práctica de laboratorio
+**Medios/evidencias compatibles:** Participación en clase, Trabajo cooperativo, Práctica de laboratorio
 
 **Dimensiones asociadas:** Finalidad formativa
 
@@ -3369,7 +3369,7 @@ Es especialmente útil para el seguimiento personalizado en grupos con necesidad
 
 **Técnicas asociadas:** Sondeo y cuestionamiento, Análisis de procesos y reflexiones
 
-**Instrumentos compatibles:** Portfolio digital, Defensa de proyecto, Trabajo individual en aula, Porfolio, Memoria de proyecto, Plan de trabajo, Prototipo, Documento colaborativo, Entrega parcial, Bitácora de proyecto
+**Medios/evidencias compatibles:** Portfolio digital, Defensa de proyecto, Trabajo individual en aula, Porfolio, Memoria de proyecto, Plan de trabajo, Prototipo, Documento colaborativo, Entrega parcial, Bitácora de proyecto
 
 **Dimensiones asociadas:** Trabajo por proyectos, Evaluación continua
 
@@ -3395,7 +3395,7 @@ Es una herramienta de gestión de aula muy útil para docentes con varios grupos
 
 **Limitaciones:** Puede ocultar diferencias individuales si se usa sola.
 
-**Instrumentos compatibles:** Defensa de proyecto, Trabajo cooperativo, Documento colaborativo
+**Medios/evidencias compatibles:** Defensa de proyecto, Trabajo cooperativo, Documento colaborativo
 
 **Dimensiones asociadas:** Finalidad formativa, Trabajo por proyectos
 
@@ -3421,7 +3421,7 @@ Permite dar retroalimentación objetiva sobre la participación, detectar quién
 
 **Limitaciones:** No debe confundirse cantidad con calidad.
 
-**Instrumentos compatibles:** Debate, Foro de discusión, Asamblea, Coloquio, Participación en clase, Seminario socrático
+**Medios/evidencias compatibles:** Debate, Foro de discusión, Asamblea, Coloquio, Participación en clase, Seminario socrático
 
 **Dimensiones asociadas:** Finalidad formativa, Evidencia de desempeño
 
@@ -3447,7 +3447,7 @@ Es especialmente útil en proyectos y actividades grupales extensas, donde el fu
 
 **Limitaciones:** Necesita observación o evidencias complementarias.
 
-**Instrumentos compatibles:** Defensa de proyecto, Trabajo cooperativo, Documento colaborativo
+**Medios/evidencias compatibles:** Defensa de proyecto, Trabajo cooperativo, Documento colaborativo
 
 **Dimensiones asociadas:** Coevaluación, Trabajo por proyectos
 
@@ -3475,7 +3475,7 @@ Son la base de la observación incidental y del registro anecdótico. Con el tie
 
 **Técnicas asociadas:** Observación incidental
 
-**Instrumentos compatibles:** Billete de salida, Informe de investigación, Práctica de laboratorio, Lluvia de ideas
+**Medios/evidencias compatibles:** Billete de salida, Informe de investigación, Práctica de laboratorio, Lluvia de ideas
 
 **Dimensiones asociadas:** Finalidad formativa
 
@@ -3501,7 +3501,7 @@ Es más flexible que una rúbrica fija y más informativa que una nota sola. Ade
 
 **Limitaciones:** Menos completa que una rúbrica.
 
-**Instrumentos compatibles:** Resumen, Comentario de texto
+**Medios/evidencias compatibles:** Resumen, Comentario de texto
 
 **Dimensiones asociadas:** Finalidad sumativa, Finalidad formativa
 
@@ -3529,7 +3529,7 @@ La retroalimentación es más efectiva cuando es específica, oportuna y orienta
 
 **Técnicas asociadas:** Análisis de producciones, Análisis de procesos y reflexiones
 
-**Instrumentos compatibles:** Dos estrellas y un deseo, Borrador, Defensa de proyecto, Entrega parcial, Informe de laboratorio, Diario de aprendizaje, Ficha de reflexión, Revisión por pares, Billete de salida
+**Medios/evidencias compatibles:** Dos estrellas y un deseo, Borrador, Defensa de proyecto, Entrega parcial, Informe de laboratorio, Diario de aprendizaje, Ficha de reflexión, Revisión por pares, Billete de salida
 
 **Dimensiones asociadas:** Finalidad formativa, Retroalimentación y feedforward
 
@@ -3555,7 +3555,7 @@ Es un término genérico que engloba las rúbricas analíticas. La diferencia pr
 
 **Limitaciones:** Puede ser compleja para el alumnado.
 
-**Instrumentos compatibles:** Defensa de proyecto, Informe de laboratorio, Exposición oral, Estudio de caso
+**Medios/evidencias compatibles:** Defensa de proyecto, Informe de laboratorio, Exposición oral, Estudio de caso
 
 **Dimensiones asociadas:** Enfoque competencial, Finalidad sumativa
 
@@ -3581,7 +3581,7 @@ Es una herramienta de eficiencia que reduce el tiempo de diseño de instrumentos
 
 **Limitaciones:** Debe adaptarse al criterio concreto.
 
-**Instrumentos compatibles:** Porfolio, Defensa de proyecto, Exposición oral
+**Medios/evidencias compatibles:** Porfolio, Defensa de proyecto, Exposición oral
 
 **Dimensiones asociadas:** Enfoque competencial
 
@@ -3609,7 +3609,7 @@ En el marco de la evaluación por competencias (LOMLOE), el perfil de logro es l
 
 **Técnicas asociadas:** Triangulación de evidencias
 
-**Instrumentos compatibles:** Portfolio digital, Defensa de proyecto
+**Medios/evidencias compatibles:** Portfolio digital, Defensa de proyecto
 
 **Dimensiones asociadas:** Enfoque competencial
 
@@ -3635,7 +3635,7 @@ Es especialmente útil para la autoevaluación, la coevaluación y la comunicaci
 
 **Limitaciones:** Menos precisa que una rúbrica.
 
-**Instrumentos compatibles:** Defensa de proyecto, Exposición oral, Diario de aprendizaje, Ficha de reflexión
+**Medios/evidencias compatibles:** Defensa de proyecto, Exposición oral, Diario de aprendizaje, Ficha de reflexión
 
 **Dimensiones asociadas:** Autoevaluación
 
@@ -3661,7 +3661,7 @@ Adecuado para el seguimiento formativo rápido, la comunicación a familias y la
 
 **Limitaciones:** Poca precisión.
 
-**Instrumentos compatibles:** Billete de salida, Semáforo de aprendizaje
+**Medios/evidencias compatibles:** Billete de salida, Semáforo de aprendizaje
 
 **Dimensiones asociadas:** Autoevaluación, Finalidad formativa
 
@@ -3689,7 +3689,7 @@ Su valor es principalmente metacognitivo: obliga al alumno a reflexionar sobre s
 
 **Técnicas asociadas:** Sondeo y cuestionamiento, Análisis de procesos y reflexiones, Encuesta y cuestionario
 
-**Instrumentos compatibles:** Diario de aprendizaje, KPSI, Portfolio digital
+**Medios/evidencias compatibles:** Diario de aprendizaje, KPSI, Portfolio digital
 
 **Dimensiones asociadas:** Autoevaluación
 
@@ -3715,7 +3715,7 @@ Es especialmente útil en portfolios, proyectos y tareas complejas donde el alum
 
 **Limitaciones:** Necesita entrenamiento.
 
-**Instrumentos compatibles:** Defensa de proyecto, Informe de laboratorio, Exposición oral, Portfolio digital, Autoinforme
+**Medios/evidencias compatibles:** Defensa de proyecto, Informe de laboratorio, Exposición oral, Portfolio digital, Autoinforme
 
 **Dimensiones asociadas:** Autoevaluación
 
@@ -3741,7 +3741,7 @@ Para que sea efectiva, los alumnos deben haber practicado aplicar los criterios 
 
 **Limitaciones:** Puede haber sesgos personales.
 
-**Instrumentos compatibles:** Revisión por pares, Exposición oral, Defensa de proyecto
+**Medios/evidencias compatibles:** Revisión por pares, Exposición oral, Defensa de proyecto
 
 **Dimensiones asociadas:** Coevaluación, Evaluación compartida y participativa
 
@@ -3767,7 +3767,7 @@ Es una buena introducción a la coevaluación para grupos que no tienen práctic
 
 **Limitaciones:** Menos detallada que una rúbrica.
 
-**Instrumentos compatibles:** Dos estrellas y un deseo, Debate, Exposición oral, Revisión por pares, Trabajo cooperativo
+**Medios/evidencias compatibles:** Dos estrellas y un deseo, Debate, Exposición oral, Revisión por pares, Trabajo cooperativo
 
 **Dimensiones asociadas:** Coevaluación, Evaluación compartida y participativa
 
@@ -3793,7 +3793,7 @@ Es especialmente útil para tareas con requisitos claros y cerrados (formato de 
 
 **Limitaciones:** No valora calidad si es dicotómica.
 
-**Instrumentos compatibles:** Informe de laboratorio, Cuaderno de clase, Presentación digital
+**Medios/evidencias compatibles:** Informe de laboratorio, Cuaderno de clase, Presentación digital
 
 **Dimensiones asociadas:** Autoevaluación
 
@@ -3821,7 +3821,7 @@ Cierra el ciclo de la evaluación formativa: recogida de evidencias → retroali
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Instrumentos compatibles:** Portfolio digital, Diario de aprendizaje, Defensa de proyecto, Contrato de aprendizaje
+**Medios/evidencias compatibles:** Portfolio digital, Diario de aprendizaje, Defensa de proyecto, Contrato de aprendizaje
 
 **Dimensiones asociadas:** Autoevaluación, Finalidad formativa, Retroalimentación y feedforward, Evaluación compartida y participativa
 
@@ -3847,7 +3847,7 @@ Más allá de ser un registro administrativo, puede usarse para detectar tendenc
 
 **Limitaciones:** No explica por sí solo el aprendizaje.
 
-**Instrumentos compatibles:** Trabajo individual en aula, Participación en clase, Cuaderno de clase
+**Medios/evidencias compatibles:** Trabajo individual en aula, Participación en clase, Cuaderno de clase
 
 **Dimensiones asociadas:** Heteroevaluación, Finalidad sumativa
 
@@ -3875,7 +3875,7 @@ Permite al alumnado y a las familias conocer exactamente en qué criterios está
 
 **Técnicas asociadas:** Triangulación de evidencias
 
-**Instrumentos compatibles:** Prueba competencial contextualizada, Ensayo, Informe de investigación
+**Medios/evidencias compatibles:** Prueba competencial contextualizada, Ensayo, Informe de investigación
 
 **Dimensiones asociadas:** Finalidad sumativa, Enfoque competencial, Evaluación criterial, Calificación y acreditación
 
@@ -3901,7 +3901,7 @@ Una buena matriz de ponderación refleja las prioridades pedagógicas: si el pro
 
 **Limitaciones:** Puede rigidizar la evaluación.
 
-**Instrumentos compatibles:** Memoria de proyecto, Porfolio, Prueba escrita de desarrollo
+**Medios/evidencias compatibles:** Memoria de proyecto, Porfolio, Prueba escrita de desarrollo
 
 **Dimensiones asociadas:** Finalidad sumativa, Calificación y acreditación
 
@@ -3929,7 +3929,7 @@ Su ventaja es la facilidad de comunicación y cálculo. Su limitación es que no
 
 **Técnicas asociadas:** Pruebas específicas
 
-**Instrumentos compatibles:** Prueba objetiva, Prueba tipo test, Prueba escrita de desarrollo
+**Medios/evidencias compatibles:** Prueba objetiva, Prueba tipo test, Prueba escrita de desarrollo
 
 **Dimensiones asociadas:** Finalidad sumativa
 
@@ -3955,7 +3955,7 @@ Tiene la ventaja de ser más descriptiva que una nota numérica y comunicar mejo
 
 **Limitaciones:** Puede ser ambigua sin descriptores.
 
-**Instrumentos compatibles:** Porfolio, Diario de aprendizaje, Ficha de reflexión
+**Medios/evidencias compatibles:** Porfolio, Diario de aprendizaje, Ficha de reflexión
 
 **Dimensiones asociadas:** Finalidad formativa, Finalidad sumativa
 
@@ -3981,7 +3981,7 @@ Permite combinar una evaluación cualitativa y orientada al aprendizaje con la o
 
 **Limitaciones:** Debe ser transparente y justificable.
 
-**Instrumentos compatibles:** Exposición oral, Defensa de proyecto, Memoria de proyecto
+**Medios/evidencias compatibles:** Exposición oral, Defensa de proyecto, Memoria de proyecto
 
 **Dimensiones asociadas:** Finalidad sumativa
 
@@ -4007,7 +4007,7 @@ Es la herramienta más eficiente para gestionar la calificación de grupos grand
 
 **Limitaciones:** Puede generar falsa precisión.
 
-**Instrumentos compatibles:** Prueba objetiva, Memoria de proyecto, Porfolio
+**Medios/evidencias compatibles:** Prueba objetiva, Memoria de proyecto, Porfolio
 
 **Dimensiones asociadas:** Evidencias digitales, Finalidad sumativa
 
@@ -4033,7 +4033,7 @@ Es el documento de comunicación más completo entre el centro y la familia. Su 
 
 **Limitaciones:** Requiere síntesis cuidadosa.
 
-**Instrumentos compatibles:** Portfolio digital
+**Medios/evidencias compatibles:** Portfolio digital
 
 **Dimensiones asociadas:** Finalidad sumativa, Calificación y acreditación
 
@@ -4059,7 +4059,7 @@ Es el registro final del proceso evaluativo. Su cumplimentación correcta es una
 
 **Limitaciones:** No sustituye a herramientas pedagógicas.
 
-**Instrumentos compatibles:** Defensa de proyecto, Prueba oral
+**Medios/evidencias compatibles:** Defensa de proyecto, Prueba oral
 
 **Dimensiones asociadas:** Finalidad sumativa, Heteroevaluación, Calificación y acreditación
 
@@ -4087,7 +4087,7 @@ Ahorra tiempo de corrección en evaluaciones cerradas, facilita el análisis de 
 
 **Técnicas asociadas:** Sondeo y cuestionamiento, Encuesta y cuestionario
 
-**Instrumentos compatibles:** Billete de salida, Cuestionario digital, KPSI, Mapa conceptual inicial
+**Medios/evidencias compatibles:** Billete de salida, Cuestionario digital, KPSI, Mapa conceptual inicial
 
 **Dimensiones asociadas:** Coevaluación, Evidencias digitales
 
@@ -4113,7 +4113,7 @@ Reduce el tiempo de corrección, facilita la coherencia entre correcciones y per
 
 **Limitaciones:** Puede depender de la plataforma.
 
-**Instrumentos compatibles:** Defensa de proyecto, Informe de laboratorio, Vídeo, Presentación digital, Página web
+**Medios/evidencias compatibles:** Defensa de proyecto, Informe de laboratorio, Vídeo, Presentación digital, Página web
 
 **Dimensiones asociadas:** Evidencias digitales, Finalidad sumativa
 
@@ -4141,7 +4141,7 @@ Es una evidencia de proceso muy valiosa en trabajos grupales digitales, ya que h
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones, Análisis documental, Análisis de interacciones digitales
 
-**Instrumentos compatibles:** Documento colaborativo, Defensa de proyecto, Cuaderno digital
+**Medios/evidencias compatibles:** Documento colaborativo, Defensa de proyecto, Cuaderno digital
 
 **Dimensiones asociadas:** Evidencias digitales, Finalidad formativa
 
@@ -4169,7 +4169,7 @@ Favorece la transparencia, la autorregulación y la motivación. En versiones di
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones, Análisis de interacciones digitales
 
-**Instrumentos compatibles:** Portfolio digital, Defensa de proyecto, Cuaderno digital
+**Medios/evidencias compatibles:** Portfolio digital, Defensa de proyecto, Cuaderno digital
 
 **Dimensiones asociadas:** Evidencias digitales, Finalidad formativa, Evaluación continua
 
@@ -4197,7 +4197,7 @@ Son especialmente útiles para identificar tendencias grupales e individuales de
 
 **Técnicas asociadas:** Análisis de interacciones digitales
 
-**Instrumentos compatibles:** Cuestionario digital, Foro de discusión
+**Medios/evidencias compatibles:** Cuestionario digital, Foro de discusión
 
 **Dimensiones asociadas:** Evidencias digitales, Finalidad formativa
 
@@ -4225,7 +4225,7 @@ Es la base del portfolio digital. Permite la evaluación continua, la reflexión
 
 **Técnicas asociadas:** Análisis documental
 
-**Instrumentos compatibles:** Portfolio digital, Defensa de proyecto, Cuaderno digital, E-portfolio con evidencias seleccionadas
+**Medios/evidencias compatibles:** Portfolio digital, Defensa de proyecto, Cuaderno digital, E-portfolio con evidencias seleccionadas
 
 **Dimensiones asociadas:** Evidencias digitales, Finalidad formativa, Evaluación continua
 
@@ -4251,7 +4251,7 @@ Es útil para hacer más transparente la evaluación criterial.
 
 **Limitaciones:** Puede fragmentar el aprendizaje si se convierte en una lista mecánica.
 
-**Instrumentos compatibles:** Tarea competencial integrada, Situación-problema, Prueba de libro abierto
+**Medios/evidencias compatibles:** Tarea competencial integrada, Situación-problema, Prueba de libro abierto
 
 **Dimensiones asociadas:** Evaluación criterial, Enfoque competencial
 
@@ -4277,7 +4277,7 @@ Es muy útil para evaluación continua y autorregulación, porque ayuda a entend
 
 **Limitaciones:** Requiere revisar periódicamente evidencias comparables.
 
-**Instrumentos compatibles:** E-portfolio con evidencias seleccionadas, Cuaderno digital, Diario de aprendizaje
+**Medios/evidencias compatibles:** E-portfolio con evidencias seleccionadas, Cuaderno digital, Diario de aprendizaje
 
 **Dimensiones asociadas:** Evaluación continua, Evaluación inclusiva y DUA, Finalidad formativa
 
@@ -4305,7 +4305,7 @@ Es especialmente útil cuando varios docentes observan o cuando la actividad es 
 
 **Técnicas asociadas:** Entrevista evaluativa
 
-**Instrumentos compatibles:** Checklist de laboratorio, Seminario socrático, Escape room o reto gamificado, Debate, Trabajo cooperativo
+**Medios/evidencias compatibles:** Checklist de laboratorio, Seminario socrático, Escape room o reto gamificado, Debate, Trabajo cooperativo
 
 **Dimensiones asociadas:** Evidencia de desempeño, Finalidad formativa
 
@@ -4331,7 +4331,7 @@ Su fuerza está en que desplaza la corrección desde el juicio final hacia la me
 
 **Limitaciones:** Pierde valor si se rellena con frases genéricas.
 
-**Instrumentos compatibles:** Borrador, Entrega parcial, Revisión por pares, E-portfolio con evidencias seleccionadas
+**Medios/evidencias compatibles:** Borrador, Entrega parcial, Revisión por pares, E-portfolio con evidencias seleccionadas
 
 **Dimensiones asociadas:** Retroalimentación y feedforward, Finalidad formativa, Evaluación inclusiva y DUA
 
@@ -4357,7 +4357,7 @@ Es útil para evaluar y regular el proceso cooperativo con mayor justicia.
 
 **Limitaciones:** Debe revisarse durante el proceso, no quedarse como trámite inicial.
 
-**Instrumentos compatibles:** Trabajo cooperativo, Documento colaborativo, Defensa de proyecto
+**Medios/evidencias compatibles:** Trabajo cooperativo, Documento colaborativo, Defensa de proyecto
 
 **Dimensiones asociadas:** Evaluación compartida y participativa, Trabajo por proyectos, Finalidad formativa
 
@@ -4383,7 +4383,7 @@ Es una herramienta de evaluación del contexto social del aprendizaje más que d
 
 **Limitaciones:** Maneja información sensible y debe usarse con confidencialidad.
 
-**Instrumentos compatibles:** Asamblea, Trabajo cooperativo
+**Medios/evidencias compatibles:** Asamblea, Trabajo cooperativo
 
 **Dimensiones asociadas:** Finalidad formativa, Evaluación compartida y participativa
 
@@ -4411,7 +4411,7 @@ Es una herramienta clave para evaluación criterial y triangulación de evidenci
 
 **Técnicas asociadas:** Análisis documental, Triangulación de evidencias
 
-**Instrumentos compatibles:** Tarea competencial integrada, E-portfolio con evidencias seleccionadas, Prueba competencial contextualizada
+**Medios/evidencias compatibles:** Tarea competencial integrada, E-portfolio con evidencias seleccionadas, Prueba competencial contextualizada
 
 **Dimensiones asociadas:** Evaluación criterial, Enfoque competencial, Calificación y acreditación, Evaluación inclusiva y DUA
 
