@@ -5,8 +5,6 @@
     "Descripción breve": "Observación planificada y documentada del desempeño durante una actividad.",
     "Finalidad principal": "Registrar actuaciones, procedimientos, participación y hábitos.",
     "Evidencias habituales": "Actuaciones orales, prácticas, trabajo en grupo, participación.",
-    "Instrumentos asociados": "Debate; Exposición oral; Práctica de laboratorio; Taller; Trabajo cooperativo; Simulación; Trabajo individual en aula; Participación en clase; Asamblea; Dramatización; Prototipo",
-    "Herramientas recomendadas": "Lista de cotejo o control; Escala de observación; Rúbrica analítica; Registro anecdótico",
     "Cuándo conviene": "Cuando la evidencia sucede en directo y no basta con revisar un producto final.",
     "Limitaciones": "Puede ser subjetiva si no hay criterios claros.",
     "Fase": "Proceso",
@@ -52,7 +50,10 @@
         "HER_RUB_ANA": "complementaria",
         "HER_REG_ANE": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Debate; Exposición oral; Práctica de laboratorio; Taller; Trabajo cooperativo; Simulación; Trabajo individual en aula; Participación en clase; Asamblea; Dramatización; Prototipo",
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala de observación; Rúbrica analítica; Registro anecdótico"
   },
   {
     "Código": "TEC_OBS_INC",
@@ -60,8 +61,6 @@
     "Descripción breve": "Registro de hechos relevantes surgidos de forma no prevista.",
     "Finalidad principal": "Detectar avances, dificultades o incidencias significativas.",
     "Evidencias habituales": "Conductas, comentarios, conflictos, iniciativas, dudas.",
-    "Instrumentos asociados": "Trabajo individual en aula; Participación en clase; Trabajo cooperativo",
-    "Herramientas recomendadas": "Registro anecdótico; Notas de campo; Diario del profesor",
     "Cuándo conviene": "Cuando aparece una evidencia imprevista pero relevante.",
     "Limitaciones": "No sustituye a una observación sistemática.",
     "Fase": "Proceso",
@@ -89,7 +88,10 @@
         "HER_NOTAS_CAMPO": "complementaria",
         "HER_DIARIO_PROF": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Trabajo individual en aula; Participación en clase; Trabajo cooperativo",
+    "Instrumentos de evaluación recomendados": "Registro anecdótico; Notas de campo; Diario del profesor"
   },
   {
     "Código": "TEC_PROD",
@@ -97,8 +99,6 @@
     "Descripción breve": "Valoración de productos elaborados por el alumnado.",
     "Finalidad principal": "Evaluar calidad, contenido, estructura, proceso y transferencia.",
     "Evidencias habituales": "Textos, informes, proyectos, vídeos, mapas, infografías, portfolios.",
-    "Instrumentos asociados": "Cuaderno de clase; Informe de laboratorio; Defensa de proyecto; Ensayo; Infografía; Vídeo; Podcast; Maqueta; Porfolio; Informe de investigación; Monografía; Comentario de texto; Comentario de gráfica o datos; Resumen; Esquema; Mapa conceptual; Mapa mental; Línea del tiempo; Glosario; Ficha de lectura; Reseña; Artículo divulgativo; Memoria de proyecto; Estudio de caso; Prueba con documentos; Póster académico; Presentación digital; Videotutorial; Cómic; Modelo digital; Prototipo; Página web; Entrada de blog; Documento colaborativo; Portfolio digital; Mapa conceptual inicial; Borrador; Entrega parcial",
-    "Herramientas recomendadas": "Rúbrica analítica; Guía de corrección; Escala descriptiva; Ficha de retroalimentación",
     "Cuándo conviene": "Cuando hay un producto o artefacto evaluable.",
     "Limitaciones": "No muestra todo el proceso si no se acompaña de seguimiento.",
     "Fase": "Proceso/Final",
@@ -198,7 +198,10 @@
         "HER_ESC_DESC": "complementaria",
         "HER_FICHA_RETRO": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Cuaderno de clase; Informe de laboratorio; Defensa de proyecto; Ensayo; Infografía; Vídeo; Podcast; Maqueta; Porfolio; Informe de investigación; Monografía; Comentario de texto; Comentario de gráfica o datos; Resumen; Esquema; Mapa conceptual; Mapa mental; Línea del tiempo; Glosario; Ficha de lectura; Reseña; Artículo divulgativo; Memoria de proyecto; Estudio de caso; Prueba con documentos; Póster académico; Presentación digital; Videotutorial; Cómic; Modelo digital; Prototipo; Página web; Entrada de blog; Documento colaborativo; Portfolio digital; Mapa conceptual inicial; Borrador; Entrega parcial",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Escala descriptiva; Ficha de retroalimentación"
   },
   {
     "Código": "TEC_PRUEBA",
@@ -206,8 +209,6 @@
     "Descripción breve": "Situaciones diseñadas expresamente para comprobar aprendizajes.",
     "Finalidad principal": "Comprobar conocimientos, aplicación, razonamiento o destrezas.",
     "Evidencias habituales": "Respuestas escritas, orales o prácticas en condiciones controladas.",
-    "Instrumentos asociados": "Prueba escrita de desarrollo; Prueba tipo test; Prueba oral; Prueba práctica; Cuestionario digital; Comentario de texto; Resolución de problemas; Estudio de caso; Prueba objetiva; Prueba de respuesta corta; Prueba competencial contextualizada; Prueba con documentos",
-    "Herramientas recomendadas": "Guía de corrección; Baremo; Plantilla de corrección; Rúbrica analítica; Escala numérica",
     "Cuándo conviene": "Cuando se necesita una comprobación puntual o comparable.",
     "Limitaciones": "Puede reducir la evaluación si se usa como única evidencia.",
     "Fase": "Inicial/Proceso/Final",
@@ -257,7 +258,10 @@
         "HER_RUB_ANA": "complementaria",
         "HER_ESC_NUM": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Prueba escrita de desarrollo; Prueba tipo test; Prueba oral; Prueba práctica; Cuestionario digital; Comentario de texto; Resolución de problemas; Estudio de caso; Prueba objetiva; Prueba de respuesta corta; Prueba competencial contextualizada; Prueba con documentos",
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Baremo; Plantilla de corrección; Rúbrica analítica; Escala numérica"
   },
   {
     "Código": "TEC_ORAL",
@@ -265,8 +269,6 @@
     "Descripción breve": "Obtención de evidencias mediante comunicación oral.",
     "Finalidad principal": "Valorar comprensión, argumentación, expresión y diálogo.",
     "Evidencias habituales": "Intervenciones, respuestas, debates, defensas, entrevistas.",
-    "Instrumentos asociados": "Debate; Coloquio; Entrevista; Exposición oral; Defensa de proyecto; Asamblea; Juego de rol; Pregunta oral estructurada; Prueba oral; Presentación digital; Podcast; Foro de discusión; Lluvia de ideas",
-    "Herramientas recomendadas": "Rúbrica oral; Escala de observación; Lista de cotejo o control; Registro anecdótico",
     "Cuándo conviene": "Cuando se evalúa comunicación, razonamiento verbal o interacción.",
     "Limitaciones": "Puede depender de factores emocionales.",
     "Fase": "Proceso/Final",
@@ -316,7 +318,10 @@
         "HER_LISTA": "complementaria",
         "HER_REG_ANE": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Debate; Coloquio; Entrevista; Exposición oral; Defensa de proyecto; Asamblea; Juego de rol; Pregunta oral estructurada; Prueba oral; Presentación digital; Podcast; Foro de discusión; Lluvia de ideas",
+    "Instrumentos de evaluación recomendados": "Rúbrica oral; Escala de observación; Lista de cotejo o control; Registro anecdótico"
   },
   {
     "Código": "TEC_SONDEO",
@@ -324,8 +329,6 @@
     "Descripción breve": "Recogida rápida de respuestas, ideas previas o comprensión mediante preguntas breves.",
     "Finalidad principal": "Explorar conocimientos previos, comprobar comprensión inmediata y detectar necesidades de ajuste.",
     "Evidencias habituales": "Respuestas breves, preguntas orales, cuestionarios iniciales, KPSI, billetes de salida, lluvia de ideas.",
-    "Instrumentos asociados": "KPSI; Mapa conceptual inicial; Lluvia de ideas; Billete de salida; Pregunta oral estructurada; Cuestionario digital; Prueba de respuesta corta; Prueba tipo test; Semáforo de aprendizaje",
-    "Herramientas recomendadas": "Formulario digital; Escala de autoevaluación; Lista de cotejo o control; Registro descriptivo; Hoja de seguimiento individual",
     "Cuándo conviene": "Cuando se necesita información rápida para iniciar, ajustar o cerrar una sesión sin convertir la actividad en una prueba extensa.",
     "Limitaciones": "Puede dar evidencias superficiales si las preguntas no están bien formuladas o no se usan después para tomar decisiones docentes.",
     "Fase": "Inicial/Proceso/Final",
@@ -369,7 +372,10 @@
         "HER_REG_DESC": "complementaria",
         "HER_HOJA_IND": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "KPSI; Mapa conceptual inicial; Lluvia de ideas; Billete de salida; Pregunta oral estructurada; Cuestionario digital; Prueba de respuesta corta; Prueba tipo test; Semáforo de aprendizaje",
+    "Instrumentos de evaluación recomendados": "Formulario digital; Escala de autoevaluación; Lista de cotejo o control; Registro descriptivo; Hoja de seguimiento individual"
   },
   {
     "Código": "TEC_PROC_REFLEX",
@@ -377,8 +383,6 @@
     "Descripción breve": "Revisión de evidencias intermedias, registros de proceso y reflexiones del alumnado.",
     "Finalidad principal": "Comprender cómo aprende, planifica, revisa, coopera y mejora el alumnado durante una tarea.",
     "Evidencias habituales": "Diarios, bitácoras, borradores, entregas parciales, fichas de reflexión, autoinformes, revisiones por pares.",
-    "Instrumentos asociados": "Diario de aprendizaje; Ficha de reflexión; Autoinforme; Borrador; Entrega parcial; Bitácora de proyecto; Revisión por pares; Dos estrellas y un deseo; Semáforo de aprendizaje; Plan de trabajo; Acta de reunión; Contrato de aprendizaje; Documento colaborativo; Porfolio; Portfolio digital",
-    "Herramientas recomendadas": "Rúbrica de proceso; Ficha de retroalimentación; Hoja de seguimiento individual; Registro de compromisos de mejora; Escala de autoevaluación; Historial de revisión; Panel de progreso",
     "Cuándo conviene": "Cuando importa valorar el aprendizaje durante el proceso y no solo el producto final.",
     "Limitaciones": "Requiere seguimiento continuado y criterios claros para no convertirse en mera acumulación de documentos.",
     "Fase": "Proceso",
@@ -438,7 +442,10 @@
         "HER_HIST_REV": "complementaria",
         "HER_PANEL": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Diario de aprendizaje; Ficha de reflexión; Autoinforme; Borrador; Entrega parcial; Bitácora de proyecto; Revisión por pares; Dos estrellas y un deseo; Semáforo de aprendizaje; Plan de trabajo; Acta de reunión; Contrato de aprendizaje; Documento colaborativo; Porfolio; Portfolio digital",
+    "Instrumentos de evaluación recomendados": "Rúbrica de proceso; Ficha de retroalimentación; Hoja de seguimiento individual; Registro de compromisos de mejora; Escala de autoevaluación; Historial de revisión; Panel de progreso"
   },
   {
     "Código": "TEC_ENTREV_EVAL",
@@ -446,8 +453,6 @@
     "Descripción breve": "Conversación planificada para explorar comprensión, razonamiento o proceso.",
     "Finalidad principal": "Profundizar en evidencias que no quedan claras en un producto o prueba.",
     "Evidencias habituales": "Respuestas orales, explicaciones, argumentaciones, decisiones de proceso.",
-    "Instrumentos asociados": "Entrevista; Defensa de proyecto; Portfolio digital",
-    "Herramientas recomendadas": "Guía de corrección; Rúbrica oral; Registro anecdótico; Guía de observación",
     "Cuándo conviene": "Cuando se necesita indagar en el razonamiento del alumnado o contrastar autoría y comprensión.",
     "Limitaciones": "Consume tiempo y requiere un guion común para asegurar equidad.",
     "Fase": "Proceso/Final",
@@ -477,7 +482,10 @@
         "HER_REG_ANE": "complementaria",
         "HER_GUIA_OBS": "principal"
       }
-    }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Entrevista; Defensa de proyecto; Portfolio digital",
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica oral; Registro anecdótico; Guía de observación"
   },
   {
     "Código": "TEC_ENC_CUEST",
@@ -485,8 +493,6 @@
     "Descripción breve": "Recogida estructurada de respuestas mediante preguntas cerradas o abiertas.",
     "Finalidad principal": "Obtener información rápida sobre conocimientos, percepciones, intereses o seguimiento.",
     "Evidencias habituales": "Cuestionarios, formularios, encuestas iniciales, escalas de percepción.",
-    "Instrumentos asociados": "Cuestionario digital; KPSI; Billete de salida",
-    "Herramientas recomendadas": "Formulario digital; Escala de autoevaluación; Plantilla de corrección",
     "Cuándo conviene": "Cuando se necesita información comparable y fácil de analizar de todo el grupo.",
     "Limitaciones": "La calidad depende mucho de la formulación de las preguntas.",
     "Fase": "Inicial/Proceso/Final",
@@ -514,7 +520,10 @@
         "HER_ESC_AUTO": "complementaria",
         "HER_PLANT_CORR": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Cuestionario digital; KPSI; Billete de salida",
+    "Instrumentos de evaluación recomendados": "Formulario digital; Escala de autoevaluación; Plantilla de corrección"
   },
   {
     "Código": "TEC_ANAL_DOC",
@@ -522,8 +531,6 @@
     "Descripción breve": "Revisión de documentos, registros y evidencias acumuladas.",
     "Finalidad principal": "Interpretar información ya producida para valorar progreso, coherencia o trazabilidad.",
     "Evidencias habituales": "Cuadernos, portfolios, actas, historiales de revisión, bancos de evidencias.",
-    "Instrumentos asociados": "Cuaderno de clase; Portfolio digital; Acta de reunión; Documento colaborativo",
-    "Herramientas recomendadas": "Mapa de evidencias por criterio; Historial de revisión; Banco digital de evidencias",
     "Cuándo conviene": "Cuando el aprendizaje queda documentado en registros o productos acumulados.",
     "Limitaciones": "Puede sobrevalorar lo que se documenta y dejar fuera actuaciones no registradas.",
     "Fase": "Proceso/Final",
@@ -553,7 +560,10 @@
         "HER_HIST_REV": "complementaria",
         "HER_BANCO_EVID": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Cuaderno de clase; Portfolio digital; Acta de reunión; Documento colaborativo",
+    "Instrumentos de evaluación recomendados": "Mapa de evidencias por criterio; Historial de revisión; Banco digital de evidencias"
   },
   {
     "Código": "TEC_INTER_DIG",
@@ -561,8 +571,6 @@
     "Descripción breve": "Interpretación de participaciones, trazas y colaboración en entornos digitales.",
     "Finalidad principal": "Valorar participación, contribución y proceso en plataformas o documentos compartidos.",
     "Evidencias habituales": "Foros, comentarios, historiales de edición, analíticas, mensajes y entregas digitales.",
-    "Instrumentos asociados": "Foro de discusión; Documento colaborativo; Cuaderno digital; Portfolio digital",
-    "Herramientas recomendadas": "Historial de revisión; Analíticas de aprendizaje; Panel de progreso",
     "Cuándo conviene": "Cuando el trabajo se desarrolla en entornos digitales que dejan trazas útiles.",
     "Limitaciones": "Las trazas digitales requieren interpretación pedagógica y respeto a la privacidad.",
     "Fase": "Proceso",
@@ -592,7 +600,10 @@
         "HER_ANALITICAS": "complementaria",
         "HER_PANEL": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Foro de discusión; Documento colaborativo; Cuaderno digital; Portfolio digital",
+    "Instrumentos de evaluación recomendados": "Historial de revisión; Analíticas de aprendizaje; Panel de progreso"
   },
   {
     "Código": "TEC_TRIANG",
@@ -600,8 +611,6 @@
     "Descripción breve": "Contraste de varias evidencias para tomar una decisión evaluativa más sólida.",
     "Finalidad principal": "Aumentar validez y fiabilidad combinando productos, observaciones, pruebas y reflexiones.",
     "Evidencias habituales": "Rúbricas, registros, pruebas, portfolios, entrevistas, autoevaluaciones.",
-    "Instrumentos asociados": "Tarea competencial integrada; E-portfolio con evidencias seleccionadas; Prueba competencial contextualizada",
-    "Herramientas recomendadas": "Mapa de evidencias por criterio; Tabla de calificación por criterios; Perfil de logro",
     "Cuándo conviene": "Cuando una sola evidencia es insuficiente para valorar un criterio o competencia.",
     "Limitaciones": "Requiere decidir qué evidencias pesan más y evitar duplicar la misma evidencia.",
     "Fase": "Proceso/Final",
@@ -629,6 +638,9 @@
         "HER_TAB_CRIT": "complementaria",
         "HER_PERFIL_LOGRO": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Tarea competencial integrada; E-portfolio con evidencias seleccionadas; Prueba competencial contextualizada",
+    "Instrumentos de evaluación recomendados": "Mapa de evidencias por criterio; Tabla de calificación por criterios; Perfil de logro"
   }
 ]

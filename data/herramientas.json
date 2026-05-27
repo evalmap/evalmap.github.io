@@ -6,7 +6,6 @@
     "Descripción breve": "Matriz que valora criterios separados mediante niveles descritos.",
     "Sirve para": "Valorar tareas complejas con varios aspectos.",
     "Adecuada para": "Proyectos; informes; exposiciones; debates; productos digitales.",
-    "Instrumentos compatibles": "Informe de laboratorio; Defensa de proyecto; Exposición oral; Debate; Vídeo; Práctica de laboratorio; Taller; Simulación; Juego de rol; Monografía; Comentario de texto; Comentario de gráfica o datos; Mapa conceptual; Reseña; Artículo divulgativo; Estudio de caso; Prueba escrita de desarrollo; Prueba con documentos; Infografía; Presentación digital; Videotutorial; Cómic; Maqueta; Modelo digital; Entrada de blog; Documento colaborativo; Prueba de libro abierto; Situación-problema",
     "Ventajas": "Clarifica expectativas y permite retroalimentación precisa.",
     "Limitaciones": "Requiere tiempo de diseño y buenos descriptores.",
     "Complejidad": "Alta",
@@ -100,7 +99,9 @@
       "TEC_PRUEBA"
     ],
     "Técnicas asociadas": "Observación sistemática; Análisis de producciones; Pruebas específicas",
-    "Instrumentos asociados": "Informe de laboratorio; Defensa de proyecto; Exposición oral; Debate; Vídeo; Práctica de laboratorio; Taller; Simulación; Juego de rol; Monografía; Comentario de texto; Comentario de gráfica o datos; Mapa conceptual; Reseña; Artículo divulgativo; Estudio de caso; Prueba escrita de desarrollo; Prueba con documentos; Infografía; Presentación digital; Videotutorial; Cómic; Maqueta; Modelo digital; Entrada de blog; Documento colaborativo; Prueba de libro abierto; Situación-problema"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Informe de laboratorio; Defensa de proyecto; Exposición oral; Debate; Vídeo; Práctica de laboratorio; Taller; Simulación; Juego de rol; Monografía; Comentario de texto; Comentario de gráfica o datos; Mapa conceptual; Reseña; Artículo divulgativo; Estudio de caso; Prueba escrita de desarrollo; Prueba con documentos; Infografía; Presentación digital; Videotutorial; Cómic; Maqueta; Modelo digital; Entrada de blog; Documento colaborativo; Prueba de libro abierto; Situación-problema",
+    "Medios/evidencias asociados": "Informe de laboratorio; Defensa de proyecto; Exposición oral; Debate; Vídeo; Práctica de laboratorio; Taller; Simulación; Juego de rol; Monografía; Comentario de texto; Comentario de gráfica o datos; Mapa conceptual; Reseña; Artículo divulgativo; Estudio de caso; Prueba escrita de desarrollo; Prueba con documentos; Infografía; Presentación digital; Videotutorial; Cómic; Maqueta; Modelo digital; Entrada de blog; Documento colaborativo; Prueba de libro abierto; Situación-problema"
   },
   {
     "Código": "HER_RUB_HOL",
@@ -109,7 +110,6 @@
     "Descripción breve": "Rúbrica que valora el desempeño de forma global.",
     "Sirve para": "Valorar una tarea completa sin separar todos los criterios.",
     "Adecuada para": "Productos globales; actuaciones breves; valoraciones finales.",
-    "Instrumentos compatibles": "Ensayo; Exposición oral; Defensa de proyecto",
     "Ventajas": "Es más rápida que una rúbrica analítica.",
     "Limitaciones": "Ofrece menos información diagnóstica.",
     "Complejidad": "Media",
@@ -136,7 +136,9 @@
         "INS_DEF_PROY": "complementaria"
       }
     },
-    "Instrumentos asociados": "Ensayo; Exposición oral; Defensa de proyecto"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Ensayo; Exposición oral; Defensa de proyecto",
+    "Medios/evidencias asociados": "Ensayo; Exposición oral; Defensa de proyecto"
   },
   {
     "Código": "HER_RUB_PROC",
@@ -145,7 +147,6 @@
     "Descripción breve": "Rúbrica centrada en planificación, seguimiento, revisión y mejora.",
     "Sirve para": "Valorar cómo se desarrolla una tarea.",
     "Adecuada para": "Proyectos; investigaciones; portfolios; bitácoras.",
-    "Instrumentos compatibles": "Defensa de proyecto; Portfolio digital; Bitácora de proyecto; Entrega parcial",
     "Ventajas": "Hace visible el proceso y no solo el resultado.",
     "Limitaciones": "Requiere seguimiento continuado.",
     "Complejidad": "Alta",
@@ -181,7 +182,9 @@
       "TEC_PROC_REFLEX"
     ],
     "Técnicas asociadas": "Análisis de procesos y reflexiones",
-    "Instrumentos asociados": "Defensa de proyecto; Portfolio digital; Bitácora de proyecto; Entrega parcial"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Defensa de proyecto; Portfolio digital; Bitácora de proyecto; Entrega parcial",
+    "Medios/evidencias asociados": "Defensa de proyecto; Portfolio digital; Bitácora de proyecto; Entrega parcial"
   },
   {
     "Código": "HER_RUB_PROD",
@@ -190,7 +193,6 @@
     "Descripción breve": "Rúbrica centrada en la calidad del producto final.",
     "Sirve para": "Valorar resultado final.",
     "Adecuada para": "Productos escritos, digitales, visuales o materiales.",
-    "Instrumentos compatibles": "Infografía; Informe de laboratorio; Maqueta; Vídeo; Página web; Prototipo",
     "Ventajas": "Permite valorar calidad con criterios claros.",
     "Limitaciones": "Puede dejar fuera el proceso si se usa sola.",
     "Complejidad": "Media/Alta",
@@ -225,7 +227,9 @@
         "INS_PROTOTIPO": "complementaria"
       }
     },
-    "Instrumentos asociados": "Infografía; Informe de laboratorio; Maqueta; Vídeo; Página web; Prototipo"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Infografía; Informe de laboratorio; Maqueta; Vídeo; Página web; Prototipo",
+    "Medios/evidencias asociados": "Infografía; Informe de laboratorio; Maqueta; Vídeo; Página web; Prototipo"
   },
   {
     "Código": "HER_RUB_ORAL",
@@ -234,7 +238,6 @@
     "Descripción breve": "Rúbrica para exposiciones, debates, defensas o entrevistas.",
     "Sirve para": "Valorar comunicación oral, contenido e interacción.",
     "Adecuada para": "Actuaciones orales.",
-    "Instrumentos compatibles": "Debate; Defensa de proyecto; Entrevista; Exposición oral; Podcast; Dramatización; Prueba oral; Foro de discusión; Seminario socrático",
     "Ventajas": "Facilita observar aspectos diversos de la oralidad.",
     "Limitaciones": "Puede ser difícil registrar todo en directo.",
     "Complejidad": "Media/Alta",
@@ -286,7 +289,9 @@
       "TEC_ENTREV_EVAL"
     ],
     "Técnicas asociadas": "Intercambios orales; Entrevista evaluativa",
-    "Instrumentos asociados": "Debate; Defensa de proyecto; Entrevista; Exposición oral; Podcast; Dramatización; Prueba oral; Foro de discusión; Seminario socrático"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Debate; Defensa de proyecto; Entrevista; Exposición oral; Podcast; Dramatización; Prueba oral; Foro de discusión; Seminario socrático",
+    "Medios/evidencias asociados": "Debate; Defensa de proyecto; Entrevista; Exposición oral; Podcast; Dramatización; Prueba oral; Foro de discusión; Seminario socrático"
   },
   {
     "Código": "HER_RUB_COOP",
@@ -295,7 +300,6 @@
     "Descripción breve": "Rúbrica para valorar colaboración y funcionamiento grupal.",
     "Sirve para": "Valorar contribución, roles, responsabilidad y comunicación.",
     "Adecuada para": "Trabajos de grupo y proyectos.",
-    "Instrumentos compatibles": "Trabajo cooperativo; Defensa de proyecto; Documento colaborativo; Escape room o reto gamificado",
     "Ventajas": "Ayuda a valorar el proceso grupal.",
     "Limitaciones": "Requiere evidencias de participación real.",
     "Complejidad": "Alta",
@@ -326,7 +330,9 @@
         "INS_ESCAPE": "complementaria"
       }
     },
-    "Instrumentos asociados": "Trabajo cooperativo; Defensa de proyecto; Documento colaborativo; Escape room o reto gamificado"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Trabajo cooperativo; Defensa de proyecto; Documento colaborativo; Escape room o reto gamificado",
+    "Medios/evidencias asociados": "Trabajo cooperativo; Defensa de proyecto; Documento colaborativo; Escape room o reto gamificado"
   },
   {
     "Código": "HER_RUB_COMP",
@@ -335,7 +341,6 @@
     "Descripción breve": "Matriz vinculada a criterios y niveles de desempeño competencial.",
     "Sirve para": "Valorar movilización de saberes en contextos.",
     "Adecuada para": "Tareas competenciales contextualizadas.",
-    "Instrumentos compatibles": "Defensa de proyecto; Estudio de caso; Resolución de problemas; Simulación; Prueba competencial contextualizada; Tarea competencial integrada",
     "Ventajas": "Alinea evaluación con criterios y competencias.",
     "Limitaciones": "Debe formular indicadores observables.",
     "Complejidad": "Alta",
@@ -370,7 +375,9 @@
         "INS_TAREA_COMP_INT": "principal"
       }
     },
-    "Instrumentos asociados": "Defensa de proyecto; Estudio de caso; Resolución de problemas; Simulación; Prueba competencial contextualizada; Tarea competencial integrada"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Defensa de proyecto; Estudio de caso; Resolución de problemas; Simulación; Prueba competencial contextualizada; Tarea competencial integrada",
+    "Medios/evidencias asociados": "Defensa de proyecto; Estudio de caso; Resolución de problemas; Simulación; Prueba competencial contextualizada; Tarea competencial integrada"
   },
   {
     "Código": "HER_LISTA",
@@ -379,7 +386,6 @@
     "Descripción breve": "Lista de indicadores con presencia o ausencia.",
     "Sirve para": "Comprobar requisitos, pasos o evidencias concretas.",
     "Adecuada para": "Tareas simples o procedimientos claros.",
-    "Instrumentos compatibles": "Billete de salida; Cuaderno de clase; Informe de laboratorio; Práctica de laboratorio; Semáforo de aprendizaje; Trabajo individual en aula; Taller; Exposición oral; Resumen; Esquema; Mapa conceptual; Mapa mental; Línea del tiempo; Glosario; Ficha de lectura; Plan de trabajo; Acta de reunión; Prueba práctica; Infografía; Presentación digital; Videotutorial; Maqueta; Página web; Mapa conceptual inicial; Borrador; Checklist de laboratorio",
     "Ventajas": "Es rápida, clara y fácil de usar.",
     "Limitaciones": "No valora bien la calidad ni los matices.",
     "Complejidad": "Baja",
@@ -471,7 +477,9 @@
       "TEC_SONDEO"
     ],
     "Técnicas asociadas": "Observación sistemática; Intercambios orales; Sondeo y cuestionamiento",
-    "Instrumentos asociados": "Billete de salida; Cuaderno de clase; Informe de laboratorio; Práctica de laboratorio; Semáforo de aprendizaje; Trabajo individual en aula; Taller; Exposición oral; Resumen; Esquema; Mapa conceptual; Mapa mental; Línea del tiempo; Glosario; Ficha de lectura; Plan de trabajo; Acta de reunión; Prueba práctica; Infografía; Presentación digital; Videotutorial; Maqueta; Página web; Mapa conceptual inicial; Borrador; Checklist de laboratorio"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Billete de salida; Cuaderno de clase; Informe de laboratorio; Práctica de laboratorio; Semáforo de aprendizaje; Trabajo individual en aula; Taller; Exposición oral; Resumen; Esquema; Mapa conceptual; Mapa mental; Línea del tiempo; Glosario; Ficha de lectura; Plan de trabajo; Acta de reunión; Prueba práctica; Infografía; Presentación digital; Videotutorial; Maqueta; Página web; Mapa conceptual inicial; Borrador; Checklist de laboratorio",
+    "Medios/evidencias asociados": "Billete de salida; Cuaderno de clase; Informe de laboratorio; Práctica de laboratorio; Semáforo de aprendizaje; Trabajo individual en aula; Taller; Exposición oral; Resumen; Esquema; Mapa conceptual; Mapa mental; Línea del tiempo; Glosario; Ficha de lectura; Plan de trabajo; Acta de reunión; Prueba práctica; Infografía; Presentación digital; Videotutorial; Maqueta; Página web; Mapa conceptual inicial; Borrador; Checklist de laboratorio"
   },
   {
     "Código": "HER_ESC_OBS",
@@ -480,7 +488,6 @@
     "Descripción breve": "Escala para valorar frecuencia, intensidad o grado de un desempeño.",
     "Sirve para": "Registrar actuaciones observables.",
     "Adecuada para": "Participación, trabajo cooperativo, prácticas, exposiciones.",
-    "Instrumentos compatibles": "Debate; Defensa de proyecto; Exposición oral; Práctica de laboratorio; Pregunta oral estructurada; Trabajo cooperativo; Trabajo individual en aula; Participación en clase; Coloquio; Asamblea; Taller; Simulación; Juego de rol; Dramatización; Entrevista; Cuaderno de clase; Comentario de gráfica o datos; Esquema; Mapa mental; Ficha de lectura; Ficha de reflexión; Autoinforme; Póster académico; Cómic; Modelo digital; Entrada de blog; Bitácora de proyecto",
     "Ventajas": "Permite graduar el desempeño.",
     "Limitaciones": "Puede ser ambigua sin descriptores claros.",
     "Complejidad": "Media",
@@ -572,7 +579,9 @@
       "TEC_ORAL"
     ],
     "Técnicas asociadas": "Observación sistemática; Intercambios orales",
-    "Instrumentos asociados": "Debate; Defensa de proyecto; Exposición oral; Práctica de laboratorio; Pregunta oral estructurada; Trabajo cooperativo; Trabajo individual en aula; Participación en clase; Coloquio; Asamblea; Taller; Simulación; Juego de rol; Dramatización; Entrevista; Cuaderno de clase; Comentario de gráfica o datos; Esquema; Mapa mental; Ficha de lectura; Ficha de reflexión; Autoinforme; Póster académico; Cómic; Modelo digital; Entrada de blog; Bitácora de proyecto"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Debate; Defensa de proyecto; Exposición oral; Práctica de laboratorio; Pregunta oral estructurada; Trabajo cooperativo; Trabajo individual en aula; Participación en clase; Coloquio; Asamblea; Taller; Simulación; Juego de rol; Dramatización; Entrevista; Cuaderno de clase; Comentario de gráfica o datos; Esquema; Mapa mental; Ficha de lectura; Ficha de reflexión; Autoinforme; Póster académico; Cómic; Modelo digital; Entrada de blog; Bitácora de proyecto",
+    "Medios/evidencias asociados": "Debate; Defensa de proyecto; Exposición oral; Práctica de laboratorio; Pregunta oral estructurada; Trabajo cooperativo; Trabajo individual en aula; Participación en clase; Coloquio; Asamblea; Taller; Simulación; Juego de rol; Dramatización; Entrevista; Cuaderno de clase; Comentario de gráfica o datos; Esquema; Mapa mental; Ficha de lectura; Ficha de reflexión; Autoinforme; Póster académico; Cómic; Modelo digital; Entrada de blog; Bitácora de proyecto"
   },
   {
     "Código": "HER_ESC_VAL",
@@ -581,7 +590,6 @@
     "Descripción breve": "Escala graduada para valorar grado de logro.",
     "Sirve para": "Valorar logros con niveles.",
     "Adecuada para": "Tareas de complejidad baja o media.",
-    "Instrumentos compatibles": "Cuaderno de clase; Participación en clase; Podcast; Resumen; Vídeo",
     "Ventajas": "Es flexible y fácil de aplicar.",
     "Limitaciones": "Menos precisa que una rúbrica completa.",
     "Complejidad": "Media",
@@ -614,7 +622,9 @@
         "INS_VIDEO": "complementaria"
       }
     },
-    "Instrumentos asociados": "Cuaderno de clase; Participación en clase; Podcast; Resumen; Vídeo"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Cuaderno de clase; Participación en clase; Podcast; Resumen; Vídeo",
+    "Medios/evidencias asociados": "Cuaderno de clase; Participación en clase; Podcast; Resumen; Vídeo"
   },
   {
     "Código": "HER_ESC_DESC",
@@ -623,7 +633,6 @@
     "Descripción breve": "Escala cuyos niveles incluyen descripciones.",
     "Sirve para": "Valorar calidad con mayor claridad que una escala numérica.",
     "Adecuada para": "Tareas abiertas de complejidad media.",
-    "Instrumentos compatibles": "Comentario de texto; Exposición oral; Resolución de problemas; Porfolio; Resumen; Artículo divulgativo",
     "Ventajas": "Aporta matices cualitativos.",
     "Limitaciones": "Exige redactar descriptores.",
     "Complejidad": "Media",
@@ -665,7 +674,9 @@
       "TEC_PROD"
     ],
     "Técnicas asociadas": "Análisis de producciones",
-    "Instrumentos asociados": "Comentario de texto; Exposición oral; Resolución de problemas; Porfolio; Resumen; Artículo divulgativo"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Comentario de texto; Exposición oral; Resolución de problemas; Porfolio; Resumen; Artículo divulgativo",
+    "Medios/evidencias asociados": "Comentario de texto; Exposición oral; Resolución de problemas; Porfolio; Resumen; Artículo divulgativo"
   },
   {
     "Código": "HER_GUIA_CORR",
@@ -674,7 +685,6 @@
     "Descripción breve": "Documento con criterios, respuestas esperadas o pautas de corrección.",
     "Sirve para": "Corregir pruebas o tareas con criterios comunes.",
     "Adecuada para": "Pruebas, comentarios, problemas, informes.",
-    "Instrumentos compatibles": "Prueba escrita de desarrollo; Resolución de problemas; Comentario de texto; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Glosario; Reseña; Estudio de caso; Prueba de respuesta corta; Prueba competencial contextualizada; Prueba con documentos; Prueba de libro abierto; Situación-problema",
     "Ventajas": "Homogeneiza la corrección.",
     "Limitaciones": "Menos adecuada para tareas muy abiertas si no se adapta.",
     "Complejidad": "Media",
@@ -742,7 +752,9 @@
       "TEC_ENTREV_EVAL"
     ],
     "Técnicas asociadas": "Análisis de producciones; Pruebas específicas; Entrevista evaluativa",
-    "Instrumentos asociados": "Prueba escrita de desarrollo; Resolución de problemas; Comentario de texto; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Glosario; Reseña; Estudio de caso; Prueba de respuesta corta; Prueba competencial contextualizada; Prueba con documentos; Prueba de libro abierto; Situación-problema"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Prueba escrita de desarrollo; Resolución de problemas; Comentario de texto; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Glosario; Reseña; Estudio de caso; Prueba de respuesta corta; Prueba competencial contextualizada; Prueba con documentos; Prueba de libro abierto; Situación-problema",
+    "Medios/evidencias asociados": "Prueba escrita de desarrollo; Resolución de problemas; Comentario de texto; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Glosario; Reseña; Estudio de caso; Prueba de respuesta corta; Prueba competencial contextualizada; Prueba con documentos; Prueba de libro abierto; Situación-problema"
   },
   {
     "Código": "HER_PLANT_CORR",
@@ -751,7 +763,6 @@
     "Descripción breve": "Formato para registrar puntuaciones o aciertos.",
     "Sirve para": "Corregir de forma rápida y consistente.",
     "Adecuada para": "Pruebas objetivas o de respuesta corta.",
-    "Instrumentos compatibles": "Prueba tipo test; Cuestionario digital; Prueba de respuesta corta; Prueba objetiva",
     "Ventajas": "Facilita cálculo y revisión.",
     "Limitaciones": "Puede reducir la evaluación a aciertos.",
     "Complejidad": "Baja",
@@ -789,7 +800,9 @@
       "TEC_ENC_CUEST"
     ],
     "Técnicas asociadas": "Pruebas específicas; Encuesta y cuestionario",
-    "Instrumentos asociados": "Prueba tipo test; Cuestionario digital; Prueba de respuesta corta; Prueba objetiva"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Prueba tipo test; Cuestionario digital; Prueba de respuesta corta; Prueba objetiva",
+    "Medios/evidencias asociados": "Prueba tipo test; Cuestionario digital; Prueba de respuesta corta; Prueba objetiva"
   },
   {
     "Código": "HER_BAREMO",
@@ -798,7 +811,6 @@
     "Descripción breve": "Distribución de puntos entre apartados o indicadores.",
     "Sirve para": "Asignar puntuaciones.",
     "Adecuada para": "Pruebas y tareas con puntuación definida.",
-    "Instrumentos compatibles": "Prueba escrita de desarrollo; Resolución de problemas; Informe de laboratorio; Comentario de texto; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba de libro abierto",
     "Ventajas": "Hace explícita la distribución de la nota.",
     "Limitaciones": "Puede convertirse en mecánico si no hay criterios cualitativos.",
     "Complejidad": "Media",
@@ -842,7 +854,9 @@
       "TEC_PRUEBA"
     ],
     "Técnicas asociadas": "Pruebas específicas",
-    "Instrumentos asociados": "Prueba escrita de desarrollo; Resolución de problemas; Informe de laboratorio; Comentario de texto; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba de libro abierto"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Prueba escrita de desarrollo; Resolución de problemas; Informe de laboratorio; Comentario de texto; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba de libro abierto",
+    "Medios/evidencias asociados": "Prueba escrita de desarrollo; Resolución de problemas; Informe de laboratorio; Comentario de texto; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba de libro abierto"
   },
   {
     "Código": "HER_REG_ANE",
@@ -851,7 +865,6 @@
     "Descripción breve": "Anotación breve de hechos significativos observados.",
     "Sirve para": "Recoger evidencias relevantes no siempre previstas.",
     "Adecuada para": "Conductas, avances, dificultades, incidencias.",
-    "Instrumentos compatibles": "Práctica de laboratorio; Lluvia de ideas; Participación en clase; Pregunta oral estructurada; Coloquio; Juego de rol; Entrevista; Escape room o reto gamificado; Checklist de laboratorio",
     "Ventajas": "Aporta información cualitativa rica.",
     "Limitaciones": "No es suficiente por sí solo para calificar.",
     "Complejidad": "Baja/Media",
@@ -903,7 +916,9 @@
       "TEC_ENTREV_EVAL"
     ],
     "Técnicas asociadas": "Observación sistemática; Observación incidental; Intercambios orales; Entrevista evaluativa",
-    "Instrumentos asociados": "Práctica de laboratorio; Lluvia de ideas; Participación en clase; Pregunta oral estructurada; Coloquio; Juego de rol; Entrevista; Escape room o reto gamificado; Checklist de laboratorio"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Práctica de laboratorio; Lluvia de ideas; Participación en clase; Pregunta oral estructurada; Coloquio; Juego de rol; Entrevista; Escape room o reto gamificado; Checklist de laboratorio",
+    "Medios/evidencias asociados": "Práctica de laboratorio; Lluvia de ideas; Participación en clase; Pregunta oral estructurada; Coloquio; Juego de rol; Entrevista; Escape room o reto gamificado; Checklist de laboratorio"
   },
   {
     "Código": "HER_REG_DESC",
@@ -912,7 +927,6 @@
     "Descripción breve": "Registro detallado de actuaciones, procesos o comportamientos.",
     "Sirve para": "Documentar evidencias observables con detalle.",
     "Adecuada para": "Procesos complejos o seguimiento individual.",
-    "Instrumentos compatibles": "Defensa de proyecto; Práctica de laboratorio; Simulación; KPSI; Mapa conceptual inicial; Lluvia de ideas",
     "Ventajas": "Permite comprender el contexto de la evidencia.",
     "Limitaciones": "Consume tiempo.",
     "Complejidad": "Media",
@@ -954,7 +968,9 @@
       "TEC_SONDEO"
     ],
     "Técnicas asociadas": "Sondeo y cuestionamiento",
-    "Instrumentos asociados": "Defensa de proyecto; Práctica de laboratorio; Simulación; KPSI; Mapa conceptual inicial; Lluvia de ideas"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Defensa de proyecto; Práctica de laboratorio; Simulación; KPSI; Mapa conceptual inicial; Lluvia de ideas",
+    "Medios/evidencias asociados": "Defensa de proyecto; Práctica de laboratorio; Simulación; KPSI; Mapa conceptual inicial; Lluvia de ideas"
   },
   {
     "Código": "HER_DIARIO_PROF",
@@ -963,7 +979,6 @@
     "Descripción breve": "Cuaderno o documento con observaciones y decisiones pedagógicas.",
     "Sirve para": "Registrar seguimiento, incidencias y ajustes.",
     "Adecuada para": "Evaluación continua y formativa.",
-    "Instrumentos compatibles": "Participación en clase; Trabajo cooperativo; Práctica de laboratorio",
     "Ventajas": "Ayuda a tomar decisiones docentes.",
     "Limitaciones": "Puede ser poco sistemático si no se estructura.",
     "Complejidad": "Media",
@@ -997,7 +1012,9 @@
       "TEC_OBS_INC"
     ],
     "Técnicas asociadas": "Observación incidental",
-    "Instrumentos asociados": "Participación en clase; Trabajo cooperativo; Práctica de laboratorio"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Participación en clase; Trabajo cooperativo; Práctica de laboratorio",
+    "Medios/evidencias asociados": "Participación en clase; Trabajo cooperativo; Práctica de laboratorio"
   },
   {
     "Código": "HER_HOJA_IND",
@@ -1006,7 +1023,6 @@
     "Descripción breve": "Registro del progreso de un alumno a lo largo del tiempo.",
     "Sirve para": "Documentar evolución y necesidades.",
     "Adecuada para": "Procesos largos, refuerzo, tutoría.",
-    "Instrumentos compatibles": "Portfolio digital; Defensa de proyecto; Trabajo individual en aula; Porfolio; Memoria de proyecto; Plan de trabajo; Prototipo; Documento colaborativo; Entrega parcial; Bitácora de proyecto",
     "Ventajas": "Permite visión longitudinal.",
     "Limitaciones": "Requiere actualización constante.",
     "Complejidad": "Media",
@@ -1058,7 +1074,9 @@
       "TEC_PROC_REFLEX"
     ],
     "Técnicas asociadas": "Sondeo y cuestionamiento; Análisis de procesos y reflexiones",
-    "Instrumentos asociados": "Portfolio digital; Defensa de proyecto; Trabajo individual en aula; Porfolio; Memoria de proyecto; Plan de trabajo; Prototipo; Documento colaborativo; Entrega parcial; Bitácora de proyecto"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Portfolio digital; Defensa de proyecto; Trabajo individual en aula; Porfolio; Memoria de proyecto; Plan de trabajo; Prototipo; Documento colaborativo; Entrega parcial; Bitácora de proyecto",
+    "Medios/evidencias asociados": "Portfolio digital; Defensa de proyecto; Trabajo individual en aula; Porfolio; Memoria de proyecto; Plan de trabajo; Prototipo; Documento colaborativo; Entrega parcial; Bitácora de proyecto"
   },
   {
     "Código": "HER_HOJA_GRUP",
@@ -1067,7 +1085,6 @@
     "Descripción breve": "Registro del progreso y funcionamiento de un grupo.",
     "Sirve para": "Valorar coordinación, tareas y acuerdos.",
     "Adecuada para": "Proyectos y trabajos cooperativos.",
-    "Instrumentos compatibles": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo",
     "Ventajas": "Visibiliza funcionamiento del equipo.",
     "Limitaciones": "Puede ocultar diferencias individuales si se usa sola.",
     "Complejidad": "Media",
@@ -1096,7 +1113,9 @@
         "INS_DOC_COL": "complementaria"
       }
     },
-    "Instrumentos asociados": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo",
+    "Medios/evidencias asociados": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo"
   },
   {
     "Código": "HER_REG_PART",
@@ -1105,7 +1124,6 @@
     "Descripción breve": "Anotación de intervenciones y calidad de aportaciones.",
     "Sirve para": "Seguir participación oral o digital.",
     "Adecuada para": "Debates, foros, clases, asambleas.",
-    "Instrumentos compatibles": "Debate; Foro de discusión; Asamblea; Coloquio; Participación en clase; Seminario socrático",
     "Ventajas": "Permite objetivar la participación.",
     "Limitaciones": "No debe confundirse cantidad con calidad.",
     "Complejidad": "Baja/Media",
@@ -1140,7 +1158,9 @@
         "INS_SEMINARIO": "complementaria"
       }
     },
-    "Instrumentos asociados": "Debate; Foro de discusión; Asamblea; Coloquio; Participación en clase; Seminario socrático"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Debate; Foro de discusión; Asamblea; Coloquio; Participación en clase; Seminario socrático",
+    "Medios/evidencias asociados": "Debate; Foro de discusión; Asamblea; Coloquio; Participación en clase; Seminario socrático"
   },
   {
     "Código": "HER_REG_COOP",
@@ -1149,7 +1169,6 @@
     "Descripción breve": "Documento para anotar roles, aportaciones y cumplimiento grupal.",
     "Sirve para": "Valorar cooperación y responsabilidad.",
     "Adecuada para": "Trabajos en grupo.",
-    "Instrumentos compatibles": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo",
     "Ventajas": "Ayuda a evaluar el proceso cooperativo.",
     "Limitaciones": "Necesita observación o evidencias complementarias.",
     "Complejidad": "Media",
@@ -1178,7 +1197,9 @@
         "INS_DOC_COL": "complementaria"
       }
     },
-    "Instrumentos asociados": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo",
+    "Medios/evidencias asociados": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo"
   },
   {
     "Código": "HER_NOTAS_CAMPO",
@@ -1187,7 +1208,6 @@
     "Descripción breve": "Anotaciones del docente durante actividades, prácticas o salidas.",
     "Sirve para": "Recoger observaciones contextualizadas.",
     "Adecuada para": "Salidas, laboratorio, proyectos, trabajo de campo.",
-    "Instrumentos compatibles": "Billete de salida; Informe de investigación; Práctica de laboratorio; Lluvia de ideas",
     "Ventajas": "Muy flexibles y rápidas.",
     "Limitaciones": "Requieren posterior ordenación.",
     "Complejidad": "Baja",
@@ -1223,7 +1243,9 @@
       "TEC_OBS_INC"
     ],
     "Técnicas asociadas": "Observación incidental",
-    "Instrumentos asociados": "Billete de salida; Informe de investigación; Práctica de laboratorio; Lluvia de ideas"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Billete de salida; Informe de investigación; Práctica de laboratorio; Lluvia de ideas",
+    "Medios/evidencias asociados": "Billete de salida; Informe de investigación; Práctica de laboratorio; Lluvia de ideas"
   },
   {
     "Código": "HER_FICHA_VAL",
@@ -1232,7 +1254,6 @@
     "Descripción breve": "Documento breve para valorar una tarea concreta.",
     "Sirve para": "Registrar valoración sintética.",
     "Adecuada para": "Tareas de complejidad baja o media.",
-    "Instrumentos compatibles": "Resumen; Comentario de texto",
     "Ventajas": "Práctica y adaptable.",
     "Limitaciones": "Menos completa que una rúbrica.",
     "Complejidad": "Baja/Media",
@@ -1259,7 +1280,9 @@
         "INS_COM_TEXT": "principal"
       }
     },
-    "Instrumentos asociados": "Resumen; Comentario de texto"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Resumen; Comentario de texto",
+    "Medios/evidencias asociados": "Resumen; Comentario de texto"
   },
   {
     "Código": "HER_FICHA_RETRO",
@@ -1268,7 +1291,6 @@
     "Descripción breve": "Plantilla para devolver fortalezas y mejoras.",
     "Sirve para": "Orientar la mejora del aprendizaje.",
     "Adecuada para": "Borradores, proyectos, producciones escritas.",
-    "Instrumentos compatibles": "Dos estrellas y un deseo; Borrador; Defensa de proyecto; Entrega parcial; Informe de laboratorio; Diario de aprendizaje; Ficha de reflexión; Revisión por pares; Billete de salida",
     "Ventajas": "Facilita feedback claro y accionable.",
     "Limitaciones": "No siempre produce calificación.",
     "Complejidad": "Media",
@@ -1318,7 +1340,9 @@
       "TEC_PROC_REFLEX"
     ],
     "Técnicas asociadas": "Análisis de producciones; Análisis de procesos y reflexiones",
-    "Instrumentos asociados": "Dos estrellas y un deseo; Borrador; Defensa de proyecto; Entrega parcial; Informe de laboratorio; Diario de aprendizaje; Ficha de reflexión; Revisión por pares; Billete de salida"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Dos estrellas y un deseo; Borrador; Defensa de proyecto; Entrega parcial; Informe de laboratorio; Diario de aprendizaje; Ficha de reflexión; Revisión por pares; Billete de salida",
+    "Medios/evidencias asociados": "Dos estrellas y un deseo; Borrador; Defensa de proyecto; Entrega parcial; Informe de laboratorio; Diario de aprendizaje; Ficha de reflexión; Revisión por pares; Billete de salida"
   },
   {
     "Código": "HER_MATRIZ",
@@ -1327,7 +1351,6 @@
     "Descripción breve": "Tabla que relaciona criterios, indicadores y niveles.",
     "Sirve para": "Organizar evaluación compleja.",
     "Adecuada para": "Tareas con varios criterios.",
-    "Instrumentos compatibles": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Estudio de caso",
     "Ventajas": "Estructura criterios y niveles.",
     "Limitaciones": "Puede ser compleja para el alumnado.",
     "Complejidad": "Alta",
@@ -1358,7 +1381,9 @@
         "INS_CASO": "complementaria"
       }
     },
-    "Instrumentos asociados": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Estudio de caso"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Estudio de caso",
+    "Medios/evidencias asociados": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Estudio de caso"
   },
   {
     "Código": "HER_BANCO_DESC",
@@ -1367,7 +1392,6 @@
     "Descripción breve": "Colección de frases para describir niveles de desempeño.",
     "Sirve para": "Redactar rúbricas e informes.",
     "Adecuada para": "Diseño de herramientas evaluativas.",
-    "Instrumentos compatibles": "Porfolio; Defensa de proyecto; Exposición oral",
     "Ventajas": "Mejora coherencia de las valoraciones.",
     "Limitaciones": "Debe adaptarse al criterio concreto.",
     "Complejidad": "Media",
@@ -1394,7 +1418,9 @@
         "INS_EXPO": "principal"
       }
     },
-    "Instrumentos asociados": "Porfolio; Defensa de proyecto; Exposición oral"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Porfolio; Defensa de proyecto; Exposición oral",
+    "Medios/evidencias asociados": "Porfolio; Defensa de proyecto; Exposición oral"
   },
   {
     "Código": "HER_PERFIL_LOGRO",
@@ -1403,7 +1429,6 @@
     "Descripción breve": "Representación del grado alcanzado en criterios o competencias.",
     "Sirve para": "Visualizar fortalezas y necesidades.",
     "Adecuada para": "Evaluación competencial.",
-    "Instrumentos compatibles": "Portfolio digital; Defensa de proyecto",
     "Ventajas": "Ofrece visión global del aprendizaje.",
     "Limitaciones": "Requiere varios datos previos.",
     "Complejidad": "Alta",
@@ -1435,7 +1460,9 @@
       "TEC_TRIANG"
     ],
     "Técnicas asociadas": "Triangulación de evidencias",
-    "Instrumentos asociados": "Portfolio digital; Defensa de proyecto"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Portfolio digital; Defensa de proyecto",
+    "Medios/evidencias asociados": "Portfolio digital; Defensa de proyecto"
   },
   {
     "Código": "HER_DIANA",
@@ -1444,7 +1471,6 @@
     "Descripción breve": "Representación radial de varios aspectos evaluados.",
     "Sirve para": "Autoevaluar o coevaluar de forma visual.",
     "Adecuada para": "Aspectos múltiples sencillos.",
-    "Instrumentos compatibles": "Defensa de proyecto; Exposición oral; Diario de aprendizaje; Ficha de reflexión",
     "Ventajas": "Visual y fácil de comprender.",
     "Limitaciones": "Menos precisa que una rúbrica.",
     "Complejidad": "Baja/Media",
@@ -1473,7 +1499,9 @@
         "INS_F_REFLEX": "principal"
       }
     },
-    "Instrumentos asociados": "Defensa de proyecto; Exposición oral; Diario de aprendizaje; Ficha de reflexión"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Defensa de proyecto; Exposición oral; Diario de aprendizaje; Ficha de reflexión",
+    "Medios/evidencias asociados": "Defensa de proyecto; Exposición oral; Diario de aprendizaje; Ficha de reflexión"
   },
   {
     "Código": "HER_SEMAFORO",
@@ -1482,7 +1510,6 @@
     "Descripción breve": "Sistema visual de logro, duda o dificultad.",
     "Sirve para": "Detectar estado de comprensión.",
     "Adecuada para": "Evaluación rápida de proceso.",
-    "Instrumentos compatibles": "Billete de salida; Semáforo de aprendizaje",
     "Ventajas": "Muy rápido y comprensible.",
     "Limitaciones": "Poca precisión.",
     "Complejidad": "Baja",
@@ -1509,7 +1536,9 @@
         "INS_SEMAF": "principal"
       }
     },
-    "Instrumentos asociados": "Billete de salida; Semáforo de aprendizaje"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Billete de salida; Semáforo de aprendizaje",
+    "Medios/evidencias asociados": "Billete de salida; Semáforo de aprendizaje"
   },
   {
     "Código": "HER_ESC_AUTO",
@@ -1518,7 +1547,6 @@
     "Descripción breve": "Escala para que el alumnado valore su propio logro.",
     "Sirve para": "Favorecer metacognición.",
     "Adecuada para": "Autoevaluación de tareas o procesos.",
-    "Instrumentos compatibles": "Diario de aprendizaje; KPSI; Portfolio digital",
     "Ventajas": "Simple y formativa.",
     "Limitaciones": "Puede haber sesgo si no hay criterios.",
     "Complejidad": "Baja/Media",
@@ -1556,7 +1584,9 @@
       "TEC_ENC_CUEST"
     ],
     "Técnicas asociadas": "Sondeo y cuestionamiento; Análisis de procesos y reflexiones; Encuesta y cuestionario",
-    "Instrumentos asociados": "Diario de aprendizaje; KPSI; Portfolio digital"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Diario de aprendizaje; KPSI; Portfolio digital",
+    "Medios/evidencias asociados": "Diario de aprendizaje; KPSI; Portfolio digital"
   },
   {
     "Código": "HER_RUB_AUTO",
@@ -1565,7 +1595,6 @@
     "Descripción breve": "Rúbrica usada por el alumnado sobre su propio trabajo.",
     "Sirve para": "Valorar el propio desempeño con criterios.",
     "Adecuada para": "Tareas complejas.",
-    "Instrumentos compatibles": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Portfolio digital; Autoinforme",
     "Ventajas": "Ayuda a interiorizar criterios.",
     "Limitaciones": "Necesita entrenamiento.",
     "Complejidad": "Media/Alta",
@@ -1596,7 +1625,9 @@
         "INS_AUTOINF": "principal"
       }
     },
-    "Instrumentos asociados": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Portfolio digital; Autoinforme"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Portfolio digital; Autoinforme",
+    "Medios/evidencias asociados": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Portfolio digital; Autoinforme"
   },
   {
     "Código": "HER_RUB_COEV",
@@ -1605,7 +1636,6 @@
     "Descripción breve": "Rúbrica para valorar trabajos de compañeros.",
     "Sirve para": "Dar retroalimentación entre iguales.",
     "Adecuada para": "Exposiciones, borradores, proyectos.",
-    "Instrumentos compatibles": "Revisión por pares; Exposición oral; Defensa de proyecto",
     "Ventajas": "Mejora comprensión de criterios.",
     "Limitaciones": "Puede haber sesgos personales.",
     "Complejidad": "Media/Alta",
@@ -1634,7 +1664,9 @@
         "INS_DEF_PROY": "complementaria"
       }
     },
-    "Instrumentos asociados": "Revisión por pares; Exposición oral; Defensa de proyecto"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Revisión por pares; Exposición oral; Defensa de proyecto",
+    "Medios/evidencias asociados": "Revisión por pares; Exposición oral; Defensa de proyecto"
   },
   {
     "Código": "HER_FICHA_COEV",
@@ -1643,7 +1675,6 @@
     "Descripción breve": "Plantilla breve para valorar a compañeros.",
     "Sirve para": "Guiar comentarios y mejoras.",
     "Adecuada para": "Revisión entre iguales.",
-    "Instrumentos compatibles": "Dos estrellas y un deseo; Debate; Exposición oral; Revisión por pares; Trabajo cooperativo",
     "Ventajas": "Sencilla y práctica.",
     "Limitaciones": "Menos detallada que una rúbrica.",
     "Complejidad": "Baja/Media",
@@ -1676,7 +1707,9 @@
         "INS_TRAB_COOP": "complementaria"
       }
     },
-    "Instrumentos asociados": "Dos estrellas y un deseo; Debate; Exposición oral; Revisión por pares; Trabajo cooperativo"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Dos estrellas y un deseo; Debate; Exposición oral; Revisión por pares; Trabajo cooperativo",
+    "Medios/evidencias asociados": "Dos estrellas y un deseo; Debate; Exposición oral; Revisión por pares; Trabajo cooperativo"
   },
   {
     "Código": "HER_LISTA_AUTO",
@@ -1685,7 +1718,6 @@
     "Descripción breve": "Checklist que usa el alumno para revisar requisitos.",
     "Sirve para": "Revisar trabajos antes de entregar.",
     "Adecuada para": "Tareas con requisitos claros.",
-    "Instrumentos compatibles": "Informe de laboratorio; Cuaderno de clase; Presentación digital",
     "Ventajas": "Favorece revisión autónoma.",
     "Limitaciones": "No valora calidad si es dicotómica.",
     "Complejidad": "Baja",
@@ -1712,7 +1744,9 @@
         "INS_PRESENT_DIG": "complementaria"
       }
     },
-    "Instrumentos asociados": "Informe de laboratorio; Cuaderno de clase; Presentación digital"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Informe de laboratorio; Cuaderno de clase; Presentación digital",
+    "Medios/evidencias asociados": "Informe de laboratorio; Cuaderno de clase; Presentación digital"
   },
   {
     "Código": "HER_REG_COMP",
@@ -1721,7 +1755,6 @@
     "Descripción breve": "Documento con objetivos y acciones de mejora.",
     "Sirve para": "Planificar mejora tras retroalimentación.",
     "Adecuada para": "Procesos formativos.",
-    "Instrumentos compatibles": "Portfolio digital; Diario de aprendizaje; Defensa de proyecto; Contrato de aprendizaje",
     "Ventajas": "Concreta acciones de mejora.",
     "Limitaciones": "Requiere revisión posterior.",
     "Complejidad": "Media",
@@ -1763,7 +1796,9 @@
       "TEC_PROC_REFLEX"
     ],
     "Técnicas asociadas": "Análisis de procesos y reflexiones",
-    "Instrumentos asociados": "Portfolio digital; Diario de aprendizaje; Defensa de proyecto; Contrato de aprendizaje"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Portfolio digital; Diario de aprendizaje; Defensa de proyecto; Contrato de aprendizaje",
+    "Medios/evidencias asociados": "Portfolio digital; Diario de aprendizaje; Defensa de proyecto; Contrato de aprendizaje"
   },
   {
     "Código": "HER_CUAD_CAL",
@@ -1772,7 +1807,6 @@
     "Descripción breve": "Registro organizado de resultados, tareas y criterios.",
     "Sirve para": "Organizar calificaciones y evidencias.",
     "Adecuada para": "Evaluación continua.",
-    "Instrumentos compatibles": "Trabajo individual en aula; Participación en clase; Cuaderno de clase",
     "Ventajas": "Centraliza información.",
     "Limitaciones": "No explica por sí solo el aprendizaje.",
     "Complejidad": "Media",
@@ -1801,7 +1835,9 @@
         "INS_CUADERNO": "principal"
       }
     },
-    "Instrumentos asociados": "Trabajo individual en aula; Participación en clase; Cuaderno de clase"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Trabajo individual en aula; Participación en clase; Cuaderno de clase",
+    "Medios/evidencias asociados": "Trabajo individual en aula; Participación en clase; Cuaderno de clase"
   },
   {
     "Código": "HER_TAB_CRIT",
@@ -1810,7 +1846,6 @@
     "Descripción breve": "Tabla que relaciona evidencias con criterios de evaluación.",
     "Sirve para": "Alinear calificación y currículo.",
     "Adecuada para": "Evaluación criterial.",
-    "Instrumentos compatibles": "Prueba competencial contextualizada; Ensayo; Informe de investigación",
     "Ventajas": "Evita calificar al margen de criterios.",
     "Limitaciones": "Debe estar bien diseñada.",
     "Complejidad": "Alta",
@@ -1850,7 +1885,9 @@
       "TEC_TRIANG"
     ],
     "Técnicas asociadas": "Triangulación de evidencias",
-    "Instrumentos asociados": "Prueba competencial contextualizada; Ensayo; Informe de investigación"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Prueba competencial contextualizada; Ensayo; Informe de investigación",
+    "Medios/evidencias asociados": "Prueba competencial contextualizada; Ensayo; Informe de investigación"
   },
   {
     "Código": "HER_MATRIZ_POND",
@@ -1859,7 +1896,6 @@
     "Descripción breve": "Tabla de pesos relativos de criterios, evidencias o herramientas.",
     "Sirve para": "Calcular calificación cuando hay ponderación.",
     "Adecuada para": "Evaluación sumativa o trimestral.",
-    "Instrumentos compatibles": "Memoria de proyecto; Porfolio; Prueba escrita de desarrollo",
     "Ventajas": "Hace explícito el peso de cada elemento.",
     "Limitaciones": "Puede rigidizar la evaluación.",
     "Complejidad": "Alta",
@@ -1888,7 +1924,9 @@
         "INS_PR_DES": "ocasional"
       }
     },
-    "Instrumentos asociados": "Memoria de proyecto; Porfolio; Prueba escrita de desarrollo"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Memoria de proyecto; Porfolio; Prueba escrita de desarrollo",
+    "Medios/evidencias asociados": "Memoria de proyecto; Porfolio; Prueba escrita de desarrollo"
   },
   {
     "Código": "HER_ESC_NUM",
@@ -1897,7 +1935,6 @@
     "Descripción breve": "Valoración expresada con números.",
     "Sirve para": "Comunicar calificación cuantitativa.",
     "Adecuada para": "Resultados finales o parciales.",
-    "Instrumentos compatibles": "Prueba objetiva; Prueba tipo test; Prueba escrita de desarrollo",
     "Ventajas": "Compatible con sistemas administrativos.",
     "Limitaciones": "Puede ocultar información cualitativa.",
     "Complejidad": "Baja",
@@ -1931,7 +1968,9 @@
       "TEC_PRUEBA"
     ],
     "Técnicas asociadas": "Pruebas específicas",
-    "Instrumentos asociados": "Prueba objetiva; Prueba tipo test; Prueba escrita de desarrollo"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Prueba objetiva; Prueba tipo test; Prueba escrita de desarrollo",
+    "Medios/evidencias asociados": "Prueba objetiva; Prueba tipo test; Prueba escrita de desarrollo"
   },
   {
     "Código": "HER_ESC_VERB",
@@ -1940,7 +1979,6 @@
     "Descripción breve": "Categorías como inicial, en proceso, adecuado, avanzado.",
     "Sirve para": "Comunicar nivel de logro.",
     "Adecuada para": "Evaluación cualitativa.",
-    "Instrumentos compatibles": "Porfolio; Diario de aprendizaje; Ficha de reflexión",
     "Ventajas": "Más descriptiva que un número.",
     "Limitaciones": "Puede ser ambigua sin descriptores.",
     "Complejidad": "Baja/Media",
@@ -1969,7 +2007,9 @@
         "INS_F_REFLEX": "complementaria"
       }
     },
-    "Instrumentos asociados": "Porfolio; Diario de aprendizaje; Ficha de reflexión"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Porfolio; Diario de aprendizaje; Ficha de reflexión",
+    "Medios/evidencias asociados": "Porfolio; Diario de aprendizaje; Ficha de reflexión"
   },
   {
     "Código": "HER_CONV",
@@ -1978,7 +2018,6 @@
     "Descripción breve": "Regla que transforma niveles de logro en nota.",
     "Sirve para": "Pasar de rúbricas o niveles a calificación.",
     "Adecuada para": "Cuando se necesita nota final.",
-    "Instrumentos compatibles": "Exposición oral; Defensa de proyecto; Memoria de proyecto",
     "Ventajas": "Facilita coherencia en la calificación.",
     "Limitaciones": "Debe ser transparente y justificable.",
     "Complejidad": "Media",
@@ -2005,7 +2044,9 @@
         "INS_MEM_PROY": "principal"
       }
     },
-    "Instrumentos asociados": "Exposición oral; Defensa de proyecto; Memoria de proyecto"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Exposición oral; Defensa de proyecto; Memoria de proyecto",
+    "Medios/evidencias asociados": "Exposición oral; Defensa de proyecto; Memoria de proyecto"
   },
   {
     "Código": "HER_HOJA_CALC",
@@ -2014,7 +2055,6 @@
     "Descripción breve": "Libro digital para registrar, calcular y analizar datos.",
     "Sirve para": "Organizar datos y aplicar reglas de cálculo.",
     "Adecuada para": "Evaluaciones con muchos datos.",
-    "Instrumentos compatibles": "Prueba objetiva; Memoria de proyecto; Porfolio",
     "Ventajas": "Permite automatizar y visualizar.",
     "Limitaciones": "Puede generar falsa precisión.",
     "Complejidad": "Media/Alta",
@@ -2043,7 +2083,9 @@
         "INS_PORT": "ocasional"
       }
     },
-    "Instrumentos asociados": "Prueba objetiva; Memoria de proyecto; Porfolio"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Prueba objetiva; Memoria de proyecto; Porfolio",
+    "Medios/evidencias asociados": "Prueba objetiva; Memoria de proyecto; Porfolio"
   },
   {
     "Código": "HER_INF_IND",
@@ -2052,7 +2094,6 @@
     "Descripción breve": "Documento que comunica progreso, logros y orientaciones.",
     "Sirve para": "Informar a alumnado y familias.",
     "Adecuada para": "Seguimiento individual.",
-    "Instrumentos compatibles": "Portfolio digital",
     "Ventajas": "Integra datos cualitativos y cuantitativos.",
     "Limitaciones": "Requiere síntesis cuidadosa.",
     "Complejidad": "Media",
@@ -2077,7 +2118,9 @@
         "INS_PORT_DIG": "principal"
       }
     },
-    "Instrumentos asociados": "Portfolio digital"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Portfolio digital",
+    "Medios/evidencias asociados": "Portfolio digital"
   },
   {
     "Código": "HER_ACTA",
@@ -2086,7 +2129,6 @@
     "Descripción breve": "Registro formal de decisiones y resultados.",
     "Sirve para": "Documentar decisiones colegiadas.",
     "Adecuada para": "Sesiones de evaluación.",
-    "Instrumentos compatibles": "Defensa de proyecto; Prueba oral",
     "Ventajas": "Tiene valor administrativo.",
     "Limitaciones": "No sustituye a herramientas pedagógicas.",
     "Complejidad": "Media",
@@ -2115,7 +2157,9 @@
         "INS_PR_ORAL": "principal"
       }
     },
-    "Instrumentos asociados": "Defensa de proyecto; Prueba oral"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Defensa de proyecto; Prueba oral",
+    "Medios/evidencias asociados": "Defensa de proyecto; Prueba oral"
   },
   {
     "Código": "HER_FORM_DIG",
@@ -2124,7 +2168,6 @@
     "Descripción breve": "Formulario para recoger respuestas o valoraciones.",
     "Sirve para": "Recoger datos rápidamente.",
     "Adecuada para": "Cuestionarios, autoevaluaciones, coevaluaciones.",
-    "Instrumentos compatibles": "Billete de salida; Cuestionario digital; KPSI; Mapa conceptual inicial",
     "Ventajas": "Automatiza recogida de datos.",
     "Limitaciones": "Depende del diseño de preguntas.",
     "Complejidad": "Baja/Media",
@@ -2164,7 +2207,9 @@
       "TEC_ENC_CUEST"
     ],
     "Técnicas asociadas": "Sondeo y cuestionamiento; Encuesta y cuestionario",
-    "Instrumentos asociados": "Billete de salida; Cuestionario digital; KPSI; Mapa conceptual inicial"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Billete de salida; Cuestionario digital; KPSI; Mapa conceptual inicial",
+    "Medios/evidencias asociados": "Billete de salida; Cuestionario digital; KPSI; Mapa conceptual inicial"
   },
   {
     "Código": "HER_RUB_DIG",
@@ -2173,7 +2218,6 @@
     "Descripción breve": "Rúbrica integrada en una plataforma digital.",
     "Sirve para": "Valorar y devolver feedback en línea.",
     "Adecuada para": "Tareas entregadas digitalmente.",
-    "Instrumentos compatibles": "Defensa de proyecto; Informe de laboratorio; Vídeo; Presentación digital; Página web",
     "Ventajas": "Agiliza calificación y devolución.",
     "Limitaciones": "Puede depender de la plataforma.",
     "Complejidad": "Media",
@@ -2206,7 +2250,9 @@
         "INS_WEB": "principal"
       }
     },
-    "Instrumentos asociados": "Defensa de proyecto; Informe de laboratorio; Vídeo; Presentación digital; Página web"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Defensa de proyecto; Informe de laboratorio; Vídeo; Presentación digital; Página web",
+    "Medios/evidencias asociados": "Defensa de proyecto; Informe de laboratorio; Vídeo; Presentación digital; Página web"
   },
   {
     "Código": "HER_HIST_REV",
@@ -2215,7 +2261,6 @@
     "Descripción breve": "Registro de cambios en documentos compartidos.",
     "Sirve para": "Analizar contribuciones y evolución.",
     "Adecuada para": "Trabajos colaborativos digitales.",
-    "Instrumentos compatibles": "Documento colaborativo; Defensa de proyecto; Cuaderno digital",
     "Ventajas": "Aporta evidencias del proceso.",
     "Limitaciones": "No refleja siempre calidad del aporte.",
     "Complejidad": "Media",
@@ -2255,7 +2300,9 @@
       "TEC_INTER_DIG"
     ],
     "Técnicas asociadas": "Análisis de procesos y reflexiones; Análisis documental; Análisis de interacciones digitales",
-    "Instrumentos asociados": "Documento colaborativo; Defensa de proyecto; Cuaderno digital"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Documento colaborativo; Defensa de proyecto; Cuaderno digital",
+    "Medios/evidencias asociados": "Documento colaborativo; Defensa de proyecto; Cuaderno digital"
   },
   {
     "Código": "HER_PANEL",
@@ -2264,7 +2311,6 @@
     "Descripción breve": "Vista del avance en tareas, criterios o competencias.",
     "Sirve para": "Visualizar seguimiento.",
     "Adecuada para": "Procesos largos o digitales.",
-    "Instrumentos compatibles": "Portfolio digital; Defensa de proyecto; Cuaderno digital",
     "Ventajas": "Facilita seguimiento rápido.",
     "Limitaciones": "Debe interpretarse con cautela.",
     "Complejidad": "Media",
@@ -2304,7 +2350,9 @@
       "TEC_INTER_DIG"
     ],
     "Técnicas asociadas": "Análisis de procesos y reflexiones; Análisis de interacciones digitales",
-    "Instrumentos asociados": "Portfolio digital; Defensa de proyecto; Cuaderno digital"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Portfolio digital; Defensa de proyecto; Cuaderno digital",
+    "Medios/evidencias asociados": "Portfolio digital; Defensa de proyecto; Cuaderno digital"
   },
   {
     "Código": "HER_ANALITICAS",
@@ -2313,7 +2361,6 @@
     "Descripción breve": "Datos de acceso, participación o actividad en plataformas.",
     "Sirve para": "Complementar seguimiento digital.",
     "Adecuada para": "Entornos virtuales.",
-    "Instrumentos compatibles": "Cuestionario digital; Foro de discusión",
     "Ventajas": "Aporta trazas de actividad.",
     "Limitaciones": "No equivale directamente a aprendizaje.",
     "Complejidad": "Alta",
@@ -2347,7 +2394,9 @@
       "TEC_INTER_DIG"
     ],
     "Técnicas asociadas": "Análisis de interacciones digitales",
-    "Instrumentos asociados": "Cuestionario digital; Foro de discusión"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Cuestionario digital; Foro de discusión",
+    "Medios/evidencias asociados": "Cuestionario digital; Foro de discusión"
   },
   {
     "Código": "HER_BANCO_EVID",
@@ -2356,7 +2405,6 @@
     "Descripción breve": "Carpeta o espacio digital con evidencias evaluativas.",
     "Sirve para": "Conservar y organizar producciones.",
     "Adecuada para": "Evaluación continua y portfolio.",
-    "Instrumentos compatibles": "Portfolio digital; Defensa de proyecto; Cuaderno digital; E-portfolio con evidencias seleccionadas",
     "Ventajas": "Facilita revisión y documentación.",
     "Limitaciones": "Requiere buena organización.",
     "Complejidad": "Media",
@@ -2396,7 +2444,9 @@
       "TEC_ANAL_DOC"
     ],
     "Técnicas asociadas": "Análisis documental",
-    "Instrumentos asociados": "Portfolio digital; Defensa de proyecto; Cuaderno digital; E-portfolio con evidencias seleccionadas"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Portfolio digital; Defensa de proyecto; Cuaderno digital; E-portfolio con evidencias seleccionadas",
+    "Medios/evidencias asociados": "Portfolio digital; Defensa de proyecto; Cuaderno digital; E-portfolio con evidencias seleccionadas"
   },
   {
     "Código": "HER_IND_CRIT",
@@ -2405,7 +2455,6 @@
     "Descripción breve": "Desglose de un criterio en indicadores observables.",
     "Sirve para": "Concretar criterios amplios y guiar la recogida de evidencias.",
     "Adecuada para": "Evaluación criterial y competencial.",
-    "Instrumentos compatibles": "Tarea competencial integrada; Situación-problema; Prueba de libro abierto",
     "Ventajas": "Mejora la alineación entre criterio, tarea y evidencia.",
     "Limitaciones": "Puede fragmentar el aprendizaje si se convierte en una lista mecánica.",
     "Complejidad": "Media",
@@ -2434,7 +2483,9 @@
       }
     },
     "Dimensiones asociadas": "Evaluación criterial; Enfoque competencial",
-    "Instrumentos asociados": "Tarea competencial integrada; Situación-problema; Prueba de libro abierto"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Tarea competencial integrada; Situación-problema; Prueba de libro abierto",
+    "Medios/evidencias asociados": "Tarea competencial integrada; Situación-problema; Prueba de libro abierto"
   },
   {
     "Código": "HER_ESC_PROG",
@@ -2443,7 +2494,6 @@
     "Descripción breve": "Escala que describe avances sucesivos hacia un aprendizaje.",
     "Sirve para": "Visualizar progreso y orientar próximos pasos.",
     "Adecuada para": "Evaluación continua, portfolios y procesos largos.",
-    "Instrumentos compatibles": "E-portfolio con evidencias seleccionadas; Cuaderno digital; Diario de aprendizaje",
     "Ventajas": "Muestra evolución, no solo resultado final.",
     "Limitaciones": "Requiere revisar periódicamente evidencias comparables.",
     "Complejidad": "Media",
@@ -2474,7 +2524,9 @@
       }
     },
     "Dimensiones asociadas": "Evaluación continua; Evaluación inclusiva y DUA; Finalidad formativa",
-    "Instrumentos asociados": "E-portfolio con evidencias seleccionadas; Cuaderno digital; Diario de aprendizaje"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "E-portfolio con evidencias seleccionadas; Cuaderno digital; Diario de aprendizaje",
+    "Medios/evidencias asociados": "E-portfolio con evidencias seleccionadas; Cuaderno digital; Diario de aprendizaje"
   },
   {
     "Código": "HER_GUIA_OBS",
@@ -2483,7 +2535,6 @@
     "Descripción breve": "Documento con focos, indicadores y pautas para observar una actuación.",
     "Sirve para": "Planificar y hacer más consistente la observación.",
     "Adecuada para": "Prácticas, debates, seminarios, retos y trabajo cooperativo.",
-    "Instrumentos compatibles": "Checklist de laboratorio; Seminario socrático; Escape room o reto gamificado; Debate; Trabajo cooperativo",
     "Ventajas": "Reduce improvisación y sesgos de observación.",
     "Limitaciones": "No sustituye al juicio profesional ni a criterios bien formulados.",
     "Complejidad": "Media",
@@ -2523,7 +2574,9 @@
     ],
     "Dimensiones asociadas": "Evidencia de desempeño; Finalidad formativa",
     "Técnicas asociadas": "Entrevista evaluativa",
-    "Instrumentos asociados": "Checklist de laboratorio; Seminario socrático; Escape room o reto gamificado; Debate; Trabajo cooperativo"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Checklist de laboratorio; Seminario socrático; Escape room o reto gamificado; Debate; Trabajo cooperativo",
+    "Medios/evidencias asociados": "Checklist de laboratorio; Seminario socrático; Escape room o reto gamificado; Debate; Trabajo cooperativo"
   },
   {
     "Código": "HER_PLANT_FF",
@@ -2532,7 +2585,6 @@
     "Descripción breve": "Plantilla para indicar logro actual, mejora necesaria y siguiente paso.",
     "Sirve para": "Dar retroalimentación accionable y orientada a futuro.",
     "Adecuada para": "Borradores, entregas parciales, portfolios y tareas complejas.",
-    "Instrumentos compatibles": "Borrador; Entrega parcial; Revisión por pares; E-portfolio con evidencias seleccionadas",
     "Ventajas": "Ayuda a que el comentario se convierta en acción.",
     "Limitaciones": "Pierde valor si se rellena con frases genéricas.",
     "Complejidad": "Baja/Media",
@@ -2565,7 +2617,9 @@
       }
     },
     "Dimensiones asociadas": "Retroalimentación y feedforward; Finalidad formativa; Evaluación inclusiva y DUA",
-    "Instrumentos asociados": "Borrador; Entrega parcial; Revisión por pares; E-portfolio con evidencias seleccionadas"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Borrador; Entrega parcial; Revisión por pares; E-portfolio con evidencias seleccionadas",
+    "Medios/evidencias asociados": "Borrador; Entrega parcial; Revisión por pares; E-portfolio con evidencias seleccionadas"
   },
   {
     "Código": "HER_CONTR_GRUP",
@@ -2574,7 +2628,6 @@
     "Descripción breve": "Acuerdo de roles, compromisos y normas de funcionamiento de un equipo.",
     "Sirve para": "Hacer explícitas responsabilidades y prevenir problemas de cooperación.",
     "Adecuada para": "Trabajo cooperativo, proyectos y documentos colaborativos.",
-    "Instrumentos compatibles": "Trabajo cooperativo; Documento colaborativo; Defensa de proyecto",
     "Ventajas": "Facilita seguimiento y autorregulación del grupo.",
     "Limitaciones": "Debe revisarse durante el proceso, no quedarse como trámite inicial.",
     "Complejidad": "Baja/Media",
@@ -2605,7 +2658,9 @@
       }
     },
     "Dimensiones asociadas": "Evaluación compartida y participativa; Trabajo por proyectos; Finalidad formativa",
-    "Instrumentos asociados": "Trabajo cooperativo; Documento colaborativo; Defensa de proyecto"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Trabajo cooperativo; Documento colaborativo; Defensa de proyecto",
+    "Medios/evidencias asociados": "Trabajo cooperativo; Documento colaborativo; Defensa de proyecto"
   },
   {
     "Código": "HER_SOCIO",
@@ -2614,7 +2669,6 @@
     "Descripción breve": "Representación de relaciones, elecciones o dinámicas dentro del grupo.",
     "Sirve para": "Comprender integración, liderazgo, aislamiento o estructura social del aula.",
     "Adecuada para": "Tutoría, convivencia, trabajo cooperativo y agrupamientos.",
-    "Instrumentos compatibles": "Asamblea; Trabajo cooperativo",
     "Ventajas": "Ayuda a tomar decisiones de agrupamiento y convivencia.",
     "Limitaciones": "Maneja información sensible y debe usarse con confidencialidad.",
     "Complejidad": "Media",
@@ -2641,7 +2695,9 @@
       }
     },
     "Dimensiones asociadas": "Finalidad formativa; Evaluación compartida y participativa",
-    "Instrumentos asociados": "Asamblea; Trabajo cooperativo"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Asamblea; Trabajo cooperativo",
+    "Medios/evidencias asociados": "Asamblea; Trabajo cooperativo"
   },
   {
     "Código": "HER_MAP_EVID",
@@ -2650,7 +2706,6 @@
     "Descripción breve": "Tabla que vincula criterios con tareas, evidencias e instrumentos de valoración.",
     "Sirve para": "Comprobar cobertura y trazabilidad de la evaluación.",
     "Adecuada para": "Evaluación criterial, competencial, portfolios y calificación por criterios.",
-    "Instrumentos compatibles": "Tarea competencial integrada; E-portfolio con evidencias seleccionadas; Prueba competencial contextualizada",
     "Ventajas": "Hace visible qué evidencia sostiene cada decisión.",
     "Limitaciones": "Requiere actualización y selección cuidadosa de evidencias relevantes.",
     "Complejidad": "Alta",
@@ -2692,6 +2747,8 @@
     ],
     "Dimensiones asociadas": "Evaluación criterial; Enfoque competencial; Calificación y acreditación; Evaluación inclusiva y DUA",
     "Técnicas asociadas": "Análisis documental; Triangulación de evidencias",
-    "Instrumentos asociados": "Tarea competencial integrada; E-portfolio con evidencias seleccionadas; Prueba competencial contextualizada"
+    "tipo_entidad": "instrumento_evaluacion",
+    "Medios/evidencias compatibles": "Tarea competencial integrada; E-portfolio con evidencias seleccionadas; Prueba competencial contextualizada",
+    "Medios/evidencias asociados": "Tarea competencial integrada; E-portfolio con evidencias seleccionadas; Prueba competencial contextualizada"
   }
 ]

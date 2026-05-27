@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mapa de Evaluación</title>
-  <meta name="description" content="Explora técnicas, instrumentos y herramientas de evaluación educativa">
+  <meta name="description" content="Explora técnicas, evidencias evaluables, instrumentos de evaluación y dimensiones de la evaluación educativa">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -18,8 +18,8 @@
     </button>
     <div class="cat-tabs" id="cat-tabs" style="display:none">
       <button class="cat-tab" data-cat="tecnicas">🔬 Técnicas</button>
-      <button class="cat-tab" data-cat="instrumentos">📄 Instrumentos</button>
-      <button class="cat-tab" data-cat="herramientas">🛠️ Herramientas</button>
+      <button class="cat-tab" data-cat="instrumentos">📄 Evidencias evaluables</button>
+      <button class="cat-tab" data-cat="herramientas">🛠️ Instrumentos de evaluación</button>
       <span class="cat-tab-separator" aria-hidden="true"></span>
       <button class="cat-tab cat-tab-transversal" data-cat="dimensiones">🧭 Dimensiones transversales</button>
     </div>
@@ -43,23 +43,23 @@
           <div class="home-card-icon">🔬</div>
           <div class="home-card-count" id="count-tec">7 técnicas</div>
           <h2>Técnicas</h2>
-          <p>Procedimientos para recoger evidencias. Conectadas con instrumentos, herramientas y dimensiones.</p>
+          <p>Procedimientos para recoger evidencias. Conectadas con evidencias evaluables, instrumentos de evaluación y dimensiones.</p>
           <div class="home-card-btn">Empezar desde aquí →</div>
         </div>
 
         <div class="home-card ins" data-cat="instrumentos">
           <div class="home-card-icon">📄</div>
-          <div class="home-card-count" id="count-ins">75 instrumentos</div>
-          <h2>Instrumentos</h2>
-          <p>Actividades y tareas que generan evidencias evaluables. Conectados con técnicas y herramientas.</p>
+          <div class="home-card-count" id="count-ins">75 evidencias evaluables</div>
+          <h2>Evidencias evaluables</h2>
+          <p>Tareas, actividades y producciones mediante las cuales el alumnado hace visible su aprendizaje. Conectadas con técnicas e instrumentos de evaluación.</p>
           <div class="home-card-btn">Empezar desde aquí →</div>
         </div>
 
         <div class="home-card her" data-cat="herramientas">
           <div class="home-card-icon">🛠️</div>
-          <div class="home-card-count" id="count-her">50 herramientas</div>
-          <h2>Herramientas</h2>
-          <p>Recursos para registrar y valorar evidencias. Conectadas con instrumentos y dimensiones.</p>
+          <div class="home-card-count" id="count-her">50 instrumentos de evaluación</div>
+          <h2>Instrumentos de evaluación</h2>
+          <p>Rúbricas, listas, escalas y registros para valorar, calificar y retroalimentar las evidencias. Conectados con evidencias evaluables y dimensiones.</p>
           <div class="home-card-btn">Empezar desde aquí →</div>
         </div>
 
@@ -71,7 +71,7 @@
           <div class="home-card-count" id="count-dim">14 dimensiones</div>
           <h2>Dimensiones</h2>
           <div class="home-card-kicker">Eje transversal del mapa</div>
-          <p>Finalidad, agente, momento, enfoque y soporte cruzan técnicas, instrumentos y herramientas para dar sentido pedagógico a la evaluación.</p>
+          <p>Finalidad, agente, momento, enfoque y soporte cruzan técnicas, evidencias evaluables e instrumentos de evaluación para dar sentido pedagógico a la evaluación.</p>
         </div>
         <div class="home-card-btn">Empezar desde aquí →</div>
       </div>
@@ -104,14 +104,15 @@
         </div>
         <div class="detail-content" id="detail-content" style="display:none">
           <canvas id="hub-canvas" aria-hidden="true"></canvas>
+          <div id="graph-tooltip" class="graph-tooltip" aria-hidden="true"></div>
           <div class="graph-controls">
             <button class="graph-toggle-btn" id="btn-toggle-graph" type="button" title="Muestra relaciones adicionales conectadas a los nodos visibles.">Expandir relaciones</button>
             <button class="graph-toggle-btn active" id="btn-toggle-essential" type="button" title="Ahora se muestran solo relaciones principales y complementarias. Pulsa para mostrar también las ocasionales.">Modo: esenciales</button>
             <div class="graph-cat-filters" aria-label="Categorías visibles en el grafo">
               <span class="graph-cat-label">Ver:</span>
               <button class="graph-cat-chip tec" data-graph-cat="tecnicas" type="button" aria-label="Técnicas">🔬</button>
-              <button class="graph-cat-chip ins" data-graph-cat="instrumentos" type="button" aria-label="Instrumentos">📄</button>
-              <button class="graph-cat-chip her" data-graph-cat="herramientas" type="button" aria-label="Herramientas">🛠️</button>
+              <button class="graph-cat-chip ins" data-graph-cat="instrumentos" type="button" aria-label="Evidencias evaluables">📄</button>
+              <button class="graph-cat-chip her" data-graph-cat="herramientas" type="button" aria-label="Instrumentos de evaluación">🛠️</button>
               <button class="graph-cat-chip dim" data-graph-cat="dimensiones" type="button" aria-label="Dimensiones transversales">🧭</button>
             </div>
           </div>

@@ -34,8 +34,8 @@ const CAT_CONFIG = {
   instrumentos: {
     cls:               'ins',
     icon:              '📄',
-    label:             'Instrumentos',
-    singularLabel:     'Instrumento',
+    label:             'Evidencias evaluables',
+    singularLabel:     'Evidencia evaluable',
     nameKey:           'Instrumento',
     extraFilterLabel:  'Complejidad:',
     extraFilterKey:    'Complejidad',
@@ -47,8 +47,8 @@ const CAT_CONFIG = {
   herramientas: {
     cls:               'her',
     icon:              '🛠️',
-    label:             'Herramientas',
-    singularLabel:     'Herramienta',
+    label:             'Instrumentos de evaluación',
+    singularLabel:     'Instrumento de evaluación',
     nameKey:           'Herramienta',
     extraFilterLabel:  'Participación:',
     extraFilterKey:    'Participación',
@@ -118,7 +118,7 @@ function updateTabGraphCounts() {
       : isCenterCat
         ? 'No se puede ocultar la categoría del elemento seleccionado.'
         : requiredBridge
-          ? 'No se pueden ocultar los instrumentos porque conectan el elemento seleccionado con el resto del grafo.'
+          ? 'No se pueden ocultar las evidencias evaluables porque conectan el elemento seleccionado con el resto del grafo.'
           : graphVisibleCats[cat]
             ? `Ocultar ${CAT_CONFIG[cat].label} del grafo (${visibleCount} visibles).`
             : `Mostrar ${CAT_CONFIG[cat].label} en el grafo.`;
@@ -137,8 +137,8 @@ async function loadData() {
 
   document.getElementById('count-tec').textContent = `${state.data.tecnicas.length} técnicas`;
   document.getElementById('count-dim').textContent = `${state.data.dimensiones.length} dimensiones`;
-  document.getElementById('count-ins').textContent = `${state.data.instrumentos.length} instrumentos`;
-  document.getElementById('count-her').textContent = `${state.data.herramientas.length} herramientas`;
+  document.getElementById('count-ins').textContent = `${state.data.instrumentos.length} evidencias evaluables`;
+  document.getElementById('count-her').textContent = `${state.data.herramientas.length} instrumentos de evaluación`;
 
   document.querySelectorAll('.cat-tab[data-cat]').forEach(tab => {
     tab.innerHTML = tabLabel(tab.dataset.cat);
@@ -830,28 +830,28 @@ function renderDetailText(item, cat) {
       gridSection('Cuándo conviene',     item['Cuándo conviene']) +
       gridSection('Evidencias',          item['Evidencias habituales']) +
       gridSection('Limitaciones',        item['Limitaciones']) +
-      groupedRelationSection('Instrumentos relacionados', getRelationNames(item, 'rel_ins', 'instrumentos')) +
-      groupedRelationSection('Herramientas relacionadas', getRelationNames(item, 'rel_her', 'herramientas'));
+      groupedRelationSection('Medios/evidencias relacionados', getRelationNames(item, 'rel_ins', 'instrumentos')) +
+      groupedRelationSection('Instrumentos de evaluación relacionados', getRelationNames(item, 'rel_her', 'herramientas'));
   } else if (cat === 'dimensiones') {
     gridItems =
       gridSection('Función pedagógica',  item['Función pedagógica']) +
       gridSection('Cuándo conviene',     item['Cuándo conviene']) +
       gridSection('Evidencias',          item['Evidencias habituales']) +
       gridSection('Precauciones',        item['Precauciones']) +
-      groupedRelationSection('Instrumentos relacionados', getRelationNames(item, 'rel_ins', 'instrumentos')) +
-      groupedRelationSection('Herramientas relacionadas', getRelationNames(item, 'rel_her', 'herramientas'));
+      groupedRelationSection('Medios/evidencias relacionados', getRelationNames(item, 'rel_ins', 'instrumentos')) +
+      groupedRelationSection('Instrumentos de evaluación relacionados', getRelationNames(item, 'rel_her', 'herramientas'));
   } else if (cat === 'instrumentos') {
     gridItems =
       gridSection('Adecuado para',       item['Adecuado para']) +
       groupedRelationSection('Técnicas asociadas', getRelationNames(item, 'rel_tec', 'tecnicas')) +
       groupedRelationSection('Dimensiones asociadas', getRelationNames(item, 'rel_dim', 'dimensiones')) +
-      groupedRelationSection('Herramientas recomendadas', getRelationNames(item, 'rel_her', 'herramientas'));
+      groupedRelationSection('Instrumentos de evaluación recomendados', getRelationNames(item, 'rel_her', 'herramientas'));
   } else {
     gridItems =
       gridSection('Sirve para',          item['Sirve para']) +
       gridSection('Adecuada para',       item['Adecuada para']) +
       groupedRelationSection('Dimensiones asociadas', getRelationNames(item, 'rel_dim', 'dimensiones')) +
-      groupedRelationSection('Instrumentos compatibles', getRelationNames(item, 'rel_ins', 'instrumentos')) +
+      groupedRelationSection('Medios/evidencias compatibles', getRelationNames(item, 'rel_ins', 'instrumentos')) +
       gridSection('Ventajas',            item['Ventajas']) +
       gridSection('Limitaciones',        item['Limitaciones']);
   }
@@ -1034,6 +1034,8 @@ function initEvents() {
 
   hubCanvas.addEventListener('mousedown', e => {
     if (e.button !== 0) return;
+    const tipEl = document.getElementById('graph-tooltip');
+    if (tipEl) tipEl.classList.remove('visible');
     const rect = hubCanvas.getBoundingClientRect();
     const idx  = graphHitTest(e.clientX - rect.left, e.clientY - rect.top);
     if (idx > 0) {
@@ -1080,10 +1082,34 @@ function initEvents() {
     const idx = graphHitTest(e.clientX - rect.left, e.clientY - rect.top);
     GRAPH.hover = idx;
     hubCanvas.style.cursor = idx > 0 ? 'pointer' : 'grab';
+    const tip = document.getElementById('graph-tooltip');
+    if (idx >= 0 && tip) {
+      const nd  = GRAPH.nodes[idx];
+      const cfg = CAT_CONFIG[nd.cat];
+      const dataItem = (state.data[nd.cat] || []).find(i => i[cfg.nameKey] === nd.name);
+      const desc = dataItem?.['Descripción breve'] || '';
+      tip.innerHTML = `<div class="graph-tooltip-name">${nd.name}</div>${desc ? `<div class="graph-tooltip-desc">${desc}</div>` : ''}`;
+      const cx = e.clientX - rect.left;
+      const cy = e.clientY - rect.top;
+      const tw = 224, th = 80;
+      const cw = hubCanvas.clientWidth, ch = hubCanvas.clientHeight;
+      const left = cx + 14 + tw > cw ? cx - tw - 10 : cx + 14;
+      const top  = cy + 10 + th > ch ? cy - th - 6  : cy + 10;
+      tip.style.left = left + 'px';
+      tip.style.top  = top  + 'px';
+      tip.classList.add('visible');
+    } else if (tip) {
+      tip.classList.remove('visible');
+    }
   });
 
   hubCanvas.addEventListener('mouseleave', () => {
-    if (!GRAPH.isPanning) { GRAPH.hover = -1; hubCanvas.style.cursor = 'default'; }
+    if (!GRAPH.isPanning) {
+      GRAPH.hover = -1;
+      hubCanvas.style.cursor = 'default';
+      const tip = document.getElementById('graph-tooltip');
+      if (tip) tip.classList.remove('visible');
+    }
   });
 
   document.addEventListener('mouseup', () => {

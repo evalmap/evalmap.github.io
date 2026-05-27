@@ -32,8 +32,6 @@
       "HER_LISTA_AUTO",
       "HER_REG_COMP"
     ],
-    "Instrumentos asociados": "Diario de aprendizaje; Porfolio; Contrato de aprendizaje; Ficha de reflexión; Autoinforme; KPSI; Semáforo de aprendizaje; Billete de salida; Checklist de laboratorio",
-    "Herramientas recomendadas": "Escala de autoevaluación; Diana de evaluación; Rúbrica de autoevaluación; Lista de cotejo o control; Semáforo de evaluación; Lista de cotejo de autoevaluación; Registro de compromisos de mejora",
     "rel_meta": {
       "rel_ins": {
         "INS_DIARIO": "principal",
@@ -55,7 +53,10 @@
         "HER_LISTA_AUTO": "principal",
         "HER_REG_COMP": "principal"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Diario de aprendizaje; Porfolio; Contrato de aprendizaje; Ficha de reflexión; Autoinforme; KPSI; Semáforo de aprendizaje; Billete de salida; Checklist de laboratorio",
+    "Instrumentos de evaluación recomendados": "Escala de autoevaluación; Diana de evaluación; Rúbrica de autoevaluación; Lista de cotejo o control; Semáforo de evaluación; Lista de cotejo de autoevaluación; Registro de compromisos de mejora"
   },
   {
     "Código": "DIM_COEV",
@@ -89,8 +90,6 @@
       "HER_REG_COOP",
       "HER_FICHA_COEV"
     ],
-    "Instrumentos asociados": "Trabajo cooperativo; Debate; Asamblea; Exposición oral; Acta de reunión; Documento colaborativo; Revisión por pares; Dos estrellas y un deseo",
-    "Herramientas recomendadas": "Rúbrica de coevaluación; Escala de observación; Formulario digital; Rúbrica oral; Rúbrica de trabajo cooperativo; Registro de trabajo cooperativo; Ficha de coevaluación",
     "rel_meta": {
       "rel_ins": {
         "INS_TRAB_COOP": "principal",
@@ -111,7 +110,10 @@
         "HER_FICHA_COEV": "principal",
         "HER_FORM_DIG": "principal"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Trabajo cooperativo; Debate; Asamblea; Exposición oral; Acta de reunión; Documento colaborativo; Revisión por pares; Dos estrellas y un deseo",
+    "Instrumentos de evaluación recomendados": "Rúbrica de coevaluación; Escala de observación; Formulario digital; Rúbrica oral; Rúbrica de trabajo cooperativo; Registro de trabajo cooperativo; Ficha de coevaluación"
   },
   {
     "Código": "DIM_HET",
@@ -154,8 +156,6 @@
       "HER_CUAD_CAL",
       "HER_ACTA"
     ],
-    "Instrumentos asociados": "Práctica de laboratorio; Exposición oral; Defensa de proyecto; Porfolio; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Prueba escrita de desarrollo; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba oral; Prueba práctica; Prueba competencial contextualizada; Prueba con documentos; Trabajo cooperativo; Prueba de libro abierto",
-    "Herramientas recomendadas": "Rúbrica analítica; Guía de corrección; Lista de cotejo o control; Escala de observación; Cuaderno de calificaciones; Acta de evaluación",
     "rel_meta": {
       "rel_ins": {
         "INS_LAB": "complementaria",
@@ -185,7 +185,10 @@
         "HER_CUAD_CAL": "complementaria",
         "HER_ACTA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Práctica de laboratorio; Exposición oral; Defensa de proyecto; Porfolio; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Prueba escrita de desarrollo; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba oral; Prueba práctica; Prueba competencial contextualizada; Prueba con documentos; Trabajo cooperativo; Prueba de libro abierto",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Lista de cotejo o control; Escala de observación; Cuaderno de calificaciones; Acta de evaluación"
   },
   {
     "Código": "DIM_DIAG",
@@ -210,7 +213,6 @@
       "INS_LLUVIA"
     ],
     "rel_her": [],
-    "Instrumentos asociados": "Mapa conceptual; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; KPSI; Mapa conceptual inicial; Lluvia de ideas",
     "rel_meta": {
       "rel_ins": {
         "INS_MAP_CONC": "principal",
@@ -221,7 +223,9 @@
         "INS_MAP_INI": "principal",
         "INS_LLUVIA": "principal"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Mapa conceptual; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; KPSI; Mapa conceptual inicial; Lluvia de ideas"
   },
   {
     "Código": "DIM_FORM",
@@ -292,8 +296,6 @@
       "HER_CONTR_GRUP",
       "HER_SOCIO"
     ],
-    "Instrumentos asociados": "Trabajo individual en aula; Participación en clase; Coloquio; Asamblea; Entrevista; Pregunta oral estructurada; Cuaderno de clase; Diario de aprendizaje; Porfolio; Resumen; Esquema; Mapa mental; Glosario; Ficha de lectura; Plan de trabajo; Contrato de aprendizaje; Ficha de reflexión; Prueba de respuesta corta; Documento colaborativo; Lluvia de ideas; Borrador; Entrega parcial; Bitácora de proyecto; Revisión por pares; Dos estrellas y un deseo; Semáforo de aprendizaje; Billete de salida; Trabajo cooperativo; Seminario socrático; Checklist de laboratorio",
-    "Herramientas recomendadas": "Ficha de retroalimentación; Lista de cotejo o control; Escala de observación; Escala de valoración; Registro descriptivo; Diario del profesor; Hoja de seguimiento grupal; Registro de participación; Notas de campo; Ficha de valoración; Semáforo de evaluación; Registro de compromisos de mejora; Escala verbal; Historial de revisión; Panel de progreso; Analíticas de aprendizaje; Banco digital de evidencias; Escala de progreso; Guía de observación; Plantilla de feedback/feedforward; Contrato de grupo; Sociograma",
     "rel_meta": {
       "rel_ins": {
         "INS_TRAB_IND": "principal",
@@ -351,7 +353,10 @@
         "HER_CONTR_GRUP": "complementaria",
         "HER_SOCIO": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Trabajo individual en aula; Participación en clase; Coloquio; Asamblea; Entrevista; Pregunta oral estructurada; Cuaderno de clase; Diario de aprendizaje; Porfolio; Resumen; Esquema; Mapa mental; Glosario; Ficha de lectura; Plan de trabajo; Contrato de aprendizaje; Ficha de reflexión; Prueba de respuesta corta; Documento colaborativo; Lluvia de ideas; Borrador; Entrega parcial; Bitácora de proyecto; Revisión por pares; Dos estrellas y un deseo; Semáforo de aprendizaje; Billete de salida; Trabajo cooperativo; Seminario socrático; Checklist de laboratorio",
+    "Instrumentos de evaluación recomendados": "Ficha de retroalimentación; Lista de cotejo o control; Escala de observación; Escala de valoración; Registro descriptivo; Diario del profesor; Hoja de seguimiento grupal; Registro de participación; Notas de campo; Ficha de valoración; Semáforo de evaluación; Registro de compromisos de mejora; Escala verbal; Historial de revisión; Panel de progreso; Analíticas de aprendizaje; Banco digital de evidencias; Escala de progreso; Guía de observación; Plantilla de feedback/feedforward; Contrato de grupo; Sociograma"
   },
   {
     "Código": "DIM_SUM",
@@ -402,8 +407,6 @@
       "HER_ACTA",
       "HER_RUB_DIG"
     ],
-    "Instrumentos asociados": "Exposición oral; Monografía; Ensayo; Comentario de texto; Reseña; Artículo divulgativo; Autoinforme; Prueba escrita de desarrollo; Prueba objetiva; Prueba tipo test; Prueba oral; Prueba con documentos",
-    "Herramientas recomendadas": "Rúbrica analítica; Guía de corrección; Baremo; Cuaderno de calificaciones; Rúbrica global u holística; Rúbrica de producto; Rúbrica oral; Escala de valoración; Plantilla de corrección; Ficha de valoración; Matriz de valoración; Tabla de calificación por criterios; Matriz de ponderación; Escala numérica; Escala verbal; Conversor de niveles a calificación; Hoja de cálculo de evaluación; Informe individual de evaluación; Acta de evaluación; Rúbrica digital",
     "rel_meta": {
       "rel_ins": {
         "INS_EXPO": "complementaria",
@@ -441,7 +444,10 @@
         "HER_ACTA": "principal",
         "HER_RUB_DIG": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Exposición oral; Monografía; Ensayo; Comentario de texto; Reseña; Artículo divulgativo; Autoinforme; Prueba escrita de desarrollo; Prueba objetiva; Prueba tipo test; Prueba oral; Prueba con documentos",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Baremo; Cuaderno de calificaciones; Rúbrica global u holística; Rúbrica de producto; Rúbrica oral; Escala de valoración; Plantilla de corrección; Ficha de valoración; Matriz de valoración; Tabla de calificación por criterios; Matriz de ponderación; Escala numérica; Escala verbal; Conversor de niveles a calificación; Hoja de cálculo de evaluación; Informe individual de evaluación; Acta de evaluación; Rúbrica digital"
   },
   {
     "Código": "DIM_COMP",
@@ -481,8 +487,6 @@
       "HER_IND_CRIT",
       "HER_MAP_EVID"
     ],
-    "Instrumentos asociados": "Ensayo; Comentario de texto; Línea del tiempo; Reseña; Artículo divulgativo; Estudio de caso; Prueba competencial contextualizada; Prueba con documentos; Infografía; Póster académico; Cómic; Prueba de libro abierto; Tarea competencial integrada; Situación-problema",
-    "Herramientas recomendadas": "Rúbrica competencial; Perfil de logro; Matriz de valoración; Banco de descriptores; Tabla de calificación por criterios; Lista de indicadores por criterio; Mapa de evidencias por criterio",
     "rel_meta": {
       "rel_ins": {
         "INS_ENSAYO": "complementaria",
@@ -509,7 +513,10 @@
         "HER_IND_CRIT": "complementaria",
         "HER_MAP_EVID": "principal"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Ensayo; Comentario de texto; Línea del tiempo; Reseña; Artículo divulgativo; Estudio de caso; Prueba competencial contextualizada; Prueba con documentos; Infografía; Póster académico; Cómic; Prueba de libro abierto; Tarea competencial integrada; Situación-problema",
+    "Instrumentos de evaluación recomendados": "Rúbrica competencial; Perfil de logro; Matriz de valoración; Banco de descriptores; Tabla de calificación por criterios; Lista de indicadores por criterio; Mapa de evidencias por criterio"
   },
   {
     "Código": "DIM_DESEMP",
@@ -552,8 +559,6 @@
       "HER_REG_PART",
       "HER_GUIA_OBS"
     ],
-    "Instrumentos asociados": "Participación en clase; Coloquio; Taller; Simulación; Exposición oral; Defensa de proyecto; Entrevista; Pregunta oral estructurada; Prueba oral; Prueba práctica; Presentación digital; Videotutorial; Maqueta; Prototipo; Trabajo cooperativo; Seminario socrático; Checklist de laboratorio",
-    "Herramientas recomendadas": "Escala de observación; Lista de cotejo o control; Rúbrica de producto; Rúbrica oral; Registro descriptivo; Registro de participación; Guía de observación",
     "rel_meta": {
       "rel_ins": {
         "INS_PART": "complementaria",
@@ -583,7 +588,10 @@
         "HER_REG_PART": "complementaria",
         "HER_GUIA_OBS": "principal"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Participación en clase; Coloquio; Taller; Simulación; Exposición oral; Defensa de proyecto; Entrevista; Pregunta oral estructurada; Prueba oral; Prueba práctica; Presentación digital; Videotutorial; Maqueta; Prototipo; Trabajo cooperativo; Seminario socrático; Checklist de laboratorio",
+    "Instrumentos de evaluación recomendados": "Escala de observación; Lista de cotejo o control; Rúbrica de producto; Rúbrica oral; Registro descriptivo; Registro de participación; Guía de observación"
   },
   {
     "Código": "DIM_PROY",
@@ -613,8 +621,6 @@
       "HER_REG_COOP",
       "HER_CONTR_GRUP"
     ],
-    "Instrumentos asociados": "Memoria de proyecto; Plan de trabajo; Prototipo; Bitácora de proyecto; Trabajo cooperativo",
-    "Herramientas recomendadas": "Hoja de seguimiento individual; Rúbrica de proceso; Rúbrica de trabajo cooperativo; Hoja de seguimiento grupal; Registro de trabajo cooperativo; Contrato de grupo",
     "rel_meta": {
       "rel_ins": {
         "INS_MEM_PROY": "principal",
@@ -631,7 +637,10 @@
         "HER_REG_COOP": "complementaria",
         "HER_CONTR_GRUP": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Memoria de proyecto; Plan de trabajo; Prototipo; Bitácora de proyecto; Trabajo cooperativo",
+    "Instrumentos de evaluación recomendados": "Hoja de seguimiento individual; Rúbrica de proceso; Rúbrica de trabajo cooperativo; Hoja de seguimiento grupal; Registro de trabajo cooperativo; Contrato de grupo"
   },
   {
     "Código": "DIM_INDAG",
@@ -655,8 +664,6 @@
       "HER_GUIA_CORR",
       "HER_LISTA"
     ],
-    "Instrumentos asociados": "Práctica de laboratorio; Informe de laboratorio; Informe de investigación",
-    "Herramientas recomendadas": "Guía de corrección; Lista de cotejo o control",
     "rel_meta": {
       "rel_ins": {
         "INS_LAB": "complementaria",
@@ -667,7 +674,10 @@
         "HER_LISTA": "ocasional",
         "HER_GUIA_CORR": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Práctica de laboratorio; Informe de laboratorio; Informe de investigación",
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Lista de cotejo o control"
   },
   {
     "Código": "DIM_PROB",
@@ -692,8 +702,6 @@
       "HER_GUIA_CORR",
       "HER_ESC_DESC"
     ],
-    "Instrumentos asociados": "Comentario de gráfica o datos; Resolución de problemas; Situación-problema; Escape room o reto gamificado",
-    "Herramientas recomendadas": "Guía de corrección; Escala descriptiva",
     "rel_meta": {
       "rel_ins": {
         "INS_COM_GRAF": "principal",
@@ -705,7 +713,10 @@
         "HER_ESC_DESC": "principal",
         "HER_GUIA_CORR": "ocasional"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Comentario de gráfica o datos; Resolución de problemas; Situación-problema; Escape room o reto gamificado",
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Escala descriptiva"
   },
   {
     "Código": "DIM_CASO",
@@ -727,8 +738,6 @@
       "HER_RUB_ANA",
       "HER_ESC_DESC"
     ],
-    "Instrumentos asociados": "Estudio de caso",
-    "Herramientas recomendadas": "Rúbrica analítica; Escala descriptiva",
     "rel_meta": {
       "rel_ins": {
         "INS_CASO": "principal"
@@ -737,7 +746,10 @@
         "HER_RUB_ANA": "complementaria",
         "HER_ESC_DESC": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Estudio de caso",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala descriptiva"
   },
   {
     "Código": "DIM_SIM",
@@ -763,8 +775,6 @@
       "HER_ESC_OBS",
       "HER_REG_ANE"
     ],
-    "Instrumentos asociados": "Simulación; Juego de rol; Dramatización; Escape room o reto gamificado",
-    "Herramientas recomendadas": "Rúbrica analítica; Escala de observación; Registro anecdótico",
     "rel_meta": {
       "rel_ins": {
         "INS_SIM": "principal",
@@ -777,7 +787,10 @@
         "HER_ESC_OBS": "ocasional",
         "HER_REG_ANE": "principal"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Simulación; Juego de rol; Dramatización; Escape room o reto gamificado",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación; Registro anecdótico"
   },
   {
     "Código": "DIM_DIG",
@@ -815,8 +828,6 @@
       "HER_ANALITICAS",
       "HER_BANCO_EVID"
     ],
-    "Instrumentos asociados": "Cuestionario digital; Infografía; Presentación digital; Vídeo; Podcast; Modelo digital; Página web; Entrada de blog; Foro de discusión; Documento colaborativo; Portfolio digital; Cuaderno digital",
-    "Herramientas recomendadas": "Rúbrica digital; Historial de revisión; Panel de progreso; Hoja de cálculo de evaluación; Formulario digital; Analíticas de aprendizaje; Banco digital de evidencias",
     "rel_meta": {
       "rel_ins": {
         "INS_CUEST_DIG": "principal",
@@ -841,7 +852,10 @@
         "HER_ANALITICAS": "principal",
         "HER_BANCO_EVID": "principal"
       }
-    }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Cuestionario digital; Infografía; Presentación digital; Vídeo; Podcast; Modelo digital; Página web; Entrada de blog; Foro de discusión; Documento colaborativo; Portfolio digital; Cuaderno digital",
+    "Instrumentos de evaluación recomendados": "Rúbrica digital; Historial de revisión; Panel de progreso; Hoja de cálculo de evaluación; Formulario digital; Analíticas de aprendizaje; Banco digital de evidencias"
   },
   {
     "Código": "DIM_CRIT",
@@ -882,8 +896,9 @@
         "HER_TAB_CRIT": "complementaria"
       }
     },
-    "Instrumentos asociados": "Tarea competencial integrada; Situación-problema; E-portfolio con evidencias seleccionadas; Prueba de libro abierto",
-    "Herramientas recomendadas": "Lista de indicadores por criterio; Mapa de evidencias por criterio; Rúbrica competencial; Tabla de calificación por criterios"
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Tarea competencial integrada; Situación-problema; E-portfolio con evidencias seleccionadas; Prueba de libro abierto",
+    "Instrumentos de evaluación recomendados": "Lista de indicadores por criterio; Mapa de evidencias por criterio; Rúbrica competencial; Tabla de calificación por criterios"
   },
   {
     "Código": "DIM_INCL",
@@ -920,8 +935,9 @@
         "HER_MAP_EVID": "complementaria"
       }
     },
-    "Instrumentos asociados": "Tarea competencial integrada; Cuaderno digital; E-portfolio con evidencias seleccionadas",
-    "Herramientas recomendadas": "Escala de progreso; Plantilla de feedback/feedforward; Mapa de evidencias por criterio"
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Tarea competencial integrada; Cuaderno digital; E-portfolio con evidencias seleccionadas",
+    "Instrumentos de evaluación recomendados": "Escala de progreso; Plantilla de feedback/feedforward; Mapa de evidencias por criterio"
   },
   {
     "Código": "DIM_CONT",
@@ -962,8 +978,9 @@
         "HER_HOJA_IND": "complementaria"
       }
     },
-    "Instrumentos asociados": "Cuaderno digital; E-portfolio con evidencias seleccionadas; Entrega parcial; Borrador",
-    "Herramientas recomendadas": "Escala de progreso; Panel de progreso; Banco digital de evidencias; Hoja de seguimiento individual"
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Cuaderno digital; E-portfolio con evidencias seleccionadas; Entrega parcial; Borrador",
+    "Instrumentos de evaluación recomendados": "Escala de progreso; Panel de progreso; Banco digital de evidencias; Hoja de seguimiento individual"
   },
   {
     "Código": "DIM_FEED",
@@ -1004,8 +1021,9 @@
         "HER_REG_COMP": "complementaria"
       }
     },
-    "Instrumentos asociados": "Borrador; Revisión por pares; Dos estrellas y un deseo; Entrega parcial; E-portfolio con evidencias seleccionadas",
-    "Herramientas recomendadas": "Plantilla de feedback/feedforward; Ficha de retroalimentación; Registro de compromisos de mejora"
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Borrador; Revisión por pares; Dos estrellas y un deseo; Entrega parcial; E-portfolio con evidencias seleccionadas",
+    "Instrumentos de evaluación recomendados": "Plantilla de feedback/feedforward; Ficha de retroalimentación; Registro de compromisos de mejora"
   },
   {
     "Código": "DIM_CAL_ACRED",
@@ -1046,8 +1064,9 @@
         "HER_MAP_EVID": "complementaria"
       }
     },
-    "Instrumentos asociados": "Prueba competencial contextualizada; Tarea competencial integrada; E-portfolio con evidencias seleccionadas",
-    "Herramientas recomendadas": "Tabla de calificación por criterios; Matriz de ponderación; Informe individual de evaluación; Acta de evaluación; Mapa de evidencias por criterio"
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Prueba competencial contextualizada; Tarea competencial integrada; E-portfolio con evidencias seleccionadas",
+    "Instrumentos de evaluación recomendados": "Tabla de calificación por criterios; Matriz de ponderación; Informe individual de evaluación; Acta de evaluación; Mapa de evidencias por criterio"
   },
   {
     "Código": "DIM_COMPART",
@@ -1094,7 +1113,8 @@
         "HER_SOCIO": "complementaria"
       }
     },
-    "Instrumentos asociados": "Trabajo cooperativo; Revisión por pares; Contrato de aprendizaje; E-portfolio con evidencias seleccionadas; Escape room o reto gamificado; Seminario socrático",
-    "Herramientas recomendadas": "Contrato de grupo; Ficha de coevaluación; Rúbrica de coevaluación; Registro de compromisos de mejora; Sociograma"
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Trabajo cooperativo; Revisión por pares; Contrato de aprendizaje; E-portfolio con evidencias seleccionadas; Escape room o reto gamificado; Seminario socrático",
+    "Instrumentos de evaluación recomendados": "Contrato de grupo; Ficha de coevaluación; Rúbrica de coevaluación; Registro de compromisos de mejora; Sociograma"
   }
 ]

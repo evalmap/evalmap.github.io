@@ -7,7 +7,6 @@
     "Técnicas asociadas": "Observación sistemática; Observación incidental",
     "Evidencia": "Actuación observable",
     "Adecuado para": "Autonomía; organización; resolución de tareas.",
-    "Herramientas recomendadas": "Cuaderno de calificaciones; Escala de observación; Hoja de seguimiento individual; Lista de cotejo o control",
     "Complejidad": "Baja/Media",
     "Fase": "Proceso",
     "Participación": "Docente",
@@ -41,7 +40,9 @@
         "HER_HOJA_IND": "complementaria",
         "HER_LISTA": "ocasional"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Cuaderno de calificaciones; Escala de observación; Hoja de seguimiento individual; Lista de cotejo o control"
   },
   {
     "Código": "INS_TRAB_COOP",
@@ -51,7 +52,6 @@
     "Técnicas asociadas": "Observación sistemática; Observación incidental",
     "Evidencia": "Actuación grupal",
     "Adecuado para": "Colaboración; responsabilidad; comunicación.",
-    "Herramientas recomendadas": "Diario del profesor; Ficha de coevaluación; Rúbrica de trabajo cooperativo; Contrato de grupo; Sociograma; Guía de observación",
     "Complejidad": "Media/Alta",
     "Fase": "Proceso",
     "Participación": "Docente/Iguales",
@@ -99,7 +99,9 @@
         "HER_SOCIO": "ocasional",
         "HER_GUIA_OBS": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Diario del profesor; Ficha de coevaluación; Rúbrica de trabajo cooperativo; Contrato de grupo; Sociograma; Guía de observación"
   },
   {
     "Código": "INS_PART",
@@ -109,7 +111,6 @@
     "Técnicas asociadas": "Observación sistemática; Observación incidental",
     "Evidencia": "Actuación oral",
     "Adecuado para": "Implicación; escucha; preguntas; aportaciones.",
-    "Herramientas recomendadas": "Cuaderno de calificaciones; Diario del profesor; Escala de observación; Registro de participación",
     "Complejidad": "Baja/Media",
     "Fase": "Proceso",
     "Participación": "Docente",
@@ -145,7 +146,9 @@
         "HER_ESC_OBS": "complementaria",
         "HER_REG_PART": "ocasional"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Cuaderno de calificaciones; Diario del profesor; Escala de observación; Registro de participación"
   },
   {
     "Código": "INS_DEBATE",
@@ -155,7 +158,6 @@
     "Técnicas asociadas": "Intercambios orales; Observación sistemática",
     "Evidencia": "Actuación oral",
     "Adecuado para": "Argumentación; escucha activa; respeto; evidencias.",
-    "Herramientas recomendadas": "Escala de observación; Ficha de coevaluación",
     "Complejidad": "Alta",
     "Fase": "Proceso/Final",
     "Participación": "Docente/Iguales",
@@ -185,7 +187,9 @@
         "HER_ESC_OBS": "principal",
         "HER_FICHA_COEV": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala de observación; Ficha de coevaluación"
   },
   {
     "Código": "INS_COLOQ",
@@ -195,7 +199,6 @@
     "Técnicas asociadas": "Intercambios orales",
     "Evidencia": "Actuación oral",
     "Adecuado para": "Comprensión; expresión; relación de ideas.",
-    "Herramientas recomendadas": "Escala de observación; Registro anecdótico",
     "Complejidad": "Media",
     "Fase": "Proceso",
     "Participación": "Docente",
@@ -225,7 +228,9 @@
         "HER_ESC_OBS": "principal",
         "HER_REG_ANE": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala de observación; Registro anecdótico"
   },
   {
     "Código": "INS_ASAM",
@@ -235,7 +240,6 @@
     "Técnicas asociadas": "Intercambios orales; Observación sistemática",
     "Evidencia": "Actuación oral/grupal",
     "Adecuado para": "Participación; convivencia; toma de decisiones.",
-    "Herramientas recomendadas": "Registro de participación; Escala de observación",
     "Complejidad": "Media",
     "Fase": "Proceso",
     "Participación": "Docente/Iguales",
@@ -267,7 +271,9 @@
         "HER_REG_PART": "principal",
         "HER_ESC_OBS": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Registro de participación; Escala de observación"
   },
   {
     "Código": "INS_LAB",
@@ -277,7 +283,6 @@
     "Técnicas asociadas": "Observación sistemática",
     "Evidencia": "Actuación práctica",
     "Adecuado para": "Procedimientos; seguridad; toma de datos; análisis.",
-    "Herramientas recomendadas": "Diario del profesor; Escala de observación; Lista de cotejo o control",
     "Complejidad": "Alta",
     "Fase": "Proceso",
     "Participación": "Docente",
@@ -309,7 +314,9 @@
         "HER_ESC_OBS": "complementaria",
         "HER_LISTA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Diario del profesor; Escala de observación; Lista de cotejo o control"
   },
   {
     "Código": "INS_TALLER",
@@ -319,7 +326,6 @@
     "Técnicas asociadas": "Observación sistemática",
     "Evidencia": "Actuación práctica",
     "Adecuado para": "Destrezas; procedimientos; creatividad; aplicación.",
-    "Herramientas recomendadas": "Lista de cotejo o control; Escala de observación; Rúbrica analítica",
     "Complejidad": "Media/Alta",
     "Fase": "Proceso",
     "Participación": "Docente",
@@ -349,7 +355,9 @@
         "HER_ESC_OBS": "complementaria",
         "HER_RUB_ANA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala de observación; Rúbrica analítica"
   },
   {
     "Código": "INS_SIM",
@@ -359,7 +367,6 @@
     "Técnicas asociadas": "Observación sistemática",
     "Evidencia": "Actuación contextualizada",
     "Adecuado para": "Toma de decisiones; comunicación; aplicación.",
-    "Herramientas recomendadas": "Escala de observación; Rúbrica analítica; Registro descriptivo",
     "Complejidad": "Alta",
     "Fase": "Proceso/Final",
     "Participación": "Docente/Iguales",
@@ -391,7 +398,9 @@
         "HER_RUB_ANA": "complementaria",
         "HER_REG_DESC": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala de observación; Rúbrica analítica; Registro descriptivo"
   },
   {
     "Código": "INS_ROL",
@@ -401,7 +410,6 @@
     "Técnicas asociadas": "Intercambios orales",
     "Evidencia": "Actuación oral/contextual",
     "Adecuado para": "Empatía; argumentación; resolución de conflictos.",
-    "Herramientas recomendadas": "Rúbrica analítica; Registro anecdótico; Escala de observación",
     "Complejidad": "Media/Alta",
     "Fase": "Proceso",
     "Participación": "Docente/Iguales",
@@ -431,7 +439,9 @@
         "HER_REG_ANE": "complementaria",
         "HER_ESC_OBS": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Registro anecdótico; Escala de observación"
   },
   {
     "Código": "INS_DRAMA",
@@ -441,7 +451,6 @@
     "Técnicas asociadas": "Observación sistemática",
     "Evidencia": "Actuación oral/corporal",
     "Adecuado para": "Expresión; comprensión; creatividad.",
-    "Herramientas recomendadas": "Escala de observación; Rúbrica oral",
     "Complejidad": "Media",
     "Fase": "Proceso/Final",
     "Participación": "Docente/Iguales",
@@ -469,7 +478,9 @@
         "HER_ESC_OBS": "principal",
         "HER_RUB_ORAL": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala de observación; Rúbrica oral"
   },
   {
     "Código": "INS_EXPO",
@@ -479,7 +490,6 @@
     "Técnicas asociadas": "Intercambios orales; Observación sistemática",
     "Evidencia": "Actuación oral",
     "Adecuado para": "Comunicación; estructura; dominio del contenido.",
-    "Herramientas recomendadas": "Banco de descriptores; Conversor de niveles a calificación; Escala de observación; Lista de cotejo o control; Rúbrica oral",
     "Complejidad": "Media/Alta",
     "Fase": "Final",
     "Participación": "Docente/Iguales",
@@ -521,7 +531,9 @@
         "HER_LISTA": "ocasional",
         "HER_RUB_ORAL": "ocasional"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Banco de descriptores; Conversor de niveles a calificación; Escala de observación; Lista de cotejo o control; Rúbrica oral"
   },
   {
     "Código": "INS_DEF_PROY",
@@ -531,7 +543,6 @@
     "Técnicas asociadas": "Intercambios orales; Análisis de producciones; Entrevista evaluativa",
     "Evidencia": "Actuación oral",
     "Adecuado para": "Argumentación; decisiones; respuesta a preguntas.",
-    "Herramientas recomendadas": "Acta de evaluación; Banco de descriptores; Conversor de niveles a calificación; Escala de observación; Rúbrica oral",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente/Iguales",
@@ -571,7 +582,9 @@
         "HER_ESC_OBS": "ocasional",
         "HER_RUB_ORAL": "ocasional"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Acta de evaluación; Banco de descriptores; Conversor de niveles a calificación; Escala de observación; Rúbrica oral"
   },
   {
     "Código": "INS_ENTREV",
@@ -581,7 +594,6 @@
     "Técnicas asociadas": "Intercambios orales; Entrevista evaluativa",
     "Evidencia": "Actuación oral",
     "Adecuado para": "Comprensión; razonamiento; explicación personal.",
-    "Herramientas recomendadas": "Registro anecdótico; Escala de observación",
     "Complejidad": "Media",
     "Fase": "Proceso/Final",
     "Participación": "Docente",
@@ -613,7 +625,9 @@
         "HER_REG_ANE": "principal",
         "HER_ESC_OBS": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Registro anecdótico; Escala de observación"
   },
   {
     "Código": "INS_PREG_ORAL",
@@ -623,7 +637,6 @@
     "Técnicas asociadas": "Intercambios orales; Sondeo y cuestionamiento",
     "Evidencia": "Respuesta oral",
     "Adecuado para": "Comprensión; precisión; razonamiento inmediato.",
-    "Herramientas recomendadas": "Escala de observación; Registro anecdótico",
     "Complejidad": "Baja/Media",
     "Fase": "Proceso",
     "Participación": "Docente",
@@ -655,7 +668,9 @@
         "HER_ESC_OBS": "principal",
         "HER_REG_ANE": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala de observación; Registro anecdótico"
   },
   {
     "Código": "INS_CUADERNO",
@@ -665,7 +680,6 @@
     "Técnicas asociadas": "Análisis de producciones; Análisis documental",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Trabajo diario; orden; continuidad; corrección.",
-    "Herramientas recomendadas": "Cuaderno de calificaciones; Escala de observación; Lista de cotejo o control",
     "Complejidad": "Media",
     "Fase": "Proceso",
     "Participación": "Docente",
@@ -697,7 +711,9 @@
         "HER_ESC_OBS": "complementaria",
         "HER_LISTA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Cuaderno de calificaciones; Escala de observación; Lista de cotejo o control"
   },
   {
     "Código": "INS_DIARIO",
@@ -707,7 +723,6 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones",
     "Evidencia": "Reflexión escrita",
     "Adecuado para": "Metacognición; autorregulación; progreso.",
-    "Herramientas recomendadas": "Diana de evaluación; Escala de autoevaluación; Escala verbal; Ficha de retroalimentación",
     "Complejidad": "Media",
     "Fase": "Proceso",
     "Participación": "Alumno",
@@ -741,7 +756,9 @@
         "HER_ESC_VERB": "complementaria",
         "HER_FICHA_RETRO": "ocasional"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Diana de evaluación; Escala de autoevaluación; Escala verbal; Ficha de retroalimentación"
   },
   {
     "Código": "INS_PORT",
@@ -751,7 +768,6 @@
     "Técnicas asociadas": "Análisis de producciones; Análisis de procesos y reflexiones",
     "Evidencia": "Producción acumulativa",
     "Adecuado para": "Progreso; selección de evidencias; reflexión.",
-    "Herramientas recomendadas": "Banco de descriptores; Escala descriptiva; Escala verbal; Hoja de cálculo de evaluación; Hoja de seguimiento individual; Matriz de ponderación",
     "Complejidad": "Alta",
     "Fase": "Proceso/Final",
     "Participación": "Alumno/Docente",
@@ -793,7 +809,9 @@
         "HER_HOJA_IND": "ocasional",
         "HER_MATRIZ_POND": "ocasional"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Banco de descriptores; Escala descriptiva; Escala verbal; Hoja de cálculo de evaluación; Hoja de seguimiento individual; Matriz de ponderación"
   },
   {
     "Código": "INS_INFO_LAB",
@@ -803,7 +821,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción escrita científica",
     "Adecuado para": "Método científico; datos; conclusiones; lenguaje.",
-    "Herramientas recomendadas": "Rúbrica analítica; Guía de corrección; Lista de cotejo o control",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -835,7 +852,9 @@
         "HER_GUIA_CORR": "complementaria",
         "HER_LISTA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Lista de cotejo o control"
   },
   {
     "Código": "INS_INFO_INV",
@@ -845,7 +864,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Búsqueda; análisis; síntesis; conclusiones.",
-    "Herramientas recomendadas": "Guía de corrección; Tabla de calificación por criterios",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -875,7 +893,9 @@
         "HER_GUIA_CORR": "principal",
         "HER_TAB_CRIT": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Tabla de calificación por criterios"
   },
   {
     "Código": "INS_MONO",
@@ -885,7 +905,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Profundización; documentación; estructura.",
-    "Herramientas recomendadas": "Rúbrica analítica; Guía de corrección",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -915,7 +934,9 @@
         "HER_RUB_ANA": "principal",
         "HER_GUIA_CORR": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección"
   },
   {
     "Código": "INS_ENSAYO",
@@ -925,7 +946,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Argumentación; pensamiento crítico; expresión.",
-    "Herramientas recomendadas": "Guía de corrección; Tabla de calificación por criterios",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -957,7 +977,9 @@
         "HER_GUIA_CORR": "principal",
         "HER_TAB_CRIT": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Tabla de calificación por criterios"
   },
   {
     "Código": "INS_COM_TEXT",
@@ -967,7 +989,6 @@
     "Técnicas asociadas": "Análisis de producciones; Pruebas específicas",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Comprensión; interpretación; argumentación.",
-    "Herramientas recomendadas": "Guía de corrección; Rúbrica analítica",
     "Complejidad": "Media/Alta",
     "Fase": "Proceso/Final",
     "Participación": "Docente",
@@ -999,7 +1020,9 @@
         "HER_GUIA_CORR": "principal",
         "HER_RUB_ANA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica analítica"
   },
   {
     "Código": "INS_COM_GRAF",
@@ -1009,7 +1032,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción escrita/datos",
     "Adecuado para": "Lectura de datos; inferencia; explicación.",
-    "Herramientas recomendadas": "Rúbrica analítica; Escala de observación",
     "Complejidad": "Media/Alta",
     "Fase": "Proceso/Final",
     "Participación": "Docente",
@@ -1037,7 +1059,9 @@
         "HER_RUB_ANA": "principal",
         "HER_ESC_OBS": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación"
   },
   {
     "Código": "INS_RESUMEN",
@@ -1047,7 +1071,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Comprensión; selección de información; síntesis.",
-    "Herramientas recomendadas": "Lista de cotejo o control; Escala descriptiva",
     "Complejidad": "Baja/Media",
     "Fase": "Proceso",
     "Participación": "Docente",
@@ -1075,7 +1098,9 @@
         "HER_LISTA": "principal",
         "HER_ESC_DESC": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala descriptiva"
   },
   {
     "Código": "INS_ESQUEMA",
@@ -1085,7 +1110,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción visual",
     "Adecuado para": "Estructura; síntesis; jerarquía.",
-    "Herramientas recomendadas": "Lista de cotejo o control; Escala de observación",
     "Complejidad": "Media",
     "Fase": "Proceso",
     "Participación": "Docente",
@@ -1113,7 +1137,9 @@
         "HER_LISTA": "principal",
         "HER_ESC_OBS": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala de observación"
   },
   {
     "Código": "INS_MAP_CONC",
@@ -1123,7 +1149,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción visual",
     "Adecuado para": "Relaciones conceptuales; organización de conocimiento.",
-    "Herramientas recomendadas": "Rúbrica analítica; Lista de cotejo o control",
     "Complejidad": "Media/Alta",
     "Fase": "Inicial/Proceso/Final",
     "Participación": "Docente",
@@ -1151,7 +1176,9 @@
         "HER_RUB_ANA": "principal",
         "HER_LISTA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control"
   },
   {
     "Código": "INS_MAP_MENT",
@@ -1161,7 +1188,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción visual",
     "Adecuado para": "Asociación; creatividad; síntesis.",
-    "Herramientas recomendadas": "Escala de observación; Lista de cotejo o control",
     "Complejidad": "Media",
     "Fase": "Proceso",
     "Participación": "Docente",
@@ -1189,7 +1215,9 @@
         "HER_ESC_OBS": "principal",
         "HER_LISTA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala de observación; Lista de cotejo o control"
   },
   {
     "Código": "INS_LINEA",
@@ -1199,7 +1227,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción visual",
     "Adecuado para": "Secuencia; temporalidad; relaciones.",
-    "Herramientas recomendadas": "Lista de cotejo o control",
     "Complejidad": "Media",
     "Fase": "Proceso/Final",
     "Participación": "Docente",
@@ -1225,7 +1252,9 @@
       "rel_her": {
         "HER_LISTA": "principal"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control"
   },
   {
     "Código": "INS_GLOS",
@@ -1235,7 +1264,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Vocabulario; precisión conceptual.",
-    "Herramientas recomendadas": "Lista de cotejo o control; Guía de corrección",
     "Complejidad": "Baja/Media",
     "Fase": "Proceso",
     "Participación": "Docente",
@@ -1263,7 +1291,9 @@
         "HER_LISTA": "principal",
         "HER_GUIA_CORR": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Guía de corrección"
   },
   {
     "Código": "INS_FICHA_LECT",
@@ -1273,7 +1303,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Comprensión; síntesis; valoración.",
-    "Herramientas recomendadas": "Lista de cotejo o control; Escala de observación",
     "Complejidad": "Media",
     "Fase": "Proceso/Final",
     "Participación": "Docente",
@@ -1301,7 +1330,9 @@
         "HER_LISTA": "principal",
         "HER_ESC_OBS": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala de observación"
   },
   {
     "Código": "INS_RESEÑA",
@@ -1311,7 +1342,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Valoración; argumentación; síntesis.",
-    "Herramientas recomendadas": "Rúbrica analítica; Guía de corrección",
     "Complejidad": "Media",
     "Fase": "Final",
     "Participación": "Docente",
@@ -1341,7 +1371,9 @@
         "HER_RUB_ANA": "principal",
         "HER_GUIA_CORR": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección"
   },
   {
     "Código": "INS_ART_DIV",
@@ -1351,7 +1383,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Divulgación; rigor; adaptación al destinatario.",
-    "Herramientas recomendadas": "Rúbrica analítica; Escala descriptiva",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -1381,7 +1412,9 @@
         "HER_RUB_ANA": "principal",
         "HER_ESC_DESC": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala descriptiva"
   },
   {
     "Código": "INS_MEM_PROY",
@@ -1391,7 +1424,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Planificación; proceso; resultados; evaluación.",
-    "Herramientas recomendadas": "Conversor de niveles a calificación; Hoja de cálculo de evaluación; Hoja de seguimiento individual; Matriz de ponderación",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -1423,7 +1455,9 @@
         "HER_HOJA_IND": "complementaria",
         "HER_MATRIZ_POND": "ocasional"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Conversor de niveles a calificación; Hoja de cálculo de evaluación; Hoja de seguimiento individual; Matriz de ponderación"
   },
   {
     "Código": "INS_PLAN_TRAB",
@@ -1433,7 +1467,6 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Planificación; organización; responsabilidad.",
-    "Herramientas recomendadas": "Lista de cotejo o control; Hoja de seguimiento individual",
     "Complejidad": "Media",
     "Fase": "Inicial/Proceso",
     "Participación": "Docente/Grupo",
@@ -1463,7 +1496,9 @@
         "HER_LISTA": "principal",
         "HER_HOJA_IND": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Hoja de seguimiento individual"
   },
   {
     "Código": "INS_ACTA",
@@ -1473,7 +1508,6 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones; Análisis documental",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Organización grupal; responsabilidad; acuerdos.",
-    "Herramientas recomendadas": "Lista de cotejo o control",
     "Complejidad": "Media",
     "Fase": "Proceso",
     "Participación": "Grupo",
@@ -1501,7 +1535,9 @@
       "rel_her": {
         "HER_LISTA": "principal"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control"
   },
   {
     "Código": "INS_CONTRATO",
@@ -1511,7 +1547,6 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones",
     "Evidencia": "Documento reflexivo",
     "Adecuado para": "Autonomía; compromiso; metas.",
-    "Herramientas recomendadas": "Registro de compromisos de mejora",
     "Complejidad": "Media",
     "Fase": "Inicial/Proceso",
     "Participación": "Alumno",
@@ -1541,7 +1576,9 @@
       "rel_her": {
         "HER_REG_COMP": "principal"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Registro de compromisos de mejora"
   },
   {
     "Código": "INS_F_REFLEX",
@@ -1551,7 +1588,6 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones",
     "Evidencia": "Reflexión escrita",
     "Adecuado para": "Metacognición; dificultades; propuestas.",
-    "Herramientas recomendadas": "Diana de evaluación; Escala de observación; Escala verbal; Ficha de retroalimentación",
     "Complejidad": "Baja/Media",
     "Fase": "Proceso/Final",
     "Participación": "Alumno",
@@ -1585,7 +1621,9 @@
         "HER_ESC_VERB": "complementaria",
         "HER_FICHA_RETRO": "ocasional"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Diana de evaluación; Escala de observación; Escala verbal; Ficha de retroalimentación"
   },
   {
     "Código": "INS_AUTOINF",
@@ -1595,7 +1633,6 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones",
     "Evidencia": "Reflexión escrita",
     "Adecuado para": "Autorregulación; argumentación sobre el propio trabajo.",
-    "Herramientas recomendadas": "Rúbrica de autoevaluación; Escala de observación",
     "Complejidad": "Media",
     "Fase": "Final",
     "Participación": "Alumno",
@@ -1625,7 +1662,9 @@
         "HER_RUB_AUTO": "principal",
         "HER_ESC_OBS": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica de autoevaluación; Escala de observación"
   },
   {
     "Código": "INS_PROB",
@@ -1635,7 +1674,6 @@
     "Técnicas asociadas": "Pruebas específicas",
     "Evidencia": "Respuesta escrita/procedimental",
     "Adecuado para": "Razonamiento; transferencia; aplicación.",
-    "Herramientas recomendadas": "Guía de corrección; Rúbrica competencial",
     "Complejidad": "Media/Alta",
     "Fase": "Proceso/Final",
     "Participación": "Docente",
@@ -1663,7 +1701,9 @@
         "HER_GUIA_CORR": "principal",
         "HER_RUB_COMP": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica competencial"
   },
   {
     "Código": "INS_CASO",
@@ -1673,7 +1713,6 @@
     "Técnicas asociadas": "Pruebas específicas; Análisis de producciones",
     "Evidencia": "Producción escrita/oral",
     "Adecuado para": "Diagnóstico; decisiones; justificación.",
-    "Herramientas recomendadas": "Rúbrica analítica; Guía de corrección; Rúbrica competencial",
     "Complejidad": "Alta",
     "Fase": "Proceso/Final",
     "Participación": "Docente/Iguales",
@@ -1707,7 +1746,9 @@
         "HER_GUIA_CORR": "complementaria",
         "HER_RUB_COMP": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Rúbrica competencial"
   },
   {
     "Código": "INS_PR_DES",
@@ -1717,7 +1758,6 @@
     "Técnicas asociadas": "Pruebas específicas",
     "Evidencia": "Respuesta escrita",
     "Adecuado para": "Comprensión; desarrollo; argumentación.",
-    "Herramientas recomendadas": "Baremo; Escala numérica; Guía de corrección; Matriz de ponderación; Rúbrica analítica",
     "Complejidad": "Media/Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -1753,7 +1793,9 @@
         "HER_MATRIZ_POND": "ocasional",
         "HER_RUB_ANA": "ocasional"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Baremo; Escala numérica; Guía de corrección; Matriz de ponderación; Rúbrica analítica"
   },
   {
     "Código": "INS_PR_OBJ",
@@ -1763,7 +1805,6 @@
     "Técnicas asociadas": "Pruebas específicas",
     "Evidencia": "Respuesta cerrada",
     "Adecuado para": "Conocimientos; reconocimiento; aplicación breve.",
-    "Herramientas recomendadas": "Baremo; Escala numérica; Hoja de cálculo de evaluación; Plantilla de corrección",
     "Complejidad": "Baja/Media",
     "Fase": "Inicial/Final",
     "Participación": "Docente",
@@ -1799,7 +1840,9 @@
         "HER_HOJA_CALC": "complementaria",
         "HER_PLANT_CORR": "ocasional"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Baremo; Escala numérica; Hoja de cálculo de evaluación; Plantilla de corrección"
   },
   {
     "Código": "INS_TEST",
@@ -1809,7 +1852,6 @@
     "Técnicas asociadas": "Pruebas específicas; Sondeo y cuestionamiento",
     "Evidencia": "Respuesta cerrada",
     "Adecuado para": "Conceptos; comprensión; repaso.",
-    "Herramientas recomendadas": "Baremo; Escala numérica",
     "Complejidad": "Baja/Media",
     "Fase": "Inicial/Proceso/Final",
     "Participación": "Docente",
@@ -1843,7 +1885,9 @@
         "HER_BAREMO": "principal",
         "HER_ESC_NUM": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Baremo; Escala numérica"
   },
   {
     "Código": "INS_RESP_CORTA",
@@ -1853,7 +1897,6 @@
     "Técnicas asociadas": "Pruebas específicas; Sondeo y cuestionamiento",
     "Evidencia": "Respuesta escrita breve",
     "Adecuado para": "Precisión conceptual; cálculo; identificación.",
-    "Herramientas recomendadas": "Guía de corrección; Baremo",
     "Complejidad": "Baja/Media",
     "Fase": "Proceso/Final",
     "Participación": "Docente",
@@ -1887,7 +1930,9 @@
         "HER_GUIA_CORR": "principal",
         "HER_BAREMO": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Baremo"
   },
   {
     "Código": "INS_PR_ORAL",
@@ -1897,7 +1942,6 @@
     "Técnicas asociadas": "Pruebas específicas; Intercambios orales",
     "Evidencia": "Respuesta oral",
     "Adecuado para": "Comprensión; expresión; razonamiento.",
-    "Herramientas recomendadas": "Acta de evaluación; Rúbrica oral",
     "Complejidad": "Media",
     "Fase": "Final",
     "Participación": "Docente",
@@ -1931,7 +1975,9 @@
         "HER_ACTA": "principal",
         "HER_RUB_ORAL": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Acta de evaluación; Rúbrica oral"
   },
   {
     "Código": "INS_PR_PRACT",
@@ -1941,7 +1987,6 @@
     "Técnicas asociadas": "Pruebas específicas",
     "Evidencia": "Actuación práctica",
     "Adecuado para": "Destreza; aplicación; procedimiento.",
-    "Herramientas recomendadas": "Lista de cotejo o control",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -1969,7 +2014,9 @@
       "rel_her": {
         "HER_LISTA": "principal"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control"
   },
   {
     "Código": "INS_PR_COMP",
@@ -1979,7 +2026,6 @@
     "Técnicas asociadas": "Pruebas específicas; Triangulación de evidencias",
     "Evidencia": "Respuesta aplicada",
     "Adecuado para": "Transferencia; integración; razonamiento.",
-    "Herramientas recomendadas": "Guía de corrección; Rúbrica competencial; Tabla de calificación por criterios",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -2015,7 +2061,9 @@
         "HER_RUB_COMP": "complementaria",
         "HER_TAB_CRIT": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica competencial; Tabla de calificación por criterios"
   },
   {
     "Código": "INS_DOCS",
@@ -2025,7 +2073,6 @@
     "Técnicas asociadas": "Pruebas específicas; Análisis de producciones",
     "Evidencia": "Respuesta escrita",
     "Adecuado para": "Interpretación; aplicación; análisis de fuentes.",
-    "Herramientas recomendadas": "Guía de corrección; Rúbrica analítica",
     "Complejidad": "Media/Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -2059,7 +2106,9 @@
         "HER_GUIA_CORR": "principal",
         "HER_RUB_ANA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica analítica"
   },
   {
     "Código": "INS_CUEST_DIG",
@@ -2069,7 +2118,6 @@
     "Técnicas asociadas": "Pruebas específicas; Sondeo y cuestionamiento; Encuesta y cuestionario",
     "Evidencia": "Respuesta digital",
     "Adecuado para": "Diagnóstico; repaso; comprobación.",
-    "Herramientas recomendadas": "Formulario digital; Analíticas de aprendizaje",
     "Complejidad": "Baja/Media",
     "Fase": "Inicial/Proceso/Final",
     "Participación": "Docente",
@@ -2101,7 +2149,9 @@
         "HER_FORM_DIG": "principal",
         "HER_ANALITICAS": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Formulario digital; Analíticas de aprendizaje"
   },
   {
     "Código": "INS_INFOG",
@@ -2111,7 +2161,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producto visual",
     "Adecuado para": "Síntesis; comunicación; diseño; rigor.",
-    "Herramientas recomendadas": "Rúbrica analítica; Lista de cotejo o control",
     "Complejidad": "Media/Alta",
     "Fase": "Final",
     "Participación": "Docente/Iguales",
@@ -2141,7 +2190,9 @@
         "HER_RUB_ANA": "principal",
         "HER_LISTA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control"
   },
   {
     "Código": "INS_POSTER",
@@ -2151,7 +2202,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producto visual/oral",
     "Adecuado para": "Comunicación científica; síntesis; diseño.",
-    "Herramientas recomendadas": "Escala de observación",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente/Iguales",
@@ -2177,7 +2227,9 @@
       "rel_her": {
         "HER_ESC_OBS": "principal"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala de observación"
   },
   {
     "Código": "INS_PRESENT_DIG",
@@ -2187,7 +2239,6 @@
     "Técnicas asociadas": "Análisis de producciones; Intercambios orales",
     "Evidencia": "Producto digital",
     "Adecuado para": "Estructura; claridad; apoyo visual.",
-    "Herramientas recomendadas": "Rúbrica analítica; Lista de cotejo o control",
     "Complejidad": "Media",
     "Fase": "Final",
     "Participación": "Docente",
@@ -2219,7 +2270,9 @@
         "HER_RUB_ANA": "principal",
         "HER_LISTA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control"
   },
   {
     "Código": "INS_VIDEO",
@@ -2229,7 +2282,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producto audiovisual",
     "Adecuado para": "Comunicación; contenido; guion; edición.",
-    "Herramientas recomendadas": "Rúbrica de producto; Escala de valoración",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente/Iguales",
@@ -2257,7 +2309,9 @@
         "HER_RUB_PROD": "principal",
         "HER_ESC_VAL": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica de producto; Escala de valoración"
   },
   {
     "Código": "INS_TUTORIAL",
@@ -2267,7 +2321,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producto audiovisual",
     "Adecuado para": "Explicación; secuencia; precisión; claridad.",
-    "Herramientas recomendadas": "Rúbrica analítica; Lista de cotejo o control",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -2295,7 +2348,9 @@
         "HER_RUB_ANA": "principal",
         "HER_LISTA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control"
   },
   {
     "Código": "INS_PODCAST",
@@ -2305,7 +2360,6 @@
     "Técnicas asociadas": "Intercambios orales; Análisis de producciones",
     "Evidencia": "Producto oral digital",
     "Adecuado para": "Guion; comunicación; contenido; edición.",
-    "Herramientas recomendadas": "Rúbrica oral; Escala de valoración",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente/Iguales",
@@ -2335,7 +2389,9 @@
         "HER_RUB_ORAL": "principal",
         "HER_ESC_VAL": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica oral; Escala de valoración"
   },
   {
     "Código": "INS_COMIC",
@@ -2345,7 +2401,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producto visual",
     "Adecuado para": "Comprensión; síntesis; creatividad; secuencia.",
-    "Herramientas recomendadas": "Rúbrica analítica; Escala de observación",
     "Complejidad": "Media",
     "Fase": "Final",
     "Participación": "Docente",
@@ -2373,7 +2428,9 @@
         "HER_RUB_ANA": "principal",
         "HER_ESC_OBS": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación"
   },
   {
     "Código": "INS_MAQUETA",
@@ -2383,7 +2440,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producto físico",
     "Adecuado para": "Representación; diseño; rigor; comunicación.",
-    "Herramientas recomendadas": "Rúbrica analítica; Lista de cotejo o control",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -2411,7 +2467,9 @@
         "HER_RUB_ANA": "principal",
         "HER_LISTA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control"
   },
   {
     "Código": "INS_MODELO_DIG",
@@ -2421,7 +2479,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producto digital",
     "Adecuado para": "Modelización; precisión; explicación.",
-    "Herramientas recomendadas": "Rúbrica analítica; Escala de observación",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -2449,7 +2506,9 @@
         "HER_RUB_ANA": "principal",
         "HER_ESC_OBS": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación"
   },
   {
     "Código": "INS_PROTOTIPO",
@@ -2459,7 +2518,6 @@
     "Técnicas asociadas": "Análisis de producciones; Observación sistemática",
     "Evidencia": "Producto aplicado",
     "Adecuado para": "Diseño; funcionalidad; mejora; creatividad.",
-    "Herramientas recomendadas": "Hoja de seguimiento individual; Rúbrica de producto",
     "Complejidad": "Alta",
     "Fase": "Proceso/Final",
     "Participación": "Docente/Iguales",
@@ -2491,7 +2549,9 @@
         "HER_HOJA_IND": "principal",
         "HER_RUB_PROD": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Hoja de seguimiento individual; Rúbrica de producto"
   },
   {
     "Código": "INS_WEB",
@@ -2501,7 +2561,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producto digital",
     "Adecuado para": "Organización; usabilidad; contenido; diseño.",
-    "Herramientas recomendadas": "Rúbrica digital; Lista de cotejo o control",
     "Complejidad": "Alta",
     "Fase": "Final",
     "Participación": "Docente",
@@ -2529,7 +2588,9 @@
         "HER_RUB_DIG": "principal",
         "HER_LISTA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica digital; Lista de cotejo o control"
   },
   {
     "Código": "INS_BLOG",
@@ -2539,7 +2600,6 @@
     "Técnicas asociadas": "Análisis de producciones",
     "Evidencia": "Producto escrito digital",
     "Adecuado para": "Comunicación; reflexión; rigor; audiencia.",
-    "Herramientas recomendadas": "Rúbrica analítica; Escala de observación",
     "Complejidad": "Media",
     "Fase": "Proceso/Final",
     "Participación": "Docente",
@@ -2567,7 +2627,9 @@
         "HER_RUB_ANA": "principal",
         "HER_ESC_OBS": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación"
   },
   {
     "Código": "INS_FORO",
@@ -2577,7 +2639,6 @@
     "Técnicas asociadas": "Intercambios orales; Análisis de interacciones digitales",
     "Evidencia": "Interacción escrita",
     "Adecuado para": "Argumentación; participación; respuesta a iguales.",
-    "Herramientas recomendadas": "Registro de participación; Rúbrica oral",
     "Complejidad": "Media",
     "Fase": "Proceso",
     "Participación": "Docente/Iguales",
@@ -2607,7 +2668,9 @@
         "HER_REG_PART": "principal",
         "HER_RUB_ORAL": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Registro de participación; Rúbrica oral"
   },
   {
     "Código": "INS_DOC_COL",
@@ -2617,7 +2680,6 @@
     "Técnicas asociadas": "Análisis de producciones; Análisis de procesos y reflexiones; Análisis documental; Análisis de interacciones digitales",
     "Evidencia": "Producción colaborativa",
     "Adecuado para": "Contribución; revisión; contenido; cooperación.",
-    "Herramientas recomendadas": "Historial de revisión; Rúbrica analítica; Hoja de seguimiento individual",
     "Complejidad": "Alta",
     "Fase": "Proceso/Final",
     "Participación": "Docente/Grupo",
@@ -2657,7 +2719,9 @@
         "HER_RUB_ANA": "complementaria",
         "HER_HOJA_IND": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Historial de revisión; Rúbrica analítica; Hoja de seguimiento individual"
   },
   {
     "Código": "INS_PORT_DIG",
@@ -2667,7 +2731,6 @@
     "Técnicas asociadas": "Análisis de producciones; Análisis de procesos y reflexiones; Entrevista evaluativa; Análisis documental; Análisis de interacciones digitales",
     "Evidencia": "Producción acumulativa",
     "Adecuado para": "Progreso; competencia digital; reflexión.",
-    "Herramientas recomendadas": "Panel de progreso; Banco digital de evidencias",
     "Complejidad": "Alta",
     "Fase": "Proceso/Final",
     "Participación": "Alumno/Docente",
@@ -2703,22 +2766,23 @@
         "HER_PANEL": "principal",
         "HER_BANCO_EVID": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Panel de progreso; Banco digital de evidencias"
   },
   {
     "Código": "INS_KPSI",
     "Instrumento": "KPSI",
     "Tipo": "Diagnóstico/autoevaluación",
-    "Descripción breve": "Cuestionario de percepción de conocimientos o habilidades.",
+    "Descripción breve": "Actividad diagnóstica en la que el alumno indica su grado de conocimiento previo sobre cada concepto.",
     "Técnicas asociadas": "Sondeo y cuestionamiento; Encuesta y cuestionario",
     "Evidencia": "Autopercepción",
     "Adecuado para": "Conocimientos previos; confianza; evolución.",
-    "Herramientas recomendadas": "Escala de autoevaluación; Formulario digital; Registro descriptivo",
     "Complejidad": "Baja",
     "Fase": "Inicial/Final",
     "Participación": "Alumno",
     "Etiquetas": "KPSI",
-    "Descripción detallada": "El KPSI (Knowledge and Prior Study Inventory) es un cuestionario de evaluación diagnóstica en el que el alumno indica, para cada concepto o habilidad del tema, si lo sabe (y puede explicarlo), cree que lo sabe, no lo sabe o no lo entiende.\n\nCómo usarlo para evaluar: se aplica al inicio de una unidad o proyecto para detectar conocimientos previos y concepciones erróneas. No tiene función calificadora. Al finalizar la unidad, puede repetirse para que el alumno vea su propio progreso.\n\nEs una herramienta de diagnóstico rápida y valiosa que permite al docente ajustar la planificación y al alumno tomar conciencia de lo que ya sabe y lo que necesita aprender.",
+    "Descripción detallada": "El KPSI (Knowledge and Prior Study Inventory) es una actividad de diagnóstico en la que el alumno indica, para cada concepto o habilidad del tema, si lo sabe (y puede explicarlo), cree que lo sabe, no lo sabe o no lo entiende. La evidencia que genera es la autopercepción declarada del propio alumno sobre su conocimiento previo.\n\nCómo usarlo: se aplica al inicio de una unidad o proyecto para detectar conocimientos previos y concepciones erróneas. No tiene función calificadora. Al finalizar la unidad puede repetirse para que el alumno compare sus respuestas iniciales con las finales y vea su propio progreso.\n\nComo actividad genera evidencia diagnóstica de autopercepción que permite al docente ajustar la planificación y al alumno tomar conciencia de lo que ya sabe y lo que necesita aprender. El instrumento de registro habitual es una escala de autoevaluación o un formulario digital.",
     "rel_tec": [
       "TEC_SONDEO",
       "TEC_ENC_CUEST"
@@ -2747,7 +2811,9 @@
         "HER_FORM_DIG": "complementaria",
         "HER_REG_DESC": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala de autoevaluación; Formulario digital; Registro descriptivo"
   },
   {
     "Código": "INS_MAP_INI",
@@ -2757,7 +2823,6 @@
     "Técnicas asociadas": "Sondeo y cuestionamiento; Análisis de producciones",
     "Evidencia": "Producción visual",
     "Adecuado para": "Ideas previas; organización conceptual.",
-    "Herramientas recomendadas": "Lista de cotejo o control; Registro descriptivo; Formulario digital",
     "Complejidad": "Media",
     "Fase": "Inicial",
     "Participación": "Docente",
@@ -2789,7 +2854,9 @@
         "HER_REG_DESC": "complementaria",
         "HER_FORM_DIG": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Registro descriptivo; Formulario digital"
   },
   {
     "Código": "INS_LLUVIA",
@@ -2799,7 +2866,6 @@
     "Técnicas asociadas": "Sondeo y cuestionamiento; Intercambios orales",
     "Evidencia": "Intervenciones breves",
     "Adecuado para": "Ideas previas; intereses; asociaciones.",
-    "Herramientas recomendadas": "Notas de campo; Registro anecdótico; Registro descriptivo",
     "Complejidad": "Baja",
     "Fase": "Inicial",
     "Participación": "Grupo",
@@ -2833,7 +2899,9 @@
         "HER_REG_ANE": "complementaria",
         "HER_REG_DESC": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Notas de campo; Registro anecdótico; Registro descriptivo"
   },
   {
     "Código": "INS_BORR",
@@ -2843,7 +2911,6 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones; Análisis de producciones",
     "Evidencia": "Producción parcial",
     "Adecuado para": "Mejora; revisión; progreso.",
-    "Herramientas recomendadas": "Ficha de retroalimentación; Lista de cotejo o control",
     "Complejidad": "Media",
     "Fase": "Proceso",
     "Participación": "Docente/Iguales",
@@ -2877,7 +2944,9 @@
         "HER_FICHA_RETRO": "principal",
         "HER_LISTA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Ficha de retroalimentación; Lista de cotejo o control"
   },
   {
     "Código": "INS_ENT_PAR",
@@ -2887,7 +2956,6 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones; Análisis de producciones",
     "Evidencia": "Producción parcial",
     "Adecuado para": "Seguimiento; calidad provisional; mejora.",
-    "Herramientas recomendadas": "Hoja de seguimiento individual; Rúbrica de proceso; Ficha de retroalimentación",
     "Complejidad": "Media",
     "Fase": "Proceso",
     "Participación": "Docente",
@@ -2923,7 +2991,9 @@
         "HER_RUB_PROC": "complementaria",
         "HER_FICHA_RETRO": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Hoja de seguimiento individual; Rúbrica de proceso; Ficha de retroalimentación"
   },
   {
     "Código": "INS_BIT",
@@ -2933,7 +3003,6 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones",
     "Evidencia": "Registro escrito",
     "Adecuado para": "Proceso; organización; reflexión; decisiones.",
-    "Herramientas recomendadas": "Hoja de seguimiento individual; Escala de observación; Rúbrica de proceso",
     "Complejidad": "Alta",
     "Fase": "Proceso",
     "Participación": "Grupo/Alumno",
@@ -2965,7 +3034,9 @@
         "HER_ESC_OBS": "complementaria",
         "HER_RUB_PROC": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Hoja de seguimiento individual; Escala de observación; Rúbrica de proceso"
   },
   {
     "Código": "INS_REV_PARES",
@@ -2975,7 +3046,6 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones",
     "Evidencia": "Comentarios y revisión",
     "Adecuado para": "Criterios; mejora; retroalimentación.",
-    "Herramientas recomendadas": "Ficha de coevaluación; Rúbrica de coevaluación; Ficha de retroalimentación",
     "Complejidad": "Media/Alta",
     "Fase": "Proceso",
     "Participación": "Iguales",
@@ -3011,22 +3081,23 @@
         "HER_RUB_COEV": "complementaria",
         "HER_FICHA_RETRO": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Ficha de coevaluación; Rúbrica de coevaluación; Ficha de retroalimentación"
   },
   {
     "Código": "INS_2E1D",
     "Instrumento": "Dos estrellas y un deseo",
     "Tipo": "Coevaluación",
-    "Descripción breve": "Dos aspectos positivos y una propuesta de mejora.",
+    "Descripción breve": "Actividad de coevaluación: dos aspectos positivos y una propuesta de mejora.",
     "Técnicas asociadas": "Análisis de procesos y reflexiones",
     "Evidencia": "Comentarios breves",
     "Adecuado para": "Retroalimentación sencilla; mejora.",
-    "Herramientas recomendadas": "Ficha de retroalimentación; Ficha de coevaluación",
     "Complejidad": "Baja",
     "Fase": "Proceso",
     "Participación": "Iguales",
     "Etiquetas": "feedback",
-    "Descripción detallada": "Las 'dos estrellas y un deseo' es una técnica de retroalimentación formativa en la que el evaluador (docente o compañero) señala dos aspectos positivos del trabajo (las estrellas) y una sugerencia de mejora concreta (el deseo).\n\nCómo usarla para evaluar: se entrega una tarjeta o formulario con tres apartados ('Lo que está muy bien:', 'Otra cosa que funciona:', 'Una cosa que podrías mejorar:'). Es estructuralmente sencilla pero requiere que los comentarios sean específicos y concretos, no genéricos ('está bien escrito').\n\nEs una herramienta especialmente adecuada para introducir la coevaluación con grupos que no tienen práctica en ella, por su formato accesible y su balance entre lo positivo y lo mejorable.",
+    "Descripción detallada": "'Dos estrellas y un deseo' es una actividad breve de coevaluación o retroalimentación entre iguales en la que el evaluador (docente o compañero) señala dos aspectos positivos del trabajo y una sugerencia de mejora concreta. La evidencia producida son los comentarios de revisión generados durante la actividad.\n\nCómo usarla: se entrega una tarjeta o formulario con tres apartados ('Lo que está muy bien:', 'Otra cosa que funciona:', 'Una cosa que podrías mejorar:'). Es estructuralmente sencilla pero requiere que los comentarios sean específicos y concretos, no genéricos ('está bien escrito').\n\nEs especialmente adecuada para introducir la coevaluación con grupos sin práctica en ella, por su formato accesible y su balance entre lo positivo y lo mejorable. El instrumento de registro suele ser una ficha de coevaluación o ficha de retroalimentación.",
     "rel_tec": [
       "TEC_PROC_REFLEX"
     ],
@@ -3053,22 +3124,23 @@
         "HER_FICHA_RETRO": "principal",
         "HER_FICHA_COEV": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Ficha de retroalimentación; Ficha de coevaluación"
   },
   {
     "Código": "INS_SEMAF",
     "Instrumento": "Semáforo de aprendizaje",
     "Tipo": "Autoevaluación",
-    "Descripción breve": "Indicación visual del grado de comprensión.",
+    "Descripción breve": "Actividad breve de autoevaluación en la que el alumno señala su nivel de comprensión con tres colores.",
     "Técnicas asociadas": "Sondeo y cuestionamiento; Análisis de procesos y reflexiones",
     "Evidencia": "Autopercepción",
     "Adecuado para": "Comprensión; dudas; necesidad de ayuda.",
-    "Herramientas recomendadas": "Semáforo de evaluación; Lista de cotejo o control",
     "Complejidad": "Baja",
     "Fase": "Proceso",
     "Participación": "Alumno",
     "Etiquetas": "semaforo",
-    "Descripción detallada": "El semáforo de aprendizaje es una técnica de autoevaluación rápida en la que el alumno indica su nivel de comprensión de un contenido usando tres colores: verde (lo entiendo bien), amarillo (tengo algunas dudas), rojo (no lo entiendo o estoy perdido).\n\nCómo usarlo para evaluar: puede hacerse con tarjetas de colores físicas, con post-its, con un formulario digital o con una paleta en la pizarra. Al final de una explicación o sesión, el docente ve de un vistazo cuántos alumnos están en verde, amarillo o rojo y ajusta la siguiente sesión.\n\nEs una herramienta de evaluación formativa instantánea que permite al docente regular el ritmo de la enseñanza en tiempo real. Requiere un clima de confianza para que los alumnos sean honestos.",
+    "Descripción detallada": "El semáforo de aprendizaje es una actividad breve de autoevaluación formativa en la que el alumno indica su nivel de comprensión de un contenido usando tres colores: verde (lo entiendo bien), amarillo (tengo algunas dudas), rojo (no lo entiendo o estoy perdido). La evidencia que genera es la autopercepción declarada por el alumno sobre su comprensión en ese momento.\n\nCómo usarlo: puede hacerse con tarjetas de colores físicas, con post-its, con un formulario digital o con una paleta en la pizarra. Al final de una explicación o sesión, el docente ve de un vistazo cuántos alumnos están en verde, amarillo o rojo y ajusta la siguiente sesión en consecuencia.\n\nPermite regular el ritmo de la enseñanza en tiempo real a partir de evidencias de autopercepción. Requiere un clima de confianza para que los alumnos sean honestos. El instrumento de evaluación que suele acompañarlo es el semáforo de evaluación o una lista de cotejo.",
     "rel_tec": [
       "TEC_SONDEO",
       "TEC_PROC_REFLEX"
@@ -3095,7 +3167,9 @@
         "HER_SEMAFORO": "principal",
         "HER_LISTA": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Semáforo de evaluación; Lista de cotejo o control"
   },
   {
     "Código": "INS_BILLETE",
@@ -3105,7 +3179,6 @@
     "Técnicas asociadas": "Sondeo y cuestionamiento; Encuesta y cuestionario",
     "Evidencia": "Respuesta breve",
     "Adecuado para": "Dudas; aprendizaje; cierre de clase.",
-    "Herramientas recomendadas": "Formulario digital; Lista de cotejo o control; Ficha de retroalimentación",
     "Complejidad": "Baja",
     "Fase": "Proceso",
     "Participación": "Alumno",
@@ -3139,7 +3212,9 @@
         "HER_LISTA": "complementaria",
         "HER_FICHA_RETRO": "complementaria"
       }
-    }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Formulario digital; Lista de cotejo o control; Ficha de retroalimentación"
   },
   {
     "Código": "INS_LIBRO_ABIERTO",
@@ -3149,7 +3224,6 @@
     "Técnicas asociadas": "Pruebas específicas",
     "Evidencia": "Respuesta escrita aplicada",
     "Adecuado para": "Aplicación; análisis; transferencia; uso crítico de fuentes.",
-    "Herramientas recomendadas": "Guía de corrección; Rúbrica analítica; Baremo",
     "Complejidad": "Media/Alta",
     "Fase": "Proceso/Final",
     "Participación": "Docente",
@@ -3183,7 +3257,9 @@
         "HER_BAREMO": "complementaria"
       }
     },
-    "Dimensiones asociadas": "Enfoque competencial; Evaluación criterial; Heteroevaluación"
+    "Dimensiones asociadas": "Enfoque competencial; Evaluación criterial; Heteroevaluación",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica analítica; Baremo"
   },
   {
     "Código": "INS_TAREA_COMP_INT",
@@ -3193,7 +3269,6 @@
     "Técnicas asociadas": "Análisis de producciones; Observación sistemática; Triangulación de evidencias",
     "Evidencia": "Actuación contextualizada",
     "Adecuado para": "Competencias; transferencia; integración de saberes.",
-    "Herramientas recomendadas": "Rúbrica competencial; Mapa de evidencias por criterio; Lista de indicadores por criterio",
     "Complejidad": "Alta",
     "Fase": "Proceso/Final",
     "Participación": "Docente/Alumno",
@@ -3233,7 +3308,9 @@
         "HER_IND_CRIT": "principal"
       }
     },
-    "Dimensiones asociadas": "Enfoque competencial; Evaluación criterial; Evaluación inclusiva y DUA; Calificación y acreditación"
+    "Dimensiones asociadas": "Enfoque competencial; Evaluación criterial; Evaluación inclusiva y DUA; Calificación y acreditación",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica competencial; Mapa de evidencias por criterio; Lista de indicadores por criterio"
   },
   {
     "Código": "INS_SIT_PROB",
@@ -3243,7 +3320,6 @@
     "Técnicas asociadas": "Pruebas específicas; Análisis de producciones",
     "Evidencia": "Respuesta aplicada",
     "Adecuado para": "Razonamiento; toma de decisiones; transferencia.",
-    "Herramientas recomendadas": "Rúbrica analítica; Guía de corrección; Lista de indicadores por criterio",
     "Complejidad": "Media/Alta",
     "Fase": "Proceso/Final",
     "Participación": "Docente",
@@ -3279,7 +3355,9 @@
         "HER_IND_CRIT": "complementaria"
       }
     },
-    "Dimensiones asociadas": "Resolución de problemas; Enfoque competencial; Evaluación criterial"
+    "Dimensiones asociadas": "Resolución de problemas; Enfoque competencial; Evaluación criterial",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Lista de indicadores por criterio"
   },
   {
     "Código": "INS_ESCAPE",
@@ -3289,7 +3367,6 @@
     "Técnicas asociadas": "Observación sistemática; Análisis de producciones",
     "Evidencia": "Actuación grupal",
     "Adecuado para": "Colaboración; resolución de problemas; aplicación rápida.",
-    "Herramientas recomendadas": "Guía de observación; Rúbrica de trabajo cooperativo; Registro anecdótico",
     "Complejidad": "Alta",
     "Fase": "Proceso/Final",
     "Participación": "Docente/Iguales",
@@ -3325,7 +3402,9 @@
         "HER_REG_ANE": "complementaria"
       }
     },
-    "Dimensiones asociadas": "Simulación; Resolución de problemas; Evaluación compartida y participativa"
+    "Dimensiones asociadas": "Simulación; Resolución de problemas; Evaluación compartida y participativa",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guía de observación; Rúbrica de trabajo cooperativo; Registro anecdótico"
   },
   {
     "Código": "INS_SEMINARIO",
@@ -3335,7 +3414,6 @@
     "Técnicas asociadas": "Intercambios orales; Entrevista evaluativa",
     "Evidencia": "Actuación oral",
     "Adecuado para": "Pensamiento crítico; argumentación; comprensión profunda.",
-    "Herramientas recomendadas": "Rúbrica oral; Guía de observación; Registro de participación",
     "Complejidad": "Alta",
     "Fase": "Proceso/Final",
     "Participación": "Docente/Iguales",
@@ -3371,22 +3449,23 @@
         "HER_REG_PART": "complementaria"
       }
     },
-    "Dimensiones asociadas": "Evidencia de desempeño; Evaluación compartida y participativa; Finalidad formativa"
+    "Dimensiones asociadas": "Evidencia de desempeño; Evaluación compartida y participativa; Finalidad formativa",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica oral; Guía de observación; Registro de participación"
   },
   {
     "Código": "INS_CHECK_LAB",
     "Instrumento": "Checklist de laboratorio",
     "Tipo": "Observación",
-    "Descripción breve": "Lista de comprobación de procedimientos, seguridad y registro de datos en laboratorio.",
+    "Descripción breve": "Actividad de observación y autorregistro de procedimientos, seguridad y datos en el laboratorio.",
     "Técnicas asociadas": "Observación sistemática",
     "Evidencia": "Actuación práctica",
     "Adecuado para": "Seguridad; procedimientos; uso de material; toma de datos.",
-    "Herramientas recomendadas": "Lista de cotejo o control; Guía de observación; Registro anecdótico",
     "Complejidad": "Baja/Media",
     "Fase": "Proceso",
     "Participación": "Docente/Alumno",
     "Etiquetas": "laboratorio; checklist; seguridad",
-    "Descripción detallada": "El checklist de laboratorio recoge indicadores observables sobre seguridad, manejo de material, seguimiento del protocolo, limpieza y toma de datos.\n\nCómo usarlo para evaluar: se usa durante la práctica o al finalizarla, marcando si cada conducta o requisito aparece. Puede ser docente, de autoevaluación o de coevaluación en parejas.\n\nEs útil porque hace visibles procedimientos que un informe final no muestra.",
+    "Descripción detallada": "El checklist de laboratorio es una actividad práctica en la que el alumno sigue, documenta y verifica sus propios procedimientos de laboratorio paso a paso. La evidencia que genera es la actuación práctica observable y el registro completado durante la sesión.\n\nCómo usarlo: se entrega al inicio de la práctica con los indicadores de seguridad, uso de material, procedimiento y toma de datos. El alumno lo va completando a medida que avanza. El docente puede revisarlo junto con el informe de laboratorio.\n\nNota: en sentido estricto, un checklist es también un instrumento de evaluación (lista de cotejo). Aquí se recoge como evidencia evaluable porque el alumno lo completa como parte activa de la práctica. Cuando lo usa el docente para observar al alumno desde fuera, actúa como instrumento de evaluación (lista de cotejo de laboratorio).",
     "rel_tec": [
       "TEC_OBS_SIS"
     ],
@@ -3415,7 +3494,9 @@
         "HER_REG_ANE": "ocasional"
       }
     },
-    "Dimensiones asociadas": "Evidencia de desempeño; Finalidad formativa; Autoevaluación"
+    "Dimensiones asociadas": "Evidencia de desempeño; Finalidad formativa; Autoevaluación",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Guía de observación; Registro anecdótico"
   },
   {
     "Código": "INS_CUAD_DIG",
@@ -3425,7 +3506,6 @@
     "Técnicas asociadas": "Análisis documental; Análisis de interacciones digitales; Análisis de procesos y reflexiones",
     "Evidencia": "Producción acumulativa",
     "Adecuado para": "Seguimiento; organización; progreso; evidencias digitales.",
-    "Herramientas recomendadas": "Historial de revisión; Panel de progreso; Banco digital de evidencias",
     "Complejidad": "Media",
     "Fase": "Proceso",
     "Participación": "Alumno/Docente",
@@ -3463,7 +3543,9 @@
         "HER_BANCO_EVID": "complementaria"
       }
     },
-    "Dimensiones asociadas": "Evidencias digitales; Evaluación continua; Evaluación inclusiva y DUA"
+    "Dimensiones asociadas": "Evidencias digitales; Evaluación continua; Evaluación inclusiva y DUA",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Historial de revisión; Panel de progreso; Banco digital de evidencias"
   },
   {
     "Código": "INS_EPORT_SEL",
@@ -3473,7 +3555,6 @@
     "Técnicas asociadas": "Análisis documental; Análisis de procesos y reflexiones; Triangulación de evidencias",
     "Evidencia": "Producción acumulativa",
     "Adecuado para": "Progreso; metacognición; evaluación criterial; acreditación.",
-    "Herramientas recomendadas": "Mapa de evidencias por criterio; Banco digital de evidencias; Escala de progreso",
     "Complejidad": "Alta",
     "Fase": "Proceso/Final",
     "Participación": "Alumno/Docente",
@@ -3517,6 +3598,8 @@
         "HER_ESC_PROG": "complementaria"
       }
     },
-    "Dimensiones asociadas": "Evaluación criterial; Evaluación continua; Retroalimentación y feedforward; Calificación y acreditación; Evaluación compartida y participativa; Evaluación inclusiva y DUA"
+    "Dimensiones asociadas": "Evaluación criterial; Evaluación continua; Retroalimentación y feedforward; Calificación y acreditación; Evaluación compartida y participativa; Evaluación inclusiva y DUA",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Mapa de evidencias por criterio; Banco digital de evidencias; Escala de progreso"
   }
 ]
