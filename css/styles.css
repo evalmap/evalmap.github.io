@@ -106,6 +106,30 @@ img { max-width: 100%; }
   transition: background var(--transition);
 }
 .theme-btn:hover { background: var(--border); }
+.notebooklm-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 2rem;
+  border: 1.5px solid #1a73e8;
+  background: color-mix(in srgb, #1a73e8 10%, var(--surface));
+  color: #1a73e8;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background var(--transition), box-shadow var(--transition);
+  white-space: nowrap;
+}
+.notebooklm-btn:hover {
+  background: color-mix(in srgb, #1a73e8 18%, var(--surface));
+  box-shadow: 0 0 0 3px color-mix(in srgb, #1a73e8 20%, transparent);
+}
+.notebooklm-icon {
+  width: 1.1rem;
+  height: 1.1rem;
+  flex-shrink: 0;
+}
 
 /* ── Views ───────────────────────────────────────────────────── */
 .view { display: none; }
@@ -1019,4 +1043,6 @@ img { max-width: 100%; }
 @media (max-width: 500px) {
   .home-hero h1 { font-size: 1.6rem; }
   .catalog-count { display: none; }
+  .notebooklm-btn span { display: none; }
+  .notebooklm-btn { padding: 0.35rem 0.5rem; }
 }
