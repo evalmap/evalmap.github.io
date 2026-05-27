@@ -109,7 +109,9 @@ function updateTabGraphCounts() {
     const isCenterCat = detailCurrentCat === cat;
     const requiredBridge = detailCurrentCat !== 'instrumentos' && cat === 'instrumentos' && rawCount > 0;
     const disabled = !rawCount || isCenterCat || requiredBridge;
+    const locked = (isCenterCat || requiredBridge) && !!rawCount;
     chip.classList.toggle('off', !graphVisibleCats[cat]);
+    chip.classList.toggle('locked', locked);
     chip.disabled = disabled;
     chip.title = !rawCount
       ? 'Esta categoría no aparece en el grafo actual.'
@@ -305,7 +307,7 @@ function findByCodes(codes, targetCat) {
 
 /* ── Detail panel ─────────────────────────────────────────── */
 function showDetailPanel(name, cat) {
-  graphVisibleCats[cat] = true;
+  Object.keys(graphVisibleCats).forEach(k => { graphVisibleCats[k] = true; });
   state.selectedName = name;
 
   const cfg  = CAT_CONFIG[cat];

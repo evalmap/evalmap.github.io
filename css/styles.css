@@ -419,6 +419,12 @@ img { max-width: 100%; }
   cursor: not-allowed;
   border-style: solid;
 }
+.graph-cat-chip.locked:disabled {
+  opacity: 1;
+  filter: none;
+  cursor: not-allowed;
+  border-style: solid;
+}
 .graph-legend {
   position: absolute;
   left: 0.8rem;
