@@ -150,7 +150,6 @@ img { max-width: 100%; }
 
 /* ── HOME VIEW ───────────────────────────────────────────────── */
 #view-home {
-  min-height: calc(100vh - 56px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -306,7 +305,7 @@ img { max-width: 100%; }
 
 /* ── CATALOG VIEW ────────────────────────────────────────────── */
 #view-catalog {
-  display: flex;
+  display: none;
   flex-direction: column;
   height: calc(100vh - 56px);
   overflow: hidden;

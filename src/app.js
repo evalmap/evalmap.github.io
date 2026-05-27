@@ -147,8 +147,8 @@ async function loadData() {
 
 /* ── View management ──────────────────────────────────────── */
 function showView(id) {
-  document.querySelectorAll('.view').forEach(v => { v.style.display = 'none'; });
-  document.getElementById(id).style.display = 'flex'; // both views are flex containers
+  document.getElementById('view-home').style.display    = id === 'view-home'    ? 'flex' : 'none';
+  document.getElementById('view-catalog').style.display = id === 'view-catalog' ? 'flex' : 'none';
   window.scrollTo(0, 0);
 }
 
