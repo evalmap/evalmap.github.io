@@ -143,6 +143,13 @@ img { max-width: 100%; }
   max-width: 1120px;
   position: relative;
 }
+.home-entry-hint {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1.1rem;
+  letter-spacing: 0.01em;
+}
 .home-flow {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
