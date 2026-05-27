@@ -139,7 +139,9 @@ img { max-width: 100%; }
 .notebooklm-icon-wrap img {
   width: 14px;
   height: 14px;
+  max-width: 14px;
   object-fit: contain;
+  display: block;
 }
 
 /* ── Views ───────────────────────────────────────────────────── */
