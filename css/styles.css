@@ -345,18 +345,10 @@ img { max-width: 100%; }
   flex: 1;
   overflow: hidden;
   background: var(--surface);
-  display: none;
+  display: flex;
   flex-direction: column;
   min-height: 0;
   position: relative;
-}
-.catalog-body.has-detail .catalog-detail-panel {
-  display: flex;
-}
-.catalog-body:not(.has-detail) .catalog-list-panel {
-  width: 100%;
-  max-width: 100%;
-  border-right: none;
 }
 
 /* Detail empty state */
