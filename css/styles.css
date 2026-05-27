@@ -935,12 +935,17 @@ img { max-width: 100%; }
   #view-catalog { height: 100dvh; }
   .catalog-body { flex-direction: column; }
 
-  /* Panel izquierdo: más alto y filtros compactos */
+  /* Panel izquierdo: sin selección ocupa la mayor parte */
   .catalog-list-panel {
     width: 100%; max-width: 100%; min-height: 0;
     border-right: none; border-bottom: 1px solid var(--border);
-    flex: 0 0 46%;
+    flex: 0 0 70%;
+    transition: flex-basis 0.25s ease;
   }
+  /* Con selección activa: lista se contrae, canvas gana espacio */
+  .catalog-body.has-detail .catalog-list-panel { flex: 0 0 26%; }
+
+  /* Filtros compactos */
   .filter-bar { padding: 0.35rem 0.55rem; gap: 0.18rem; }
   .filter-row { gap: 0.18rem 0.22rem; }
   .filter-label { font-size: 0.7rem; }
@@ -968,6 +973,8 @@ img { max-width: 100%; }
     border-bottom: none;
     resize: none;
   }
+  /* Con selección: la tarjeta puede ser algo más alta */
+  .catalog-body.has-detail .detail-text { max-height: 48%; }
   .detail-card-header { cursor: default; }
 
   .modal-box { padding: 1.4rem 1.2rem; }

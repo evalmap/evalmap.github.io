@@ -169,6 +169,7 @@ function showCatalog(cat) {
   state.extra  = '';
   state.extra2 = '';
   state.search = '';
+  document.querySelector('.catalog-body').classList.remove('has-detail');
 
   const cfg = CAT_CONFIG[cat];
 
@@ -328,6 +329,8 @@ function showDetailPanel(name, cat) {
 
   document.getElementById('detail-empty').style.display   = 'none';
   document.getElementById('detail-content').style.display = 'flex';
+  document.querySelector('.catalog-body').classList.add('has-detail');
+  if (window.innerWidth <= 720) setTimeout(graphResizeCanvas, 270);
 
   // Switch to top/left anchoring once so CSS resize works from the start (desktop only)
   if (!cardPositionFixed && window.innerWidth > 720) {
