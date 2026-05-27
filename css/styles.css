@@ -425,6 +425,28 @@ img { max-width: 100%; }
   cursor: not-allowed;
   border-style: solid;
 }
+.graph-tooltip {
+  position: absolute;
+  pointer-events: none;
+  z-index: 20;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.55rem;
+  padding: 0.45rem 0.7rem;
+  max-width: 220px;
+  box-shadow: var(--shadow-sm);
+  font-size: 0.8rem;
+  line-height: 1.4;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.graph-tooltip.visible { opacity: 1; }
+.graph-tooltip-name {
+  font-weight: 600;
+  font-size: 0.82rem;
+  margin-bottom: 0.2em;
+}
+.graph-tooltip-desc { color: var(--text-muted); }
 .graph-legend {
   position: absolute;
   left: 0.8rem;
