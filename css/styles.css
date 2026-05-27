@@ -393,6 +393,31 @@ img { max-width: 100%; }
   gap: 0.45rem;
   flex-wrap: wrap;
 }
+.graph-nav-btn {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  line-height: 1;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-sm);
+  transition: color var(--transition), border-color var(--transition), background var(--transition);
+}
+.graph-nav-btn:hover:not(:disabled) {
+  color: var(--text);
+  border-color: var(--text-muted);
+  background: var(--surface);
+}
+.graph-nav-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
 .graph-toggle-btn {
   padding: 0.42rem 0.85rem;
   border-radius: 999px;

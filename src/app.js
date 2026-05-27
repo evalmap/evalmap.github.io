@@ -306,7 +306,13 @@ function findByCodes(codes, targetCat) {
 }
 
 /* ── Detail panel ─────────────────────────────────────────── */
-function showDetailPanel(name, cat) {
+function showDetailPanel(name, cat, pushHistory = true) {
+  if (pushHistory) {
+    navHistory.splice(navIndex + 1);   // drop forward stack
+    navHistory.push({ name, cat });
+    navIndex = navHistory.length - 1;
+    navUpdateButtons();
+  }
   Object.keys(graphVisibleCats).forEach(k => { graphVisibleCats[k] = true; });
   state.selectedName = name;
 
@@ -875,6 +881,16 @@ let detailCurrentItem = null;
 let detailCurrentCat  = null;
 let cardPositionFixed = false; // true after first show (anchored to top/left for resize)
 
+const navHistory = [];   // [{name, cat}, ...]
+let   navIndex   = -1;
+
+function navUpdateButtons() {
+  const back = document.getElementById('btn-nav-back');
+  const fwd  = document.getElementById('btn-nav-fwd');
+  if (back) back.disabled = navIndex <= 0;
+  if (fwd)  fwd.disabled  = navIndex >= navHistory.length - 1;
+}
+
 function itemToMarkdown(item, cat) {
   const cfg = CAT_CONFIG[cat];
   const name = item[cfg.nameKey];
@@ -957,6 +973,20 @@ function initEvents() {
     if (!detailCurrentItem || !detailCurrentCat) return;
     GRAPH.showOccasional = !GRAPH.showOccasional;
     renderGraph(detailCurrentItem, detailCurrentCat);
+  });
+  document.getElementById('btn-nav-back').addEventListener('click', () => {
+    if (navIndex <= 0) return;
+    navIndex--;
+    const { name, cat } = navHistory[navIndex];
+    navUpdateButtons();
+    showDetailPanel(name, cat, false);
+  });
+  document.getElementById('btn-nav-fwd').addEventListener('click', () => {
+    if (navIndex >= navHistory.length - 1) return;
+    navIndex++;
+    const { name, cat } = navHistory[navIndex];
+    navUpdateButtons();
+    showDetailPanel(name, cat, false);
   });
   document.querySelectorAll('.graph-cat-chip[data-graph-cat]').forEach(chip => {
     chip.addEventListener('click', () => {
