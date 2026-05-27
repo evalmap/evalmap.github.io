@@ -367,11 +367,20 @@ img { max-width: 100%; }
   box-shadow: var(--shadow-sm);
   transition: color var(--transition), border-color var(--transition), background var(--transition);
 }
-.graph-toggle-btn:hover,
-.graph-toggle-btn.active {
+.graph-toggle-btn:hover {
   color: var(--active-color, var(--c-tec));
   border-color: var(--active-color, var(--c-tec));
   background: var(--surface);
+}
+.graph-toggle-btn.active {
+  background: color-mix(in srgb, var(--active-color, var(--c-tec)) 14%, var(--surface));
+  color: var(--active-color, var(--c-tec));
+  border-color: var(--active-color, var(--c-tec));
+  border-width: 2px;
+  font-weight: 700;
+}
+.graph-toggle-btn.active::before {
+  content: "✓ ";
 }
 .graph-cat-filters {
   display: inline-flex;

@@ -748,20 +748,12 @@ function renderGraph(item, cat) {
   const toggleBtn = document.getElementById('btn-toggle-graph');
   if (toggleBtn) {
     toggleBtn.classList.toggle('active', GRAPH.expanded);
-    toggleBtn.textContent = GRAPH.expanded ? 'Vista limpia' : 'Expandir relaciones';
-    toggleBtn.title = GRAPH.expanded
-      ? 'Vuelve a la vista limpia, con menos niveles de relación alrededor del elemento seleccionado.'
-      : 'Muestra relaciones adicionales conectadas a los nodos visibles.';
-    toggleBtn.setAttribute('aria-label', toggleBtn.title);
+    toggleBtn.setAttribute('aria-pressed', String(GRAPH.expanded));
   }
   const essentialBtn = document.getElementById('btn-toggle-essential');
   if (essentialBtn) {
-    essentialBtn.classList.toggle('active', !GRAPH.showOccasional);
-    essentialBtn.textContent = GRAPH.showOccasional ? 'Modo: todas' : 'Modo: esenciales';
-    essentialBtn.title = GRAPH.showOccasional
-      ? 'Ahora se muestran todas las relaciones, incluidas las ocasionales. Pulsa para ocultar las ocasionales.'
-      : 'Ahora se muestran solo relaciones principales y complementarias. Pulsa para mostrar también las ocasionales.';
-    essentialBtn.setAttribute('aria-label', essentialBtn.title);
+    essentialBtn.classList.toggle('active', GRAPH.showOccasional);
+    essentialBtn.setAttribute('aria-pressed', String(GRAPH.showOccasional));
   }
   GRAPH.canvas = canvas;
   graphBuild(item, cat);
