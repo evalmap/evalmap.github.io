@@ -262,6 +262,7 @@ function renderCards() {
     matchSearch(item, cfg.nameKey, state.search)
   );
 
+  document.getElementById('filter-bar').style.display = items.length ? '' : 'none';
   document.getElementById('catalog-count').textContent =
     `${filtered.length} / ${items.length}`;
   if (!GRAPH.nodes.length) {
