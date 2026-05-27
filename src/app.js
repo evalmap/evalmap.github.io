@@ -639,9 +639,9 @@ function graphDraw() {
     ctx.beginPath();
     ctx.moveTo(na.x, na.y);
     ctx.lineTo(nb.x, nb.y);
-    ctx.strokeStyle = col.edge + (dark ? '88' : '66');
-    ctx.lineWidth   = kind === 'principal' ? 3.5 : kind === 'ocasional' ? 1.25 : 2.2;
-    ctx.setLineDash(kind === 'ocasional' ? [2, 5] : []);
+    ctx.strokeStyle = col.edge + (kind === 'ocasional' ? (dark ? 'aa' : '99') : (dark ? '88' : '66'));
+    ctx.lineWidth   = kind === 'principal' ? 3.5 : kind === 'ocasional' ? 1.8 : 2.2;
+    ctx.setLineDash(kind === 'ocasional' ? [4, 4] : []);
     ctx.stroke();
     ctx.setLineDash([]);
   });
