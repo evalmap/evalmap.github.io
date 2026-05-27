@@ -439,5 +439,196 @@
         "HER_PANEL": "complementaria"
       }
     }
+  },
+  {
+    "Código": "TEC_ENTREV_EVAL",
+    "Técnica": "Entrevista evaluativa",
+    "Descripción breve": "Conversación planificada para explorar comprensión, razonamiento o proceso.",
+    "Finalidad principal": "Profundizar en evidencias que no quedan claras en un producto o prueba.",
+    "Evidencias habituales": "Respuestas orales, explicaciones, argumentaciones, decisiones de proceso.",
+    "Instrumentos asociados": "Entrevista; Defensa de proyecto; Portfolio digital",
+    "Herramientas recomendadas": "Guía de corrección; Rúbrica oral; Registro anecdótico; Guía de observación",
+    "Cuándo conviene": "Cuando se necesita indagar en el razonamiento del alumnado o contrastar autoría y comprensión.",
+    "Limitaciones": "Consume tiempo y requiere un guion común para asegurar equidad.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "entrevista; oral; indagacion",
+    "Descripción detallada": "La entrevista evaluativa es una conversación con propósito evaluador, preparada con preguntas o focos de observación. Permite explorar cómo razona el alumno, qué decisiones tomó y qué comprensión sostiene una producción.\n\nCómo aplicarla: se define un guion breve, se registran las respuestas con una guía o rúbrica oral y se procura que las preguntas sean comparables entre alumnos. Puede usarse en defensas de proyecto, portfolios o revisión de trabajos complejos.\n\nEs útil para obtener evidencias profundas, pero debe planificarse para evitar improvisación excesiva o diferencias injustas entre entrevistas.",
+    "rel_ins": [
+      "INS_ENTREV",
+      "INS_DEF_PROY",
+      "INS_PORT_DIG"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_RUB_ORAL",
+      "HER_REG_ANE",
+      "HER_GUIA_OBS"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_ENTREV": "principal",
+        "INS_DEF_PROY": "complementaria",
+        "INS_PORT_DIG": "complementaria"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "complementaria",
+        "HER_RUB_ORAL": "principal",
+        "HER_REG_ANE": "complementaria",
+        "HER_GUIA_OBS": "principal"
+      }
+    }
+  },
+  {
+    "Código": "TEC_ENC_CUEST",
+    "Técnica": "Encuesta y cuestionario",
+    "Descripción breve": "Recogida estructurada de respuestas mediante preguntas cerradas o abiertas.",
+    "Finalidad principal": "Obtener información rápida sobre conocimientos, percepciones, intereses o seguimiento.",
+    "Evidencias habituales": "Cuestionarios, formularios, encuestas iniciales, escalas de percepción.",
+    "Instrumentos asociados": "Cuestionario digital; KPSI; Billete de salida",
+    "Herramientas recomendadas": "Formulario digital; Escala de autoevaluación; Plantilla de corrección",
+    "Cuándo conviene": "Cuando se necesita información comparable y fácil de analizar de todo el grupo.",
+    "Limitaciones": "La calidad depende mucho de la formulación de las preguntas.",
+    "Fase": "Inicial/Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "encuesta; cuestionario; formulario",
+    "Descripción detallada": "La encuesta y el cuestionario recogen respuestas de forma estructurada. Pueden usarse con finalidad diagnóstica, formativa o sumativa según el diseño de las preguntas.\n\nCómo aplicarlos: se redactan ítems claros, se decide si las respuestas serán anónimas o identificadas y se analizan los resultados para tomar decisiones docentes. En evaluación, conviene distinguir entre cuestionarios de percepción y pruebas de conocimiento.\n\nSon útiles por su rapidez y comparabilidad, pero no deben sustituir a evidencias más ricas cuando se evalúan aprendizajes complejos.",
+    "rel_ins": [
+      "INS_CUEST_DIG",
+      "INS_KPSI",
+      "INS_BILLETE"
+    ],
+    "rel_her": [
+      "HER_FORM_DIG",
+      "HER_ESC_AUTO",
+      "HER_PLANT_CORR"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_CUEST_DIG": "principal",
+        "INS_KPSI": "principal",
+        "INS_BILLETE": "complementaria"
+      },
+      "rel_her": {
+        "HER_FORM_DIG": "principal",
+        "HER_ESC_AUTO": "complementaria",
+        "HER_PLANT_CORR": "complementaria"
+      }
+    }
+  },
+  {
+    "Código": "TEC_ANAL_DOC",
+    "Técnica": "Análisis documental",
+    "Descripción breve": "Revisión de documentos, registros y evidencias acumuladas.",
+    "Finalidad principal": "Interpretar información ya producida para valorar progreso, coherencia o trazabilidad.",
+    "Evidencias habituales": "Cuadernos, portfolios, actas, historiales de revisión, bancos de evidencias.",
+    "Instrumentos asociados": "Cuaderno de clase; Portfolio digital; Acta de reunión; Documento colaborativo",
+    "Herramientas recomendadas": "Mapa de evidencias por criterio; Historial de revisión; Banco digital de evidencias",
+    "Cuándo conviene": "Cuando el aprendizaje queda documentado en registros o productos acumulados.",
+    "Limitaciones": "Puede sobrevalorar lo que se documenta y dejar fuera actuaciones no registradas.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "documental; evidencias; registros",
+    "Descripción detallada": "El análisis documental consiste en revisar documentos y registros generados durante el aprendizaje: cuadernos, portfolios, actas, historiales de edición o repositorios de evidencias.\n\nCómo aplicarlo: se seleccionan documentos relevantes, se contrastan con criterios o indicadores y se evita valorar solo la cantidad de material acumulado. El mapa de evidencias ayuda a saber qué documento justifica cada criterio.\n\nEs una técnica útil para evaluación continua y criterial, especialmente cuando el proceso deja trazas verificables.",
+    "rel_ins": [
+      "INS_CUADERNO",
+      "INS_PORT_DIG",
+      "INS_ACTA",
+      "INS_DOC_COL"
+    ],
+    "rel_her": [
+      "HER_MAP_EVID",
+      "HER_HIST_REV",
+      "HER_BANCO_EVID"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_CUADERNO": "principal",
+        "INS_PORT_DIG": "principal",
+        "INS_ACTA": "complementaria",
+        "INS_DOC_COL": "complementaria"
+      },
+      "rel_her": {
+        "HER_MAP_EVID": "principal",
+        "HER_HIST_REV": "complementaria",
+        "HER_BANCO_EVID": "complementaria"
+      }
+    }
+  },
+  {
+    "Código": "TEC_INTER_DIG",
+    "Técnica": "Análisis de interacciones digitales",
+    "Descripción breve": "Interpretación de participaciones, trazas y colaboración en entornos digitales.",
+    "Finalidad principal": "Valorar participación, contribución y proceso en plataformas o documentos compartidos.",
+    "Evidencias habituales": "Foros, comentarios, historiales de edición, analíticas, mensajes y entregas digitales.",
+    "Instrumentos asociados": "Foro de discusión; Documento colaborativo; Cuaderno digital; Portfolio digital",
+    "Herramientas recomendadas": "Historial de revisión; Analíticas de aprendizaje; Panel de progreso",
+    "Cuándo conviene": "Cuando el trabajo se desarrolla en entornos digitales que dejan trazas útiles.",
+    "Limitaciones": "Las trazas digitales requieren interpretación pedagógica y respeto a la privacidad.",
+    "Fase": "Proceso",
+    "Participación": "Docente/Alumno/Iguales",
+    "Etiquetas": "digital; interaccion; trazas; colaboracion",
+    "Descripción detallada": "El análisis de interacciones digitales estudia cómo participa el alumnado en espacios digitales: contribuciones en documentos compartidos, foros, comentarios, entregas, revisiones y actividad en plataformas.\n\nCómo aplicarlo: se decide qué trazas son relevantes para los criterios, se revisan historiales o paneles y se triangula con productos y observación docente. No toda actividad digital implica aprendizaje, por lo que debe interpretarse con cautela.\n\nEs especialmente útil en proyectos colaborativos y portfolios digitales.",
+    "rel_ins": [
+      "INS_FORO",
+      "INS_DOC_COL",
+      "INS_CUAD_DIG",
+      "INS_PORT_DIG"
+    ],
+    "rel_her": [
+      "HER_HIST_REV",
+      "HER_ANALITICAS",
+      "HER_PANEL"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_FORO": "principal",
+        "INS_DOC_COL": "principal",
+        "INS_CUAD_DIG": "complementaria",
+        "INS_PORT_DIG": "complementaria"
+      },
+      "rel_her": {
+        "HER_HIST_REV": "principal",
+        "HER_ANALITICAS": "complementaria",
+        "HER_PANEL": "complementaria"
+      }
+    }
+  },
+  {
+    "Código": "TEC_TRIANG",
+    "Técnica": "Triangulación de evidencias",
+    "Descripción breve": "Contraste de varias evidencias para tomar una decisión evaluativa más sólida.",
+    "Finalidad principal": "Aumentar validez y fiabilidad combinando productos, observaciones, pruebas y reflexiones.",
+    "Evidencias habituales": "Rúbricas, registros, pruebas, portfolios, entrevistas, autoevaluaciones.",
+    "Instrumentos asociados": "Tarea competencial integrada; E-portfolio con evidencias seleccionadas; Prueba competencial contextualizada",
+    "Herramientas recomendadas": "Mapa de evidencias por criterio; Tabla de calificación por criterios; Perfil de logro",
+    "Cuándo conviene": "Cuando una sola evidencia es insuficiente para valorar un criterio o competencia.",
+    "Limitaciones": "Requiere decidir qué evidencias pesan más y evitar duplicar la misma evidencia.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "triangulacion; evidencias; validez",
+    "Descripción detallada": "La triangulación de evidencias consiste en contrastar varias fuentes antes de tomar una decisión: observación, producción, prueba, entrevista, autoevaluación o registro de proceso.\n\nCómo aplicarla: se identifica qué criterio se quiere valorar, qué evidencias lo muestran y si son suficientes y coherentes entre sí. Si las evidencias discrepan, se analiza cuál es más válida o si conviene recoger una evidencia adicional.\n\nEs clave en evaluación competencial y criterial, porque evita decidir a partir de una única tarea aislada.",
+    "rel_ins": [
+      "INS_TAREA_COMP_INT",
+      "INS_EPORT_SEL",
+      "INS_PR_COMP"
+    ],
+    "rel_her": [
+      "HER_MAP_EVID",
+      "HER_TAB_CRIT",
+      "HER_PERFIL_LOGRO"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_TAREA_COMP_INT": "principal",
+        "INS_EPORT_SEL": "principal",
+        "INS_PR_COMP": "complementaria"
+      },
+      "rel_her": {
+        "HER_MAP_EVID": "principal",
+        "HER_TAB_CRIT": "complementaria",
+        "HER_PERFIL_LOGRO": "complementaria"
+      }
+    }
   }
 ]

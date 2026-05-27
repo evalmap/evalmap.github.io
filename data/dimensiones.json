@@ -20,7 +20,8 @@
       "INS_AUTOINF",
       "INS_KPSI",
       "INS_SEMAF",
-      "INS_BILLETE"
+      "INS_BILLETE",
+      "INS_CHECK_LAB"
     ],
     "rel_her": [
       "HER_ESC_AUTO",
@@ -31,7 +32,7 @@
       "HER_LISTA_AUTO",
       "HER_REG_COMP"
     ],
-    "Instrumentos asociados": "Diario de aprendizaje; Porfolio; Contrato de aprendizaje; Ficha de reflexión; Autoinforme; KPSI; Semáforo de aprendizaje; Billete de salida",
+    "Instrumentos asociados": "Diario de aprendizaje; Porfolio; Contrato de aprendizaje; Ficha de reflexión; Autoinforme; KPSI; Semáforo de aprendizaje; Billete de salida; Checklist de laboratorio",
     "Herramientas recomendadas": "Escala de autoevaluación; Diana de evaluación; Rúbrica de autoevaluación; Lista de cotejo o control; Semáforo de evaluación; Lista de cotejo de autoevaluación; Registro de compromisos de mejora",
     "rel_meta": {
       "rel_ins": {
@@ -42,7 +43,8 @@
         "INS_AUTOINF": "principal",
         "INS_KPSI": "complementaria",
         "INS_SEMAF": "principal",
-        "INS_BILLETE": "complementaria"
+        "INS_BILLETE": "complementaria",
+        "INS_CHECK_LAB": "ocasional"
       },
       "rel_her": {
         "HER_LISTA": "principal",
@@ -140,7 +142,9 @@
       "INS_PR_ORAL",
       "INS_PR_PRACT",
       "INS_PR_COMP",
-      "INS_DOCS"
+      "INS_DOCS",
+      "INS_TRAB_COOP",
+      "INS_LIBRO_ABIERTO"
     ],
     "rel_her": [
       "HER_RUB_ANA",
@@ -150,7 +154,7 @@
       "HER_CUAD_CAL",
       "HER_ACTA"
     ],
-    "Instrumentos asociados": "Práctica de laboratorio; Exposición oral; Defensa de proyecto; Porfolio; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Prueba escrita de desarrollo; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba oral; Prueba práctica; Prueba competencial contextualizada; Prueba con documentos",
+    "Instrumentos asociados": "Práctica de laboratorio; Exposición oral; Defensa de proyecto; Porfolio; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Prueba escrita de desarrollo; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba oral; Prueba práctica; Prueba competencial contextualizada; Prueba con documentos; Trabajo cooperativo; Prueba de libro abierto",
     "Herramientas recomendadas": "Rúbrica analítica; Guía de corrección; Lista de cotejo o control; Escala de observación; Cuaderno de calificaciones; Acta de evaluación",
     "rel_meta": {
       "rel_ins": {
@@ -169,7 +173,9 @@
         "INS_PR_ORAL": "complementaria",
         "INS_PR_PRACT": "complementaria",
         "INS_PR_COMP": "complementaria",
-        "INS_DOCS": "complementaria"
+        "INS_DOCS": "complementaria",
+        "INS_TRAB_COOP": "complementaria",
+        "INS_LIBRO_ABIERTO": "complementaria"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
@@ -257,7 +263,10 @@
       "INS_REV_PARES",
       "INS_2E1D",
       "INS_SEMAF",
-      "INS_BILLETE"
+      "INS_BILLETE",
+      "INS_TRAB_COOP",
+      "INS_SEMINARIO",
+      "INS_CHECK_LAB"
     ],
     "rel_her": [
       "HER_FICHA_RETRO",
@@ -276,10 +285,15 @@
       "HER_HIST_REV",
       "HER_PANEL",
       "HER_ANALITICAS",
-      "HER_BANCO_EVID"
+      "HER_BANCO_EVID",
+      "HER_ESC_PROG",
+      "HER_GUIA_OBS",
+      "HER_PLANT_FF",
+      "HER_CONTR_GRUP",
+      "HER_SOCIO"
     ],
-    "Instrumentos asociados": "Trabajo individual en aula; Participación en clase; Coloquio; Asamblea; Entrevista; Pregunta oral estructurada; Cuaderno de clase; Diario de aprendizaje; Porfolio; Resumen; Esquema; Mapa mental; Glosario; Ficha de lectura; Plan de trabajo; Contrato de aprendizaje; Ficha de reflexión; Prueba de respuesta corta; Documento colaborativo; Lluvia de ideas; Borrador; Entrega parcial; Bitácora de proyecto; Revisión por pares; Dos estrellas y un deseo; Semáforo de aprendizaje; Billete de salida",
-    "Herramientas recomendadas": "Ficha de retroalimentación; Lista de cotejo o control; Escala de observación; Escala de valoración; Registro descriptivo; Diario del profesor; Hoja de seguimiento grupal; Registro de participación; Notas de campo; Ficha de valoración; Semáforo de evaluación; Registro de compromisos de mejora; Escala verbal; Historial de revisión; Panel de progreso; Analíticas de aprendizaje; Banco digital de evidencias",
+    "Instrumentos asociados": "Trabajo individual en aula; Participación en clase; Coloquio; Asamblea; Entrevista; Pregunta oral estructurada; Cuaderno de clase; Diario de aprendizaje; Porfolio; Resumen; Esquema; Mapa mental; Glosario; Ficha de lectura; Plan de trabajo; Contrato de aprendizaje; Ficha de reflexión; Prueba de respuesta corta; Documento colaborativo; Lluvia de ideas; Borrador; Entrega parcial; Bitácora de proyecto; Revisión por pares; Dos estrellas y un deseo; Semáforo de aprendizaje; Billete de salida; Trabajo cooperativo; Seminario socrático; Checklist de laboratorio",
+    "Herramientas recomendadas": "Ficha de retroalimentación; Lista de cotejo o control; Escala de observación; Escala de valoración; Registro descriptivo; Diario del profesor; Hoja de seguimiento grupal; Registro de participación; Notas de campo; Ficha de valoración; Semáforo de evaluación; Registro de compromisos de mejora; Escala verbal; Historial de revisión; Panel de progreso; Analíticas de aprendizaje; Banco digital de evidencias; Escala de progreso; Guía de observación; Plantilla de feedback/feedforward; Contrato de grupo; Sociograma",
     "rel_meta": {
       "rel_ins": {
         "INS_TRAB_IND": "principal",
@@ -308,7 +322,10 @@
         "INS_REV_PARES": "complementaria",
         "INS_2E1D": "complementaria",
         "INS_SEMAF": "complementaria",
-        "INS_BILLETE": "principal"
+        "INS_BILLETE": "principal",
+        "INS_TRAB_COOP": "principal",
+        "INS_SEMINARIO": "complementaria",
+        "INS_CHECK_LAB": "complementaria"
       },
       "rel_her": {
         "HER_LISTA": "complementaria",
@@ -327,7 +344,12 @@
         "HER_HIST_REV": "complementaria",
         "HER_PANEL": "complementaria",
         "HER_ANALITICAS": "complementaria",
-        "HER_BANCO_EVID": "complementaria"
+        "HER_BANCO_EVID": "complementaria",
+        "HER_ESC_PROG": "complementaria",
+        "HER_GUIA_OBS": "complementaria",
+        "HER_PLANT_FF": "complementaria",
+        "HER_CONTR_GRUP": "complementaria",
+        "HER_SOCIO": "complementaria"
       }
     }
   },
@@ -445,17 +467,22 @@
       "INS_DOCS",
       "INS_INFOG",
       "INS_POSTER",
-      "INS_COMIC"
+      "INS_COMIC",
+      "INS_LIBRO_ABIERTO",
+      "INS_TAREA_COMP_INT",
+      "INS_SIT_PROB"
     ],
     "rel_her": [
       "HER_RUB_COMP",
       "HER_PERFIL_LOGRO",
       "HER_MATRIZ",
       "HER_BANCO_DESC",
-      "HER_TAB_CRIT"
+      "HER_TAB_CRIT",
+      "HER_IND_CRIT",
+      "HER_MAP_EVID"
     ],
-    "Instrumentos asociados": "Ensayo; Comentario de texto; Línea del tiempo; Reseña; Artículo divulgativo; Estudio de caso; Prueba competencial contextualizada; Prueba con documentos; Infografía; Póster académico; Cómic",
-    "Herramientas recomendadas": "Rúbrica competencial; Perfil de logro; Matriz de valoración; Banco de descriptores; Tabla de calificación por criterios",
+    "Instrumentos asociados": "Ensayo; Comentario de texto; Línea del tiempo; Reseña; Artículo divulgativo; Estudio de caso; Prueba competencial contextualizada; Prueba con documentos; Infografía; Póster académico; Cómic; Prueba de libro abierto; Tarea competencial integrada; Situación-problema",
+    "Herramientas recomendadas": "Rúbrica competencial; Perfil de logro; Matriz de valoración; Banco de descriptores; Tabla de calificación por criterios; Lista de indicadores por criterio; Mapa de evidencias por criterio",
     "rel_meta": {
       "rel_ins": {
         "INS_ENSAYO": "complementaria",
@@ -468,14 +495,19 @@
         "INS_DOCS": "principal",
         "INS_INFOG": "principal",
         "INS_POSTER": "principal",
-        "INS_COMIC": "principal"
+        "INS_COMIC": "principal",
+        "INS_LIBRO_ABIERTO": "principal",
+        "INS_TAREA_COMP_INT": "principal",
+        "INS_SIT_PROB": "complementaria"
       },
       "rel_her": {
         "HER_RUB_COMP": "principal",
         "HER_MATRIZ": "principal",
         "HER_BANCO_DESC": "principal",
         "HER_PERFIL_LOGRO": "principal",
-        "HER_TAB_CRIT": "complementaria"
+        "HER_TAB_CRIT": "complementaria",
+        "HER_IND_CRIT": "complementaria",
+        "HER_MAP_EVID": "principal"
       }
     }
   },
@@ -506,7 +538,10 @@
       "INS_PRESENT_DIG",
       "INS_TUTORIAL",
       "INS_MAQUETA",
-      "INS_PROTOTIPO"
+      "INS_PROTOTIPO",
+      "INS_TRAB_COOP",
+      "INS_SEMINARIO",
+      "INS_CHECK_LAB"
     ],
     "rel_her": [
       "HER_ESC_OBS",
@@ -514,10 +549,11 @@
       "HER_RUB_PROD",
       "HER_RUB_ORAL",
       "HER_REG_DESC",
-      "HER_REG_PART"
+      "HER_REG_PART",
+      "HER_GUIA_OBS"
     ],
-    "Instrumentos asociados": "Participación en clase; Coloquio; Taller; Simulación; Exposición oral; Defensa de proyecto; Entrevista; Pregunta oral estructurada; Prueba oral; Prueba práctica; Presentación digital; Videotutorial; Maqueta; Prototipo",
-    "Herramientas recomendadas": "Escala de observación; Lista de cotejo o control; Rúbrica de producto; Rúbrica oral; Registro descriptivo; Registro de participación",
+    "Instrumentos asociados": "Participación en clase; Coloquio; Taller; Simulación; Exposición oral; Defensa de proyecto; Entrevista; Pregunta oral estructurada; Prueba oral; Prueba práctica; Presentación digital; Videotutorial; Maqueta; Prototipo; Trabajo cooperativo; Seminario socrático; Checklist de laboratorio",
+    "Herramientas recomendadas": "Escala de observación; Lista de cotejo o control; Rúbrica de producto; Rúbrica oral; Registro descriptivo; Registro de participación; Guía de observación",
     "rel_meta": {
       "rel_ins": {
         "INS_PART": "complementaria",
@@ -533,7 +569,10 @@
         "INS_PRESENT_DIG": "complementaria",
         "INS_TUTORIAL": "principal",
         "INS_MAQUETA": "principal",
-        "INS_PROTOTIPO": "complementaria"
+        "INS_PROTOTIPO": "complementaria",
+        "INS_TRAB_COOP": "principal",
+        "INS_SEMINARIO": "principal",
+        "INS_CHECK_LAB": "principal"
       },
       "rel_her": {
         "HER_RUB_PROD": "complementaria",
@@ -541,7 +580,8 @@
         "HER_LISTA": "ocasional",
         "HER_ESC_OBS": "ocasional",
         "HER_REG_DESC": "complementaria",
-        "HER_REG_PART": "complementaria"
+        "HER_REG_PART": "complementaria",
+        "HER_GUIA_OBS": "principal"
       }
     }
   },
@@ -562,30 +602,34 @@
       "INS_MEM_PROY",
       "INS_PLAN_TRAB",
       "INS_PROTOTIPO",
-      "INS_BIT"
+      "INS_BIT",
+      "INS_TRAB_COOP"
     ],
     "rel_her": [
       "HER_HOJA_IND",
       "HER_RUB_PROC",
       "HER_RUB_COOP",
       "HER_HOJA_GRUP",
-      "HER_REG_COOP"
+      "HER_REG_COOP",
+      "HER_CONTR_GRUP"
     ],
-    "Instrumentos asociados": "Memoria de proyecto; Plan de trabajo; Prototipo; Bitácora de proyecto",
-    "Herramientas recomendadas": "Hoja de seguimiento individual; Rúbrica de proceso; Rúbrica de trabajo cooperativo; Hoja de seguimiento grupal; Registro de trabajo cooperativo",
+    "Instrumentos asociados": "Memoria de proyecto; Plan de trabajo; Prototipo; Bitácora de proyecto; Trabajo cooperativo",
+    "Herramientas recomendadas": "Hoja de seguimiento individual; Rúbrica de proceso; Rúbrica de trabajo cooperativo; Hoja de seguimiento grupal; Registro de trabajo cooperativo; Contrato de grupo",
     "rel_meta": {
       "rel_ins": {
         "INS_MEM_PROY": "principal",
         "INS_PLAN_TRAB": "complementaria",
         "INS_PROTOTIPO": "principal",
-        "INS_BIT": "principal"
+        "INS_BIT": "principal",
+        "INS_TRAB_COOP": "complementaria"
       },
       "rel_her": {
         "HER_RUB_PROC": "complementaria",
         "HER_RUB_COOP": "complementaria",
         "HER_HOJA_IND": "principal",
         "HER_HOJA_GRUP": "complementaria",
-        "HER_REG_COOP": "complementaria"
+        "HER_REG_COOP": "complementaria",
+        "HER_CONTR_GRUP": "complementaria"
       }
     }
   },
@@ -640,18 +684,22 @@
     "Descripción detallada": "Esta dimensión describe el formato o situación didáctica en la que se genera la evidencia. Puede combinar varios procedimientos de recogida.\n\nLa evaluación mediante resolución de problemas valora el proceso completo: comprensión del enunciado, identificación de datos relevantes, planificación de la estrategia, ejecución y verificación del resultado. No basta con que el resultado sea correcto; importa el razonamiento y la justificación.\n\nCómo aplicarla: los problemas deben ser contextualizados y requerir aplicación real de conocimientos, no solo reproducción de fórmulas o algoritmos. La guía de corrección o la rúbrica deben valorar cada fase del proceso, no solo la respuesta final. Pedir al alumnado que explique cómo lo ha resuelto (por escrito u oralmente) añade información valiosa sobre su razonamiento.\n\nAdecuada en matemáticas, física, química, tecnología, economía y cualquier área con problemas aplicados.",
     "rel_ins": [
       "INS_COM_GRAF",
-      "INS_PROB"
+      "INS_PROB",
+      "INS_SIT_PROB",
+      "INS_ESCAPE"
     ],
     "rel_her": [
       "HER_GUIA_CORR",
       "HER_ESC_DESC"
     ],
-    "Instrumentos asociados": "Comentario de gráfica o datos; Resolución de problemas",
+    "Instrumentos asociados": "Comentario de gráfica o datos; Resolución de problemas; Situación-problema; Escape room o reto gamificado",
     "Herramientas recomendadas": "Guía de corrección; Escala descriptiva",
     "rel_meta": {
       "rel_ins": {
         "INS_COM_GRAF": "principal",
-        "INS_PROB": "principal"
+        "INS_PROB": "principal",
+        "INS_SIT_PROB": "principal",
+        "INS_ESCAPE": "complementaria"
       },
       "rel_her": {
         "HER_ESC_DESC": "principal",
@@ -707,20 +755,22 @@
     "rel_ins": [
       "INS_SIM",
       "INS_ROL",
-      "INS_DRAMA"
+      "INS_DRAMA",
+      "INS_ESCAPE"
     ],
     "rel_her": [
       "HER_RUB_ANA",
       "HER_ESC_OBS",
       "HER_REG_ANE"
     ],
-    "Instrumentos asociados": "Simulación; Juego de rol; Dramatización",
+    "Instrumentos asociados": "Simulación; Juego de rol; Dramatización; Escape room o reto gamificado",
     "Herramientas recomendadas": "Rúbrica analítica; Escala de observación; Registro anecdótico",
     "rel_meta": {
       "rel_ins": {
         "INS_SIM": "principal",
         "INS_ROL": "principal",
-        "INS_DRAMA": "principal"
+        "INS_DRAMA": "principal",
+        "INS_ESCAPE": "principal"
       },
       "rel_her": {
         "HER_RUB_ANA": "ocasional",
@@ -753,7 +803,8 @@
       "INS_BLOG",
       "INS_FORO",
       "INS_DOC_COL",
-      "INS_PORT_DIG"
+      "INS_PORT_DIG",
+      "INS_CUAD_DIG"
     ],
     "rel_her": [
       "HER_RUB_DIG",
@@ -764,7 +815,7 @@
       "HER_ANALITICAS",
       "HER_BANCO_EVID"
     ],
-    "Instrumentos asociados": "Cuestionario digital; Infografía; Presentación digital; Vídeo; Podcast; Modelo digital; Página web; Entrada de blog; Foro de discusión; Documento colaborativo; Portfolio digital",
+    "Instrumentos asociados": "Cuestionario digital; Infografía; Presentación digital; Vídeo; Podcast; Modelo digital; Página web; Entrada de blog; Foro de discusión; Documento colaborativo; Portfolio digital; Cuaderno digital",
     "Herramientas recomendadas": "Rúbrica digital; Historial de revisión; Panel de progreso; Hoja de cálculo de evaluación; Formulario digital; Analíticas de aprendizaje; Banco digital de evidencias",
     "rel_meta": {
       "rel_ins": {
@@ -778,7 +829,8 @@
         "INS_BLOG": "principal",
         "INS_FORO": "principal",
         "INS_DOC_COL": "principal",
-        "INS_PORT_DIG": "principal"
+        "INS_PORT_DIG": "principal",
+        "INS_CUAD_DIG": "principal"
       },
       "rel_her": {
         "HER_HOJA_CALC": "principal",
@@ -790,5 +842,259 @@
         "HER_BANCO_EVID": "principal"
       }
     }
+  },
+  {
+    "Código": "DIM_CRIT",
+    "Dimensión": "Evaluación criterial",
+    "Categoría": "Enfoque curricular",
+    "Descripción breve": "Valoración del aprendizaje en relación con criterios explícitos, no por comparación entre alumnos.",
+    "Función pedagógica": "Alinear evidencias, criterios de evaluación, indicadores y decisiones de calificación.",
+    "Evidencias habituales": "Tareas vinculadas a criterios, rúbricas competenciales, mapas de evidencias.",
+    "Cuándo conviene": "Siempre que se quiera justificar la evaluación desde criterios curriculares o estándares definidos.",
+    "Precauciones": "Requiere traducir criterios amplios en indicadores observables sin fragmentar en exceso el aprendizaje.",
+    "Fase": "Diseño/Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "criterial; criterios; indicadores; alineacion",
+    "Descripción detallada": "La evaluación criterial valora el aprendizaje respecto a criterios previamente definidos y comunicados. No compara al alumnado entre sí, sino que analiza en qué medida cada estudiante demuestra los aprendizajes esperados.\n\nCómo aplicarla: se parte de los criterios de evaluación y se concretan en indicadores observables, evidencias adecuadas y herramientas de valoración. Un mapa de evidencias por criterio ayuda a comprobar que cada decisión evaluativa está apoyada en datos suficientes.\n\nEs especialmente importante en enfoques competenciales, porque permite justificar qué evidencia demuestra cada criterio y evita que la calificación sea una suma de tareas desconectadas.",
+    "rel_ins": [
+      "INS_TAREA_COMP_INT",
+      "INS_SIT_PROB",
+      "INS_EPORT_SEL",
+      "INS_LIBRO_ABIERTO"
+    ],
+    "rel_her": [
+      "HER_IND_CRIT",
+      "HER_MAP_EVID",
+      "HER_RUB_COMP",
+      "HER_TAB_CRIT"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_TAREA_COMP_INT": "principal",
+        "INS_SIT_PROB": "principal",
+        "INS_EPORT_SEL": "principal",
+        "INS_LIBRO_ABIERTO": "complementaria"
+      },
+      "rel_her": {
+        "HER_IND_CRIT": "principal",
+        "HER_MAP_EVID": "principal",
+        "HER_RUB_COMP": "complementaria",
+        "HER_TAB_CRIT": "complementaria"
+      }
+    },
+    "Instrumentos asociados": "Tarea competencial integrada; Situación-problema; E-portfolio con evidencias seleccionadas; Prueba de libro abierto",
+    "Herramientas recomendadas": "Lista de indicadores por criterio; Mapa de evidencias por criterio; Rúbrica competencial; Tabla de calificación por criterios"
+  },
+  {
+    "Código": "DIM_INCL",
+    "Dimensión": "Evaluación inclusiva y DUA",
+    "Categoría": "Enfoque curricular",
+    "Descripción breve": "Diseño de evaluación accesible, flexible y ajustada a la diversidad del alumnado.",
+    "Función pedagógica": "Reducir barreras y ofrecer distintas formas de demostrar el aprendizaje.",
+    "Evidencias habituales": "Productos alternativos, apoyos, andamiajes, adaptaciones de acceso, autoevaluaciones guiadas.",
+    "Cuándo conviene": "En cualquier grupo diverso, especialmente cuando una única forma de evidencia puede ocultar aprendizajes reales.",
+    "Precauciones": "La flexibilidad no debe rebajar los criterios, sino diversificar caminos y apoyos para evidenciarlos.",
+    "Fase": "Diseño/Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "inclusion; dua; accesibilidad; diversidad",
+    "Descripción detallada": "La evaluación inclusiva, alineada con el Diseño Universal para el Aprendizaje, procura que todos los alumnos puedan demostrar lo que saben y saben hacer mediante evidencias accesibles y variadas.\n\nCómo aplicarla: se anticipan barreras de comprensión, expresión, tiempo, formato o contexto; se ofrecen apoyos y alternativas razonables; y se mantienen claros los criterios que se evalúan. Por ejemplo, un mismo criterio puede evidenciarse mediante texto, exposición oral, producto visual o demostración práctica si todos permiten observar el mismo aprendizaje.\n\nSu finalidad es aumentar la validez de la evaluación: que el resultado refleje el aprendizaje y no las barreras del formato elegido.",
+    "rel_ins": [
+      "INS_TAREA_COMP_INT",
+      "INS_CUAD_DIG",
+      "INS_EPORT_SEL"
+    ],
+    "rel_her": [
+      "HER_ESC_PROG",
+      "HER_PLANT_FF",
+      "HER_MAP_EVID"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_TAREA_COMP_INT": "principal",
+        "INS_CUAD_DIG": "complementaria",
+        "INS_EPORT_SEL": "principal"
+      },
+      "rel_her": {
+        "HER_ESC_PROG": "principal",
+        "HER_PLANT_FF": "complementaria",
+        "HER_MAP_EVID": "complementaria"
+      }
+    },
+    "Instrumentos asociados": "Tarea competencial integrada; Cuaderno digital; E-portfolio con evidencias seleccionadas",
+    "Herramientas recomendadas": "Escala de progreso; Plantilla de feedback/feedforward; Mapa de evidencias por criterio"
+  },
+  {
+    "Código": "DIM_CONT",
+    "Dimensión": "Evaluación continua",
+    "Categoría": "Finalidad y momento",
+    "Descripción breve": "Recogida e interpretación de evidencias a lo largo del proceso de aprendizaje.",
+    "Función pedagógica": "Seguir el progreso, detectar necesidades y ajustar la enseñanza de forma sostenida.",
+    "Evidencias habituales": "Borradores, entregas parciales, diarios, cuaderno digital, registros de progreso.",
+    "Cuándo conviene": "En unidades largas, proyectos, aprendizaje competencial y seguimiento ordinario del curso.",
+    "Precauciones": "No debe confundirse con acumular muchas notas; exige seleccionar evidencias significativas.",
+    "Fase": "Inicial/Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "continua; progreso; seguimiento",
+    "Descripción detallada": "La evaluación continua interpreta evidencias recogidas en distintos momentos para comprender el progreso del alumnado. No consiste en calificarlo todo, sino en usar evidencias sucesivas para tomar mejores decisiones.\n\nCómo aplicarla: se planifican hitos de recogida de información, se registran avances relevantes y se devuelve retroalimentación mientras todavía hay margen de mejora. Las entregas parciales, el cuaderno digital, el portfolio y las escalas de progreso son especialmente útiles.\n\nBien usada, permite que la evaluación sea parte del aprendizaje y no solo una comprobación al final.",
+    "rel_ins": [
+      "INS_CUAD_DIG",
+      "INS_EPORT_SEL",
+      "INS_ENT_PAR",
+      "INS_BORR"
+    ],
+    "rel_her": [
+      "HER_ESC_PROG",
+      "HER_PANEL",
+      "HER_BANCO_EVID",
+      "HER_HOJA_IND"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_CUAD_DIG": "principal",
+        "INS_EPORT_SEL": "principal",
+        "INS_ENT_PAR": "principal",
+        "INS_BORR": "principal"
+      },
+      "rel_her": {
+        "HER_ESC_PROG": "principal",
+        "HER_PANEL": "complementaria",
+        "HER_BANCO_EVID": "complementaria",
+        "HER_HOJA_IND": "complementaria"
+      }
+    },
+    "Instrumentos asociados": "Cuaderno digital; E-portfolio con evidencias seleccionadas; Entrega parcial; Borrador",
+    "Herramientas recomendadas": "Escala de progreso; Panel de progreso; Banco digital de evidencias; Hoja de seguimiento individual"
+  },
+  {
+    "Código": "DIM_FEED",
+    "Dimensión": "Retroalimentación y feedforward",
+    "Categoría": "Finalidad y uso",
+    "Descripción breve": "Información para comprender el desempeño actual y orientar la siguiente mejora.",
+    "Función pedagógica": "Convertir la evaluación en acción de mejora concreta.",
+    "Evidencias habituales": "Comentarios, fichas de retroalimentación, compromisos de mejora, revisiones de borradores.",
+    "Cuándo conviene": "Cuando el alumnado puede revisar, repetir, mejorar o transferir lo aprendido a una tarea posterior.",
+    "Precauciones": "Debe ser específica, oportuna y accionable; una nota sola no es retroalimentación suficiente.",
+    "Fase": "Proceso",
+    "Participación": "Docente/Alumno/Iguales",
+    "Etiquetas": "feedback; feedforward; mejora; retroalimentacion",
+    "Descripción detallada": "La retroalimentación explica al alumnado dónde está respecto al objetivo, qué ha hecho bien, qué necesita mejorar y cuál es el siguiente paso. El feedforward añade orientación hacia tareas futuras, no solo corrección de lo ya entregado.\n\nCómo aplicarla: se usan comentarios breves, fichas, conferencias individuales, revisión de borradores o coevaluación guiada. Lo esencial es que el alumno pueda actuar sobre la información recibida.\n\nTiene más impacto cuando llega durante el proceso, se centra en criterios concretos y evita mensajes genéricos como 'bien' o 'debes esforzarte más'.",
+    "rel_ins": [
+      "INS_BORR",
+      "INS_REV_PARES",
+      "INS_2E1D",
+      "INS_ENT_PAR",
+      "INS_EPORT_SEL"
+    ],
+    "rel_her": [
+      "HER_PLANT_FF",
+      "HER_FICHA_RETRO",
+      "HER_REG_COMP"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_BORR": "principal",
+        "INS_REV_PARES": "principal",
+        "INS_2E1D": "principal",
+        "INS_ENT_PAR": "complementaria",
+        "INS_EPORT_SEL": "complementaria"
+      },
+      "rel_her": {
+        "HER_PLANT_FF": "principal",
+        "HER_FICHA_RETRO": "principal",
+        "HER_REG_COMP": "complementaria"
+      }
+    },
+    "Instrumentos asociados": "Borrador; Revisión por pares; Dos estrellas y un deseo; Entrega parcial; E-portfolio con evidencias seleccionadas",
+    "Herramientas recomendadas": "Plantilla de feedback/feedforward; Ficha de retroalimentación; Registro de compromisos de mejora"
+  },
+  {
+    "Código": "DIM_CAL_ACRED",
+    "Dimensión": "Calificación y acreditación",
+    "Categoría": "Finalidad y uso",
+    "Descripción breve": "Transformación justificada de evidencias en una decisión de nota, promoción o certificación.",
+    "Función pedagógica": "Comunicar el nivel alcanzado y sostener decisiones académicas con evidencias.",
+    "Evidencias habituales": "Pruebas, tareas finales, rúbricas, tablas por criterios, actas e informes.",
+    "Cuándo conviene": "Al cerrar unidades, evaluaciones, cursos o procesos que requieren decisión administrativa.",
+    "Precauciones": "Debe apoyarse en criterios y evidencias suficientes; no sustituye a la evaluación formativa.",
+    "Fase": "Final",
+    "Participación": "Docente/Equipo docente",
+    "Etiquetas": "calificacion; acreditacion; nota; promocion",
+    "Descripción detallada": "La calificación y acreditación convierten evidencias de aprendizaje en una decisión comunicable: una nota, un nivel de logro, una promoción o una certificación.\n\nCómo aplicarla: se explicita qué criterios cuentan, qué evidencias los sustentan y cómo se combinan. Las tablas de calificación por criterios, matrices de ponderación, actas e informes individuales ayudan a que la decisión sea trazable.\n\nEs una función necesaria del sistema educativo, pero debe distinguirse de la retroalimentación formativa: calificar informa del nivel alcanzado; orientar la mejora exige información adicional.",
+    "rel_ins": [
+      "INS_PR_COMP",
+      "INS_TAREA_COMP_INT",
+      "INS_EPORT_SEL"
+    ],
+    "rel_her": [
+      "HER_TAB_CRIT",
+      "HER_MATRIZ_POND",
+      "HER_INF_IND",
+      "HER_ACTA",
+      "HER_MAP_EVID"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_PR_COMP": "principal",
+        "INS_TAREA_COMP_INT": "complementaria",
+        "INS_EPORT_SEL": "complementaria"
+      },
+      "rel_her": {
+        "HER_TAB_CRIT": "principal",
+        "HER_MATRIZ_POND": "principal",
+        "HER_INF_IND": "complementaria",
+        "HER_ACTA": "complementaria",
+        "HER_MAP_EVID": "complementaria"
+      }
+    },
+    "Instrumentos asociados": "Prueba competencial contextualizada; Tarea competencial integrada; E-portfolio con evidencias seleccionadas",
+    "Herramientas recomendadas": "Tabla de calificación por criterios; Matriz de ponderación; Informe individual de evaluación; Acta de evaluación; Mapa de evidencias por criterio"
+  },
+  {
+    "Código": "DIM_COMPART",
+    "Dimensión": "Evaluación compartida y participativa",
+    "Categoría": "Agente evaluador",
+    "Descripción breve": "Participación del alumnado en criterios, evidencias, revisión y decisiones de mejora.",
+    "Función pedagógica": "Aumentar comprensión de criterios, responsabilidad y autorregulación.",
+    "Evidencias habituales": "Negociación de criterios, coevaluación, contratos de grupo, compromisos de mejora.",
+    "Cuándo conviene": "En proyectos, trabajo cooperativo, portfolios y tareas donde el alumnado puede revisar su proceso.",
+    "Precauciones": "Requiere criterios claros y acompañamiento; no debe delegar sin guía la responsabilidad docente.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno/Iguales",
+    "Etiquetas": "compartida; participativa; coevaluacion; negociacion",
+    "Descripción detallada": "La evaluación compartida y participativa implica al alumnado en distintas partes del proceso evaluativo: comprender o construir criterios, revisar evidencias, coevaluar, autoevaluarse y proponer mejoras.\n\nCómo aplicarla: se pueden consensuar indicadores, usar contratos de grupo, revisar borradores por pares o comparar la autoevaluación con la valoración docente. La responsabilidad final de la calificación sigue siendo del docente cuando el sistema lo exige.\n\nEs especialmente valiosa porque hace visibles los criterios y convierte la evaluación en aprendizaje sobre la propia calidad del trabajo.",
+    "rel_ins": [
+      "INS_TRAB_COOP",
+      "INS_REV_PARES",
+      "INS_CONTRATO",
+      "INS_EPORT_SEL",
+      "INS_ESCAPE",
+      "INS_SEMINARIO"
+    ],
+    "rel_her": [
+      "HER_CONTR_GRUP",
+      "HER_FICHA_COEV",
+      "HER_RUB_COEV",
+      "HER_REG_COMP",
+      "HER_SOCIO"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_TRAB_COOP": "principal",
+        "INS_REV_PARES": "principal",
+        "INS_CONTRATO": "complementaria",
+        "INS_EPORT_SEL": "complementaria",
+        "INS_ESCAPE": "complementaria",
+        "INS_SEMINARIO": "complementaria"
+      },
+      "rel_her": {
+        "HER_CONTR_GRUP": "principal",
+        "HER_FICHA_COEV": "principal",
+        "HER_RUB_COEV": "complementaria",
+        "HER_REG_COMP": "complementaria",
+        "HER_SOCIO": "complementaria"
+      }
+    },
+    "Instrumentos asociados": "Trabajo cooperativo; Revisión por pares; Contrato de aprendizaje; E-portfolio con evidencias seleccionadas; Escape room o reto gamificado; Seminario socrático",
+    "Herramientas recomendadas": "Contrato de grupo; Ficha de coevaluación; Rúbrica de coevaluación; Registro de compromisos de mejora; Sociograma"
   }
 ]

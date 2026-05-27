@@ -6,7 +6,7 @@
     "Descripción breve": "Matriz que valora criterios separados mediante niveles descritos.",
     "Sirve para": "Valorar tareas complejas con varios aspectos.",
     "Adecuada para": "Proyectos; informes; exposiciones; debates; productos digitales.",
-    "Instrumentos compatibles": "Informe de laboratorio; Defensa de proyecto; Exposición oral; Debate; Vídeo; Práctica de laboratorio; Taller; Simulación; Juego de rol; Monografía; Comentario de texto; Comentario de gráfica o datos; Mapa conceptual; Reseña; Artículo divulgativo; Estudio de caso; Prueba escrita de desarrollo; Prueba con documentos; Infografía; Presentación digital; Videotutorial; Cómic; Maqueta; Modelo digital; Entrada de blog; Documento colaborativo",
+    "Instrumentos compatibles": "Informe de laboratorio; Defensa de proyecto; Exposición oral; Debate; Vídeo; Práctica de laboratorio; Taller; Simulación; Juego de rol; Monografía; Comentario de texto; Comentario de gráfica o datos; Mapa conceptual; Reseña; Artículo divulgativo; Estudio de caso; Prueba escrita de desarrollo; Prueba con documentos; Infografía; Presentación digital; Videotutorial; Cómic; Maqueta; Modelo digital; Entrada de blog; Documento colaborativo; Prueba de libro abierto; Situación-problema",
     "Ventajas": "Clarifica expectativas y permite retroalimentación precisa.",
     "Limitaciones": "Requiere tiempo de diseño y buenos descriptores.",
     "Complejidad": "Alta",
@@ -40,7 +40,9 @@
       "INS_MAQUETA",
       "INS_MODELO_DIG",
       "INS_BLOG",
-      "INS_DOC_COL"
+      "INS_DOC_COL",
+      "INS_LIBRO_ABIERTO",
+      "INS_SIT_PROB"
     ],
     "rel_dim": [
       "DIM_HET",
@@ -82,9 +84,23 @@
         "INS_MAQUETA": "principal",
         "INS_MODELO_DIG": "principal",
         "INS_BLOG": "principal",
-        "INS_DOC_COL": "complementaria"
+        "INS_DOC_COL": "complementaria",
+        "INS_LIBRO_ABIERTO": "complementaria",
+        "INS_SIT_PROB": "principal"
+      },
+      "rel_tec": {
+        "TEC_OBS_SIS": "complementaria",
+        "TEC_PROD": "principal",
+        "TEC_PRUEBA": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_OBS_SIS",
+      "TEC_PROD",
+      "TEC_PRUEBA"
+    ],
+    "Técnicas asociadas": "Observación sistemática; Análisis de producciones; Pruebas específicas",
+    "Instrumentos asociados": "Informe de laboratorio; Defensa de proyecto; Exposición oral; Debate; Vídeo; Práctica de laboratorio; Taller; Simulación; Juego de rol; Monografía; Comentario de texto; Comentario de gráfica o datos; Mapa conceptual; Reseña; Artículo divulgativo; Estudio de caso; Prueba escrita de desarrollo; Prueba con documentos; Infografía; Presentación digital; Videotutorial; Cómic; Maqueta; Modelo digital; Entrada de blog; Documento colaborativo; Prueba de libro abierto; Situación-problema"
   },
   {
     "Código": "HER_RUB_HOL",
@@ -119,7 +135,8 @@
         "INS_EXPO": "principal",
         "INS_DEF_PROY": "complementaria"
       }
-    }
+    },
+    "Instrumentos asociados": "Ensayo; Exposición oral; Defensa de proyecto"
   },
   {
     "Código": "HER_RUB_PROC",
@@ -155,8 +172,16 @@
         "INS_PORT_DIG": "principal",
         "INS_BIT": "complementaria",
         "INS_ENT_PAR": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_PROC_REFLEX"
+    ],
+    "Técnicas asociadas": "Análisis de procesos y reflexiones",
+    "Instrumentos asociados": "Defensa de proyecto; Portfolio digital; Bitácora de proyecto; Entrega parcial"
   },
   {
     "Código": "HER_RUB_PROD",
@@ -199,7 +224,8 @@
         "INS_WEB": "complementaria",
         "INS_PROTOTIPO": "complementaria"
       }
-    }
+    },
+    "Instrumentos asociados": "Infografía; Informe de laboratorio; Maqueta; Vídeo; Página web; Prototipo"
   },
   {
     "Código": "HER_RUB_ORAL",
@@ -208,7 +234,7 @@
     "Descripción breve": "Rúbrica para exposiciones, debates, defensas o entrevistas.",
     "Sirve para": "Valorar comunicación oral, contenido e interacción.",
     "Adecuada para": "Actuaciones orales.",
-    "Instrumentos compatibles": "Debate; Defensa de proyecto; Entrevista; Exposición oral; Podcast; Dramatización; Prueba oral; Foro de discusión",
+    "Instrumentos compatibles": "Debate; Defensa de proyecto; Entrevista; Exposición oral; Podcast; Dramatización; Prueba oral; Foro de discusión; Seminario socrático",
     "Ventajas": "Facilita observar aspectos diversos de la oralidad.",
     "Limitaciones": "Puede ser difícil registrar todo en directo.",
     "Complejidad": "Media/Alta",
@@ -224,7 +250,8 @@
       "INS_PODCAST",
       "INS_DRAMA",
       "INS_PR_ORAL",
-      "INS_FORO"
+      "INS_FORO",
+      "INS_SEMINARIO"
     ],
     "rel_dim": [
       "DIM_DESEMP",
@@ -240,15 +267,26 @@
       },
       "rel_ins": {
         "INS_DEBATE": "principal",
-        "INS_DEF_PROY": "principal",
+        "INS_DEF_PROY": "ocasional",
         "INS_ENTREV": "complementaria",
-        "INS_EXPO": "complementaria",
+        "INS_EXPO": "ocasional",
         "INS_PODCAST": "principal",
         "INS_DRAMA": "complementaria",
         "INS_PR_ORAL": "complementaria",
-        "INS_FORO": "complementaria"
+        "INS_FORO": "complementaria",
+        "INS_SEMINARIO": "principal"
+      },
+      "rel_tec": {
+        "TEC_ORAL": "principal",
+        "TEC_ENTREV_EVAL": "principal"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_ORAL",
+      "TEC_ENTREV_EVAL"
+    ],
+    "Técnicas asociadas": "Intercambios orales; Entrevista evaluativa",
+    "Instrumentos asociados": "Debate; Defensa de proyecto; Entrevista; Exposición oral; Podcast; Dramatización; Prueba oral; Foro de discusión; Seminario socrático"
   },
   {
     "Código": "HER_RUB_COOP",
@@ -257,7 +295,7 @@
     "Descripción breve": "Rúbrica para valorar colaboración y funcionamiento grupal.",
     "Sirve para": "Valorar contribución, roles, responsabilidad y comunicación.",
     "Adecuada para": "Trabajos de grupo y proyectos.",
-    "Instrumentos compatibles": "Trabajo cooperativo; Defensa de proyecto; Documento colaborativo",
+    "Instrumentos compatibles": "Trabajo cooperativo; Defensa de proyecto; Documento colaborativo; Escape room o reto gamificado",
     "Ventajas": "Ayuda a valorar el proceso grupal.",
     "Limitaciones": "Requiere evidencias de participación real.",
     "Complejidad": "Alta",
@@ -268,7 +306,8 @@
     "rel_ins": [
       "INS_TRAB_COOP",
       "INS_DEF_PROY",
-      "INS_DOC_COL"
+      "INS_DOC_COL",
+      "INS_ESCAPE"
     ],
     "rel_dim": [
       "DIM_COEV",
@@ -281,11 +320,13 @@
         "DIM_PROY": "complementaria"
       },
       "rel_ins": {
-        "INS_TRAB_COOP": "principal",
+        "INS_TRAB_COOP": "complementaria",
         "INS_DEF_PROY": "principal",
-        "INS_DOC_COL": "complementaria"
+        "INS_DOC_COL": "complementaria",
+        "INS_ESCAPE": "complementaria"
       }
-    }
+    },
+    "Instrumentos asociados": "Trabajo cooperativo; Defensa de proyecto; Documento colaborativo; Escape room o reto gamificado"
   },
   {
     "Código": "HER_RUB_COMP",
@@ -294,7 +335,7 @@
     "Descripción breve": "Matriz vinculada a criterios y niveles de desempeño competencial.",
     "Sirve para": "Valorar movilización de saberes en contextos.",
     "Adecuada para": "Tareas competenciales contextualizadas.",
-    "Instrumentos compatibles": "Defensa de proyecto; Estudio de caso; Resolución de problemas; Simulación; Prueba competencial contextualizada",
+    "Instrumentos compatibles": "Defensa de proyecto; Estudio de caso; Resolución de problemas; Simulación; Prueba competencial contextualizada; Tarea competencial integrada",
     "Ventajas": "Alinea evaluación con criterios y competencias.",
     "Limitaciones": "Debe formular indicadores observables.",
     "Complejidad": "Alta",
@@ -307,24 +348,29 @@
       "INS_CASO",
       "INS_PROB",
       "INS_SIM",
-      "INS_PR_COMP"
+      "INS_PR_COMP",
+      "INS_TAREA_COMP_INT"
     ],
     "rel_dim": [
-      "DIM_COMP"
+      "DIM_COMP",
+      "DIM_CRIT"
     ],
-    "Dimensiones asociadas": "Enfoque competencial",
+    "Dimensiones asociadas": "Enfoque competencial; Evaluación criterial",
     "rel_meta": {
       "rel_dim": {
-        "DIM_COMP": "principal"
+        "DIM_COMP": "principal",
+        "DIM_CRIT": "complementaria"
       },
       "rel_ins": {
         "INS_DEF_PROY": "principal",
-        "INS_CASO": "principal",
+        "INS_CASO": "complementaria",
         "INS_PROB": "complementaria",
         "INS_SIM": "complementaria",
-        "INS_PR_COMP": "complementaria"
+        "INS_PR_COMP": "complementaria",
+        "INS_TAREA_COMP_INT": "principal"
       }
-    }
+    },
+    "Instrumentos asociados": "Defensa de proyecto; Estudio de caso; Resolución de problemas; Simulación; Prueba competencial contextualizada; Tarea competencial integrada"
   },
   {
     "Código": "HER_LISTA",
@@ -333,7 +379,7 @@
     "Descripción breve": "Lista de indicadores con presencia o ausencia.",
     "Sirve para": "Comprobar requisitos, pasos o evidencias concretas.",
     "Adecuada para": "Tareas simples o procedimientos claros.",
-    "Instrumentos compatibles": "Billete de salida; Cuaderno de clase; Informe de laboratorio; Práctica de laboratorio; Semáforo de aprendizaje; Trabajo individual en aula; Taller; Exposición oral; Resumen; Esquema; Mapa conceptual; Mapa mental; Línea del tiempo; Glosario; Ficha de lectura; Plan de trabajo; Acta de reunión; Prueba práctica; Infografía; Presentación digital; Videotutorial; Maqueta; Página web; Mapa conceptual inicial; Borrador",
+    "Instrumentos compatibles": "Billete de salida; Cuaderno de clase; Informe de laboratorio; Práctica de laboratorio; Semáforo de aprendizaje; Trabajo individual en aula; Taller; Exposición oral; Resumen; Esquema; Mapa conceptual; Mapa mental; Línea del tiempo; Glosario; Ficha de lectura; Plan de trabajo; Acta de reunión; Prueba práctica; Infografía; Presentación digital; Videotutorial; Maqueta; Página web; Mapa conceptual inicial; Borrador; Checklist de laboratorio",
     "Ventajas": "Es rápida, clara y fácil de usar.",
     "Limitaciones": "No valora bien la calidad ni los matices.",
     "Complejidad": "Baja",
@@ -366,7 +412,8 @@
       "INS_MAQUETA",
       "INS_WEB",
       "INS_MAP_INI",
-      "INS_BORR"
+      "INS_BORR",
+      "INS_CHECK_LAB"
     ],
     "rel_dim": [
       "DIM_AUTO",
@@ -385,8 +432,8 @@
         "DIM_INDAG": "ocasional"
       },
       "rel_ins": {
-        "INS_BILLETE": "principal",
-        "INS_CUADERNO": "principal",
+        "INS_BILLETE": "complementaria",
+        "INS_CUADERNO": "complementaria",
         "INS_INFO_LAB": "complementaria",
         "INS_LAB": "complementaria",
         "INS_SEMAF": "complementaria",
@@ -409,9 +456,22 @@
         "INS_MAQUETA": "complementaria",
         "INS_WEB": "complementaria",
         "INS_MAP_INI": "principal",
-        "INS_BORR": "complementaria"
+        "INS_BORR": "complementaria",
+        "INS_CHECK_LAB": "principal"
+      },
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal",
+        "TEC_ORAL": "complementaria",
+        "TEC_SONDEO": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_OBS_SIS",
+      "TEC_ORAL",
+      "TEC_SONDEO"
+    ],
+    "Técnicas asociadas": "Observación sistemática; Intercambios orales; Sondeo y cuestionamiento",
+    "Instrumentos asociados": "Billete de salida; Cuaderno de clase; Informe de laboratorio; Práctica de laboratorio; Semáforo de aprendizaje; Trabajo individual en aula; Taller; Exposición oral; Resumen; Esquema; Mapa conceptual; Mapa mental; Línea del tiempo; Glosario; Ficha de lectura; Plan de trabajo; Acta de reunión; Prueba práctica; Infografía; Presentación digital; Videotutorial; Maqueta; Página web; Mapa conceptual inicial; Borrador; Checklist de laboratorio"
   },
   {
     "Código": "HER_ESC_OBS",
@@ -475,7 +535,7 @@
       },
       "rel_ins": {
         "INS_DEBATE": "principal",
-        "INS_DEF_PROY": "principal",
+        "INS_DEF_PROY": "ocasional",
         "INS_EXPO": "complementaria",
         "INS_LAB": "complementaria",
         "INS_PREG_ORAL": "principal",
@@ -501,8 +561,18 @@
         "INS_MODELO_DIG": "complementaria",
         "INS_BLOG": "complementaria",
         "INS_BIT": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_OBS_SIS": "complementaria",
+        "TEC_ORAL": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_OBS_SIS",
+      "TEC_ORAL"
+    ],
+    "Técnicas asociadas": "Observación sistemática; Intercambios orales",
+    "Instrumentos asociados": "Debate; Defensa de proyecto; Exposición oral; Práctica de laboratorio; Pregunta oral estructurada; Trabajo cooperativo; Trabajo individual en aula; Participación en clase; Coloquio; Asamblea; Taller; Simulación; Juego de rol; Dramatización; Entrevista; Cuaderno de clase; Comentario de gráfica o datos; Esquema; Mapa mental; Ficha de lectura; Ficha de reflexión; Autoinforme; Póster académico; Cómic; Modelo digital; Entrada de blog; Bitácora de proyecto"
   },
   {
     "Código": "HER_ESC_VAL",
@@ -543,7 +613,8 @@
         "INS_RESUMEN": "complementaria",
         "INS_VIDEO": "complementaria"
       }
-    }
+    },
+    "Instrumentos asociados": "Cuaderno de clase; Participación en clase; Podcast; Resumen; Vídeo"
   },
   {
     "Código": "HER_ESC_DESC",
@@ -585,8 +656,16 @@
         "INS_PORT": "complementaria",
         "INS_RESUMEN": "complementaria",
         "INS_ART_DIV": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_PROD": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "Técnicas asociadas": "Análisis de producciones",
+    "Instrumentos asociados": "Comentario de texto; Exposición oral; Resolución de problemas; Porfolio; Resumen; Artículo divulgativo"
   },
   {
     "Código": "HER_GUIA_CORR",
@@ -595,7 +674,7 @@
     "Descripción breve": "Documento con criterios, respuestas esperadas o pautas de corrección.",
     "Sirve para": "Corregir pruebas o tareas con criterios comunes.",
     "Adecuada para": "Pruebas, comentarios, problemas, informes.",
-    "Instrumentos compatibles": "Prueba escrita de desarrollo; Resolución de problemas; Comentario de texto; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Glosario; Reseña; Estudio de caso; Prueba de respuesta corta; Prueba competencial contextualizada; Prueba con documentos",
+    "Instrumentos compatibles": "Prueba escrita de desarrollo; Resolución de problemas; Comentario de texto; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Glosario; Reseña; Estudio de caso; Prueba de respuesta corta; Prueba competencial contextualizada; Prueba con documentos; Prueba de libro abierto; Situación-problema",
     "Ventajas": "Homogeneiza la corrección.",
     "Limitaciones": "Menos adecuada para tareas muy abiertas si no se adapta.",
     "Complejidad": "Media",
@@ -616,7 +695,9 @@
       "INS_CASO",
       "INS_RESP_CORTA",
       "INS_PR_COMP",
-      "INS_DOCS"
+      "INS_DOCS",
+      "INS_LIBRO_ABIERTO",
+      "INS_SIT_PROB"
     ],
     "rel_dim": [
       "DIM_HET",
@@ -633,7 +714,7 @@
         "DIM_PROB": "ocasional"
       },
       "rel_ins": {
-        "INS_PR_DES": "principal",
+        "INS_PR_DES": "complementaria",
         "INS_PROB": "principal",
         "INS_COM_TEXT": "principal",
         "INS_INFO_LAB": "complementaria",
@@ -645,9 +726,23 @@
         "INS_CASO": "complementaria",
         "INS_RESP_CORTA": "principal",
         "INS_PR_COMP": "principal",
-        "INS_DOCS": "principal"
+        "INS_DOCS": "principal",
+        "INS_LIBRO_ABIERTO": "principal",
+        "INS_SIT_PROB": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_PROD": "complementaria",
+        "TEC_PRUEBA": "principal",
+        "TEC_ENTREV_EVAL": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_PRUEBA",
+      "TEC_ENTREV_EVAL"
+    ],
+    "Técnicas asociadas": "Análisis de producciones; Pruebas específicas; Entrevista evaluativa",
+    "Instrumentos asociados": "Prueba escrita de desarrollo; Resolución de problemas; Comentario de texto; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Glosario; Reseña; Estudio de caso; Prueba de respuesta corta; Prueba competencial contextualizada; Prueba con documentos; Prueba de libro abierto; Situación-problema"
   },
   {
     "Código": "HER_PLANT_CORR",
@@ -682,9 +777,19 @@
         "INS_TEST": "principal",
         "INS_CUEST_DIG": "principal",
         "INS_RESP_CORTA": "complementaria",
-        "INS_PR_OBJ": "complementaria"
+        "INS_PR_OBJ": "ocasional"
+      },
+      "rel_tec": {
+        "TEC_PRUEBA": "complementaria",
+        "TEC_ENC_CUEST": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_PRUEBA",
+      "TEC_ENC_CUEST"
+    ],
+    "Técnicas asociadas": "Pruebas específicas; Encuesta y cuestionario",
+    "Instrumentos asociados": "Prueba tipo test; Cuestionario digital; Prueba de respuesta corta; Prueba objetiva"
   },
   {
     "Código": "HER_BAREMO",
@@ -693,7 +798,7 @@
     "Descripción breve": "Distribución de puntos entre apartados o indicadores.",
     "Sirve para": "Asignar puntuaciones.",
     "Adecuada para": "Pruebas y tareas con puntuación definida.",
-    "Instrumentos compatibles": "Prueba escrita de desarrollo; Resolución de problemas; Informe de laboratorio; Comentario de texto; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta",
+    "Instrumentos compatibles": "Prueba escrita de desarrollo; Resolución de problemas; Informe de laboratorio; Comentario de texto; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba de libro abierto",
     "Ventajas": "Hace explícita la distribución de la nota.",
     "Limitaciones": "Puede convertirse en mecánico si no hay criterios cualitativos.",
     "Complejidad": "Media",
@@ -708,7 +813,8 @@
       "INS_COM_TEXT",
       "INS_PR_OBJ",
       "INS_TEST",
-      "INS_RESP_CORTA"
+      "INS_RESP_CORTA",
+      "INS_LIBRO_ABIERTO"
     ],
     "rel_dim": [
       "DIM_SUM"
@@ -725,9 +831,18 @@
         "INS_COM_TEXT": "complementaria",
         "INS_PR_OBJ": "principal",
         "INS_TEST": "principal",
-        "INS_RESP_CORTA": "complementaria"
+        "INS_RESP_CORTA": "complementaria",
+        "INS_LIBRO_ABIERTO": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_PRUEBA": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_PRUEBA"
+    ],
+    "Técnicas asociadas": "Pruebas específicas",
+    "Instrumentos asociados": "Prueba escrita de desarrollo; Resolución de problemas; Informe de laboratorio; Comentario de texto; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba de libro abierto"
   },
   {
     "Código": "HER_REG_ANE",
@@ -736,7 +851,7 @@
     "Descripción breve": "Anotación breve de hechos significativos observados.",
     "Sirve para": "Recoger evidencias relevantes no siempre previstas.",
     "Adecuada para": "Conductas, avances, dificultades, incidencias.",
-    "Instrumentos compatibles": "Práctica de laboratorio; Lluvia de ideas; Participación en clase; Pregunta oral estructurada; Coloquio; Juego de rol; Entrevista",
+    "Instrumentos compatibles": "Práctica de laboratorio; Lluvia de ideas; Participación en clase; Pregunta oral estructurada; Coloquio; Juego de rol; Entrevista; Escape room o reto gamificado; Checklist de laboratorio",
     "Ventajas": "Aporta información cualitativa rica.",
     "Limitaciones": "No es suficiente por sí solo para calificar.",
     "Complejidad": "Baja/Media",
@@ -751,7 +866,9 @@
       "INS_PREG_ORAL",
       "INS_COLOQ",
       "INS_ROL",
-      "INS_ENTREV"
+      "INS_ENTREV",
+      "INS_ESCAPE",
+      "INS_CHECK_LAB"
     ],
     "rel_dim": [
       "DIM_SIM"
@@ -763,14 +880,30 @@
       },
       "rel_ins": {
         "INS_LAB": "principal",
-        "INS_LLUVIA": "principal",
+        "INS_LLUVIA": "complementaria",
         "INS_PART": "complementaria",
         "INS_PREG_ORAL": "complementaria",
         "INS_COLOQ": "complementaria",
         "INS_ROL": "complementaria",
-        "INS_ENTREV": "principal"
+        "INS_ENTREV": "principal",
+        "INS_ESCAPE": "complementaria",
+        "INS_CHECK_LAB": "ocasional"
+      },
+      "rel_tec": {
+        "TEC_OBS_SIS": "complementaria",
+        "TEC_OBS_INC": "principal",
+        "TEC_ORAL": "complementaria",
+        "TEC_ENTREV_EVAL": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_OBS_SIS",
+      "TEC_OBS_INC",
+      "TEC_ORAL",
+      "TEC_ENTREV_EVAL"
+    ],
+    "Técnicas asociadas": "Observación sistemática; Observación incidental; Intercambios orales; Entrevista evaluativa",
+    "Instrumentos asociados": "Práctica de laboratorio; Lluvia de ideas; Participación en clase; Pregunta oral estructurada; Coloquio; Juego de rol; Entrevista; Escape room o reto gamificado; Checklist de laboratorio"
   },
   {
     "Código": "HER_REG_DESC",
@@ -812,8 +945,16 @@
         "INS_KPSI": "complementaria",
         "INS_MAP_INI": "complementaria",
         "INS_LLUVIA": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_SONDEO": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_SONDEO"
+    ],
+    "Técnicas asociadas": "Sondeo y cuestionamiento",
+    "Instrumentos asociados": "Defensa de proyecto; Práctica de laboratorio; Simulación; KPSI; Mapa conceptual inicial; Lluvia de ideas"
   },
   {
     "Código": "HER_DIARIO_PROF",
@@ -844,11 +985,19 @@
         "DIM_FORM": "principal"
       },
       "rel_ins": {
-        "INS_PART": "principal",
+        "INS_PART": "complementaria",
         "INS_TRAB_COOP": "principal",
         "INS_LAB": "principal"
+      },
+      "rel_tec": {
+        "TEC_OBS_INC": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_OBS_INC"
+    ],
+    "Técnicas asociadas": "Observación incidental",
+    "Instrumentos asociados": "Participación en clase; Trabajo cooperativo; Práctica de laboratorio"
   },
   {
     "Código": "HER_HOJA_IND",
@@ -878,26 +1027,38 @@
       "INS_BIT"
     ],
     "rel_dim": [
-      "DIM_PROY"
+      "DIM_PROY",
+      "DIM_CONT"
     ],
-    "Dimensiones asociadas": "Trabajo por proyectos",
+    "Dimensiones asociadas": "Trabajo por proyectos; Evaluación continua",
     "rel_meta": {
       "rel_dim": {
-        "DIM_PROY": "principal"
+        "DIM_PROY": "principal",
+        "DIM_CONT": "complementaria"
       },
       "rel_ins": {
         "INS_PORT_DIG": "principal",
         "INS_DEF_PROY": "principal",
         "INS_TRAB_IND": "complementaria",
-        "INS_PORT": "complementaria",
+        "INS_PORT": "ocasional",
         "INS_MEM_PROY": "complementaria",
         "INS_PLAN_TRAB": "complementaria",
         "INS_PROTOTIPO": "principal",
         "INS_DOC_COL": "complementaria",
         "INS_ENT_PAR": "principal",
         "INS_BIT": "principal"
+      },
+      "rel_tec": {
+        "TEC_SONDEO": "complementaria",
+        "TEC_PROC_REFLEX": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_SONDEO",
+      "TEC_PROC_REFLEX"
+    ],
+    "Técnicas asociadas": "Sondeo y cuestionamiento; Análisis de procesos y reflexiones",
+    "Instrumentos asociados": "Portfolio digital; Defensa de proyecto; Trabajo individual en aula; Porfolio; Memoria de proyecto; Plan de trabajo; Prototipo; Documento colaborativo; Entrega parcial; Bitácora de proyecto"
   },
   {
     "Código": "HER_HOJA_GRUP",
@@ -934,7 +1095,8 @@
         "INS_TRAB_COOP": "principal",
         "INS_DOC_COL": "complementaria"
       }
-    }
+    },
+    "Instrumentos asociados": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo"
   },
   {
     "Código": "HER_REG_PART",
@@ -943,7 +1105,7 @@
     "Descripción breve": "Anotación de intervenciones y calidad de aportaciones.",
     "Sirve para": "Seguir participación oral o digital.",
     "Adecuada para": "Debates, foros, clases, asambleas.",
-    "Instrumentos compatibles": "Debate; Foro de discusión; Asamblea; Coloquio; Participación en clase",
+    "Instrumentos compatibles": "Debate; Foro de discusión; Asamblea; Coloquio; Participación en clase; Seminario socrático",
     "Ventajas": "Permite objetivar la participación.",
     "Limitaciones": "No debe confundirse cantidad con calidad.",
     "Complejidad": "Baja/Media",
@@ -956,7 +1118,8 @@
       "INS_FORO",
       "INS_ASAM",
       "INS_COLOQ",
-      "INS_PART"
+      "INS_PART",
+      "INS_SEMINARIO"
     ],
     "rel_dim": [
       "DIM_FORM",
@@ -973,9 +1136,11 @@
         "INS_FORO": "principal",
         "INS_ASAM": "principal",
         "INS_COLOQ": "complementaria",
-        "INS_PART": "complementaria"
+        "INS_PART": "ocasional",
+        "INS_SEMINARIO": "complementaria"
       }
-    }
+    },
+    "Instrumentos asociados": "Debate; Foro de discusión; Asamblea; Coloquio; Participación en clase; Seminario socrático"
   },
   {
     "Código": "HER_REG_COOP",
@@ -1012,7 +1177,8 @@
         "INS_TRAB_COOP": "principal",
         "INS_DOC_COL": "complementaria"
       }
-    }
+    },
+    "Instrumentos asociados": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo"
   },
   {
     "Código": "HER_NOTAS_CAMPO",
@@ -1048,8 +1214,16 @@
         "INS_INFO_INV": "principal",
         "INS_LAB": "complementaria",
         "INS_LLUVIA": "principal"
+      },
+      "rel_tec": {
+        "TEC_OBS_INC": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_OBS_INC"
+    ],
+    "Técnicas asociadas": "Observación incidental",
+    "Instrumentos asociados": "Billete de salida; Informe de investigación; Práctica de laboratorio; Lluvia de ideas"
   },
   {
     "Código": "HER_FICHA_VAL",
@@ -1084,7 +1258,8 @@
         "INS_RESUMEN": "principal",
         "INS_COM_TEXT": "principal"
       }
-    }
+    },
+    "Instrumentos asociados": "Resumen; Comentario de texto"
   },
   {
     "Código": "HER_FICHA_RETRO",
@@ -1113,12 +1288,14 @@
       "INS_BILLETE"
     ],
     "rel_dim": [
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_FEED"
     ],
-    "Dimensiones asociadas": "Finalidad formativa",
+    "Dimensiones asociadas": "Finalidad formativa; Retroalimentación y feedforward",
     "rel_meta": {
       "rel_dim": {
-        "DIM_FORM": "principal"
+        "DIM_FORM": "principal",
+        "DIM_FEED": "principal"
       },
       "rel_ins": {
         "INS_2E1D": "principal",
@@ -1130,8 +1307,18 @@
         "INS_F_REFLEX": "ocasional",
         "INS_REV_PARES": "complementaria",
         "INS_BILLETE": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_PROD": "complementaria",
+        "TEC_PROC_REFLEX": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_PROC_REFLEX"
+    ],
+    "Técnicas asociadas": "Análisis de producciones; Análisis de procesos y reflexiones",
+    "Instrumentos asociados": "Dos estrellas y un deseo; Borrador; Defensa de proyecto; Entrega parcial; Informe de laboratorio; Diario de aprendizaje; Ficha de reflexión; Revisión por pares; Billete de salida"
   },
   {
     "Código": "HER_MATRIZ",
@@ -1170,7 +1357,8 @@
         "INS_EXPO": "complementaria",
         "INS_CASO": "complementaria"
       }
-    }
+    },
+    "Instrumentos asociados": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Estudio de caso"
   },
   {
     "Código": "HER_BANCO_DESC",
@@ -1202,10 +1390,11 @@
       },
       "rel_ins": {
         "INS_PORT": "principal",
-        "INS_DEF_PROY": "principal",
+        "INS_DEF_PROY": "complementaria",
         "INS_EXPO": "principal"
       }
-    }
+    },
+    "Instrumentos asociados": "Porfolio; Defensa de proyecto; Exposición oral"
   },
   {
     "Código": "HER_PERFIL_LOGRO",
@@ -1237,8 +1426,16 @@
       "rel_ins": {
         "INS_PORT_DIG": "principal",
         "INS_DEF_PROY": "principal"
+      },
+      "rel_tec": {
+        "TEC_TRIANG": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_TRIANG"
+    ],
+    "Técnicas asociadas": "Triangulación de evidencias",
+    "Instrumentos asociados": "Portfolio digital; Defensa de proyecto"
   },
   {
     "Código": "HER_DIANA",
@@ -1275,7 +1472,8 @@
         "INS_DIARIO": "principal",
         "INS_F_REFLEX": "principal"
       }
-    }
+    },
+    "Instrumentos asociados": "Defensa de proyecto; Exposición oral; Diario de aprendizaje; Ficha de reflexión"
   },
   {
     "Código": "HER_SEMAFORO",
@@ -1310,7 +1508,8 @@
         "INS_BILLETE": "principal",
         "INS_SEMAF": "principal"
       }
-    }
+    },
+    "Instrumentos asociados": "Billete de salida; Semáforo de aprendizaje"
   },
   {
     "Código": "HER_ESC_AUTO",
@@ -1341,11 +1540,23 @@
         "DIM_AUTO": "principal"
       },
       "rel_ins": {
-        "INS_DIARIO": "principal",
+        "INS_DIARIO": "complementaria",
         "INS_KPSI": "principal",
         "INS_PORT_DIG": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_SONDEO": "complementaria",
+        "TEC_PROC_REFLEX": "complementaria",
+        "TEC_ENC_CUEST": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_SONDEO",
+      "TEC_PROC_REFLEX",
+      "TEC_ENC_CUEST"
+    ],
+    "Técnicas asociadas": "Sondeo y cuestionamiento; Análisis de procesos y reflexiones; Encuesta y cuestionario",
+    "Instrumentos asociados": "Diario de aprendizaje; KPSI; Portfolio digital"
   },
   {
     "Código": "HER_RUB_AUTO",
@@ -1384,7 +1595,8 @@
         "INS_PORT_DIG": "complementaria",
         "INS_AUTOINF": "principal"
       }
-    }
+    },
+    "Instrumentos asociados": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Portfolio digital; Autoinforme"
   },
   {
     "Código": "HER_RUB_COEV",
@@ -1407,19 +1619,22 @@
       "INS_DEF_PROY"
     ],
     "rel_dim": [
-      "DIM_COEV"
+      "DIM_COEV",
+      "DIM_COMPART"
     ],
-    "Dimensiones asociadas": "Coevaluación",
+    "Dimensiones asociadas": "Coevaluación; Evaluación compartida y participativa",
     "rel_meta": {
       "rel_dim": {
-        "DIM_COEV": "principal"
+        "DIM_COEV": "principal",
+        "DIM_COMPART": "complementaria"
       },
       "rel_ins": {
-        "INS_REV_PARES": "principal",
+        "INS_REV_PARES": "complementaria",
         "INS_EXPO": "principal",
         "INS_DEF_PROY": "complementaria"
       }
-    }
+    },
+    "Instrumentos asociados": "Revisión por pares; Exposición oral; Defensa de proyecto"
   },
   {
     "Código": "HER_FICHA_COEV",
@@ -1444,21 +1659,24 @@
       "INS_TRAB_COOP"
     ],
     "rel_dim": [
-      "DIM_COEV"
+      "DIM_COEV",
+      "DIM_COMPART"
     ],
-    "Dimensiones asociadas": "Coevaluación",
+    "Dimensiones asociadas": "Coevaluación; Evaluación compartida y participativa",
     "rel_meta": {
       "rel_dim": {
-        "DIM_COEV": "principal"
+        "DIM_COEV": "principal",
+        "DIM_COMPART": "principal"
       },
       "rel_ins": {
-        "INS_2E1D": "principal",
-        "INS_DEBATE": "principal",
+        "INS_2E1D": "complementaria",
+        "INS_DEBATE": "complementaria",
         "INS_EXPO": "complementaria",
         "INS_REV_PARES": "principal",
         "INS_TRAB_COOP": "complementaria"
       }
-    }
+    },
+    "Instrumentos asociados": "Dos estrellas y un deseo; Debate; Exposición oral; Revisión por pares; Trabajo cooperativo"
   },
   {
     "Código": "HER_LISTA_AUTO",
@@ -1493,7 +1711,8 @@
         "INS_CUADERNO": "principal",
         "INS_PRESENT_DIG": "complementaria"
       }
-    }
+    },
+    "Instrumentos asociados": "Informe de laboratorio; Cuaderno de clase; Presentación digital"
   },
   {
     "Código": "HER_REG_COMP",
@@ -1518,21 +1737,33 @@
     ],
     "rel_dim": [
       "DIM_AUTO",
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_FEED",
+      "DIM_COMPART"
     ],
-    "Dimensiones asociadas": "Autoevaluación; Finalidad formativa",
+    "Dimensiones asociadas": "Autoevaluación; Finalidad formativa; Retroalimentación y feedforward; Evaluación compartida y participativa",
     "rel_meta": {
       "rel_dim": {
         "DIM_AUTO": "principal",
-        "DIM_FORM": "complementaria"
+        "DIM_FORM": "complementaria",
+        "DIM_FEED": "complementaria",
+        "DIM_COMPART": "complementaria"
       },
       "rel_ins": {
         "INS_PORT_DIG": "principal",
         "INS_DIARIO": "principal",
         "INS_DEF_PROY": "complementaria",
         "INS_CONTRATO": "principal"
+      },
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_PROC_REFLEX"
+    ],
+    "Técnicas asociadas": "Análisis de procesos y reflexiones",
+    "Instrumentos asociados": "Portfolio digital; Diario de aprendizaje; Defensa de proyecto; Contrato de aprendizaje"
   },
   {
     "Código": "HER_CUAD_CAL",
@@ -1569,7 +1800,8 @@
         "INS_PART": "principal",
         "INS_CUADERNO": "principal"
       }
-    }
+    },
+    "Instrumentos asociados": "Trabajo individual en aula; Participación en clase; Cuaderno de clase"
   },
   {
     "Código": "HER_TAB_CRIT",
@@ -1593,20 +1825,32 @@
     ],
     "rel_dim": [
       "DIM_SUM",
-      "DIM_COMP"
+      "DIM_COMP",
+      "DIM_CRIT",
+      "DIM_CAL_ACRED"
     ],
-    "Dimensiones asociadas": "Finalidad sumativa; Enfoque competencial",
+    "Dimensiones asociadas": "Finalidad sumativa; Enfoque competencial; Evaluación criterial; Calificación y acreditación",
     "rel_meta": {
       "rel_dim": {
         "DIM_SUM": "principal",
-        "DIM_COMP": "complementaria"
+        "DIM_COMP": "complementaria",
+        "DIM_CRIT": "complementaria",
+        "DIM_CAL_ACRED": "principal"
       },
       "rel_ins": {
-        "INS_PR_COMP": "principal",
-        "INS_ENSAYO": "principal",
+        "INS_PR_COMP": "complementaria",
+        "INS_ENSAYO": "complementaria",
         "INS_INFO_INV": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_TRIANG": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_TRIANG"
+    ],
+    "Técnicas asociadas": "Triangulación de evidencias",
+    "Instrumentos asociados": "Prueba competencial contextualizada; Ensayo; Informe de investigación"
   },
   {
     "Código": "HER_MATRIZ_POND",
@@ -1629,19 +1873,22 @@
       "INS_PR_DES"
     ],
     "rel_dim": [
-      "DIM_SUM"
+      "DIM_SUM",
+      "DIM_CAL_ACRED"
     ],
-    "Dimensiones asociadas": "Finalidad sumativa",
+    "Dimensiones asociadas": "Finalidad sumativa; Calificación y acreditación",
     "rel_meta": {
       "rel_dim": {
-        "DIM_SUM": "principal"
+        "DIM_SUM": "principal",
+        "DIM_CAL_ACRED": "principal"
       },
       "rel_ins": {
-        "INS_MEM_PROY": "principal",
-        "INS_PORT": "principal",
-        "INS_PR_DES": "complementaria"
+        "INS_MEM_PROY": "ocasional",
+        "INS_PORT": "ocasional",
+        "INS_PR_DES": "ocasional"
       }
-    }
+    },
+    "Instrumentos asociados": "Memoria de proyecto; Porfolio; Prueba escrita de desarrollo"
   },
   {
     "Código": "HER_ESC_NUM",
@@ -1672,11 +1919,19 @@
         "DIM_SUM": "principal"
       },
       "rel_ins": {
-        "INS_PR_OBJ": "principal",
-        "INS_TEST": "principal",
+        "INS_PR_OBJ": "complementaria",
+        "INS_TEST": "complementaria",
         "INS_PR_DES": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_PRUEBA": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_PRUEBA"
+    ],
+    "Técnicas asociadas": "Pruebas específicas",
+    "Instrumentos asociados": "Prueba objetiva; Prueba tipo test; Prueba escrita de desarrollo"
   },
   {
     "Código": "HER_ESC_VERB",
@@ -1709,11 +1964,12 @@
         "DIM_SUM": "complementaria"
       },
       "rel_ins": {
-        "INS_PORT": "principal",
-        "INS_DIARIO": "principal",
+        "INS_PORT": "complementaria",
+        "INS_DIARIO": "complementaria",
         "INS_F_REFLEX": "complementaria"
       }
-    }
+    },
+    "Instrumentos asociados": "Porfolio; Diario de aprendizaje; Ficha de reflexión"
   },
   {
     "Código": "HER_CONV",
@@ -1744,11 +2000,12 @@
         "DIM_SUM": "principal"
       },
       "rel_ins": {
-        "INS_EXPO": "principal",
-        "INS_DEF_PROY": "principal",
+        "INS_EXPO": "complementaria",
+        "INS_DEF_PROY": "complementaria",
         "INS_MEM_PROY": "principal"
       }
-    }
+    },
+    "Instrumentos asociados": "Exposición oral; Defensa de proyecto; Memoria de proyecto"
   },
   {
     "Código": "HER_HOJA_CALC",
@@ -1781,11 +2038,12 @@
         "DIM_SUM": "complementaria"
       },
       "rel_ins": {
-        "INS_PR_OBJ": "principal",
-        "INS_MEM_PROY": "principal",
-        "INS_PORT": "complementaria"
+        "INS_PR_OBJ": "complementaria",
+        "INS_MEM_PROY": "complementaria",
+        "INS_PORT": "ocasional"
       }
-    }
+    },
+    "Instrumentos asociados": "Prueba objetiva; Memoria de proyecto; Porfolio"
   },
   {
     "Código": "HER_INF_IND",
@@ -1806,17 +2064,20 @@
       "INS_PORT_DIG"
     ],
     "rel_dim": [
-      "DIM_SUM"
+      "DIM_SUM",
+      "DIM_CAL_ACRED"
     ],
-    "Dimensiones asociadas": "Finalidad sumativa",
+    "Dimensiones asociadas": "Finalidad sumativa; Calificación y acreditación",
     "rel_meta": {
       "rel_dim": {
-        "DIM_SUM": "principal"
+        "DIM_SUM": "principal",
+        "DIM_CAL_ACRED": "complementaria"
       },
       "rel_ins": {
         "INS_PORT_DIG": "principal"
       }
-    }
+    },
+    "Instrumentos asociados": "Portfolio digital"
   },
   {
     "Código": "HER_ACTA",
@@ -1839,19 +2100,22 @@
     ],
     "rel_dim": [
       "DIM_SUM",
-      "DIM_HET"
+      "DIM_HET",
+      "DIM_CAL_ACRED"
     ],
-    "Dimensiones asociadas": "Finalidad sumativa; Heteroevaluación",
+    "Dimensiones asociadas": "Finalidad sumativa; Heteroevaluación; Calificación y acreditación",
     "rel_meta": {
       "rel_dim": {
         "DIM_SUM": "principal",
-        "DIM_HET": "complementaria"
+        "DIM_HET": "complementaria",
+        "DIM_CAL_ACRED": "complementaria"
       },
       "rel_ins": {
         "INS_DEF_PROY": "principal",
         "INS_PR_ORAL": "principal"
       }
-    }
+    },
+    "Instrumentos asociados": "Defensa de proyecto; Prueba oral"
   },
   {
     "Código": "HER_FORM_DIG",
@@ -1889,8 +2153,18 @@
         "INS_CUEST_DIG": "principal",
         "INS_KPSI": "complementaria",
         "INS_MAP_INI": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_SONDEO": "principal",
+        "TEC_ENC_CUEST": "principal"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_SONDEO",
+      "TEC_ENC_CUEST"
+    ],
+    "Técnicas asociadas": "Sondeo y cuestionamiento; Encuesta y cuestionario",
+    "Instrumentos asociados": "Billete de salida; Cuestionario digital; KPSI; Mapa conceptual inicial"
   },
   {
     "Código": "HER_RUB_DIG",
@@ -1931,7 +2205,8 @@
         "INS_PRESENT_DIG": "complementaria",
         "INS_WEB": "principal"
       }
-    }
+    },
+    "Instrumentos asociados": "Defensa de proyecto; Informe de laboratorio; Vídeo; Presentación digital; Página web"
   },
   {
     "Código": "HER_HIST_REV",
@@ -1940,7 +2215,7 @@
     "Descripción breve": "Registro de cambios en documentos compartidos.",
     "Sirve para": "Analizar contribuciones y evolución.",
     "Adecuada para": "Trabajos colaborativos digitales.",
-    "Instrumentos compatibles": "Documento colaborativo; Defensa de proyecto",
+    "Instrumentos compatibles": "Documento colaborativo; Defensa de proyecto; Cuaderno digital",
     "Ventajas": "Aporta evidencias del proceso.",
     "Limitaciones": "No refleja siempre calidad del aporte.",
     "Complejidad": "Media",
@@ -1950,7 +2225,8 @@
     "Descripción detallada": "El historial de revisión es el registro automático de cambios que generan las aplicaciones de edición colaborativa (Google Docs, Word Online, etc.). Permite ver quién hizo qué cambios, cuándo y en qué orden a lo largo de todo el proceso de elaboración de un documento.\n\nCómo usarlo: al abrir el historial de versiones de un documento compartido, el docente puede ver la contribución individual de cada miembro del grupo, detectar si el trabajo se hizo de forma sostenida o a última hora, e identificar quién aportó las ideas clave.\n\nEs una evidencia de proceso muy valiosa en trabajos grupales digitales, ya que hace visible lo que de otro modo sería invisible: quién trabajó, cuándo y cuánto.",
     "rel_ins": [
       "INS_DOC_COL",
-      "INS_DEF_PROY"
+      "INS_DEF_PROY",
+      "INS_CUAD_DIG"
     ],
     "rel_dim": [
       "DIM_DIG",
@@ -1964,9 +2240,22 @@
       },
       "rel_ins": {
         "INS_DOC_COL": "principal",
-        "INS_DEF_PROY": "principal"
+        "INS_DEF_PROY": "principal",
+        "INS_CUAD_DIG": "principal"
+      },
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "complementaria",
+        "TEC_ANAL_DOC": "complementaria",
+        "TEC_INTER_DIG": "principal"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_PROC_REFLEX",
+      "TEC_ANAL_DOC",
+      "TEC_INTER_DIG"
+    ],
+    "Técnicas asociadas": "Análisis de procesos y reflexiones; Análisis documental; Análisis de interacciones digitales",
+    "Instrumentos asociados": "Documento colaborativo; Defensa de proyecto; Cuaderno digital"
   },
   {
     "Código": "HER_PANEL",
@@ -1975,7 +2264,7 @@
     "Descripción breve": "Vista del avance en tareas, criterios o competencias.",
     "Sirve para": "Visualizar seguimiento.",
     "Adecuada para": "Procesos largos o digitales.",
-    "Instrumentos compatibles": "Portfolio digital; Defensa de proyecto",
+    "Instrumentos compatibles": "Portfolio digital; Defensa de proyecto; Cuaderno digital",
     "Ventajas": "Facilita seguimiento rápido.",
     "Limitaciones": "Debe interpretarse con cautela.",
     "Complejidad": "Media",
@@ -1985,23 +2274,37 @@
     "Descripción detallada": "El panel de progreso es una representación visual del estado de avance de cada alumno en los objetivos, tareas o criterios del curso. Puede ser un tablero físico en el aula o un dashboard digital en la plataforma educativa.\n\nCómo usarlo: se diseña con filas de alumnos y columnas de objetivos o tareas. El estado de cada celda (logrado, en proceso, pendiente) se actualiza periódicamente. Un panel bien diseñado permite al docente ver de un vistazo el estado del grupo y a cada alumno conocer su propio progreso.\n\nFavorece la transparencia, la autorregulación y la motivación. En versiones digitales, puede actualizarse automáticamente con los datos de la plataforma.",
     "rel_ins": [
       "INS_PORT_DIG",
-      "INS_DEF_PROY"
+      "INS_DEF_PROY",
+      "INS_CUAD_DIG"
     ],
     "rel_dim": [
       "DIM_DIG",
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_CONT"
     ],
-    "Dimensiones asociadas": "Evidencias digitales; Finalidad formativa",
+    "Dimensiones asociadas": "Evidencias digitales; Finalidad formativa; Evaluación continua",
     "rel_meta": {
       "rel_dim": {
         "DIM_DIG": "principal",
-        "DIM_FORM": "complementaria"
+        "DIM_FORM": "complementaria",
+        "DIM_CONT": "complementaria"
       },
       "rel_ins": {
         "INS_PORT_DIG": "principal",
-        "INS_DEF_PROY": "principal"
+        "INS_DEF_PROY": "principal",
+        "INS_CUAD_DIG": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "complementaria",
+        "TEC_INTER_DIG": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_PROC_REFLEX",
+      "TEC_INTER_DIG"
+    ],
+    "Técnicas asociadas": "Análisis de procesos y reflexiones; Análisis de interacciones digitales",
+    "Instrumentos asociados": "Portfolio digital; Defensa de proyecto; Cuaderno digital"
   },
   {
     "Código": "HER_ANALITICAS",
@@ -2033,10 +2336,18 @@
         "DIM_FORM": "complementaria"
       },
       "rel_ins": {
-        "INS_CUEST_DIG": "principal",
+        "INS_CUEST_DIG": "complementaria",
         "INS_FORO": "principal"
+      },
+      "rel_tec": {
+        "TEC_INTER_DIG": "complementaria"
       }
-    }
+    },
+    "rel_tec": [
+      "TEC_INTER_DIG"
+    ],
+    "Técnicas asociadas": "Análisis de interacciones digitales",
+    "Instrumentos asociados": "Cuestionario digital; Foro de discusión"
   },
   {
     "Código": "HER_BANCO_EVID",
@@ -2045,7 +2356,7 @@
     "Descripción breve": "Carpeta o espacio digital con evidencias evaluativas.",
     "Sirve para": "Conservar y organizar producciones.",
     "Adecuada para": "Evaluación continua y portfolio.",
-    "Instrumentos compatibles": "Portfolio digital; Defensa de proyecto",
+    "Instrumentos compatibles": "Portfolio digital; Defensa de proyecto; Cuaderno digital; E-portfolio con evidencias seleccionadas",
     "Ventajas": "Facilita revisión y documentación.",
     "Limitaciones": "Requiere buena organización.",
     "Complejidad": "Media",
@@ -2055,22 +2366,332 @@
     "Descripción detallada": "El banco digital de evidencias es un repositorio organizado (carpeta en Drive, portfolio digital, plataforma específica) donde se almacenan las producciones y documentos de evaluación de cada alumno a lo largo del tiempo.\n\nCómo usarlo: cada alumno tiene su propio espacio donde guarda sus trabajos, borradores, autoevaluaciones y retroalimentaciones recibidas. El docente puede acceder para revisar el progreso longitudinal. Al final del curso, el banco ofrece una imagen completa del recorrido de aprendizaje.\n\nEs la base del portfolio digital. Permite la evaluación continua, la reflexión sobre el progreso y la comunicación de evidencias a familias y otros docentes.",
     "rel_ins": [
       "INS_PORT_DIG",
-      "INS_DEF_PROY"
+      "INS_DEF_PROY",
+      "INS_CUAD_DIG",
+      "INS_EPORT_SEL"
     ],
     "rel_dim": [
       "DIM_DIG",
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_CONT"
     ],
-    "Dimensiones asociadas": "Evidencias digitales; Finalidad formativa",
+    "Dimensiones asociadas": "Evidencias digitales; Finalidad formativa; Evaluación continua",
     "rel_meta": {
       "rel_dim": {
         "DIM_DIG": "principal",
+        "DIM_FORM": "complementaria",
+        "DIM_CONT": "complementaria"
+      },
+      "rel_ins": {
+        "INS_PORT_DIG": "complementaria",
+        "INS_DEF_PROY": "principal",
+        "INS_CUAD_DIG": "complementaria",
+        "INS_EPORT_SEL": "principal"
+      },
+      "rel_tec": {
+        "TEC_ANAL_DOC": "complementaria"
+      }
+    },
+    "rel_tec": [
+      "TEC_ANAL_DOC"
+    ],
+    "Técnicas asociadas": "Análisis documental",
+    "Instrumentos asociados": "Portfolio digital; Defensa de proyecto; Cuaderno digital; E-portfolio con evidencias seleccionadas"
+  },
+  {
+    "Código": "HER_IND_CRIT",
+    "Herramienta": "Lista de indicadores por criterio",
+    "Tipo": "Apoyo a valoración",
+    "Descripción breve": "Desglose de un criterio en indicadores observables.",
+    "Sirve para": "Concretar criterios amplios y guiar la recogida de evidencias.",
+    "Adecuada para": "Evaluación criterial y competencial.",
+    "Instrumentos compatibles": "Tarea competencial integrada; Situación-problema; Prueba de libro abierto",
+    "Ventajas": "Mejora la alineación entre criterio, tarea y evidencia.",
+    "Limitaciones": "Puede fragmentar el aprendizaje si se convierte en una lista mecánica.",
+    "Complejidad": "Media",
+    "Fase": "Diseño/Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "criterios; indicadores; alineacion",
+    "Descripción detallada": "La lista de indicadores por criterio convierte un criterio amplio en comportamientos, productos o rasgos observables.\n\nCómo usarla: se redactan indicadores claros, se vinculan a evidencias concretas y se revisa que no reduzcan el criterio a detalles irrelevantes. Puede servir como paso previo a una rúbrica o guía de observación.\n\nEs útil para hacer más transparente la evaluación criterial.",
+    "rel_ins": [
+      "INS_TAREA_COMP_INT",
+      "INS_SIT_PROB",
+      "INS_LIBRO_ABIERTO"
+    ],
+    "rel_dim": [
+      "DIM_CRIT",
+      "DIM_COMP"
+    ],
+    "rel_meta": {
+      "rel_dim": {
+        "DIM_CRIT": "principal",
+        "DIM_COMP": "complementaria"
+      },
+      "rel_ins": {
+        "INS_TAREA_COMP_INT": "principal",
+        "INS_SIT_PROB": "complementaria",
+        "INS_LIBRO_ABIERTO": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Evaluación criterial; Enfoque competencial",
+    "Instrumentos asociados": "Tarea competencial integrada; Situación-problema; Prueba de libro abierto"
+  },
+  {
+    "Código": "HER_ESC_PROG",
+    "Herramienta": "Escala de progreso",
+    "Tipo": "Seguimiento",
+    "Descripción breve": "Escala que describe avances sucesivos hacia un aprendizaje.",
+    "Sirve para": "Visualizar progreso y orientar próximos pasos.",
+    "Adecuada para": "Evaluación continua, portfolios y procesos largos.",
+    "Instrumentos compatibles": "E-portfolio con evidencias seleccionadas; Cuaderno digital; Diario de aprendizaje",
+    "Ventajas": "Muestra evolución, no solo resultado final.",
+    "Limitaciones": "Requiere revisar periódicamente evidencias comparables.",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "progreso; continua; seguimiento",
+    "Descripción detallada": "La escala de progreso describe estados sucesivos de aprendizaje, desde un nivel inicial hasta un desempeño autónomo o avanzado.\n\nCómo usarla: se definen niveles claros y se revisa periódicamente dónde está cada alumno, qué evidencia lo muestra y cuál es el siguiente paso.\n\nEs muy útil para evaluación continua y autorregulación, porque ayuda a entender el aprendizaje como evolución.",
+    "rel_ins": [
+      "INS_EPORT_SEL",
+      "INS_CUAD_DIG",
+      "INS_DIARIO"
+    ],
+    "rel_dim": [
+      "DIM_CONT",
+      "DIM_INCL",
+      "DIM_FORM"
+    ],
+    "rel_meta": {
+      "rel_dim": {
+        "DIM_CONT": "principal",
+        "DIM_INCL": "principal",
         "DIM_FORM": "complementaria"
       },
       "rel_ins": {
-        "INS_PORT_DIG": "principal",
-        "INS_DEF_PROY": "principal"
+        "INS_EPORT_SEL": "complementaria",
+        "INS_CUAD_DIG": "principal",
+        "INS_DIARIO": "complementaria"
       }
-    }
+    },
+    "Dimensiones asociadas": "Evaluación continua; Evaluación inclusiva y DUA; Finalidad formativa",
+    "Instrumentos asociados": "E-portfolio con evidencias seleccionadas; Cuaderno digital; Diario de aprendizaje"
+  },
+  {
+    "Código": "HER_GUIA_OBS",
+    "Herramienta": "Guía de observación",
+    "Tipo": "Registro/valoración",
+    "Descripción breve": "Documento con focos, indicadores y pautas para observar una actuación.",
+    "Sirve para": "Planificar y hacer más consistente la observación.",
+    "Adecuada para": "Prácticas, debates, seminarios, retos y trabajo cooperativo.",
+    "Instrumentos compatibles": "Checklist de laboratorio; Seminario socrático; Escape room o reto gamificado; Debate; Trabajo cooperativo",
+    "Ventajas": "Reduce improvisación y sesgos de observación.",
+    "Limitaciones": "No sustituye al juicio profesional ni a criterios bien formulados.",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "observacion; guia; indicadores",
+    "Descripción detallada": "La guía de observación concreta qué se va a mirar, cuándo y con qué indicadores. Puede incluir espacios para notas, ejemplos observables y niveles básicos de logro.\n\nCómo usarla: antes de la actividad se seleccionan pocos focos importantes. Durante la observación se registran evidencias, no impresiones generales.\n\nEs especialmente útil cuando varios docentes observan o cuando la actividad es compleja.",
+    "rel_ins": [
+      "INS_CHECK_LAB",
+      "INS_SEMINARIO",
+      "INS_ESCAPE",
+      "INS_DEBATE",
+      "INS_TRAB_COOP"
+    ],
+    "rel_dim": [
+      "DIM_DESEMP",
+      "DIM_FORM"
+    ],
+    "rel_meta": {
+      "rel_dim": {
+        "DIM_DESEMP": "principal",
+        "DIM_FORM": "complementaria"
+      },
+      "rel_ins": {
+        "INS_CHECK_LAB": "complementaria",
+        "INS_SEMINARIO": "complementaria",
+        "INS_ESCAPE": "principal",
+        "INS_DEBATE": "complementaria",
+        "INS_TRAB_COOP": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_ENTREV_EVAL": "principal"
+      }
+    },
+    "rel_tec": [
+      "TEC_ENTREV_EVAL"
+    ],
+    "Dimensiones asociadas": "Evidencia de desempeño; Finalidad formativa",
+    "Técnicas asociadas": "Entrevista evaluativa",
+    "Instrumentos asociados": "Checklist de laboratorio; Seminario socrático; Escape room o reto gamificado; Debate; Trabajo cooperativo"
+  },
+  {
+    "Código": "HER_PLANT_FF",
+    "Herramienta": "Plantilla de feedback/feedforward",
+    "Tipo": "Retroalimentación",
+    "Descripción breve": "Plantilla para indicar logro actual, mejora necesaria y siguiente paso.",
+    "Sirve para": "Dar retroalimentación accionable y orientada a futuro.",
+    "Adecuada para": "Borradores, entregas parciales, portfolios y tareas complejas.",
+    "Instrumentos compatibles": "Borrador; Entrega parcial; Revisión por pares; E-portfolio con evidencias seleccionadas",
+    "Ventajas": "Ayuda a que el comentario se convierta en acción.",
+    "Limitaciones": "Pierde valor si se rellena con frases genéricas.",
+    "Complejidad": "Baja/Media",
+    "Fase": "Proceso",
+    "Participación": "Docente/Iguales/Alumno",
+    "Etiquetas": "feedback; feedforward; mejora",
+    "Descripción detallada": "La plantilla de feedback/feedforward organiza la retroalimentación en torno a tres preguntas: qué está logrado, qué debe mejorar y cuál es el siguiente paso.\n\nCómo usarla: se vincula el comentario a criterios concretos y se deja una acción de mejora verificable. Puede usarse por el docente, por iguales o en autoevaluación guiada.\n\nSu fuerza está en que desplaza la corrección desde el juicio final hacia la mejora futura.",
+    "rel_ins": [
+      "INS_BORR",
+      "INS_ENT_PAR",
+      "INS_REV_PARES",
+      "INS_EPORT_SEL"
+    ],
+    "rel_dim": [
+      "DIM_FEED",
+      "DIM_FORM",
+      "DIM_INCL"
+    ],
+    "rel_meta": {
+      "rel_dim": {
+        "DIM_FEED": "principal",
+        "DIM_FORM": "complementaria",
+        "DIM_INCL": "complementaria"
+      },
+      "rel_ins": {
+        "INS_BORR": "principal",
+        "INS_ENT_PAR": "principal",
+        "INS_REV_PARES": "complementaria",
+        "INS_EPORT_SEL": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Retroalimentación y feedforward; Finalidad formativa; Evaluación inclusiva y DUA",
+    "Instrumentos asociados": "Borrador; Entrega parcial; Revisión por pares; E-portfolio con evidencias seleccionadas"
+  },
+  {
+    "Código": "HER_CONTR_GRUP",
+    "Herramienta": "Contrato de grupo",
+    "Tipo": "Seguimiento",
+    "Descripción breve": "Acuerdo de roles, compromisos y normas de funcionamiento de un equipo.",
+    "Sirve para": "Hacer explícitas responsabilidades y prevenir problemas de cooperación.",
+    "Adecuada para": "Trabajo cooperativo, proyectos y documentos colaborativos.",
+    "Instrumentos compatibles": "Trabajo cooperativo; Documento colaborativo; Defensa de proyecto",
+    "Ventajas": "Facilita seguimiento y autorregulación del grupo.",
+    "Limitaciones": "Debe revisarse durante el proceso, no quedarse como trámite inicial.",
+    "Complejidad": "Baja/Media",
+    "Fase": "Inicial/Proceso",
+    "Participación": "Docente/Grupo",
+    "Etiquetas": "grupo; contrato; cooperativo",
+    "Descripción detallada": "El contrato de grupo recoge roles, responsabilidades, normas, calendario y compromisos de los miembros de un equipo.\n\nCómo usarlo: se acuerda al inicio del trabajo y se revisa en hitos intermedios. Puede combinarse con coevaluación y registro de compromisos de mejora.\n\nEs útil para evaluar y regular el proceso cooperativo con mayor justicia.",
+    "rel_ins": [
+      "INS_TRAB_COOP",
+      "INS_DOC_COL",
+      "INS_DEF_PROY"
+    ],
+    "rel_dim": [
+      "DIM_COMPART",
+      "DIM_PROY",
+      "DIM_FORM"
+    ],
+    "rel_meta": {
+      "rel_dim": {
+        "DIM_COMPART": "principal",
+        "DIM_PROY": "complementaria",
+        "DIM_FORM": "complementaria"
+      },
+      "rel_ins": {
+        "INS_TRAB_COOP": "complementaria",
+        "INS_DOC_COL": "complementaria",
+        "INS_DEF_PROY": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Evaluación compartida y participativa; Trabajo por proyectos; Finalidad formativa",
+    "Instrumentos asociados": "Trabajo cooperativo; Documento colaborativo; Defensa de proyecto"
+  },
+  {
+    "Código": "HER_SOCIO",
+    "Herramienta": "Sociograma",
+    "Tipo": "Registro cualitativo",
+    "Descripción breve": "Representación de relaciones, elecciones o dinámicas dentro del grupo.",
+    "Sirve para": "Comprender integración, liderazgo, aislamiento o estructura social del aula.",
+    "Adecuada para": "Tutoría, convivencia, trabajo cooperativo y agrupamientos.",
+    "Instrumentos compatibles": "Asamblea; Trabajo cooperativo",
+    "Ventajas": "Ayuda a tomar decisiones de agrupamiento y convivencia.",
+    "Limitaciones": "Maneja información sensible y debe usarse con confidencialidad.",
+    "Complejidad": "Media",
+    "Fase": "Inicial/Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "sociograma; convivencia; grupo",
+    "Descripción detallada": "El sociograma representa relaciones dentro del grupo: preferencias de trabajo, apoyos, rechazos, liderazgos o aislamiento.\n\nCómo usarlo: se recoge información mediante preguntas cuidadosas, se analiza de forma confidencial y se usa para mejorar agrupamientos o convivencia, no para etiquetar al alumnado.\n\nEs una herramienta de evaluación del contexto social del aprendizaje más que de rendimiento académico.",
+    "rel_ins": [
+      "INS_ASAM",
+      "INS_TRAB_COOP"
+    ],
+    "rel_dim": [
+      "DIM_FORM",
+      "DIM_COMPART"
+    ],
+    "rel_meta": {
+      "rel_dim": {
+        "DIM_FORM": "complementaria",
+        "DIM_COMPART": "complementaria"
+      },
+      "rel_ins": {
+        "INS_ASAM": "principal",
+        "INS_TRAB_COOP": "ocasional"
+      }
+    },
+    "Dimensiones asociadas": "Finalidad formativa; Evaluación compartida y participativa",
+    "Instrumentos asociados": "Asamblea; Trabajo cooperativo"
+  },
+  {
+    "Código": "HER_MAP_EVID",
+    "Herramienta": "Mapa de evidencias por criterio",
+    "Tipo": "Apoyo a valoración",
+    "Descripción breve": "Tabla que vincula criterios con tareas, evidencias e instrumentos de valoración.",
+    "Sirve para": "Comprobar cobertura y trazabilidad de la evaluación.",
+    "Adecuada para": "Evaluación criterial, competencial, portfolios y calificación por criterios.",
+    "Instrumentos compatibles": "Tarea competencial integrada; E-portfolio con evidencias seleccionadas; Prueba competencial contextualizada",
+    "Ventajas": "Hace visible qué evidencia sostiene cada decisión.",
+    "Limitaciones": "Requiere actualización y selección cuidadosa de evidencias relevantes.",
+    "Complejidad": "Alta",
+    "Fase": "Diseño/Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "criterios; evidencias; trazabilidad",
+    "Descripción detallada": "El mapa de evidencias por criterio relaciona cada criterio de evaluación con las tareas que lo evidencian, los instrumentos usados y las herramientas de valoración.\n\nCómo usarlo: se construye como tabla de planificación y seguimiento. Permite detectar criterios sobrerrepresentados, criterios sin evidencias y decisiones de calificación poco justificadas.\n\nEs una herramienta clave para evaluación criterial y triangulación de evidencias.",
+    "rel_ins": [
+      "INS_TAREA_COMP_INT",
+      "INS_EPORT_SEL",
+      "INS_PR_COMP"
+    ],
+    "rel_dim": [
+      "DIM_CRIT",
+      "DIM_COMP",
+      "DIM_CAL_ACRED",
+      "DIM_INCL"
+    ],
+    "rel_meta": {
+      "rel_dim": {
+        "DIM_CRIT": "principal",
+        "DIM_COMP": "principal",
+        "DIM_CAL_ACRED": "complementaria",
+        "DIM_INCL": "complementaria"
+      },
+      "rel_ins": {
+        "INS_TAREA_COMP_INT": "principal",
+        "INS_EPORT_SEL": "principal",
+        "INS_PR_COMP": "complementaria"
+      },
+      "rel_tec": {
+        "TEC_ANAL_DOC": "principal",
+        "TEC_TRIANG": "principal"
+      }
+    },
+    "rel_tec": [
+      "TEC_ANAL_DOC",
+      "TEC_TRIANG"
+    ],
+    "Dimensiones asociadas": "Evaluación criterial; Enfoque competencial; Calificación y acreditación; Evaluación inclusiva y DUA",
+    "Técnicas asociadas": "Análisis documental; Triangulación de evidencias",
+    "Instrumentos asociados": "Tarea competencial integrada; E-portfolio con evidencias seleccionadas; Prueba competencial contextualizada"
   }
 ]

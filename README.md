@@ -26,10 +26,10 @@ python3 -m http.server 8080
 │   ├── parser.js           # Parser de texto libre
 │   └── export.js           # Exportación de resultados
 └── data/
-    ├── tecnicas.json        # Catálogo de técnicas (7 registros)
-    ├── instrumentos.json    # Catálogo de instrumentos (75 registros)
-    ├── herramientas.json    # Catálogo de herramientas (50 registros)
-    └── dimensiones.json     # Dimensiones transversales de evaluación (14 registros)
+    ├── tecnicas.json        # Catálogo de técnicas (12 registros)
+    ├── instrumentos.json    # Catálogo de instrumentos (83 registros)
+    ├── herramientas.json    # Catálogo de herramientas (57 registros)
+    └── dimensiones.json     # Dimensiones transversales de evaluación (20 registros)
 ```
 
 ## Vistas de la aplicación
@@ -53,9 +53,9 @@ Vista de dos paneles: lista filtrable a la izquierda y detalle con grafo de rela
 
 | Categoría | Registros | Descripción |
 |---|---|---|
-| Técnicas | 7 | Procedimientos para recoger evidencias del aprendizaje |
-| Instrumentos | 75 | Herramientas concretas vinculadas a técnicas |
-| Herramientas | 50 | Recursos digitales y plantillas de apoyo |
-| Dimensiones | 14 | Dimensiones transversales que atraviesan técnicas e instrumentos |
+| Técnicas | 12 | Procedimientos para recoger evidencias del aprendizaje |
+| Instrumentos | 83 | Actividades, productos o situaciones que generan evidencias |
+| Herramientas | 57 | Recursos, plantillas y registros de apoyo a la evaluación |
+| Dimensiones | 20 | Dimensiones transversales que atraviesan técnicas e instrumentos |
 
 Las relaciones entre categorías tienen tres intensidades: **principal**, **complementaria** y **ocasional**.

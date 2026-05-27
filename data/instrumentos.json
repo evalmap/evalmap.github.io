@@ -4,7 +4,7 @@
     "Instrumento": "Trabajo individual en aula",
     "Tipo": "Observación",
     "Descripción breve": "Actividad realizada individualmente durante la clase.",
-    "Técnicas asociadas": "Observación sistemática",
+    "Técnicas asociadas": "Observación sistemática; Observación incidental",
     "Evidencia": "Actuación observable",
     "Adecuado para": "Autonomía; organización; resolución de tareas.",
     "Herramientas recomendadas": "Cuaderno de calificaciones; Escala de observación; Hoja de seguimiento individual; Lista de cotejo o control",
@@ -14,7 +14,8 @@
     "Etiquetas": "individual; aula",
     "Descripción detallada": "El trabajo individual en aula es una actividad que el alumno realiza de forma autónoma durante la clase, sin apoyo directo de compañeros. Permite al docente observar en directo el nivel de autonomía, la organización y la capacidad de resolución de cada alumno.\n\nCómo usarlo para evaluar: mientras el alumnado trabaja, el docente circula por el aula y observa con una escala de observación o lista de cotejo. Registra quién avanza con soltura, quién se bloquea y en qué punto. También puede recoger el resultado final (ejercicio, tarea, esquema) y valorarlo con una guía de corrección.\n\nEs uno de los instrumentos más habituales porque permite información tanto del proceso como del resultado, en condiciones controladas y sin interferencia de otros alumnos.",
     "rel_tec": [
-      "TEC_OBS_SIS"
+      "TEC_OBS_SIS",
+      "TEC_OBS_INC"
     ],
     "rel_her": [
       "HER_CUAD_CAL",
@@ -28,7 +29,8 @@
     "Dimensiones asociadas": "Finalidad formativa",
     "rel_meta": {
       "rel_tec": {
-        "TEC_OBS_SIS": "principal"
+        "TEC_OBS_SIS": "principal",
+        "TEC_OBS_INC": "principal"
       },
       "rel_dim": {
         "DIM_FORM": "principal"
@@ -46,38 +48,56 @@
     "Instrumento": "Trabajo cooperativo",
     "Tipo": "Observación",
     "Descripción breve": "Actividad grupal con reparto de tareas y responsabilidad compartida.",
-    "Técnicas asociadas": "Observación sistemática",
+    "Técnicas asociadas": "Observación sistemática; Observación incidental",
     "Evidencia": "Actuación grupal",
     "Adecuado para": "Colaboración; responsabilidad; comunicación.",
-    "Herramientas recomendadas": "Diario del profesor; Ficha de coevaluación; Rúbrica de trabajo cooperativo",
+    "Herramientas recomendadas": "Diario del profesor; Ficha de coevaluación; Rúbrica de trabajo cooperativo; Contrato de grupo; Sociograma; Guía de observación",
     "Complejidad": "Media/Alta",
     "Fase": "Proceso",
     "Participación": "Docente/Iguales",
     "Etiquetas": "cooperativo; grupo",
     "Descripción detallada": "El trabajo cooperativo es una actividad grupal en la que los alumnos comparten responsabilidades, distribuyen tareas y construyen un resultado común. Permite evaluar colaboración, comunicación, responsabilidad individual y capacidad de integrar distintas aportaciones.\n\nCómo usarlo para evaluar: conviene combinar la valoración del producto grupal con la del proceso y la contribución individual. Una rúbrica de trabajo cooperativo, un registro de grupo y la autoevaluación de cada miembro ofrecen una imagen completa. El docente puede observar el funcionamiento del grupo con una escala de observación.\n\nPara que la evaluación sea justa, no debe reducirse al producto final: dos grupos pueden entregar trabajos similares pero con procesos de colaboración muy distintos.",
     "rel_tec": [
-      "TEC_OBS_SIS"
+      "TEC_OBS_SIS",
+      "TEC_OBS_INC"
     ],
     "rel_her": [
       "HER_DIARIO_PROF",
       "HER_FICHA_COEV",
-      "HER_RUB_COOP"
+      "HER_RUB_COOP",
+      "HER_CONTR_GRUP",
+      "HER_SOCIO",
+      "HER_GUIA_OBS"
     ],
     "rel_dim": [
-      "DIM_COEV"
+      "DIM_COEV",
+      "DIM_FORM",
+      "DIM_DESEMP",
+      "DIM_PROY",
+      "DIM_HET",
+      "DIM_COMPART"
     ],
-    "Dimensiones asociadas": "Coevaluación",
+    "Dimensiones asociadas": "Coevaluación; Finalidad formativa; Evidencia de desempeño; Trabajo por proyectos; Heteroevaluación; Evaluación compartida y participativa",
     "rel_meta": {
       "rel_tec": {
-        "TEC_OBS_SIS": "principal"
+        "TEC_OBS_SIS": "principal",
+        "TEC_OBS_INC": "complementaria"
       },
       "rel_dim": {
-        "DIM_COEV": "principal"
+        "DIM_COEV": "principal",
+        "DIM_FORM": "principal",
+        "DIM_DESEMP": "principal",
+        "DIM_PROY": "complementaria",
+        "DIM_HET": "complementaria",
+        "DIM_COMPART": "principal"
       },
       "rel_her": {
         "HER_DIARIO_PROF": "principal",
         "HER_FICHA_COEV": "complementaria",
-        "HER_RUB_COOP": "complementaria"
+        "HER_RUB_COOP": "complementaria",
+        "HER_CONTR_GRUP": "complementaria",
+        "HER_SOCIO": "ocasional",
+        "HER_GUIA_OBS": "complementaria"
       }
     }
   },
@@ -86,7 +106,7 @@
     "Instrumento": "Participación en clase",
     "Tipo": "Observación",
     "Descripción breve": "Intervenciones y aportaciones del alumnado en el aula.",
-    "Técnicas asociadas": "Observación sistemática",
+    "Técnicas asociadas": "Observación sistemática; Observación incidental",
     "Evidencia": "Actuación oral",
     "Adecuado para": "Implicación; escucha; preguntas; aportaciones.",
     "Herramientas recomendadas": "Cuaderno de calificaciones; Diario del profesor; Escala de observación; Registro de participación",
@@ -96,7 +116,8 @@
     "Etiquetas": "participacion",
     "Descripción detallada": "La participación en clase incluye las intervenciones orales del alumnado: respuestas a preguntas, aportaciones espontáneas, preguntas propias, comentarios y contribuciones al debate colectivo.\n\nCómo usarla para evaluar: es necesario un registro sistemático para que no dependa de la memoria del docente. Un registro de participación con nombre y tipo de intervención (respuesta, pregunta, aportación) permite valorar frecuencia y calidad. Una escala de observación ayuda a no reducirlo a si levanta la mano o no.\n\nDebe valorarse la calidad de las aportaciones, no solo la cantidad. Un alumno que interviene poco pero con ideas precisas merece reconocimiento; uno que interviene mucho pero sin escuchar no debería ser premiado por eso.",
     "rel_tec": [
-      "TEC_OBS_SIS"
+      "TEC_OBS_SIS",
+      "TEC_OBS_INC"
     ],
     "rel_her": [
       "HER_CUAD_CAL",
@@ -111,7 +132,8 @@
     "Dimensiones asociadas": "Finalidad formativa; Evidencia de desempeño",
     "rel_meta": {
       "rel_tec": {
-        "TEC_OBS_SIS": "principal"
+        "TEC_OBS_SIS": "principal",
+        "TEC_OBS_INC": "complementaria"
       },
       "rel_dim": {
         "DIM_FORM": "principal",
@@ -506,7 +528,7 @@
     "Instrumento": "Defensa de proyecto",
     "Tipo": "Oral",
     "Descripción breve": "Justificación oral de un proyecto o producto.",
-    "Técnicas asociadas": "Intercambios orales",
+    "Técnicas asociadas": "Intercambios orales; Análisis de producciones; Entrevista evaluativa",
     "Evidencia": "Actuación oral",
     "Adecuado para": "Argumentación; decisiones; respuesta a preguntas.",
     "Herramientas recomendadas": "Acta de evaluación; Banco de descriptores; Conversor de niveles a calificación; Escala de observación; Rúbrica oral",
@@ -516,7 +538,9 @@
     "Etiquetas": "defensa; proyecto",
     "Descripción detallada": "La defensa de proyecto es una presentación oral en la que el alumno o equipo explica su proyecto ante una audiencia (clase, tribunal, familias) y responde a preguntas. Es el cierre habitual de un proyecto de investigación o trabajo de síntesis.\n\nCómo usarla para evaluar: se valoran por separado el contenido del proyecto (ya evaluado antes) y la calidad de la defensa: claridad, respuesta a preguntas, distribución de roles en el equipo. Una rúbrica de defensa específica permite hacerlo de forma estructurada.\n\nAñade valor al proyecto porque obliga al alumnado a comprender realmente lo que han hecho y a poder explicarlo con sus propias palabras ante preguntas inesperadas.",
     "rel_tec": [
-      "TEC_ORAL"
+      "TEC_ORAL",
+      "TEC_PROD",
+      "TEC_ENTREV_EVAL"
     ],
     "rel_her": [
       "HER_ACTA",
@@ -532,7 +556,9 @@
     "Dimensiones asociadas": "Evidencia de desempeño; Heteroevaluación",
     "rel_meta": {
       "rel_tec": {
-        "TEC_ORAL": "principal"
+        "TEC_ORAL": "principal",
+        "TEC_PROD": "complementaria",
+        "TEC_ENTREV_EVAL": "complementaria"
       },
       "rel_dim": {
         "DIM_DESEMP": "principal",
@@ -552,7 +578,7 @@
     "Instrumento": "Entrevista",
     "Tipo": "Oral",
     "Descripción breve": "Conversación estructurada con preguntas y respuestas.",
-    "Técnicas asociadas": "Intercambios orales",
+    "Técnicas asociadas": "Intercambios orales; Entrevista evaluativa",
     "Evidencia": "Actuación oral",
     "Adecuado para": "Comprensión; razonamiento; explicación personal.",
     "Herramientas recomendadas": "Registro anecdótico; Escala de observación",
@@ -562,7 +588,8 @@
     "Etiquetas": "entrevista",
     "Descripción detallada": "La entrevista es una conversación estructurada entre el docente y el alumno (o entre pares) con el objetivo de explorar su comprensión, reflexión o proceso de aprendizaje de forma más profunda que en una prueba escrita.\n\nCómo usarla para evaluar: el docente prepara un guion de preguntas abiertas y registra las respuestas con un formulario o grabación. Las preguntas deben ir más allá de la reproducción de información y explorar el razonamiento ('¿por qué crees eso?', '¿cómo lo harías diferente?').\n\nEs especialmente útil para alumnos con dificultades de expresión escrita o cuando se quiere verificar el nivel real de comprensión, sin el apoyo de apuntes o compañeros.",
     "rel_tec": [
-      "TEC_ORAL"
+      "TEC_ORAL",
+      "TEC_ENTREV_EVAL"
     ],
     "rel_her": [
       "HER_REG_ANE",
@@ -575,7 +602,8 @@
     "Dimensiones asociadas": "Finalidad formativa; Evidencia de desempeño",
     "rel_meta": {
       "rel_tec": {
-        "TEC_ORAL": "principal"
+        "TEC_ORAL": "principal",
+        "TEC_ENTREV_EVAL": "principal"
       },
       "rel_dim": {
         "DIM_FORM": "principal",
@@ -634,7 +662,7 @@
     "Instrumento": "Cuaderno de clase",
     "Tipo": "Producción escrita",
     "Descripción breve": "Registro de actividades, apuntes, ejercicios y correcciones.",
-    "Técnicas asociadas": "Análisis de producciones",
+    "Técnicas asociadas": "Análisis de producciones; Análisis documental",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Trabajo diario; orden; continuidad; corrección.",
     "Herramientas recomendadas": "Cuaderno de calificaciones; Escala de observación; Lista de cotejo o control",
@@ -644,7 +672,8 @@
     "Etiquetas": "cuaderno",
     "Descripción detallada": "El cuaderno de clase es el registro personal del alumno del trabajo realizado en el aula: apuntes, ejercicios, esquemas, correcciones y reflexiones. Refleja el proceso de aprendizaje día a día.\n\nCómo usarlo para evaluar: el docente puede revisarlo periódicamente con una lista de cotejo (¿está completo?, ¿está ordenado?, ¿recoge las correcciones?) o con una rúbrica que valore también la calidad de los apuntes y la organización. También puede revisarse en tutorías individuales.\n\nEs una ventana al proceso de aprendizaje del alumno que no dejan otras evidencias. Un cuaderno bien llevado refleja implicación, organización y capacidad de síntesis.",
     "rel_tec": [
-      "TEC_PROD"
+      "TEC_PROD",
+      "TEC_ANAL_DOC"
     ],
     "rel_her": [
       "HER_CUAD_CAL",
@@ -657,7 +686,8 @@
     "Dimensiones asociadas": "Finalidad formativa",
     "rel_meta": {
       "rel_tec": {
-        "TEC_PROD": "principal"
+        "TEC_PROD": "principal",
+        "TEC_ANAL_DOC": "principal"
       },
       "rel_dim": {
         "DIM_FORM": "principal"
@@ -718,7 +748,7 @@
     "Instrumento": "Porfolio",
     "Tipo": "Producción compleja",
     "Descripción breve": "Colección organizada de evidencias y reflexiones.",
-    "Técnicas asociadas": "Análisis de producciones",
+    "Técnicas asociadas": "Análisis de producciones; Análisis de procesos y reflexiones",
     "Evidencia": "Producción acumulativa",
     "Adecuado para": "Progreso; selección de evidencias; reflexión.",
     "Herramientas recomendadas": "Banco de descriptores; Escala descriptiva; Escala verbal; Hoja de cálculo de evaluación; Hoja de seguimiento individual; Matriz de ponderación",
@@ -728,7 +758,8 @@
     "Etiquetas": "portfolio",
     "Descripción detallada": "El porfolio es una colección organizada de trabajos y reflexiones del alumno que documenta su proceso de aprendizaje a lo largo de un periodo. No es una carpeta de todos los trabajos, sino una selección razonada con reflexión sobre cada pieza.\n\nCómo usarlo para evaluar: el alumno selecciona las evidencias que mejor muestran su aprendizaje y escribe una reflexión sobre cada una ('elegí este trabajo porque…', 'demuestra que sé…', 'lo que mejoraría es…'). El docente valora tanto la calidad de las evidencias como la profundidad de las reflexiones.\n\nPermite una evaluación longitudinal y auténtica. Desarrolla la autonomía, la reflexión y la capacidad de presentar el propio aprendizaje. Es la base de la evaluación por competencias en muchos sistemas educativos.",
     "rel_tec": [
-      "TEC_PROD"
+      "TEC_PROD",
+      "TEC_PROC_REFLEX"
     ],
     "rel_her": [
       "HER_BANCO_DESC",
@@ -746,7 +777,8 @@
     "Dimensiones asociadas": "Finalidad formativa; Autoevaluación; Heteroevaluación",
     "rel_meta": {
       "rel_tec": {
-        "TEC_PROD": "principal"
+        "TEC_PROD": "principal",
+        "TEC_PROC_REFLEX": "complementaria"
       },
       "rel_dim": {
         "DIM_FORM": "principal",
@@ -1438,7 +1470,7 @@
     "Instrumento": "Acta de reunión",
     "Tipo": "Proceso",
     "Descripción breve": "Registro de acuerdos, tareas y decisiones de grupo.",
-    "Técnicas asociadas": "Análisis de procesos y reflexiones",
+    "Técnicas asociadas": "Análisis de procesos y reflexiones; Análisis documental",
     "Evidencia": "Producción escrita",
     "Adecuado para": "Organización grupal; responsabilidad; acuerdos.",
     "Herramientas recomendadas": "Lista de cotejo o control",
@@ -1448,7 +1480,8 @@
     "Etiquetas": "acta",
     "Descripción detallada": "El acta de reunión es el registro escrito de lo que ocurrió en una reunión del grupo: quién asistió, qué se debatió, qué acuerdos se tomaron y qué tareas se asignaron. Es un instrumento habitual en trabajo cooperativo y proyectos grupales.\n\nCómo usarla para evaluar: el docente puede revisar las actas para comprobar que el grupo funciona de forma organizada, que los roles rotan, que los acuerdos se cumplen y que la reflexión sobre el trabajo es genuina. También puede usarse como evidencia de proceso.\n\nDesarrolla habilidades de comunicación formal, organización y responsabilidad compartida. Es especialmente útil en proyectos de larga duración.",
     "rel_tec": [
-      "TEC_PROC_REFLEX"
+      "TEC_PROC_REFLEX",
+      "TEC_ANAL_DOC"
     ],
     "rel_her": [
       "HER_LISTA"
@@ -1459,7 +1492,8 @@
     "Dimensiones asociadas": "Coevaluación",
     "rel_meta": {
       "rel_tec": {
-        "TEC_PROC_REFLEX": "principal"
+        "TEC_PROC_REFLEX": "principal",
+        "TEC_ANAL_DOC": "complementaria"
       },
       "rel_dim": {
         "DIM_COEV": "principal"
@@ -1491,16 +1525,18 @@
     ],
     "rel_dim": [
       "DIM_AUTO",
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_COMPART"
     ],
-    "Dimensiones asociadas": "Autoevaluación; Finalidad formativa",
+    "Dimensiones asociadas": "Autoevaluación; Finalidad formativa; Evaluación compartida y participativa",
     "rel_meta": {
       "rel_tec": {
         "TEC_PROC_REFLEX": "principal"
       },
       "rel_dim": {
         "DIM_AUTO": "principal",
-        "DIM_FORM": "complementaria"
+        "DIM_FORM": "complementaria",
+        "DIM_COMPART": "complementaria"
       },
       "rel_her": {
         "HER_REG_COMP": "principal"
@@ -1732,7 +1768,7 @@
     "Fase": "Inicial/Final",
     "Participación": "Docente",
     "Etiquetas": "prueba objetiva",
-    "Descripción detallada": "La prueba objetiva incluye ítems con una única respuesta correcta verificable: verdadero/falso, emparejamiento, completar espacios en blanco, ordenar elementos. La corrección es mecánica y no depende del juicio del evaluador.\n\nCómo usarla para evaluar: se diseña con ítems claros y sin ambigüedad, alineados con los contenidos y criterios trabajados. Se establece el baremo (puntuación por acierto, penalización por error si la hay). La automatización de la corrección permite obtener resultados rápidamente.\n\nEs eficiente para comprobar conocimientos declarativos en grupos grandes. Su limitación es que no evalúa razonamiento profundo ni competencias complejas.",
+    "Descripción detallada": "La prueba objetiva incluye ítems con una respuesta correcta verificable o criterios de corrección muy cerrados: verdadero/falso, emparejamiento, completar espacios en blanco, ordenar elementos o selección múltiple. La corrección es mecánica o muy pautada y reduce la dependencia del juicio del evaluador.\n\nCómo usarla para evaluar: se diseña con ítems claros y sin ambigüedad, alineados con los contenidos y criterios trabajados. Se establece el baremo (puntuación por acierto, penalización por error si la hay). La automatización de la corrección permite obtener resultados rápidamente.\n\nEs eficiente para comprobar conocimientos declarativos y algunas aplicaciones o análisis breves si los ítems están bien diseñados. Su limitación es que, usada sola, resulta insuficiente para valorar razonamiento complejo, desempeño o competencias amplias.",
     "rel_tec": [
       "TEC_PRUEBA"
     ],
@@ -1940,7 +1976,7 @@
     "Instrumento": "Prueba competencial contextualizada",
     "Tipo": "Prueba competencial",
     "Descripción breve": "Tarea evaluativa en contexto real o verosímil.",
-    "Técnicas asociadas": "Pruebas específicas",
+    "Técnicas asociadas": "Pruebas específicas; Triangulación de evidencias",
     "Evidencia": "Respuesta aplicada",
     "Adecuado para": "Transferencia; integración; razonamiento.",
     "Herramientas recomendadas": "Guía de corrección; Rúbrica competencial; Tabla de calificación por criterios",
@@ -1950,7 +1986,8 @@
     "Etiquetas": "competencial",
     "Descripción detallada": "La prueba competencial contextualizada es una prueba escrita u oral que presenta situaciones reales o verosímiles y pide al alumno que aplique sus conocimientos para analizarlas, interpretarlas o resolverlas. Es la forma de prueba más alineada con la evaluación competencial.\n\nCómo usarla para evaluar: cada tarea de la prueba está asociada a un criterio de evaluación y a una competencia específica. Se valora con rúbricas o guías de corrección que contemplan el razonamiento y la aplicación, no solo el resultado correcto.\n\nEs la herramienta que mejor articula la calificación con la evaluación por criterios y competencias exigida por el marco curricular actual.",
     "rel_tec": [
-      "TEC_PRUEBA"
+      "TEC_PRUEBA",
+      "TEC_TRIANG"
     ],
     "rel_her": [
       "HER_GUIA_CORR",
@@ -1959,16 +1996,19 @@
     ],
     "rel_dim": [
       "DIM_COMP",
-      "DIM_HET"
+      "DIM_HET",
+      "DIM_CAL_ACRED"
     ],
-    "Dimensiones asociadas": "Enfoque competencial; Heteroevaluación",
+    "Dimensiones asociadas": "Enfoque competencial; Heteroevaluación; Calificación y acreditación",
     "rel_meta": {
       "rel_tec": {
-        "TEC_PRUEBA": "principal"
+        "TEC_PRUEBA": "principal",
+        "TEC_TRIANG": "complementaria"
       },
       "rel_dim": {
         "DIM_COMP": "principal",
-        "DIM_HET": "complementaria"
+        "DIM_HET": "complementaria",
+        "DIM_CAL_ACRED": "principal"
       },
       "rel_her": {
         "HER_GUIA_CORR": "principal",
@@ -2026,7 +2066,7 @@
     "Instrumento": "Cuestionario digital",
     "Tipo": "Digital/prueba",
     "Descripción breve": "Formulario o cuestionario realizado en línea.",
-    "Técnicas asociadas": "Pruebas específicas; Sondeo y cuestionamiento",
+    "Técnicas asociadas": "Pruebas específicas; Sondeo y cuestionamiento; Encuesta y cuestionario",
     "Evidencia": "Respuesta digital",
     "Adecuado para": "Diagnóstico; repaso; comprobación.",
     "Herramientas recomendadas": "Formulario digital; Analíticas de aprendizaje",
@@ -2037,7 +2077,8 @@
     "Descripción detallada": "El cuestionario digital es un formulario en línea (Google Forms, Microsoft Forms, Socrative, Kahoot, etc.) con preguntas cerradas o abiertas que el alumno responde desde un dispositivo. Permite corrección automática y recogida instantánea de datos.\n\nCómo usarlo para evaluar: se configura con las preguntas y, en el caso de respuestas cerradas, las respuestas correctas. El sistema corrige automáticamente y genera estadísticas de grupo. Las preguntas abiertas requieren revisión manual. Puede usarse como diagnóstico, ticket de salida o evaluación sumativa.\n\nAhorra tiempo de corrección, permite retroalimentación inmediata y facilita el análisis de resultados del grupo para ajustar la enseñanza.",
     "rel_tec": [
       "TEC_PRUEBA",
-      "TEC_SONDEO"
+      "TEC_SONDEO",
+      "TEC_ENC_CUEST"
     ],
     "rel_her": [
       "HER_FORM_DIG",
@@ -2050,7 +2091,8 @@
     "rel_meta": {
       "rel_tec": {
         "TEC_PRUEBA": "principal",
-        "TEC_SONDEO": "complementaria"
+        "TEC_SONDEO": "complementaria",
+        "TEC_ENC_CUEST": "principal"
       },
       "rel_dim": {
         "DIM_DIG": "principal"
@@ -2260,7 +2302,7 @@
     "Instrumento": "Podcast",
     "Tipo": "Producción oral/digital",
     "Descripción breve": "Producción sonora con guion y comunicación oral.",
-    "Técnicas asociadas": "Intercambios orales",
+    "Técnicas asociadas": "Intercambios orales; Análisis de producciones",
     "Evidencia": "Producto oral digital",
     "Adecuado para": "Guion; comunicación; contenido; edición.",
     "Herramientas recomendadas": "Rúbrica oral; Escala de valoración",
@@ -2270,7 +2312,8 @@
     "Etiquetas": "podcast",
     "Descripción detallada": "El podcast es una producción de audio (entrevista, reportaje, debate, programa informativo) creada por el alumno, que requiere guionización, locución, edición y publicación o entrega.\n\nCómo usarlo para evaluar: se valora la calidad del guion (selección de información, estructura, rigor), la expresión oral (claridad, ritmo, vocabulario) y la producción técnica (sonido, edición). Una rúbrica analítica con estas tres dimensiones es adecuada.\n\nFavorece la expresión oral en un formato diferente al de la exposición presencial, lo que puede ser más cómodo para algunos alumnos. Desarrolla competencia comunicativa y digital.",
     "rel_tec": [
-      "TEC_ORAL"
+      "TEC_ORAL",
+      "TEC_PROD"
     ],
     "rel_her": [
       "HER_RUB_ORAL",
@@ -2282,7 +2325,8 @@
     "Dimensiones asociadas": "Evidencias digitales",
     "rel_meta": {
       "rel_tec": {
-        "TEC_ORAL": "principal"
+        "TEC_ORAL": "principal",
+        "TEC_PROD": "complementaria"
       },
       "rel_dim": {
         "DIM_DIG": "principal"
@@ -2530,7 +2574,7 @@
     "Instrumento": "Foro de discusión",
     "Tipo": "Digital/oral escrito",
     "Descripción breve": "Interacciones escritas en entorno digital.",
-    "Técnicas asociadas": "Intercambios orales",
+    "Técnicas asociadas": "Intercambios orales; Análisis de interacciones digitales",
     "Evidencia": "Interacción escrita",
     "Adecuado para": "Argumentación; participación; respuesta a iguales.",
     "Herramientas recomendadas": "Registro de participación; Rúbrica oral",
@@ -2540,7 +2584,8 @@
     "Etiquetas": "foro",
     "Descripción detallada": "El foro de discusión es un espacio de intercambio escrito asíncrono (en plataforma digital) donde el alumnado debate, argumenta y comenta sobre un tema, leyendo y respondiendo a las aportaciones de sus compañeros.\n\nCómo usarlo para evaluar: se valoran la calidad de la aportación inicial (argumentación, uso de fuentes) y la calidad de las respuestas a otros (escucha activa, respeto, profundización). Una rúbrica de participación en foro con criterios de calidad, no solo de cantidad, es la herramienta más adecuada.\n\nPermite la participación de alumnos que no intervienen fácilmente en debates presenciales. Deja trazas escritas que facilitan la evaluación.",
     "rel_tec": [
-      "TEC_ORAL"
+      "TEC_ORAL",
+      "TEC_INTER_DIG"
     ],
     "rel_her": [
       "HER_REG_PART",
@@ -2552,7 +2597,8 @@
     "Dimensiones asociadas": "Evidencias digitales",
     "rel_meta": {
       "rel_tec": {
-        "TEC_ORAL": "principal"
+        "TEC_ORAL": "principal",
+        "TEC_INTER_DIG": "principal"
       },
       "rel_dim": {
         "DIM_DIG": "principal"
@@ -2568,7 +2614,7 @@
     "Instrumento": "Documento colaborativo",
     "Tipo": "Digital/proceso",
     "Descripción breve": "Documento compartido elaborado por varios alumnos.",
-    "Técnicas asociadas": "Análisis de producciones; Análisis de procesos y reflexiones",
+    "Técnicas asociadas": "Análisis de producciones; Análisis de procesos y reflexiones; Análisis documental; Análisis de interacciones digitales",
     "Evidencia": "Producción colaborativa",
     "Adecuado para": "Contribución; revisión; contenido; cooperación.",
     "Herramientas recomendadas": "Historial de revisión; Rúbrica analítica; Hoja de seguimiento individual",
@@ -2579,7 +2625,9 @@
     "Descripción detallada": "El documento colaborativo es un documento digital (Google Docs, Word Online, etc.) que varios alumnos editan simultánea o asíncronamente para construir un texto, análisis o producto compartido.\n\nCómo usarlo para evaluar: el historial de revisiones permite ver la contribución individual de cada miembro, lo que hace la evaluación del trabajo grupal más justa. Se valora tanto el producto final como el proceso de construcción colaborativa.\n\nEs especialmente útil para proyectos grupales donde la contribución individual es difícil de distinguir en el resultado final. El historial de revisiones es la clave para la evaluación individualizada.",
     "rel_tec": [
       "TEC_PROD",
-      "TEC_PROC_REFLEX"
+      "TEC_PROC_REFLEX",
+      "TEC_ANAL_DOC",
+      "TEC_INTER_DIG"
     ],
     "rel_her": [
       "HER_HIST_REV",
@@ -2595,7 +2643,9 @@
     "rel_meta": {
       "rel_tec": {
         "TEC_PROD": "complementaria",
-        "TEC_PROC_REFLEX": "principal"
+        "TEC_PROC_REFLEX": "principal",
+        "TEC_ANAL_DOC": "complementaria",
+        "TEC_INTER_DIG": "principal"
       },
       "rel_dim": {
         "DIM_DIG": "principal",
@@ -2614,7 +2664,7 @@
     "Instrumento": "Portfolio digital",
     "Tipo": "Digital/proceso",
     "Descripción breve": "Colección digital de evidencias y reflexiones.",
-    "Técnicas asociadas": "Análisis de producciones",
+    "Técnicas asociadas": "Análisis de producciones; Análisis de procesos y reflexiones; Entrevista evaluativa; Análisis documental; Análisis de interacciones digitales",
     "Evidencia": "Producción acumulativa",
     "Adecuado para": "Progreso; competencia digital; reflexión.",
     "Herramientas recomendadas": "Panel de progreso; Banco digital de evidencias",
@@ -2624,7 +2674,11 @@
     "Etiquetas": "portfolio digital",
     "Descripción detallada": "El portfolio digital es una colección organizada de evidencias de aprendizaje almacenadas en formato digital (Google Sites, Seesaw, Mahara, carpeta de Drive, etc.), con reflexiones del alumno sobre cada evidencia.\n\nCómo usarlo para evaluar: se valoran la selección de evidencias (¿muestra lo más significativo?), la calidad de las reflexiones (¿qué aprendí con esto?, ¿cómo lo haría diferente?) y la organización general. El portfolio digital permite compartirlo con familias y otros docentes.\n\nEs la herramienta más completa para la evaluación por competencias y el seguimiento longitudinal del aprendizaje. Desarrolla la autonomía y la metacognición del alumno.",
     "rel_tec": [
-      "TEC_PROD"
+      "TEC_PROD",
+      "TEC_PROC_REFLEX",
+      "TEC_ENTREV_EVAL",
+      "TEC_ANAL_DOC",
+      "TEC_INTER_DIG"
     ],
     "rel_her": [
       "HER_PANEL",
@@ -2636,7 +2690,11 @@
     "Dimensiones asociadas": "Evidencias digitales",
     "rel_meta": {
       "rel_tec": {
-        "TEC_PROD": "complementaria"
+        "TEC_PROD": "complementaria",
+        "TEC_PROC_REFLEX": "complementaria",
+        "TEC_ENTREV_EVAL": "complementaria",
+        "TEC_ANAL_DOC": "principal",
+        "TEC_INTER_DIG": "complementaria"
       },
       "rel_dim": {
         "DIM_DIG": "principal"
@@ -2652,7 +2710,7 @@
     "Instrumento": "KPSI",
     "Tipo": "Diagnóstico/autoevaluación",
     "Descripción breve": "Cuestionario de percepción de conocimientos o habilidades.",
-    "Técnicas asociadas": "Sondeo y cuestionamiento",
+    "Técnicas asociadas": "Sondeo y cuestionamiento; Encuesta y cuestionario",
     "Evidencia": "Autopercepción",
     "Adecuado para": "Conocimientos previos; confianza; evolución.",
     "Herramientas recomendadas": "Escala de autoevaluación; Formulario digital; Registro descriptivo",
@@ -2662,7 +2720,8 @@
     "Etiquetas": "KPSI",
     "Descripción detallada": "El KPSI (Knowledge and Prior Study Inventory) es un cuestionario de evaluación diagnóstica en el que el alumno indica, para cada concepto o habilidad del tema, si lo sabe (y puede explicarlo), cree que lo sabe, no lo sabe o no lo entiende.\n\nCómo usarlo para evaluar: se aplica al inicio de una unidad o proyecto para detectar conocimientos previos y concepciones erróneas. No tiene función calificadora. Al finalizar la unidad, puede repetirse para que el alumno vea su propio progreso.\n\nEs una herramienta de diagnóstico rápida y valiosa que permite al docente ajustar la planificación y al alumno tomar conciencia de lo que ya sabe y lo que necesita aprender.",
     "rel_tec": [
-      "TEC_SONDEO"
+      "TEC_SONDEO",
+      "TEC_ENC_CUEST"
     ],
     "rel_her": [
       "HER_ESC_AUTO",
@@ -2676,7 +2735,8 @@
     "Dimensiones asociadas": "Finalidad diagnóstica; Autoevaluación",
     "rel_meta": {
       "rel_tec": {
-        "TEC_SONDEO": "principal"
+        "TEC_SONDEO": "principal",
+        "TEC_ENC_CUEST": "principal"
       },
       "rel_dim": {
         "DIM_DIAG": "principal",
@@ -2798,16 +2858,20 @@
       "HER_LISTA"
     ],
     "rel_dim": [
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_CONT",
+      "DIM_FEED"
     ],
-    "Dimensiones asociadas": "Finalidad formativa",
+    "Dimensiones asociadas": "Finalidad formativa; Evaluación continua; Retroalimentación y feedforward",
     "rel_meta": {
       "rel_tec": {
         "TEC_PROC_REFLEX": "principal",
         "TEC_PROD": "complementaria"
       },
       "rel_dim": {
-        "DIM_FORM": "principal"
+        "DIM_FORM": "principal",
+        "DIM_CONT": "principal",
+        "DIM_FEED": "principal"
       },
       "rel_her": {
         "HER_FICHA_RETRO": "principal",
@@ -2839,16 +2903,20 @@
       "HER_FICHA_RETRO"
     ],
     "rel_dim": [
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_CONT",
+      "DIM_FEED"
     ],
-    "Dimensiones asociadas": "Finalidad formativa",
+    "Dimensiones asociadas": "Finalidad formativa; Evaluación continua; Retroalimentación y feedforward",
     "rel_meta": {
       "rel_tec": {
         "TEC_PROC_REFLEX": "principal",
         "TEC_PROD": "complementaria"
       },
       "rel_dim": {
-        "DIM_FORM": "principal"
+        "DIM_FORM": "principal",
+        "DIM_CONT": "principal",
+        "DIM_FEED": "complementaria"
       },
       "rel_her": {
         "HER_HOJA_IND": "principal",
@@ -2923,16 +2991,20 @@
     ],
     "rel_dim": [
       "DIM_COEV",
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_FEED",
+      "DIM_COMPART"
     ],
-    "Dimensiones asociadas": "Coevaluación; Finalidad formativa",
+    "Dimensiones asociadas": "Coevaluación; Finalidad formativa; Retroalimentación y feedforward; Evaluación compartida y participativa",
     "rel_meta": {
       "rel_tec": {
         "TEC_PROC_REFLEX": "principal"
       },
       "rel_dim": {
         "DIM_COEV": "principal",
-        "DIM_FORM": "complementaria"
+        "DIM_FORM": "complementaria",
+        "DIM_FEED": "principal",
+        "DIM_COMPART": "principal"
       },
       "rel_her": {
         "HER_FICHA_COEV": "principal",
@@ -2964,16 +3036,18 @@
     ],
     "rel_dim": [
       "DIM_COEV",
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_FEED"
     ],
-    "Dimensiones asociadas": "Coevaluación; Finalidad formativa",
+    "Dimensiones asociadas": "Coevaluación; Finalidad formativa; Retroalimentación y feedforward",
     "rel_meta": {
       "rel_tec": {
         "TEC_PROC_REFLEX": "principal"
       },
       "rel_dim": {
         "DIM_COEV": "principal",
-        "DIM_FORM": "complementaria"
+        "DIM_FORM": "complementaria",
+        "DIM_FEED": "principal"
       },
       "rel_her": {
         "HER_FICHA_RETRO": "principal",
@@ -3028,7 +3102,7 @@
     "Instrumento": "Billete de salida",
     "Tipo": "Autoevaluación/formativa",
     "Descripción breve": "Respuesta breve al final de la sesión.",
-    "Técnicas asociadas": "Sondeo y cuestionamiento",
+    "Técnicas asociadas": "Sondeo y cuestionamiento; Encuesta y cuestionario",
     "Evidencia": "Respuesta breve",
     "Adecuado para": "Dudas; aprendizaje; cierre de clase.",
     "Herramientas recomendadas": "Formulario digital; Lista de cotejo o control; Ficha de retroalimentación",
@@ -3038,7 +3112,8 @@
     "Etiquetas": "billete salida",
     "Descripción detallada": "El billete de salida (exit ticket) es una respuesta breve que el alumno entrega al final de la clase para mostrar qué aprendió, qué duda le quedó o cómo aplicaría lo aprendido. Es una forma rápida de evaluación formativa al cierre de la sesión.\n\nCómo usarlo para evaluar: puede ser una pregunta escrita en papel o un formulario digital. El docente revisa las respuestas antes de la siguiente clase para identificar qué alumnos necesitan más apoyo y qué conceptos hay que reforzar.\n\nEs una de las estrategias de evaluación formativa más sencillas y efectivas. Con cinco minutos al final de cada clase, el docente obtiene información valiosa sobre el estado real del aprendizaje del grupo.",
     "rel_tec": [
-      "TEC_SONDEO"
+      "TEC_SONDEO",
+      "TEC_ENC_CUEST"
     ],
     "rel_her": [
       "HER_FORM_DIG",
@@ -3052,7 +3127,8 @@
     "Dimensiones asociadas": "Autoevaluación; Finalidad formativa",
     "rel_meta": {
       "rel_tec": {
-        "TEC_SONDEO": "principal"
+        "TEC_SONDEO": "principal",
+        "TEC_ENC_CUEST": "complementaria"
       },
       "rel_dim": {
         "DIM_AUTO": "complementaria",
@@ -3064,5 +3140,383 @@
         "HER_FICHA_RETRO": "complementaria"
       }
     }
+  },
+  {
+    "Código": "INS_LIBRO_ABIERTO",
+    "Instrumento": "Prueba de libro abierto",
+    "Tipo": "Prueba competencial",
+    "Descripción breve": "Prueba en la que el alumnado puede consultar materiales autorizados.",
+    "Técnicas asociadas": "Pruebas específicas",
+    "Evidencia": "Respuesta escrita aplicada",
+    "Adecuado para": "Aplicación; análisis; transferencia; uso crítico de fuentes.",
+    "Herramientas recomendadas": "Guía de corrección; Rúbrica analítica; Baremo",
+    "Complejidad": "Media/Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "libro abierto; fuentes; aplicacion",
+    "Descripción detallada": "La prueba de libro abierto permite consultar materiales durante la realización de la tarea. Su valor no está en recordar datos, sino en seleccionar, interpretar y aplicar información con criterio.\n\nCómo usarla para evaluar: las preguntas deben exigir razonamiento, transferencia o resolución de problemas; si solo piden localizar datos, la prueba pierde sentido. Conviene delimitar qué recursos se pueden usar y explicar los criterios de corrección.\n\nEs adecuada para evaluar comprensión profunda, manejo de fuentes y aplicación en contextos nuevos.",
+    "rel_tec": [
+      "TEC_PRUEBA"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_RUB_ANA",
+      "HER_BAREMO"
+    ],
+    "rel_dim": [
+      "DIM_COMP",
+      "DIM_CRIT",
+      "DIM_HET"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal"
+      },
+      "rel_dim": {
+        "DIM_COMP": "principal",
+        "DIM_CRIT": "complementaria",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "principal",
+        "HER_RUB_ANA": "complementaria",
+        "HER_BAREMO": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Enfoque competencial; Evaluación criterial; Heteroevaluación"
+  },
+  {
+    "Código": "INS_TAREA_COMP_INT",
+    "Instrumento": "Tarea competencial integrada",
+    "Tipo": "Prueba competencial",
+    "Descripción breve": "Tarea compleja que integra varios aprendizajes en un contexto significativo.",
+    "Técnicas asociadas": "Análisis de producciones; Observación sistemática; Triangulación de evidencias",
+    "Evidencia": "Actuación contextualizada",
+    "Adecuado para": "Competencias; transferencia; integración de saberes.",
+    "Herramientas recomendadas": "Rúbrica competencial; Mapa de evidencias por criterio; Lista de indicadores por criterio",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "competencial; integrada; transferencia",
+    "Descripción detallada": "La tarea competencial integrada propone una situación significativa en la que el alumnado debe movilizar varios saberes, procedimientos y actitudes para producir una respuesta o producto.\n\nCómo usarla para evaluar: se vincula cada parte de la tarea con criterios concretos y se recogen evidencias suficientes del proceso y del resultado. Una rúbrica competencial y un mapa de evidencias ayudan a mantener la alineación.\n\nEs una de las formas más potentes de evaluación competencial, siempre que la situación sea auténtica y no una suma artificial de ejercicios.",
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_OBS_SIS",
+      "TEC_TRIANG"
+    ],
+    "rel_her": [
+      "HER_RUB_COMP",
+      "HER_MAP_EVID",
+      "HER_IND_CRIT"
+    ],
+    "rel_dim": [
+      "DIM_COMP",
+      "DIM_CRIT",
+      "DIM_INCL",
+      "DIM_CAL_ACRED"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal",
+        "TEC_OBS_SIS": "complementaria",
+        "TEC_TRIANG": "principal"
+      },
+      "rel_dim": {
+        "DIM_COMP": "principal",
+        "DIM_CRIT": "principal",
+        "DIM_INCL": "principal",
+        "DIM_CAL_ACRED": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_COMP": "principal",
+        "HER_MAP_EVID": "principal",
+        "HER_IND_CRIT": "principal"
+      }
+    },
+    "Dimensiones asociadas": "Enfoque competencial; Evaluación criterial; Evaluación inclusiva y DUA; Calificación y acreditación"
+  },
+  {
+    "Código": "INS_SIT_PROB",
+    "Instrumento": "Situación-problema",
+    "Tipo": "Prueba/desempeño",
+    "Descripción breve": "Situación contextualizada que exige analizar un problema y proponer una solución.",
+    "Técnicas asociadas": "Pruebas específicas; Análisis de producciones",
+    "Evidencia": "Respuesta aplicada",
+    "Adecuado para": "Razonamiento; toma de decisiones; transferencia.",
+    "Herramientas recomendadas": "Rúbrica analítica; Guía de corrección; Lista de indicadores por criterio",
+    "Complejidad": "Media/Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "situacion problema; transferencia",
+    "Descripción detallada": "La situación-problema plantea un contexto con datos, restricciones o necesidades que el alumnado debe interpretar para proponer una respuesta justificada.\n\nCómo usarla para evaluar: el enunciado debe ser claro, contextualizado y abierto en la medida justa. La corrección debe valorar el razonamiento, la pertinencia de la solución y la justificación, no solo el resultado final.\n\nEs especialmente adecuada para matemáticas, ciencias, tecnología y materias donde se evalúa transferencia a contextos reales.",
+    "rel_tec": [
+      "TEC_PRUEBA",
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_GUIA_CORR",
+      "HER_IND_CRIT"
+    ],
+    "rel_dim": [
+      "DIM_PROB",
+      "DIM_COMP",
+      "DIM_CRIT"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal",
+        "TEC_PROD": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_PROB": "principal",
+        "DIM_COMP": "complementaria",
+        "DIM_CRIT": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_GUIA_CORR": "complementaria",
+        "HER_IND_CRIT": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Resolución de problemas; Enfoque competencial; Evaluación criterial"
+  },
+  {
+    "Código": "INS_ESCAPE",
+    "Instrumento": "Escape room o reto gamificado",
+    "Tipo": "Desempeño",
+    "Descripción breve": "Secuencia de retos con reglas de juego para resolver problemas o aplicar aprendizajes.",
+    "Técnicas asociadas": "Observación sistemática; Análisis de producciones",
+    "Evidencia": "Actuación grupal",
+    "Adecuado para": "Colaboración; resolución de problemas; aplicación rápida.",
+    "Herramientas recomendadas": "Guía de observación; Rúbrica de trabajo cooperativo; Registro anecdótico",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "gamificacion; escape room; reto",
+    "Descripción detallada": "El escape room o reto gamificado usa dinámicas de juego para que el alumnado resuelva pruebas encadenadas, aplique conocimientos y coopere bajo unas reglas.\n\nCómo usarlo para evaluar: se observan tanto las soluciones como el proceso de colaboración, reparto de tareas, comunicación y uso de estrategias. Una guía de observación evita que la evaluación dependa solo del resultado lúdico.\n\nConviene usarlo con criterios claros, porque la motivación del juego puede ocultar quién aprende, quién lidera o quién queda al margen.",
+    "rel_tec": [
+      "TEC_OBS_SIS",
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_GUIA_OBS",
+      "HER_RUB_COOP",
+      "HER_REG_ANE"
+    ],
+    "rel_dim": [
+      "DIM_SIM",
+      "DIM_PROB",
+      "DIM_COMPART"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal",
+        "TEC_PROD": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_SIM": "principal",
+        "DIM_PROB": "complementaria",
+        "DIM_COMPART": "complementaria"
+      },
+      "rel_her": {
+        "HER_GUIA_OBS": "principal",
+        "HER_RUB_COOP": "complementaria",
+        "HER_REG_ANE": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Simulación; Resolución de problemas; Evaluación compartida y participativa"
+  },
+  {
+    "Código": "INS_SEMINARIO",
+    "Instrumento": "Seminario socrático",
+    "Tipo": "Oral",
+    "Descripción breve": "Diálogo estructurado a partir de preguntas abiertas y evidencias.",
+    "Técnicas asociadas": "Intercambios orales; Entrevista evaluativa",
+    "Evidencia": "Actuación oral",
+    "Adecuado para": "Pensamiento crítico; argumentación; comprensión profunda.",
+    "Herramientas recomendadas": "Rúbrica oral; Guía de observación; Registro de participación",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "socratico; seminario; dialogo",
+    "Descripción detallada": "El seminario socrático es un diálogo estructurado en torno a preguntas abiertas, textos, casos o problemas. El alumnado construye respuestas escuchando, argumentando y preguntando.\n\nCómo usarlo para evaluar: se prepara una pregunta central, se acuerdan normas de participación y se registra la calidad de las intervenciones con una rúbrica oral o guía de observación.\n\nPermite evaluar pensamiento crítico y comprensión profunda, pero requiere entrenamiento en escucha y argumentación.",
+    "rel_tec": [
+      "TEC_ORAL",
+      "TEC_ENTREV_EVAL"
+    ],
+    "rel_her": [
+      "HER_RUB_ORAL",
+      "HER_GUIA_OBS",
+      "HER_REG_PART"
+    ],
+    "rel_dim": [
+      "DIM_DESEMP",
+      "DIM_COMPART",
+      "DIM_FORM"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ORAL": "principal",
+        "TEC_ENTREV_EVAL": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_DESEMP": "principal",
+        "DIM_COMPART": "complementaria",
+        "DIM_FORM": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ORAL": "principal",
+        "HER_GUIA_OBS": "complementaria",
+        "HER_REG_PART": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Evidencia de desempeño; Evaluación compartida y participativa; Finalidad formativa"
+  },
+  {
+    "Código": "INS_CHECK_LAB",
+    "Instrumento": "Checklist de laboratorio",
+    "Tipo": "Observación",
+    "Descripción breve": "Lista de comprobación de procedimientos, seguridad y registro de datos en laboratorio.",
+    "Técnicas asociadas": "Observación sistemática",
+    "Evidencia": "Actuación práctica",
+    "Adecuado para": "Seguridad; procedimientos; uso de material; toma de datos.",
+    "Herramientas recomendadas": "Lista de cotejo o control; Guía de observación; Registro anecdótico",
+    "Complejidad": "Baja/Media",
+    "Fase": "Proceso",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "laboratorio; checklist; seguridad",
+    "Descripción detallada": "El checklist de laboratorio recoge indicadores observables sobre seguridad, manejo de material, seguimiento del protocolo, limpieza y toma de datos.\n\nCómo usarlo para evaluar: se usa durante la práctica o al finalizarla, marcando si cada conducta o requisito aparece. Puede ser docente, de autoevaluación o de coevaluación en parejas.\n\nEs útil porque hace visibles procedimientos que un informe final no muestra.",
+    "rel_tec": [
+      "TEC_OBS_SIS"
+    ],
+    "rel_her": [
+      "HER_LISTA",
+      "HER_GUIA_OBS",
+      "HER_REG_ANE"
+    ],
+    "rel_dim": [
+      "DIM_DESEMP",
+      "DIM_FORM",
+      "DIM_AUTO"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal"
+      },
+      "rel_dim": {
+        "DIM_DESEMP": "principal",
+        "DIM_FORM": "complementaria",
+        "DIM_AUTO": "ocasional"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal",
+        "HER_GUIA_OBS": "complementaria",
+        "HER_REG_ANE": "ocasional"
+      }
+    },
+    "Dimensiones asociadas": "Evidencia de desempeño; Finalidad formativa; Autoevaluación"
+  },
+  {
+    "Código": "INS_CUAD_DIG",
+    "Instrumento": "Cuaderno digital",
+    "Tipo": "Digital/proceso",
+    "Descripción breve": "Registro digital continuado de actividades, notas, evidencias y reflexiones.",
+    "Técnicas asociadas": "Análisis documental; Análisis de interacciones digitales; Análisis de procesos y reflexiones",
+    "Evidencia": "Producción acumulativa",
+    "Adecuado para": "Seguimiento; organización; progreso; evidencias digitales.",
+    "Herramientas recomendadas": "Historial de revisión; Panel de progreso; Banco digital de evidencias",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Alumno/Docente",
+    "Etiquetas": "cuaderno digital; seguimiento; evidencias",
+    "Descripción detallada": "El cuaderno digital es un espacio de trabajo donde el alumno conserva actividades, apuntes, respuestas, evidencias y reflexiones en formato digital.\n\nCómo usarlo para evaluar: el docente revisa entradas seleccionadas, evolución, correcciones y organización. El historial de revisión puede mostrar progreso y constancia, pero debe interpretarse junto con la calidad de las evidencias.\n\nEs útil para evaluación continua y competencia digital, siempre que haya criterios claros de revisión.",
+    "rel_tec": [
+      "TEC_ANAL_DOC",
+      "TEC_INTER_DIG",
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_HIST_REV",
+      "HER_PANEL",
+      "HER_BANCO_EVID"
+    ],
+    "rel_dim": [
+      "DIM_DIG",
+      "DIM_CONT",
+      "DIM_INCL"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ANAL_DOC": "principal",
+        "TEC_INTER_DIG": "complementaria",
+        "TEC_PROC_REFLEX": "principal"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal",
+        "DIM_CONT": "principal",
+        "DIM_INCL": "complementaria"
+      },
+      "rel_her": {
+        "HER_HIST_REV": "principal",
+        "HER_PANEL": "complementaria",
+        "HER_BANCO_EVID": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Evidencias digitales; Evaluación continua; Evaluación inclusiva y DUA"
+  },
+  {
+    "Código": "INS_EPORT_SEL",
+    "Instrumento": "E-portfolio con evidencias seleccionadas",
+    "Tipo": "Digital/proceso",
+    "Descripción breve": "Portfolio digital donde el alumnado selecciona y justifica evidencias de aprendizaje.",
+    "Técnicas asociadas": "Análisis documental; Análisis de procesos y reflexiones; Triangulación de evidencias",
+    "Evidencia": "Producción acumulativa",
+    "Adecuado para": "Progreso; metacognición; evaluación criterial; acreditación.",
+    "Herramientas recomendadas": "Mapa de evidencias por criterio; Banco digital de evidencias; Escala de progreso",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Alumno/Docente",
+    "Etiquetas": "eportfolio; evidencias; seleccion",
+    "Descripción detallada": "El e-portfolio con evidencias seleccionadas no es solo una carpeta de trabajos: exige que el alumnado elija evidencias, explique por qué demuestran determinados criterios y reflexione sobre su progreso.\n\nCómo usarlo para evaluar: se define qué criterios deben evidenciarse, cuántas evidencias se seleccionan y cómo se justifican. El mapa de evidencias por criterio permite comprobar cobertura y calidad.\n\nEs especialmente adecuado para evaluación continua, criterial y competencial.",
+    "rel_tec": [
+      "TEC_ANAL_DOC",
+      "TEC_PROC_REFLEX",
+      "TEC_TRIANG"
+    ],
+    "rel_her": [
+      "HER_MAP_EVID",
+      "HER_BANCO_EVID",
+      "HER_ESC_PROG"
+    ],
+    "rel_dim": [
+      "DIM_CRIT",
+      "DIM_CONT",
+      "DIM_FEED",
+      "DIM_CAL_ACRED",
+      "DIM_COMPART",
+      "DIM_INCL"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ANAL_DOC": "principal",
+        "TEC_PROC_REFLEX": "principal",
+        "TEC_TRIANG": "principal"
+      },
+      "rel_dim": {
+        "DIM_CRIT": "principal",
+        "DIM_CONT": "principal",
+        "DIM_FEED": "complementaria",
+        "DIM_CAL_ACRED": "complementaria",
+        "DIM_COMPART": "complementaria",
+        "DIM_INCL": "principal"
+      },
+      "rel_her": {
+        "HER_MAP_EVID": "principal",
+        "HER_BANCO_EVID": "principal",
+        "HER_ESC_PROG": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Evaluación criterial; Evaluación continua; Retroalimentación y feedforward; Calificación y acreditación; Evaluación compartida y participativa; Evaluación inclusiva y DUA"
   }
 ]
