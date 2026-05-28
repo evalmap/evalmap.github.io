@@ -56,7 +56,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Diari d'aprenentatge; Portafoli; Contracte d'aprenentatge; Fitxa de reflexió; Autoinforme; KPSI; Semàfor d'aprenentatge; Bitllet de sortida; Llista de verificació de laboratori",
-    "Instrumentos de evaluación recomendados": "Escala d'autoavaluació; Diana d'avaluació; Rúbrica d'autoavaluació; Llista de verificació o control; Semàfor d'avaluació; Llista de verificació d'autoavaluació; Registre de compromisos de millora"
+    "Instrumentos de evaluación recomendados": "Escala d'autoavaluació; Diana d'avaluació; Rúbrica d'autoavaluació; Llista de verificació o control; Semàfor d'avaluació; Llista de verificació d'autoavaluació; Registre de compromisos de millora",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "DIM_COEV",
@@ -113,7 +117,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Treball cooperatiu; Debat; Assemblea; Exposició oral; Acta de reunió; Document col·laboratiu; Revisió entre iguals; Dues estrelles i un desig",
-    "Instrumentos de evaluación recomendados": "Rúbrica de coavaluació; Escala d'observació; Formulari digital; Rúbrica oral; Rúbrica de treball cooperatiu; Registre de treball cooperatiu; Fitxa de coavaluació"
+    "Instrumentos de evaluación recomendados": "Rúbrica de coavaluació; Escala d'observació; Formulari digital; Rúbrica oral; Rúbrica de treball cooperatiu; Registre de treball cooperatiu; Fitxa de coavaluació",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Parejas / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_HET",
@@ -188,7 +196,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Pràctica de laboratori; Exposició oral; Defensa de projecte; Portafoli; Informe de laboratori; Informe de recerca; Monografia; Assaig; Prova escrita de desenvolupament; Prova objectiva; Prova tipus test; Prova de resposta curta; Prova oral; Prova pràctica; Prova competencial contextualitzada; Prova amb documents; Treball cooperatiu; Prova de llibre obert",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció; Llista de verificació o control; Escala d'observació; Quadern de qualificacions; Acta d'avaluació"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció; Llista de verificació o control; Escala d'observació; Quadern de qualificacions; Acta d'avaluació",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_DIAG",
@@ -225,7 +237,11 @@
       }
     },
     "tipo_entidad": "dimension",
-    "Medios/evidencias asociados": "Mapa conceptual; Prova objectiva; Prova tipus test; Prova de resposta curta; KPSI; Mapa conceptual inicial; Pluja d'idees"
+    "Medios/evidencias asociados": "Mapa conceptual; Prova objectiva; Prova tipus test; Prova de resposta curta; KPSI; Mapa conceptual inicial; Pluja d'idees",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "DIM_FORM",
@@ -356,7 +372,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Treball individual a l'aula; Participació a classe; Col·loqui; Assemblea; Entrevista; Pregunta oral estructurada; Quadern de classe; Diari d'aprenentatge; Portafoli; Resum; Esquema; Mapa mental; Glossari; Fitxa de lectura; Pla de treball; Contracte d'aprenentatge; Fitxa de reflexió; Prova de resposta curta; Document col·laboratiu; Pluja d'idees; Esborrany; Lliurament parcial; Quadern de bitàcola de projecte; Revisió entre iguals; Dues estrelles i un desig; Semàfor d'aprenentatge; Bitllet de sortida; Treball cooperatiu; Seminari socràtic; Llista de verificació de laboratori",
-    "Instrumentos de evaluación recomendados": "Fitxa de retroalimentació; Llista de verificació o control; Escala d'observació; Escala de valoració; Registre descriptiu; Diari del professor; Full de seguiment grupal; Registre de participació; Notes de camp; Fitxa de valoració; Semàfor d'avaluació; Registre de compromisos de millora; Escala verbal; Historial de revisió; Tauler de progrés; Analítiques d'aprenentatge; Banc digital d'evidències; Escala de progrés; Guia d'observació; Plantilla de feedback/feedforward; Contracte de grup; Sociograma"
+    "Instrumentos de evaluación recomendados": "Fitxa de retroalimentació; Llista de verificació o control; Escala d'observació; Escala de valoració; Registre descriptiu; Diari del professor; Full de seguiment grupal; Registre de participació; Notes de camp; Fitxa de valoració; Semàfor d'avaluació; Registre de compromisos de millora; Escala verbal; Historial de revisió; Tauler de progrés; Analítiques d'aprenentatge; Banc digital d'evidències; Escala de progrés; Guia d'observació; Plantilla de feedback/feedforward; Contracte de grup; Sociograma",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_SUM",
@@ -447,7 +467,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Exposició oral; Monografia; Assaig; Comentari de text; Ressenya; Article de divulgació; Autoinforme; Prova escrita de desenvolupament; Prova objectiva; Prova tipus test; Prova oral; Prova amb documents",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció; Barem; Quadern de qualificacions; Rúbrica global o holística; Rúbrica de producte; Rúbrica oral; Escala de valoració; Plantilla de correcció; Fitxa de valoració; Matriu de valoració; Taula de qualificació per criteris; Matriu de ponderació; Escala numèrica; Escala verbal; Conversor de nivells a qualificació; Full de càlcul d'avaluació; Informe individual d'avaluació; Acta d'avaluació; Rúbrica digital"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció; Barem; Quadern de qualificacions; Rúbrica global o holística; Rúbrica de producte; Rúbrica oral; Escala de valoració; Plantilla de correcció; Fitxa de valoració; Matriu de valoració; Taula de qualificació per criteris; Matriu de ponderació; Escala numèrica; Escala verbal; Conversor de nivells a qualificació; Full de càlcul d'avaluació; Informe individual d'avaluació; Acta d'avaluació; Rúbrica digital",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_COMP",
@@ -516,7 +540,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Assaig; Comentari de text; Línia del temps; Ressenya; Article de divulgació; Estudi de cas; Prova competencial contextualitzada; Prova amb documents; Infografia; Pòster acadèmic; Còmic; Prova de llibre obert; Tasca competencial integrada; Situació-problema",
-    "Instrumentos de evaluación recomendados": "Rúbrica competencial; Perfil d'assoliment; Matriu de valoració; Banc de descriptors; Taula de qualificació per criteris; Llista d'indicadors per criteri; Mapa d'evidències per criteri"
+    "Instrumentos de evaluación recomendados": "Rúbrica competencial; Perfil d'assoliment; Matriu de valoració; Banc de descriptors; Taula de qualificació per criteris; Llista d'indicadors per criteri; Mapa d'evidències per criteri",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_DESEMP",
@@ -591,7 +619,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Participació a classe; Col·loqui; Taller; Simulació; Exposició oral; Defensa de projecte; Entrevista; Pregunta oral estructurada; Prova oral; Prova pràctica; Presentació digital; Videotutorial; Maqueta; Prototip; Treball cooperatiu; Seminari socràtic; Llista de verificació de laboratori",
-    "Instrumentos de evaluación recomendados": "Escala d'observació; Llista de verificació o control; Rúbrica de producte; Rúbrica oral; Registre descriptiu; Registre de participació; Guia d'observació"
+    "Instrumentos de evaluación recomendados": "Escala d'observació; Llista de verificació o control; Rúbrica de producte; Rúbrica oral; Registre descriptiu; Registre de participació; Guia d'observació",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "DIM_PROY",
@@ -640,7 +672,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Memòria de projecte; Pla de treball; Prototip; Quadern de bitàcola de projecte; Treball cooperatiu",
-    "Instrumentos de evaluación recomendados": "Full de seguiment individual; Rúbrica de procés; Rúbrica de treball cooperatiu; Full de seguiment grupal; Registre de treball cooperatiu; Contracte de grup"
+    "Instrumentos de evaluación recomendados": "Full de seguiment individual; Rúbrica de procés; Rúbrica de treball cooperatiu; Full de seguiment grupal; Registre de treball cooperatiu; Contracte de grup",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Exterior",
+    "Agrupamiento": "Grupo pequeño / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_INDAG",
@@ -677,7 +713,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Pràctica de laboratori; Informe de laboratori; Informe de recerca",
-    "Instrumentos de evaluación recomendados": "Guia de correcció; Llista de verificació o control"
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Llista de verificació o control",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_PROB",
@@ -716,7 +756,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Comentari de gràfica o dades; Resolució de problemes; Situació-problema; Escape room o repte gamificat",
-    "Instrumentos de evaluación recomendados": "Guia de correcció; Escala descriptiva"
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Escala descriptiva",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_CASO",
@@ -749,7 +793,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Estudi de cas",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala descriptiva"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala descriptiva",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_SIM",
@@ -790,7 +838,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Simulació; Joc de rol; Dramatització; Escape room o repte gamificat",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala d'observació; Registre anecdòtic"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala d'observació; Registre anecdòtic",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Laboratorio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_DIG",
@@ -855,7 +907,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Qüestionari digital; Infografia; Presentació digital; Vídeo; Podcast; Model digital; Pàgina web; Entrada de blog; Fòrum de discussió; Document col·laboratiu; Portafoli digital; Quadern digital",
-    "Instrumentos de evaluación recomendados": "Rúbrica digital; Historial de revisió; Tauler de progrés; Full de càlcul d'avaluació; Formulari digital; Analítiques d'aprenentatge; Banc digital d'evidències"
+    "Instrumentos de evaluación recomendados": "Rúbrica digital; Historial de revisió; Tauler de progrés; Full de càlcul d'avaluació; Formulari digital; Analítiques d'aprenentatge; Banc digital d'evidències",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "DIM_CRIT",
@@ -898,7 +954,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Tasca competencial integrada; Situació-problema; E-portafoli amb evidències seleccionades; Prova de llibre obert",
-    "Instrumentos de evaluación recomendados": "Llista d'indicadors per criteri; Mapa d'evidències per criteri; Rúbrica competencial; Taula de qualificació per criteris"
+    "Instrumentos de evaluación recomendados": "Llista d'indicadors per criteri; Mapa d'evidències per criteri; Rúbrica competencial; Taula de qualificació per criteris",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_INCL",
@@ -963,7 +1023,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Tasca competencial integrada; Quadern digital; E-portafoli amb evidències seleccionades; Exposició oral; Vídeo; Podcast; Infografia; Mapa conceptual; Prova pràctica; Pràctica de laboratori; Entrevista; Portafoli; Document col·laboratiu; Fitxa de reflexió; Bitllet de sortida; Semàfor d'aprenentatge",
-    "Instrumentos de evaluación recomendados": "Escala de progrés; Plantilla de feedback/feedforward; Mapa d'evidències per criteri"
+    "Instrumentos de evaluación recomendados": "Escala de progrés; Plantilla de feedback/feedforward; Mapa d'evidències per criteri",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_CONT",
@@ -1006,7 +1070,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Quadern digital; E-portafoli amb evidències seleccionades; Lliurament parcial; Esborrany",
-    "Instrumentos de evaluación recomendados": "Escala de progrés; Tauler de progrés; Banc digital d'evidències; Full de seguiment individual"
+    "Instrumentos de evaluación recomendados": "Escala de progrés; Tauler de progrés; Banc digital d'evidències; Full de seguiment individual",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_FEED",
@@ -1049,7 +1117,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Esborrany; Revisió entre iguals; Dues estrelles i un desig; Lliurament parcial; E-portafoli amb evidències seleccionades",
-    "Instrumentos de evaluación recomendados": "Plantilla de feedback/feedforward; Fitxa de retroalimentació; Registre de compromisos de millora"
+    "Instrumentos de evaluación recomendados": "Plantilla de feedback/feedforward; Fitxa de retroalimentació; Registre de compromisos de millora",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_CAL_ACRED",
@@ -1092,7 +1164,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Prova competencial contextualitzada; Tasca competencial integrada; E-portafoli amb evidències seleccionades",
-    "Instrumentos de evaluación recomendados": "Taula de qualificació per criteris; Matriu de ponderació; Informe individual d'avaluació; Acta d'avaluació; Mapa d'evidències per criteri"
+    "Instrumentos de evaluación recomendados": "Taula de qualificació per criteris; Matriu de ponderació; Informe individual d'avaluació; Acta d'avaluació; Mapa d'evidències per criteri",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_COMPART",
@@ -1141,6 +1217,10 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Treball cooperatiu; Revisió entre iguals; Contracte d'aprenentatge; E-portafoli amb evidències seleccionades; Escape room o repte gamificat; Seminari socràtic",
-    "Instrumentos de evaluación recomendados": "Contracte de grup; Fitxa de coavaluació; Rúbrica de coavaluació; Registre de compromisos de millora; Sociograma"
+    "Instrumentos de evaluación recomendados": "Contracte de grup; Fitxa de coavaluació; Rúbrica de coavaluació; Registre de compromisos de millora; Sociograma",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   }
 ]

@@ -38,6 +38,10 @@ const state = {
   planMode:       false,
   planSelected:   new Map(), // code → { name, cat, item }
   planExpandedDim: null,     // dimension code currently expanded
+  gModalidad:    '',
+  gLugar:        '',
+  gAgrupamiento: '',
+  gResIA:        '',
 };
 
 let CAT_CONFIG = buildCatConfig(state.lang);
@@ -178,8 +182,10 @@ async function setLang(lang) {
   state.lang = lang;
   localStorage.setItem('evalmap_lang', lang);
   CAT_CONFIG = buildCatConfig(lang);
+  state.gModalidad = ''; state.gLugar = ''; state.gAgrupamiento = ''; state.gResIA = '';
   renderHome();
   updateStaticI18n();
+  renderGlobalFilters();
   await loadData();
   if (state.cat) {
     state.fase = ''; state.extra = ''; state.extra2 = ''; state.search = '';
@@ -272,6 +278,7 @@ function showCatalog(cat) {
   state.extra  = '';
   state.extra2 = '';
   state.search = '';
+  resetDetailEmpty();
   document.querySelector('.catalog-body').classList.remove('has-detail');
 
   const cfg = CAT_CONFIG[cat];
@@ -328,6 +335,104 @@ function showCatalog(cat) {
   if (state.planMode) renderPlanCoverage();
 }
 
+/* ── Global filters ───────────────────────────────────────── */
+const GF_STATE = {
+  modalidad: 'gModalidad', lugar: 'gLugar',
+  agrupamiento: 'gAgrupamiento', resistenciaIA: 'gResIA',
+};
+
+function setDetailEmpty(iconHtml, messageHtml) {
+  const el = document.getElementById('detail-empty');
+  el.querySelector('.empty-icon').innerHTML = iconHtml;
+  el.querySelector('p').innerHTML = messageHtml;
+}
+
+function resetDetailEmpty() {
+  setDetailEmpty('👈', i18n().selectHint);
+}
+
+function applyGlobalFilterToGraph() {
+  if (!detailCurrentItem) return;
+  if (matchGlobalFilters(detailCurrentItem)) {
+    renderGraph(detailCurrentItem, detailCurrentCat);
+  } else {
+    graphStop();
+    GRAPH.nodes = []; GRAPH.edges = [];
+    state.selectedName = null;
+    document.querySelectorAll('.cat-card').forEach(c =>
+      c.className = c.className.replace(/\bselected-\w+\b/g, '').trim());
+    document.getElementById('detail-content').style.display = 'none';
+    document.getElementById('detail-empty').style.display = '';
+    document.querySelector('.catalog-body').classList.remove('has-detail');
+    setDetailEmpty('⚙️', i18n().globalFiltersExcludedHint);
+    updateTabGraphCounts();
+  }
+}
+
+function matchGlobalFilters(item) {
+  const gf = i18n().globalFilters;
+  return (
+    matchField(item, gf.modalidad.field,     state.gModalidad) &&
+    matchField(item, gf.lugar.field,         state.gLugar) &&
+    matchField(item, gf.agrupamiento.field,  state.gAgrupamiento) &&
+    matchField(item, gf.resistenciaIA.field, state.gResIA)
+  );
+}
+
+function renderGlobalFilters() {
+  const wasOpen = document.getElementById('gf-popover')?.style.display !== 'none';
+  const i   = i18n();
+  const fvl = i.filterValLabels;
+  const gf  = i.globalFilters;
+  const bar = document.getElementById('global-filter-bar');
+
+  const activeCount = [state.gModalidad, state.gLugar, state.gAgrupamiento, state.gResIA]
+    .filter(Boolean).length;
+
+  const pills = Object.entries(gf).map(([key, cfg]) => {
+    const val = state[GF_STATE[key]];
+    if (!val) return '';
+    const short = key === 'resistenciaIA' ? `IA: ${fvl[val] || val}` : (fvl[val] || val);
+    return `<span class="gf-pill"><span>${short}</span><button class="gf-pill-x" type="button" data-gf="${key}" aria-label="Quitar">×</button></span>`;
+  }).join('');
+
+  const popoverRows = Object.entries(gf).map(([key, cfg]) => {
+    const cur = state[GF_STATE[key]];
+    return `
+      <div class="gf-group">
+        <span class="gf-group-label">${cfg.label}</span>
+        <div class="gf-chips">
+          <button class="chip${cur === '' ? ' active' : ''}" type="button" data-gf="${key}" data-gv="">${cfg.all}</button>
+          ${cfg.vals.map(v => `<button class="chip${cur === v ? ' active' : ''}" type="button" data-gf="${key}" data-gv="${v}">${fvl[v] || v}</button>`).join('')}
+        </div>
+      </div>`;
+  }).join('');
+
+  bar.innerHTML = `
+    <div class="gf-row">
+      <button class="gf-btn${activeCount ? ' gf-btn--on' : ''}" id="gf-trigger" type="button"
+              title="${i.globalFiltersBtnTitle}">
+        <svg class="gf-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M2 4h12M4 8h8M6 12h4"/></svg>
+        ${i.globalFiltersBtnLabel}${activeCount ? `<span class="gf-badge">${activeCount}</span>` : ''}
+        <span class="gf-arrow">▾</span>
+      </button>
+      <div class="gf-pills">${pills}</div>
+      ${activeCount ? `<button class="gf-clear" id="gf-clear" type="button">${i.globalFiltersClear}</button>` : ''}
+    </div>
+    <div class="gf-popover" id="gf-popover" style="display:none">
+      <div class="gf-pop-head">
+        <strong>${i.globalFiltersPopoverTitle}</strong>
+        <span>${i.globalFiltersPopoverSub}</span>
+      </div>
+      ${popoverRows}
+    </div>`;
+
+  if (wasOpen) {
+    document.getElementById('gf-popover').style.display = '';
+    document.getElementById('gf-trigger')?.classList.add('gf-btn--open');
+  }
+}
+
 /* ── Filtering helpers ────────────────────────────────────── */
 function matchField(item, key, value) {
   if (!value) return true;
@@ -367,6 +472,7 @@ function renderCards() {
     matchField(item, 'Fase', state.fase) &&
     matchField(item, cfg.extraFilterKey,  state.extra) &&
     matchField(item, cfg.extra2FilterKey, state.extra2) &&
+    matchGlobalFilters(item) &&
     matchSearch(item, cfg.nameKey, state.search)
   );
 
@@ -1103,6 +1209,53 @@ function initEvents() {
     renderCards();
   });
 
+  document.getElementById('global-filter-bar').addEventListener('click', e => {
+    e.stopPropagation(); // prevent document close-handler from firing on re-render
+    // Toggle popover
+    if (e.target.closest('#gf-trigger')) {
+      const pop = document.getElementById('gf-popover');
+      if (!pop) return;
+      const open = pop.style.display !== 'none';
+      pop.style.display = open ? 'none' : '';
+      document.getElementById('gf-trigger').classList.toggle('gf-btn--open', !open);
+      return;
+    }
+    // Chip inside popover
+    const chip = e.target.closest('.gf-popover [data-gf]');
+    if (chip) {
+      state[GF_STATE[chip.dataset.gf]] = chip.dataset.gv;
+      renderGlobalFilters();       // re-render keeping popover open
+      applyGlobalFilterToGraph();
+      if (state.cat) renderCards();
+      return;
+    }
+    // × pill remove
+    const pillX = e.target.closest('.gf-pill-x');
+    if (pillX) {
+      state[GF_STATE[pillX.dataset.gf]] = '';
+      renderGlobalFilters();
+      applyGlobalFilterToGraph();
+      if (state.cat) renderCards();
+      return;
+    }
+    // Clear all
+    if (e.target.closest('#gf-clear')) {
+      state.gModalidad = ''; state.gLugar = ''; state.gAgrupamiento = ''; state.gResIA = '';
+      renderGlobalFilters();
+      applyGlobalFilterToGraph();
+      if (state.cat) renderCards();
+    }
+  });
+
+  // Close popover on outside click
+  document.addEventListener('click', e => {
+    if (!e.target.closest('#global-filter-bar')) {
+      const pop = document.getElementById('gf-popover');
+      if (pop) pop.style.display = 'none';
+      document.getElementById('gf-trigger')?.classList.remove('gf-btn--open');
+    }
+  });
+
   document.getElementById('filter-bar').addEventListener('click', e => {
     const faseChip   = e.target.closest('#filter-fase .chip');
     const extraChip  = e.target.closest('#filter-extra-chips .chip');
@@ -1578,6 +1731,7 @@ function exitPlanMode() {
   document.getElementById('btn-plan-mode').classList.remove('active');
   document.getElementById('plan-coverage-panel').style.display = 'none';
   document.getElementById('detail-empty').style.display = '';
+  resetDetailEmpty();
   updatePlanToolbar();
   renderCards();
 }
@@ -1701,6 +1855,7 @@ async function init() {
   initEvents();
   renderHome();
   updateStaticI18n();
+  renderGlobalFilters();
   await loadData();
 }
 

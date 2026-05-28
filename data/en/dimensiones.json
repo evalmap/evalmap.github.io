@@ -56,7 +56,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Learning journal; Learning portfolio; Learning contract; Reflection card; Self-report; KPSI; Learning traffic light; Exit ticket; Laboratory checklist",
-    "Instrumentos de evaluación recomendados": "Self-assessment scale; Assessment target; Self-assessment rubric; Checklist; Assessment traffic light; Self-assessment checklist; Improvement commitments record"
+    "Instrumentos de evaluación recomendados": "Self-assessment scale; Assessment target; Self-assessment rubric; Checklist; Assessment traffic light; Self-assessment checklist; Improvement commitments record",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "DIM_COEV",
@@ -113,7 +117,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Cooperative work; Debate; Assembly; Oral presentation; Meeting minutes; Collaborative document; Peer review; Two stars and a wish",
-    "Instrumentos de evaluación recomendados": "Peer assessment rubric; Observation scale; Digital form; Oral rubric; Cooperative work rubric; Cooperative work record; Peer assessment card"
+    "Instrumentos de evaluación recomendados": "Peer assessment rubric; Observation scale; Digital form; Oral rubric; Cooperative work rubric; Cooperative work record; Peer assessment card",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Parejas / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_HET",
@@ -188,7 +196,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Laboratory practice; Oral presentation; Project defense; Learning portfolio; Laboratory report; Research report; Monograph; Essay; Written development test; Objective test; Multiple choice test; Short answer test; Oral test; Practical test; Contextualized competency test; Document-based test; Cooperative work; Open book test",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Checklist; Observation scale; Grade book; Assessment record"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Checklist; Observation scale; Grade book; Assessment record",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_DIAG",
@@ -225,7 +237,11 @@
       }
     },
     "tipo_entidad": "dimension",
-    "Medios/evidencias asociados": "Concept map; Objective test; Multiple choice test; Short answer test; KPSI; Initial concept map; Brainstorming"
+    "Medios/evidencias asociados": "Concept map; Objective test; Multiple choice test; Short answer test; KPSI; Initial concept map; Brainstorming",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "DIM_FORM",
@@ -356,7 +372,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Individual classroom work; Class participation; Colloquium; Assembly; Interview; Structured oral question; Class notebook; Learning journal; Learning portfolio; Summary; Outline; Mind map; Glossary; Reading record; Work plan; Learning contract; Reflection card; Short answer test; Collaborative document; Brainstorming; Draft; Partial submission; Project logbook; Peer review; Two stars and a wish; Learning traffic light; Exit ticket; Cooperative work; Socratic seminar; Laboratory checklist",
-    "Instrumentos de evaluación recomendados": "Feedback card; Checklist; Observation scale; Rating scale; Descriptive record; Teacher's diary; Group tracking sheet; Participation record; Field notes; Assessment card; Assessment traffic light; Improvement commitments record; Verbal scale; Revision history; Progress dashboard; Learning analytics; Digital evidence bank; Progress scale; Observation guide; Feedback/feedforward template; Group contract; Sociogram"
+    "Instrumentos de evaluación recomendados": "Feedback card; Checklist; Observation scale; Rating scale; Descriptive record; Teacher's diary; Group tracking sheet; Participation record; Field notes; Assessment card; Assessment traffic light; Improvement commitments record; Verbal scale; Revision history; Progress dashboard; Learning analytics; Digital evidence bank; Progress scale; Observation guide; Feedback/feedforward template; Group contract; Sociogram",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_SUM",
@@ -447,7 +467,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Oral presentation; Monograph; Essay; Text commentary; Review; Popular science article; Self-report; Written development test; Objective test; Multiple choice test; Oral test; Document-based test",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Scoring scale; Grade book; Global or holistic rubric; Product rubric; Oral rubric; Rating scale; Correction template; Assessment card; Assessment matrix; Criteria grading table; Weighting matrix; Numerical scale; Verbal scale; Level-to-grade converter; Assessment spreadsheet; Individual assessment report; Assessment record; Digital rubric"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Scoring scale; Grade book; Global or holistic rubric; Product rubric; Oral rubric; Rating scale; Correction template; Assessment card; Assessment matrix; Criteria grading table; Weighting matrix; Numerical scale; Verbal scale; Level-to-grade converter; Assessment spreadsheet; Individual assessment report; Assessment record; Digital rubric",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_COMP",
@@ -516,7 +540,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Essay; Text commentary; Timeline; Review; Popular science article; Case study; Contextualized competency test; Document-based test; Infographic; Academic poster; Comic; Open book test; Integrated competency task; Problem situation",
-    "Instrumentos de evaluación recomendados": "Competency rubric; Achievement profile; Assessment matrix; Descriptor bank; Criteria grading table; List of indicators per criterion; Evidence map by criterion"
+    "Instrumentos de evaluación recomendados": "Competency rubric; Achievement profile; Assessment matrix; Descriptor bank; Criteria grading table; List of indicators per criterion; Evidence map by criterion",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_DESEMP",
@@ -591,7 +619,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Class participation; Colloquium; Workshop; Simulation; Oral presentation; Project defense; Interview; Structured oral question; Oral test; Practical test; Digital presentation; Video tutorial; Scale model; Prototype; Cooperative work; Socratic seminar; Laboratory checklist",
-    "Instrumentos de evaluación recomendados": "Observation scale; Checklist; Product rubric; Oral rubric; Descriptive record; Participation record; Observation guide"
+    "Instrumentos de evaluación recomendados": "Observation scale; Checklist; Product rubric; Oral rubric; Descriptive record; Participation record; Observation guide",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "DIM_PROY",
@@ -640,7 +672,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Project report; Work plan; Prototype; Project logbook; Cooperative work",
-    "Instrumentos de evaluación recomendados": "Individual tracking sheet; Process rubric; Cooperative work rubric; Group tracking sheet; Cooperative work record; Group contract"
+    "Instrumentos de evaluación recomendados": "Individual tracking sheet; Process rubric; Cooperative work rubric; Group tracking sheet; Cooperative work record; Group contract",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Exterior",
+    "Agrupamiento": "Grupo pequeño / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_INDAG",
@@ -677,7 +713,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Laboratory practice; Laboratory report; Research report",
-    "Instrumentos de evaluación recomendados": "Correction guide; Checklist"
+    "Instrumentos de evaluación recomendados": "Correction guide; Checklist",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_PROB",
@@ -716,7 +756,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Graph or data commentary; Problem solving; Problem situation; Escape room or gamified challenge",
-    "Instrumentos de evaluación recomendados": "Correction guide; Descriptive scale"
+    "Instrumentos de evaluación recomendados": "Correction guide; Descriptive scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_CASO",
@@ -749,7 +793,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Case study",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Descriptive scale"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Descriptive scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_SIM",
@@ -790,7 +838,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Simulation; Role play; Role-play performance; Escape room or gamified challenge",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Observation scale; Anecdotal record"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Observation scale; Anecdotal record",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Laboratorio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_DIG",
@@ -855,7 +907,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Digital questionnaire; Infographic; Digital presentation; Video; Podcast; Digital model; Website; Blog entry; Discussion forum; Collaborative document; Digital portfolio; Digital notebook",
-    "Instrumentos de evaluación recomendados": "Digital rubric; Revision history; Progress dashboard; Assessment spreadsheet; Digital form; Learning analytics; Digital evidence bank"
+    "Instrumentos de evaluación recomendados": "Digital rubric; Revision history; Progress dashboard; Assessment spreadsheet; Digital form; Learning analytics; Digital evidence bank",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "DIM_CRIT",
@@ -898,7 +954,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Integrated competency task; Problem situation; E-portfolio with selected evidence; Open book test",
-    "Instrumentos de evaluación recomendados": "List of indicators per criterion; Evidence map by criterion; Competency rubric; Criteria grading table"
+    "Instrumentos de evaluación recomendados": "List of indicators per criterion; Evidence map by criterion; Competency rubric; Criteria grading table",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_INCL",
@@ -963,7 +1023,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Integrated competency task; Digital notebook; E-portfolio with selected evidence; Oral presentation; Video; Podcast; Infographic; Concept map; Practical test; Laboratory practice; Interview; Learning portfolio; Collaborative document; Reflection card; Exit ticket; Learning traffic light",
-    "Instrumentos de evaluación recomendados": "Progress scale; Feedback/feedforward template; Evidence map by criterion"
+    "Instrumentos de evaluación recomendados": "Progress scale; Feedback/feedforward template; Evidence map by criterion",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_CONT",
@@ -1006,7 +1070,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Digital notebook; E-portfolio with selected evidence; Partial submission; Draft",
-    "Instrumentos de evaluación recomendados": "Progress scale; Progress dashboard; Digital evidence bank; Individual tracking sheet"
+    "Instrumentos de evaluación recomendados": "Progress scale; Progress dashboard; Digital evidence bank; Individual tracking sheet",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_FEED",
@@ -1049,7 +1117,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Draft; Peer review; Two stars and a wish; Partial submission; E-portfolio with selected evidence",
-    "Instrumentos de evaluación recomendados": "Feedback/feedforward template; Feedback card; Improvement commitments record"
+    "Instrumentos de evaluación recomendados": "Feedback/feedforward template; Feedback card; Improvement commitments record",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_CAL_ACRED",
@@ -1092,7 +1164,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Contextualized competency test; Integrated competency task; E-portfolio with selected evidence",
-    "Instrumentos de evaluación recomendados": "Criteria grading table; Weighting matrix; Individual assessment report; Assessment record; Evidence map by criterion"
+    "Instrumentos de evaluación recomendados": "Criteria grading table; Weighting matrix; Individual assessment report; Assessment record; Evidence map by criterion",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_COMPART",
@@ -1141,6 +1217,10 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Cooperative work; Peer review; Learning contract; E-portfolio with selected evidence; Escape room or gamified challenge; Socratic seminar",
-    "Instrumentos de evaluación recomendados": "Group contract; Peer assessment card; Peer assessment rubric; Improvement commitments record; Sociogram"
+    "Instrumentos de evaluación recomendados": "Group contract; Peer assessment card; Peer assessment rubric; Improvement commitments record; Sociogram",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   }
 ]

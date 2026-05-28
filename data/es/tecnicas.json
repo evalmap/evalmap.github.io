@@ -53,7 +53,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Debate; Exposición oral; Práctica de laboratorio; Taller; Trabajo cooperativo; Simulación; Trabajo individual en aula; Participación en clase; Asamblea; Dramatización; Prototipo",
-    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala de observación; Rúbrica analítica; Registro anecdótico"
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala de observación; Rúbrica analítica; Registro anecdótico",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_OBS_INC",
@@ -91,7 +95,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Trabajo individual en aula; Participación en clase; Trabajo cooperativo",
-    "Instrumentos de evaluación recomendados": "Registro anecdótico; Notas de campo; Diario del profesor"
+    "Instrumentos de evaluación recomendados": "Registro anecdótico; Notas de campo; Diario del profesor",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_PROD",
@@ -201,7 +209,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Cuaderno de clase; Informe de laboratorio; Defensa de proyecto; Ensayo; Infografía; Vídeo; Podcast; Maqueta; Porfolio; Informe de investigación; Monografía; Comentario de texto; Comentario de gráfica o datos; Resumen; Esquema; Mapa conceptual; Mapa mental; Línea del tiempo; Glosario; Ficha de lectura; Reseña; Artículo divulgativo; Memoria de proyecto; Estudio de caso; Prueba con documentos; Póster académico; Presentación digital; Videotutorial; Cómic; Modelo digital; Prototipo; Página web; Entrada de blog; Documento colaborativo; Portfolio digital; Mapa conceptual inicial; Borrador; Entrega parcial",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Escala descriptiva; Ficha de retroalimentación"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Escala descriptiva; Ficha de retroalimentación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "TEC_PRUEBA",
@@ -261,7 +273,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Prueba escrita de desarrollo; Prueba tipo test; Prueba oral; Prueba práctica; Cuestionario digital; Comentario de texto; Resolución de problemas; Estudio de caso; Prueba objetiva; Prueba de respuesta corta; Prueba competencial contextualizada; Prueba con documentos",
-    "Instrumentos de evaluación recomendados": "Guía de corrección; Baremo; Plantilla de corrección; Rúbrica analítica; Escala numérica"
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Baremo; Plantilla de corrección; Rúbrica analítica; Escala numérica",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "TEC_ORAL",
@@ -321,7 +337,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Debate; Coloquio; Entrevista; Exposición oral; Defensa de proyecto; Asamblea; Juego de rol; Pregunta oral estructurada; Prueba oral; Presentación digital; Podcast; Foro de discusión; Lluvia de ideas",
-    "Instrumentos de evaluación recomendados": "Rúbrica oral; Escala de observación; Lista de cotejo o control; Registro anecdótico"
+    "Instrumentos de evaluación recomendados": "Rúbrica oral; Escala de observación; Lista de cotejo o control; Registro anecdótico",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_SONDEO",
@@ -375,7 +395,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "KPSI; Mapa conceptual inicial; Lluvia de ideas; Billete de salida; Pregunta oral estructurada; Cuestionario digital; Prueba de respuesta corta; Prueba tipo test; Semáforo de aprendizaje",
-    "Instrumentos de evaluación recomendados": "Formulario digital; Escala de autoevaluación; Lista de cotejo o control; Registro descriptivo; Hoja de seguimiento individual"
+    "Instrumentos de evaluación recomendados": "Formulario digital; Escala de autoevaluación; Lista de cotejo o control; Registro descriptivo; Hoja de seguimiento individual",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_PROC_REFLEX",
@@ -445,7 +469,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Diario de aprendizaje; Ficha de reflexión; Autoinforme; Borrador; Entrega parcial; Bitácora de proyecto; Revisión por pares; Dos estrellas y un deseo; Semáforo de aprendizaje; Plan de trabajo; Acta de reunión; Contrato de aprendizaje; Documento colaborativo; Porfolio; Portfolio digital",
-    "Instrumentos de evaluación recomendados": "Rúbrica de proceso; Ficha de retroalimentación; Hoja de seguimiento individual; Registro de compromisos de mejora; Escala de autoevaluación; Historial de revisión; Panel de progreso"
+    "Instrumentos de evaluación recomendados": "Rúbrica de proceso; Ficha de retroalimentación; Hoja de seguimiento individual; Registro de compromisos de mejora; Escala de autoevaluación; Historial de revisión; Panel de progreso",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "TEC_ENTREV_EVAL",
@@ -485,7 +513,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Entrevista; Defensa de proyecto; Portfolio digital",
-    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica oral; Registro anecdótico; Guía de observación"
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica oral; Registro anecdótico; Guía de observación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_ENC_CUEST",
@@ -523,7 +555,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Cuestionario digital; KPSI; Billete de salida",
-    "Instrumentos de evaluación recomendados": "Formulario digital; Escala de autoevaluación; Plantilla de corrección"
+    "Instrumentos de evaluación recomendados": "Formulario digital; Escala de autoevaluación; Plantilla de corrección",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "TEC_ANAL_DOC",
@@ -563,7 +599,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Cuaderno de clase; Portfolio digital; Acta de reunión; Documento colaborativo",
-    "Instrumentos de evaluación recomendados": "Mapa de evidencias por criterio; Historial de revisión; Banco digital de evidencias"
+    "Instrumentos de evaluación recomendados": "Mapa de evidencias por criterio; Historial de revisión; Banco digital de evidencias",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "TEC_INTER_DIG",
@@ -603,7 +643,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Foro de discusión; Documento colaborativo; Cuaderno digital; Portfolio digital",
-    "Instrumentos de evaluación recomendados": "Historial de revisión; Analíticas de aprendizaje; Panel de progreso"
+    "Instrumentos de evaluación recomendados": "Historial de revisión; Analíticas de aprendizaje; Panel de progreso",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "TEC_TRIANG",
@@ -641,6 +685,10 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Tarea competencial integrada; E-portfolio con evidencias seleccionadas; Prueba competencial contextualizada",
-    "Instrumentos de evaluación recomendados": "Mapa de evidencias por criterio; Tabla de calificación por criterios; Perfil de logro"
+    "Instrumentos de evaluación recomendados": "Mapa de evidencias por criterio; Tabla de calificación por criterios; Perfil de logro",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   }
 ]

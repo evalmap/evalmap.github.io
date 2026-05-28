@@ -53,7 +53,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Debat; Exposició oral; Pràctica de laboratori; Taller; Treball cooperatiu; Simulació; Treball individual a l'aula; Participació a classe; Assemblea; Dramatització; Prototip",
-    "Instrumentos de evaluación recomendados": "Llista de verificació o control; Escala d'observació; Rúbrica analítica; Registre anecdòtic"
+    "Instrumentos de evaluación recomendados": "Llista de verificació o control; Escala d'observació; Rúbrica analítica; Registre anecdòtic",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_OBS_INC",
@@ -91,7 +95,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Treball individual a l'aula; Participació a classe; Treball cooperatiu",
-    "Instrumentos de evaluación recomendados": "Registre anecdòtic; Notes de camp; Diari del professor"
+    "Instrumentos de evaluación recomendados": "Registre anecdòtic; Notes de camp; Diari del professor",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_PROD",
@@ -201,7 +209,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Quadern de classe; Informe de laboratori; Defensa de projecte; Assaig; Infografia; Vídeo; Podcast; Maqueta; Portafoli; Informe de recerca; Monografia; Comentari de text; Comentari de gràfica o dades; Resum; Esquema; Mapa conceptual; Mapa mental; Línia del temps; Glossari; Fitxa de lectura; Ressenya; Article de divulgació; Memòria de projecte; Estudi de cas; Prova amb documents; Pòster acadèmic; Presentació digital; Videotutorial; Còmic; Model digital; Prototip; Pàgina web; Entrada de blog; Document col·laboratiu; Portafoli digital; Mapa conceptual inicial; Esborrany; Lliurament parcial",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció; Escala descriptiva; Fitxa de retroalimentació"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció; Escala descriptiva; Fitxa de retroalimentació",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "TEC_PRUEBA",
@@ -261,7 +273,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Prova escrita de desenvolupament; Prova tipus test; Prova oral; Prova pràctica; Qüestionari digital; Comentari de text; Resolució de problemes; Estudi de cas; Prova objectiva; Prova de resposta curta; Prova competencial contextualitzada; Prova amb documents",
-    "Instrumentos de evaluación recomendados": "Guia de correcció; Barem; Plantilla de correcció; Rúbrica analítica; Escala numèrica"
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Barem; Plantilla de correcció; Rúbrica analítica; Escala numèrica",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "TEC_ORAL",
@@ -321,7 +337,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Debat; Col·loqui; Entrevista; Exposició oral; Defensa de projecte; Assemblea; Joc de rol; Pregunta oral estructurada; Prova oral; Presentació digital; Podcast; Fòrum de discussió; Pluja d'idees",
-    "Instrumentos de evaluación recomendados": "Rúbrica oral; Escala d'observació; Llista de verificació o control; Registre anecdòtic"
+    "Instrumentos de evaluación recomendados": "Rúbrica oral; Escala d'observació; Llista de verificació o control; Registre anecdòtic",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_SONDEO",
@@ -375,7 +395,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "KPSI; Mapa conceptual inicial; Pluja d'idees; Bitllet de sortida; Pregunta oral estructurada; Qüestionari digital; Prova de resposta curta; Prova tipus test; Semàfor d'aprenentatge",
-    "Instrumentos de evaluación recomendados": "Formulari digital; Escala d'autoavaluació; Llista de verificació o control; Registre descriptiu; Full de seguiment individual"
+    "Instrumentos de evaluación recomendados": "Formulari digital; Escala d'autoavaluació; Llista de verificació o control; Registre descriptiu; Full de seguiment individual",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_PROC_REFLEX",
@@ -445,7 +469,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Diari d'aprenentatge; Fitxa de reflexió; Autoinforme; Esborrany; Lliurament parcial; Quadern de bitàcola de projecte; Revisió entre iguals; Dues estrelles i un desig; Semàfor d'aprenentatge; Pla de treball; Acta de reunió; Contracte d'aprenentatge; Document col·laboratiu; Portafoli; Portafoli digital",
-    "Instrumentos de evaluación recomendados": "Rúbrica de procés; Fitxa de retroalimentació; Full de seguiment individual; Registre de compromisos de millora; Escala d'autoavaluació; Historial de revisió; Tauler de progrés"
+    "Instrumentos de evaluación recomendados": "Rúbrica de procés; Fitxa de retroalimentació; Full de seguiment individual; Registre de compromisos de millora; Escala d'autoavaluació; Historial de revisió; Tauler de progrés",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "TEC_ENTREV_EVAL",
@@ -485,7 +513,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Entrevista; Defensa de projecte; Portafoli digital",
-    "Instrumentos de evaluación recomendados": "Guia de correcció; Rúbrica oral; Registre anecdòtic; Guia d'observació"
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Rúbrica oral; Registre anecdòtic; Guia d'observació",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_ENC_CUEST",
@@ -523,7 +555,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Qüestionari digital; KPSI; Bitllet de sortida",
-    "Instrumentos de evaluación recomendados": "Formulari digital; Escala d'autoavaluació; Plantilla de correcció"
+    "Instrumentos de evaluación recomendados": "Formulari digital; Escala d'autoavaluació; Plantilla de correcció",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "TEC_ANAL_DOC",
@@ -563,7 +599,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Quadern de classe; Portafoli digital; Acta de reunió; Document col·laboratiu",
-    "Instrumentos de evaluación recomendados": "Mapa d'evidències per criteri; Historial de revisió; Banc digital d'evidències"
+    "Instrumentos de evaluación recomendados": "Mapa d'evidències per criteri; Historial de revisió; Banc digital d'evidències",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "TEC_INTER_DIG",
@@ -603,7 +643,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Fòrum de discussió; Document col·laboratiu; Quadern digital; Portafoli digital",
-    "Instrumentos de evaluación recomendados": "Historial de revisió; Analítiques d'aprenentatge; Tauler de progrés"
+    "Instrumentos de evaluación recomendados": "Historial de revisió; Analítiques d'aprenentatge; Tauler de progrés",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "TEC_TRIANG",
@@ -641,6 +685,10 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Tasca competencial integrada; E-portafoli amb evidències seleccionades; Prova competencial contextualitzada",
-    "Instrumentos de evaluación recomendados": "Mapa d'evidències per criteri; Taula de qualificació per criteris; Perfil d'assoliment"
+    "Instrumentos de evaluación recomendados": "Mapa d'evidències per criteri; Taula de qualificació per criteris; Perfil d'assoliment",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   }
 ]

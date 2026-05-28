@@ -56,7 +56,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Diario de aprendizaje; Porfolio; Contrato de aprendizaje; Ficha de reflexión; Autoinforme; KPSI; Semáforo de aprendizaje; Billete de salida; Checklist de laboratorio",
-    "Instrumentos de evaluación recomendados": "Escala de autoevaluación; Diana de evaluación; Rúbrica de autoevaluación; Lista de cotejo o control; Semáforo de evaluación; Lista de cotejo de autoevaluación; Registro de compromisos de mejora"
+    "Instrumentos de evaluación recomendados": "Escala de autoevaluación; Diana de evaluación; Rúbrica de autoevaluación; Lista de cotejo o control; Semáforo de evaluación; Lista de cotejo de autoevaluación; Registro de compromisos de mejora",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "DIM_COEV",
@@ -113,7 +117,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Trabajo cooperativo; Debate; Asamblea; Exposición oral; Acta de reunión; Documento colaborativo; Revisión por pares; Dos estrellas y un deseo",
-    "Instrumentos de evaluación recomendados": "Rúbrica de coevaluación; Escala de observación; Formulario digital; Rúbrica oral; Rúbrica de trabajo cooperativo; Registro de trabajo cooperativo; Ficha de coevaluación"
+    "Instrumentos de evaluación recomendados": "Rúbrica de coevaluación; Escala de observación; Formulario digital; Rúbrica oral; Rúbrica de trabajo cooperativo; Registro de trabajo cooperativo; Ficha de coevaluación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Parejas / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_HET",
@@ -188,7 +196,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Práctica de laboratorio; Exposición oral; Defensa de proyecto; Porfolio; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Prueba escrita de desarrollo; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba oral; Prueba práctica; Prueba competencial contextualizada; Prueba con documentos; Trabajo cooperativo; Prueba de libro abierto",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Lista de cotejo o control; Escala de observación; Cuaderno de calificaciones; Acta de evaluación"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Lista de cotejo o control; Escala de observación; Cuaderno de calificaciones; Acta de evaluación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_DIAG",
@@ -225,7 +237,11 @@
       }
     },
     "tipo_entidad": "dimension",
-    "Medios/evidencias asociados": "Mapa conceptual; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; KPSI; Mapa conceptual inicial; Lluvia de ideas"
+    "Medios/evidencias asociados": "Mapa conceptual; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; KPSI; Mapa conceptual inicial; Lluvia de ideas",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "DIM_FORM",
@@ -356,7 +372,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Trabajo individual en aula; Participación en clase; Coloquio; Asamblea; Entrevista; Pregunta oral estructurada; Cuaderno de clase; Diario de aprendizaje; Porfolio; Resumen; Esquema; Mapa mental; Glosario; Ficha de lectura; Plan de trabajo; Contrato de aprendizaje; Ficha de reflexión; Prueba de respuesta corta; Documento colaborativo; Lluvia de ideas; Borrador; Entrega parcial; Bitácora de proyecto; Revisión por pares; Dos estrellas y un deseo; Semáforo de aprendizaje; Billete de salida; Trabajo cooperativo; Seminario socrático; Checklist de laboratorio",
-    "Instrumentos de evaluación recomendados": "Ficha de retroalimentación; Lista de cotejo o control; Escala de observación; Escala de valoración; Registro descriptivo; Diario del profesor; Hoja de seguimiento grupal; Registro de participación; Notas de campo; Ficha de valoración; Semáforo de evaluación; Registro de compromisos de mejora; Escala verbal; Historial de revisión; Panel de progreso; Analíticas de aprendizaje; Banco digital de evidencias; Escala de progreso; Guía de observación; Plantilla de feedback/feedforward; Contrato de grupo; Sociograma"
+    "Instrumentos de evaluación recomendados": "Ficha de retroalimentación; Lista de cotejo o control; Escala de observación; Escala de valoración; Registro descriptivo; Diario del profesor; Hoja de seguimiento grupal; Registro de participación; Notas de campo; Ficha de valoración; Semáforo de evaluación; Registro de compromisos de mejora; Escala verbal; Historial de revisión; Panel de progreso; Analíticas de aprendizaje; Banco digital de evidencias; Escala de progreso; Guía de observación; Plantilla de feedback/feedforward; Contrato de grupo; Sociograma",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_SUM",
@@ -447,7 +467,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Exposición oral; Monografía; Ensayo; Comentario de texto; Reseña; Artículo divulgativo; Autoinforme; Prueba escrita de desarrollo; Prueba objetiva; Prueba tipo test; Prueba oral; Prueba con documentos",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Baremo; Cuaderno de calificaciones; Rúbrica global u holística; Rúbrica de producto; Rúbrica oral; Escala de valoración; Plantilla de corrección; Ficha de valoración; Matriz de valoración; Tabla de calificación por criterios; Matriz de ponderación; Escala numérica; Escala verbal; Conversor de niveles a calificación; Hoja de cálculo de evaluación; Informe individual de evaluación; Acta de evaluación; Rúbrica digital"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Baremo; Cuaderno de calificaciones; Rúbrica global u holística; Rúbrica de producto; Rúbrica oral; Escala de valoración; Plantilla de corrección; Ficha de valoración; Matriz de valoración; Tabla de calificación por criterios; Matriz de ponderación; Escala numérica; Escala verbal; Conversor de niveles a calificación; Hoja de cálculo de evaluación; Informe individual de evaluación; Acta de evaluación; Rúbrica digital",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_COMP",
@@ -516,7 +540,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Ensayo; Comentario de texto; Línea del tiempo; Reseña; Artículo divulgativo; Estudio de caso; Prueba competencial contextualizada; Prueba con documentos; Infografía; Póster académico; Cómic; Prueba de libro abierto; Tarea competencial integrada; Situación-problema",
-    "Instrumentos de evaluación recomendados": "Rúbrica competencial; Perfil de logro; Matriz de valoración; Banco de descriptores; Tabla de calificación por criterios; Lista de indicadores por criterio; Mapa de evidencias por criterio"
+    "Instrumentos de evaluación recomendados": "Rúbrica competencial; Perfil de logro; Matriz de valoración; Banco de descriptores; Tabla de calificación por criterios; Lista de indicadores por criterio; Mapa de evidencias por criterio",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_DESEMP",
@@ -591,7 +619,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Participación en clase; Coloquio; Taller; Simulación; Exposición oral; Defensa de proyecto; Entrevista; Pregunta oral estructurada; Prueba oral; Prueba práctica; Presentación digital; Videotutorial; Maqueta; Prototipo; Trabajo cooperativo; Seminario socrático; Checklist de laboratorio",
-    "Instrumentos de evaluación recomendados": "Escala de observación; Lista de cotejo o control; Rúbrica de producto; Rúbrica oral; Registro descriptivo; Registro de participación; Guía de observación"
+    "Instrumentos de evaluación recomendados": "Escala de observación; Lista de cotejo o control; Rúbrica de producto; Rúbrica oral; Registro descriptivo; Registro de participación; Guía de observación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "DIM_PROY",
@@ -640,7 +672,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Memoria de proyecto; Plan de trabajo; Prototipo; Bitácora de proyecto; Trabajo cooperativo",
-    "Instrumentos de evaluación recomendados": "Hoja de seguimiento individual; Rúbrica de proceso; Rúbrica de trabajo cooperativo; Hoja de seguimiento grupal; Registro de trabajo cooperativo; Contrato de grupo"
+    "Instrumentos de evaluación recomendados": "Hoja de seguimiento individual; Rúbrica de proceso; Rúbrica de trabajo cooperativo; Hoja de seguimiento grupal; Registro de trabajo cooperativo; Contrato de grupo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Exterior",
+    "Agrupamiento": "Grupo pequeño / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_INDAG",
@@ -677,7 +713,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Práctica de laboratorio; Informe de laboratorio; Informe de investigación",
-    "Instrumentos de evaluación recomendados": "Guía de corrección; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Lista de cotejo o control",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_PROB",
@@ -716,7 +756,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Comentario de gráfica o datos; Resolución de problemas; Situación-problema; Escape room o reto gamificado",
-    "Instrumentos de evaluación recomendados": "Guía de corrección; Escala descriptiva"
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Escala descriptiva",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_CASO",
@@ -749,7 +793,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Estudio de caso",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala descriptiva"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala descriptiva",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_SIM",
@@ -790,7 +838,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Simulación; Juego de rol; Dramatización; Escape room o reto gamificado",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación; Registro anecdótico"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación; Registro anecdótico",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Laboratorio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_DIG",
@@ -855,7 +907,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Cuestionario digital; Infografía; Presentación digital; Vídeo; Podcast; Modelo digital; Página web; Entrada de blog; Foro de discusión; Documento colaborativo; Portfolio digital; Cuaderno digital",
-    "Instrumentos de evaluación recomendados": "Rúbrica digital; Historial de revisión; Panel de progreso; Hoja de cálculo de evaluación; Formulario digital; Analíticas de aprendizaje; Banco digital de evidencias"
+    "Instrumentos de evaluación recomendados": "Rúbrica digital; Historial de revisión; Panel de progreso; Hoja de cálculo de evaluación; Formulario digital; Analíticas de aprendizaje; Banco digital de evidencias",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "DIM_CRIT",
@@ -898,7 +954,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Tarea competencial integrada; Situación-problema; E-portfolio con evidencias seleccionadas; Prueba de libro abierto",
-    "Instrumentos de evaluación recomendados": "Lista de indicadores por criterio; Mapa de evidencias por criterio; Rúbrica competencial; Tabla de calificación por criterios"
+    "Instrumentos de evaluación recomendados": "Lista de indicadores por criterio; Mapa de evidencias por criterio; Rúbrica competencial; Tabla de calificación por criterios",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_INCL",
@@ -963,7 +1023,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Tarea competencial integrada; Cuaderno digital; E-portfolio con evidencias seleccionadas; Exposición oral; Vídeo; Podcast; Infografía; Mapa conceptual; Prueba práctica; Práctica de laboratorio; Entrevista; Porfolio; Documento colaborativo; Ficha de reflexión; Billete de salida; Semáforo de aprendizaje",
-    "Instrumentos de evaluación recomendados": "Escala de progreso; Plantilla de feedback/feedforward; Mapa de evidencias por criterio"
+    "Instrumentos de evaluación recomendados": "Escala de progreso; Plantilla de feedback/feedforward; Mapa de evidencias por criterio",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_CONT",
@@ -1006,7 +1070,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Cuaderno digital; E-portfolio con evidencias seleccionadas; Entrega parcial; Borrador",
-    "Instrumentos de evaluación recomendados": "Escala de progreso; Panel de progreso; Banco digital de evidencias; Hoja de seguimiento individual"
+    "Instrumentos de evaluación recomendados": "Escala de progreso; Panel de progreso; Banco digital de evidencias; Hoja de seguimiento individual",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_FEED",
@@ -1049,7 +1117,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Borrador; Revisión por pares; Dos estrellas y un deseo; Entrega parcial; E-portfolio con evidencias seleccionadas",
-    "Instrumentos de evaluación recomendados": "Plantilla de feedback/feedforward; Ficha de retroalimentación; Registro de compromisos de mejora"
+    "Instrumentos de evaluación recomendados": "Plantilla de feedback/feedforward; Ficha de retroalimentación; Registro de compromisos de mejora",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_CAL_ACRED",
@@ -1092,7 +1164,11 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Prueba competencial contextualizada; Tarea competencial integrada; E-portfolio con evidencias seleccionadas",
-    "Instrumentos de evaluación recomendados": "Tabla de calificación por criterios; Matriz de ponderación; Informe individual de evaluación; Acta de evaluación; Mapa de evidencias por criterio"
+    "Instrumentos de evaluación recomendados": "Tabla de calificación por criterios; Matriz de ponderación; Informe individual de evaluación; Acta de evaluación; Mapa de evidencias por criterio",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "DIM_COMPART",
@@ -1141,6 +1217,10 @@
     },
     "tipo_entidad": "dimension",
     "Medios/evidencias asociados": "Trabajo cooperativo; Revisión por pares; Contrato de aprendizaje; E-portfolio con evidencias seleccionadas; Escape room o reto gamificado; Seminario socrático",
-    "Instrumentos de evaluación recomendados": "Contrato de grupo; Ficha de coevaluación; Rúbrica de coevaluación; Registro de compromisos de mejora; Sociograma"
+    "Instrumentos de evaluación recomendados": "Contrato de grupo; Ficha de coevaluación; Rúbrica de coevaluación; Registro de compromisos de mejora; Sociograma",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   }
 ]

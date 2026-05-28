@@ -42,7 +42,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Cuaderno de calificaciones; Escala de observación; Hoja de seguimiento individual; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Cuaderno de calificaciones; Escala de observación; Hoja de seguimiento individual; Lista de cotejo o control",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_TRAB_COOP",
@@ -101,7 +105,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Diario del profesor; Ficha de coevaluación; Rúbrica de trabajo cooperativo; Contrato de grupo; Sociograma; Guía de observación"
+    "Instrumentos de evaluación recomendados": "Diario del profesor; Ficha de coevaluación; Rúbrica de trabajo cooperativo; Contrato de grupo; Sociograma; Guía de observación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PART",
@@ -148,7 +156,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Cuaderno de calificaciones; Diario del profesor; Escala de observación; Registro de participación"
+    "Instrumentos de evaluación recomendados": "Cuaderno de calificaciones; Diario del profesor; Escala de observación; Registro de participación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_DEBATE",
@@ -189,7 +201,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Escala de observación; Ficha de coevaluación"
+    "Instrumentos de evaluación recomendados": "Escala de observación; Ficha de coevaluación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_COLOQ",
@@ -230,7 +246,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Escala de observación; Registro anecdótico"
+    "Instrumentos de evaluación recomendados": "Escala de observación; Registro anecdótico",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_ASAM",
@@ -273,7 +293,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Registro de participación; Escala de observación"
+    "Instrumentos de evaluación recomendados": "Registro de participación; Escala de observación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_LAB",
@@ -316,7 +340,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Diario del profesor; Escala de observación; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Diario del profesor; Escala de observación; Lista de cotejo o control",
+    "Modalidad": "Presencial",
+    "Lugar": "Laboratorio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_TALLER",
@@ -357,7 +385,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala de observación; Rúbrica analítica"
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala de observación; Rúbrica analítica",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_SIM",
@@ -400,7 +432,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Escala de observación; Rúbrica analítica; Registro descriptivo"
+    "Instrumentos de evaluación recomendados": "Escala de observación; Rúbrica analítica; Registro descriptivo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_ROL",
@@ -441,7 +477,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Registro anecdótico; Escala de observación"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Registro anecdótico; Escala de observación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_DRAMA",
@@ -480,7 +520,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Escala de observación; Rúbrica oral"
+    "Instrumentos de evaluación recomendados": "Escala de observación; Rúbrica oral",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Exterior",
+    "Agrupamiento": "Grupo pequeño / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_EXPO",
@@ -533,7 +577,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Banco de descriptores; Conversor de niveles a calificación; Escala de observación; Lista de cotejo o control; Rúbrica oral"
+    "Instrumentos de evaluación recomendados": "Banco de descriptores; Conversor de niveles a calificación; Escala de observación; Lista de cotejo o control; Rúbrica oral",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_DEF_PROY",
@@ -584,7 +632,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Acta de evaluación; Banco de descriptores; Conversor de niveles a calificación; Escala de observación; Rúbrica oral"
+    "Instrumentos de evaluación recomendados": "Acta de evaluación; Banco de descriptores; Conversor de niveles a calificación; Escala de observación; Rúbrica oral",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_ENTREV",
@@ -627,7 +679,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Registro anecdótico; Escala de observación"
+    "Instrumentos de evaluación recomendados": "Registro anecdótico; Escala de observación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_PREG_ORAL",
@@ -670,7 +726,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Escala de observación; Registro anecdótico"
+    "Instrumentos de evaluación recomendados": "Escala de observación; Registro anecdótico",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_CUADERNO",
@@ -713,7 +773,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Cuaderno de calificaciones; Escala de observación; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Cuaderno de calificaciones; Escala de observación; Lista de cotejo o control",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_DIARIO",
@@ -758,7 +822,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Diana de evaluación; Escala de autoevaluación; Escala verbal; Ficha de retroalimentación"
+    "Instrumentos de evaluación recomendados": "Diana de evaluación; Escala de autoevaluación; Escala verbal; Ficha de retroalimentación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_PORT",
@@ -811,7 +879,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Banco de descriptores; Escala descriptiva; Escala verbal; Hoja de cálculo de evaluación; Hoja de seguimiento individual; Matriz de ponderación"
+    "Instrumentos de evaluación recomendados": "Banco de descriptores; Escala descriptiva; Escala verbal; Hoja de cálculo de evaluación; Hoja de seguimiento individual; Matriz de ponderación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_INFO_LAB",
@@ -854,7 +926,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Lista de cotejo o control",
+    "Modalidad": "Presencial",
+    "Lugar": "Laboratorio / Aula",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_INFO_INV",
@@ -895,7 +971,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Guía de corrección; Tabla de calificación por criterios"
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Tabla de calificación por criterios",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_MONO",
@@ -936,7 +1016,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Domicilio / Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_ENSAYO",
@@ -979,7 +1063,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Guía de corrección; Tabla de calificación por criterios"
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Tabla de calificación por criterios",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Domicilio / Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_COM_TEXT",
@@ -1022,7 +1110,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica analítica"
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica analítica",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_COM_GRAF",
@@ -1061,7 +1153,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_RESUMEN",
@@ -1100,7 +1196,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala descriptiva"
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala descriptiva",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_ESQUEMA",
@@ -1139,7 +1239,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala de observación"
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala de observación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_MAP_CONC",
@@ -1178,7 +1282,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Parejas",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_MAP_MENT",
@@ -1217,7 +1325,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Escala de observación; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Escala de observación; Lista de cotejo o control",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_LINEA",
@@ -1254,7 +1366,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_GLOS",
@@ -1293,7 +1409,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Guía de corrección"
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Guía de corrección",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_FICHA_LECT",
@@ -1332,7 +1452,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala de observación"
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Escala de observación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_RESEÑA",
@@ -1373,7 +1497,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Domicilio / Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_ART_DIV",
@@ -1414,7 +1542,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala descriptiva"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala descriptiva",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Domicilio / Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_MEM_PROY",
@@ -1457,7 +1589,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Conversor de niveles a calificación; Hoja de cálculo de evaluación; Hoja de seguimiento individual; Matriz de ponderación"
+    "Instrumentos de evaluación recomendados": "Conversor de niveles a calificación; Hoja de cálculo de evaluación; Hoja de seguimiento individual; Matriz de ponderación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_PLAN_TRAB",
@@ -1498,7 +1634,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Hoja de seguimiento individual"
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Hoja de seguimiento individual",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_ACTA",
@@ -1537,7 +1677,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño / Gran grupo",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_CONTRATO",
@@ -1578,7 +1722,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Registro de compromisos de mejora"
+    "Instrumentos de evaluación recomendados": "Registro de compromisos de mejora",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_F_REFLEX",
@@ -1623,7 +1771,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Diana de evaluación; Escala de observación; Escala verbal; Ficha de retroalimentación"
+    "Instrumentos de evaluación recomendados": "Diana de evaluación; Escala de observación; Escala verbal; Ficha de retroalimentación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_AUTOINF",
@@ -1664,7 +1816,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica de autoevaluación; Escala de observación"
+    "Instrumentos de evaluación recomendados": "Rúbrica de autoevaluación; Escala de observación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_PROB",
@@ -1703,7 +1859,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica competencial"
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica competencial",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_CASO",
@@ -1748,7 +1908,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Rúbrica competencial"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Rúbrica competencial",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PR_DES",
@@ -1795,7 +1959,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Baremo; Escala numérica; Guía de corrección; Matriz de ponderación; Rúbrica analítica"
+    "Instrumentos de evaluación recomendados": "Baremo; Escala numérica; Guía de corrección; Matriz de ponderación; Rúbrica analítica",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_PR_OBJ",
@@ -1842,7 +2010,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Baremo; Escala numérica; Hoja de cálculo de evaluación; Plantilla de corrección"
+    "Instrumentos de evaluación recomendados": "Baremo; Escala numérica; Hoja de cálculo de evaluación; Plantilla de corrección",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_TEST",
@@ -1887,7 +2059,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Baremo; Escala numérica"
+    "Instrumentos de evaluación recomendados": "Baremo; Escala numérica",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_RESP_CORTA",
@@ -1932,7 +2108,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Guía de corrección; Baremo"
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Baremo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PR_ORAL",
@@ -1977,7 +2157,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Acta de evaluación; Rúbrica oral"
+    "Instrumentos de evaluación recomendados": "Acta de evaluación; Rúbrica oral",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_PR_PRACT",
@@ -2016,7 +2200,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_PR_COMP",
@@ -2063,7 +2251,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica competencial; Tabla de calificación por criterios"
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica competencial; Tabla de calificación por criterios",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_DOCS",
@@ -2108,7 +2300,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica analítica"
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica analítica",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_CUEST_DIG",
@@ -2151,7 +2347,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Formulario digital; Analíticas de aprendizaje"
+    "Instrumentos de evaluación recomendados": "Formulario digital; Analíticas de aprendizaje",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_INFOG",
@@ -2192,7 +2392,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Parejas",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_POSTER",
@@ -2229,7 +2433,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Escala de observación"
+    "Instrumentos de evaluación recomendados": "Escala de observación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PRESENT_DIG",
@@ -2272,7 +2480,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_VIDEO",
@@ -2311,7 +2523,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica de producto; Escala de valoración"
+    "Instrumentos de evaluación recomendados": "Rúbrica de producto; Escala de valoración",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Exterior / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_TUTORIAL",
@@ -2350,7 +2566,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PODCAST",
@@ -2391,7 +2611,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica oral; Escala de valoración"
+    "Instrumentos de evaluación recomendados": "Rúbrica oral; Escala de valoración",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_COMIC",
@@ -2430,7 +2654,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_MAQUETA",
@@ -2469,7 +2697,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Lista de cotejo o control",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_MODELO_DIG",
@@ -2508,7 +2740,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PROTOTIPO",
@@ -2551,7 +2787,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Hoja de seguimiento individual; Rúbrica de producto"
+    "Instrumentos de evaluación recomendados": "Hoja de seguimiento individual; Rúbrica de producto",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_WEB",
@@ -2590,7 +2830,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica digital; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Rúbrica digital; Lista de cotejo o control",
+    "Modalidad": "Online",
+    "Lugar": "Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_BLOG",
@@ -2629,7 +2873,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala de observación",
+    "Modalidad": "Online",
+    "Lugar": "Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_FORO",
@@ -2670,7 +2918,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Registro de participación; Rúbrica oral"
+    "Instrumentos de evaluación recomendados": "Registro de participación; Rúbrica oral",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Grupo pequeño / Gran grupo",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_DOC_COL",
@@ -2721,7 +2973,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Historial de revisión; Rúbrica analítica; Hoja de seguimiento individual"
+    "Instrumentos de evaluación recomendados": "Historial de revisión; Rúbrica analítica; Hoja de seguimiento individual",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PORT_DIG",
@@ -2768,7 +3024,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Panel de progreso; Banco digital de evidencias"
+    "Instrumentos de evaluación recomendados": "Panel de progreso; Banco digital de evidencias",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_KPSI",
@@ -2813,7 +3073,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Escala de autoevaluación; Formulario digital; Registro descriptivo"
+    "Instrumentos de evaluación recomendados": "Escala de autoevaluación; Formulario digital; Registro descriptivo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_MAP_INI",
@@ -2856,7 +3120,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Registro descriptivo; Formulario digital"
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Registro descriptivo; Formulario digital",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_LLUVIA",
@@ -2901,7 +3169,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Notas de campo; Registro anecdótico; Registro descriptivo"
+    "Instrumentos de evaluación recomendados": "Notas de campo; Registro anecdótico; Registro descriptivo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Gran grupo / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_BORR",
@@ -2946,7 +3218,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Ficha de retroalimentación; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Ficha de retroalimentación; Lista de cotejo o control",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_ENT_PAR",
@@ -2993,7 +3269,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Hoja de seguimiento individual; Rúbrica de proceso; Ficha de retroalimentación"
+    "Instrumentos de evaluación recomendados": "Hoja de seguimiento individual; Rúbrica de proceso; Ficha de retroalimentación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_BIT",
@@ -3036,7 +3316,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Hoja de seguimiento individual; Escala de observación; Rúbrica de proceso"
+    "Instrumentos de evaluación recomendados": "Hoja de seguimiento individual; Escala de observación; Rúbrica de proceso",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Grupo pequeño / Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_REV_PARES",
@@ -3083,7 +3367,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Ficha de coevaluación; Rúbrica de coevaluación; Ficha de retroalimentación"
+    "Instrumentos de evaluación recomendados": "Ficha de coevaluación; Rúbrica de coevaluación; Ficha de retroalimentación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Parejas / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_2E1D",
@@ -3126,7 +3414,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Ficha de retroalimentación; Ficha de coevaluación"
+    "Instrumentos de evaluación recomendados": "Ficha de retroalimentación; Ficha de coevaluación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Parejas / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_SEMAF",
@@ -3169,7 +3461,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Semáforo de evaluación; Lista de cotejo o control"
+    "Instrumentos de evaluación recomendados": "Semáforo de evaluación; Lista de cotejo o control",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_BILLETE",
@@ -3214,7 +3510,11 @@
       }
     },
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Formulario digital; Lista de cotejo o control; Ficha de retroalimentación"
+    "Instrumentos de evaluación recomendados": "Formulario digital; Lista de cotejo o control; Ficha de retroalimentación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_LIBRO_ABIERTO",
@@ -3259,7 +3559,11 @@
     },
     "Dimensiones asociadas": "Enfoque competencial; Evaluación criterial; Heteroevaluación",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica analítica; Baremo"
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Rúbrica analítica; Baremo",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_TAREA_COMP_INT",
@@ -3310,7 +3614,11 @@
     },
     "Dimensiones asociadas": "Enfoque competencial; Evaluación criterial; Evaluación inclusiva y DUA; Calificación y acreditación",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica competencial; Mapa de evidencias por criterio; Lista de indicadores por criterio"
+    "Instrumentos de evaluación recomendados": "Rúbrica competencial; Mapa de evidencias por criterio; Lista de indicadores por criterio",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_SIT_PROB",
@@ -3357,7 +3665,11 @@
     },
     "Dimensiones asociadas": "Resolución de problemas; Enfoque competencial; Evaluación criterial",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Lista de indicadores por criterio"
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guía de corrección; Lista de indicadores por criterio",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_ESCAPE",
@@ -3404,7 +3716,11 @@
     },
     "Dimensiones asociadas": "Simulación; Resolución de problemas; Evaluación compartida y participativa",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Guía de observación; Rúbrica de trabajo cooperativo; Registro anecdótico"
+    "Instrumentos de evaluación recomendados": "Guía de observación; Rúbrica de trabajo cooperativo; Registro anecdótico",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Exterior",
+    "Agrupamiento": "Grupo pequeño / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_SEMINARIO",
@@ -3451,7 +3767,11 @@
     },
     "Dimensiones asociadas": "Evidencia de desempeño; Evaluación compartida y participativa; Finalidad formativa",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Rúbrica oral; Guía de observación; Registro de participación"
+    "Instrumentos de evaluación recomendados": "Rúbrica oral; Guía de observación; Registro de participación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Gran grupo / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_CHECK_LAB",
@@ -3496,7 +3816,11 @@
     },
     "Dimensiones asociadas": "Evidencia de desempeño; Finalidad formativa; Autoevaluación",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Guía de observación; Registro anecdótico"
+    "Instrumentos de evaluación recomendados": "Lista de cotejo o control; Guía de observación; Registro anecdótico",
+    "Modalidad": "Presencial",
+    "Lugar": "Laboratorio",
+    "Agrupamiento": "Individual / Parejas",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_CUAD_DIG",
@@ -3545,7 +3869,11 @@
     },
     "Dimensiones asociadas": "Evidencias digitales; Evaluación continua; Evaluación inclusiva y DUA",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Historial de revisión; Panel de progreso; Banco digital de evidencias"
+    "Instrumentos de evaluación recomendados": "Historial de revisión; Panel de progreso; Banco digital de evidencias",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_EPORT_SEL",
@@ -3600,6 +3928,10 @@
     },
     "Dimensiones asociadas": "Evaluación criterial; Evaluación continua; Retroalimentación y feedforward; Calificación y acreditación; Evaluación compartida y participativa; Evaluación inclusiva y DUA",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Mapa de evidencias por criterio; Banco digital de evidencias; Escala de progreso"
+    "Instrumentos de evaluación recomendados": "Mapa de evidencias por criterio; Banco digital de evidencias; Escala de progreso",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   }
 ]

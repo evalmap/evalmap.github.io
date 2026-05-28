@@ -101,7 +101,11 @@
     "Técnicas asociadas": "Observación sistemática; Análisis de producciones; Pruebas específicas",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Informe de laboratorio; Defensa de proyecto; Exposición oral; Debate; Vídeo; Práctica de laboratorio; Taller; Simulación; Juego de rol; Monografía; Comentario de texto; Comentario de gráfica o datos; Mapa conceptual; Reseña; Artículo divulgativo; Estudio de caso; Prueba escrita de desarrollo; Prueba con documentos; Infografía; Presentación digital; Videotutorial; Cómic; Maqueta; Modelo digital; Entrada de blog; Documento colaborativo; Prueba de libro abierto; Situación-problema",
-    "Medios/evidencias asociados": "Informe de laboratorio; Defensa de proyecto; Exposición oral; Debate; Vídeo; Práctica de laboratorio; Taller; Simulación; Juego de rol; Monografía; Comentario de texto; Comentario de gráfica o datos; Mapa conceptual; Reseña; Artículo divulgativo; Estudio de caso; Prueba escrita de desarrollo; Prueba con documentos; Infografía; Presentación digital; Videotutorial; Cómic; Maqueta; Modelo digital; Entrada de blog; Documento colaborativo; Prueba de libro abierto; Situación-problema"
+    "Medios/evidencias asociados": "Informe de laboratorio; Defensa de proyecto; Exposición oral; Debate; Vídeo; Práctica de laboratorio; Taller; Simulación; Juego de rol; Monografía; Comentario de texto; Comentario de gráfica o datos; Mapa conceptual; Reseña; Artículo divulgativo; Estudio de caso; Prueba escrita de desarrollo; Prueba con documentos; Infografía; Presentación digital; Videotutorial; Cómic; Maqueta; Modelo digital; Entrada de blog; Documento colaborativo; Prueba de libro abierto; Situación-problema",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_RUB_HOL",
@@ -138,7 +142,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Ensayo; Exposición oral; Defensa de proyecto",
-    "Medios/evidencias asociados": "Ensayo; Exposición oral; Defensa de proyecto"
+    "Medios/evidencias asociados": "Ensayo; Exposición oral; Defensa de proyecto",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_RUB_PROC",
@@ -184,7 +192,11 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Defensa de proyecto; Portfolio digital; Bitácora de proyecto; Entrega parcial",
-    "Medios/evidencias asociados": "Defensa de proyecto; Portfolio digital; Bitácora de proyecto; Entrega parcial"
+    "Medios/evidencias asociados": "Defensa de proyecto; Portfolio digital; Bitácora de proyecto; Entrega parcial",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "HER_RUB_PROD",
@@ -229,7 +241,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Infografía; Informe de laboratorio; Maqueta; Vídeo; Página web; Prototipo",
-    "Medios/evidencias asociados": "Infografía; Informe de laboratorio; Maqueta; Vídeo; Página web; Prototipo"
+    "Medios/evidencias asociados": "Infografía; Informe de laboratorio; Maqueta; Vídeo; Página web; Prototipo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_RUB_ORAL",
@@ -291,7 +307,11 @@
     "Técnicas asociadas": "Intercambios orales; Entrevista evaluativa",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Debate; Defensa de proyecto; Entrevista; Exposición oral; Podcast; Dramatización; Prueba oral; Foro de discusión; Seminario socrático",
-    "Medios/evidencias asociados": "Debate; Defensa de proyecto; Entrevista; Exposición oral; Podcast; Dramatización; Prueba oral; Foro de discusión; Seminario socrático"
+    "Medios/evidencias asociados": "Debate; Defensa de proyecto; Entrevista; Exposición oral; Podcast; Dramatización; Prueba oral; Foro de discusión; Seminario socrático",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "HER_RUB_COOP",
@@ -332,7 +352,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Trabajo cooperativo; Defensa de proyecto; Documento colaborativo; Escape room o reto gamificado",
-    "Medios/evidencias asociados": "Trabajo cooperativo; Defensa de proyecto; Documento colaborativo; Escape room o reto gamificado"
+    "Medios/evidencias asociados": "Trabajo cooperativo; Defensa de proyecto; Documento colaborativo; Escape room o reto gamificado",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_RUB_COMP",
@@ -377,7 +401,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Defensa de proyecto; Estudio de caso; Resolución de problemas; Simulación; Prueba competencial contextualizada; Tarea competencial integrada",
-    "Medios/evidencias asociados": "Defensa de proyecto; Estudio de caso; Resolución de problemas; Simulación; Prueba competencial contextualizada; Tarea competencial integrada"
+    "Medios/evidencias asociados": "Defensa de proyecto; Estudio de caso; Resolución de problemas; Simulación; Prueba competencial contextualizada; Tarea competencial integrada",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_LISTA",
@@ -479,7 +507,11 @@
     "Técnicas asociadas": "Observación sistemática; Intercambios orales; Sondeo y cuestionamiento",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Billete de salida; Cuaderno de clase; Informe de laboratorio; Práctica de laboratorio; Semáforo de aprendizaje; Trabajo individual en aula; Taller; Exposición oral; Resumen; Esquema; Mapa conceptual; Mapa mental; Línea del tiempo; Glosario; Ficha de lectura; Plan de trabajo; Acta de reunión; Prueba práctica; Infografía; Presentación digital; Videotutorial; Maqueta; Página web; Mapa conceptual inicial; Borrador; Checklist de laboratorio",
-    "Medios/evidencias asociados": "Billete de salida; Cuaderno de clase; Informe de laboratorio; Práctica de laboratorio; Semáforo de aprendizaje; Trabajo individual en aula; Taller; Exposición oral; Resumen; Esquema; Mapa conceptual; Mapa mental; Línea del tiempo; Glosario; Ficha de lectura; Plan de trabajo; Acta de reunión; Prueba práctica; Infografía; Presentación digital; Videotutorial; Maqueta; Página web; Mapa conceptual inicial; Borrador; Checklist de laboratorio"
+    "Medios/evidencias asociados": "Billete de salida; Cuaderno de clase; Informe de laboratorio; Práctica de laboratorio; Semáforo de aprendizaje; Trabajo individual en aula; Taller; Exposición oral; Resumen; Esquema; Mapa conceptual; Mapa mental; Línea del tiempo; Glosario; Ficha de lectura; Plan de trabajo; Acta de reunión; Prueba práctica; Infografía; Presentación digital; Videotutorial; Maqueta; Página web; Mapa conceptual inicial; Borrador; Checklist de laboratorio",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_ESC_OBS",
@@ -581,7 +613,11 @@
     "Técnicas asociadas": "Observación sistemática; Intercambios orales",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Debate; Defensa de proyecto; Exposición oral; Práctica de laboratorio; Pregunta oral estructurada; Trabajo cooperativo; Trabajo individual en aula; Participación en clase; Coloquio; Asamblea; Taller; Simulación; Juego de rol; Dramatización; Entrevista; Cuaderno de clase; Comentario de gráfica o datos; Esquema; Mapa mental; Ficha de lectura; Ficha de reflexión; Autoinforme; Póster académico; Cómic; Modelo digital; Entrada de blog; Bitácora de proyecto",
-    "Medios/evidencias asociados": "Debate; Defensa de proyecto; Exposición oral; Práctica de laboratorio; Pregunta oral estructurada; Trabajo cooperativo; Trabajo individual en aula; Participación en clase; Coloquio; Asamblea; Taller; Simulación; Juego de rol; Dramatización; Entrevista; Cuaderno de clase; Comentario de gráfica o datos; Esquema; Mapa mental; Ficha de lectura; Ficha de reflexión; Autoinforme; Póster académico; Cómic; Modelo digital; Entrada de blog; Bitácora de proyecto"
+    "Medios/evidencias asociados": "Debate; Defensa de proyecto; Exposición oral; Práctica de laboratorio; Pregunta oral estructurada; Trabajo cooperativo; Trabajo individual en aula; Participación en clase; Coloquio; Asamblea; Taller; Simulación; Juego de rol; Dramatización; Entrevista; Cuaderno de clase; Comentario de gráfica o datos; Esquema; Mapa mental; Ficha de lectura; Ficha de reflexión; Autoinforme; Póster académico; Cómic; Modelo digital; Entrada de blog; Bitácora de proyecto",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "HER_ESC_VAL",
@@ -624,7 +660,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Cuaderno de clase; Participación en clase; Podcast; Resumen; Vídeo",
-    "Medios/evidencias asociados": "Cuaderno de clase; Participación en clase; Podcast; Resumen; Vídeo"
+    "Medios/evidencias asociados": "Cuaderno de clase; Participación en clase; Podcast; Resumen; Vídeo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_ESC_DESC",
@@ -676,7 +716,11 @@
     "Técnicas asociadas": "Análisis de producciones",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Comentario de texto; Exposición oral; Resolución de problemas; Porfolio; Resumen; Artículo divulgativo",
-    "Medios/evidencias asociados": "Comentario de texto; Exposición oral; Resolución de problemas; Porfolio; Resumen; Artículo divulgativo"
+    "Medios/evidencias asociados": "Comentario de texto; Exposición oral; Resolución de problemas; Porfolio; Resumen; Artículo divulgativo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_GUIA_CORR",
@@ -754,7 +798,11 @@
     "Técnicas asociadas": "Análisis de producciones; Pruebas específicas; Entrevista evaluativa",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Prueba escrita de desarrollo; Resolución de problemas; Comentario de texto; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Glosario; Reseña; Estudio de caso; Prueba de respuesta corta; Prueba competencial contextualizada; Prueba con documentos; Prueba de libro abierto; Situación-problema",
-    "Medios/evidencias asociados": "Prueba escrita de desarrollo; Resolución de problemas; Comentario de texto; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Glosario; Reseña; Estudio de caso; Prueba de respuesta corta; Prueba competencial contextualizada; Prueba con documentos; Prueba de libro abierto; Situación-problema"
+    "Medios/evidencias asociados": "Prueba escrita de desarrollo; Resolución de problemas; Comentario de texto; Informe de laboratorio; Informe de investigación; Monografía; Ensayo; Glosario; Reseña; Estudio de caso; Prueba de respuesta corta; Prueba competencial contextualizada; Prueba con documentos; Prueba de libro abierto; Situación-problema",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_PLANT_CORR",
@@ -802,7 +850,11 @@
     "Técnicas asociadas": "Pruebas específicas; Encuesta y cuestionario",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Prueba tipo test; Cuestionario digital; Prueba de respuesta corta; Prueba objetiva",
-    "Medios/evidencias asociados": "Prueba tipo test; Cuestionario digital; Prueba de respuesta corta; Prueba objetiva"
+    "Medios/evidencias asociados": "Prueba tipo test; Cuestionario digital; Prueba de respuesta corta; Prueba objetiva",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_BAREMO",
@@ -856,7 +908,11 @@
     "Técnicas asociadas": "Pruebas específicas",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Prueba escrita de desarrollo; Resolución de problemas; Informe de laboratorio; Comentario de texto; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba de libro abierto",
-    "Medios/evidencias asociados": "Prueba escrita de desarrollo; Resolución de problemas; Informe de laboratorio; Comentario de texto; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba de libro abierto"
+    "Medios/evidencias asociados": "Prueba escrita de desarrollo; Resolución de problemas; Informe de laboratorio; Comentario de texto; Prueba objetiva; Prueba tipo test; Prueba de respuesta corta; Prueba de libro abierto",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_REG_ANE",
@@ -918,7 +974,11 @@
     "Técnicas asociadas": "Observación sistemática; Observación incidental; Intercambios orales; Entrevista evaluativa",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Práctica de laboratorio; Lluvia de ideas; Participación en clase; Pregunta oral estructurada; Coloquio; Juego de rol; Entrevista; Escape room o reto gamificado; Checklist de laboratorio",
-    "Medios/evidencias asociados": "Práctica de laboratorio; Lluvia de ideas; Participación en clase; Pregunta oral estructurada; Coloquio; Juego de rol; Entrevista; Escape room o reto gamificado; Checklist de laboratorio"
+    "Medios/evidencias asociados": "Práctica de laboratorio; Lluvia de ideas; Participación en clase; Pregunta oral estructurada; Coloquio; Juego de rol; Entrevista; Escape room o reto gamificado; Checklist de laboratorio",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "HER_REG_DESC",
@@ -970,7 +1030,11 @@
     "Técnicas asociadas": "Sondeo y cuestionamiento",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Defensa de proyecto; Práctica de laboratorio; Simulación; KPSI; Mapa conceptual inicial; Lluvia de ideas",
-    "Medios/evidencias asociados": "Defensa de proyecto; Práctica de laboratorio; Simulación; KPSI; Mapa conceptual inicial; Lluvia de ideas"
+    "Medios/evidencias asociados": "Defensa de proyecto; Práctica de laboratorio; Simulación; KPSI; Mapa conceptual inicial; Lluvia de ideas",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "HER_DIARIO_PROF",
@@ -1014,7 +1078,11 @@
     "Técnicas asociadas": "Observación incidental",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Participación en clase; Trabajo cooperativo; Práctica de laboratorio",
-    "Medios/evidencias asociados": "Participación en clase; Trabajo cooperativo; Práctica de laboratorio"
+    "Medios/evidencias asociados": "Participación en clase; Trabajo cooperativo; Práctica de laboratorio",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "HER_HOJA_IND",
@@ -1076,7 +1144,11 @@
     "Técnicas asociadas": "Sondeo y cuestionamiento; Análisis de procesos y reflexiones",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Portfolio digital; Defensa de proyecto; Trabajo individual en aula; Porfolio; Memoria de proyecto; Plan de trabajo; Prototipo; Documento colaborativo; Entrega parcial; Bitácora de proyecto",
-    "Medios/evidencias asociados": "Portfolio digital; Defensa de proyecto; Trabajo individual en aula; Porfolio; Memoria de proyecto; Plan de trabajo; Prototipo; Documento colaborativo; Entrega parcial; Bitácora de proyecto"
+    "Medios/evidencias asociados": "Portfolio digital; Defensa de proyecto; Trabajo individual en aula; Porfolio; Memoria de proyecto; Plan de trabajo; Prototipo; Documento colaborativo; Entrega parcial; Bitácora de proyecto",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_HOJA_GRUP",
@@ -1115,7 +1187,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo",
-    "Medios/evidencias asociados": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo"
+    "Medios/evidencias asociados": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_REG_PART",
@@ -1160,7 +1236,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Debate; Foro de discusión; Asamblea; Coloquio; Participación en clase; Seminario socrático",
-    "Medios/evidencias asociados": "Debate; Foro de discusión; Asamblea; Coloquio; Participación en clase; Seminario socrático"
+    "Medios/evidencias asociados": "Debate; Foro de discusión; Asamblea; Coloquio; Participación en clase; Seminario socrático",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "HER_REG_COOP",
@@ -1199,7 +1279,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo",
-    "Medios/evidencias asociados": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo"
+    "Medios/evidencias asociados": "Defensa de proyecto; Trabajo cooperativo; Documento colaborativo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_NOTAS_CAMPO",
@@ -1245,7 +1329,11 @@
     "Técnicas asociadas": "Observación incidental",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Billete de salida; Informe de investigación; Práctica de laboratorio; Lluvia de ideas",
-    "Medios/evidencias asociados": "Billete de salida; Informe de investigación; Práctica de laboratorio; Lluvia de ideas"
+    "Medios/evidencias asociados": "Billete de salida; Informe de investigación; Práctica de laboratorio; Lluvia de ideas",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "HER_FICHA_VAL",
@@ -1282,7 +1370,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Resumen; Comentario de texto",
-    "Medios/evidencias asociados": "Resumen; Comentario de texto"
+    "Medios/evidencias asociados": "Resumen; Comentario de texto",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_FICHA_RETRO",
@@ -1342,7 +1434,11 @@
     "Técnicas asociadas": "Análisis de producciones; Análisis de procesos y reflexiones",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Dos estrellas y un deseo; Borrador; Defensa de proyecto; Entrega parcial; Informe de laboratorio; Diario de aprendizaje; Ficha de reflexión; Revisión por pares; Billete de salida",
-    "Medios/evidencias asociados": "Dos estrellas y un deseo; Borrador; Defensa de proyecto; Entrega parcial; Informe de laboratorio; Diario de aprendizaje; Ficha de reflexión; Revisión por pares; Billete de salida"
+    "Medios/evidencias asociados": "Dos estrellas y un deseo; Borrador; Defensa de proyecto; Entrega parcial; Informe de laboratorio; Diario de aprendizaje; Ficha de reflexión; Revisión por pares; Billete de salida",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_MATRIZ",
@@ -1383,7 +1479,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Estudio de caso",
-    "Medios/evidencias asociados": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Estudio de caso"
+    "Medios/evidencias asociados": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Estudio de caso",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_BANCO_DESC",
@@ -1420,7 +1520,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Porfolio; Defensa de proyecto; Exposición oral",
-    "Medios/evidencias asociados": "Porfolio; Defensa de proyecto; Exposición oral"
+    "Medios/evidencias asociados": "Porfolio; Defensa de proyecto; Exposición oral",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_PERFIL_LOGRO",
@@ -1462,7 +1566,11 @@
     "Técnicas asociadas": "Triangulación de evidencias",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Portfolio digital; Defensa de proyecto",
-    "Medios/evidencias asociados": "Portfolio digital; Defensa de proyecto"
+    "Medios/evidencias asociados": "Portfolio digital; Defensa de proyecto",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_DIANA",
@@ -1501,7 +1609,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Defensa de proyecto; Exposición oral; Diario de aprendizaje; Ficha de reflexión",
-    "Medios/evidencias asociados": "Defensa de proyecto; Exposición oral; Diario de aprendizaje; Ficha de reflexión"
+    "Medios/evidencias asociados": "Defensa de proyecto; Exposición oral; Diario de aprendizaje; Ficha de reflexión",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_SEMAFORO",
@@ -1538,7 +1650,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Billete de salida; Semáforo de aprendizaje",
-    "Medios/evidencias asociados": "Billete de salida; Semáforo de aprendizaje"
+    "Medios/evidencias asociados": "Billete de salida; Semáforo de aprendizaje",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "HER_ESC_AUTO",
@@ -1586,7 +1702,11 @@
     "Técnicas asociadas": "Sondeo y cuestionamiento; Análisis de procesos y reflexiones; Encuesta y cuestionario",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Diario de aprendizaje; KPSI; Portfolio digital",
-    "Medios/evidencias asociados": "Diario de aprendizaje; KPSI; Portfolio digital"
+    "Medios/evidencias asociados": "Diario de aprendizaje; KPSI; Portfolio digital",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "HER_RUB_AUTO",
@@ -1627,7 +1747,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Portfolio digital; Autoinforme",
-    "Medios/evidencias asociados": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Portfolio digital; Autoinforme"
+    "Medios/evidencias asociados": "Defensa de proyecto; Informe de laboratorio; Exposición oral; Portfolio digital; Autoinforme",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "HER_RUB_COEV",
@@ -1666,7 +1790,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Revisión por pares; Exposición oral; Defensa de proyecto",
-    "Medios/evidencias asociados": "Revisión por pares; Exposición oral; Defensa de proyecto"
+    "Medios/evidencias asociados": "Revisión por pares; Exposición oral; Defensa de proyecto",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Parejas / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_FICHA_COEV",
@@ -1709,7 +1837,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Dos estrellas y un deseo; Debate; Exposición oral; Revisión por pares; Trabajo cooperativo",
-    "Medios/evidencias asociados": "Dos estrellas y un deseo; Debate; Exposición oral; Revisión por pares; Trabajo cooperativo"
+    "Medios/evidencias asociados": "Dos estrellas y un deseo; Debate; Exposición oral; Revisión por pares; Trabajo cooperativo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Parejas / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_LISTA_AUTO",
@@ -1746,7 +1878,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Informe de laboratorio; Cuaderno de clase; Presentación digital",
-    "Medios/evidencias asociados": "Informe de laboratorio; Cuaderno de clase; Presentación digital"
+    "Medios/evidencias asociados": "Informe de laboratorio; Cuaderno de clase; Presentación digital",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "HER_REG_COMP",
@@ -1798,7 +1934,11 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Portfolio digital; Diario de aprendizaje; Defensa de proyecto; Contrato de aprendizaje",
-    "Medios/evidencias asociados": "Portfolio digital; Diario de aprendizaje; Defensa de proyecto; Contrato de aprendizaje"
+    "Medios/evidencias asociados": "Portfolio digital; Diario de aprendizaje; Defensa de proyecto; Contrato de aprendizaje",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_CUAD_CAL",
@@ -1837,7 +1977,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Trabajo individual en aula; Participación en clase; Cuaderno de clase",
-    "Medios/evidencias asociados": "Trabajo individual en aula; Participación en clase; Cuaderno de clase"
+    "Medios/evidencias asociados": "Trabajo individual en aula; Participación en clase; Cuaderno de clase",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "HER_TAB_CRIT",
@@ -1887,7 +2031,11 @@
     "Técnicas asociadas": "Triangulación de evidencias",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Prueba competencial contextualizada; Ensayo; Informe de investigación",
-    "Medios/evidencias asociados": "Prueba competencial contextualizada; Ensayo; Informe de investigación"
+    "Medios/evidencias asociados": "Prueba competencial contextualizada; Ensayo; Informe de investigación",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_MATRIZ_POND",
@@ -1926,7 +2074,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Memoria de proyecto; Porfolio; Prueba escrita de desarrollo",
-    "Medios/evidencias asociados": "Memoria de proyecto; Porfolio; Prueba escrita de desarrollo"
+    "Medios/evidencias asociados": "Memoria de proyecto; Porfolio; Prueba escrita de desarrollo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_ESC_NUM",
@@ -1970,7 +2122,11 @@
     "Técnicas asociadas": "Pruebas específicas",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Prueba objetiva; Prueba tipo test; Prueba escrita de desarrollo",
-    "Medios/evidencias asociados": "Prueba objetiva; Prueba tipo test; Prueba escrita de desarrollo"
+    "Medios/evidencias asociados": "Prueba objetiva; Prueba tipo test; Prueba escrita de desarrollo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_ESC_VERB",
@@ -2009,7 +2165,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Porfolio; Diario de aprendizaje; Ficha de reflexión",
-    "Medios/evidencias asociados": "Porfolio; Diario de aprendizaje; Ficha de reflexión"
+    "Medios/evidencias asociados": "Porfolio; Diario de aprendizaje; Ficha de reflexión",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_CONV",
@@ -2046,7 +2206,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Exposición oral; Defensa de proyecto; Memoria de proyecto",
-    "Medios/evidencias asociados": "Exposición oral; Defensa de proyecto; Memoria de proyecto"
+    "Medios/evidencias asociados": "Exposición oral; Defensa de proyecto; Memoria de proyecto",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_HOJA_CALC",
@@ -2085,7 +2249,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Prueba objetiva; Memoria de proyecto; Porfolio",
-    "Medios/evidencias asociados": "Prueba objetiva; Memoria de proyecto; Porfolio"
+    "Medios/evidencias asociados": "Prueba objetiva; Memoria de proyecto; Porfolio",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_INF_IND",
@@ -2120,7 +2288,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Portfolio digital",
-    "Medios/evidencias asociados": "Portfolio digital"
+    "Medios/evidencias asociados": "Portfolio digital",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_ACTA",
@@ -2159,7 +2331,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Defensa de proyecto; Prueba oral",
-    "Medios/evidencias asociados": "Defensa de proyecto; Prueba oral"
+    "Medios/evidencias asociados": "Defensa de proyecto; Prueba oral",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_FORM_DIG",
@@ -2209,7 +2385,11 @@
     "Técnicas asociadas": "Sondeo y cuestionamiento; Encuesta y cuestionario",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Billete de salida; Cuestionario digital; KPSI; Mapa conceptual inicial",
-    "Medios/evidencias asociados": "Billete de salida; Cuestionario digital; KPSI; Mapa conceptual inicial"
+    "Medios/evidencias asociados": "Billete de salida; Cuestionario digital; KPSI; Mapa conceptual inicial",
+    "Modalidad": "Online",
+    "Lugar": "Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "HER_RUB_DIG",
@@ -2252,7 +2432,11 @@
     },
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Defensa de proyecto; Informe de laboratorio; Vídeo; Presentación digital; Página web",
-    "Medios/evidencias asociados": "Defensa de proyecto; Informe de laboratorio; Vídeo; Presentación digital; Página web"
+    "Medios/evidencias asociados": "Defensa de proyecto; Informe de laboratorio; Vídeo; Presentación digital; Página web",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_HIST_REV",
@@ -2302,7 +2486,11 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones; Análisis documental; Análisis de interacciones digitales",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Documento colaborativo; Defensa de proyecto; Cuaderno digital",
-    "Medios/evidencias asociados": "Documento colaborativo; Defensa de proyecto; Cuaderno digital"
+    "Medios/evidencias asociados": "Documento colaborativo; Defensa de proyecto; Cuaderno digital",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "HER_PANEL",
@@ -2352,7 +2540,11 @@
     "Técnicas asociadas": "Análisis de procesos y reflexiones; Análisis de interacciones digitales",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Portfolio digital; Defensa de proyecto; Cuaderno digital",
-    "Medios/evidencias asociados": "Portfolio digital; Defensa de proyecto; Cuaderno digital"
+    "Medios/evidencias asociados": "Portfolio digital; Defensa de proyecto; Cuaderno digital",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_ANALITICAS",
@@ -2396,7 +2588,11 @@
     "Técnicas asociadas": "Análisis de interacciones digitales",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Cuestionario digital; Foro de discusión",
-    "Medios/evidencias asociados": "Cuestionario digital; Foro de discusión"
+    "Medios/evidencias asociados": "Cuestionario digital; Foro de discusión",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Gran grupo",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "HER_BANCO_EVID",
@@ -2446,7 +2642,11 @@
     "Técnicas asociadas": "Análisis documental",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Portfolio digital; Defensa de proyecto; Cuaderno digital; E-portfolio con evidencias seleccionadas",
-    "Medios/evidencias asociados": "Portfolio digital; Defensa de proyecto; Cuaderno digital; E-portfolio con evidencias seleccionadas"
+    "Medios/evidencias asociados": "Portfolio digital; Defensa de proyecto; Cuaderno digital; E-portfolio con evidencias seleccionadas",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_IND_CRIT",
@@ -2485,7 +2685,11 @@
     "Dimensiones asociadas": "Evaluación criterial; Enfoque competencial",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Tarea competencial integrada; Situación-problema; Prueba de libro abierto",
-    "Medios/evidencias asociados": "Tarea competencial integrada; Situación-problema; Prueba de libro abierto"
+    "Medios/evidencias asociados": "Tarea competencial integrada; Situación-problema; Prueba de libro abierto",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_ESC_PROG",
@@ -2526,7 +2730,11 @@
     "Dimensiones asociadas": "Evaluación continua; Evaluación inclusiva y DUA; Finalidad formativa",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "E-portfolio con evidencias seleccionadas; Cuaderno digital; Diario de aprendizaje",
-    "Medios/evidencias asociados": "E-portfolio con evidencias seleccionadas; Cuaderno digital; Diario de aprendizaje"
+    "Medios/evidencias asociados": "E-portfolio con evidencias seleccionadas; Cuaderno digital; Diario de aprendizaje",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_GUIA_OBS",
@@ -2576,7 +2784,11 @@
     "Técnicas asociadas": "Entrevista evaluativa",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Checklist de laboratorio; Seminario socrático; Escape room o reto gamificado; Debate; Trabajo cooperativo",
-    "Medios/evidencias asociados": "Checklist de laboratorio; Seminario socrático; Escape room o reto gamificado; Debate; Trabajo cooperativo"
+    "Medios/evidencias asociados": "Checklist de laboratorio; Seminario socrático; Escape room o reto gamificado; Debate; Trabajo cooperativo",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "HER_PLANT_FF",
@@ -2619,7 +2831,11 @@
     "Dimensiones asociadas": "Retroalimentación y feedforward; Finalidad formativa; Evaluación inclusiva y DUA",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Borrador; Entrega parcial; Revisión por pares; E-portfolio con evidencias seleccionadas",
-    "Medios/evidencias asociados": "Borrador; Entrega parcial; Revisión por pares; E-portfolio con evidencias seleccionadas"
+    "Medios/evidencias asociados": "Borrador; Entrega parcial; Revisión por pares; E-portfolio con evidencias seleccionadas",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_CONTR_GRUP",
@@ -2660,7 +2876,11 @@
     "Dimensiones asociadas": "Evaluación compartida y participativa; Trabajo por proyectos; Finalidad formativa",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Trabajo cooperativo; Documento colaborativo; Defensa de proyecto",
-    "Medios/evidencias asociados": "Trabajo cooperativo; Documento colaborativo; Defensa de proyecto"
+    "Medios/evidencias asociados": "Trabajo cooperativo; Documento colaborativo; Defensa de proyecto",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_SOCIO",
@@ -2697,7 +2917,11 @@
     "Dimensiones asociadas": "Finalidad formativa; Evaluación compartida y participativa",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Asamblea; Trabajo cooperativo",
-    "Medios/evidencias asociados": "Asamblea; Trabajo cooperativo"
+    "Medios/evidencias asociados": "Asamblea; Trabajo cooperativo",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "HER_MAP_EVID",
@@ -2749,6 +2973,10 @@
     "Técnicas asociadas": "Análisis documental; Triangulación de evidencias",
     "tipo_entidad": "instrumento_evaluacion",
     "Medios/evidencias compatibles": "Tarea competencial integrada; E-portfolio con evidencias seleccionadas; Prueba competencial contextualizada",
-    "Medios/evidencias asociados": "Tarea competencial integrada; E-portfolio con evidencias seleccionadas; Prueba competencial contextualizada"
+    "Medios/evidencias asociados": "Tarea competencial integrada; E-portfolio con evidencias seleccionadas; Prueba competencial contextualizada",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   }
 ]

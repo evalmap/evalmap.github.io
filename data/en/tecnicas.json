@@ -53,7 +53,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Debate; Oral presentation; Laboratory practice; Workshop; Cooperative work; Simulation; Individual classroom work; Class participation; Assembly; Role-play performance; Prototype",
-    "Instrumentos de evaluación recomendados": "Checklist; Observation scale; Analytic rubric; Anecdotal record"
+    "Instrumentos de evaluación recomendados": "Checklist; Observation scale; Analytic rubric; Anecdotal record",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_OBS_INC",
@@ -91,7 +95,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Individual classroom work; Class participation; Cooperative work",
-    "Instrumentos de evaluación recomendados": "Anecdotal record; Field notes; Teacher's diary"
+    "Instrumentos de evaluación recomendados": "Anecdotal record; Field notes; Teacher's diary",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_PROD",
@@ -201,7 +209,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Class notebook; Laboratory report; Project defense; Essay; Infographic; Video; Podcast; Scale model; Learning portfolio; Research report; Monograph; Text commentary; Graph or data commentary; Summary; Outline; Concept map; Mind map; Timeline; Glossary; Reading record; Review; Popular science article; Project report; Case study; Document-based test; Academic poster; Digital presentation; Video tutorial; Comic; Digital model; Prototype; Website; Blog entry; Collaborative document; Digital portfolio; Initial concept map; Draft; Partial submission",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Descriptive scale; Feedback card"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Descriptive scale; Feedback card",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "TEC_PRUEBA",
@@ -261,7 +273,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Written development test; Multiple choice test; Oral test; Practical test; Digital questionnaire; Text commentary; Problem solving; Case study; Objective test; Short answer test; Contextualized competency test; Document-based test",
-    "Instrumentos de evaluación recomendados": "Correction guide; Scoring scale; Correction template; Analytic rubric; Numerical scale"
+    "Instrumentos de evaluación recomendados": "Correction guide; Scoring scale; Correction template; Analytic rubric; Numerical scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "TEC_ORAL",
@@ -321,7 +337,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Debate; Colloquium; Interview; Oral presentation; Project defense; Assembly; Role play; Structured oral question; Oral test; Digital presentation; Podcast; Discussion forum; Brainstorming",
-    "Instrumentos de evaluación recomendados": "Oral rubric; Observation scale; Checklist; Anecdotal record"
+    "Instrumentos de evaluación recomendados": "Oral rubric; Observation scale; Checklist; Anecdotal record",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_SONDEO",
@@ -375,7 +395,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "KPSI; Initial concept map; Brainstorming; Exit ticket; Structured oral question; Digital questionnaire; Short answer test; Multiple choice test; Learning traffic light",
-    "Instrumentos de evaluación recomendados": "Digital form; Self-assessment scale; Checklist; Descriptive record; Individual tracking sheet"
+    "Instrumentos de evaluación recomendados": "Digital form; Self-assessment scale; Checklist; Descriptive record; Individual tracking sheet",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_PROC_REFLEX",
@@ -445,7 +469,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Learning journal; Reflection card; Self-report; Draft; Partial submission; Project logbook; Peer review; Two stars and a wish; Learning traffic light; Work plan; Meeting minutes; Learning contract; Collaborative document; Learning portfolio; Digital portfolio",
-    "Instrumentos de evaluación recomendados": "Process rubric; Feedback card; Individual tracking sheet; Improvement commitments record; Self-assessment scale; Revision history; Progress dashboard"
+    "Instrumentos de evaluación recomendados": "Process rubric; Feedback card; Individual tracking sheet; Improvement commitments record; Self-assessment scale; Revision history; Progress dashboard",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "TEC_ENTREV_EVAL",
@@ -485,7 +513,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Interview; Project defense; Digital portfolio",
-    "Instrumentos de evaluación recomendados": "Correction guide; Oral rubric; Anecdotal record; Observation guide"
+    "Instrumentos de evaluación recomendados": "Correction guide; Oral rubric; Anecdotal record; Observation guide",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "TEC_ENC_CUEST",
@@ -523,7 +555,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Digital questionnaire; KPSI; Exit ticket",
-    "Instrumentos de evaluación recomendados": "Digital form; Self-assessment scale; Correction template"
+    "Instrumentos de evaluación recomendados": "Digital form; Self-assessment scale; Correction template",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "TEC_ANAL_DOC",
@@ -563,7 +599,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Class notebook; Digital portfolio; Meeting minutes; Collaborative document",
-    "Instrumentos de evaluación recomendados": "Evidence map by criterion; Revision history; Digital evidence bank"
+    "Instrumentos de evaluación recomendados": "Evidence map by criterion; Revision history; Digital evidence bank",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "TEC_INTER_DIG",
@@ -603,7 +643,11 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Discussion forum; Collaborative document; Digital notebook; Digital portfolio",
-    "Instrumentos de evaluación recomendados": "Revision history; Learning analytics; Progress dashboard"
+    "Instrumentos de evaluación recomendados": "Revision history; Learning analytics; Progress dashboard",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Individual / Gran grupo",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "TEC_TRIANG",
@@ -641,6 +685,10 @@
     },
     "tipo_entidad": "tecnica",
     "Medios/evidencias asociados": "Integrated competency task; E-portfolio with selected evidence; Contextualized competency test",
-    "Instrumentos de evaluación recomendados": "Evidence map by criterion; Criteria grading table; Achievement profile"
+    "Instrumentos de evaluación recomendados": "Evidence map by criterion; Criteria grading table; Achievement profile",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   }
 ]

@@ -42,7 +42,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Formative purpose; Continuous assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Observation guide; Anecdotal record; Checklist"
+    "Instrumentos de evaluación recomendados": "Observation guide; Anecdotal record; Checklist",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_TRAB_COOP",
@@ -101,7 +105,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Shared and participatory assessment; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Cooperative work rubric; Cooperative work record; Checklist"
+    "Instrumentos de evaluación recomendados": "Cooperative work rubric; Cooperative work record; Checklist",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PART",
@@ -148,7 +156,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Formative purpose; Shared and participatory assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Participation record; Observation guide; Rating scale"
+    "Instrumentos de evaluación recomendados": "Participation record; Observation guide; Rating scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_DEBATE",
@@ -189,7 +201,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Shared and participatory assessment; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Oral rubric; Observation guide; Participation record"
+    "Instrumentos de evaluación recomendados": "Oral rubric; Observation guide; Participation record",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_COLOQ",
@@ -230,7 +246,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Formative purpose; Shared and participatory assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Observation guide; Participation record; Anecdotal record"
+    "Instrumentos de evaluación recomendados": "Observation guide; Participation record; Anecdotal record",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_ASAM",
@@ -273,7 +293,11 @@
     },
     "Dimensiones asociadas": "Shared and participatory assessment; Formative purpose; Performance evidence",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Participation record; Observation guide; Anecdotal record"
+    "Instrumentos de evaluación recomendados": "Participation record; Observation guide; Anecdotal record",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_LAB",
@@ -316,7 +340,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Inquiry; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Process rubric; Observation guide; Checklist"
+    "Instrumentos de evaluación recomendados": "Process rubric; Observation guide; Checklist",
+    "Modalidad": "Presencial",
+    "Lugar": "Laboratorio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_TALLER",
@@ -357,7 +385,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Competency approach; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Process rubric; Product rubric; Checklist"
+    "Instrumentos de evaluación recomendados": "Process rubric; Product rubric; Checklist",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_SIM",
@@ -400,7 +432,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Simulation; Competency approach",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Observation guide; Checklist"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Observation guide; Checklist",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_ROL",
@@ -441,7 +477,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Simulation; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Oral rubric; Observation guide; Checklist"
+    "Instrumentos de evaluación recomendados": "Oral rubric; Observation guide; Checklist",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_DRAMA",
@@ -480,7 +520,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Shared and participatory assessment; Simulation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Oral rubric; Observation guide; Cooperative work rubric"
+    "Instrumentos de evaluación recomendados": "Oral rubric; Observation guide; Cooperative work rubric",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Exterior",
+    "Agrupamiento": "Grupo pequeño / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_EXPO",
@@ -533,7 +577,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Shared and participatory assessment; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Oral rubric; Checklist; Peer assessment card"
+    "Instrumentos de evaluación recomendados": "Oral rubric; Checklist; Peer assessment card",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_DEF_PROY",
@@ -584,7 +632,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Project-based work; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Oral rubric; Observation guide; Checklist"
+    "Instrumentos de evaluación recomendados": "Oral rubric; Observation guide; Checklist",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_ENTREV",
@@ -627,7 +679,11 @@
     },
     "Dimensiones asociadas": "Formative purpose; Feedback and feedforward; Performance evidence",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Observation guide; Anecdotal record; Feedback card"
+    "Instrumentos de evaluación recomendados": "Observation guide; Anecdotal record; Feedback card",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_PREG_ORAL",
@@ -670,7 +726,11 @@
     },
     "Dimensiones asociadas": "Formative purpose; Feedback and feedforward; Performance evidence",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Anecdotal record; Observation guide; Participation record"
+    "Instrumentos de evaluación recomendados": "Anecdotal record; Observation guide; Participation record",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_CUADERNO",
@@ -713,7 +773,11 @@
     },
     "Dimensiones asociadas": "Continuous assessment; Formative purpose; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Checklist; Descriptive scale; Feedback card"
+    "Instrumentos de evaluación recomendados": "Checklist; Descriptive scale; Feedback card",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_DIARIO",
@@ -758,7 +822,11 @@
     },
     "Dimensiones asociadas": "Self-assessment; Feedback and feedforward; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Reflection sheet; Self-assessment scale; Feedback card"
+    "Instrumentos de evaluación recomendados": "Reflection sheet; Self-assessment scale; Feedback card",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_PORT",
@@ -811,7 +879,11 @@
     },
     "Dimensiones asociadas": "Self-assessment; Criteria-based assessment; Continuous assessment; Feedback and feedforward; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Assessment matrix; Evidence map by criterion; Self-assessment scale"
+    "Instrumentos de evaluación recomendados": "Assessment matrix; Evidence map by criterion; Self-assessment scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_INFO_LAB",
@@ -854,7 +926,11 @@
     },
     "Dimensiones asociadas": "Inquiry; Criteria-based assessment; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Product rubric; Correction guide"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Product rubric; Correction guide",
+    "Modalidad": "Presencial",
+    "Lugar": "Laboratorio / Aula",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_INFO_INV",
@@ -895,7 +971,11 @@
     },
     "Dimensiones asociadas": "Inquiry; Criteria-based assessment; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Weighting matrix; Correction guide"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Weighting matrix; Correction guide",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_MONO",
@@ -936,7 +1016,11 @@
     },
     "Dimensiones asociadas": "Inquiry; Criteria-based assessment; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Weighting matrix"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Weighting matrix",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Domicilio / Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_ENSAYO",
@@ -979,7 +1063,11 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Grading and accreditation; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Correction template"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Correction template",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Domicilio / Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_COM_TEXT",
@@ -1022,7 +1110,11 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Grading and accreditation; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Correction guide; Analytic rubric; Correction template"
+    "Instrumentos de evaluación recomendados": "Correction guide; Analytic rubric; Correction template",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_COM_GRAF",
@@ -1061,7 +1153,11 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Grading and accreditation; Inquiry",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Correction guide; Analytic rubric; Correction template"
+    "Instrumentos de evaluación recomendados": "Correction guide; Analytic rubric; Correction template",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_RESUMEN",
@@ -1100,7 +1196,11 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Formative purpose; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Correction guide; Checklist; Correction template"
+    "Instrumentos de evaluación recomendados": "Correction guide; Checklist; Correction template",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_ESQUEMA",
@@ -1139,7 +1239,11 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Formative purpose; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Checklist; Descriptive scale; Correction guide"
+    "Instrumentos de evaluación recomendados": "Checklist; Descriptive scale; Correction guide",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_MAP_CONC",
@@ -1178,7 +1282,11 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Formative purpose; Diagnostic purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Achievement profile"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Achievement profile",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Parejas",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_MAP_MENT",
@@ -1217,7 +1325,11 @@
     },
     "Dimensiones asociadas": "Formative purpose; Diagnostic purpose; Self-assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Checklist; Descriptive scale; Anecdotal record"
+    "Instrumentos de evaluación recomendados": "Checklist; Descriptive scale; Anecdotal record",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_LINEA",
@@ -1254,7 +1366,11 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Formative purpose; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Checklist; Correction guide; Descriptive scale"
+    "Instrumentos de evaluación recomendados": "Checklist; Correction guide; Descriptive scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_GLOS",
@@ -1293,7 +1409,11 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Formative purpose; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Checklist; Correction guide; Descriptive scale"
+    "Instrumentos de evaluación recomendados": "Checklist; Correction guide; Descriptive scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_FICHA_LECT",
@@ -1332,7 +1452,11 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Formative purpose; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Checklist; Correction guide; Descriptive scale"
+    "Instrumentos de evaluación recomendados": "Checklist; Correction guide; Descriptive scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_RESEÑA",
@@ -1373,7 +1497,11 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Grading and accreditation; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Correction template"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Correction template",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Domicilio / Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_ART_DIV",
@@ -1414,7 +1542,11 @@
     },
     "Dimensiones asociadas": "Competency approach; Criteria-based assessment; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Checklist"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Checklist",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Domicilio / Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_MEM_PROY",
@@ -1457,7 +1589,11 @@
     },
     "Dimensiones asociadas": "Project-based work; Criteria-based assessment; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Weighting matrix; Checklist"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Weighting matrix; Checklist",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_PLAN_TRAB",
@@ -1498,7 +1634,11 @@
     },
     "Dimensiones asociadas": "Formative purpose; Project-based work; Self-assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Checklist; Assessment card; Group contract"
+    "Instrumentos de evaluación recomendados": "Checklist; Assessment card; Group contract",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_ACTA",
@@ -1537,7 +1677,11 @@
     },
     "Dimensiones asociadas": "Project-based work; Formative purpose; Shared and participatory assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Checklist; Cooperative work record; Assessment card"
+    "Instrumentos de evaluación recomendados": "Checklist; Cooperative work record; Assessment card",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño / Gran grupo",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_CONTRATO",
@@ -1578,7 +1722,11 @@
     },
     "Dimensiones asociadas": "Self-assessment; Formative purpose; Inclusive assessment and UDL",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Reflection sheet; Achievement profile; Self-assessment scale"
+    "Instrumentos de evaluación recomendados": "Reflection sheet; Achievement profile; Self-assessment scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_F_REFLEX",
@@ -1623,7 +1771,11 @@
     },
     "Dimensiones asociadas": "Self-assessment; Feedback and feedforward; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Self-assessment scale; Assessment card; Self-assessment rubric"
+    "Instrumentos de evaluación recomendados": "Self-assessment scale; Assessment card; Self-assessment rubric",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_AUTOINF",
@@ -1664,7 +1816,11 @@
     },
     "Dimensiones asociadas": "Self-assessment; Shared and participatory assessment; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Self-assessment rubric; Self-assessment scale; Assessment card"
+    "Instrumentos de evaluación recomendados": "Self-assessment rubric; Self-assessment scale; Assessment card",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_PROB",
@@ -1703,7 +1859,11 @@
     },
     "Dimensiones asociadas": "Problem solving; Competency approach; Criteria-based assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Correction template"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Correction template",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_CASO",
@@ -1748,7 +1908,11 @@
     },
     "Dimensiones asociadas": "Case study; Competency approach; Problem solving",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Weighting matrix"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Weighting matrix",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PR_DES",
@@ -1795,7 +1959,11 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Grading and accreditation; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Correction guide; Analytic rubric; Correction template"
+    "Instrumentos de evaluación recomendados": "Correction guide; Analytic rubric; Correction template",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_PR_OBJ",
@@ -1842,7 +2010,11 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Grading and accreditation; Diagnostic purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Correction template; Numerical scale; Scoring scale"
+    "Instrumentos de evaluación recomendados": "Correction template; Numerical scale; Scoring scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_TEST",
@@ -1887,7 +2059,11 @@
     },
     "Dimensiones asociadas": "Grading and accreditation; Diagnostic purpose; Criteria-based assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Correction template; Scoring scale; Numerical scale"
+    "Instrumentos de evaluación recomendados": "Correction template; Scoring scale; Numerical scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_RESP_CORTA",
@@ -1932,7 +2108,11 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Grading and accreditation; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Correction guide; Correction template; Numerical scale"
+    "Instrumentos de evaluación recomendados": "Correction guide; Correction template; Numerical scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PR_ORAL",
@@ -1977,7 +2157,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Criteria-based assessment; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Oral rubric; Observation guide; Rating scale"
+    "Instrumentos de evaluación recomendados": "Oral rubric; Observation guide; Rating scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_PR_PRACT",
@@ -2016,7 +2200,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Competency approach; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Observation guide; Checklist"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Observation guide; Checklist",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_PR_COMP",
@@ -2063,7 +2251,11 @@
     },
     "Dimensiones asociadas": "Competency approach; Criteria-based assessment; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Competency rubric; Analytic rubric; Weighting matrix"
+    "Instrumentos de evaluación recomendados": "Competency rubric; Analytic rubric; Weighting matrix",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_DOCS",
@@ -2108,7 +2300,11 @@
     },
     "Dimensiones asociadas": "Inquiry; Criteria-based assessment; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Correction guide; Analytic rubric; Correction template"
+    "Instrumentos de evaluación recomendados": "Correction guide; Analytic rubric; Correction template",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_CUEST_DIG",
@@ -2151,7 +2347,11 @@
     },
     "Dimensiones asociadas": "Formative purpose; Diagnostic purpose; Digital evidence",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Digital form; Correction template; Progress dashboard"
+    "Instrumentos de evaluación recomendados": "Digital form; Correction template; Progress dashboard",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_INFOG",
@@ -2192,7 +2392,11 @@
     },
     "Dimensiones asociadas": "Competency approach; Digital evidence; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Product rubric"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Product rubric",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Parejas",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_POSTER",
@@ -2229,7 +2433,11 @@
     },
     "Dimensiones asociadas": "Competency approach; Performance evidence; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Oral rubric; Checklist"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Oral rubric; Checklist",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PRESENT_DIG",
@@ -2272,7 +2480,11 @@
     },
     "Dimensiones asociadas": "Digital evidence; Competency approach; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Oral rubric"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Oral rubric",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_VIDEO",
@@ -2311,7 +2523,11 @@
     },
     "Dimensiones asociadas": "Digital evidence; Competency approach; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Product rubric"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Product rubric",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Exterior / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_TUTORIAL",
@@ -2350,7 +2566,11 @@
     },
     "Dimensiones asociadas": "Digital evidence; Competency approach; Performance evidence",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Product rubric; Checklist"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Product rubric; Checklist",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PODCAST",
@@ -2391,7 +2611,11 @@
     },
     "Dimensiones asociadas": "Digital evidence; Competency approach; Performance evidence",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Oral rubric; Checklist"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Oral rubric; Checklist",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_COMIC",
@@ -2430,7 +2654,11 @@
     },
     "Dimensiones asociadas": "Competency approach; Inclusive assessment and UDL; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Product rubric"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Product rubric",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_MAQUETA",
@@ -2469,7 +2697,11 @@
     },
     "Dimensiones asociadas": "Competency approach; Inclusive assessment and UDL; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Product rubric; Checklist"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Product rubric; Checklist",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_MODELO_DIG",
@@ -2508,7 +2740,11 @@
     },
     "Dimensiones asociadas": "Digital evidence; Competency approach; Simulation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Product rubric"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Product rubric",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PROTOTIPO",
@@ -2551,7 +2787,11 @@
     },
     "Dimensiones asociadas": "Problem solving; Competency approach; Project-based work",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Product rubric; Checklist"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Product rubric; Checklist",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula / Laboratorio / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_WEB",
@@ -2590,7 +2830,11 @@
     },
     "Dimensiones asociadas": "Digital evidence; Competency approach; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Product rubric; Checklist"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Product rubric; Checklist",
+    "Modalidad": "Online",
+    "Lugar": "Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_BLOG",
@@ -2629,7 +2873,11 @@
     },
     "Dimensiones asociadas": "Digital evidence; Competency approach; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Correction guide"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Checklist; Correction guide",
+    "Modalidad": "Online",
+    "Lugar": "Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_FORO",
@@ -2670,7 +2918,11 @@
     },
     "Dimensiones asociadas": "Digital evidence; Shared and participatory assessment; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Participation record; Checklist"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Participation record; Checklist",
+    "Modalidad": "Online",
+    "Lugar": "Virtual",
+    "Agrupamiento": "Grupo pequeño / Gran grupo",
+    "Resistencia IA": "Baja"
   },
   {
     "Código": "INS_DOC_COL",
@@ -2721,7 +2973,11 @@
     },
     "Dimensiones asociadas": "Digital evidence; Shared and participatory assessment; Continuous assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Revision history; Cooperative work rubric; Product rubric"
+    "Instrumentos de evaluación recomendados": "Revision history; Cooperative work rubric; Product rubric",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_PORT_DIG",
@@ -2768,7 +3024,11 @@
     },
     "Dimensiones asociadas": "Digital evidence; Self-assessment; Continuous assessment; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Assessment matrix; Evidence map by criterion; Revision history"
+    "Instrumentos de evaluación recomendados": "Assessment matrix; Evidence map by criterion; Revision history",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_KPSI",
@@ -2813,7 +3073,11 @@
     },
     "Dimensiones asociadas": "Diagnostic purpose; Self-assessment; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Self-assessment scale; Assessment target; Achievement profile"
+    "Instrumentos de evaluación recomendados": "Self-assessment scale; Assessment target; Achievement profile",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_MAP_INI",
@@ -2856,7 +3120,11 @@
     },
     "Dimensiones asociadas": "Diagnostic purpose; Formative purpose; Self-assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Checklist; Descriptive scale; Achievement profile"
+    "Instrumentos de evaluación recomendados": "Checklist; Descriptive scale; Achievement profile",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_LLUVIA",
@@ -2901,7 +3169,11 @@
     },
     "Dimensiones asociadas": "Diagnostic purpose; Formative purpose; Shared and participatory assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Anecdotal record; Field notes; Observation guide"
+    "Instrumentos de evaluación recomendados": "Anecdotal record; Field notes; Observation guide",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Gran grupo / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_BORR",
@@ -2946,7 +3218,11 @@
     },
     "Dimensiones asociadas": "Formative purpose; Feedback and feedforward; Continuous assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Feedback card; Feedback/feedforward template; Improvement commitments record"
+    "Instrumentos de evaluación recomendados": "Feedback card; Feedback/feedforward template; Improvement commitments record",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Domicilio / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_ENT_PAR",
@@ -2993,7 +3269,11 @@
     },
     "Dimensiones asociadas": "Continuous assessment; Formative purpose; Feedback and feedforward",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Feedback card; Checklist; Feedback/feedforward template"
+    "Instrumentos de evaluación recomendados": "Feedback card; Checklist; Feedback/feedforward template",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_BIT",
@@ -3036,7 +3316,11 @@
     },
     "Dimensiones asociadas": "Project-based work; Formative purpose; Self-assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Checklist; Assessment card; Descriptive record"
+    "Instrumentos de evaluación recomendados": "Checklist; Assessment card; Descriptive record",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Grupo pequeño / Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_REV_PARES",
@@ -3083,7 +3367,11 @@
     },
     "Dimensiones asociadas": "Peer assessment; Feedback and feedforward; Shared and participatory assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Peer assessment rubric; Peer assessment card; Checklist"
+    "Instrumentos de evaluación recomendados": "Peer assessment rubric; Peer assessment card; Checklist",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Parejas / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_2E1D",
@@ -3126,7 +3414,11 @@
     },
     "Dimensiones asociadas": "Peer assessment; Feedback and feedforward; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Peer assessment card; Feedback/feedforward template; Checklist"
+    "Instrumentos de evaluación recomendados": "Peer assessment card; Feedback/feedforward template; Checklist",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Parejas / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_SEMAF",
@@ -3169,7 +3461,11 @@
     },
     "Dimensiones asociadas": "Self-assessment; Formative purpose; Feedback and feedforward",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Assessment traffic light; Self-assessment scale; Assessment target"
+    "Instrumentos de evaluación recomendados": "Assessment traffic light; Self-assessment scale; Assessment target",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_BILLETE",
@@ -3214,7 +3510,11 @@
     },
     "Dimensiones asociadas": "Formative purpose; Feedback and feedforward; Self-assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Self-assessment scale; Assessment traffic light; Assessment target"
+    "Instrumentos de evaluación recomendados": "Self-assessment scale; Assessment traffic light; Assessment target",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_LIBRO_ABIERTO",
@@ -3259,7 +3559,11 @@
     },
     "Dimensiones asociadas": "Competency approach; Criteria-based assessment; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Weighting matrix"
+    "Instrumentos de evaluación recomendados": "Analytic rubric; Correction guide; Weighting matrix",
+    "Modalidad": "Presencial",
+    "Lugar": "Aula",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_TAREA_COMP_INT",
@@ -3310,7 +3614,11 @@
     },
     "Dimensiones asociadas": "Competency approach; Criteria-based assessment; Grading and accreditation",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Competency rubric; Weighting matrix; Evidence map by criterion"
+    "Instrumentos de evaluación recomendados": "Competency rubric; Weighting matrix; Evidence map by criterion",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Exterior",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_SIT_PROB",
@@ -3357,7 +3665,11 @@
     },
     "Dimensiones asociadas": "Competency approach; Problem solving; Criteria-based assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Competency rubric; Analytic rubric; Weighting matrix"
+    "Instrumentos de evaluación recomendados": "Competency rubric; Analytic rubric; Weighting matrix",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_ESCAPE",
@@ -3404,7 +3716,11 @@
     },
     "Dimensiones asociadas": "Problem solving; Competency approach; Shared and participatory assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Observation guide; Analytic rubric; Checklist"
+    "Instrumentos de evaluación recomendados": "Observation guide; Analytic rubric; Checklist",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Exterior",
+    "Agrupamiento": "Grupo pequeño / Gran grupo",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_SEMINARIO",
@@ -3451,7 +3767,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Shared and participatory assessment; Formative purpose",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Oral rubric; Observation guide; Participation record"
+    "Instrumentos de evaluación recomendados": "Oral rubric; Observation guide; Participation record",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Gran grupo / Grupo pequeño",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_CHECK_LAB",
@@ -3496,7 +3816,11 @@
     },
     "Dimensiones asociadas": "Performance evidence; Formative purpose; Self-assessment",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Checklist; Observation guide; Anecdotal record"
+    "Instrumentos de evaluación recomendados": "Checklist; Observation guide; Anecdotal record",
+    "Modalidad": "Presencial",
+    "Lugar": "Laboratorio",
+    "Agrupamiento": "Individual / Parejas",
+    "Resistencia IA": "Alta"
   },
   {
     "Código": "INS_CUAD_DIG",
@@ -3545,7 +3869,11 @@
     },
     "Dimensiones asociadas": "Digital evidence; Continuous assessment; Inclusive assessment and UDL",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Revision history; Progress dashboard; Digital evidence bank"
+    "Instrumentos de evaluación recomendados": "Revision history; Progress dashboard; Digital evidence bank",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   },
   {
     "Código": "INS_EPORT_SEL",
@@ -3600,6 +3928,10 @@
     },
     "Dimensiones asociadas": "Criteria-based assessment; Continuous assessment; Feedback and feedforward; Grading and accreditation; Shared and participatory assessment; Inclusive assessment and UDL",
     "tipo_entidad": "medio_evidencia",
-    "Instrumentos de evaluación recomendados": "Evidence map by criterion; Digital evidence bank; Progress scale"
+    "Instrumentos de evaluación recomendados": "Evidence map by criterion; Digital evidence bank; Progress scale",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Media"
   }
 ]
