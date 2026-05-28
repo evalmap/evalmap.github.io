@@ -71,6 +71,7 @@
           <div class="home-card-count" id="count-her">57 instrumentos de evaluación</div>
           <h2>Instrumentos de evaluación</h2>
           <p>Rúbricas, listas, escalas y registros para valorar, calificar y retroalimentar las evidencias. Conectados con evidencias evaluables y dimensiones.</p>
+          <div class="home-card-feature">📊 Incluye planificador de cobertura de dimensiones</div>
           <div class="home-card-btn">Empezar desde aquí →</div>
         </div>
 
@@ -104,11 +105,17 @@
           </div>
           <div class="filter-row" id="filter-chips"></div>
         </div>
+        <div class="plan-toolbar" id="plan-toolbar" style="display:none">
+          <button class="plan-toggle-btn" id="btn-plan-mode" type="button" data-tooltip="Marca los instrumentos de evaluación que usarás en tu unidad y comprueba qué dimensiones cubre tu plan — y cuáles quedan sin atender.">📊 Planificación</button>
+          <span class="plan-info" id="plan-info"></span>
+          <button class="plan-clear-btn" id="btn-plan-clear" type="button" style="display:none">✕ Limpiar</button>
+        </div>
         <div class="cards-list" id="cards-grid"></div>
       </div>
 
       <!-- Right: detail panel -->
       <div class="catalog-detail-panel" id="detail-panel">
+        <div class="plan-coverage-panel" id="plan-coverage-panel" style="display:none"></div>
         <div class="detail-empty" id="detail-empty">
           <div class="empty-icon">👈</div>
           <p>Selecciona un elemento<br>para ver sus relaciones</p>

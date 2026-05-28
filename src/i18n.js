@@ -62,6 +62,7 @@ const I18N = {
         extra2FilterVals: ['Baja', 'Media', 'Alta'],
         extra2FilterAll: 'Todas',
         homeDesc: 'Rúbricas, listas, escalas y registros para valorar, calificar y retroalimentar las evidencias. Conectados con evidencias evaluables y dimensiones.',
+        homeFeature: '📊 Incluye planificador de cobertura de dimensiones',
       },
     },
 
@@ -212,6 +213,7 @@ const I18N = {
         extra2FilterVals: ['Baja', 'Media', 'Alta'],
         extra2FilterAll: 'Totes',
         homeDesc: "Rúbriques, llistes, escales i registres per valorar, qualificar i retroalimentar les evidències. Connectats amb evidències avaluables i dimensions.",
+        homeFeature: '📊 Inclou planificador de cobertura de dimensions',
       },
     },
 
@@ -362,6 +364,7 @@ const I18N = {
         extra2FilterVals: ['Baja', 'Media', 'Alta'],
         extra2FilterAll: 'All',
         homeDesc: 'Rubrics, checklists, scales and records for assessing, grading and providing feedback on evidence. Connected with assessable evidence and dimensions.',
+        homeFeature: '📊 Includes dimension coverage planner',
       },
     },
 

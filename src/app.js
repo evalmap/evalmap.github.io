@@ -35,6 +35,9 @@ const state = {
   search:       '',
   selectedName: null,
   lang:         localStorage.getItem('evalmap_lang') || 'es',
+  planMode:       false,
+  planSelected:   new Map(), // code → { name, cat, item }
+  planExpandedDim: null,     // dimension code currently expanded
 };
 
 let CAT_CONFIG = buildCatConfig(state.lang);
@@ -84,6 +87,8 @@ function renderHome() {
     if (h2) h2.textContent = i.cats[cat].label;
     if (p)  p.textContent  = i.cats[cat].homeDesc;
     card.querySelectorAll('.home-card-btn').forEach(btn => btn.textContent = i.startHere);
+    const feat = card.querySelector('.home-card-feature');
+    if (feat && i.cats[cat].homeFeature) feat.textContent = i.cats[cat].homeFeature;
   });
 
   const kicker = document.querySelector('.home-card-kicker');
@@ -169,6 +174,7 @@ function updateStaticI18n() {
 /* ── Language switcher ────────────────────────────────────── */
 async function setLang(lang) {
   if (!I18N[lang] || lang === state.lang) return;
+  if (state.planMode) exitPlanMode();
   state.lang = lang;
   localStorage.setItem('evalmap_lang', lang);
   CAT_CONFIG = buildCatConfig(lang);
@@ -246,6 +252,7 @@ function showView(id) {
 }
 
 function showHome() {
+  if (state.planMode) exitPlanMode();
   graphStop();
   GRAPH.nodes = [];
   GRAPH.edges = [];
@@ -255,6 +262,7 @@ function showHome() {
   state.selectedName = null;
   document.getElementById('cat-tabs').style.display    = 'none';
   document.getElementById('catalog-count').style.display = 'none';
+  document.getElementById('plan-toolbar').style.display = 'none';
   showView('view-home');
 }
 
@@ -308,8 +316,16 @@ function showCatalog(cat) {
     </div>
     ${extra2Row}`;
 
+  const planToolbar = document.getElementById('plan-toolbar');
+  if (cat === 'herramientas') {
+    planToolbar.style.display = '';
+  } else {
+    planToolbar.style.display = 'none';
+    if (state.planMode) exitPlanMode();
+  }
   showView('view-catalog');
   renderCards();
+  if (state.planMode) renderPlanCoverage();
 }
 
 /* ── Filtering helpers ────────────────────────────────────── */
@@ -361,6 +377,7 @@ function renderCards() {
   }
 
   const grid = document.getElementById('cards-grid');
+  grid.scrollTop = 0;
 
   if (filtered.length === 0) {
     grid.innerHTML = `
@@ -372,15 +389,20 @@ function renderCards() {
   }
 
   grid.innerHTML = filtered.map(item => {
-    const name     = item[cfg.nameKey];
-    const desc     = item['Descripción breve'] || '';
-    const badges   = phaseBadges(item['Fase']);
-    const safeName = name.replace(/"/g, '&quot;');
-    const selClass = name === state.selectedName ? ` selected-${cfg.cls}` : '';
+    const name      = item[cfg.nameKey];
+    const code      = item['Código'];
+    const desc      = item['Descripción breve'] || '';
+    const badges    = phaseBadges(item['Fase']);
+    const safeName  = name.replace(/"/g, '&quot;');
+    const planPick  = state.planMode && state.planSelected.has(code);
+    const selClass  = !state.planMode && name === state.selectedName ? ` selected-${cfg.cls}` : '';
+    const planClass = planPick ? ' plan-selected' : '';
+    const checkMark = planPick ? '<span class="plan-check">✓</span>' : '';
 
     return `
-      <div class="cat-card${selClass}" style="--active-color:var(--c-${cfg.cls})"
-           data-name="${safeName}" data-cat="${cat}" role="button" tabindex="0">
+      <div class="cat-card${selClass}${planClass}" style="--active-color:var(--c-${cfg.cls})"
+           data-name="${safeName}" data-code="${code}" data-cat="${cat}" role="button" tabindex="0">
+        ${checkMark}
         <div class="cat-card-name">${name}</div>
         <div class="cat-card-desc">${desc}</div>
         <div class="cat-card-badges">${badges}</div>
@@ -397,6 +419,7 @@ function findByCodes(codes, targetCat) {
 
 /* ── Detail panel ─────────────────────────────────────────── */
 function showDetailPanel(name, cat, pushHistory = true) {
+  if (state.planMode) return;
   if (pushHistory) {
     navHistory.splice(navIndex + 1);
     navHistory.push({ name, cat });
@@ -457,7 +480,7 @@ const G = {
   COOLING:    0.98,
   STOP_ALPHA: 0.001,
   CENTER_R:   26,
-  NODE_R:     17,
+  NODE_R:     21,
   NODE_R2:    13,
   LABEL_H:    72,
 };
@@ -521,7 +544,7 @@ function graphBuild(item, cat) {
 
   function kindRadius(baseR, kind) {
     if (kind === 'complementaria') return Math.round(baseR * 0.65);
-    if (kind === 'ocasional')      return Math.round(baseR * 0.40);
+    if (kind === 'ocasional')      return Math.max(4, Math.round(baseR * 0.40));
     return baseR;
   }
 
@@ -746,7 +769,13 @@ function graphDraw() {
     const col   = pal[nd.cls];
     const isHov = i === hov && !nd.isCenter;
     const r     = isHov ? nd.r + 2 : nd.r;
+    const alpha = nd.isCenter ? 1.0
+      : nd.kindPriority === 3 ? 1.0
+      : nd.kindPriority === 2 ? 0.65
+      : 0.40;
 
+    ctx.save();
+    ctx.globalAlpha = isHov ? Math.min(1, alpha + 0.2) : alpha;
     ctx.beginPath();
     ctx.arc(nd.x, nd.y, r, 0, Math.PI * 2);
     ctx.fillStyle   = col.bg;
@@ -754,6 +783,7 @@ function graphDraw() {
     ctx.lineWidth   = nd.isCenter ? 2.5 : isHov ? 2.2 : 1.5;
     ctx.strokeStyle = nd.isCenter || isHov ? col.stroke : col.edge;
     ctx.stroke();
+    ctx.restore();
 
     const fs     = nd.isCenter ? 13 : 11;
     const maxW   = nd.isCenter ? 160 : 140;
@@ -1092,18 +1122,64 @@ function initEvents() {
 
   document.getElementById('cards-grid').addEventListener('click', e => {
     const card = e.target.closest('.cat-card[data-name]');
-    if (card) showDetailPanel(card.dataset.name, card.dataset.cat);
+    if (!card) return;
+    if (state.planMode) togglePlanItem(card.dataset.code, card.dataset.name, card.dataset.cat);
+    else showDetailPanel(card.dataset.name, card.dataset.cat);
   });
   document.getElementById('cards-grid').addEventListener('keydown', e => {
     if (e.key !== 'Enter' && e.key !== ' ') return;
     const card = e.target.closest('.cat-card[data-name]');
-    if (card) showDetailPanel(card.dataset.name, card.dataset.cat);
+    if (!card) return;
+    if (state.planMode) togglePlanItem(card.dataset.code, card.dataset.name, card.dataset.cat);
+    else showDetailPanel(card.dataset.name, card.dataset.cat);
   });
 
   // Language switcher
   document.querySelectorAll('.lang-btn[data-lang]').forEach(btn =>
     btn.addEventListener('click', () => setLang(btn.dataset.lang))
   );
+
+  // Plan mode
+  document.getElementById('btn-plan-mode').addEventListener('click', () => {
+    if (state.planMode) exitPlanMode(); else enterPlanMode();
+  });
+  document.getElementById('btn-plan-clear').addEventListener('click', () => {
+    state.planSelected = new Map();
+    state.planExpandedDim = null;
+    updatePlanToolbar();
+    renderCards();
+    renderPlanCoverage();
+  });
+
+  // Plan panel delegation (chip remove, dim expand, suggest add)
+  document.getElementById('plan-coverage-panel').addEventListener('click', e => {
+    const removeBtn = e.target.closest('.plan-chip-remove');
+    if (removeBtn) {
+      state.planSelected.delete(removeBtn.dataset.code);
+      updatePlanToolbar();
+      renderCards();
+      renderPlanCoverage();
+      return;
+    }
+    const suggestBtn = e.target.closest('.plan-suggest-btn');
+    if (suggestBtn) {
+      const code = suggestBtn.dataset.code;
+      const name = suggestBtn.dataset.name;
+      const item = (state.data.herramientas || []).find(h => h['Código'] === code);
+      state.planSelected.set(code, { name, cat: 'herramientas', item });
+      state.planExpandedDim = null;
+      updatePlanToolbar();
+      renderCards();
+      renderPlanCoverage();
+      return;
+    }
+    const dimItem = e.target.closest('.plan-dim-item.uncovered');
+    if (dimItem) {
+      const code = dimItem.dataset.dim;
+      state.planExpandedDim = state.planExpandedDim === code ? null : code;
+      renderPlanCoverage();
+    }
+  });
 
   // Canvas — zoom (wheel), pan (drag), hover, click
   const hubCanvas = document.getElementById('hub-canvas');
@@ -1477,6 +1553,141 @@ p{margin:0 0 .6rem}.type{color:#64748b;font-style:italic}.brief{font-size:1.05re
   document.addEventListener('mouseup', () => {
     if (cardDrag) { cardDrag = null; dragHandle.classList.remove('dragging'); }
   });
+}
+
+/* ── Plan / coverage mode ────────────────────────────────── */
+
+function enterPlanMode() {
+  state.planMode = true;
+  state.selectedName = null;
+  document.querySelector('.catalog-body').classList.remove('has-detail');
+  document.getElementById('btn-plan-mode').classList.add('active');
+  document.getElementById('detail-content').style.display = 'none';
+  renderCards();
+  renderPlanCoverage();
+}
+
+function exitPlanMode() {
+  state.planMode = false;
+  state.planSelected = new Map();
+  document.getElementById('btn-plan-mode').classList.remove('active');
+  document.getElementById('plan-coverage-panel').style.display = 'none';
+  document.getElementById('detail-empty').style.display = '';
+  updatePlanToolbar();
+  renderCards();
+}
+
+function updatePlanToolbar() {
+  const n = state.planSelected.size;
+  const infoEl = document.getElementById('plan-info');
+  const clearEl = document.getElementById('btn-plan-clear');
+  if (infoEl) infoEl.textContent = n > 0 ? `${n} ítem${n !== 1 ? 's' : ''}` : '';
+  if (clearEl) clearEl.style.display = n > 0 ? '' : 'none';
+}
+
+function togglePlanItem(code, name, cat) {
+  if (state.planSelected.has(code)) {
+    state.planSelected.delete(code);
+  } else {
+    const item = (state.data[cat] || []).find(i => i['Código'] === code);
+    state.planSelected.set(code, { name, cat, item });
+  }
+  updatePlanToolbar();
+  renderCards();
+  renderPlanCoverage();
+}
+
+function calcDimCoverage() {
+  return (state.data.dimensiones || []).map(dim => {
+    const dimCode = dim['Código'];
+    const covered = [...state.planSelected.values()].some(
+      info => info.item?.rel_dim?.includes(dimCode)
+    );
+    return {
+      code: dimCode,
+      name: dim[CAT_CONFIG.dimensiones.nameKey],
+      cat:  dim['Categoría'],
+      covered,
+    };
+  }).sort((a, b) => b.covered - a.covered);
+}
+
+function renderPlanCoverage() {
+  const panel = document.getElementById('plan-coverage-panel');
+  if (!panel) return;
+  panel.style.display = '';
+  document.getElementById('detail-content').style.display = 'none';
+  document.getElementById('detail-empty').style.display = 'none';
+
+  const n = state.planSelected.size;
+
+  if (n === 0) {
+    panel.innerHTML = `
+      <div class="plan-empty-state">
+        <div class="plan-empty-icon">🗂️</div>
+        <div class="plan-empty-title">Planificación de evaluación</div>
+        <div class="plan-empty-desc">Marca los instrumentos que usarás en tu unidad docente y comprueba qué <strong>dimensiones de evaluación</strong> quedan cubiertas — y cuáles no.</div>
+      </div>`;
+    return;
+  }
+
+  const coverage = calcDimCoverage();
+  const coveredCount = coverage.filter(d => d.covered).length;
+  const total = coverage.length;
+  const pct = Math.round(coveredCount / total * 100);
+
+  // Group by category, covered first within each group
+  const groups = {};
+  coverage.forEach(d => {
+    if (!groups[d.cat]) groups[d.cat] = [];
+    groups[d.cat].push(d);
+  });
+
+  const groupsHtml = Object.entries(groups).map(([cat, dims]) => {
+    const items = dims.map(d => {
+      if (d.covered) {
+        return `<div class="plan-dim-item covered"><span class="plan-dim-icon">✓</span><span class="plan-dim-name">${d.name}</span></div>`;
+      }
+      const isExp = d.code === state.planExpandedDim;
+      const allCovering = (state.data.herramientas || []).filter(h => h.rel_dim?.includes(d.code));
+      const suggestions = allCovering.filter(h => !state.planSelected.has(h['Código']));
+      const emptyMsg = allCovering.length === 0
+        ? 'Esta dimensión se activa a través de evidencias evaluables, no de instrumentos de evaluación.'
+        : 'Todos los instrumentos que cubren esta dimensión ya están seleccionados.';
+      const suggestHtml = isExp ? `
+        <div class="plan-suggest-list">
+          ${suggestions.length
+            ? suggestions.map(h => `<button class="plan-suggest-btn" data-code="${h['Código']}" data-name="${h[CAT_CONFIG.herramientas.nameKey]}">＋ ${h[CAT_CONFIG.herramientas.nameKey]}</button>`).join('')
+            : `<span class="plan-suggest-empty">${emptyMsg}</span>`}
+        </div>` : '';
+      return `
+        <div class="plan-dim-item uncovered${isExp ? ' expanded' : ''}" data-dim="${d.code}">
+          <div class="plan-dim-row-main">
+            <span class="plan-dim-icon">–</span>
+            <span class="plan-dim-name">${d.name}</span>
+            <span class="plan-dim-add" title="Ver instrumentos que cubren esta dimensión">${isExp ? '▲' : '+'}</span>
+          </div>
+          ${suggestHtml}
+        </div>`;
+    }).join('');
+    return `<div class="plan-group"><div class="plan-group-label">${cat}</div>${items}</div>`;
+  }).join('');
+
+  const chipsHtml = [...state.planSelected.entries()].map(([code, v]) => `
+    <span class="plan-her-chip">
+      ${v.name}<button class="plan-chip-remove" data-code="${code}" aria-label="Quitar">×</button>
+    </span>`).join('');
+
+  panel.innerHTML = `
+    <div class="plan-header-block">
+      <div class="plan-cov-title">Plan de evaluación</div>
+      <div class="plan-progress-wrap">
+        <div class="plan-progress-bar"><div class="plan-progress-fill" style="width:${pct}%"></div></div>
+        <span class="plan-progress-label"><strong>${coveredCount}</strong> de ${total} dimensiones cubiertas</span>
+      </div>
+      <div class="plan-her-chips">${chipsHtml}</div>
+    </div>
+    <div class="plan-groups">${groupsHtml}</div>`;
 }
 
 /* ── Init ─────────────────────────────────────────────────── */
