@@ -561,16 +561,19 @@ img { max-width: 100%; }
   align-items: center;
   gap: 0.35rem;
 }
+.legend-dot {
+  display: inline-block;
+  border-radius: 50%;
+  background: var(--text-muted);
+  flex-shrink: 0;
+}
+.legend-dot.principal     { width: 14px; height: 14px; }
+.legend-dot.complementaria{ width:  9px; height:  9px; }
+.legend-dot.ocasional     { width:  5px; height:  5px; }
 .legend-line {
   display: inline-block;
   width: 26px;
   border-top: 2px solid var(--text-muted);
-}
-.legend-line.principal { border-top-width: 4px; }
-.legend-line.complementaria { border-top-width: 2px; }
-.legend-line.ocasional {
-  border-top-width: 1px;
-  border-top-style: dashed;
 }
 .legend-line.transversal {
   border-top-width: 2px;

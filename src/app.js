@@ -149,9 +149,9 @@ function updateStaticI18n() {
 
   const legendSpans = document.querySelectorAll('.graph-legend span');
   if (legendSpans.length >= 4) {
-    legendSpans[0].innerHTML = `<i class="legend-line principal"></i>${i.legend.principal}`;
-    legendSpans[1].innerHTML = `<i class="legend-line complementaria"></i>${i.legend.complementaria}`;
-    legendSpans[2].innerHTML = `<i class="legend-line ocasional"></i>${i.legend.ocasional}`;
+    legendSpans[0].innerHTML = `<i class="legend-dot principal"></i>${i.legend.principal}`;
+    legendSpans[1].innerHTML = `<i class="legend-dot complementaria"></i>${i.legend.complementaria}`;
+    legendSpans[2].innerHTML = `<i class="legend-dot ocasional"></i>${i.legend.ocasional}`;
     legendSpans[3].innerHTML = `<i class="legend-line transversal"></i>${i.legend.transversal}`;
   }
 
@@ -518,13 +518,21 @@ function graphBuild(item, cat) {
     edges.push({ a: parentIdx, b: nodeIdx, kind, isTransversal });
   }
 
-  function addConnected(srcItem, srcCat, relDef, parentIdx, targetX, r) {
+  function kindRadius(baseR, kind) {
+    if (kind === 'complementaria') return Math.round(baseR * 0.65);
+    if (kind === 'ocasional')      return Math.round(baseR * 0.40);
+    return baseR;
+  }
+
+  function addConnected(srcItem, srcCat, relDef, parentIdx, targetX, baseR) {
     if (!relDef) return [];
     const ncfg     = CAT_CONFIG[relDef.cat];
     const connected = findByCodes(srcItem[relDef.codeField] || [], relDef.cat);
     const result   = [];
     connected.forEach((ni, k) => {
       const code = ni['Código'];
+      const kind = getRelationKind(srcItem, relDef.codeField, code);
+      const r    = kindRadius(baseR, kind);
       let nodeIdx = codeToIdx.get(code);
       if (nodeIdx === undefined) {
         const spread = connected.length > 1
@@ -535,12 +543,16 @@ function graphBuild(item, cat) {
           x: targetX + (Math.random() - 0.5) * 60,
           y: spread  + (Math.random() - 0.5) * 30,
           vx: 0, vy: 0,
-          r, cat: relDef.cat, cls: ncfg.cls,
+          r, baseR, kindPriority: REL_PRIORITY[kind],
+          cat: relDef.cat, cls: ncfg.cls,
           name: ni[ncfg.nameKey], isCenter: false, targetX,
         });
+      } else if (REL_PRIORITY[kind] > (nodes[nodeIdx].kindPriority || 0)) {
+        nodes[nodeIdx].r            = kindRadius(nodes[nodeIdx].baseR, kind);
+        nodes[nodeIdx].kindPriority = REL_PRIORITY[kind];
       }
       result.push({ idx: nodeIdx, dataItem: ni, dataCat: relDef.cat });
-      addEdge(parentIdx, nodeIdx, getRelationKind(srcItem, relDef.codeField, code));
+      addEdge(parentIdx, nodeIdx, kind);
     });
     return result;
   }
@@ -724,11 +736,9 @@ function graphDraw() {
     ctx.beginPath();
     ctx.moveTo(na.x, na.y);
     ctx.lineTo(nb.x, nb.y);
-    ctx.strokeStyle = col.edge + (kind === 'ocasional' ? (dark ? 'aa' : '99') : (dark ? '88' : '66'));
-    ctx.lineWidth   = kind === 'principal' ? 3.5 : kind === 'ocasional' ? 1.8 : 2.2;
-    ctx.setLineDash(kind === 'ocasional' ? [4, 4] : []);
+    ctx.strokeStyle = col.edge + (dark ? '88' : '66');
+    ctx.lineWidth   = 2;
     ctx.stroke();
-    ctx.setLineDash([]);
   });
 
   GRAPH.nodes.forEach((nd, i) => {
