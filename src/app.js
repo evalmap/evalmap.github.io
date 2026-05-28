@@ -548,7 +548,7 @@ function graphBuild(item, cat) {
           cat: relDef.cat, cls: ncfg.cls,
           name: ni[ncfg.nameKey], isCenter: false, targetX,
         });
-      } else if (REL_PRIORITY[kind] > (nodes[nodeIdx].kindPriority || 0)) {
+      } else if (!nodes[nodeIdx].isCenter && REL_PRIORITY[kind] > (nodes[nodeIdx].kindPriority || 0)) {
         nodes[nodeIdx].r            = kindRadius(nodes[nodeIdx].baseR, kind);
         nodes[nodeIdx].kindPriority = REL_PRIORITY[kind];
       }
