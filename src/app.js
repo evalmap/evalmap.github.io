@@ -149,9 +149,10 @@ function updateStaticI18n() {
 
   const legendSpans = document.querySelectorAll('.graph-legend span');
   if (legendSpans.length >= 4) {
-    legendSpans[0].innerHTML = `<i class="legend-dot principal"></i>${i.legend.principal}`;
-    legendSpans[1].innerHTML = `<i class="legend-dot complementaria"></i>${i.legend.complementaria}`;
-    legendSpans[2].innerHTML = `<i class="legend-dot ocasional"></i>${i.legend.ocasional}`;
+    const dot = (d) => `<svg width="${d}" height="${d}" viewBox="0 0 ${d} ${d}" aria-hidden="true" style="flex-shrink:0"><circle cx="${d/2}" cy="${d/2}" r="${d/2}" fill="currentColor"/></svg>`;
+    legendSpans[0].innerHTML = `${dot(14)}${i.legend.principal}`;
+    legendSpans[1].innerHTML = `${dot(9)}${i.legend.complementaria}`;
+    legendSpans[2].innerHTML = `${dot(5)}${i.legend.ocasional}`;
     legendSpans[3].innerHTML = `<i class="legend-line transversal"></i>${i.legend.transversal}`;
   }
 
