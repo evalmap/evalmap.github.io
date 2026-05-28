@@ -334,13 +334,16 @@ function matchField(item, key, value) {
   return item[key] && item[key].includes(value);
 }
 
+function normalize(s) {
+  return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+}
 function matchSearch(item, nameKey, query) {
   if (!query) return true;
-  const q = query.toLowerCase();
+  const q = normalize(query);
   return (
-    (item[nameKey]             || '').toLowerCase().includes(q) ||
-    (item['Descripción breve'] || '').toLowerCase().includes(q) ||
-    (item['Etiquetas']         || '').toLowerCase().includes(q)
+    normalize(item[nameKey]             || '').includes(q) ||
+    normalize(item['Descripción breve'] || '').includes(q) ||
+    normalize(item['Etiquetas']         || '').includes(q)
   );
 }
 
