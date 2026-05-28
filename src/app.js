@@ -737,6 +737,7 @@ function wrapLabel(ctx, text, maxWidth) {
 function graphDraw() {
   const canvas = GRAPH.canvas;
   if (!canvas) return;
+  graphResizeCanvas();
   const dpr  = window.devicePixelRatio || 1;
   const ctx  = canvas.getContext('2d');
   const cw   = canvas.width, ch = canvas.height;
