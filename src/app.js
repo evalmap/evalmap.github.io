@@ -974,6 +974,7 @@ function renderDetailText(item, cat) {
 
   const detDesc = item['Descripción detallada'] || '';
 
+  document.getElementById('detail-text').scrollTop = 0;
   document.getElementById('detail-text-body').innerHTML = `
     <div class="detail-header">
       <div>
