@@ -31,6 +31,11 @@
         </span>
         <span>Asistente de IA</span>
       </a>
+      <div class="lang-switcher" aria-label="Idioma / Langue / Language">
+        <button class="lang-btn active" data-lang="es" type="button">ES</button>
+        <button class="lang-btn" data-lang="ca" type="button">CA</button>
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+      </div>
       <button class="theme-btn" id="btn-theme">🌙 Oscuro</button>
     </div>
   </header>
@@ -159,22 +164,23 @@
     <img src="github-profile.png" class="footer-avatar" alt="">
     <span>© <a href="https://bilateria.org" target="_blank" rel="noopener noreferrer">Juan José de Haro</a></span>
     <span class="footer-sep">·</span>
-    <a href="https://github.com/evalmap/evalmap.github.io" target="_blank" rel="noopener noreferrer">Proyecto en GitHub</a>
+    <a id="footer-gh-project" href="https://github.com/evalmap/evalmap.github.io" target="_blank" rel="noopener noreferrer">Proyecto en GitHub</a>
     <span class="footer-sep">·</span>
-    <a href="https://github.com/evalmap/evalmap.github.io/issues" target="_blank" rel="noopener noreferrer">Sugerencias y problemas</a>
+    <a id="footer-gh-issues" href="https://github.com/evalmap/evalmap.github.io/issues" target="_blank" rel="noopener noreferrer">Sugerencias y problemas</a>
   </div>
   <div class="footer-licenses">
     <span class="footer-badge" title="Contenido bajo licencia Creative Commons BY-SA 4.0">
       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-      Contenido: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>
+      <span id="footer-content-lic">Contenido:</span> <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>
     </span>
     <span class="footer-badge" title="Código fuente bajo licencia AGPLv3">
       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-      Código: <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" rel="noopener noreferrer">AGPLv3</a>
+      <span id="footer-code-lic">Código:</span> <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" rel="noopener noreferrer">AGPLv3</a>
     </span>
   </div>
 </footer>
 
+<script src="src/i18n.js"></script>
 <script src="src/app.js"></script>
 </body>
 </html>

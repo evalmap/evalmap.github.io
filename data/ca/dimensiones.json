@@ -1,0 +1,1146 @@
+[
+  {
+    "Código": "DIM_AUTO",
+    "Dimensión": "Autoavaluació",
+    "Categoría": "Agente evaluador",
+    "Descripción breve": "Valoració del propi aprenentatge per part de l'alumnat.",
+    "Función pedagógica": "Afavorir la metacognició, l'autonomia i l'autoregulació.",
+    "Evidencias habituales": "Reflexions, escales, diaris, autoinformes, KPSI.",
+    "Cuándo conviene": "Quan es vol que l'alumnat prengui consciència del seu progrés.",
+    "Precauciones": "Requereix entrenament per evitar respostes superficials.",
+    "Fase": "Inicial/Proceso/Final",
+    "Participación": "Alumno",
+    "Etiquetas": "autoavaluacio; metacognicio",
+    "Descripción detallada": "Aquesta dimensió indica qui participa en la valoració de les evidències. No determina per si sola l'instrument, sinó el paper del docent, de l'alumnat o dels iguals en el procés avaluatiu.\n\nL'autoavaluació és el procés pel qual el propi alumnat valora el seu aprenentatge, el seu procés de treball o el resultat que ha produït, fent servir criteris prèviament establerts i compresos.\n\nCom aplicar-la: no es tracta de demanar una opinió lliure ('t'ha agradat?'), sinó de proporcionar una escala, rúbrica o llista d'indicadors concrets i demanar a l'alumnat que els apliqui honestament al seu propi desempenys. Convé que prèviament hagin vist exemples d'aplicació d'aquests criteris i hagin debatut què significa cada nivell.\n\nEl seu valor principal és metacognitiu: obliga l'alumnat a reflexionar sobre el que saben, el que els costa i com poden millorar. Quan es combina amb la valoració del docent, permet identificar discrepàncies i treballar l'autoregulació.",
+    "rel_ins": [
+      "INS_DIARIO",
+      "INS_PORT",
+      "INS_CONTRATO",
+      "INS_F_REFLEX",
+      "INS_AUTOINF",
+      "INS_KPSI",
+      "INS_SEMAF",
+      "INS_BILLETE",
+      "INS_CHECK_LAB"
+    ],
+    "rel_her": [
+      "HER_ESC_AUTO",
+      "HER_DIANA",
+      "HER_RUB_AUTO",
+      "HER_LISTA",
+      "HER_SEMAFORO",
+      "HER_LISTA_AUTO",
+      "HER_REG_COMP"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_DIARIO": "principal",
+        "INS_PORT": "complementaria",
+        "INS_CONTRATO": "principal",
+        "INS_F_REFLEX": "principal",
+        "INS_AUTOINF": "principal",
+        "INS_KPSI": "complementaria",
+        "INS_SEMAF": "principal",
+        "INS_BILLETE": "complementaria",
+        "INS_CHECK_LAB": "ocasional"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal",
+        "HER_DIANA": "principal",
+        "HER_SEMAFORO": "principal",
+        "HER_ESC_AUTO": "principal",
+        "HER_RUB_AUTO": "principal",
+        "HER_LISTA_AUTO": "principal",
+        "HER_REG_COMP": "principal"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Diari d'aprenentatge; Portafoli; Contracte d'aprenentatge; Fitxa de reflexió; Autoinforme; KPSI; Semàfor d'aprenentatge; Bitllet de sortida; Llista de verificació de laboratori",
+    "Instrumentos de evaluación recomendados": "Escala d'autoavaluació; Diana d'avaluació; Rúbrica d'autoavaluació; Llista de verificació o control; Semàfor d'avaluació; Llista de verificació d'autoavaluació; Registre de compromisos de millora"
+  },
+  {
+    "Código": "DIM_COEV",
+    "Dimensión": "Coavaluació",
+    "Categoría": "Agente evaluador",
+    "Descripción breve": "Valoració del desempenys o producte de companys i companyes amb criteris compartits.",
+    "Función pedagógica": "Millorar treballs, comprendre criteris i aprendre entre iguals.",
+    "Evidencias habituales": "Comentaris, revisions, escales, rúbriques entre parells.",
+    "Cuándo conviene": "Quan es vol introduir avaluació entre iguals i millora d'esborranys.",
+    "Precauciones": "Pot ser poc fiable sense criteris clars.",
+    "Fase": "Proceso/Final",
+    "Participación": "Iguales",
+    "Etiquetas": "coavaluacio; parells",
+    "Descripción detallada": "Aquesta dimensió indica qui participa en la valoració de les evidències. No determina per si sola l'instrument, sinó el paper del docent, de l'alumnat o dels iguals en el procés avaluatiu.\n\nLa coavaluació és la valoració que fa l'alumnat del treball o desempenys dels seus companys i companyes, usant criteris compartits. És una forma d'avaluació entre iguals que, ben dissenyada, millora la comprensió dels criteris i desenvolupa el pensament crític.\n\nCom aplicar-la: els criteris han de ser clars, concrets i haver-se treballat prèviament. És recomanable començar amb tasques on valorar el treball aliè sigui relativament senzill (p. ex., comprovar si un esquema inclou els elements requerits) abans de passar a valoracions més complexes. Per reduir el biaix d'amistat, es pot fer de forma anònima o creuada.\n\nLa seva funció principal és formativa: els comentaris dels companys, combinats amb criteris clars, ajuden a millorar el treball abans del lliurament final. Només hauria de contribuir a la qualificació quan l'alumnat tingui prou pràctica i confiança en el procés.",
+    "rel_ins": [
+      "INS_TRAB_COOP",
+      "INS_DEBATE",
+      "INS_ASAM",
+      "INS_EXPO",
+      "INS_ACTA",
+      "INS_DOC_COL",
+      "INS_REV_PARES",
+      "INS_2E1D"
+    ],
+    "rel_her": [
+      "HER_RUB_COEV",
+      "HER_ESC_OBS",
+      "HER_FORM_DIG",
+      "HER_RUB_ORAL",
+      "HER_RUB_COOP",
+      "HER_REG_COOP",
+      "HER_FICHA_COEV"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_TRAB_COOP": "principal",
+        "INS_DEBATE": "complementaria",
+        "INS_ASAM": "complementaria",
+        "INS_EXPO": "complementaria",
+        "INS_ACTA": "principal",
+        "INS_DOC_COL": "complementaria",
+        "INS_REV_PARES": "principal",
+        "INS_2E1D": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ORAL": "complementaria",
+        "HER_RUB_COOP": "principal",
+        "HER_ESC_OBS": "principal",
+        "HER_REG_COOP": "principal",
+        "HER_RUB_COEV": "principal",
+        "HER_FICHA_COEV": "principal",
+        "HER_FORM_DIG": "principal"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Treball cooperatiu; Debat; Assemblea; Exposició oral; Acta de reunió; Document col·laboratiu; Revisió entre iguals; Dues estrelles i un desig",
+    "Instrumentos de evaluación recomendados": "Rúbrica de coavaluació; Escala d'observació; Formulari digital; Rúbrica oral; Rúbrica de treball cooperatiu; Registre de treball cooperatiu; Fitxa de coavaluació"
+  },
+  {
+    "Código": "DIM_HET",
+    "Dimensión": "Heteroavaluació",
+    "Categoría": "Agente evaluador",
+    "Descripción breve": "Valoració realitzada pel docent o per un altre agent extern a l'alumne o alumna.",
+    "Función pedagógica": "Valorar aprenentatges amb criteris professionals o institucionals.",
+    "Evidencias habituales": "Qualsevol evidència recollida pel docent.",
+    "Cuándo conviene": "Quan es requereix valoració docent o qualificació.",
+    "Precauciones": "No ha d'excloure l'autoavaluació i la coavaluació.",
+    "Fase": "Inicial/Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "heteroavaluacio",
+    "Descripción detallada": "Aquesta dimensió indica qui participa en la valoració de les evidències. No determina per si sola l'instrument, sinó el paper del docent, de l'alumnat o dels iguals en el procés avaluatiu.\n\nL'heteroavaluació és la valoració realitzada pel docent o per un altre agent extern a l'alumne o alumna (un expert, un familiar, un altre docent). És la forma més habitual d'avaluació en el sistema escolar.\n\nCom aplicar-la: per ser justa i transparent, ha de basar-se en criteris explícits, coneguts per l'alumnat per endavant. L'ús de rúbriques, guies de correcció o escales descriptives redueix la subjectivitat i facilita la coherència entre correccions diverses. La retroalimentació que acompanya la valoració és tan important com la nota.\n\nNo ha de ser l'única forma d'avaluació: combinar-la amb autoavaluació i coavaluació ofereix una imatge més completa de l'aprenentatge i afavoreix l'autonomia i la responsabilitat de l'alumnat.",
+    "rel_ins": [
+      "INS_LAB",
+      "INS_EXPO",
+      "INS_DEF_PROY",
+      "INS_PORT",
+      "INS_INFO_LAB",
+      "INS_INFO_INV",
+      "INS_MONO",
+      "INS_ENSAYO",
+      "INS_PR_DES",
+      "INS_PR_OBJ",
+      "INS_TEST",
+      "INS_RESP_CORTA",
+      "INS_PR_ORAL",
+      "INS_PR_PRACT",
+      "INS_PR_COMP",
+      "INS_DOCS",
+      "INS_TRAB_COOP",
+      "INS_LIBRO_ABIERTO"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_GUIA_CORR",
+      "HER_LISTA",
+      "HER_ESC_OBS",
+      "HER_CUAD_CAL",
+      "HER_ACTA"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_LAB": "complementaria",
+        "INS_EXPO": "ocasional",
+        "INS_DEF_PROY": "complementaria",
+        "INS_PORT": "complementaria",
+        "INS_INFO_LAB": "complementaria",
+        "INS_INFO_INV": "complementaria",
+        "INS_MONO": "complementaria",
+        "INS_ENSAYO": "complementaria",
+        "INS_PR_DES": "complementaria",
+        "INS_PR_OBJ": "complementaria",
+        "INS_TEST": "complementaria",
+        "INS_RESP_CORTA": "complementaria",
+        "INS_PR_ORAL": "complementaria",
+        "INS_PR_PRACT": "complementaria",
+        "INS_PR_COMP": "complementaria",
+        "INS_DOCS": "complementaria",
+        "INS_TRAB_COOP": "complementaria",
+        "INS_LIBRO_ABIERTO": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_LISTA": "complementaria",
+        "HER_ESC_OBS": "complementaria",
+        "HER_GUIA_CORR": "principal",
+        "HER_CUAD_CAL": "complementaria",
+        "HER_ACTA": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Pràctica de laboratori; Exposició oral; Defensa de projecte; Portafoli; Informe de laboratori; Informe de recerca; Monografia; Assaig; Prova escrita de desenvolupament; Prova objectiva; Prova tipus test; Prova de resposta curta; Prova oral; Prova pràctica; Prova competencial contextualitzada; Prova amb documents; Treball cooperatiu; Prova de llibre obert",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció; Llista de verificació o control; Escala d'observació; Quadern de qualificacions; Acta d'avaluació"
+  },
+  {
+    "Código": "DIM_DIAG",
+    "Dimensión": "Finalitat diagnòstica",
+    "Categoría": "Finalidad y momento",
+    "Descripción breve": "Recollida d'informació sobre el punt de partida.",
+    "Función pedagógica": "Detectar coneixements previs, interessos i necessitats.",
+    "Evidencias habituales": "Idees prèvies, respostes inicials, mapes, qüestionaris.",
+    "Cuándo conviene": "Abans d'iniciar una unitat, projecte o situació d'aprenentatge.",
+    "Precauciones": "No s'ha d'utilitzar per penalitzar.",
+    "Fase": "Inicial",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "diagnostica; inicial",
+    "Descripción detallada": "Aquesta dimensió aclareix per a què es recull informació i en quin moment de l'aprenentatge té més sentit. Ajuda a evitar que una activitat diagnòstica, formativa o final s'usi amb una funció inadequada.\n\nL'avaluació diagnòstica recull informació sobre el punt de partida de l'alumnat abans d'iniciar una unitat, projecte o situació d'aprenentatge. El seu objectiu és detectar coneixements previs, concepcions errònies, interessos i necessitats, per ajustar la planificació.\n\nCom aplicar-la: es pot realitzar mitjançant preguntes obertes, KPSI (ho sé / crec que ho sé / no ho sé), pluja d'idees, mapa conceptual inicial, qüestionari breu o una tasca exploratòria. L'important és que sigui ràpida, no penalitzadora i que els resultats influeixin realment en com s'ensenya a continuació.\n\nUna bona avaluació diagnòstica permet al docent partir d'on és l'alumnat, no d'on hauria d'estar segons el currículum, i dissenyar les activitats amb més precisió.",
+    "rel_ins": [
+      "INS_MAP_CONC",
+      "INS_PR_OBJ",
+      "INS_TEST",
+      "INS_RESP_CORTA",
+      "INS_KPSI",
+      "INS_MAP_INI",
+      "INS_LLUVIA"
+    ],
+    "rel_her": [],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_MAP_CONC": "principal",
+        "INS_PR_OBJ": "complementaria",
+        "INS_TEST": "complementaria",
+        "INS_RESP_CORTA": "complementaria",
+        "INS_KPSI": "principal",
+        "INS_MAP_INI": "principal",
+        "INS_LLUVIA": "principal"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Mapa conceptual; Prova objectiva; Prova tipus test; Prova de resposta curta; KPSI; Mapa conceptual inicial; Pluja d'idees"
+  },
+  {
+    "Código": "DIM_FORM",
+    "Dimensión": "Finalitat formativa",
+    "Categoría": "Finalidad y uso",
+    "Descripción breve": "Avaluació durant el procés per millorar l'aprenentatge.",
+    "Función pedagógica": "Regular l'ensenyament i l'aprenentatge mitjançant retroalimentació.",
+    "Evidencias habituales": "Esborranys, observacions, revisions, preguntes, diaris.",
+    "Cuándo conviene": "Durant l'aprenentatge, abans de tancar la qualificació.",
+    "Precauciones": "Requereix temps per retornar informació útil.",
+    "Fase": "Proceso",
+    "Participación": "Docente/Alumno/Iguales",
+    "Etiquetas": "formativa; retroalimentacio",
+    "Descripción detallada": "Aquesta dimensió es centra en l'ús posterior de la informació: millorar l'aprenentatge, acreditar assoliments o prendre decisions de qualificació.\n\nL'avaluació formativa és aquella la funció principal de la qual és millorar l'aprenentatge mentre és en curs, no qualificar al final. No és un tipus d'instrument, sinó una funció que pot complir qualsevol activitat d'avaluació si la informació que genera s'usa per ajustar l'ensenyament o l'aprenentatge.\n\nCom aplicar-la: implica tres passos: recollir evidències (observació, preguntes, revisió d'esborranys, bitllets de sortida), analitzar-les per identificar on és cada alumne respecte als criteris, i retornar retroalimentació útil i a temps perquè l'alumnat pugui actuar-hi. La clau és que la retroalimentació arribi quan encara hi ha marge per millorar.\n\nL'avaluació formativa requereix temps i planificació, però és la que té més impacte sobre l'aprenentatge segons la recerca educativa.",
+    "rel_ins": [
+      "INS_TRAB_IND",
+      "INS_PART",
+      "INS_COLOQ",
+      "INS_ASAM",
+      "INS_ENTREV",
+      "INS_PREG_ORAL",
+      "INS_CUADERNO",
+      "INS_DIARIO",
+      "INS_PORT",
+      "INS_RESUMEN",
+      "INS_ESQUEMA",
+      "INS_MAP_MENT",
+      "INS_GLOS",
+      "INS_FICHA_LECT",
+      "INS_PLAN_TRAB",
+      "INS_CONTRATO",
+      "INS_F_REFLEX",
+      "INS_RESP_CORTA",
+      "INS_DOC_COL",
+      "INS_LLUVIA",
+      "INS_BORR",
+      "INS_ENT_PAR",
+      "INS_BIT",
+      "INS_REV_PARES",
+      "INS_2E1D",
+      "INS_SEMAF",
+      "INS_BILLETE",
+      "INS_TRAB_COOP",
+      "INS_SEMINARIO",
+      "INS_CHECK_LAB"
+    ],
+    "rel_her": [
+      "HER_FICHA_RETRO",
+      "HER_LISTA",
+      "HER_ESC_OBS",
+      "HER_ESC_VAL",
+      "HER_REG_DESC",
+      "HER_DIARIO_PROF",
+      "HER_HOJA_GRUP",
+      "HER_REG_PART",
+      "HER_NOTAS_CAMPO",
+      "HER_FICHA_VAL",
+      "HER_SEMAFORO",
+      "HER_REG_COMP",
+      "HER_ESC_VERB",
+      "HER_HIST_REV",
+      "HER_PANEL",
+      "HER_ANALITICAS",
+      "HER_BANCO_EVID",
+      "HER_ESC_PROG",
+      "HER_GUIA_OBS",
+      "HER_PLANT_FF",
+      "HER_CONTR_GRUP",
+      "HER_SOCIO"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_TRAB_IND": "principal",
+        "INS_PART": "principal",
+        "INS_COLOQ": "principal",
+        "INS_ASAM": "principal",
+        "INS_ENTREV": "principal",
+        "INS_PREG_ORAL": "principal",
+        "INS_CUADERNO": "principal",
+        "INS_DIARIO": "complementaria",
+        "INS_PORT": "principal",
+        "INS_RESUMEN": "principal",
+        "INS_ESQUEMA": "principal",
+        "INS_MAP_MENT": "principal",
+        "INS_GLOS": "principal",
+        "INS_FICHA_LECT": "principal",
+        "INS_PLAN_TRAB": "principal",
+        "INS_CONTRATO": "complementaria",
+        "INS_F_REFLEX": "complementaria",
+        "INS_RESP_CORTA": "principal",
+        "INS_DOC_COL": "complementaria",
+        "INS_LLUVIA": "complementaria",
+        "INS_BORR": "principal",
+        "INS_ENT_PAR": "principal",
+        "INS_BIT": "complementaria",
+        "INS_REV_PARES": "complementaria",
+        "INS_2E1D": "complementaria",
+        "INS_SEMAF": "complementaria",
+        "INS_BILLETE": "principal",
+        "INS_TRAB_COOP": "principal",
+        "INS_SEMINARIO": "complementaria",
+        "INS_CHECK_LAB": "complementaria"
+      },
+      "rel_her": {
+        "HER_LISTA": "complementaria",
+        "HER_ESC_OBS": "complementaria",
+        "HER_ESC_VAL": "principal",
+        "HER_REG_DESC": "principal",
+        "HER_DIARIO_PROF": "principal",
+        "HER_HOJA_GRUP": "principal",
+        "HER_REG_PART": "principal",
+        "HER_NOTAS_CAMPO": "principal",
+        "HER_FICHA_VAL": "complementaria",
+        "HER_FICHA_RETRO": "principal",
+        "HER_SEMAFORO": "complementaria",
+        "HER_REG_COMP": "complementaria",
+        "HER_ESC_VERB": "principal",
+        "HER_HIST_REV": "complementaria",
+        "HER_PANEL": "complementaria",
+        "HER_ANALITICAS": "complementaria",
+        "HER_BANCO_EVID": "complementaria",
+        "HER_ESC_PROG": "complementaria",
+        "HER_GUIA_OBS": "complementaria",
+        "HER_PLANT_FF": "complementaria",
+        "HER_CONTR_GRUP": "complementaria",
+        "HER_SOCIO": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Treball individual a l'aula; Participació a classe; Col·loqui; Assemblea; Entrevista; Pregunta oral estructurada; Quadern de classe; Diari d'aprenentatge; Portafoli; Resum; Esquema; Mapa mental; Glossari; Fitxa de lectura; Pla de treball; Contracte d'aprenentatge; Fitxa de reflexió; Prova de resposta curta; Document col·laboratiu; Pluja d'idees; Esborrany; Lliurament parcial; Quadern de bitàcola de projecte; Revisió entre iguals; Dues estrelles i un desig; Semàfor d'aprenentatge; Bitllet de sortida; Treball cooperatiu; Seminari socràtic; Llista de verificació de laboratori",
+    "Instrumentos de evaluación recomendados": "Fitxa de retroalimentació; Llista de verificació o control; Escala d'observació; Escala de valoració; Registre descriptiu; Diari del professor; Full de seguiment grupal; Registre de participació; Notes de camp; Fitxa de valoració; Semàfor d'avaluació; Registre de compromisos de millora; Escala verbal; Historial de revisió; Tauler de progrés; Analítiques d'aprenentatge; Banc digital d'evidències; Escala de progrés; Guia d'observació; Plantilla de feedback/feedforward; Contracte de grup; Sociograma"
+  },
+  {
+    "Código": "DIM_SUM",
+    "Dimensión": "Finalitat sumativa",
+    "Categoría": "Finalidad y uso",
+    "Descripción breve": "Valoració del grau d'assoliment al final d'un procés.",
+    "Función pedagógica": "Qualificar, acreditar o sintetitzar aprenentatges assolits.",
+    "Evidencias habituales": "Productes finals, proves, presentacions, portafolis finals.",
+    "Cuándo conviene": "Al final d'una unitat, trimestre, projecte o curs.",
+    "Precauciones": "No ha de ser l'única font d'informació.",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "sumativa; qualificacio",
+    "Descripción detallada": "Aquesta dimensió es centra en l'ús posterior de la informació: millorar l'aprenentatge, acreditar assoliments o prendre decisions de qualificació.\n\nL'avaluació sumativa valora el grau d'assoliment al final d'un període d'aprenentatge (unitat, trimestre, projecte, curs). La seva funció és acreditar, certificar o sintetitzar el que s'ha après i sol traduir-se en una qualificació.\n\nCom aplicar-la: ha de basar-se en evidències variades recollides durant el procés, no només en una prova final. Idealment, la qualificació final integra informació de moments i formats diferents (produccions, actuacions, proves, autoavaluació). L'ús de criteris explícits i coneguts per endavant fa la qualificació més justa i comprensible per a l'alumnat.\n\nQuan es combina amb avaluació formativa al llarg del procés, la nota final reflecteix millor l'aprenentatge real i redueix el pes desproporcionat d'una sola prova.",
+    "rel_ins": [
+      "INS_EXPO",
+      "INS_MONO",
+      "INS_ENSAYO",
+      "INS_COM_TEXT",
+      "INS_RESEÑA",
+      "INS_ART_DIV",
+      "INS_AUTOINF",
+      "INS_PR_DES",
+      "INS_PR_OBJ",
+      "INS_TEST",
+      "INS_PR_ORAL",
+      "INS_DOCS"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_GUIA_CORR",
+      "HER_BAREMO",
+      "HER_CUAD_CAL",
+      "HER_RUB_HOL",
+      "HER_RUB_PROD",
+      "HER_RUB_ORAL",
+      "HER_ESC_VAL",
+      "HER_PLANT_CORR",
+      "HER_FICHA_VAL",
+      "HER_MATRIZ",
+      "HER_TAB_CRIT",
+      "HER_MATRIZ_POND",
+      "HER_ESC_NUM",
+      "HER_ESC_VERB",
+      "HER_CONV",
+      "HER_HOJA_CALC",
+      "HER_INF_IND",
+      "HER_ACTA",
+      "HER_RUB_DIG"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_EXPO": "complementaria",
+        "INS_MONO": "principal",
+        "INS_ENSAYO": "principal",
+        "INS_COM_TEXT": "complementaria",
+        "INS_RESEÑA": "complementaria",
+        "INS_ART_DIV": "complementaria",
+        "INS_AUTOINF": "complementaria",
+        "INS_PR_DES": "principal",
+        "INS_PR_OBJ": "principal",
+        "INS_TEST": "principal",
+        "INS_PR_ORAL": "principal",
+        "INS_DOCS": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "complementaria",
+        "HER_RUB_HOL": "principal",
+        "HER_RUB_PROD": "principal",
+        "HER_RUB_ORAL": "complementaria",
+        "HER_ESC_VAL": "complementaria",
+        "HER_GUIA_CORR": "complementaria",
+        "HER_PLANT_CORR": "principal",
+        "HER_BAREMO": "principal",
+        "HER_FICHA_VAL": "principal",
+        "HER_MATRIZ": "complementaria",
+        "HER_CUAD_CAL": "principal",
+        "HER_TAB_CRIT": "principal",
+        "HER_MATRIZ_POND": "principal",
+        "HER_ESC_NUM": "principal",
+        "HER_ESC_VERB": "complementaria",
+        "HER_CONV": "principal",
+        "HER_HOJA_CALC": "complementaria",
+        "HER_INF_IND": "principal",
+        "HER_ACTA": "principal",
+        "HER_RUB_DIG": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Exposició oral; Monografia; Assaig; Comentari de text; Ressenya; Article de divulgació; Autoinforme; Prova escrita de desenvolupament; Prova objectiva; Prova tipus test; Prova oral; Prova amb documents",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció; Barem; Quadern de qualificacions; Rúbrica global o holística; Rúbrica de producte; Rúbrica oral; Escala de valoració; Plantilla de correcció; Fitxa de valoració; Matriu de valoració; Taula de qualificació per criteris; Matriu de ponderació; Escala numèrica; Escala verbal; Conversor de nivells a qualificació; Full de càlcul d'avaluació; Informe individual d'avaluació; Acta d'avaluació; Rúbrica digital"
+  },
+  {
+    "Código": "DIM_COMP",
+    "Dimensión": "Enfocament competencial",
+    "Categoría": "Enfoque curricular",
+    "Descripción breve": "Valoració de la mobilització integrada de sabers en contextos significatius.",
+    "Función pedagógica": "Avaluar aplicació, transferència i integració.",
+    "Evidencias habituales": "Tasques contextualitzades, projectes, casos, problemes oberts.",
+    "Cuándo conviene": "Quan es vol valorar competències específiques i criteris d'avaluació.",
+    "Precauciones": "Requereix bons contextos i criteris observables.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno/Iguales",
+    "Etiquetas": "competencial; transferencia",
+    "Descripción detallada": "Aquesta dimensió expressa una orientació curricular àmplia. Afecta la selecció d'evidències, criteris i instruments, però no equival a una tècnica concreta de recollida.\n\nL'avaluació competencial valora la capacitat de l'alumnat de mobilitzar de forma integrada coneixements, habilitats i actituds davant situacions significatives i contextualitzades. No es limita a comprovar si se sap un contingut aïllat, sinó si se sap aplicar en un context real o versemblant.\n\nCom aplicar-la: requereix dissenyar tasques autèntiques que s'assemblin a situacions del món real o de la disciplina. Els criteris d'avaluació han d'estar vinculats a les competències clau i als descriptors operatius del nivell educatiu. Les rúbriques competencials i els perfils d'assoliment són eines especialment adequades.\n\nL'avaluació competencial implica avaluar de forma integrada diversos sabers i competències alhora, cosa que suposa un repte de disseny però ofereix una imatge més fidel del que l'alumnat és capaç de fer.",
+    "rel_ins": [
+      "INS_ENSAYO",
+      "INS_COM_TEXT",
+      "INS_LINEA",
+      "INS_RESEÑA",
+      "INS_ART_DIV",
+      "INS_CASO",
+      "INS_PR_COMP",
+      "INS_DOCS",
+      "INS_INFOG",
+      "INS_POSTER",
+      "INS_COMIC",
+      "INS_LIBRO_ABIERTO",
+      "INS_TAREA_COMP_INT",
+      "INS_SIT_PROB"
+    ],
+    "rel_her": [
+      "HER_RUB_COMP",
+      "HER_PERFIL_LOGRO",
+      "HER_MATRIZ",
+      "HER_BANCO_DESC",
+      "HER_TAB_CRIT",
+      "HER_IND_CRIT",
+      "HER_MAP_EVID"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_ENSAYO": "complementaria",
+        "INS_COM_TEXT": "principal",
+        "INS_LINEA": "principal",
+        "INS_RESEÑA": "principal",
+        "INS_ART_DIV": "principal",
+        "INS_CASO": "complementaria",
+        "INS_PR_COMP": "principal",
+        "INS_DOCS": "principal",
+        "INS_INFOG": "principal",
+        "INS_POSTER": "principal",
+        "INS_COMIC": "principal",
+        "INS_LIBRO_ABIERTO": "principal",
+        "INS_TAREA_COMP_INT": "principal",
+        "INS_SIT_PROB": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_COMP": "principal",
+        "HER_MATRIZ": "principal",
+        "HER_BANCO_DESC": "principal",
+        "HER_PERFIL_LOGRO": "principal",
+        "HER_TAB_CRIT": "complementaria",
+        "HER_IND_CRIT": "complementaria",
+        "HER_MAP_EVID": "principal"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Assaig; Comentari de text; Línia del temps; Ressenya; Article de divulgació; Estudi de cas; Prova competencial contextualitzada; Prova amb documents; Infografia; Pòster acadèmic; Còmic; Prova de llibre obert; Tasca competencial integrada; Situació-problema",
+    "Instrumentos de evaluación recomendados": "Rúbrica competencial; Perfil d'assoliment; Matriu de valoració; Banc de descriptors; Taula de qualificació per criteris; Llista d'indicadors per criteri; Mapa d'evidències per criteri"
+  },
+  {
+    "Código": "DIM_DESEMP",
+    "Dimensión": "Evidència de desempenys",
+    "Categoría": "Tipo de evidencia",
+    "Descripción breve": "Valoració de com l'alumnat actua davant una tasca complexa o pràctica.",
+    "Función pedagógica": "Avaluar actuació, presa de decisions i aplicació.",
+    "Evidencias habituales": "Actuacions observables, simulacions, pràctiques, defenses.",
+    "Cuándo conviene": "Quan importa el mode d'actuar, no només el resultat.",
+    "Precauciones": "Pot requerir evidències complementàries.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "desempeny",
+    "Descripción detallada": "Aquesta dimensió descriu quina classe d'aprenentatge es fa visible: actuació, producte, raonament, procés o interacció.\n\nL'avaluació mitjançant desempenys valora com actua l'alumnat davant una tasca complexa o pràctica: quines decisions pren, com organitza el procés, quins procediments aplica i com gestiona les dificultats. L'evidència és l'actuació observable, no només el resultat.\n\nCom aplicar-la: el docent observa mentre l'alumnat realitza la tasca (laboratori, taller, simulació, debat, exposició) i registra el que veu amb una rúbrica de desempenys, escala d'observació o llista de verificació. És fonamental que els criteris siguin coneguts per endavant perquè l'alumnat sàpiga què s'espera de la seva actuació.\n\nÉs especialment útil en ciències experimentals, educació física, arts, FP i qualsevol àrea on el procediment i l'actitud són tan importants com el resultat final.",
+    "rel_ins": [
+      "INS_PART",
+      "INS_COLOQ",
+      "INS_TALLER",
+      "INS_SIM",
+      "INS_EXPO",
+      "INS_DEF_PROY",
+      "INS_ENTREV",
+      "INS_PREG_ORAL",
+      "INS_PR_ORAL",
+      "INS_PR_PRACT",
+      "INS_PRESENT_DIG",
+      "INS_TUTORIAL",
+      "INS_MAQUETA",
+      "INS_PROTOTIPO",
+      "INS_TRAB_COOP",
+      "INS_SEMINARIO",
+      "INS_CHECK_LAB"
+    ],
+    "rel_her": [
+      "HER_ESC_OBS",
+      "HER_LISTA",
+      "HER_RUB_PROD",
+      "HER_RUB_ORAL",
+      "HER_REG_DESC",
+      "HER_REG_PART",
+      "HER_GUIA_OBS"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_PART": "complementaria",
+        "INS_COLOQ": "complementaria",
+        "INS_TALLER": "principal",
+        "INS_SIM": "complementaria",
+        "INS_EXPO": "principal",
+        "INS_DEF_PROY": "principal",
+        "INS_ENTREV": "complementaria",
+        "INS_PREG_ORAL": "complementaria",
+        "INS_PR_ORAL": "complementaria",
+        "INS_PR_PRACT": "principal",
+        "INS_PRESENT_DIG": "complementaria",
+        "INS_TUTORIAL": "principal",
+        "INS_MAQUETA": "principal",
+        "INS_PROTOTIPO": "complementaria",
+        "INS_TRAB_COOP": "principal",
+        "INS_SEMINARIO": "principal",
+        "INS_CHECK_LAB": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_PROD": "complementaria",
+        "HER_RUB_ORAL": "principal",
+        "HER_LISTA": "ocasional",
+        "HER_ESC_OBS": "ocasional",
+        "HER_REG_DESC": "complementaria",
+        "HER_REG_PART": "complementaria",
+        "HER_GUIA_OBS": "principal"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Participació a classe; Col·loqui; Taller; Simulació; Exposició oral; Defensa de projecte; Entrevista; Pregunta oral estructurada; Prova oral; Prova pràctica; Presentació digital; Videotutorial; Maqueta; Prototip; Treball cooperatiu; Seminari socràtic; Llista de verificació de laboratori",
+    "Instrumentos de evaluación recomendados": "Escala d'observació; Llista de verificació o control; Rúbrica de producte; Rúbrica oral; Registre descriptiu; Registre de participació; Guia d'observació"
+  },
+  {
+    "Código": "DIM_PROY",
+    "Dimensión": "Treball per projectes",
+    "Categoría": "Contexto metodológico",
+    "Descripción breve": "Valoració del procés i producte d'un projecte.",
+    "Función pedagógica": "Avaluar planificació, recerca, creació i comunicació.",
+    "Evidencias habituales": "Pla, quadern de bitàcola, lliuraments parcials, producte final, defensa.",
+    "Cuándo conviene": "Quan la tasca es desenvolupa durant diversos dies o setmanes.",
+    "Precauciones": "Requereix seguiment per evitar valorar només el producte final.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Iguales/Alumno",
+    "Etiquetas": "projecte",
+    "Descripción detallada": "Aquesta dimensió descriu el format o situació didàctica en la qual es genera l'evidència. Pot combinar diversos procediments de recollida.\n\nL'avaluació mitjançant projectes valora de forma integral el procés i el producte d'un projecte: planificació, recerca, creació, comunicació de resultats i reflexió sobre el que s'ha après.\n\nCom aplicar-la: convé definir des del principi què s'avaluarà en el procés (planificació, organització, revisions) i què en el producte final (qualitat, coherència, presentació). Eines diferenciades per a procés i producte permeten una valoració més justa. Els lliuraments parcials i els quaderns de bitàcola de projecte ajuden que el seguiment sigui continu i no depengui només del lliurament final.\n\nPermete avaluar de forma integrada múltiples competències i criteris alhora, incloent-hi el treball en equip, la creativitat, la recerca i la comunicació.",
+    "rel_ins": [
+      "INS_MEM_PROY",
+      "INS_PLAN_TRAB",
+      "INS_PROTOTIPO",
+      "INS_BIT",
+      "INS_TRAB_COOP"
+    ],
+    "rel_her": [
+      "HER_HOJA_IND",
+      "HER_RUB_PROC",
+      "HER_RUB_COOP",
+      "HER_HOJA_GRUP",
+      "HER_REG_COOP",
+      "HER_CONTR_GRUP"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_MEM_PROY": "principal",
+        "INS_PLAN_TRAB": "complementaria",
+        "INS_PROTOTIPO": "principal",
+        "INS_BIT": "principal",
+        "INS_TRAB_COOP": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_PROC": "complementaria",
+        "HER_RUB_COOP": "complementaria",
+        "HER_HOJA_IND": "principal",
+        "HER_HOJA_GRUP": "complementaria",
+        "HER_REG_COOP": "complementaria",
+        "HER_CONTR_GRUP": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Memòria de projecte; Pla de treball; Prototip; Quadern de bitàcola de projecte; Treball cooperatiu",
+    "Instrumentos de evaluación recomendados": "Full de seguiment individual; Rúbrica de procés; Rúbrica de treball cooperatiu; Full de seguiment grupal; Registre de treball cooperatiu; Contracte de grup"
+  },
+  {
+    "Código": "DIM_INDAG",
+    "Dimensión": "Indagació",
+    "Categoría": "Contexto metodológico",
+    "Descripción breve": "Valoració de processos de pregunta, cerca, hipòtesi, dades i conclusions.",
+    "Función pedagógica": "Avaluar pensament científic, recerca i anàlisi.",
+    "Evidencias habituales": "Preguntes, hipòtesis, registres, anàlisis, conclusions.",
+    "Cuándo conviene": "En ciències, socials i tasques de recerca.",
+    "Precauciones": "Pot requerir bastida i fonts adequades.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "indagacio; recerca",
+    "Descripción detallada": "Aquesta dimensió descriu el format o situació didàctica en la qual es genera l'evidència. Pot combinar diversos procediments de recollida.\n\nL'avaluació mitjançant indagació valora els processos de pensament científic: formulació de preguntes, plantejament d'hipòtesis, disseny de procediments, recollida i anàlisi de dades, i elaboració de conclusions basades en evidències.\n\nCom aplicar-la: s'avalua no només el resultat (si la hipòtesi era correcta o incorrecta), sinó la qualitat del raonament en cada fase del procés. Eines com la rúbrica d'indagació o les llistes de verificació de procés permeten valorar cada pas de forma independent. Els informes de recerca i els quaderns de bitàcola són els instruments més habituals.\n\nÉs especialment adequada en ciències naturals, ciències socials i projectes de recerca, on el procés de construcció del coneixement és tan important com el resultat.",
+    "rel_ins": [
+      "INS_LAB",
+      "INS_INFO_LAB",
+      "INS_INFO_INV"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_LISTA"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_LAB": "complementaria",
+        "INS_INFO_LAB": "principal",
+        "INS_INFO_INV": "principal"
+      },
+      "rel_her": {
+        "HER_LISTA": "ocasional",
+        "HER_GUIA_CORR": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Pràctica de laboratori; Informe de laboratori; Informe de recerca",
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Llista de verificació o control"
+  },
+  {
+    "Código": "DIM_PROB",
+    "Dimensión": "Resolució de problemes",
+    "Categoría": "Contexto metodológico",
+    "Descripción breve": "Valoració d'interpretació, planificació, resolució i justificació.",
+    "Función pedagógica": "Avaluar raonament i transferència.",
+    "Evidencias habituales": "Procediments, càlculs, explicacions, decisions.",
+    "Cuándo conviene": "En matemàtiques, ciències, tecnologia, economia i casos aplicats.",
+    "Precauciones": "No n'hi ha prou amb el resultat.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "problemes; raonament",
+    "Descripción detallada": "Aquesta dimensió descriu el format o situació didàctica en la qual es genera l'evidència. Pot combinar diversos procediments de recollida.\n\nL'avaluació mitjançant resolució de problemes valora el procés complet: comprensió de l'enunciat, identificació de dades rellevants, planificació de l'estratègia, execució i verificació del resultat. No n'hi ha prou que el resultat sigui correcte; importa el raonament i la justificació.\n\nCom aplicar-la: els problemes han de ser contextualitzats i requerir aplicació real de coneixements, no només reproducció de fórmules o algorismes. La guia de correcció o la rúbrica han de valorar cada fase del procés, no només la resposta final. Demanar a l'alumnat que expliqui com ho ha resolt (per escrit o oralment) afegeix informació valuosa sobre el seu raonament.\n\nAdequada en matemàtiques, física, química, tecnologia, economia i qualsevol àrea amb problemes aplicats.",
+    "rel_ins": [
+      "INS_COM_GRAF",
+      "INS_PROB",
+      "INS_SIT_PROB",
+      "INS_ESCAPE"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_ESC_DESC"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_COM_GRAF": "principal",
+        "INS_PROB": "principal",
+        "INS_SIT_PROB": "principal",
+        "INS_ESCAPE": "complementaria"
+      },
+      "rel_her": {
+        "HER_ESC_DESC": "principal",
+        "HER_GUIA_CORR": "ocasional"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Comentari de gràfica o dades; Resolució de problemes; Situació-problema; Escape room o repte gamificat",
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Escala descriptiva"
+  },
+  {
+    "Código": "DIM_CASO",
+    "Dimensión": "Estudi de casos",
+    "Categoría": "Contexto metodológico",
+    "Descripción breve": "Anàlisi d'una situació real o simulada per diagnosticar o decidir.",
+    "Función pedagógica": "Avaluar comprensió aplicada, judici i argumentació.",
+    "Evidencias habituales": "Anàlisi, diagnòstic, proposta, justificació.",
+    "Cuándo conviene": "Quan interessa aplicar coneixements a una situació concreta.",
+    "Precauciones": "La qualitat del cas condiciona l'avaluació.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "cas; aplicacio",
+    "Descripción detallada": "Aquesta dimensió descriu el format o situació didàctica en la qual es genera l'evidència. Pot combinar diversos procediments de recollida.\n\nL'estudi de casos presenta a l'alumnat una situació real o versemblant que ha d'analitzar, diagnosticar o sobre la qual ha de prendre decisions i justificar-les. Permet avaluar comprensió aplicada, judici crític i capacitat d'argumentació.\n\nCom aplicar-lo: el cas ha de ser autèntic, suficientment complex i contextualitzat en l'àmbit de la matèria. L'alumnat rep la situació i ha de respondre preguntes o elaborar una anàlisi estructurada. La rúbrica o guia d'anàlisi ha de valorar la qualitat del raonament, la selecció d'informació rellevant i la coherència de les conclusions.\n\nEspecialment útil en ciències socials, salut, dret, economia, història i qualsevol àrea on l'aplicació al món real és central.",
+    "rel_ins": [
+      "INS_CASO"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_ESC_DESC"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_CASO": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "complementaria",
+        "HER_ESC_DESC": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Estudi de cas",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala descriptiva"
+  },
+  {
+    "Código": "DIM_SIM",
+    "Dimensión": "Simulació",
+    "Categoría": "Contexto metodológico",
+    "Descripción breve": "Recreació d'una situació real o versemblant.",
+    "Función pedagógica": "Avaluar actuació, comunicació i presa de decisions.",
+    "Evidencias habituales": "Rols, decisions, respostes, interacció.",
+    "Cuándo conviene": "Quan es vol avaluar desempenys en contextos versemblants.",
+    "Precauciones": "Pot simplificar en excés la realitat.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "simulacio",
+    "Descripción detallada": "Aquesta dimensió descriu el format o situació didàctica en la qual es genera l'evidència. Pot combinar diversos procediments de recollida.\n\nL'avaluació mitjançant simulació recrea situacions versemblants (joc de rol, simulacre, dramatització, casos pràctics interactius) per observar com actua l'alumnat en aquest context. Permet valorar habilitats difícils d'observar en situacions ordinàries.\n\nCom aplicar-la: es dissenya un escenari amb rols, informació i objectius definits. El docent observa amb una rúbrica de desempenys o registre anecdòtic mentre la simulació es desenvolupa. És important fer un tancament reflexiu on l'alumnat analitzi les seves pròpies decisions i les comparteixi amb el grup.\n\nAdequada per avaluar comunicació, presa de decisions, resolució de conflictes, protocols d'actuació i habilitats socials en contextos professionals o cívics.",
+    "rel_ins": [
+      "INS_SIM",
+      "INS_ROL",
+      "INS_DRAMA",
+      "INS_ESCAPE"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_ESC_OBS",
+      "HER_REG_ANE"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_SIM": "principal",
+        "INS_ROL": "principal",
+        "INS_DRAMA": "principal",
+        "INS_ESCAPE": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "ocasional",
+        "HER_ESC_OBS": "ocasional",
+        "HER_REG_ANE": "principal"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Simulació; Joc de rol; Dramatització; Escape room o repte gamificat",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala d'observació; Registre anecdòtic"
+  },
+  {
+    "Código": "DIM_DIG",
+    "Dimensión": "Evidències digitals",
+    "Categoría": "Soporte de evidencias",
+    "Descripción breve": "Recollida d'evidències en entorns o productes digitals.",
+    "Función pedagógica": "Valorar competència digital, producció i participació en línia.",
+    "Evidencias habituales": "Documents, fòrums, vídeos, webs, registres d'activitat.",
+    "Cuándo conviene": "Quan l'activitat usa eines digitals o deixa traces en línia.",
+    "Precauciones": "Les analítiques no substitueixen el judici pedagògic.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno/Iguales",
+    "Etiquetas": "digital",
+    "Descripción detallada": "Aquesta dimensió indica el mitjà en el qual es produeixen, emmagatzemen o revisen les evidències.\n\nL'avaluació mitjançant evidències digitals recull i valora produccions, participacions i registres generats en entorns digitals: documents col·laboratius, fòrums, portafolis digitals, vídeos, historials de revisió, analítiques de plataforma o contribucions en wikis.\n\nCom aplicar-la: convé definir quin tipus d'evidències digitals es valoraran i amb quins criteris. L'historial de revisió d'un document compartit, per exemple, permet veure la contribució individual en un treball grupal. Les analítiques d'una plataforma LMS poden mostrar temps d'accés, intents i patrons d'estudi, però no s'han de fer servir com a única font de valoració.\n\nLes evidències digitals permeten avaluar la competència digital de forma autèntica i donen accés a processos que en paper serien invisibles. Les analítiques complementen el judici pedagògic, però no el substitueixen.",
+    "rel_ins": [
+      "INS_CUEST_DIG",
+      "INS_INFOG",
+      "INS_PRESENT_DIG",
+      "INS_VIDEO",
+      "INS_PODCAST",
+      "INS_MODELO_DIG",
+      "INS_WEB",
+      "INS_BLOG",
+      "INS_FORO",
+      "INS_DOC_COL",
+      "INS_PORT_DIG",
+      "INS_CUAD_DIG"
+    ],
+    "rel_her": [
+      "HER_RUB_DIG",
+      "HER_HIST_REV",
+      "HER_PANEL",
+      "HER_HOJA_CALC",
+      "HER_FORM_DIG",
+      "HER_ANALITICAS",
+      "HER_BANCO_EVID"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_CUEST_DIG": "principal",
+        "INS_INFOG": "complementaria",
+        "INS_PRESENT_DIG": "principal",
+        "INS_VIDEO": "principal",
+        "INS_PODCAST": "principal",
+        "INS_MODELO_DIG": "principal",
+        "INS_WEB": "principal",
+        "INS_BLOG": "principal",
+        "INS_FORO": "principal",
+        "INS_DOC_COL": "principal",
+        "INS_PORT_DIG": "principal",
+        "INS_CUAD_DIG": "principal"
+      },
+      "rel_her": {
+        "HER_HOJA_CALC": "principal",
+        "HER_FORM_DIG": "complementaria",
+        "HER_RUB_DIG": "principal",
+        "HER_HIST_REV": "principal",
+        "HER_PANEL": "principal",
+        "HER_ANALITICAS": "principal",
+        "HER_BANCO_EVID": "principal"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Qüestionari digital; Infografia; Presentació digital; Vídeo; Podcast; Model digital; Pàgina web; Entrada de blog; Fòrum de discussió; Document col·laboratiu; Portafoli digital; Quadern digital",
+    "Instrumentos de evaluación recomendados": "Rúbrica digital; Historial de revisió; Tauler de progrés; Full de càlcul d'avaluació; Formulari digital; Analítiques d'aprenentatge; Banc digital d'evidències"
+  },
+  {
+    "Código": "DIM_CRIT",
+    "Dimensión": "Avaluació criterial",
+    "Categoría": "Enfoque curricular",
+    "Descripción breve": "Valoració de l'aprenentatge en relació amb criteris explícits, no per comparació entre l'alumnat.",
+    "Función pedagógica": "Alinear evidències, criteris d'avaluació, indicadors i decisions de qualificació.",
+    "Evidencias habituales": "Tasques vinculades a criteris, rúbriques competencials, mapes d'evidències.",
+    "Cuándo conviene": "Sempre que es vulgui justificar l'avaluació des de criteris curriculars o estàndards definits.",
+    "Precauciones": "Requereix traduir criteris amplis en indicadors observables sense fragmentar en excés l'aprenentatge.",
+    "Fase": "Diseño/Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "criterial; criteris; indicadors; alineacio",
+    "Descripción detallada": "L'avaluació criterial valora l'aprenentatge respecte a criteris prèviament definits i comunicats. No compara l'alumnat entre si, sinó que analitza en quina mesura cada estudiant demostra els aprenentatges esperats.\n\nCom aplicar-la: es parteix dels criteris d'avaluació i es concreten en indicadors observables, evidències adequades i eines de valoració. Un mapa d'evidències per criteri ajuda a comprovar que cada decisió avaluativa està recolzada en dades suficients.\n\nÉs especialment important en enfocaments competencials, perquè permet justificar quina evidència demostra cada criteri i evita que la qualificació sigui una suma de tasques desconnectades.",
+    "rel_ins": [
+      "INS_TAREA_COMP_INT",
+      "INS_SIT_PROB",
+      "INS_EPORT_SEL",
+      "INS_LIBRO_ABIERTO"
+    ],
+    "rel_her": [
+      "HER_IND_CRIT",
+      "HER_MAP_EVID",
+      "HER_RUB_COMP",
+      "HER_TAB_CRIT"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_TAREA_COMP_INT": "principal",
+        "INS_SIT_PROB": "principal",
+        "INS_EPORT_SEL": "principal",
+        "INS_LIBRO_ABIERTO": "complementaria"
+      },
+      "rel_her": {
+        "HER_IND_CRIT": "principal",
+        "HER_MAP_EVID": "principal",
+        "HER_RUB_COMP": "complementaria",
+        "HER_TAB_CRIT": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Tasca competencial integrada; Situació-problema; E-portafoli amb evidències seleccionades; Prova de llibre obert",
+    "Instrumentos de evaluación recomendados": "Llista d'indicadors per criteri; Mapa d'evidències per criteri; Rúbrica competencial; Taula de qualificació per criteris"
+  },
+  {
+    "Código": "DIM_INCL",
+    "Dimensión": "Avaluació inclusiva i DUA",
+    "Categoría": "Enfoque curricular",
+    "Descripción breve": "Disseny d'avaluació accessible, flexible i ajustada a la diversitat de l'alumnat.",
+    "Función pedagógica": "Reduir barreres i oferir diverses formes de demostrar l'aprenentatge.",
+    "Evidencias habituales": "Productes alternatius, suports, bastides, adaptacions d'accés, autoavaluacions guiades.",
+    "Cuándo conviene": "En qualsevol grup divers, especialment quan una única forma d'evidència pot ocultar aprenentatges reals.",
+    "Precauciones": "La flexibilitat no ha d'abaixar els criteris, sinó diversificar camins i suports per evidenciar-los.",
+    "Fase": "Diseño/Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "inclusio; dua; accessibilitat; diversitat",
+    "Descripción detallada": "L'avaluació inclusiva, alineada amb el Disseny Universal per a l'Aprenentatge, procura que tot l'alumnat pugui demostrar el que sap i sap fer mitjançant evidències accessibles i variades.\n\nCom aplicar-la: s'anticipen barreres de comprensió, expressió, temps, format o context; s'ofereixen suports i alternatives raonables; i es mantenen clars els criteris que s'avaluen. Per exemple, un mateix criteri es pot evidenciar mitjançant text, exposició oral, producte visual o demostració pràctica si tots permeten observar el mateix aprenentatge.\n\nLa seva finalitat és augmentar la validesa de l'avaluació: que el resultat reflecteixi l'aprenentatge i no les barreres del format triat.",
+    "rel_ins": [
+      "INS_TAREA_COMP_INT",
+      "INS_CUAD_DIG",
+      "INS_EPORT_SEL",
+      "INS_EXPO",
+      "INS_VIDEO",
+      "INS_PODCAST",
+      "INS_INFOG",
+      "INS_MAP_CONC",
+      "INS_PR_PRACT",
+      "INS_LAB",
+      "INS_ENTREV",
+      "INS_PORT",
+      "INS_DOC_COL",
+      "INS_F_REFLEX",
+      "INS_BILLETE",
+      "INS_SEMAF"
+    ],
+    "rel_her": [
+      "HER_ESC_PROG",
+      "HER_PLANT_FF",
+      "HER_MAP_EVID"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_TAREA_COMP_INT": "principal",
+        "INS_CUAD_DIG": "principal",
+        "INS_EPORT_SEL": "principal",
+        "INS_EXPO": "complementaria",
+        "INS_VIDEO": "complementaria",
+        "INS_PODCAST": "complementaria",
+        "INS_INFOG": "complementaria",
+        "INS_MAP_CONC": "complementaria",
+        "INS_PR_PRACT": "complementaria",
+        "INS_LAB": "complementaria",
+        "INS_ENTREV": "complementaria",
+        "INS_PORT": "complementaria",
+        "INS_DOC_COL": "complementaria",
+        "INS_F_REFLEX": "complementaria",
+        "INS_BILLETE": "ocasional",
+        "INS_SEMAF": "ocasional"
+      },
+      "rel_her": {
+        "HER_ESC_PROG": "principal",
+        "HER_PLANT_FF": "complementaria",
+        "HER_MAP_EVID": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Tasca competencial integrada; Quadern digital; E-portafoli amb evidències seleccionades; Exposició oral; Vídeo; Podcast; Infografia; Mapa conceptual; Prova pràctica; Pràctica de laboratori; Entrevista; Portafoli; Document col·laboratiu; Fitxa de reflexió; Bitllet de sortida; Semàfor d'aprenentatge",
+    "Instrumentos de evaluación recomendados": "Escala de progrés; Plantilla de feedback/feedforward; Mapa d'evidències per criteri"
+  },
+  {
+    "Código": "DIM_CONT",
+    "Dimensión": "Avaluació contínua",
+    "Categoría": "Finalidad y momento",
+    "Descripción breve": "Recollida i interpretació d'evidències al llarg del procés d'aprenentatge.",
+    "Función pedagógica": "Seguir el progrés, detectar necessitats i ajustar l'ensenyament de forma sostinguda.",
+    "Evidencias habituales": "Esborranys, lliuraments parcials, diaris, quadern digital, registres de progrés.",
+    "Cuándo conviene": "En unitats llargues, projectes, aprenentatge competencial i seguiment ordinari del curs.",
+    "Precauciones": "No s'ha de confondre amb acumular moltes notes; exigeix seleccionar evidències significatives.",
+    "Fase": "Inicial/Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "continua; progres; seguiment",
+    "Descripción detallada": "L'avaluació contínua interpreta evidències recollides en moments diversos per comprendre el progrés de l'alumnat. No consisteix a qualificar-ho tot, sinó a fer servir evidències successives per prendre millors decisions.\n\nCom aplicar-la: es planifiquen fites de recollida d'informació, es registren avenços rellevants i es retorna retroalimentació mentre encara hi ha marge de millora. Els lliuraments parcials, el quadern digital, el portafoli i les escales de progrés són especialment útils.\n\nBen usada, permet que l'avaluació formi part de l'aprenentatge i no sigui només una comprovació al final.",
+    "rel_ins": [
+      "INS_CUAD_DIG",
+      "INS_EPORT_SEL",
+      "INS_ENT_PAR",
+      "INS_BORR"
+    ],
+    "rel_her": [
+      "HER_ESC_PROG",
+      "HER_PANEL",
+      "HER_BANCO_EVID",
+      "HER_HOJA_IND"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_CUAD_DIG": "principal",
+        "INS_EPORT_SEL": "principal",
+        "INS_ENT_PAR": "principal",
+        "INS_BORR": "principal"
+      },
+      "rel_her": {
+        "HER_ESC_PROG": "principal",
+        "HER_PANEL": "complementaria",
+        "HER_BANCO_EVID": "complementaria",
+        "HER_HOJA_IND": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Quadern digital; E-portafoli amb evidències seleccionades; Lliurament parcial; Esborrany",
+    "Instrumentos de evaluación recomendados": "Escala de progrés; Tauler de progrés; Banc digital d'evidències; Full de seguiment individual"
+  },
+  {
+    "Código": "DIM_FEED",
+    "Dimensión": "Retroalimentació i feedforward",
+    "Categoría": "Finalidad y uso",
+    "Descripción breve": "Informació per comprendre el desempenys actual i orientar la millora següent.",
+    "Función pedagógica": "Convertir l'avaluació en acció de millora concreta.",
+    "Evidencias habituales": "Comentaris, fitxes de retroalimentació, compromisos de millora, revisions d'esborranys.",
+    "Cuándo conviene": "Quan l'alumnat pot revisar, repetir, millorar o transferir el que ha après a una tasca posterior.",
+    "Precauciones": "Ha de ser específica, oportuna i accionable; una nota sola no és retroalimentació suficient.",
+    "Fase": "Proceso",
+    "Participación": "Docente/Alumno/Iguales",
+    "Etiquetas": "retroalimentacio; feedforward; millora",
+    "Descripción detallada": "La retroalimentació explica a l'alumnat on és respecte a l'objectiu, què ha fet bé, què necessita millorar i quin és el pas següent. El feedforward afegeix orientació cap a tasques futures, no només correcció del que ja s'ha lliurat.\n\nCom aplicar-la: s'utilitzen comentaris breus, fitxes, conferències individuals, revisió d'esborranys o coavaluació guiada. L'essencial és que l'alumne o alumna pugui actuar sobre la informació rebuda.\n\nTé més impacte quan arriba durant el procés, es centra en criteris concrets i evita missatges genèrics com 'bé' o 'has d'esforçar-te més'.",
+    "rel_ins": [
+      "INS_BORR",
+      "INS_REV_PARES",
+      "INS_2E1D",
+      "INS_ENT_PAR",
+      "INS_EPORT_SEL"
+    ],
+    "rel_her": [
+      "HER_PLANT_FF",
+      "HER_FICHA_RETRO",
+      "HER_REG_COMP"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_BORR": "principal",
+        "INS_REV_PARES": "principal",
+        "INS_2E1D": "principal",
+        "INS_ENT_PAR": "complementaria",
+        "INS_EPORT_SEL": "complementaria"
+      },
+      "rel_her": {
+        "HER_PLANT_FF": "principal",
+        "HER_FICHA_RETRO": "principal",
+        "HER_REG_COMP": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Esborrany; Revisió entre iguals; Dues estrelles i un desig; Lliurament parcial; E-portafoli amb evidències seleccionades",
+    "Instrumentos de evaluación recomendados": "Plantilla de feedback/feedforward; Fitxa de retroalimentació; Registre de compromisos de millora"
+  },
+  {
+    "Código": "DIM_CAL_ACRED",
+    "Dimensión": "Qualificació i acreditació",
+    "Categoría": "Finalidad y uso",
+    "Descripción breve": "Transformació justificada d'evidències en una decisió de nota, promoció o certificació.",
+    "Función pedagógica": "Comunicar el nivell assolit i sostenir decisions acadèmiques amb evidències.",
+    "Evidencias habituales": "Proves, tasques finals, rúbriques, taules per criteris, actes i informes.",
+    "Cuándo conviene": "En tancar unitats, avaluacions, cursos o processos que requereixen decisió administrativa.",
+    "Precauciones": "Ha de recolzar-se en criteris i evidències suficients; no substitueix l'avaluació formativa.",
+    "Fase": "Final",
+    "Participación": "Docente/Equipo docente",
+    "Etiquetas": "qualificacio; acreditacio; nota; promocio",
+    "Descripción detallada": "La qualificació i acreditació converteixen evidències d'aprenentatge en una decisió comunicable: una nota, un nivell d'assoliment, una promoció o una certificació.\n\nCom aplicar-la: s'explicita quins criteris compten, quines evidències els sustenten i com es combinen. Les taules de qualificació per criteris, matrius de ponderació, actes i informes individuals ajuden que la decisió sigui traçable.\n\nÉs una funció necessària del sistema educatiu, però s'ha de distingir de la retroalimentació formativa: qualificar informa del nivell assolit; orientar la millora exigeix informació addicional.",
+    "rel_ins": [
+      "INS_PR_COMP",
+      "INS_TAREA_COMP_INT",
+      "INS_EPORT_SEL"
+    ],
+    "rel_her": [
+      "HER_TAB_CRIT",
+      "HER_MATRIZ_POND",
+      "HER_INF_IND",
+      "HER_ACTA",
+      "HER_MAP_EVID"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_PR_COMP": "principal",
+        "INS_TAREA_COMP_INT": "complementaria",
+        "INS_EPORT_SEL": "complementaria"
+      },
+      "rel_her": {
+        "HER_TAB_CRIT": "principal",
+        "HER_MATRIZ_POND": "principal",
+        "HER_INF_IND": "complementaria",
+        "HER_ACTA": "complementaria",
+        "HER_MAP_EVID": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Prova competencial contextualitzada; Tasca competencial integrada; E-portafoli amb evidències seleccionades",
+    "Instrumentos de evaluación recomendados": "Taula de qualificació per criteris; Matriu de ponderació; Informe individual d'avaluació; Acta d'avaluació; Mapa d'evidències per criteri"
+  },
+  {
+    "Código": "DIM_COMPART",
+    "Dimensión": "Avaluació compartida i participativa",
+    "Categoría": "Agente evaluador",
+    "Descripción breve": "Participació de l'alumnat en criteris, evidències, revisió i decisions de millora.",
+    "Función pedagógica": "Augmentar la comprensió de criteris, la responsabilitat i l'autoregulació.",
+    "Evidencias habituales": "Negociació de criteris, coavaluació, contractes de grup, compromisos de millora.",
+    "Cuándo conviene": "En projectes, treball cooperatiu, portafolis i tasques on l'alumnat pot revisar el seu procés.",
+    "Precauciones": "Requereix criteris clars i acompanyament; no ha de delegar sense guia la responsabilitat docent.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno/Iguales",
+    "Etiquetas": "compartida; participativa; coavaluacio; negociacio",
+    "Descripción detallada": "L'avaluació compartida i participativa implica l'alumnat en parts diverses del procés avaluatiu: comprendre o construir criteris, revisar evidències, coavaluar, autoavaluar-se i proposar millores.\n\nCom aplicar-la: es poden consensuar indicadors, usar contractes de grup, revisar esborranys entre parells o comparar l'autoavaluació amb la valoració docent. La responsabilitat final de la qualificació segueix sent del docent quan el sistema ho exigeix.\n\nÉs especialment valuosa perquè fa visibles els criteris i converteix l'avaluació en aprenentatge sobre la pròpia qualitat del treball.",
+    "rel_ins": [
+      "INS_TRAB_COOP",
+      "INS_REV_PARES",
+      "INS_CONTRATO",
+      "INS_EPORT_SEL",
+      "INS_ESCAPE",
+      "INS_SEMINARIO"
+    ],
+    "rel_her": [
+      "HER_CONTR_GRUP",
+      "HER_FICHA_COEV",
+      "HER_RUB_COEV",
+      "HER_REG_COMP",
+      "HER_SOCIO"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_TRAB_COOP": "principal",
+        "INS_REV_PARES": "principal",
+        "INS_CONTRATO": "complementaria",
+        "INS_EPORT_SEL": "complementaria",
+        "INS_ESCAPE": "complementaria",
+        "INS_SEMINARIO": "complementaria"
+      },
+      "rel_her": {
+        "HER_CONTR_GRUP": "principal",
+        "HER_FICHA_COEV": "principal",
+        "HER_RUB_COEV": "complementaria",
+        "HER_REG_COMP": "complementaria",
+        "HER_SOCIO": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Medios/evidencias asociados": "Treball cooperatiu; Revisió entre iguals; Contracte d'aprenentatge; E-portafoli amb evidències seleccionades; Escape room o repte gamificat; Seminari socràtic",
+    "Instrumentos de evaluación recomendados": "Contracte de grup; Fitxa de coavaluació; Rúbrica de coavaluació; Registre de compromisos de millora; Sociograma"
+  }
+]

@@ -1,0 +1,646 @@
+[
+  {
+    "Código": "TEC_OBS_SIS",
+    "Técnica": "Observació sistemàtica",
+    "Descripción breve": "Observació planificada i documentada del desempenys durant una activitat.",
+    "Finalidad principal": "Registrar actuacions, procediments, participació i hàbits.",
+    "Evidencias habituales": "Actuacions orals, pràctiques, treball en grup, participació.",
+    "Cuándo conviene": "Quan l'evidència succeeix en directe i no n'hi ha prou amb revisar un producte final.",
+    "Limitaciones": "Pot ser subjectiva si no hi ha criteris clars.",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "observacio; desempeny; proces",
+    "Descripción detallada": "Com a tècnica en sentit estricte, aquest element descriu un procediment de recollida d'evidències. Es pot combinar amb finalitats, agents i contextos metodològics diferents.\n\nL'observació sistemàtica és una tècnica en la qual el docent planifica per endavant què observarà, en quins moments i amb quin instrument de registre. No es tracta de mirar de forma genèrica, sinó d'atendre criteris concrets i observables mentre l'alumnat actua.\n\nCom aplicar-la: abans de la sessió es defineixen quins indicadors s'observaran (p. ex., 'utilitza el material de laboratori correctament', 'argumenta amb evidències', 'escolta activament'). Durant l'activitat, el docent fa servir una llista de verificació, escala d'observació o rúbrica per registrar el que veu. En acabar, aquesta informació serveix per donar retroalimentació, ajustar l'ensenyament o contribuir a la qualificació.\n\nÉs especialment útil en activitats pràctiques, debats, exposicions, tallers i treball cooperatiu, on l'evidència de l'aprenentatge succeeix en directe i no queda en un producte físic.",
+    "rel_ins": [
+      "INS_DEBATE",
+      "INS_EXPO",
+      "INS_LAB",
+      "INS_TALLER",
+      "INS_TRAB_COOP",
+      "INS_SIM",
+      "INS_TRAB_IND",
+      "INS_PART",
+      "INS_ASAM",
+      "INS_DRAMA",
+      "INS_PROTOTIPO"
+    ],
+    "rel_her": [
+      "HER_LISTA",
+      "HER_ESC_OBS",
+      "HER_RUB_ANA",
+      "HER_REG_ANE"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_TRAB_IND": "principal",
+        "INS_TRAB_COOP": "principal",
+        "INS_PART": "principal",
+        "INS_DEBATE": "complementaria",
+        "INS_ASAM": "complementaria",
+        "INS_LAB": "principal",
+        "INS_TALLER": "principal",
+        "INS_SIM": "principal",
+        "INS_DRAMA": "principal",
+        "INS_EXPO": "complementaria",
+        "INS_PROTOTIPO": "complementaria"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal",
+        "HER_ESC_OBS": "complementaria",
+        "HER_RUB_ANA": "complementaria",
+        "HER_REG_ANE": "complementaria"
+      }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Debat; Exposició oral; Pràctica de laboratori; Taller; Treball cooperatiu; Simulació; Treball individual a l'aula; Participació a classe; Assemblea; Dramatització; Prototip",
+    "Instrumentos de evaluación recomendados": "Llista de verificació o control; Escala d'observació; Rúbrica analítica; Registre anecdòtic"
+  },
+  {
+    "Código": "TEC_OBS_INC",
+    "Técnica": "Observació incidental",
+    "Descripción breve": "Registre de fets rellevants sorgits de forma no prevista.",
+    "Finalidad principal": "Detectar avenços, dificultats o incidències significatives.",
+    "Evidencias habituales": "Conductes, comentaris, conflictes, iniciatives, dubtes.",
+    "Cuándo conviene": "Quan apareix una evidència imprevista però rellevant.",
+    "Limitaciones": "No substitueix una observació sistemàtica.",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "observacio; incidental",
+    "Descripción detallada": "Com a tècnica en sentit estricte, aquest element descriu un procediment de recollida d'evidències. Es pot combinar amb finalitats, agents i contextos metodològics diferents.\n\nL'observació incidental registra fets rellevants que emergeixen de forma espontània durant l'activitat quotidiana de l'aula, sense que el docent els hagi previst. Un comentari perspicaç, una dificultat recurrent, un conflicte al grup o una iniciativa inesperada són exemples d'evidències incidentals.\n\nCom aplicar-la: el docent ha de tenir sempre a mà un registre anecdòtic, una llibreta o una aplicació on anotar breument la data, el nom de l'alumne o alumna i el fet observat. Aquestes notes, acumulades al llarg del temps, permeten veure patrons de conducta, progrés o dificultats que una observació planificada podria no captar.\n\nNo substitueix l'observació sistemàtica, sinó que la complementa aportant evidències inesperades i matisos qualitatius sobre el procés d'aprenentatge.",
+    "rel_ins": [
+      "INS_TRAB_IND",
+      "INS_PART",
+      "INS_TRAB_COOP"
+    ],
+    "rel_her": [
+      "HER_REG_ANE",
+      "HER_NOTAS_CAMPO",
+      "HER_DIARIO_PROF"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_TRAB_IND": "principal",
+        "INS_PART": "complementaria",
+        "INS_TRAB_COOP": "complementaria"
+      },
+      "rel_her": {
+        "HER_REG_ANE": "principal",
+        "HER_NOTAS_CAMPO": "complementaria",
+        "HER_DIARIO_PROF": "complementaria"
+      }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Treball individual a l'aula; Participació a classe; Treball cooperatiu",
+    "Instrumentos de evaluación recomendados": "Registre anecdòtic; Notes de camp; Diari del professor"
+  },
+  {
+    "Código": "TEC_PROD",
+    "Técnica": "Anàlisi de produccions",
+    "Descripción breve": "Valoració de productes elaborats per l'alumnat.",
+    "Finalidad principal": "Avaluar qualitat, contingut, estructura, procés i transferència.",
+    "Evidencias habituales": "Textos, informes, projectes, vídeos, mapes, infografies, portafolis.",
+    "Cuándo conviene": "Quan hi ha un producte o artefacte avaluable.",
+    "Limitaciones": "No mostra tot el procés si no s'acompanya de seguiment.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "produccio; producte",
+    "Descripción detallada": "Com a tècnica en sentit estricte, aquest element descriu un procediment de recollida d'evidències. Es pot combinar amb finalitats, agents i contextos metodològics diferents.\n\nL'anàlisi de produccions consisteix a valorar els artefactes o productes elaborats per l'alumnat: textos escrits, informes, projectes, presentacions, vídeos, mapes conceptuals, maquetes, portafolis o qualsevol altre producte tangible o digital.\n\nCom aplicar-la: es defineix prèviament quins criteris es valoraran i amb quina eina (rúbrica, guia de correcció, escala descriptiva). La revisió es pot fer fora de l'horari de classe, cosa que permet al docent dedicar-hi més temps i atenció que durant una observació en directe. És fonamental retornar retroalimentació escrita que expliqui no només el nivell assolit, sinó què pot millorar i com.\n\nQuan el producte final no reflecteix tot l'aprenentatge (perquè el procés va ser complex o el treball va ser grupal), convé complementar-lo amb seguiment del procés, esborranys o entrevistes breus.",
+    "rel_ins": [
+      "INS_CUADERNO",
+      "INS_INFO_LAB",
+      "INS_DEF_PROY",
+      "INS_ENSAYO",
+      "INS_INFOG",
+      "INS_VIDEO",
+      "INS_PODCAST",
+      "INS_MAQUETA",
+      "INS_PORT",
+      "INS_INFO_INV",
+      "INS_MONO",
+      "INS_COM_TEXT",
+      "INS_COM_GRAF",
+      "INS_RESUMEN",
+      "INS_ESQUEMA",
+      "INS_MAP_CONC",
+      "INS_MAP_MENT",
+      "INS_LINEA",
+      "INS_GLOS",
+      "INS_FICHA_LECT",
+      "INS_RESEÑA",
+      "INS_ART_DIV",
+      "INS_MEM_PROY",
+      "INS_CASO",
+      "INS_DOCS",
+      "INS_POSTER",
+      "INS_PRESENT_DIG",
+      "INS_TUTORIAL",
+      "INS_COMIC",
+      "INS_MODELO_DIG",
+      "INS_PROTOTIPO",
+      "INS_WEB",
+      "INS_BLOG",
+      "INS_DOC_COL",
+      "INS_PORT_DIG",
+      "INS_MAP_INI",
+      "INS_BORR",
+      "INS_ENT_PAR"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_GUIA_CORR",
+      "HER_ESC_DESC",
+      "HER_FICHA_RETRO"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_CUADERNO": "principal",
+        "INS_PORT": "principal",
+        "INS_INFO_LAB": "principal",
+        "INS_INFO_INV": "principal",
+        "INS_MONO": "principal",
+        "INS_ENSAYO": "principal",
+        "INS_COM_TEXT": "principal",
+        "INS_COM_GRAF": "principal",
+        "INS_RESUMEN": "principal",
+        "INS_ESQUEMA": "principal",
+        "INS_MAP_CONC": "principal",
+        "INS_MAP_MENT": "principal",
+        "INS_LINEA": "principal",
+        "INS_GLOS": "principal",
+        "INS_FICHA_LECT": "principal",
+        "INS_RESEÑA": "principal",
+        "INS_ART_DIV": "principal",
+        "INS_MEM_PROY": "principal",
+        "INS_CASO": "complementaria",
+        "INS_DOCS": "complementaria",
+        "INS_INFOG": "principal",
+        "INS_POSTER": "principal",
+        "INS_PRESENT_DIG": "principal",
+        "INS_VIDEO": "principal",
+        "INS_TUTORIAL": "principal",
+        "INS_COMIC": "principal",
+        "INS_MAQUETA": "principal",
+        "INS_MODELO_DIG": "principal",
+        "INS_PROTOTIPO": "principal",
+        "INS_WEB": "principal",
+        "INS_BLOG": "principal",
+        "INS_DOC_COL": "complementaria",
+        "INS_PORT_DIG": "complementaria",
+        "INS_MAP_INI": "complementaria",
+        "INS_BORR": "complementaria",
+        "INS_ENT_PAR": "complementaria",
+        "INS_DEF_PROY": "complementaria",
+        "INS_PODCAST": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_GUIA_CORR": "complementaria",
+        "HER_ESC_DESC": "complementaria",
+        "HER_FICHA_RETRO": "complementaria"
+      }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Quadern de classe; Informe de laboratori; Defensa de projecte; Assaig; Infografia; Vídeo; Podcast; Maqueta; Portafoli; Informe de recerca; Monografia; Comentari de text; Comentari de gràfica o dades; Resum; Esquema; Mapa conceptual; Mapa mental; Línia del temps; Glossari; Fitxa de lectura; Ressenya; Article de divulgació; Memòria de projecte; Estudi de cas; Prova amb documents; Pòster acadèmic; Presentació digital; Videotutorial; Còmic; Model digital; Prototip; Pàgina web; Entrada de blog; Document col·laboratiu; Portafoli digital; Mapa conceptual inicial; Esborrany; Lliurament parcial",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció; Escala descriptiva; Fitxa de retroalimentació"
+  },
+  {
+    "Código": "TEC_PRUEBA",
+    "Técnica": "Proves específiques",
+    "Descripción breve": "Situacions dissenyades expressament per comprovar aprenentatges.",
+    "Finalidad principal": "Comprovar coneixements, aplicació, raonament o destreses.",
+    "Evidencias habituales": "Respostes escrites, orals o pràctiques en condicions controlades.",
+    "Cuándo conviene": "Quan cal una comprovació puntual o comparable.",
+    "Limitaciones": "Pot reduir l'avaluació si s'usa com a única evidència.",
+    "Fase": "Inicial/Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "prova; comprovacio",
+    "Descripción detallada": "Com a tècnica en sentit estricte, aquest element descriu un procediment de recollida d'evidències. Es pot combinar amb finalitats, agents i contextos metodològics diferents.\n\nLes proves específiques són situacions dissenyades expressament per comprovar aprenentatges en condicions controlades. Inclouen proves escrites de desenvolupament, proves tipus test, proves de resposta curta, proves orals i proves pràctiques.\n\nCom aplicar-les: el disseny ha d'estar alineat amb els criteris d'avaluació i els sabers treballats. Cada pregunta o tasca ha de poder associar-se a un criteri concret. És recomanable compartir prèviament els criteris de correcció (o almenys el tipus de tasca) perquè l'alumnat es pugui preparar de forma orientada.\n\nSón útils per acreditar assoliments i per comparar resultats, però no haurien de ser l'únic instrument d'avaluació. Combinades amb altres evidències (produccions, observació, autoavaluació), ofereixen una imatge més completa i justa de l'aprenentatge.",
+    "rel_ins": [
+      "INS_PR_DES",
+      "INS_TEST",
+      "INS_PR_ORAL",
+      "INS_PR_PRACT",
+      "INS_CUEST_DIG",
+      "INS_COM_TEXT",
+      "INS_PROB",
+      "INS_CASO",
+      "INS_PR_OBJ",
+      "INS_RESP_CORTA",
+      "INS_PR_COMP",
+      "INS_DOCS"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_BAREMO",
+      "HER_PLANT_CORR",
+      "HER_RUB_ANA",
+      "HER_ESC_NUM"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_COM_TEXT": "complementaria",
+        "INS_PROB": "principal",
+        "INS_CASO": "principal",
+        "INS_PR_DES": "principal",
+        "INS_PR_OBJ": "principal",
+        "INS_TEST": "principal",
+        "INS_RESP_CORTA": "principal",
+        "INS_PR_ORAL": "complementaria",
+        "INS_PR_PRACT": "principal",
+        "INS_PR_COMP": "principal",
+        "INS_DOCS": "principal",
+        "INS_CUEST_DIG": "principal"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "principal",
+        "HER_BAREMO": "complementaria",
+        "HER_PLANT_CORR": "complementaria",
+        "HER_RUB_ANA": "complementaria",
+        "HER_ESC_NUM": "complementaria"
+      }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Prova escrita de desenvolupament; Prova tipus test; Prova oral; Prova pràctica; Qüestionari digital; Comentari de text; Resolució de problemes; Estudi de cas; Prova objectiva; Prova de resposta curta; Prova competencial contextualitzada; Prova amb documents",
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Barem; Plantilla de correcció; Rúbrica analítica; Escala numèrica"
+  },
+  {
+    "Código": "TEC_ORAL",
+    "Técnica": "Intercanvis orals",
+    "Descripción breve": "Obtenció d'evidències mitjançant comunicació oral.",
+    "Finalidad principal": "Valorar comprensió, argumentació, expressió i diàleg.",
+    "Evidencias habituales": "Intervencions, respostes, debats, defenses, entrevistes.",
+    "Cuándo conviene": "Quan s'avalua comunicació, raonament verbal o interacció.",
+    "Limitaciones": "Pot dependre de factors emocionals.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "oralitat; comunicacio",
+    "Descripción detallada": "Com a tècnica en sentit estricte, aquest element descriu un procediment de recollida d'evidències. Es pot combinar amb finalitats, agents i contextos metodològics diferents.\n\nEls intercanvis orals són situacions en les quals el docent obté evidències d'aprenentatge mitjançant la comunicació oral: preguntes al grup, debats dirigits, col·loquis, entrevistes individuals o defenses de projectes.\n\nCom aplicar-los: convé planificar les preguntes o el guió abans de la sessió i tenir preparat un instrument de registre (rúbrica oral, escala d'observació, llista de verificació). Si l'intercanvi és grupal, és difícil observar tothom alhora; es pot alternar el focus d'atenció o enregistrar per a revisió posterior (amb els permisos corresponents).\n\nPermeten valorar comprensió profunda, argumentació, capacitat de síntesi, fluïdesa i expressió oral, aspectes que una prova escrita no captura. També permeten al docent fer preguntes de seguiment per explorar el raonament subjacent.",
+    "rel_ins": [
+      "INS_DEBATE",
+      "INS_COLOQ",
+      "INS_ENTREV",
+      "INS_EXPO",
+      "INS_DEF_PROY",
+      "INS_ASAM",
+      "INS_ROL",
+      "INS_PREG_ORAL",
+      "INS_PR_ORAL",
+      "INS_PRESENT_DIG",
+      "INS_PODCAST",
+      "INS_FORO",
+      "INS_LLUVIA"
+    ],
+    "rel_her": [
+      "HER_RUB_ORAL",
+      "HER_ESC_OBS",
+      "HER_LISTA",
+      "HER_REG_ANE"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_DEBATE": "principal",
+        "INS_COLOQ": "principal",
+        "INS_ASAM": "principal",
+        "INS_ROL": "complementaria",
+        "INS_EXPO": "principal",
+        "INS_DEF_PROY": "principal",
+        "INS_ENTREV": "principal",
+        "INS_PREG_ORAL": "principal",
+        "INS_PR_ORAL": "principal",
+        "INS_PRESENT_DIG": "complementaria",
+        "INS_PODCAST": "principal",
+        "INS_FORO": "principal",
+        "INS_LLUVIA": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ORAL": "principal",
+        "HER_ESC_OBS": "complementaria",
+        "HER_LISTA": "complementaria",
+        "HER_REG_ANE": "complementaria"
+      }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Debat; Col·loqui; Entrevista; Exposició oral; Defensa de projecte; Assemblea; Joc de rol; Pregunta oral estructurada; Prova oral; Presentació digital; Podcast; Fòrum de discussió; Pluja d'idees",
+    "Instrumentos de evaluación recomendados": "Rúbrica oral; Escala d'observació; Llista de verificació o control; Registre anecdòtic"
+  },
+  {
+    "Código": "TEC_SONDEO",
+    "Técnica": "Sondeig i qüestionament",
+    "Descripción breve": "Recollida ràpida de respostes, idees prèvies o comprensió mitjançant preguntes breus.",
+    "Finalidad principal": "Explorar coneixements previs, comprovar comprensió immediata i detectar necessitats d'ajust.",
+    "Evidencias habituales": "Respostes breus, preguntes orals, qüestionaris inicials, KPSI, bitllets de sortida, pluja d'idees.",
+    "Cuándo conviene": "Quan cal informació ràpida per iniciar, ajustar o tancar una sessió sense convertir l'activitat en una prova extensa.",
+    "Limitaciones": "Pot donar evidències superficials si les preguntes no estan ben formulades o no s'usen després per prendre decisions docents.",
+    "Fase": "Inicial/Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "preguntes; sondeig; diagnostic; comprovacio; sortida",
+    "Descripción detallada": "Com a tècnica en sentit estricte, el sondeig i qüestionament consisteix a recollir evidències mitjançant preguntes breus, orals o escrites, dissenyades per fer visible el que l'alumnat sap, creu saber, no entén o acaba d'aprendre.\n\nCom aplicar-la: el docent planteja una pregunta, un KPSI, un bitllet de sortida, una pluja d'idees o un qüestionari breu. Les respostes es registren amb una eina senzilla i s'analitzen per decidir si avançar, repassar, reagrupar, aclarir o proporcionar retroalimentació.\n\nÉs especialment útil en avaluació diagnòstica i formativa, perquè proporciona informació ràpida i accionable. No s'ha de confondre amb una prova llarga ni usar-se només per qualificar.",
+    "rel_ins": [
+      "INS_KPSI",
+      "INS_MAP_INI",
+      "INS_LLUVIA",
+      "INS_BILLETE",
+      "INS_PREG_ORAL",
+      "INS_CUEST_DIG",
+      "INS_RESP_CORTA",
+      "INS_TEST",
+      "INS_SEMAF"
+    ],
+    "rel_her": [
+      "HER_FORM_DIG",
+      "HER_ESC_AUTO",
+      "HER_LISTA",
+      "HER_REG_DESC",
+      "HER_HOJA_IND"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_PREG_ORAL": "complementaria",
+        "INS_TEST": "complementaria",
+        "INS_RESP_CORTA": "complementaria",
+        "INS_CUEST_DIG": "complementaria",
+        "INS_KPSI": "principal",
+        "INS_MAP_INI": "principal",
+        "INS_LLUVIA": "principal",
+        "INS_SEMAF": "complementaria",
+        "INS_BILLETE": "principal"
+      },
+      "rel_her": {
+        "HER_FORM_DIG": "principal",
+        "HER_ESC_AUTO": "complementaria",
+        "HER_LISTA": "complementaria",
+        "HER_REG_DESC": "complementaria",
+        "HER_HOJA_IND": "complementaria"
+      }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "KPSI; Mapa conceptual inicial; Pluja d'idees; Bitllet de sortida; Pregunta oral estructurada; Qüestionari digital; Prova de resposta curta; Prova tipus test; Semàfor d'aprenentatge",
+    "Instrumentos de evaluación recomendados": "Formulari digital; Escala d'autoavaluació; Llista de verificació o control; Registre descriptiu; Full de seguiment individual"
+  },
+  {
+    "Código": "TEC_PROC_REFLEX",
+    "Técnica": "Anàlisi de processos i reflexions",
+    "Descripción breve": "Revisió d'evidències intermèdies, registres de procés i reflexions de l'alumnat.",
+    "Finalidad principal": "Comprendre com aprèn, planifica, revisa, coopera i millora l'alumnat durant una tasca.",
+    "Evidencias habituales": "Diaris, quaderns de bitàcola, esborranys, lliuraments parcials, fitxes de reflexió, autoinformes, revisions entre iguals.",
+    "Cuándo conviene": "Quan importa valorar l'aprenentatge durant el procés i no només el producte final.",
+    "Limitaciones": "Requereix seguiment continuat i criteris clars per no convertir-se en mera acumulació de documents.",
+    "Fase": "Proceso",
+    "Participación": "Docente/Alumno/Iguales",
+    "Etiquetas": "proces; reflexio; metacognicio; esborranys; seguiment",
+    "Descripción detallada": "Com a tècnica en sentit estricte, l'anàlisi de processos i reflexions consisteix a revisar evidències que mostren com s'ha desenvolupat l'aprenentatge: planificació, esborranys, decisions, dificultats, revisions, comentaris rebuts i compromisos de millora.\n\nCom aplicar-la: es seleccionen moments de recollida durant la tasca i es revisen diaris, quaderns de bitàcola, lliuraments parcials, fitxes de reflexió o revisions entre iguals amb una rúbrica de procés, escala o fitxa de retroalimentació.\n\nÉs especialment útil en projectes, portafolis, treballs cooperatius i tasques complexes, perquè permet valorar el recorregut i orientar la millora abans del lliurament final.",
+    "rel_ins": [
+      "INS_DIARIO",
+      "INS_F_REFLEX",
+      "INS_AUTOINF",
+      "INS_BORR",
+      "INS_ENT_PAR",
+      "INS_BIT",
+      "INS_REV_PARES",
+      "INS_2E1D",
+      "INS_SEMAF",
+      "INS_PLAN_TRAB",
+      "INS_ACTA",
+      "INS_CONTRATO",
+      "INS_DOC_COL",
+      "INS_PORT",
+      "INS_PORT_DIG"
+    ],
+    "rel_her": [
+      "HER_RUB_PROC",
+      "HER_FICHA_RETRO",
+      "HER_HOJA_IND",
+      "HER_REG_COMP",
+      "HER_ESC_AUTO",
+      "HER_HIST_REV",
+      "HER_PANEL"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_DIARIO": "principal",
+        "INS_PLAN_TRAB": "principal",
+        "INS_ACTA": "principal",
+        "INS_CONTRATO": "principal",
+        "INS_F_REFLEX": "principal",
+        "INS_AUTOINF": "principal",
+        "INS_DOC_COL": "principal",
+        "INS_BORR": "principal",
+        "INS_ENT_PAR": "principal",
+        "INS_BIT": "principal",
+        "INS_REV_PARES": "principal",
+        "INS_2E1D": "principal",
+        "INS_SEMAF": "principal",
+        "INS_PORT": "complementaria",
+        "INS_PORT_DIG": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_PROC": "principal",
+        "HER_FICHA_RETRO": "complementaria",
+        "HER_HOJA_IND": "complementaria",
+        "HER_REG_COMP": "complementaria",
+        "HER_ESC_AUTO": "complementaria",
+        "HER_HIST_REV": "complementaria",
+        "HER_PANEL": "complementaria"
+      }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Diari d'aprenentatge; Fitxa de reflexió; Autoinforme; Esborrany; Lliurament parcial; Quadern de bitàcola de projecte; Revisió entre iguals; Dues estrelles i un desig; Semàfor d'aprenentatge; Pla de treball; Acta de reunió; Contracte d'aprenentatge; Document col·laboratiu; Portafoli; Portafoli digital",
+    "Instrumentos de evaluación recomendados": "Rúbrica de procés; Fitxa de retroalimentació; Full de seguiment individual; Registre de compromisos de millora; Escala d'autoavaluació; Historial de revisió; Tauler de progrés"
+  },
+  {
+    "Código": "TEC_ENTREV_EVAL",
+    "Técnica": "Entrevista avaluativa",
+    "Descripción breve": "Conversa planificada per explorar comprensió, raonament o procés.",
+    "Finalidad principal": "Aprofundir en evidències que no queden clares en un producte o prova.",
+    "Evidencias habituales": "Respostes orals, explicacions, argumentacions, decisions de procés.",
+    "Cuándo conviene": "Quan cal indagar en el raonament de l'alumnat o contrastar autoria i comprensió.",
+    "Limitaciones": "Consumeix temps i requereix un guió comú per assegurar equitat.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "entrevista; oral; indagacio",
+    "Descripción detallada": "L'entrevista avaluativa és una conversa amb propòsit avaluador, preparada amb preguntes o focus d'observació. Permet explorar com raona l'alumne o alumna, quines decisions va prendre i quina comprensió sosté una producció.\n\nCom aplicar-la: es defineix un guió breu, es registren les respostes amb una guia o rúbrica oral i es procura que les preguntes siguin comparables entre l'alumnat. Es pot usar en defenses de projecte, portafolis o revisió de treballs complexos.\n\nÉs útil per obtenir evidències profundes, però s'ha de planificar per evitar una improvisació excessiva o diferències injustes entre entrevistes.",
+    "rel_ins": [
+      "INS_ENTREV",
+      "INS_DEF_PROY",
+      "INS_PORT_DIG"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_RUB_ORAL",
+      "HER_REG_ANE",
+      "HER_GUIA_OBS"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_ENTREV": "principal",
+        "INS_DEF_PROY": "complementaria",
+        "INS_PORT_DIG": "complementaria"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "complementaria",
+        "HER_RUB_ORAL": "principal",
+        "HER_REG_ANE": "complementaria",
+        "HER_GUIA_OBS": "principal"
+      }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Entrevista; Defensa de projecte; Portafoli digital",
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Rúbrica oral; Registre anecdòtic; Guia d'observació"
+  },
+  {
+    "Código": "TEC_ENC_CUEST",
+    "Técnica": "Enquesta i qüestionari",
+    "Descripción breve": "Recollida estructurada de respostes mitjançant preguntes tancades o obertes.",
+    "Finalidad principal": "Obtenir informació ràpida sobre coneixements, percepcions, interessos o seguiment.",
+    "Evidencias habituales": "Qüestionaris, formularis, enquestes inicials, escales de percepció.",
+    "Cuándo conviene": "Quan cal informació comparable i fàcil d'analitzar de tot el grup.",
+    "Limitaciones": "La qualitat depèn molt de la formulació de les preguntes.",
+    "Fase": "Inicial/Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "enquesta; questionari; formulari",
+    "Descripción detallada": "L'enquesta i el qüestionari recullen respostes de forma estructurada. Es poden usar amb finalitat diagnòstica, formativa o sumativa segons el disseny de les preguntes.\n\nCom aplicar-los: es redacten ítems clars, es decideix si les respostes seran anònimes o identificades i s'analitzen els resultats per prendre decisions docents. En avaluació, convé distingir entre qüestionaris de percepció i proves de coneixement.\n\nSón útils per la seva rapidesa i comparabilitat, però no han de substituir evidències més riques quan s'avaluen aprenentatges complexos.",
+    "rel_ins": [
+      "INS_CUEST_DIG",
+      "INS_KPSI",
+      "INS_BILLETE"
+    ],
+    "rel_her": [
+      "HER_FORM_DIG",
+      "HER_ESC_AUTO",
+      "HER_PLANT_CORR"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_CUEST_DIG": "principal",
+        "INS_KPSI": "principal",
+        "INS_BILLETE": "complementaria"
+      },
+      "rel_her": {
+        "HER_FORM_DIG": "principal",
+        "HER_ESC_AUTO": "complementaria",
+        "HER_PLANT_CORR": "complementaria"
+      }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Qüestionari digital; KPSI; Bitllet de sortida",
+    "Instrumentos de evaluación recomendados": "Formulari digital; Escala d'autoavaluació; Plantilla de correcció"
+  },
+  {
+    "Código": "TEC_ANAL_DOC",
+    "Técnica": "Anàlisi documental",
+    "Descripción breve": "Revisió de documents, registres i evidències acumulades.",
+    "Finalidad principal": "Interpretar informació ja produïda per valorar progrés, coherència o traçabilitat.",
+    "Evidencias habituales": "Quaderns, portafolis, actes, historials de revisió, bancs d'evidències.",
+    "Cuándo conviene": "Quan l'aprenentatge queda documentat en registres o productes acumulats.",
+    "Limitaciones": "Pot sobrevalorar el que es documenta i deixar fora actuacions no registrades.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "documental; evidencies; registres",
+    "Descripción detallada": "L'anàlisi documental consisteix a revisar documents i registres generats durant l'aprenentatge: quaderns, portafolis, actes, historials d'edició o repositoris d'evidències.\n\nCom aplicar-la: es seleccionen documents rellevants, es contrasten amb criteris o indicadors i s'evita valorar només la quantitat de material acumulat. El mapa d'evidències ajuda a saber quin document justifica cada criteri.\n\nÉs una tècnica útil per a l'avaluació contínua i criterial, especialment quan el procés deixa traces verificables.",
+    "rel_ins": [
+      "INS_CUADERNO",
+      "INS_PORT_DIG",
+      "INS_ACTA",
+      "INS_DOC_COL"
+    ],
+    "rel_her": [
+      "HER_MAP_EVID",
+      "HER_HIST_REV",
+      "HER_BANCO_EVID"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_CUADERNO": "principal",
+        "INS_PORT_DIG": "principal",
+        "INS_ACTA": "complementaria",
+        "INS_DOC_COL": "complementaria"
+      },
+      "rel_her": {
+        "HER_MAP_EVID": "principal",
+        "HER_HIST_REV": "complementaria",
+        "HER_BANCO_EVID": "complementaria"
+      }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Quadern de classe; Portafoli digital; Acta de reunió; Document col·laboratiu",
+    "Instrumentos de evaluación recomendados": "Mapa d'evidències per criteri; Historial de revisió; Banc digital d'evidències"
+  },
+  {
+    "Código": "TEC_INTER_DIG",
+    "Técnica": "Anàlisi d'interaccions digitals",
+    "Descripción breve": "Interpretació de participacions, traces i col·laboració en entorns digitals.",
+    "Finalidad principal": "Valorar participació, contribució i procés en plataformes o documents compartits.",
+    "Evidencias habituales": "Fòrums, comentaris, historials d'edició, analítiques, missatges i lliuraments digitals.",
+    "Cuándo conviene": "Quan el treball es desenvolupa en entorns digitals que deixen traces útils.",
+    "Limitaciones": "Les traces digitals requereixen interpretació pedagògica i respecte a la privacitat.",
+    "Fase": "Proceso",
+    "Participación": "Docente/Alumno/Iguales",
+    "Etiquetas": "digital; interaccio; traces; collaboracio",
+    "Descripción detallada": "L'anàlisi d'interaccions digitals estudia com participa l'alumnat en espais digitals: contribucions en documents compartits, fòrums, comentaris, lliuraments, revisions i activitat en plataformes.\n\nCom aplicar-la: es decideix quines traces són rellevants per als criteris, es revisen historials o taulers i es triangula amb productes i observació docent. No tota activitat digital implica aprenentatge, de manera que s'ha d'interpretar amb cautela.\n\nÉs especialment útil en projectes col·laboratius i portafolis digitals.",
+    "rel_ins": [
+      "INS_FORO",
+      "INS_DOC_COL",
+      "INS_CUAD_DIG",
+      "INS_PORT_DIG"
+    ],
+    "rel_her": [
+      "HER_HIST_REV",
+      "HER_ANALITICAS",
+      "HER_PANEL"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_FORO": "principal",
+        "INS_DOC_COL": "principal",
+        "INS_CUAD_DIG": "complementaria",
+        "INS_PORT_DIG": "complementaria"
+      },
+      "rel_her": {
+        "HER_HIST_REV": "principal",
+        "HER_ANALITICAS": "complementaria",
+        "HER_PANEL": "complementaria"
+      }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Fòrum de discussió; Document col·laboratiu; Quadern digital; Portafoli digital",
+    "Instrumentos de evaluación recomendados": "Historial de revisió; Analítiques d'aprenentatge; Tauler de progrés"
+  },
+  {
+    "Código": "TEC_TRIANG",
+    "Técnica": "Triangulació d'evidències",
+    "Descripción breve": "Contrast de diverses evidències per prendre una decisió avaluativa més sòlida.",
+    "Finalidad principal": "Augmentar validesa i fiabilitat combinant productes, observacions, proves i reflexions.",
+    "Evidencias habituales": "Rúbriques, registres, proves, portafolis, entrevistes, autoavaluacions.",
+    "Cuándo conviene": "Quan una sola evidència és insuficient per valorar un criteri o competència.",
+    "Limitaciones": "Requereix decidir quines evidències pesen més i evitar duplicar la mateixa evidència.",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "triangulacio; evidencies; validesa",
+    "Descripción detallada": "La triangulació d'evidències consisteix a contrastar diverses fonts abans de prendre una decisió: observació, producció, prova, entrevista, autoavaluació o registre de procés.\n\nCom aplicar-la: s'identifica quin criteri es vol valorar, quines evidències el mostren i si són suficients i coherents entre elles. Si les evidències discrepan, s'analitza quina és més vàlida o si convé recollir una evidència addicional.\n\nÉs clau en avaluació competencial i criterial, perquè evita decidir a partir d'una única tasca aïllada.",
+    "rel_ins": [
+      "INS_TAREA_COMP_INT",
+      "INS_EPORT_SEL",
+      "INS_PR_COMP"
+    ],
+    "rel_her": [
+      "HER_MAP_EVID",
+      "HER_TAB_CRIT",
+      "HER_PERFIL_LOGRO"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_TAREA_COMP_INT": "principal",
+        "INS_EPORT_SEL": "principal",
+        "INS_PR_COMP": "complementaria"
+      },
+      "rel_her": {
+        "HER_MAP_EVID": "principal",
+        "HER_TAB_CRIT": "complementaria",
+        "HER_PERFIL_LOGRO": "complementaria"
+      }
+    },
+    "tipo_entidad": "tecnica",
+    "Medios/evidencias asociados": "Tasca competencial integrada; E-portafoli amb evidències seleccionades; Prova competencial contextualitzada",
+    "Instrumentos de evaluación recomendados": "Mapa d'evidències per criteri; Taula de qualificació per criteris; Perfil d'assoliment"
+  }
+]

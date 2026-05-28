@@ -1,0 +1,3605 @@
+[
+  {
+    "Código": "INS_TRAB_IND",
+    "Instrumento": "Treball individual a l'aula",
+    "Tipo": "Observació",
+    "Descripción breve": "Activitat realitzada individualment durant la classe.",
+    "Técnicas asociadas": "Observació sistemàtica; Observació incidental",
+    "Evidencia": "Actuació observable",
+    "Adecuado para": "Autonomia; organització; resolució de tasques.",
+    "Complejidad": "Baja/Media",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "individual; aula",
+    "Descripción detallada": "El treball individual a l'aula és una activitat que l'alumne realitza de forma autònoma durant la classe, sense el suport directe dels companys. Permet al docent observar en directe el nivell d'autonomia, l'organització i la capacitat de resolució de cada alumne.\n\nCom usar-lo per avaluar: mentre l'alumnat treballa, el docent circula per l'aula i observa amb una escala d'observació o llista de verificació. Registra qui avança amb fluïdesa, qui es bloqueja i en quin punt. També pot recollir el resultat final (exercici, tasca, esquema) i valorar-lo amb una guia de correcció.\n\nÉs una de les evidències avaluables més habituals perquè permet obtenir informació tant del procés com del resultat, en condicions controlades i sense la interferència d'altres alumnes.",
+    "rel_tec": [
+      "TEC_OBS_SIS",
+      "TEC_OBS_INC"
+    ],
+    "rel_her": [
+      "HER_CUAD_CAL",
+      "HER_ESC_OBS",
+      "HER_HOJA_IND",
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal",
+        "TEC_OBS_INC": "principal"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal"
+      },
+      "rel_her": {
+        "HER_CUAD_CAL": "principal",
+        "HER_ESC_OBS": "complementaria",
+        "HER_HOJA_IND": "complementaria",
+        "HER_LISTA": "ocasional"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Quadern de qualificacions; Escala d'observació; Full de seguiment individual; Llista de verificació o control"
+  },
+  {
+    "Código": "INS_TRAB_COOP",
+    "Instrumento": "Treball cooperatiu",
+    "Tipo": "Observació",
+    "Descripción breve": "Activitat grupal amb repartiment de tasques i responsabilitat compartida.",
+    "Técnicas asociadas": "Observació sistemàtica; Observació incidental",
+    "Evidencia": "Actuació grupal",
+    "Adecuado para": "Col·laboració; responsabilitat; comunicació.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Proceso",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "cooperatiu; grup",
+    "Descripción detallada": "El treball cooperatiu és una activitat grupal en la qual els alumnes comparteixen responsabilitats, distribueixen tasques i construeixen un resultat comú. Permet avaluar la col·laboració, la comunicació, la responsabilitat individual i la capacitat d'integrar aportacions diverses.\n\nCom usar-lo per avaluar: convé combinar la valoració del producte grupal amb la del procés i la contribució individual. Una rúbrica de treball cooperatiu, un registre de grup i l'autoavaluació de cada membre ofereixen una imatge completa. El docent pot observar el funcionament del grup amb una escala d'observació.\n\nPerquè l'avaluació sigui justa, no s'ha de reduir al producte final: dos grups poden lliurar treballs similars però amb processos de col·laboració molt diferents.",
+    "rel_tec": [
+      "TEC_OBS_SIS",
+      "TEC_OBS_INC"
+    ],
+    "rel_her": [
+      "HER_DIARIO_PROF",
+      "HER_FICHA_COEV",
+      "HER_RUB_COOP",
+      "HER_CONTR_GRUP",
+      "HER_SOCIO",
+      "HER_GUIA_OBS"
+    ],
+    "rel_dim": [
+      "DIM_COEV",
+      "DIM_FORM",
+      "DIM_DESEMP",
+      "DIM_PROY",
+      "DIM_HET",
+      "DIM_COMPART"
+    ],
+    "Dimensiones asociadas": "Coavaluació; Finalitat formativa; Evidència de desempenyi; Treball per projectes; Heteroavaluació; Avaluació compartida i participativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal",
+        "TEC_OBS_INC": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_COEV": "principal",
+        "DIM_FORM": "principal",
+        "DIM_DESEMP": "principal",
+        "DIM_PROY": "complementaria",
+        "DIM_HET": "complementaria",
+        "DIM_COMPART": "principal"
+      },
+      "rel_her": {
+        "HER_DIARIO_PROF": "principal",
+        "HER_FICHA_COEV": "complementaria",
+        "HER_RUB_COOP": "complementaria",
+        "HER_CONTR_GRUP": "complementaria",
+        "HER_SOCIO": "ocasional",
+        "HER_GUIA_OBS": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Diari del professor; Fitxa de coavaluació; Rúbrica de treball cooperatiu; Contracte de grup; Sociograma; Guia d'observació"
+  },
+  {
+    "Código": "INS_PART",
+    "Instrumento": "Participació a classe",
+    "Tipo": "Observació",
+    "Descripción breve": "Intervencions i aportacions de l'alumnat a l'aula.",
+    "Técnicas asociadas": "Observació sistemàtica; Observació incidental",
+    "Evidencia": "Actuació oral",
+    "Adecuado para": "Implicació; escolta; preguntes; aportacions.",
+    "Complejidad": "Baja/Media",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "participacio",
+    "Descripción detallada": "La participació a classe inclou les intervencions orals de l'alumnat: respostes a preguntes, aportacions espontànies, preguntes pròpies, comentaris i contribucions al debat col·lectiu.\n\nCom usar-la per avaluar: cal un registre sistemàtic perquè no depengui de la memòria del docent. Un registre de participació amb nom i tipus d'intervenció (resposta, pregunta, aportació) permet valorar la freqüència i la qualitat. Una escala d'observació ajuda a no reduir-ho a si aixeca la mà o no.\n\nCal valorar la qualitat de les aportacions, no només la quantitat. Un alumne que intervé poc però amb idees precises mereix reconeixement; un que intervé molt però sense escoltar no hauria de ser premiat per això.",
+    "rel_tec": [
+      "TEC_OBS_SIS",
+      "TEC_OBS_INC"
+    ],
+    "rel_her": [
+      "HER_CUAD_CAL",
+      "HER_DIARIO_PROF",
+      "HER_ESC_OBS",
+      "HER_REG_PART"
+    ],
+    "rel_dim": [
+      "DIM_FORM",
+      "DIM_DESEMP"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa; Evidència de desempenyi",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal",
+        "TEC_OBS_INC": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal",
+        "DIM_DESEMP": "complementaria"
+      },
+      "rel_her": {
+        "HER_CUAD_CAL": "principal",
+        "HER_DIARIO_PROF": "complementaria",
+        "HER_ESC_OBS": "complementaria",
+        "HER_REG_PART": "ocasional"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Quadern de qualificacions; Diari del professor; Escala d'observació; Registre de participació"
+  },
+  {
+    "Código": "INS_DEBATE",
+    "Instrumento": "Debat",
+    "Tipo": "Oral",
+    "Descripción breve": "Discussió reglada sobre un tema amb arguments i torns.",
+    "Técnicas asociadas": "Intercanvis orals; Observació sistemàtica",
+    "Evidencia": "Actuació oral",
+    "Adecuado para": "Argumentació; escolta activa; respecte; evidències.",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "debat; oral",
+    "Descripción detallada": "El debat és una discussió reglada en la qual l'alumnat defensa posicions amb arguments, escolta les posicions contràries i hi respon. Pot ser espontani o preparat, formal o informal, amb rols assignats o lliure.\n\nCom usar-lo per avaluar: el docent (o altres alumnes com a coavaluadors) utilitza una rúbrica oral o escala d'observació per valorar la qualitat dels arguments, l'ús d'evidències, l'escolta activa i el respecte als torns. Si el grup és gran, es pot gravar o valorar per torns.\n\nEl debat permet avaluar competències que no són visibles en proves escrites: argumentació, pensament crític, comunicació oral i capacitat de rebatre amb respecte.",
+    "rel_tec": [
+      "TEC_ORAL",
+      "TEC_OBS_SIS"
+    ],
+    "rel_her": [
+      "HER_ESC_OBS",
+      "HER_FICHA_COEV"
+    ],
+    "rel_dim": [
+      "DIM_COEV"
+    ],
+    "Dimensiones asociadas": "Coavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ORAL": "principal",
+        "TEC_OBS_SIS": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_COEV": "complementaria"
+      },
+      "rel_her": {
+        "HER_ESC_OBS": "principal",
+        "HER_FICHA_COEV": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala d'observació; Fitxa de coavaluació"
+  },
+  {
+    "Código": "INS_COLOQ",
+    "Instrumento": "Col·loqui",
+    "Tipo": "Oral",
+    "Descripción breve": "Conversa guiada per contrastar idees.",
+    "Técnicas asociadas": "Intercanvis orals",
+    "Evidencia": "Actuació oral",
+    "Adecuado para": "Comprensió; expressió; relació d'idees.",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "col·loqui; oral",
+    "Descripción detallada": "El col·loqui és una conversa estructurada però més oberta que el debat, on l'alumnat intercanvia idees, opinions i interpretacions sobre un tema. No hi ha posicions enfrontades, sinó construcció col·lectiva de significat.\n\nCom usar-lo per avaluar: el docent modera i observa amb una escala o rúbrica oral, prestant atenció a la profunditat de les aportacions, la capacitat de relacionar idees i l'escolta activa. És més difícil de registrar que el debat perquè les intervencions són més fluides.\n\nÉs especialment adequat per avaluar comprensió lectora, anàlisi de textos, interpretació històrica i reflexió filosòfica o ètica.",
+    "rel_tec": [
+      "TEC_ORAL"
+    ],
+    "rel_her": [
+      "HER_ESC_OBS",
+      "HER_REG_ANE"
+    ],
+    "rel_dim": [
+      "DIM_FORM",
+      "DIM_DESEMP"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa; Evidència de desempenyi",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ORAL": "principal"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal",
+        "DIM_DESEMP": "complementaria"
+      },
+      "rel_her": {
+        "HER_ESC_OBS": "principal",
+        "HER_REG_ANE": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala d'observació; Registre anecdòtic"
+  },
+  {
+    "Código": "INS_ASAM",
+    "Instrumento": "Assemblea",
+    "Tipo": "Oral",
+    "Descripción breve": "Situació col·lectiva per prendre decisions o comentar processos.",
+    "Técnicas asociadas": "Intercanvis orals; Observació sistemàtica",
+    "Evidencia": "Actuació oral/grupal",
+    "Adecuado para": "Participació; convivència; presa de decisions.",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "assemblea",
+    "Descripción detallada": "L'assemblea és una reunió del grup-classe on es prenen decisions col·lectives, es comparteixen experiències o es debaten normes i conflictes. En contextos educatius, s'usa especialment a Infantil i Primària, tot i que també a tutoria i projectes de convivència.\n\nCom usar-la per avaluar: permet observar competències socials i comunicatives: respecte al torn, escolta, argumentació, proposta de solucions. Un registre anecdòtic o una escala de participació recullen les evidències més significatives.\n\nNo és una evidència d'avaluació acadèmica formal en sentit estricte, però sí permet avaluar competències cíviques, de comunicació i de resolució de conflictes.",
+    "rel_tec": [
+      "TEC_ORAL",
+      "TEC_OBS_SIS"
+    ],
+    "rel_her": [
+      "HER_REG_PART",
+      "HER_ESC_OBS"
+    ],
+    "rel_dim": [
+      "DIM_FORM",
+      "DIM_COEV"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa; Coavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ORAL": "principal",
+        "TEC_OBS_SIS": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal",
+        "DIM_COEV": "complementaria"
+      },
+      "rel_her": {
+        "HER_REG_PART": "principal",
+        "HER_ESC_OBS": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Registre de participació; Escala d'observació"
+  },
+  {
+    "Código": "INS_LAB",
+    "Instrumento": "Pràctica de laboratori",
+    "Tipo": "Pràctica",
+    "Descripción breve": "Activitat experimental o manipulativa en laboratori.",
+    "Técnicas asociadas": "Observació sistemàtica",
+    "Evidencia": "Actuació pràctica",
+    "Adecuado para": "Procediments; seguretat; presa de dades; anàlisi.",
+    "Complejidad": "Alta",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "laboratori; ciències",
+    "Descripción detallada": "La pràctica de laboratori és una activitat experimental en la qual l'alumnat aplica procediments científics per observar fenòmens, comprovar hipòtesis o desenvolupar habilitats tècniques. Requereix planificació, ús de materials específics i registre de resultats.\n\nCom usar-la per avaluar: permet avaluar tant el procés (com aplica el protocol, com maneja el material, com registra observacions) com el producte (informe de laboratori). El docent observa amb una llista de verificació del procés i després valora l'informe amb una rúbrica.\n\nÉs una de les evidències avaluables més riques per a l'avaluació competencial en ciències, ja que integra coneixements, procediments i actituds en una sola activitat.",
+    "rel_tec": [
+      "TEC_OBS_SIS"
+    ],
+    "rel_her": [
+      "HER_DIARIO_PROF",
+      "HER_ESC_OBS",
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_INDAG",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Indagació; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal"
+      },
+      "rel_dim": {
+        "DIM_INDAG": "complementaria",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_DIARIO_PROF": "principal",
+        "HER_ESC_OBS": "complementaria",
+        "HER_LISTA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Diari del professor; Escala d'observació; Llista de verificació o control"
+  },
+  {
+    "Código": "INS_TALLER",
+    "Instrumento": "Taller",
+    "Tipo": "Pràctica",
+    "Descripción breve": "Activitat pràctica orientada a produir, experimentar o resoldre.",
+    "Técnicas asociadas": "Observació sistemàtica",
+    "Evidencia": "Actuació pràctica",
+    "Adecuado para": "Destreses; procediments; creativitat; aplicació.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "taller; practica",
+    "Descripción detallada": "El taller és una activitat pràctica en la qual l'alumnat aplica habilitats, tècniques o coneixements en un context de treball actiu. Pot ser artístic, tecnològic, lingüístic, culinari, etc. El resultat sol ser un producte físic o una habilitat demostrable.\n\nCom usar-lo per avaluar: el docent observa el procés amb una llista de verificació o escala d'observació i valora el producte amb una rúbrica o fitxa de valoració. En tallers col·lectius, es pot combinar la valoració individual i grupal.\n\nÉs especialment adequat per avaluar procediments, creativitat i aplicació pràctica de coneixements, aspectes que no són visibles en una prova escrita.",
+    "rel_tec": [
+      "TEC_OBS_SIS"
+    ],
+    "rel_her": [
+      "HER_LISTA",
+      "HER_ESC_OBS",
+      "HER_RUB_ANA"
+    ],
+    "rel_dim": [
+      "DIM_DESEMP"
+    ],
+    "Dimensiones asociadas": "Evidència de desempenyi",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal"
+      },
+      "rel_dim": {
+        "DIM_DESEMP": "principal"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal",
+        "HER_ESC_OBS": "complementaria",
+        "HER_RUB_ANA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Llista de verificació o control; Escala d'observació; Rúbrica analítica"
+  },
+  {
+    "Código": "INS_SIM",
+    "Instrumento": "Simulació",
+    "Tipo": "Desempenyi",
+    "Descripción breve": "Recreació d'una situació real o versemblant.",
+    "Técnicas asociadas": "Observació sistemàtica",
+    "Evidencia": "Actuació contextualitzada",
+    "Adecuado para": "Presa de decisions; comunicació; aplicació.",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "simulacio",
+    "Descripción detallada": "La simulació recrea una situació versemblant (històrica, professional, social o científica) en la qual l'alumnat actua com si fos real, prenent decisions i resolent problemes en aquest context fictici.\n\nCom usar-la per avaluar: el docent observa amb una rúbrica de desempenyi o registre anecdòtic mentre la simulació transcorre. També es pot valorar la reflexió posterior (quines decisions vaig prendre, què hauria canviat, què vaig aprendre). Un informe post-simulació aporta evidència escrita.\n\nPermete avaluar habilitats difícils d'observar en altres situacions: presa de decisions sota pressió, comunicació en rols professionals, resolució de conflictes i aplicació de protocols.",
+    "rel_tec": [
+      "TEC_OBS_SIS"
+    ],
+    "rel_her": [
+      "HER_ESC_OBS",
+      "HER_RUB_ANA",
+      "HER_REG_DESC"
+    ],
+    "rel_dim": [
+      "DIM_SIM",
+      "DIM_DESEMP"
+    ],
+    "Dimensiones asociadas": "Simulació; Evidència de desempenyi",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal"
+      },
+      "rel_dim": {
+        "DIM_SIM": "principal",
+        "DIM_DESEMP": "complementaria"
+      },
+      "rel_her": {
+        "HER_ESC_OBS": "principal",
+        "HER_RUB_ANA": "complementaria",
+        "HER_REG_DESC": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala d'observació; Rúbrica analítica; Registre descriptiu"
+  },
+  {
+    "Código": "INS_ROL",
+    "Instrumento": "Joc de rol",
+    "Tipo": "Desempenyi",
+    "Descripción breve": "Representació de papers per analitzar una situació.",
+    "Técnicas asociadas": "Intercanvis orals",
+    "Evidencia": "Actuació oral/contextual",
+    "Adecuado para": "Empatia; argumentació; resolució de conflictes.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Proceso",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "rol",
+    "Descripción detallada": "En el joc de rol, cada alumne assumeix un paper amb característiques, objectius i informació propis, i interactua amb altres rols per resoldre una situació o assolir un objectiu.\n\nCom usar-lo per avaluar: el docent observa l'actuació amb una rúbrica de desempenyi o escala d'observació, valorant l'adequació al rol, l'argumentació, la comunicació i la col·laboració. Un diari reflexiu posterior permet a l'alumne analitzar la seva pròpia actuació.\n\nÉs especialment útil en història, ciències socials, ètica, idiomes i educació per a la ciutadania, on és important entendre perspectives diferents a la pròpia.",
+    "rel_tec": [
+      "TEC_ORAL"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_REG_ANE",
+      "HER_ESC_OBS"
+    ],
+    "rel_dim": [
+      "DIM_SIM"
+    ],
+    "Dimensiones asociadas": "Simulació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ORAL": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_SIM": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_REG_ANE": "complementaria",
+        "HER_ESC_OBS": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Registre anecdòtic; Escala d'observació"
+  },
+  {
+    "Código": "INS_DRAMA",
+    "Instrumento": "Dramatització",
+    "Tipo": "Desempenyi",
+    "Descripción breve": "Representació escènica d'una situació o contingut.",
+    "Técnicas asociadas": "Observació sistemàtica",
+    "Evidencia": "Actuació oral/corporal",
+    "Adecuado para": "Expressió; comprensió; creativitat.",
+    "Complejidad": "Media",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "dramatitzacio",
+    "Descripción detallada": "La dramatització és la representació escènica d'una situació, text o història. L'alumnat interpreta personatges, assaja i presenta davant del grup. Pot ser improvisada o preparada.\n\nCom usar-la per avaluar: es valora l'expressió oral i corporal, la comprensió del text o situació representada, la memorització, la cooperació en l'assaig i la qualitat de la presentació. Una rúbrica oral i de desempenyi, aplicada pel docent o com a coavaluació, recull aquestes dimensions.\n\nÉs una evidència especialment rica per a llengua i literatura, idiomes estrangers i educació artística, ja que integra comprensió, expressió, creativitat i treball en equip.",
+    "rel_tec": [
+      "TEC_OBS_SIS"
+    ],
+    "rel_her": [
+      "HER_ESC_OBS",
+      "HER_RUB_ORAL"
+    ],
+    "rel_dim": [
+      "DIM_SIM"
+    ],
+    "Dimensiones asociadas": "Simulació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal"
+      },
+      "rel_dim": {
+        "DIM_SIM": "principal"
+      },
+      "rel_her": {
+        "HER_ESC_OBS": "principal",
+        "HER_RUB_ORAL": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala d'observació; Rúbrica oral"
+  },
+  {
+    "Código": "INS_EXPO",
+    "Instrumento": "Exposició oral",
+    "Tipo": "Oral",
+    "Descripción breve": "Presentació planificada d'un tema.",
+    "Técnicas asociadas": "Intercanvis orals; Observació sistemàtica",
+    "Evidencia": "Actuació oral",
+    "Adecuado para": "Comunicació; estructura; domini del contingut.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "exposicio; oral",
+    "Descripción detallada": "L'exposició oral és una presentació estructurada en la qual l'alumne comunica al grup informació, resultats o idees sobre un tema, de forma ordenada i amb suport visual opcional.\n\nCom usar-la per avaluar: el docent utilitza una rúbrica oral que valora l'estructura, el contingut, la claredat, el vocabulari, la comunicació no verbal i la gestió de preguntes. Es pot completar amb l'autoavaluació del propi alumne i la coavaluació dels companys. Si el grup és gran, es pot gravar per valorar-la després.\n\nPermete avaluar la competència comunicativa oral, la capacitat de síntesi i el domini del contingut, dimensions que no són visibles en produccions escrites.",
+    "rel_tec": [
+      "TEC_ORAL",
+      "TEC_OBS_SIS"
+    ],
+    "rel_her": [
+      "HER_BANCO_DESC",
+      "HER_CONV",
+      "HER_ESC_OBS",
+      "HER_LISTA",
+      "HER_RUB_ORAL"
+    ],
+    "rel_dim": [
+      "DIM_DESEMP",
+      "DIM_SUM",
+      "DIM_COEV",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Evidència de desempenyi; Finalitat sumativa; Coavaluació; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ORAL": "principal",
+        "TEC_OBS_SIS": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_DESEMP": "principal",
+        "DIM_SUM": "complementaria",
+        "DIM_COEV": "complementaria",
+        "DIM_HET": "ocasional"
+      },
+      "rel_her": {
+        "HER_BANCO_DESC": "principal",
+        "HER_CONV": "complementaria",
+        "HER_ESC_OBS": "complementaria",
+        "HER_LISTA": "ocasional",
+        "HER_RUB_ORAL": "ocasional"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Banc de descriptors; Conversor de nivells a qualificació; Escala d'observació; Llista de verificació o control; Rúbrica oral"
+  },
+  {
+    "Código": "INS_DEF_PROY",
+    "Instrumento": "Defensa de projecte",
+    "Tipo": "Oral",
+    "Descripción breve": "Justificació oral d'un projecte o producte.",
+    "Técnicas asociadas": "Intercanvis orals; Anàlisi de produccions; Entrevista avaluativa",
+    "Evidencia": "Actuació oral",
+    "Adecuado para": "Argumentació; decisions; resposta a preguntes.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "defensa; projecte",
+    "Descripción detallada": "La defensa de projecte és una presentació oral en la qual l'alumne o equip explica el seu projecte davant d'una audiència (classe, tribunal, famílies) i respon a preguntes. És el tancament habitual d'un projecte de recerca o treball de síntesi.\n\nCom usar-la per avaluar: es valoren per separat el contingut del projecte (ja avaluat abans) i la qualitat de la defensa: claredat, resposta a preguntes, distribució de rols en l'equip. Una rúbrica de defensa específica permet fer-ho de forma estructurada.\n\nAfegeix valor al projecte perquè obliga l'alumnat a comprendre realment allò que han fet i a poder explicar-ho amb les seves pròpies paraules davant de preguntes inesperades.",
+    "rel_tec": [
+      "TEC_ORAL",
+      "TEC_PROD",
+      "TEC_ENTREV_EVAL"
+    ],
+    "rel_her": [
+      "HER_ACTA",
+      "HER_BANCO_DESC",
+      "HER_CONV",
+      "HER_ESC_OBS",
+      "HER_RUB_ORAL"
+    ],
+    "rel_dim": [
+      "DIM_DESEMP",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Evidència de desempenyi; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ORAL": "principal",
+        "TEC_PROD": "complementaria",
+        "TEC_ENTREV_EVAL": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_DESEMP": "principal",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_ACTA": "principal",
+        "HER_BANCO_DESC": "complementaria",
+        "HER_CONV": "complementaria",
+        "HER_ESC_OBS": "ocasional",
+        "HER_RUB_ORAL": "ocasional"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Acta d'avaluació; Banc de descriptors; Conversor de nivells a qualificació; Escala d'observació; Rúbrica oral"
+  },
+  {
+    "Código": "INS_ENTREV",
+    "Instrumento": "Entrevista",
+    "Tipo": "Oral",
+    "Descripción breve": "Conversa estructurada amb preguntes i respostes.",
+    "Técnicas asociadas": "Intercanvis orals; Entrevista avaluativa",
+    "Evidencia": "Actuació oral",
+    "Adecuado para": "Comprensió; raonament; explicació personal.",
+    "Complejidad": "Media",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "entrevista",
+    "Descripción detallada": "L'entrevista és una conversa estructurada entre el docent i l'alumne (o entre iguals) amb l'objectiu d'explorar la seva comprensió, reflexió o procés d'aprenentatge de forma més profunda que en una prova escrita.\n\nCom usar-la per avaluar: el docent prepara un guió de preguntes obertes i registra les respostes amb un formulari o gravació. Les preguntes han d'anar més enllà de la reproducció d'informació i explorar el raonament ('per què creus això?', 'com ho faries diferent?').\n\nÉs especialment útil per a alumnes amb dificultats d'expressió escrita o quan es vol verificar el nivell real de comprensió, sense el suport d'apunts o companys.",
+    "rel_tec": [
+      "TEC_ORAL",
+      "TEC_ENTREV_EVAL"
+    ],
+    "rel_her": [
+      "HER_REG_ANE",
+      "HER_ESC_OBS"
+    ],
+    "rel_dim": [
+      "DIM_FORM",
+      "DIM_DESEMP"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa; Evidència de desempenyi",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ORAL": "principal",
+        "TEC_ENTREV_EVAL": "principal"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal",
+        "DIM_DESEMP": "complementaria"
+      },
+      "rel_her": {
+        "HER_REG_ANE": "principal",
+        "HER_ESC_OBS": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Registre anecdòtic; Escala d'observació"
+  },
+  {
+    "Código": "INS_PREG_ORAL",
+    "Instrumento": "Pregunta oral estructurada",
+    "Tipo": "Oral",
+    "Descripción breve": "Pregunta planificada per comprovar la comprensió.",
+    "Técnicas asociadas": "Intercanvis orals; Sondeig i questionament",
+    "Evidencia": "Resposta oral",
+    "Adecuado para": "Comprensió; precisió; raonament immediat.",
+    "Complejidad": "Baja/Media",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "pregunta oral",
+    "Descripción detallada": "La pregunta oral estructurada és una pregunta planificada i dirigida individualment o al grup durant la classe, amb l'objectiu de comprovar la comprensió o estimular el raonament.\n\nCom usar-la per avaluar: el docent formula la pregunta, dóna temps de reflexió (no respondre immediatament) i escolta la resposta amb atenció, registrant la qualitat amb una nota breu. Tècniques com les 'pissarres individuals', 'pensar-compartir' o 'kahoot' estructuren el procés.\n\nÉs una de les formes més immediates i freqüents d'avaluació formativa: permet ajustar l'ensenyament en temps real segons les respostes del grup.",
+    "rel_tec": [
+      "TEC_ORAL",
+      "TEC_SONDEO"
+    ],
+    "rel_her": [
+      "HER_ESC_OBS",
+      "HER_REG_ANE"
+    ],
+    "rel_dim": [
+      "DIM_FORM",
+      "DIM_DESEMP"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa; Evidència de desempenyi",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ORAL": "principal",
+        "TEC_SONDEO": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal",
+        "DIM_DESEMP": "complementaria"
+      },
+      "rel_her": {
+        "HER_ESC_OBS": "principal",
+        "HER_REG_ANE": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala d'observació; Registre anecdòtic"
+  },
+  {
+    "Código": "INS_CUADERNO",
+    "Instrumento": "Quadern de classe",
+    "Tipo": "Producció escrita",
+    "Descripción breve": "Registre d'activitats, apunts, exercicis i correccions.",
+    "Técnicas asociadas": "Anàlisi de produccions; Anàlisi documental",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Treball diari; ordre; continuïtat; correcció.",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "quadern",
+    "Descripción detallada": "El quadern de classe és el registre personal de l'alumne del treball realitzat a l'aula: apunts, exercicis, esquemes, correccions i reflexions. Reflecteix el procés d'aprenentatge dia a dia.\n\nCom usar-lo per avaluar: el docent pot revisar-lo periòdicament amb una llista de verificació (és complet?, és ordenat?, recull les correccions?) o amb una rúbrica que valori també la qualitat dels apunts i l'organització. També es pot revisar en tutories individuals.\n\nÉs una finestra al procés d'aprenentatge de l'alumne que no deixen altres evidències. Un quadern ben portat reflecteix implicació, organització i capacitat de síntesi.",
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_ANAL_DOC"
+    ],
+    "rel_her": [
+      "HER_CUAD_CAL",
+      "HER_ESC_OBS",
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal",
+        "TEC_ANAL_DOC": "principal"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal"
+      },
+      "rel_her": {
+        "HER_CUAD_CAL": "principal",
+        "HER_ESC_OBS": "complementaria",
+        "HER_LISTA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Quadern de qualificacions; Escala d'observació; Llista de verificació o control"
+  },
+  {
+    "Código": "INS_DIARIO",
+    "Instrumento": "Diari d'aprenentatge",
+    "Tipo": "Reflexió escrita",
+    "Descripción breve": "Registre reflexiu sobre aprenentatges i dificultats.",
+    "Técnicas asociadas": "Anàlisi de processos i reflexions",
+    "Evidencia": "Reflexió escrita",
+    "Adecuado para": "Metacognició; autoregulació; progrés.",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Alumno",
+    "Etiquetas": "diari; metacognicio",
+    "Descripción detallada": "El diari d'aprenentatge és un registre personal on l'alumne anota periòdicament què ha après, què li ha costat, quines preguntes té i com se sent respecte al procés. Té una dimensió reflexiva i metacognitiva que va més enllà del quadern de classe.\n\nCom usar-lo per avaluar: el docent pot proporcionar preguntes guia ('què vaig aprendre avui?', 'què encara no entenc bé?', 'què canviaria de com vaig estudiar?'). Es valora la profunditat de la reflexió, l'honestedat i la connexió entre allò après i l'experiència personal.\n\nÉs una activitat de gran potencial per al desenvolupament de la metacognició i l'autonomia. La seva avaluació ha de valorar la reflexió, no la qualitat de la redacció ni si les respostes són 'correctes'.",
+    "rel_tec": [
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_DIANA",
+      "HER_ESC_AUTO",
+      "HER_ESC_VERB",
+      "HER_FICHA_RETRO"
+    ],
+    "rel_dim": [
+      "DIM_AUTO",
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Autoavaluació; Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal"
+      },
+      "rel_dim": {
+        "DIM_AUTO": "principal",
+        "DIM_FORM": "complementaria"
+      },
+      "rel_her": {
+        "HER_DIANA": "principal",
+        "HER_ESC_AUTO": "complementaria",
+        "HER_ESC_VERB": "complementaria",
+        "HER_FICHA_RETRO": "ocasional"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Diana d'avaluació; Escala d'autoavaluació; Escala verbal; Fitxa de retroalimentació"
+  },
+  {
+    "Código": "INS_PORT",
+    "Instrumento": "Portafoli",
+    "Tipo": "Producció complexa",
+    "Descripción breve": "Col·lecció organitzada d'evidències i reflexions.",
+    "Técnicas asociadas": "Anàlisi de produccions; Anàlisi de processos i reflexions",
+    "Evidencia": "Producció acumulativa",
+    "Adecuado para": "Progrés; selecció d'evidències; reflexió.",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Alumno/Docente",
+    "Etiquetas": "portafoli",
+    "Descripción detallada": "El portafoli és una col·lecció organitzada de treballs i reflexions de l'alumne que documenta el seu procés d'aprenentatge al llarg d'un període. No és una carpeta de tots els treballs, sinó una selecció raonada amb reflexió sobre cada peça.\n\nCom usar-lo per avaluar: l'alumne selecciona les evidències que millor mostren el seu aprenentatge i escriu una reflexió sobre cadascuna ('vaig triar aquest treball perquè…', 'demostra que sé…', 'el que milloraria és…'). El docent valora tant la qualitat de les evidències com la profunditat de les reflexions.\n\nPermete una avaluació longitudinal i autèntica. Desenvolupa l'autonomia, la reflexió i la capacitat de presentar el propi aprenentatge. És la base de l'avaluació per competències en molts sistemes educatius.",
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_BANCO_DESC",
+      "HER_ESC_DESC",
+      "HER_ESC_VERB",
+      "HER_HOJA_CALC",
+      "HER_HOJA_IND",
+      "HER_MATRIZ_POND"
+    ],
+    "rel_dim": [
+      "DIM_FORM",
+      "DIM_AUTO",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa; Autoavaluació; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal",
+        "TEC_PROC_REFLEX": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal",
+        "DIM_AUTO": "complementaria",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_BANCO_DESC": "principal",
+        "HER_ESC_DESC": "complementaria",
+        "HER_ESC_VERB": "complementaria",
+        "HER_HOJA_CALC": "ocasional",
+        "HER_HOJA_IND": "ocasional",
+        "HER_MATRIZ_POND": "ocasional"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Banc de descriptors; Escala descriptiva; Escala verbal; Full de càlcul d'avaluació; Full de seguiment individual; Matriu de ponderació"
+  },
+  {
+    "Código": "INS_INFO_LAB",
+    "Instrumento": "Informe de laboratori",
+    "Tipo": "Producció escrita",
+    "Descripción breve": "Document amb objectiu, procediment, dades, anàlisi i conclusions.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció escrita científica",
+    "Adecuado para": "Mètode científic; dades; conclusions; llenguatge.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "informe; laboratori",
+    "Descripción detallada": "L'informe de laboratori és el document escrit que recull el procés i els resultats d'una pràctica experimental: objectius, hipòtesis, materials, procediment, observacions, resultats i conclusions.\n\nCom usar-lo per avaluar: es valora amb una rúbrica o guia de correcció que contempli totes les seccions de l'informe. Especial atenció a la coherència entre les dades registrades i les conclusions, i a si l'alumne interpreta els resultats o simplement els descriu.\n\nCombina l'avaluació del procés (què van fer al laboratori) amb la del producte escrit (què són capaços de comunicar sobre allò que van fer). Desenvolupa el pensament científic i l'escriptura acadèmica.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_GUIA_CORR",
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_INDAG",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Indagació; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_INDAG": "principal",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_GUIA_CORR": "complementaria",
+        "HER_LISTA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció; Llista de verificació o control"
+  },
+  {
+    "Código": "INS_INFO_INV",
+    "Instrumento": "Informe de recerca",
+    "Tipo": "Producció escrita",
+    "Descripción breve": "Document que comunica una indagació o recerca.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Cerca; anàlisi; síntesi; conclusions.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "recerca",
+    "Descripción detallada": "L'informe de recerca documenta el procés i els resultats d'una indagació o investigació: pregunta de recerca, estat de la qüestió, metodologia, resultats, discussió i conclusions. És més extens i estructurat que l'informe de laboratori.\n\nCom usar-lo per avaluar: una rúbrica analítica que valori cada secció per separat permet una retroalimentació precisa. Especial atenció a la qualitat de les fonts usades, la coherència entre la pregunta i la metodologia, i la capacitat d'interpretar els resultats de forma crítica.\n\nÉs l'evidència més adequada per avaluar competències de recerca a l'ESO, el Batxillerat i la FP. Es pot complementar amb la defensa oral de l'informe.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_TAB_CRIT"
+    ],
+    "rel_dim": [
+      "DIM_INDAG",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Indagació; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_INDAG": "principal",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "principal",
+        "HER_TAB_CRIT": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Taula de qualificació per criteris"
+  },
+  {
+    "Código": "INS_MONO",
+    "Instrumento": "Monografia",
+    "Tipo": "Producció escrita",
+    "Descripción breve": "Treball extens sobre un tema amb documentació.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Aprofundiment; documentació; estructura.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "monografia",
+    "Descripción detallada": "La monografia és un treball escrit extens i estructurat sobre un tema específic, que requereix cerca, selecció i síntesi de fonts, organització del contingut i redacció acadèmica. És més conceptual que l'informe de recerca.\n\nCom usar-la per avaluar: es valora la qualitat de les fonts, l'organització lògica, la capacitat de síntesi i d'elaborar idees pròpies (no només resumir), la correcció lingüística i l'ús correcte de cites i referències. Una rúbrica analítica o guia de correcció desglosada per seccions és l'eina més adequada.\n\nÉs especialment útil al Batxillerat i a la FP per desenvolupar i avaluar l'escriptura acadèmica i el pensament analític.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_GUIA_CORR"
+    ],
+    "rel_dim": [
+      "DIM_SUM",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Finalitat sumativa; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_SUM": "principal",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_GUIA_CORR": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció"
+  },
+  {
+    "Código": "INS_ENSAYO",
+    "Instrumento": "Assaig",
+    "Tipo": "Producció escrita",
+    "Descripción breve": "Text argumentatiu que desenvolupa una tesi.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Argumentació; pensament crític; expressió.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "assaig",
+    "Descripción detallada": "L'assaig és un text argumentatiu en el qual l'alumne defensa una tesi o posició sobre un tema, recolzant-se en arguments, exemples i fonts. A diferència de la monografia, té una veu personal més marcada.\n\nCom usar-lo per avaluar: es valora la claredat de la tesi, la qualitat dels arguments, l'ús d'evidències, la cohesió del text i la correcció lingüística. Una rúbrica analítica permet una retroalimentació específica sobre cada dimensió.\n\nÉs una tasca especialment adequada per avaluar el pensament crític, l'argumentació i l'escriptura acadèmica en llengua, filosofia, ciències socials i humanitats.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_TAB_CRIT"
+    ],
+    "rel_dim": [
+      "DIM_SUM",
+      "DIM_COMP",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Finalitat sumativa; Enfocament competencial; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_SUM": "principal",
+        "DIM_COMP": "complementaria",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "principal",
+        "HER_TAB_CRIT": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Taula de qualificació per criteris"
+  },
+  {
+    "Código": "INS_COM_TEXT",
+    "Instrumento": "Comentari de text",
+    "Tipo": "Producció escrita",
+    "Descripción breve": "Anàlisi i interpretació d'un text.",
+    "Técnicas asociadas": "Anàlisi de produccions; Proves específiques",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Comprensió; interpretació; argumentació.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "comentari; text",
+    "Descripción detallada": "El comentari de text és una anàlisi crítica d'un fragment (literari, històric, científic, filosòfic) que l'alumne du a terme seguint una estructura: comprensió, contextualització, anàlisi formal i valoració personal.\n\nCom usar-lo per avaluar: es valora la comprensió global del text, la identificació de les idees principals, la contextualització adequada, la qualitat de l'anàlisi i la coherència de la valoració. La guia de correcció o rúbrica s'ha d'adaptar al tipus de text i a l'etapa.\n\nÉs una de les evidències avaluables més habituals en llengua i literatura, història i filosofia. Permet avaluar la comprensió lectora en profunditat, l'anàlisi i l'escriptura.",
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_PRUEBA"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_RUB_ANA"
+    ],
+    "rel_dim": [
+      "DIM_COMP",
+      "DIM_SUM"
+    ],
+    "Dimensiones asociadas": "Enfocament competencial; Finalitat sumativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal",
+        "TEC_PRUEBA": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_COMP": "principal",
+        "DIM_SUM": "complementaria"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "principal",
+        "HER_RUB_ANA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Rúbrica analítica"
+  },
+  {
+    "Código": "INS_COM_GRAF",
+    "Instrumento": "Comentari de gràfica o dades",
+    "Tipo": "Producció escrita",
+    "Descripción breve": "Interpretació de gràfics, taules o dades.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció escrita/dades",
+    "Adecuado para": "Lectura de dades; inferència; explicació.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "dades; grafica",
+    "Descripción detallada": "El comentari de gràfica o dades consisteix a interpretar i explicar la informació continguda en gràfics, taules, mapes o conjunts de dades. L'alumne ha de descriure, analitzar i extreure conclusions de les dades presentades.\n\nCom usar-lo per avaluar: es valora si l'alumne identifica correctament les variables, descriu tendències i patrons, interpreta les dades en context i extreu conclusions justificades. Una guia de correcció per etapes (descripció → anàlisi → conclusió) orienta tant la correcció com la realització de la tasca.\n\nÉs una tasca clau en matemàtiques, ciències, geografia, economia i qualsevol àrea que treballi amb dades quantitatives.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_ESC_OBS"
+    ],
+    "rel_dim": [
+      "DIM_PROB"
+    ],
+    "Dimensiones asociadas": "Resolució de problemes",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_PROB": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_ESC_OBS": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala d'observació"
+  },
+  {
+    "Código": "INS_RESUMEN",
+    "Instrumento": "Resum",
+    "Tipo": "Producció escrita",
+    "Descripción breve": "Síntesi de les idees principals.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Comprensió; selecció d'informació; síntesi.",
+    "Complejidad": "Baja/Media",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "resum",
+    "Descripción detallada": "El resum és la síntesi d'un text o contingut, recollint les idees principals de forma breu i amb les pròpies paraules de l'alumne. Implica comprensió, selecció i reformulació.\n\nCom usar-lo per avaluar: es valora si l'alumne identifica les idees principals (no les secundàries o els exemples), si prescindeix de la informació irrellevant, si usa les seves pròpies paraules i si el resum és coherent i ben proporcionat. Una guia de correcció o llista de verificació senzilla és suficient.\n\nÉs una tasca molt accessible per avaluar la comprensió lectora i la capacitat de síntesi en qualsevol etapa i matèria.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_LISTA",
+      "HER_ESC_DESC"
+    ],
+    "rel_dim": [
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal",
+        "HER_ESC_DESC": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Llista de verificació o control; Escala descriptiva"
+  },
+  {
+    "Código": "INS_ESQUEMA",
+    "Instrumento": "Esquema",
+    "Tipo": "Producció visual/escrita",
+    "Descripción breve": "Organització jeràrquica d'informació.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció visual",
+    "Adecuado para": "Estructura; síntesi; jerarquia.",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "esquema",
+    "Descripción detallada": "L'esquema és una representació visual i jerarquitzada de l'estructura d'un contingut, que mostra les relacions entre idees principals, secundàries i detalls mitjançant sagnies, claus, numeració o altres organitzadors visuals.\n\nCom usar-lo per avaluar: es valora si l'alumne identifica correctament la jerarquia d'idees, si l'estructura és coherent, si usa la terminologia adequada i si la representació és clara i completa. Una llista de verificació amb els elements esperats permet una correcció ràpida.\n\nÉs especialment útil per avaluar la comprensió i l'organització del coneixement, així com com a eina d'estudi que l'alumne pot usar i millorar.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_LISTA",
+      "HER_ESC_OBS"
+    ],
+    "rel_dim": [
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal",
+        "HER_ESC_OBS": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Llista de verificació o control; Escala d'observació"
+  },
+  {
+    "Código": "INS_MAP_CONC",
+    "Instrumento": "Mapa conceptual",
+    "Tipo": "Producció visual",
+    "Descripción breve": "Representació de conceptes i relacions.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció visual",
+    "Adecuado para": "Relacions conceptuals; organització del coneixement.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Inicial/Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "mapa conceptual",
+    "Descripción detallada": "El mapa conceptual és una representació gràfica de les relacions entre conceptes, amb nodes (conceptes) i enllaços etiquetats que descriuen el tipus de relació entre ells. Va ser desenvolupat per Novak com a eina d'aprenentatge significatiu.\n\nCom usar-lo per avaluar: es valora la correcció dels conceptes inclosos, l'adequació dels enllaços i les seves etiquetes, la jerarquia (si els més generals estan a dalt) i la presència de relacions creuades entre branques (senyal de comprensió profunda). Una rúbrica o llista de verificació específica per a mapes conceptuals orienta la valoració.\n\nPermete avaluar l'estructura del coneixement d'un alumne: no només si sap els conceptes, sinó com els relaciona entre si.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_DIAG"
+    ],
+    "Dimensiones asociadas": "Finalitat diagnòstica",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_DIAG": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_LISTA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Llista de verificació o control"
+  },
+  {
+    "Código": "INS_MAP_MENT",
+    "Instrumento": "Mapa mental",
+    "Tipo": "Producció visual",
+    "Descripción breve": "Organització radial d'idees.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció visual",
+    "Adecuado para": "Associació; creativitat; síntesi.",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "mapa mental",
+    "Descripción detallada": "El mapa mental és una representació gràfica que parteix d'una idea central i es ramifica cap a idees relacionades, usant colors, imatges i paraules clau. És més lliure i creatiu que el mapa conceptual.\n\nCom usar-lo per avaluar: es valora la riquesa de les associacions, l'organització general, l'ús d'imatges i paraules clau rellevants i la capacitat de relacionar idees de branques diferents. Una rúbrica senzilla amb criteris de contingut i presentació és suficient.\n\nÉs especialment útil per explorar idees prèvies, fer pluja d'idees estructurades, planificar projectes i avaluar la riquesa d'associacions en un tema.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_ESC_OBS",
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal"
+      },
+      "rel_her": {
+        "HER_ESC_OBS": "principal",
+        "HER_LISTA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala d'observació; Llista de verificació o control"
+  },
+  {
+    "Código": "INS_LINEA",
+    "Instrumento": "Línia del temps",
+    "Tipo": "Producció visual",
+    "Descripción breve": "Representació cronològica de fets o processos.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció visual",
+    "Adecuado para": "Seqüència; temporalitat; relacions.",
+    "Complejidad": "Media",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "línia del temps",
+    "Descripción detallada": "La línia del temps és una representació gràfica cronològica de fets, períodes o processos, que permet visualitzar la seqüència temporal i les relacions entre esdeveniments.\n\nCom usar-la per avaluar: es valora la selecció de fets rellevants, la precisió de les dates, la proporcionalitat dels intervals temporals, la inclusió d'informació contextual i la claredat de la presentació. Una llista de verificació o rúbrica senzilla és suficient.\n\nÉs una tasca clau en història, biologia (evolució), literatura (moviments literaris) i qualsevol àrea amb dimensió temporal.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_COMP"
+    ],
+    "Dimensiones asociadas": "Enfocament competencial",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_COMP": "principal"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Llista de verificació o control"
+  },
+  {
+    "Código": "INS_GLOS",
+    "Instrumento": "Glossari",
+    "Tipo": "Producció escrita",
+    "Descripción breve": "Relació de termes i definicions.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Vocabulari; precisió conceptual.",
+    "Complejidad": "Baja/Media",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "glossari",
+    "Descripción detallada": "El glossari és una llista de termes específics d'un tema o matèria, amb la seva definició elaborada pel propi alumne. Va més enllà de copiar definicions: implica comprensió i reformulació.\n\nCom usar-lo per avaluar: es valora si les definicions són precises, si l'alumne fa servir les seves pròpies paraules, si inclou exemples quan és pertinent i si la terminologia és adequada. Una llista de verificació o guia de correcció per terme permet una revisió eficient.\n\nÉs útil com a tasca continuada al llarg d'una unitat i com a eina d'estudi. Permet avaluar la comprensió del vocabulari específic de la matèria.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_LISTA",
+      "HER_GUIA_CORR"
+    ],
+    "rel_dim": [
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal",
+        "HER_GUIA_CORR": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Llista de verificació o control; Guia de correcció"
+  },
+  {
+    "Código": "INS_FICHA_LECT",
+    "Instrumento": "Fitxa de lectura",
+    "Tipo": "Producció escrita",
+    "Descripción breve": "Registre estructurat d'una lectura.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Comprensió; síntesi; valoració.",
+    "Complejidad": "Media",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "lectura",
+    "Descripción detallada": "La fitxa de lectura recull informació estructurada sobre una lectura: identificació del text (autor, títol, gènere), resum, idees principals, opinió personal i valoració crítica. És una activitat de mediació entre la lectura i l'escriptura acadèmica.\n\nCom usar-la per avaluar: es valora la comprensió del text, la capacitat de síntesi, la profunditat del comentari personal i la connexió entre el text i el coneixement previ o el context de l'alumne. Una plantilla estructurada amb criteris clars facilita la correcció.\n\nÉs especialment útil en llengua i literatura, filosofia, ciències socials i qualsevol matèria que incorpori lectura de textos com a font d'aprenentatge.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_LISTA",
+      "HER_ESC_OBS"
+    ],
+    "rel_dim": [
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal",
+        "HER_ESC_OBS": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Llista de verificació o control; Escala d'observació"
+  },
+  {
+    "Código": "INS_RESEÑA",
+    "Instrumento": "Ressenya",
+    "Tipo": "Producció escrita",
+    "Descripción breve": "Text crític breu sobre una obra, recurs o activitat.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Valoració; argumentació; síntesi.",
+    "Complejidad": "Media",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "ressenya",
+    "Descripción detallada": "La ressenya és un text que descriu, analitza i valora críticament una obra (llibre, pel·lícula, exposició, experiment, etc.). Combina descripció objectiva i valoració argumentada.\n\nCom usar-la per avaluar: es valora la descripció precisa de l'objecte ressenyat, la qualitat de l'anàlisi, la solidesa dels arguments valoratius i la coherència del text. Una rúbrica que diferenciï descripció, anàlisi i valoració permet una retroalimentació específica.\n\nÉs una tasca excel·lent per avaluar el pensament crític, l'escriptura argumentativa i la capacitat d'emetre judicis fonamentats. Adequada en llengua, literatura, art i ciències.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_GUIA_CORR"
+    ],
+    "rel_dim": [
+      "DIM_COMP",
+      "DIM_SUM"
+    ],
+    "Dimensiones asociadas": "Enfocament competencial; Finalitat sumativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_COMP": "principal",
+        "DIM_SUM": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_GUIA_CORR": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció"
+  },
+  {
+    "Código": "INS_ART_DIV",
+    "Instrumento": "Article de divulgació",
+    "Tipo": "Producció escrita",
+    "Descripción breve": "Comunicació clara d'informació especialitzada.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Divulgació; rigor; adaptació al destinatari.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "divulgació",
+    "Descripción detallada": "L'article de divulgació és un text que explica un tema científic, històric o cultural de forma accessible per a un públic no especialitzat. Requereix seleccionar, simplificar i comunicar sense perdre rigor.\n\nCom usar-lo per avaluar: es valora l'adequació al públic destinatari (llenguatge clar però rigorós), la selecció d'informació rellevant, l'estructura narrativa i la correcció dels continguts. Una rúbrica específica per a l'escriptura divulgativa orienta tant la producció com la correcció.\n\nDesenvolupa la competència comunicativa escrita, la comprensió profunda de la matèria i la capacitat de traduir coneixement especialitzat. Adequat en ciències, història i llengua.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_ESC_DESC"
+    ],
+    "rel_dim": [
+      "DIM_COMP",
+      "DIM_SUM"
+    ],
+    "Dimensiones asociadas": "Enfocament competencial; Finalitat sumativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_COMP": "principal",
+        "DIM_SUM": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_ESC_DESC": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala descriptiva"
+  },
+  {
+    "Código": "INS_MEM_PROY",
+    "Instrumento": "Memòria de projecte",
+    "Tipo": "Producció escrita",
+    "Descripción breve": "Document que recull la planificació, el procés i els resultats.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Planificació; procés; resultats; avaluació.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "memòria; projecte",
+    "Descripción detallada": "La memòria de projecte és el document escrit que recull tot el procés i el resultat d'un projecte: planificació inicial, desenvolupament, dificultats trobades, solucions adoptades, resultat final i reflexió sobre l'aprenentatge.\n\nCom usar-la per avaluar: es valora tant la qualitat del procés documentat com la del resultat. Una rúbrica que diferenciï seccions (planificació, desenvolupament, producte, reflexió) permet una retroalimentació específica. La reflexió final sobre allò après té un especial valor metacognitiu.\n\nÉs l'evidència avaluable principal en projectes d'aprenentatge-servei, projectes interdisciplinaris i treballs de recerca de Batxillerat.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_CONV",
+      "HER_HOJA_CALC",
+      "HER_HOJA_IND",
+      "HER_MATRIZ_POND"
+    ],
+    "rel_dim": [
+      "DIM_PROY"
+    ],
+    "Dimensiones asociadas": "Treball per projectes",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_PROY": "principal"
+      },
+      "rel_her": {
+        "HER_CONV": "principal",
+        "HER_HOJA_CALC": "complementaria",
+        "HER_HOJA_IND": "complementaria",
+        "HER_MATRIZ_POND": "ocasional"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Conversor de nivells a qualificació; Full de càlcul d'avaluació; Full de seguiment individual; Matriu de ponderació"
+  },
+  {
+    "Código": "INS_PLAN_TRAB",
+    "Instrumento": "Pla de treball",
+    "Tipo": "Procés",
+    "Descripción breve": "Document d'organització de tasques i temps.",
+    "Técnicas asociadas": "Anàlisi de processos i reflexions",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Planificació; organització; responsabilitat.",
+    "Complejidad": "Media",
+    "Fase": "Inicial/Proceso",
+    "Participación": "Docente/Grupo",
+    "Etiquetas": "planificació",
+    "Descripción detallada": "El pla de treball és un document previ a l'inici d'un projecte en el qual l'alumne o l'equip defineix objectius, tasques, responsables, recursos i terminis. Permet avaluar la capacitat de planificació abans d'executar.\n\nCom usar-lo per avaluar: es valora la claredat dels objectius, el realisme dels terminis, la distribució equitativa de tasques i la previsió de dificultats. En acabar el projecte, es pot comparar el pla inicial amb allò que realment va succeir, la qual cosa afegeix valor reflexiu.\n\nÉs una activitat formativa que ajuda l'alumnat a desenvolupar competències d'organització i gestió del temps, fonamentals per a l'autonomia.",
+    "rel_tec": [
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_LISTA",
+      "HER_HOJA_IND"
+    ],
+    "rel_dim": [
+      "DIM_FORM",
+      "DIM_PROY"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa; Treball per projectes",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal",
+        "DIM_PROY": "complementaria"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal",
+        "HER_HOJA_IND": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Llista de verificació o control; Full de seguiment individual"
+  },
+  {
+    "Código": "INS_ACTA",
+    "Instrumento": "Acta de reunió",
+    "Tipo": "Procés",
+    "Descripción breve": "Registre d'acords, tasques i decisions del grup.",
+    "Técnicas asociadas": "Anàlisi de processos i reflexions; Anàlisi documental",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Organització grupal; responsabilitat; acords.",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Grupo",
+    "Etiquetas": "acta",
+    "Descripción detallada": "L'acta de reunió és el registre escrit del que va succeir en una reunió del grup: qui hi va assistir, què es va debatre, quins acords es van prendre i quines tasques es van assignar. És una evidència habitual en treball cooperatiu i projectes grupals.\n\nCom usar-la per avaluar: el docent pot revisar les actes per comprovar que el grup funciona de forma organitzada, que els rols roten, que els acords es compleixen i que la reflexió sobre el treball és genuïna. També es pot usar com a evidència de procés.\n\nDesenvolupa habilitats de comunicació formal, organització i responsabilitat compartida. És especialment útil en projectes de llarga durada.",
+    "rel_tec": [
+      "TEC_PROC_REFLEX",
+      "TEC_ANAL_DOC"
+    ],
+    "rel_her": [
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_COEV"
+    ],
+    "Dimensiones asociadas": "Coavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal",
+        "TEC_ANAL_DOC": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_COEV": "principal"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Llista de verificació o control"
+  },
+  {
+    "Código": "INS_CONTRATO",
+    "Instrumento": "Contracte d'aprenentatge",
+    "Tipo": "Autoavaluació",
+    "Descripción breve": "Acord d'objectius i compromisos personals.",
+    "Técnicas asociadas": "Anàlisi de processos i reflexions",
+    "Evidencia": "Document reflexiu",
+    "Adecuado para": "Autonomia; compromís; metes.",
+    "Complejidad": "Media",
+    "Fase": "Inicial/Proceso",
+    "Participación": "Alumno",
+    "Etiquetas": "contracte aprenentatge",
+    "Descripción detallada": "El contracte d'aprenentatge és un acord negociat entre el docent i l'alumne sobre què aprendrà, com ho demostrarà, en quins terminis i amb quins criteris serà avaluat. Personalitza el procés d'aprenentatge.\n\nCom usar-lo per avaluar: el contracte defineix els criteris i les evidències d'avaluació des de l'inici. L'alumne sap exactament què ha d'assolir i com ho demostrarà. Al final del període, es revisa conjuntament si s'han complert els compromisos acordats.\n\nAfavoreix l'autonomia, la motivació intrínseca i la responsabilitat. És especialment útil amb alumnat amb necessitats específiques, alumnat avançat o en situacions de recuperació.",
+    "rel_tec": [
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_REG_COMP"
+    ],
+    "rel_dim": [
+      "DIM_AUTO",
+      "DIM_FORM",
+      "DIM_COMPART"
+    ],
+    "Dimensiones asociadas": "Autoavaluació; Finalitat formativa; Avaluació compartida i participativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal"
+      },
+      "rel_dim": {
+        "DIM_AUTO": "principal",
+        "DIM_FORM": "complementaria",
+        "DIM_COMPART": "complementaria"
+      },
+      "rel_her": {
+        "HER_REG_COMP": "principal"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Registre de compromisos de millora"
+  },
+  {
+    "Código": "INS_F_REFLEX",
+    "Instrumento": "Fitxa de reflexió",
+    "Tipo": "Autoavaluació",
+    "Descripción breve": "Document breu per analitzar l'aprenentatge i les millores.",
+    "Técnicas asociadas": "Anàlisi de processos i reflexions",
+    "Evidencia": "Reflexió escrita",
+    "Adecuado para": "Metacognició; dificultats; propostes.",
+    "Complejidad": "Baja/Media",
+    "Fase": "Proceso/Final",
+    "Participación": "Alumno",
+    "Etiquetas": "reflexió",
+    "Descripción detallada": "La fitxa de reflexió és un document breu on l'alumne respon a preguntes metacognitives sobre el seu procés d'aprenentatge: què va aprendre, com ho va aprendre, què li va costar, què canviaria i què vol saber més.\n\nCom usar-la per avaluar: es valora la profunditat de la reflexió, la capacitat d'identificar dificultats pròpies i la connexió entre l'aprenentatge i l'experiència personal. No s'ha de valorar si les respostes són «correctes», sinó si són honestes i reflexives.\n\nÉs una activitat de tancament molt eficaç per a sessions, unitats o projectes. Converteix l'avaluació en un moment d'aprenentatge sobre el propi aprenentatge.",
+    "rel_tec": [
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_DIANA",
+      "HER_ESC_OBS",
+      "HER_ESC_VERB",
+      "HER_FICHA_RETRO"
+    ],
+    "rel_dim": [
+      "DIM_AUTO",
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Autoavaluació; Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal"
+      },
+      "rel_dim": {
+        "DIM_AUTO": "principal",
+        "DIM_FORM": "complementaria"
+      },
+      "rel_her": {
+        "HER_DIANA": "principal",
+        "HER_ESC_OBS": "complementaria",
+        "HER_ESC_VERB": "complementaria",
+        "HER_FICHA_RETRO": "ocasional"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Diana d'avaluació; Escala d'observació; Escala verbal; Fitxa de retroalimentació"
+  },
+  {
+    "Código": "INS_AUTOINF",
+    "Instrumento": "Autoinforme",
+    "Tipo": "Autoavaluació",
+    "Descripción breve": "Text on l'alumnat descriu i justifica el seu rendiment.",
+    "Técnicas asociadas": "Anàlisi de processos i reflexions",
+    "Evidencia": "Reflexió escrita",
+    "Adecuado para": "Autoregulació; argumentació sobre el propi treball.",
+    "Complejidad": "Media",
+    "Fase": "Final",
+    "Participación": "Alumno",
+    "Etiquetas": "autoinforme",
+    "Descripción detallada": "L'autoinforme és un document més extens que la fitxa de reflexió, on l'alumne descriu i valora el seu propi procés d'aprenentatge durant un període: què va fer, com va evolucionar, què va assolir, què li va faltar i què va aprendre sobre ell mateix com a aprenent.\n\nCom usar-lo per avaluar: es valora l'honestedat, la profunditat, la capacitat d'identificar patrons propis i la connexió entre la reflexió i les evidències del portafolis. Pot complementar la qualificació del docent en l'avaluació sumativa.\n\nÉs una evidència d'alt valor metacognitiu, especialment en portafolis, projectes de llarga durada i avaluació per competències.",
+    "rel_tec": [
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_RUB_AUTO",
+      "HER_ESC_OBS"
+    ],
+    "rel_dim": [
+      "DIM_AUTO",
+      "DIM_SUM"
+    ],
+    "Dimensiones asociadas": "Autoavaluació; Finalitat sumativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal"
+      },
+      "rel_dim": {
+        "DIM_AUTO": "principal",
+        "DIM_SUM": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_AUTO": "principal",
+        "HER_ESC_OBS": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica d'autoavaluació; Escala d'observació"
+  },
+  {
+    "Código": "INS_PROB",
+    "Instrumento": "Resolució de problemes",
+    "Tipo": "Prova/desempenyi",
+    "Descripción breve": "Situacions que requereixen anàlisi, procediment i justificació.",
+    "Técnicas asociadas": "Proves específiques",
+    "Evidencia": "Resposta escrita/procedimental",
+    "Adecuado para": "Raonament; transferència; aplicació.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "problemes",
+    "Descripción detallada": "La resolució de problemes com a evidència avaluable consisteix a presentar a l'alumne una situació problemàtica real o contextualitzada que ha d'analitzar, planificar, resoldre i justificar. Va més enllà de l'exercici mecànic: requereix raonament i aplicació.\n\nCom usar-la per avaluar: es valora el procés complet (comprensió del problema, planificació, execució, verificació) a més del resultat. Demanar a l'alumne que expliqui el seu raonament (per escrit o verbalment) afegeix informació sobre el seu pensament. Una guia de correcció per etapes és l'eina més adequada.\n\nÉs l'evidència central de l'avaluació competencial en matemàtiques, física, química, tecnologia i economia.",
+    "rel_tec": [
+      "TEC_PRUEBA"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_RUB_COMP"
+    ],
+    "rel_dim": [
+      "DIM_PROB"
+    ],
+    "Dimensiones asociadas": "Resolució de problemes",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal"
+      },
+      "rel_dim": {
+        "DIM_PROB": "principal"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "principal",
+        "HER_RUB_COMP": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Rúbrica competencial"
+  },
+  {
+    "Código": "INS_CASO",
+    "Instrumento": "Estudi de cas",
+    "Tipo": "Prova/desempenyi",
+    "Descripción breve": "Anàlisi d'una situació real o simulada.",
+    "Técnicas asociadas": "Proves específiques; Anàlisi de produccions",
+    "Evidencia": "Producció escrita/oral",
+    "Adecuado para": "Diagnòstic; decisions; justificació.",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "cas",
+    "Descripción detallada": "L'estudi de cas presenta una situació real o versemblant que l'alumne ha d'analitzar, diagnosticar i interpretar, proposant solucions o conclusions fonamentades. Aplica coneixements a un context concret.\n\nCom usar-lo per avaluar: es valora la comprensió de la situació, la identificació de variables rellevants, la qualitat de l'anàlisi i la coherència de les conclusions o propostes. Una guia d'anàlisi estructurada (què passa?, per què?, què faries?) orienta tant l'alumne com l'avaluador.\n\nÉs especialment adequat en ciències de la salut, ciències socials, dret, història, economia i FP, on aplicar coneixements a situacions reals és l'objectiu central.",
+    "rel_tec": [
+      "TEC_PRUEBA",
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_GUIA_CORR",
+      "HER_RUB_COMP"
+    ],
+    "rel_dim": [
+      "DIM_CASO",
+      "DIM_COMP"
+    ],
+    "Dimensiones asociadas": "Estudi de casos; Enfocament competencial",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal",
+        "TEC_PROD": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_CASO": "principal",
+        "DIM_COMP": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_GUIA_CORR": "complementaria",
+        "HER_RUB_COMP": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció; Rúbrica competencial"
+  },
+  {
+    "Código": "INS_PR_DES",
+    "Instrumento": "Prova escrita de desenvolupament",
+    "Tipo": "Prova",
+    "Descripción breve": "Preguntes obertes d'explicació o argumentació.",
+    "Técnicas asociadas": "Proves específiques",
+    "Evidencia": "Resposta escrita",
+    "Adecuado para": "Comprensió; desenvolupament; argumentació.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "prova desenvolupament",
+    "Descripción detallada": "La prova escrita de desenvolupament consisteix en preguntes o tasques que l'alumne respon amb text propi, elaborant arguments, explicacions, anàlisis o síntesis. Va més enllà de la memorització: requereix organització, raonament i expressió escrita.\n\nCom usar-la per avaluar: es valora amb una guia de correcció o rúbrica que especifiqui quins continguts ha d'incloure cada resposta i amb quina profunditat. Compartir els criteris abans de la prova redueix l'ansietat i orienta l'estudi de l'alumne.\n\nPermete avaluar la comprensió profunda, la capacitat de síntesi i l'escriptura acadèmica. Especialment útil en humanitats, ciències socials i ciències quan es vol anar més enllà de la resposta objectiva.",
+    "rel_tec": [
+      "TEC_PRUEBA"
+    ],
+    "rel_her": [
+      "HER_BAREMO",
+      "HER_ESC_NUM",
+      "HER_GUIA_CORR",
+      "HER_MATRIZ_POND",
+      "HER_RUB_ANA"
+    ],
+    "rel_dim": [
+      "DIM_SUM",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Finalitat sumativa; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal"
+      },
+      "rel_dim": {
+        "DIM_SUM": "principal",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_BAREMO": "principal",
+        "HER_ESC_NUM": "complementaria",
+        "HER_GUIA_CORR": "complementaria",
+        "HER_MATRIZ_POND": "ocasional",
+        "HER_RUB_ANA": "ocasional"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Barem; Escala numèrica; Guia de correcció; Matriu de ponderació; Rúbrica analítica"
+  },
+  {
+    "Código": "INS_PR_OBJ",
+    "Instrumento": "Prova objectiva",
+    "Tipo": "Prova",
+    "Descripción breve": "Qüestions tancades o molt delimitades.",
+    "Técnicas asociadas": "Proves específiques",
+    "Evidencia": "Resposta tancada",
+    "Adecuado para": "Coneixements; reconeixement; aplicació breu.",
+    "Complejidad": "Baja/Media",
+    "Fase": "Inicial/Final",
+    "Participación": "Docente",
+    "Etiquetas": "prova objectiva",
+    "Descripción detallada": "La prova objectiva inclou ítems amb una resposta correcta verificable o criteris de correcció molt tancats: vertader/fals, emparellament, completar espais en blanc, ordenar elements o selecció múltiple. La correcció és mecànica o molt pautada i redueix la dependència del judici de l'avaluador.\n\nCom usar-la per avaluar: es dissenya amb ítems clars i sense ambigüitat, alineats amb els continguts i criteris treballats. S'estableix el barem (puntuació per encert, penalització per error si n'hi ha). L'automatització de la correcció permet obtenir resultats ràpidament.\n\nÉs eficient per comprovar coneixements declaratius i algunes aplicacions o anàlisis breus si els ítems estan ben dissenyats. La seva limitació és que, usada sola, resulta insuficient per valorar el raonament complex, el rendiment o les competències àmplies.",
+    "rel_tec": [
+      "TEC_PRUEBA"
+    ],
+    "rel_her": [
+      "HER_BAREMO",
+      "HER_ESC_NUM",
+      "HER_HOJA_CALC",
+      "HER_PLANT_CORR"
+    ],
+    "rel_dim": [
+      "DIM_SUM",
+      "DIM_DIAG",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Finalitat sumativa; Finalitat diagnòstica; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal"
+      },
+      "rel_dim": {
+        "DIM_SUM": "principal",
+        "DIM_DIAG": "complementaria",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_BAREMO": "principal",
+        "HER_ESC_NUM": "complementaria",
+        "HER_HOJA_CALC": "complementaria",
+        "HER_PLANT_CORR": "ocasional"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Barem; Escala numèrica; Full de càlcul d'avaluació; Plantilla de correcció"
+  },
+  {
+    "Código": "INS_TEST",
+    "Instrumento": "Prova tipus test",
+    "Tipo": "Prova",
+    "Descripción breve": "Qüestionari amb opcions de resposta.",
+    "Técnicas asociadas": "Proves específiques; Sondeig i questionament",
+    "Evidencia": "Resposta tancada",
+    "Adecuado para": "Conceptes; comprensió; repàs.",
+    "Complejidad": "Baja/Media",
+    "Fase": "Inicial/Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "test",
+    "Descripción detallada": "La prova tipus test presenta ítems d'opció múltiple amb una resposta correcta i diversos distractors (opcions incorrectes plausibles). És un subtipus de prova objectiva molt estès.\n\nCom usar-la per avaluar: els distractors han de ser plausibles però clarament incorrectes per a qui ha après el contingut. Cal evitar respostes com «totes les anteriors» o «cap de les anteriors», que faciliten l'encert per eliminació. El barem ha d'especificar si hi ha penalització per error per desincentivar les respostes a l'atzar.\n\nÉs molt eficient per avaluar grans quantitats de contingut en poc temps, però no ha de ser l'única evidència d'avaluació.",
+    "rel_tec": [
+      "TEC_PRUEBA",
+      "TEC_SONDEO"
+    ],
+    "rel_her": [
+      "HER_BAREMO",
+      "HER_ESC_NUM"
+    ],
+    "rel_dim": [
+      "DIM_SUM",
+      "DIM_DIAG",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Finalitat sumativa; Finalitat diagnòstica; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal",
+        "TEC_SONDEO": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_SUM": "principal",
+        "DIM_DIAG": "complementaria",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_BAREMO": "principal",
+        "HER_ESC_NUM": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Barem; Escala numèrica"
+  },
+  {
+    "Código": "INS_RESP_CORTA",
+    "Instrumento": "Prova de resposta curta",
+    "Tipo": "Prova",
+    "Descripción breve": "Preguntes breus amb respostes delimitades.",
+    "Técnicas asociadas": "Proves específiques; Sondeig i questionament",
+    "Evidencia": "Resposta escrita breu",
+    "Adecuado para": "Precisió conceptual; càlcul; identificació.",
+    "Complejidad": "Baja/Media",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "resposta curta",
+    "Descripción detallada": "La prova de resposta curta demana a l'alumne que respongui amb una frase, un terme o un càlcul breu. No és d'opció múltiple (cal construir la resposta) però tampoc requereix un desenvolupament extens.\n\nCom usar-la per avaluar: es valora la precisió i la correcció de la resposta. La guia de correcció ha d'incloure les respostes acceptables i possibles variants equivalents. És més exigent que el test perquè l'alumne no es pot guiar per les opcions.\n\nEquilibra l'eficiència de la prova objectiva amb la necessitat que l'alumne construeixi la seva resposta. Adequada per a vocabulari, definicions, fórmules, dates i conceptes clau.",
+    "rel_tec": [
+      "TEC_PRUEBA",
+      "TEC_SONDEO"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_BAREMO"
+    ],
+    "rel_dim": [
+      "DIM_FORM",
+      "DIM_DIAG",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa; Finalitat diagnòstica; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal",
+        "TEC_SONDEO": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal",
+        "DIM_DIAG": "complementaria",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "principal",
+        "HER_BAREMO": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Barem"
+  },
+  {
+    "Código": "INS_PR_ORAL",
+    "Instrumento": "Prova oral",
+    "Tipo": "Prova oral",
+    "Descripción breve": "Avaluació mitjançant preguntes o tasques orals.",
+    "Técnicas asociadas": "Proves específiques; Intercanvis orals",
+    "Evidencia": "Resposta oral",
+    "Adecuado para": "Comprensió; expressió; raonament.",
+    "Complejidad": "Media",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "prova oral",
+    "Descripción detallada": "La prova oral és una avaluació en la qual l'alumne respon verbalment a preguntes del docent sobre un tema o conjunt de continguts, demostrant la seva comprensió i capacitat d'expressió.\n\nCom usar-la per avaluar: el docent prepara un banc de preguntes de diferent dificultat i registra les respostes amb una rúbrica oral o guia de correcció. Pot incloure preguntes de seguiment per explorar el raonament. Si el grup és gran, es pot fer per parelles amb coavaluació.\n\nPermete valorar la comprensió real (no memorització de text) i l'expressió oral. És especialment útil amb alumnat amb dificultats d'escriptura i en idiomes.",
+    "rel_tec": [
+      "TEC_PRUEBA",
+      "TEC_ORAL"
+    ],
+    "rel_her": [
+      "HER_ACTA",
+      "HER_RUB_ORAL"
+    ],
+    "rel_dim": [
+      "DIM_SUM",
+      "DIM_DESEMP",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Finalitat sumativa; Evidència de rendiment; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "complementaria",
+        "TEC_ORAL": "principal"
+      },
+      "rel_dim": {
+        "DIM_SUM": "principal",
+        "DIM_DESEMP": "complementaria",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_ACTA": "principal",
+        "HER_RUB_ORAL": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Acta d'avaluació; Rúbrica oral"
+  },
+  {
+    "Código": "INS_PR_PRACT",
+    "Instrumento": "Prova pràctica",
+    "Tipo": "Prova pràctica",
+    "Descripción breve": "Execució d'un procediment o tasca aplicada.",
+    "Técnicas asociadas": "Proves específiques",
+    "Evidencia": "Actuació pràctica",
+    "Adecuado para": "Destresa; aplicació; procediment.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "prova pràctica",
+    "Descripción detallada": "La prova pràctica és una avaluació en la qual l'alumne demostra una habilitat, un procediment o una competència executant-la en temps real: dissecció, anàlisi de mostra, construcció d'un circuit, interpretació musical, reparació d'un dispositiu.\n\nCom usar-la per avaluar: el docent observa l'execució amb una llista de verificació de procés o rúbrica de rendiment. Si el producte és valorable (resultat de l'anàlisi, circuit en funcionament), es pot afegir una valoració del resultat final.\n\nÉs la tasca més adequada per avaluar el saber fer: procediments tècnics, habilitats artístiques, pràctiques de laboratori i competències professionals en FP.",
+    "rel_tec": [
+      "TEC_PRUEBA"
+    ],
+    "rel_her": [
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_DESEMP",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Evidència de rendiment; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal"
+      },
+      "rel_dim": {
+        "DIM_DESEMP": "principal",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Llista de verificació o control"
+  },
+  {
+    "Código": "INS_PR_COMP",
+    "Instrumento": "Prova competencial contextualitzada",
+    "Tipo": "Prova competencial",
+    "Descripción breve": "Tasca avaluativa en context real o versemblant.",
+    "Técnicas asociadas": "Proves específiques; Triangulació d'evidències",
+    "Evidencia": "Resposta aplicada",
+    "Adecuado para": "Transferència; integració; raonament.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "competencial",
+    "Descripción detallada": "La prova competencial contextualitzada és una prova escrita o oral que presenta situacions reals o versemblants i demana a l'alumne que apliqui els seus coneixements per analitzar-les, interpretar-les o resoldre-les. És la forma de prova més alineada amb l'avaluació competencial.\n\nCom usar-la per avaluar: cada tasca de la prova està associada a un criteri d'avaluació i a una competència específica. Es valora amb rúbriques o guies de correcció que contemplen el raonament i l'aplicació, no només el resultat correcte.\n\nÉs l'evidència que millor articula la qualificació amb l'avaluació per criteris i competències exigida pel marc curricular actual.",
+    "rel_tec": [
+      "TEC_PRUEBA",
+      "TEC_TRIANG"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_RUB_COMP",
+      "HER_TAB_CRIT"
+    ],
+    "rel_dim": [
+      "DIM_COMP",
+      "DIM_HET",
+      "DIM_CAL_ACRED"
+    ],
+    "Dimensiones asociadas": "Enfocament competencial; Heteroavaluació; Qualificació i acreditació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal",
+        "TEC_TRIANG": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_COMP": "principal",
+        "DIM_HET": "complementaria",
+        "DIM_CAL_ACRED": "principal"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "principal",
+        "HER_RUB_COMP": "complementaria",
+        "HER_TAB_CRIT": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Rúbrica competencial; Taula de qualificació per criteris"
+  },
+  {
+    "Código": "INS_DOCS",
+    "Instrumento": "Prova amb documents",
+    "Tipo": "Prova",
+    "Descripción breve": "Prova que inclou textos, gràfics, mapes o fonts.",
+    "Técnicas asociadas": "Proves específiques; Anàlisi de produccions",
+    "Evidencia": "Resposta escrita",
+    "Adecuado para": "Interpretació; aplicació; anàlisi de fonts.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "documents",
+    "Descripción detallada": "La prova amb documents presenta textos, gràfics, mapes, imatges o altres materials que l'alumne ha d'analitzar, interpretar i utilitzar per respondre les preguntes. Avalua la capacitat de treballar amb fonts, no només de memoritzar informació.\n\nCom usar-la per avaluar: es valora la comprensió dels documents, la capacitat d'extreure informació rellevant, la contextualització i la síntesi crítica. Una guia de correcció que especifiqui què s'espera en cada pregunta assegura la coherència.\n\nÉs el format de prova més habitual en història, geografia, ciències socials i llengua, i és la base de les proves de selectivitat en moltes matèries.",
+    "rel_tec": [
+      "TEC_PRUEBA",
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_RUB_ANA"
+    ],
+    "rel_dim": [
+      "DIM_COMP",
+      "DIM_SUM",
+      "DIM_HET"
+    ],
+    "Dimensiones asociadas": "Enfocament competencial; Finalitat sumativa; Heteroavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal",
+        "TEC_PROD": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_COMP": "principal",
+        "DIM_SUM": "complementaria",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "principal",
+        "HER_RUB_ANA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Rúbrica analítica"
+  },
+  {
+    "Código": "INS_CUEST_DIG",
+    "Instrumento": "Qüestionari digital",
+    "Tipo": "Digital/prova",
+    "Descripción breve": "Formulari o qüestionari realitzat en línia.",
+    "Técnicas asociadas": "Proves específiques; Sondeig i questionament; Enquesta i qüestionari",
+    "Evidencia": "Resposta digital",
+    "Adecuado para": "Diagnòstic; repàs; comprovació.",
+    "Complejidad": "Baja/Media",
+    "Fase": "Inicial/Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "digital; qüestionari",
+    "Descripción detallada": "El qüestionari digital és un formulari en línia (Google Forms, Microsoft Forms, Socrative, Kahoot, etc.) amb preguntes tancades o obertes que l'alumne respon des d'un dispositiu. Permet la correcció automàtica i la recollida instantània de dades.\n\nCom usar-lo per avaluar: es configura amb les preguntes i, en el cas de respostes tancades, les respostes correctes. El sistema corregeix automàticament i genera estadístiques de grup. Les preguntes obertes requereixen revisió manual. Es pot usar com a diagnòstic, tiquet de sortida o avaluació sumativa.\n\nEstalvia temps de correcció, permet una retroalimentació immediata i facilita l'anàlisi dels resultats del grup per ajustar l'ensenyament.",
+    "rel_tec": [
+      "TEC_PRUEBA",
+      "TEC_SONDEO",
+      "TEC_ENC_CUEST"
+    ],
+    "rel_her": [
+      "HER_FORM_DIG",
+      "HER_ANALITICAS"
+    ],
+    "rel_dim": [
+      "DIM_DIG"
+    ],
+    "Dimensiones asociadas": "Evidències digitals",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal",
+        "TEC_SONDEO": "complementaria",
+        "TEC_ENC_CUEST": "principal"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal"
+      },
+      "rel_her": {
+        "HER_FORM_DIG": "principal",
+        "HER_ANALITICAS": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Formulari digital; Analítiques d'aprenentatge"
+  },
+  {
+    "Código": "INS_INFOG",
+    "Instrumento": "Infografia",
+    "Tipo": "Producció visual",
+    "Descripción breve": "Síntesi visual d'informació mitjançant text i imatge.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producte visual",
+    "Adecuado para": "Síntesi; comunicació; disseny; rigor.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "infografia",
+    "Descripción detallada": "La infografia combina text i imatges per comunicar informació de forma visual, clara i sintètica sobre un tema. L'alumne ha de seleccionar la informació rellevant, jerarquitzar-la i dissenyar una presentació visualment efectiva.\n\nCom usar-la per avaluar: es valora la selecció i precisió de la informació, la jerarquia visual, la llegibilitat, l'adequació al destinatari i l'ús de recursos gràfics. Una rúbrica que diferenciï contingut i disseny permet una retroalimentació específica.\n\nDesenvolupa la competència comunicativa visual, la capacitat de síntesi i la creativitat. Permet avaluar la comprensió de continguts d'una forma diferent a l'escriptura lineal.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_COMP",
+      "DIM_DIG"
+    ],
+    "Dimensiones asociadas": "Enfocament competencial; Evidències digitals",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_COMP": "principal",
+        "DIM_DIG": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_LISTA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Llista de verificació o control"
+  },
+  {
+    "Código": "INS_POSTER",
+    "Instrumento": "Pòster acadèmic",
+    "Tipo": "Producció visual",
+    "Descripción breve": "Presentació visual estructurada d'una recerca o projecte.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producte visual/oral",
+    "Adecuado para": "Comunicació científica; síntesi; disseny.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "pòster",
+    "Descripción detallada": "El pòster acadèmic és una producció visual que presenta els resultats d'un treball o recerca de forma sintètica: pregunta, metodologia, resultats i conclusions. S'usa habitualment en congressos científics i es pot traslladar a l'aula.\n\nCom usar-lo per avaluar: es valora la selecció d'informació, la jerarquia visual, la precisió del contingut i la claredat del disseny. Si s'acompanya d'una defensa oral, es pot valorar també la capacitat d'explicar i respondre preguntes.\n\nÉs especialment adequat en ciències, tecnologia i projectes de recerca. Combina la competència comunicativa visual i el domini del contingut.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_ESC_OBS"
+    ],
+    "rel_dim": [
+      "DIM_COMP"
+    ],
+    "Dimensiones asociadas": "Enfocament competencial",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_COMP": "principal"
+      },
+      "rel_her": {
+        "HER_ESC_OBS": "principal"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala d'observació"
+  },
+  {
+    "Código": "INS_PRESENT_DIG",
+    "Instrumento": "Presentació digital",
+    "Tipo": "Producció digital",
+    "Descripción breve": "Diapositives o altre suport per comunicar informació.",
+    "Técnicas asociadas": "Anàlisi de produccions; Intercanvis orals",
+    "Evidencia": "Producte digital",
+    "Adecuado para": "Estructura; claredat; suport visual.",
+    "Complejidad": "Media",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "presentació digital",
+    "Descripción detallada": "La presentació digital (PowerPoint, Google Slides, Canva, Prezi, etc.) és un suport visual per a una exposició oral. L'alumne l'ha de dissenyar de manera que doni suport al seu discurs sense substituir-lo.\n\nCom usar-la per avaluar: convé valorar per separat el disseny de la presentació (organització, llegibilitat, ús d'imatges) i la qualitat de l'exposició oral que l'acompanya. Una rúbrica que contempli les dues dimensions evita confondre una presentació visualment atractiva amb un discurs de qualitat.\n\nÉs una tasca molt habitual però que requereix orientació explícita sobre què fa bona una presentació (text mínim, imatges rellevants, llegibilitat).",
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_ORAL"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_DIG",
+      "DIM_DESEMP"
+    ],
+    "Dimensiones asociadas": "Evidències digitals; Evidència de rendiment",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal",
+        "TEC_ORAL": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal",
+        "DIM_DESEMP": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_LISTA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Llista de verificació o control"
+  },
+  {
+    "Código": "INS_VIDEO",
+    "Instrumento": "Vídeo",
+    "Tipo": "Producció audiovisual",
+    "Descripción breve": "Producte audiovisual amb guió i edició.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producte audiovisual",
+    "Adecuado para": "Comunicació; contingut; guió; edició.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "vídeo",
+    "Descripción detallada": "El vídeo és una producció audiovisual creada per l'alumne (documental, reportatge, tutorial, curtmetratge, etc.) que integra imatge, so, guió i edició. Pot ser individual o grupal.\n\nCom usar-lo per avaluar: es valoren per separat el contingut (precisió, profunditat, selecció d'informació) i la producció (imatge, so, edició, guió). Una rúbrica analítica amb criteris diferenciats permet una retroalimentació específica en cada dimensió.\n\nDesenvolupa la competència digital, la comunicació audiovisual i la creativitat. És especialment motivador per a l'alumnat que té dificultats amb l'escriptura.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_PROD",
+      "HER_ESC_VAL"
+    ],
+    "rel_dim": [
+      "DIM_DIG"
+    ],
+    "Dimensiones asociadas": "Evidències digitals",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_PROD": "principal",
+        "HER_ESC_VAL": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica de producte; Escala de valoració"
+  },
+  {
+    "Código": "INS_TUTORIAL",
+    "Instrumento": "Videotutorial",
+    "Tipo": "Producció audiovisual",
+    "Descripción breve": "Vídeo que explica un procediment o concepte pas a pas.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producte audiovisual",
+    "Adecuado para": "Explicació; seqüència; precisió; claredat.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "videotutorial",
+    "Descripción detallada": "El videotutorial és un vídeo en el qual l'alumne explica pas a pas com fer alguna cosa: resoldre un problema matemàtic, usar una eina, realitzar un procediment de laboratori, etc. Requereix dominar el contingut per poder explicar-lo.\n\nCom usar-lo per avaluar: es valora la claredat i la precisió de l'explicació, l'ordre lògic dels passos, la correcció del contingut i la qualitat de la producció. Si l'alumne pot explicar alguna cosa de manera que un altre ho entengui, demostra comprensió profunda.\n\nÉs una excel·lent evidència per avaluar la comprensió procedimental i la capacitat de comunicar coneixement. L'ensenyament entre iguals (peer teaching) té un alt valor d'aprenentatge.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_DESEMP"
+    ],
+    "Dimensiones asociadas": "Evidència de rendiment",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_DESEMP": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_LISTA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Llista de verificació o control"
+  },
+  {
+    "Código": "INS_PODCAST",
+    "Instrumento": "Podcast",
+    "Tipo": "Producció oral/digital",
+    "Descripción breve": "Producció sonora amb guió i comunicació oral.",
+    "Técnicas asociadas": "Intercanvis orals; Anàlisi de produccions",
+    "Evidencia": "Producte oral digital",
+    "Adecuado para": "Guió; comunicació; contingut; edició.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "podcast",
+    "Descripción detallada": "El podcast és una producció d'àudio (entrevista, reportatge, debat, programa informatiu) creada per l'alumne, que requereix guionització, locució, edició i publicació o lliurament.\n\nCom usar-lo per avaluar: es valora la qualitat del guió (selecció d'informació, estructura, rigor), l'expressió oral (claredat, ritme, vocabulari) i la producció tècnica (so, edició). Una rúbrica analítica amb aquestes tres dimensions és adequada.\n\nAfavoreix l'expressió oral en un format diferent al de l'exposició presencial, la qual cosa pot resultar més còmoda per a alguns alumnes. Desenvolupa la competència comunicativa i digital.",
+    "rel_tec": [
+      "TEC_ORAL",
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ORAL",
+      "HER_ESC_VAL"
+    ],
+    "rel_dim": [
+      "DIM_DIG"
+    ],
+    "Dimensiones asociadas": "Evidències digitals",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ORAL": "principal",
+        "TEC_PROD": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ORAL": "principal",
+        "HER_ESC_VAL": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica oral; Escala de valoració"
+  },
+  {
+    "Código": "INS_COMIC",
+    "Instrumento": "Còmic",
+    "Tipo": "Producció visual",
+    "Descripción breve": "Narració gràfica amb text i imatge.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producto visual",
+    "Adecuado para": "Comprensió; síntesi; creativitat; seqüència.",
+    "Complejidad": "Media",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "comic",
+    "Descripción detallada": "El còmic és una narració seqüencial que combina imatges i text per explicar una història o un procés. L'alumne ha de planificar la seqüència, dissenyar els personatges i redactar els diàlegs o textos.\n\nCom usar-lo per avaluar: es valora l'adequació del contingut al tema, la coherència narrativa, la qualitat dels diàlegs i la creativitat del disseny. Una rúbrica que diferenciï contingut i format permet una retroalimentació específica.\n\nÉs especialment útil en llengua i literatura, història, ciències i educació artística. Permet avaluar la comprensió de continguts d'una manera creativa i accessible.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_ESC_OBS"
+    ],
+    "rel_dim": [
+      "DIM_COMP"
+    ],
+    "Dimensiones asociadas": "Enfocament competencial",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_COMP": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_ESC_OBS": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala d'observació"
+  },
+  {
+    "Código": "INS_MAQUETA",
+    "Instrumento": "Maqueta",
+    "Tipo": "Producció material",
+    "Descripción breve": "Model físic d'estructura, sistema o procés.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producto físico",
+    "Adecuado para": "Representació; disseny; rigor; comunicació.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "maqueta",
+    "Descripción detallada": "La maqueta és una representació tridimensional a escala d'un objecte, espai, estructura o sistema. Requereix planificació, disseny, construcció i justificació de les decisions preses.\n\nCom usar-la per avaluar: es valoren la fidelitat al referent representat, la qualitat de la construcció, l'ús adequat dels materials i la precisió de les proporcions. Si s'acompanya d'una explicació oral o escrita, es pot valorar també la comprensió del model.\n\nÉs especialment útil en tecnologia, arquitectura, geografia, història i ciències naturals per fer visible allò que només es descriu en text.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_DESEMP"
+    ],
+    "Dimensiones asociadas": "Evidència de desempenyi",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_DESEMP": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_LISTA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Llista de verificació"
+  },
+  {
+    "Código": "INS_MODELO_DIG",
+    "Instrumento": "Model digital",
+    "Tipo": "Producció digital",
+    "Descripción breve": "Representació digital d'un fenomen, estructura o sistema.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producto digital",
+    "Adecuado para": "Modelització; precisió; explicació.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "model digital",
+    "Descripción detallada": "El model digital és una representació virtual (3D, simulació, diagrama interactiu) creada amb eines digitals (Tinkercad, SketchUp, GeoGebra, etc.) que mostra la comprensió d'un sistema, estructura o procés.\n\nCom usar-lo per avaluar: es valora la precisió del model respecte al referent real, la qualitat tècnica de la construcció digital i la capacitat d'explicar què representa i per què es van prendre certes decisions de disseny.\n\nDesenvolupa la competència digital i el pensament espacial. És especialment adequat en tecnologia, disseny, matemàtiques i ciències experimentals.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_ESC_OBS"
+    ],
+    "rel_dim": [
+      "DIM_DIG"
+    ],
+    "Dimensiones asociadas": "Evidències digitals",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_ESC_OBS": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala d'observació"
+  },
+  {
+    "Código": "INS_PROTOTIPO",
+    "Instrumento": "Prototip",
+    "Tipo": "Producció material/digital",
+    "Descripción breve": "Versió inicial o funcional d'una solució.",
+    "Técnicas asociadas": "Anàlisi de produccions; Observació sistemàtica",
+    "Evidencia": "Producto aplicado",
+    "Adecuado para": "Disseny; funcionalitat; millora; creativitat.",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "prototip",
+    "Descripción detallada": "El prototip és una versió funcional (tot i que incompleta o simplificada) d'un producte, dispositiu o solució dissenyada per provar-ne la viabilitat i obtenir retroalimentació abans del producte final.\n\nCom usar-lo per avaluar: es valora la funcionalitat (compleix la seva funció?), l'adequació als requisits, la qualitat del disseny i la reflexió sobre allò que funciona i allò que caldria millorar. El procés d'iteració (provar → millorar → provar) és tan valuós com el prototip final.\n\nÉs l'evidència central en projectes de design thinking, tecnologia, FP i qualsevol procés de disseny centrat en l'usuari.",
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_OBS_SIS"
+    ],
+    "rel_her": [
+      "HER_HOJA_IND",
+      "HER_RUB_PROD"
+    ],
+    "rel_dim": [
+      "DIM_PROY",
+      "DIM_DESEMP"
+    ],
+    "Dimensiones asociadas": "Treball per projectes; Evidència de desempenyi",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal",
+        "TEC_OBS_SIS": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_PROY": "principal",
+        "DIM_DESEMP": "complementaria"
+      },
+      "rel_her": {
+        "HER_HOJA_IND": "principal",
+        "HER_RUB_PROD": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Full de seguiment individual; Rúbrica de producte"
+  },
+  {
+    "Código": "INS_WEB",
+    "Instrumento": "Pàgina web",
+    "Tipo": "Producció digital",
+    "Descripción breve": "Lloc web organitzat per comunicar o resoldre una necessitat.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producto digital",
+    "Adecuado para": "Organització; usabilitat; contingut; disseny.",
+    "Complejidad": "Alta",
+    "Fase": "Final",
+    "Participación": "Docente",
+    "Etiquetas": "web",
+    "Descripción detallada": "La pàgina web és un producte digital que combina text, imatge, vídeo i altres recursos en un entorn interactiu accessible en línia. Requereix planificació de continguts, disseny de l'estructura i habilitats tècniques de creació.\n\nCom usar-la per avaluar: es valoren el contingut (precisió, profunditat, selecció), l'organització (navegació, estructura), el disseny (llegibilitat, accessibilitat) i la correcció tècnica. Una rúbrica analítica que diferenciï aquestes dimensions és l'eina més adequada.\n\nDesenvolupa la competència digital, la comunicació multimodal i la comprensió de la matèria. És especialment motivador per a l'alumnat amb afinitat tecnològica.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_DIG",
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_DIG"
+    ],
+    "Dimensiones asociadas": "Evidències digitals",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_DIG": "principal",
+        "HER_LISTA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica digital; Llista de verificació"
+  },
+  {
+    "Código": "INS_BLOG",
+    "Instrumento": "Entrada de blog",
+    "Tipo": "Producció digital",
+    "Descripción breve": "Publicació digital reflexiva, explicativa o divulgativa.",
+    "Técnicas asociadas": "Anàlisi de produccions",
+    "Evidencia": "Producto escrito digital",
+    "Adecuado para": "Comunicació; reflexió; rigor; audiència.",
+    "Complejidad": "Media",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "blog",
+    "Descripción detallada": "L'entrada de blog és un text de divulgació personal o acadèmica publicat en un blog, que combina rigor en el contingut amb un estil més accessible i personal que el text acadèmic formal.\n\nCom usar-la per avaluar: es valora l'adequació al destinatari, la precisió del contingut, l'originalitat de l'enfocament, la qualitat de l'escriptura i l'ús de recursos digitals (imatges, enllaços). Una rúbrica que diferenciï contingut i format és adequada.\n\nÉs una bona activitat per treballar l'escriptura amb una audiència real i desenvolupar la veu pròpia de l'alumne. El fet que sigui publicada afegeix motivació i responsabilitat.",
+    "rel_tec": [
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_ESC_OBS"
+    ],
+    "rel_dim": [
+      "DIM_DIG"
+    ],
+    "Dimensiones asociadas": "Evidències digitals",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_ESC_OBS": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Escala d'observació"
+  },
+  {
+    "Código": "INS_FORO",
+    "Instrumento": "Fòrum de discussió",
+    "Tipo": "Digital/oral escrit",
+    "Descripción breve": "Interaccions escrites en entorn digital.",
+    "Técnicas asociadas": "Intercanvis orals; Anàlisi d'interaccions digitals",
+    "Evidencia": "Interacción escrita",
+    "Adecuado para": "Argumentació; participació; resposta als iguals.",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "forum",
+    "Descripción detallada": "El fòrum de discussió és un espai d'intercanvi escrit asíncron (en plataforma digital) on l'alumnat debat, argumenta i comenta sobre un tema, llegint i responent a les aportacions dels seus companys.\n\nCom usar-lo per avaluar: es valoren la qualitat de l'aportació inicial (argumentació, ús de fonts) i la qualitat de les respostes als altres (escolta activa, respecte, aprofundiment). Una rúbrica de participació al fòrum amb criteris de qualitat, no només de quantitat, és l'eina més adequada.\n\nPermet la participació d'alumnes que no intervenen fàcilment en debats presencials. Deixa traces escrites que faciliten l'avaluació.",
+    "rel_tec": [
+      "TEC_ORAL",
+      "TEC_INTER_DIG"
+    ],
+    "rel_her": [
+      "HER_REG_PART",
+      "HER_RUB_ORAL"
+    ],
+    "rel_dim": [
+      "DIM_DIG"
+    ],
+    "Dimensiones asociadas": "Evidències digitals",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ORAL": "principal",
+        "TEC_INTER_DIG": "principal"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal"
+      },
+      "rel_her": {
+        "HER_REG_PART": "principal",
+        "HER_RUB_ORAL": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Registre de participació; Rúbrica oral"
+  },
+  {
+    "Código": "INS_DOC_COL",
+    "Instrumento": "Document col·laboratiu",
+    "Tipo": "Digital/procés",
+    "Descripción breve": "Document compartit elaborat per diversos alumnes.",
+    "Técnicas asociadas": "Anàlisi de produccions; Anàlisi de processos i reflexions; Anàlisi documental; Anàlisi d'interaccions digitals",
+    "Evidencia": "Producción colaborativa",
+    "Adecuado para": "Contribució; revisió; contingut; cooperació.",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Grupo",
+    "Etiquetas": "document col·laboratiu",
+    "Descripción detallada": "El document col·laboratiu és un document digital (Google Docs, Word Online, etc.) que diversos alumnes editen simultàniament o asíncronament per construir un text, anàlisi o producte compartit.\n\nCom usar-lo per avaluar: l'historial de revisions permet veure la contribució individual de cada membre, cosa que fa l'avaluació del treball grupal més justa. Es valora tant el producte final com el procés de construcció col·laborativa.\n\nÉs especialment útil per a projectes grupals on la contribució individual és difícil de distingir en el resultat final. L'historial de revisions és la clau per a l'avaluació individualitzada.",
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_PROC_REFLEX",
+      "TEC_ANAL_DOC",
+      "TEC_INTER_DIG"
+    ],
+    "rel_her": [
+      "HER_HIST_REV",
+      "HER_RUB_ANA",
+      "HER_HOJA_IND"
+    ],
+    "rel_dim": [
+      "DIM_DIG",
+      "DIM_COEV",
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Evidències digitals; Coavaluació; Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "complementaria",
+        "TEC_PROC_REFLEX": "principal",
+        "TEC_ANAL_DOC": "complementaria",
+        "TEC_INTER_DIG": "principal"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal",
+        "DIM_COEV": "complementaria",
+        "DIM_FORM": "complementaria"
+      },
+      "rel_her": {
+        "HER_HIST_REV": "principal",
+        "HER_RUB_ANA": "complementaria",
+        "HER_HOJA_IND": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Historial de revisió; Rúbrica analítica; Full de seguiment individual"
+  },
+  {
+    "Código": "INS_PORT_DIG",
+    "Instrumento": "Portfoli digital",
+    "Tipo": "Digital/procés",
+    "Descripción breve": "Col·lecció digital d'evidències i reflexions.",
+    "Técnicas asociadas": "Anàlisi de produccions; Anàlisi de processos i reflexions; Entrevista avaluativa; Anàlisi documental; Anàlisi d'interaccions digitals",
+    "Evidencia": "Producción acumulativa",
+    "Adecuado para": "Progrés; competència digital; reflexió.",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Alumno/Docente",
+    "Etiquetas": "portfoli digital",
+    "Descripción detallada": "El portfoli digital és una col·lecció organitzada d'evidències d'aprenentatge emmagatzemades en format digital (Google Sites, Seesaw, Mahara, carpeta de Drive, etc.), amb reflexions de l'alumne sobre cada evidència.\n\nCom usar-lo per avaluar: es valoren la selecció d'evidències (mostra allò més significatiu?), la qualitat de les reflexions (què he après amb això?, com ho faria diferent?) i l'organització general. El portfoli digital permet compartir-lo amb les famílies i altres docents.\n\nÉs l'evidència més completa per a l'avaluació per competències i el seguiment longitudinal de l'aprenentatge. Desenvolupa l'autonomia i la metacognició de l'alumne.",
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_PROC_REFLEX",
+      "TEC_ENTREV_EVAL",
+      "TEC_ANAL_DOC",
+      "TEC_INTER_DIG"
+    ],
+    "rel_her": [
+      "HER_PANEL",
+      "HER_BANCO_EVID"
+    ],
+    "rel_dim": [
+      "DIM_DIG"
+    ],
+    "Dimensiones asociadas": "Evidències digitals",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "complementaria",
+        "TEC_PROC_REFLEX": "complementaria",
+        "TEC_ENTREV_EVAL": "complementaria",
+        "TEC_ANAL_DOC": "principal",
+        "TEC_INTER_DIG": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal"
+      },
+      "rel_her": {
+        "HER_PANEL": "principal",
+        "HER_BANCO_EVID": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Panell de progrés; Banc digital d'evidències"
+  },
+  {
+    "Código": "INS_KPSI",
+    "Instrumento": "KPSI",
+    "Tipo": "Diagnòstic/autoavaluació",
+    "Descripción breve": "Activitat diagnòstica en la qual l'alumne indica el seu grau de coneixement previ sobre cada concepte.",
+    "Técnicas asociadas": "Sondeig i questionament; Enquesta i qüestionari",
+    "Evidencia": "Autopercepción",
+    "Adecuado para": "Coneixements previs; confiança; evolució.",
+    "Complejidad": "Baja",
+    "Fase": "Inicial/Final",
+    "Participación": "Alumno",
+    "Etiquetas": "KPSI",
+    "Descripción detallada": "El KPSI (Knowledge and Prior Study Inventory) és una activitat de diagnòstic en la qual l'alumne indica, per a cada concepte o habilitat del tema, si ho sap (i pot explicar-ho), creu que ho sap, no ho sap o no ho entén. L'evidència que genera és l'autopercepció declarada del propi alumne sobre el seu coneixement previ.\n\nCom usar-lo: s'aplica a l'inici d'una unitat o projecte per detectar coneixements previs i concepcions errònies. No té funció qualificadora. En acabar la unitat es pot repetir perquè l'alumne compari les seves respostes inicials amb les finals i vegi el seu propi progrés.\n\nCom a activitat genera evidència diagnòstica d'autopercepció que permet al docent ajustar la planificació i a l'alumne prendre consciència del que ja sap i del que necessita aprendre. L'instrument de registre habitual és una escala d'autoavaluació o un formulari digital.",
+    "rel_tec": [
+      "TEC_SONDEO",
+      "TEC_ENC_CUEST"
+    ],
+    "rel_her": [
+      "HER_ESC_AUTO",
+      "HER_FORM_DIG",
+      "HER_REG_DESC"
+    ],
+    "rel_dim": [
+      "DIM_DIAG",
+      "DIM_AUTO"
+    ],
+    "Dimensiones asociadas": "Finalitat diagnòstica; Autoavaluació",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_SONDEO": "principal",
+        "TEC_ENC_CUEST": "principal"
+      },
+      "rel_dim": {
+        "DIM_DIAG": "principal",
+        "DIM_AUTO": "complementaria"
+      },
+      "rel_her": {
+        "HER_ESC_AUTO": "principal",
+        "HER_FORM_DIG": "complementaria",
+        "HER_REG_DESC": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Escala d'autoavaluació; Formulari digital; Registre descriptiu"
+  },
+  {
+    "Código": "INS_MAP_INI",
+    "Instrumento": "Mapa conceptual inicial",
+    "Tipo": "Diagnòstic",
+    "Descripción breve": "Mapa conceptual a l'inici d'una unitat.",
+    "Técnicas asociadas": "Sondeig i questionament; Anàlisi de produccions",
+    "Evidencia": "Producción visual",
+    "Adecuado para": "Idees prèvies; organització conceptual.",
+    "Complejidad": "Media",
+    "Fase": "Inicial",
+    "Participación": "Docente",
+    "Etiquetas": "inicial",
+    "Descripción detallada": "El mapa conceptual inicial és un mapa conceptual elaborat per l'alumne al començament d'una unitat, sense haver estudiat el tema encara, per mostrar què sap i com relaciona els conceptes en aquell moment.\n\nCom usar-lo per avaluar: s'utilitza exclusivament com a diagnòstic, mai per qualificar. En acabar la unitat, l'alumne elabora un nou mapa i compara ambdós per visualitzar el seu aprenentatge. La diferència entre el mapa inicial i el final és una evidència poderosa del progrés.\n\nPermet al docent detectar concepcions prèvies, tant correctes com errònies, i ajustar la seqüència didàctica en conseqüència.",
+    "rel_tec": [
+      "TEC_SONDEO",
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_LISTA",
+      "HER_REG_DESC",
+      "HER_FORM_DIG"
+    ],
+    "rel_dim": [
+      "DIM_DIAG"
+    ],
+    "Dimensiones asociadas": "Finalitat diagnòstica",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_SONDEO": "principal",
+        "TEC_PROD": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_DIAG": "principal"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal",
+        "HER_REG_DESC": "complementaria",
+        "HER_FORM_DIG": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Llista de verificació; Registre descriptiu; Formulari digital"
+  },
+  {
+    "Código": "INS_LLUVIA",
+    "Instrumento": "Pluja d'idees",
+    "Tipo": "Diagnòstic",
+    "Descripción breve": "Generació ràpida d'idees inicials.",
+    "Técnicas asociadas": "Sondeig i questionament; Intercanvis orals",
+    "Evidencia": "Intervenciones breves",
+    "Adecuado para": "Idees prèvies; interessos; associacions.",
+    "Complejidad": "Baja",
+    "Fase": "Inicial",
+    "Participación": "Grupo",
+    "Etiquetas": "pluja idees",
+    "Descripción detallada": "La pluja d'idees (brainstorming) és una activitat en la qual l'alumnat genera de manera lliure i sense censura totes les idees que se li acudeixen sobre un tema o problema. S'utilitza per activar coneixements previs, generar hipòtesis o explorar solucions possibles.\n\nCom usar-la per avaluar: no té funció qualificadora en si mateixa, però permet al docent detectar què saben i com pensen els alumnes sobre el tema abans de començar. Les idees generades es poden classificar, debatre i revisar al final de la unitat.\n\nÉs una activitat diagnòstica i motivadora. En grups, pot revelar la riquesa col·lectiva de coneixements previs i les idees més i menys esteses.",
+    "rel_tec": [
+      "TEC_SONDEO",
+      "TEC_ORAL"
+    ],
+    "rel_her": [
+      "HER_NOTAS_CAMPO",
+      "HER_REG_ANE",
+      "HER_REG_DESC"
+    ],
+    "rel_dim": [
+      "DIM_DIAG",
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Finalitat diagnòstica; Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_SONDEO": "principal",
+        "TEC_ORAL": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_DIAG": "principal",
+        "DIM_FORM": "complementaria"
+      },
+      "rel_her": {
+        "HER_NOTAS_CAMPO": "principal",
+        "HER_REG_ANE": "complementaria",
+        "HER_REG_DESC": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Notes de camp; Registre anecdòtic; Registre descriptiu"
+  },
+  {
+    "Código": "INS_BORR",
+    "Instrumento": "Esborrany",
+    "Tipo": "Procés",
+    "Descripción breve": "Versió inicial o intermèdia d'un producte.",
+    "Técnicas asociadas": "Anàlisi de processos i reflexions; Anàlisi de produccions",
+    "Evidencia": "Producción parcial",
+    "Adecuado para": "Millora; revisió; progrés.",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "esborrany",
+    "Descripción detallada": "L'esborrany és una versió preliminar d'un treball, no acabada ni polida, que l'alumne lliura per rebre retroalimentació abans del lliurament final. És l'evidència central de l'avaluació formativa en tasques escrites.\n\nCom usar-lo per avaluar: el docent (o els companys en coavaluació) llegeix l'esborrany i ofereix retroalimentació específica sobre allò que està bé i allò que cal millorar. No es qualifica l'esborrany; es qualifica la versió final després de la revisió.\n\nEl cicle esborrany → retroalimentació → revisió → lliurament final és un dels processos més efectius per millorar l'escriptura i l'aprenentatge en general.",
+    "rel_tec": [
+      "TEC_PROC_REFLEX",
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_FICHA_RETRO",
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_FORM",
+      "DIM_CONT",
+      "DIM_FEED"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa; Avaluació contínua; Retroalimentació i feedforward",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal",
+        "TEC_PROD": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal",
+        "DIM_CONT": "principal",
+        "DIM_FEED": "principal"
+      },
+      "rel_her": {
+        "HER_FICHA_RETRO": "principal",
+        "HER_LISTA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Fitxa de retroalimentació; Llista de verificació"
+  },
+  {
+    "Código": "INS_ENT_PAR",
+    "Instrumento": "Lliurament parcial",
+    "Tipo": "Procés",
+    "Descripción breve": "Producte intermedi lliurat abans del final.",
+    "Técnicas asociadas": "Anàlisi de processos i reflexions; Anàlisi de produccions",
+    "Evidencia": "Producción parcial",
+    "Adecuado para": "Seguiment; qualitat provisional; millora.",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Docente",
+    "Etiquetas": "lliurament parcial",
+    "Descripción detallada": "El lliurament parcial és una versió incompleta però avançada d'un projecte o treball, que es presenta en un moment intermedi perquè el docent pugui donar retroalimentació i l'alumne pugui ajustar el rumb abans d'acabar.\n\nCom usar-lo per avaluar: es valora amb una retroalimentació oral o escrita centrada en allò que està ben encaminat i allò que s'ha de revisar. Pot tenir una puntuació parcial que contribueixi a la nota final, incentivant el treball sostingut.\n\nEvita l'acumulació de treball al final i permet detectar problemes de comprensió o de planificació quan encara hi ha temps per corregir-los.",
+    "rel_tec": [
+      "TEC_PROC_REFLEX",
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_HOJA_IND",
+      "HER_RUB_PROC",
+      "HER_FICHA_RETRO"
+    ],
+    "rel_dim": [
+      "DIM_FORM",
+      "DIM_CONT",
+      "DIM_FEED"
+    ],
+    "Dimensiones asociadas": "Finalitat formativa; Avaluació contínua; Retroalimentació i feedforward",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal",
+        "TEC_PROD": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_FORM": "principal",
+        "DIM_CONT": "principal",
+        "DIM_FEED": "complementaria"
+      },
+      "rel_her": {
+        "HER_HOJA_IND": "principal",
+        "HER_RUB_PROC": "complementaria",
+        "HER_FICHA_RETRO": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Full de seguiment individual; Rúbrica de procés; Fitxa de retroalimentació"
+  },
+  {
+    "Código": "INS_BIT",
+    "Instrumento": "Diari de projecte",
+    "Tipo": "Procés",
+    "Descripción breve": "Registre continuat de decisions, problemes i avenços.",
+    "Técnicas asociadas": "Anàlisi de processos i reflexions",
+    "Evidencia": "Registro escrito",
+    "Adecuado para": "Procés; organització; reflexió; decisions.",
+    "Complejidad": "Alta",
+    "Fase": "Proceso",
+    "Participación": "Grupo/Alumno",
+    "Etiquetas": "diari projecte",
+    "Descripción detallada": "El diari de projecte és un diari de seguiment del procés d'un projecte: què es va fer en cada sessió, quines decisions es van prendre, quines dificultats van sorgir i com es van resoldre. És el registre del procés, no del resultat.\n\nCom usar-lo per avaluar: el docent el revisa periòdicament per comprovar l'avenç, detectar dificultats a temps i valorar la qualitat del procés. Una llista de verificació o rúbrica de procés específica per a diaris de projecte orienta la valoració.\n\nFa visible el procés d'aprenentatge, que d'altra manera només es coneix pel producte final. És especialment valuós en projectes de llarga durada i treballs grupals.",
+    "rel_tec": [
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_HOJA_IND",
+      "HER_ESC_OBS",
+      "HER_RUB_PROC"
+    ],
+    "rel_dim": [
+      "DIM_PROY",
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Treball per projectes; Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal"
+      },
+      "rel_dim": {
+        "DIM_PROY": "principal",
+        "DIM_FORM": "complementaria"
+      },
+      "rel_her": {
+        "HER_HOJA_IND": "principal",
+        "HER_ESC_OBS": "complementaria",
+        "HER_RUB_PROC": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Full de seguiment individual; Escala d'observació; Rúbrica de procés"
+  },
+  {
+    "Código": "INS_REV_PARES",
+    "Instrumento": "Revisió entre iguals",
+    "Tipo": "Coavaluació",
+    "Descripción breve": "Anàlisi i millora de treballs entre companys.",
+    "Técnicas asociadas": "Anàlisi de processos i reflexions",
+    "Evidencia": "Comentarios y revisión",
+    "Adecuado para": "Criteris; millora; retroalimentació.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Proceso",
+    "Participación": "Iguales",
+    "Etiquetas": "iguals",
+    "Descripción detallada": "La revisió entre iguals és el procés en el qual un alumne llegeix i comenta el treball d'un company, aplicant criteris compartits, amb l'objectiu d'ajudar-lo a millorar-lo abans del lliurament final.\n\nCom usar-la per avaluar: es proporciona una fitxa de revisió o rúbrica de coavaluació amb criteris concrets. El revisor ha de donar retroalimentació específica i accionable, no només dir 'està bé' o 'millora la redacció'. El procés mateix de revisar el treball aliè és una poderosa experiència d'aprenentatge.\n\nÉs una de les evidències avaluables formatives amb major impacte en la qualitat del treball final. Desenvolupa el pensament crític, la comprensió dels criteris i l'empatia.",
+    "rel_tec": [
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_FICHA_COEV",
+      "HER_RUB_COEV",
+      "HER_FICHA_RETRO"
+    ],
+    "rel_dim": [
+      "DIM_COEV",
+      "DIM_FORM",
+      "DIM_FEED",
+      "DIM_COMPART"
+    ],
+    "Dimensiones asociadas": "Coavaluació; Finalitat formativa; Retroalimentació i feedforward; Avaluació compartida i participativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal"
+      },
+      "rel_dim": {
+        "DIM_COEV": "principal",
+        "DIM_FORM": "complementaria",
+        "DIM_FEED": "principal",
+        "DIM_COMPART": "principal"
+      },
+      "rel_her": {
+        "HER_FICHA_COEV": "principal",
+        "HER_RUB_COEV": "complementaria",
+        "HER_FICHA_RETRO": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Fitxa de coavaluació; Rúbrica de coavaluació; Fitxa de retroalimentació"
+  },
+  {
+    "Código": "INS_2E1D",
+    "Instrumento": "Dues estrelles i un desig",
+    "Tipo": "Coavaluació",
+    "Descripción breve": "Activitat de coavaluació: dos aspectes positius i una proposta de millora.",
+    "Técnicas asociadas": "Anàlisi de processos i reflexions",
+    "Evidencia": "Comentarios breves",
+    "Adecuado para": "Retroalimentació senzilla; millora.",
+    "Complejidad": "Baja",
+    "Fase": "Proceso",
+    "Participación": "Iguales",
+    "Etiquetas": "feedback",
+    "Descripción detallada": "'Dues estrelles i un desig' és una activitat breu de coavaluació o retroalimentació entre iguals en la qual l'avaluador (docent o company) assenyala dos aspectes positius del treball i un suggeriment de millora concret. L'evidència produïda són els comentaris de revisió generats durant l'activitat.\n\nCom usar-la: s'entrega una targeta o formulari amb tres apartats ('Allò que està molt bé:', 'Una altra cosa que funciona:', 'Una cosa que podries millorar:'). És estructuralment senzilla però requereix que els comentaris siguin específics i concrets, no genèrics ('està ben escrit').\n\nÉs especialment adequada per introduir la coavaluació amb grups sense pràctica en ella, pel seu format accessible i el seu equilibri entre allò positiu i allò millorable. L'instrument de registre sol ser una fitxa de coavaluació o fitxa de retroalimentació.",
+    "rel_tec": [
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_FICHA_RETRO",
+      "HER_FICHA_COEV"
+    ],
+    "rel_dim": [
+      "DIM_COEV",
+      "DIM_FORM",
+      "DIM_FEED"
+    ],
+    "Dimensiones asociadas": "Coavaluació; Finalitat formativa; Retroalimentació i feedforward",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal"
+      },
+      "rel_dim": {
+        "DIM_COEV": "principal",
+        "DIM_FORM": "complementaria",
+        "DIM_FEED": "principal"
+      },
+      "rel_her": {
+        "HER_FICHA_RETRO": "principal",
+        "HER_FICHA_COEV": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Fitxa de retroalimentació; Fitxa de coavaluació"
+  },
+  {
+    "Código": "INS_SEMAF",
+    "Instrumento": "Semàfor d'aprenentatge",
+    "Tipo": "Autoavaluació",
+    "Descripción breve": "Activitat breu d'autoavaluació en la qual l'alumne assenyala el seu nivell de comprensió amb tres colors.",
+    "Técnicas asociadas": "Sondeig i questionament; Anàlisi de processos i reflexions",
+    "Evidencia": "Autopercepción",
+    "Adecuado para": "Comprensió; dubtes; necessitat d'ajuda.",
+    "Complejidad": "Baja",
+    "Fase": "Proceso",
+    "Participación": "Alumno",
+    "Etiquetas": "semaforo",
+    "Descripción detallada": "El semàfor d'aprenentatge és una activitat breu d'autoavaluació formativa en la qual l'alumne indica el seu nivell de comprensió d'un contingut utilitzant tres colors: verd (ho entenc bé), groc (tinc alguns dubtes), vermell (no ho entenc o estic perdut). L'evidència que genera és l'autopercepció declarada per l'alumne sobre la seva comprensió en aquell moment.\n\nCom usar-lo: es pot fer amb targetes de colors físiques, amb post-its, amb un formulari digital o amb una paleta a la pissarra. Al final d'una explicació o sessió, el docent veu d'un cop d'ull quants alumnes estan en verd, groc o vermell i ajusta la sessió següent en conseqüència.\n\nPermet regular el ritme de l'ensenyament en temps real a partir d'evidències d'autopercepció. Requereix un clima de confiança perquè l'alumnat sigui honest. L'instrument d'avaluació que sol acompanyar-lo és el semàfor d'avaluació o una llista de verificació.",
+    "rel_tec": [
+      "TEC_SONDEO",
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_SEMAFORO",
+      "HER_LISTA"
+    ],
+    "rel_dim": [
+      "DIM_AUTO",
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Autoavaluació; Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_SONDEO": "complementaria",
+        "TEC_PROC_REFLEX": "principal"
+      },
+      "rel_dim": {
+        "DIM_AUTO": "principal",
+        "DIM_FORM": "complementaria"
+      },
+      "rel_her": {
+        "HER_SEMAFORO": "principal",
+        "HER_LISTA": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Semàfor d'avaluació; Llista de verificació"
+  },
+  {
+    "Código": "INS_BILLETE",
+    "Instrumento": "Bitllet de sortida",
+    "Tipo": "Autoavaluació/formativa",
+    "Descripción breve": "Resposta breu al final de la sessió.",
+    "Técnicas asociadas": "Sondeig i questionament; Enquesta i qüestionari",
+    "Evidencia": "Respuesta breve",
+    "Adecuado para": "Dubtes; aprenentatge; tancament de classe.",
+    "Complejidad": "Baja",
+    "Fase": "Proceso",
+    "Participación": "Alumno",
+    "Etiquetas": "bitllet sortida",
+    "Descripción detallada": "El bitllet de sortida (exit ticket) és una resposta breu que l'alumne lliura al final de la classe per mostrar què ha après, quina dubte li ha quedat o com aplicaria allò après. És una manera ràpida d'avaluació formativa al tancament de la sessió.\n\nCom usar-lo per avaluar: pot ser una pregunta escrita en paper o un formulari digital. El docent revisa les respostes abans de la classe següent per identificar quins alumnes necessiten més suport i quins conceptes cal reforçar.\n\nÉs una de les estratègies d'avaluació formativa més senzilles i efectives. Amb cinc minuts al final de cada classe, el docent obté informació valuosa sobre l'estat real de l'aprenentatge del grup.",
+    "rel_tec": [
+      "TEC_SONDEO",
+      "TEC_ENC_CUEST"
+    ],
+    "rel_her": [
+      "HER_FORM_DIG",
+      "HER_LISTA",
+      "HER_FICHA_RETRO"
+    ],
+    "rel_dim": [
+      "DIM_AUTO",
+      "DIM_FORM"
+    ],
+    "Dimensiones asociadas": "Autoavaluació; Finalitat formativa",
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_SONDEO": "principal",
+        "TEC_ENC_CUEST": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_AUTO": "complementaria",
+        "DIM_FORM": "principal"
+      },
+      "rel_her": {
+        "HER_FORM_DIG": "principal",
+        "HER_LISTA": "complementaria",
+        "HER_FICHA_RETRO": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Formulari digital; Llista de verificació; Fitxa de retroalimentació"
+  },
+  {
+    "Código": "INS_LIBRO_ABIERTO",
+    "Instrumento": "Prova de llibre obert",
+    "Tipo": "Prova competencial",
+    "Descripción breve": "Prova en la qual l'alumnat pot consultar materials autoritzats.",
+    "Técnicas asociadas": "Proves específiques",
+    "Evidencia": "Respuesta escrita aplicada",
+    "Adecuado para": "Aplicació; anàlisi; transferència; ús crític de fonts.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "llibre obert; fonts; aplicacio",
+    "Descripción detallada": "La prova de llibre obert permet consultar materials durant la realització de la tasca. El seu valor no rau a recordar dades, sinó a seleccionar, interpretar i aplicar informació amb criteri.\n\nCom usar-la per avaluar: les preguntes han d'exigir raonament, transferència o resolució de problemes; si només demanen localitzar dades, la prova perd sentit. Convé delimitar quins recursos es poden utilitzar i explicar els criteris de correcció.\n\nÉs adequada per avaluar la comprensió profunda, el maneig de fonts i l'aplicació en contextos nous.",
+    "rel_tec": [
+      "TEC_PRUEBA"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_RUB_ANA",
+      "HER_BAREMO"
+    ],
+    "rel_dim": [
+      "DIM_COMP",
+      "DIM_CRIT",
+      "DIM_HET"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal"
+      },
+      "rel_dim": {
+        "DIM_COMP": "principal",
+        "DIM_CRIT": "complementaria",
+        "DIM_HET": "complementaria"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "principal",
+        "HER_RUB_ANA": "complementaria",
+        "HER_BAREMO": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Enfocament competencial; Avaluació criterial; Heteroavaluació",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Rúbrica analítica; Barem"
+  },
+  {
+    "Código": "INS_TAREA_COMP_INT",
+    "Instrumento": "Tasca competencial integrada",
+    "Tipo": "Prova competencial",
+    "Descripción breve": "Tasca complexa que integra diversos aprenentatges en un context significatiu.",
+    "Técnicas asociadas": "Anàlisi de produccions; Observació sistemàtica; Triangulació d'evidències",
+    "Evidencia": "Actuación contextualizada",
+    "Adecuado para": "Competències; transferència; integració de sabers.",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "competencial; integrada; transferencia",
+    "Descripción detallada": "La tasca competencial integrada proposa una situació significativa en la qual l'alumnat ha de mobilitzar diversos sabers, procediments i actituds per produir una resposta o producte.\n\nCom usar-la per avaluar: es vincula cada part de la tasca amb criteris concrets i es recullen evidències suficients del procés i del resultat. Una rúbrica competencial i un mapa d'evidències ajuden a mantenir l'alineació.\n\nÉs una de les formes més potents d'avaluació competencial, sempre que la situació sigui autèntica i no una suma artificial d'exercicis.",
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_OBS_SIS",
+      "TEC_TRIANG"
+    ],
+    "rel_her": [
+      "HER_RUB_COMP",
+      "HER_MAP_EVID",
+      "HER_IND_CRIT"
+    ],
+    "rel_dim": [
+      "DIM_COMP",
+      "DIM_CRIT",
+      "DIM_INCL",
+      "DIM_CAL_ACRED"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal",
+        "TEC_OBS_SIS": "complementaria",
+        "TEC_TRIANG": "principal"
+      },
+      "rel_dim": {
+        "DIM_COMP": "principal",
+        "DIM_CRIT": "principal",
+        "DIM_INCL": "principal",
+        "DIM_CAL_ACRED": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_COMP": "principal",
+        "HER_MAP_EVID": "principal",
+        "HER_IND_CRIT": "principal"
+      }
+    },
+    "Dimensiones asociadas": "Enfocament competencial; Avaluació criterial; Avaluació inclusiva i DUA; Qualificació i acreditació",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica competencial; Mapa d'evidències per criteri; Llista d'indicadors per criteri"
+  },
+  {
+    "Código": "INS_SIT_PROB",
+    "Instrumento": "Situació-problema",
+    "Tipo": "Prova/desempenyi",
+    "Descripción breve": "Situació contextualitzada que exigeix analitzar un problema i proposar una solució.",
+    "Técnicas asociadas": "Proves específiques; Anàlisi de produccions",
+    "Evidencia": "Respuesta aplicada",
+    "Adecuado para": "Raonament; presa de decisions; transferència.",
+    "Complejidad": "Media/Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente",
+    "Etiquetas": "situacio problema; transferencia",
+    "Descripción detallada": "La situació-problema planteja un context amb dades, restriccions o necessitats que l'alumnat ha d'interpretar per proposar una resposta justificada.\n\nCom usar-la per avaluar: l'enunciat ha de ser clar, contextualitzat i obert en la mesura justa. La correcció ha de valorar el raonament, la pertinença de la solució i la justificació, no només el resultat final.\n\nÉs especialment adequada per a matemàtiques, ciències, tecnologia i matèries on s'avalua la transferència a contextos reals.",
+    "rel_tec": [
+      "TEC_PRUEBA",
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_GUIA_CORR",
+      "HER_IND_CRIT"
+    ],
+    "rel_dim": [
+      "DIM_PROB",
+      "DIM_COMP",
+      "DIM_CRIT"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PRUEBA": "principal",
+        "TEC_PROD": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_PROB": "principal",
+        "DIM_COMP": "complementaria",
+        "DIM_CRIT": "principal"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_GUIA_CORR": "complementaria",
+        "HER_IND_CRIT": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Resolució de problemes; Enfocament competencial; Avaluació criterial",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Guia de correcció; Llista d'indicadors per criteri"
+  },
+  {
+    "Código": "INS_ESCAPE",
+    "Instrumento": "Escape room o repte gamificat",
+    "Tipo": "Desempenyi",
+    "Descripción breve": "Seqüència de reptes amb regles de joc per resoldre problemes o aplicar aprenentatges.",
+    "Técnicas asociadas": "Observació sistemàtica; Anàlisi de produccions",
+    "Evidencia": "Actuación grupal",
+    "Adecuado para": "Col·laboració; resolució de problemes; aplicació ràpida.",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "gamificacio; escape room; repte",
+    "Descripción detallada": "L'escape room o repte gamificat utilitza dinàmiques de joc perquè l'alumnat resolgui proves encadenades, apliqui coneixements i cooperi sota unes regles.\n\nCom usar-lo per avaluar: s'observen tant les solucions com el procés de col·laboració, el repartiment de tasques, la comunicació i l'ús d'estratègies. Una guia d'observació evita que l'avaluació depengui només del resultat lúdic.\n\nCal usar-lo amb criteris clars, perquè la motivació del joc pot amagar qui aprèn, qui lidera o qui queda al marge.",
+    "rel_tec": [
+      "TEC_OBS_SIS",
+      "TEC_PROD"
+    ],
+    "rel_her": [
+      "HER_GUIA_OBS",
+      "HER_RUB_COOP",
+      "HER_REG_ANE"
+    ],
+    "rel_dim": [
+      "DIM_SIM",
+      "DIM_PROB",
+      "DIM_COMPART"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal",
+        "TEC_PROD": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_SIM": "principal",
+        "DIM_PROB": "complementaria",
+        "DIM_COMPART": "complementaria"
+      },
+      "rel_her": {
+        "HER_GUIA_OBS": "principal",
+        "HER_RUB_COOP": "complementaria",
+        "HER_REG_ANE": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Simulació; Resolució de problemes; Avaluació compartida i participativa",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Guia d'observació; Rúbrica de treball cooperatiu; Registre anecdòtic"
+  },
+  {
+    "Código": "INS_SEMINARIO",
+    "Instrumento": "Seminari socràtic",
+    "Tipo": "Oral",
+    "Descripción breve": "Diàleg estructurat a partir de preguntes obertes i evidències.",
+    "Técnicas asociadas": "Intercanvis orals; Entrevista avaluativa",
+    "Evidencia": "Actuación oral",
+    "Adecuado para": "Pensament crític; argumentació; comprensió profunda.",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Iguales",
+    "Etiquetas": "socratic; seminari; dialeg",
+    "Descripción detallada": "El seminari socràtic és un diàleg estructurat al voltant de preguntes obertes, textos, casos o problemes. L'alumnat construeix respostes escoltant, argumentant i preguntant.\n\nCom usar-lo per avaluar: es prepara una pregunta central, s'acorden normes de participació i es registra la qualitat de les intervencions amb una rúbrica oral o guia d'observació.\n\nPermet avaluar el pensament crític i la comprensió profunda, però requereix entrenament en l'escolta i l'argumentació.",
+    "rel_tec": [
+      "TEC_ORAL",
+      "TEC_ENTREV_EVAL"
+    ],
+    "rel_her": [
+      "HER_RUB_ORAL",
+      "HER_GUIA_OBS",
+      "HER_REG_PART"
+    ],
+    "rel_dim": [
+      "DIM_DESEMP",
+      "DIM_COMPART",
+      "DIM_FORM"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ORAL": "principal",
+        "TEC_ENTREV_EVAL": "complementaria"
+      },
+      "rel_dim": {
+        "DIM_DESEMP": "principal",
+        "DIM_COMPART": "complementaria",
+        "DIM_FORM": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ORAL": "principal",
+        "HER_GUIA_OBS": "complementaria",
+        "HER_REG_PART": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Evidència de desempenyi; Avaluació compartida i participativa; Finalitat formativa",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Rúbrica oral; Guia d'observació; Registre de participació"
+  },
+  {
+    "Código": "INS_CHECK_LAB",
+    "Instrumento": "Llista de verificació de laboratori",
+    "Tipo": "Observació",
+    "Descripción breve": "Activitat d'observació i autoregistre de procediments, seguretat i dades al laboratori.",
+    "Técnicas asociadas": "Observació sistemàtica",
+    "Evidencia": "Actuación práctica",
+    "Adecuado para": "Seguretat; procediments; ús de material; presa de dades.",
+    "Complejidad": "Baja/Media",
+    "Fase": "Proceso",
+    "Participación": "Docente/Alumno",
+    "Etiquetas": "laboratori; llista verificacio; seguretat",
+    "Descripción detallada": "La llista de verificació de laboratori és una activitat pràctica en la qual l'alumne segueix, documenta i verifica els seus propis procediments de laboratori pas a pas. L'evidència que genera és l'actuació pràctica observable i el registre completat durant la sessió.\n\nCom usar-la: es lliura a l'inici de la pràctica amb els indicadors de seguretat, ús de material, procediment i presa de dades. L'alumne la va completant a mesura que avança. El docent pot revisar-la juntament amb l'informe de laboratori.\n\nNota: en sentit estricte, una llista de verificació és també un instrument d'avaluació. Aquí es recull com a evidència avaluable perquè l'alumne la completa com a part activa de la pràctica. Quan la utilitza el docent per observar l'alumne des de fora, actua com a instrument d'avaluació (llista de verificació de laboratori).",
+    "rel_tec": [
+      "TEC_OBS_SIS"
+    ],
+    "rel_her": [
+      "HER_LISTA",
+      "HER_GUIA_OBS",
+      "HER_REG_ANE"
+    ],
+    "rel_dim": [
+      "DIM_DESEMP",
+      "DIM_FORM",
+      "DIM_AUTO"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal"
+      },
+      "rel_dim": {
+        "DIM_DESEMP": "principal",
+        "DIM_FORM": "complementaria",
+        "DIM_AUTO": "ocasional"
+      },
+      "rel_her": {
+        "HER_LISTA": "principal",
+        "HER_GUIA_OBS": "complementaria",
+        "HER_REG_ANE": "ocasional"
+      }
+    },
+    "Dimensiones asociadas": "Evidència de desempenyi; Finalitat formativa; Autoavaluació",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Llista de verificació; Guia d'observació; Registre anecdòtic"
+  },
+  {
+    "Código": "INS_CUAD_DIG",
+    "Instrumento": "Quadern digital",
+    "Tipo": "Digital/procés",
+    "Descripción breve": "Registre digital continuat d'activitats, notes, evidències i reflexions.",
+    "Técnicas asociadas": "Anàlisi documental; Anàlisi d'interaccions digitals; Anàlisi de processos i reflexions",
+    "Evidencia": "Producción acumulativa",
+    "Adecuado para": "Seguiment; organització; progrés; evidències digitals.",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Alumno/Docente",
+    "Etiquetas": "quadern digital; seguiment; evidencies",
+    "Descripción detallada": "El quadern digital és un espai de treball on l'alumne conserva activitats, apunts, respostes, evidències i reflexions en format digital.\n\nCom usar-lo per avaluar: el docent revisa entrades seleccionades, l'evolució, les correccions i l'organització. L'historial de revisió pot mostrar progrés i constància, però s'ha d'interpretar juntament amb la qualitat de les evidències.\n\nÉs útil per a l'avaluació contínua i la competència digital, sempre que hi hagi criteris clars de revisió.",
+    "rel_tec": [
+      "TEC_ANAL_DOC",
+      "TEC_INTER_DIG",
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_HIST_REV",
+      "HER_PANEL",
+      "HER_BANCO_EVID"
+    ],
+    "rel_dim": [
+      "DIM_DIG",
+      "DIM_CONT",
+      "DIM_INCL"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ANAL_DOC": "principal",
+        "TEC_INTER_DIG": "complementaria",
+        "TEC_PROC_REFLEX": "principal"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal",
+        "DIM_CONT": "principal",
+        "DIM_INCL": "complementaria"
+      },
+      "rel_her": {
+        "HER_HIST_REV": "principal",
+        "HER_PANEL": "complementaria",
+        "HER_BANCO_EVID": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Evidències digitals; Avaluació contínua; Avaluació inclusiva i DUA",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Historial de revisió; Panell de progrés; Banc digital d'evidències"
+  },
+  {
+    "Código": "INS_EPORT_SEL",
+    "Instrumento": "E-portfolio amb evidències seleccionades",
+    "Tipo": "Digital/procés",
+    "Descripción breve": "Portfoli digital on l'alumnat selecciona i justifica evidències d'aprenentatge.",
+    "Técnicas asociadas": "Anàlisi documental; Anàlisi de processos i reflexions; Triangulació d'evidències",
+    "Evidencia": "Producción acumulativa",
+    "Adecuado para": "Progrés; metacognició; avaluació criterial; acreditació.",
+    "Complejidad": "Alta",
+    "Fase": "Proceso/Final",
+    "Participación": "Alumno/Docente",
+    "Etiquetas": "eportfolio; evidencies; seleccio",
+    "Descripción detallada": "L'e-portfolio amb evidències seleccionades no és només una carpeta de treballs: exigeix que l'alumnat triï evidències, expliqui per què demostren determinats criteris i reflexioni sobre el seu progrés.\n\nCom usar-lo per avaluar: es defineix quins criteris s'han d'evidenciar, quantes evidències se seleccionen i com es justifiquen. El mapa d'evidències per criteri permet comprovar la cobertura i la qualitat.\n\nÉs especialment adequat per a l'avaluació contínua, criterial i competencial.",
+    "rel_tec": [
+      "TEC_ANAL_DOC",
+      "TEC_PROC_REFLEX",
+      "TEC_TRIANG"
+    ],
+    "rel_her": [
+      "HER_MAP_EVID",
+      "HER_BANCO_EVID",
+      "HER_ESC_PROG"
+    ],
+    "rel_dim": [
+      "DIM_CRIT",
+      "DIM_CONT",
+      "DIM_FEED",
+      "DIM_CAL_ACRED",
+      "DIM_COMPART",
+      "DIM_INCL"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_ANAL_DOC": "principal",
+        "TEC_PROC_REFLEX": "principal",
+        "TEC_TRIANG": "principal"
+      },
+      "rel_dim": {
+        "DIM_CRIT": "principal",
+        "DIM_CONT": "principal",
+        "DIM_FEED": "complementaria",
+        "DIM_CAL_ACRED": "complementaria",
+        "DIM_COMPART": "complementaria",
+        "DIM_INCL": "principal"
+      },
+      "rel_her": {
+        "HER_MAP_EVID": "principal",
+        "HER_BANCO_EVID": "principal",
+        "HER_ESC_PROG": "complementaria"
+      }
+    },
+    "Dimensiones asociadas": "Avaluació criterial; Avaluació contínua; Retroalimentació i feedforward; Qualificació i acreditació; Avaluació compartida i participativa; Avaluació inclusiva i DUA",
+    "tipo_entidad": "medio_evidencia",
+    "Instrumentos de evaluación recomendados": "Mapa d'evidències per criteri; Banc digital d'evidències; Escala de progrés"
+  }
+]

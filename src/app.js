@@ -1,63 +1,19 @@
 /* ── Catálogo de Evaluación Educativa ─────────────────────── */
 
-const DATA_URLS = {
-  tecnicas:     'data/tecnicas.json',
-  dimensiones:  'data/dimensiones.json',
-  instrumentos: 'data/instrumentos.json',
-  herramientas: 'data/herramientas.json',
+/* ── Structural CAT_CONFIG (keys stay fixed across languages) */
+const CAT_CONFIG_BASE = {
+  tecnicas:     { cls: 'tec', icon: '🔬', nameKey: 'Técnica',     extraFilterKey: 'Participación', extra2FilterKey: null },
+  dimensiones:  { cls: 'dim', icon: '🧭', nameKey: 'Dimensión',   extraFilterKey: 'Categoría',     extra2FilterKey: 'Participación' },
+  instrumentos: { cls: 'ins', icon: '📄', nameKey: 'Instrumento', extraFilterKey: 'Complejidad',   extra2FilterKey: 'Participación' },
+  herramientas: { cls: 'her', icon: '🛠️', nameKey: 'Herramienta', extraFilterKey: 'Participación', extra2FilterKey: 'Complejidad' },
 };
 
-const CAT_CONFIG = {
-  tecnicas: {
-    cls:              'tec',
-    icon:             '🔬',
-    label:            'Técnicas',
-    singularLabel:    'Técnica',
-    nameKey:          'Técnica',
-    extraFilterLabel: 'Participación:',
-    extraFilterKey:   'Participación',
-    extraFilterVals:  ['Docente', 'Alumno', 'Iguales'],
-  },
-  dimensiones: {
-    cls:               'dim',
-    icon:              '🧭',
-    label:             'Dimensiones transversales',
-    singularLabel:     'Dimensión',
-    nameKey:           'Dimensión',
-    extraFilterLabel:  'Categoría:',
-    extraFilterKey:    'Categoría',
-    extraFilterVals:   ['Finalidad', 'Agente', 'Contexto', 'Enfoque', 'Tipo', 'Soporte'],
-    extra2FilterLabel: 'Participación:',
-    extra2FilterKey:   'Participación',
-    extra2FilterVals:  ['Docente', 'Alumno', 'Iguales'],
-  },
-  instrumentos: {
-    cls:               'ins',
-    icon:              '📄',
-    label:             'Evidencias evaluables',
-    singularLabel:     'Evidencia evaluable',
-    nameKey:           'Instrumento',
-    extraFilterLabel:  'Complejidad:',
-    extraFilterKey:    'Complejidad',
-    extraFilterVals:   ['Baja', 'Media', 'Alta'],
-    extra2FilterLabel: 'Participación:',
-    extra2FilterKey:   'Participación',
-    extra2FilterVals:  ['Docente', 'Alumno', 'Iguales', 'Grupo'],
-  },
-  herramientas: {
-    cls:               'her',
-    icon:              '🛠️',
-    label:             'Instrumentos de evaluación',
-    singularLabel:     'Instrumento de evaluación',
-    nameKey:           'Herramienta',
-    extraFilterLabel:  'Participación:',
-    extraFilterKey:    'Participación',
-    extraFilterVals:   ['Docente', 'Alumno', 'Iguales'],
-    extra2FilterLabel: 'Complejidad:',
-    extra2FilterKey:   'Complejidad',
-    extra2FilterVals:  ['Baja', 'Media', 'Alta'],
-  },
-};
+function buildCatConfig(lang) {
+  const iCats = I18N[lang].cats;
+  return Object.fromEntries(
+    Object.entries(CAT_CONFIG_BASE).map(([cat, base]) => [cat, { ...base, ...iCats[cat] }])
+  );
+}
 
 // Relaciones por código: Técnica/Dimensión → Instrumento → Herramienta
 const RELATIONS = {
@@ -78,7 +34,11 @@ const state = {
   extra2:       '',
   search:       '',
   selectedName: null,
+  lang:         localStorage.getItem('evalmap_lang') || 'es',
 };
+
+let CAT_CONFIG = buildCatConfig(state.lang);
+
 const graphVisibleCats = {
   tecnicas: true,
   dimensiones: true,
@@ -86,10 +46,139 @@ const graphVisibleCats = {
   herramientas: true,
 };
 
+/* ── i18n helpers ─────────────────────────────────────────── */
+function i18n() { return I18N[state.lang]; }
+
+function translateValue(field, val) {
+  if (!val) return '';
+  const i = i18n();
+  const parts = val.split('/').map(v => v.trim());
+  if (field === 'Fase') return parts.map(p => i.phaseFull[p] || p).join(' / ');
+  return parts.map(p => i.filterValLabels[p] || p).join(' / ');
+}
+
 function tabLabel(cat, count = null) {
   const cfg = CAT_CONFIG[cat];
   const suffix = count === null ? '' : ` <span class="tab-count">(${count})</span>`;
   return `${cfg.icon} ${cfg.label}${suffix}`;
+}
+
+/* ── Home & static i18n rendering ────────────────────────── */
+function renderHome() {
+  const i = i18n();
+  const hero = document.querySelector('.home-hero');
+  if (hero) {
+    const h1 = hero.querySelector('h1');
+    const p  = hero.querySelector('p');
+    if (h1) h1.textContent = i.appTitle;
+    if (p)  p.textContent  = i.homeSubtitle;
+  }
+  const hint = document.querySelector('.home-entry-hint');
+  if (hint) hint.textContent = i.homeHint;
+
+  Object.keys(i.cats).forEach(cat => {
+    const card = document.querySelector(`.home-card[data-cat="${cat}"]`);
+    if (!card) return;
+    const h2 = card.querySelector('h2');
+    const p  = card.querySelector('p');
+    if (h2) h2.textContent = i.cats[cat].label;
+    if (p)  p.textContent  = i.cats[cat].homeDesc;
+    card.querySelectorAll('.home-card-btn').forEach(btn => btn.textContent = i.startHere);
+  });
+
+  const kicker = document.querySelector('.home-card-kicker');
+  if (kicker) kicker.textContent = i.transversalLabel;
+
+  const brandSpan = document.querySelector('#btn-home span');
+  if (brandSpan) brandSpan.textContent = i.appTitle;
+
+  document.querySelectorAll('.cat-tab[data-cat]').forEach(tab => {
+    tab.innerHTML = tabLabel(tab.dataset.cat);
+  });
+
+  const ghProject = document.getElementById('footer-gh-project');
+  if (ghProject) ghProject.textContent = i.ghProject;
+  const ghIssues = document.getElementById('footer-gh-issues');
+  if (ghIssues) ghIssues.textContent = i.ghIssues;
+  const contentLic = document.getElementById('footer-content-lic');
+  if (contentLic) contentLic.textContent = i.contentLicense;
+  const codeLic = document.getElementById('footer-code-lic');
+  if (codeLic) codeLic.textContent = i.codeLicense;
+}
+
+function updateStaticI18n() {
+  const i = i18n();
+  document.documentElement.lang = i.htmlLang;
+  document.title = i.appTitle;
+
+  const btnBack = document.getElementById('btn-nav-back');
+  if (btnBack) { btnBack.title = i.backTitle; btnBack.setAttribute('aria-label', i.backTitle); }
+  const btnFwd = document.getElementById('btn-nav-fwd');
+  if (btnFwd)  { btnFwd.title  = i.fwdTitle;  btnFwd.setAttribute('aria-label', i.fwdTitle); }
+
+  const btnGraph = document.getElementById('btn-toggle-graph');
+  if (btnGraph) { btnGraph.textContent = i.level2Label; btnGraph.title = i.level2Title; }
+  const btnEss = document.getElementById('btn-toggle-essential');
+  if (btnEss) { btnEss.textContent = i.occasionalLabel; btnEss.title = i.occasionalTitle; }
+
+  const catLabel = document.querySelector('.graph-cat-label');
+  if (catLabel) catLabel.textContent = i.seeLabel;
+
+  const dragHandle = document.getElementById('detail-drag-handle');
+  if (dragHandle) dragHandle.title = i.dragTitle;
+  const btnCopy = document.getElementById('btn-copy-card');
+  if (btnCopy) btnCopy.title = i.copyTitle;
+  const btnPrint = document.getElementById('btn-print-card');
+  if (btnPrint) btnPrint.title = i.printTitle;
+  const btnDl = document.getElementById('btn-dl-card');
+  if (btnDl) btnDl.title = i.dlTitle;
+
+  const btnHome = document.getElementById('btn-home');
+  if (btnHome) btnHome.title = i.homeLabel;
+
+  const btnTheme = document.getElementById('btn-theme');
+  if (btnTheme) btnTheme.textContent = darkMode ? i.lightMode : i.darkMode;
+
+  const aiSpan = document.querySelector('.notebooklm-btn span:last-child');
+  if (aiSpan) aiSpan.textContent = i.aiAssistant;
+  const aiBtn = document.querySelector('.notebooklm-btn');
+  if (aiBtn) aiBtn.title = i.aiAssistant;
+
+  const emptyP = document.querySelector('#detail-empty p');
+  if (emptyP) emptyP.innerHTML = i.selectHint;
+
+  const legendSpans = document.querySelectorAll('.graph-legend span');
+  if (legendSpans.length >= 4) {
+    legendSpans[0].innerHTML = `<i class="legend-line principal"></i>${i.legend.principal}`;
+    legendSpans[1].innerHTML = `<i class="legend-line complementaria"></i>${i.legend.complementaria}`;
+    legendSpans[2].innerHTML = `<i class="legend-line ocasional"></i>${i.legend.ocasional}`;
+    legendSpans[3].innerHTML = `<i class="legend-line transversal"></i>${i.legend.transversal}`;
+  }
+
+  document.querySelectorAll('.graph-cat-chip[data-graph-cat]').forEach(chip => {
+    const cat = chip.dataset.graphCat;
+    chip.setAttribute('aria-label', CAT_CONFIG[cat]?.label || cat);
+  });
+
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === state.lang);
+  });
+}
+
+/* ── Language switcher ────────────────────────────────────── */
+async function setLang(lang) {
+  if (!I18N[lang] || lang === state.lang) return;
+  state.lang = lang;
+  localStorage.setItem('evalmap_lang', lang);
+  CAT_CONFIG = buildCatConfig(lang);
+  renderHome();
+  updateStaticI18n();
+  await loadData();
+  if (state.cat) {
+    state.fase = ''; state.extra = ''; state.extra2 = ''; state.search = '';
+    showCatalog(state.cat);
+    if (state.selectedName) showDetailPanel(state.selectedName, state.cat, false);
+  }
 }
 
 function updateTabGraphCounts() {
@@ -97,6 +186,7 @@ function updateTabGraphCounts() {
   GRAPH.nodes.forEach(node => {
     if (counts[node.cat] !== undefined) counts[node.cat] += 1;
   });
+  const i = i18n();
   document.querySelectorAll('.cat-tab[data-cat]').forEach(tab => {
     const count = GRAPH.nodes.length ? counts[tab.dataset.cat] : null;
     tab.innerHTML = tabLabel(tab.dataset.cat, count || null);
@@ -114,31 +204,33 @@ function updateTabGraphCounts() {
     chip.classList.toggle('locked', locked);
     chip.disabled = disabled;
     chip.title = !rawCount
-      ? 'Esta categoría no aparece en el grafo actual.'
+      ? i.graphCatHidden
       : isCenterCat
-        ? 'No se puede ocultar la categoría del elemento seleccionado.'
+        ? i.graphCatCenter
         : requiredBridge
-          ? 'No se pueden ocultar las evidencias evaluables porque conectan el elemento seleccionado con el resto del grafo.'
+          ? i.graphCatBridge
           : graphVisibleCats[cat]
-            ? `Ocultar ${CAT_CONFIG[cat].label} del grafo (${visibleCount} visibles).`
-            : `Mostrar ${CAT_CONFIG[cat].label} en el grafo.`;
+            ? i.graphCatHide(CAT_CONFIG[cat].label, visibleCount)
+            : i.graphCatShow(CAT_CONFIG[cat].label);
     chip.setAttribute('aria-label', chip.title);
   });
 }
 
 /* ── Data loading ─────────────────────────────────────────── */
 async function loadData() {
+  const keys = ['tecnicas', 'dimensiones', 'instrumentos', 'herramientas'];
   const entries = await Promise.all(
-    Object.entries(DATA_URLS).map(([key, url]) =>
-      fetch(url).then(r => r.json()).then(d => [key, d])
+    keys.map(key =>
+      fetch(`data/${state.lang}/${key}.json`).then(r => r.json()).then(d => [key, d])
     )
   );
   state.data = Object.fromEntries(entries);
 
-  document.getElementById('count-tec').textContent = `${state.data.tecnicas.length} técnicas`;
-  document.getElementById('count-dim').textContent = `${state.data.dimensiones.length} dimensiones`;
-  document.getElementById('count-ins').textContent = `${state.data.instrumentos.length} evidencias evaluables`;
-  document.getElementById('count-her').textContent = `${state.data.herramientas.length} instrumentos de evaluación`;
+  const i = i18n();
+  document.getElementById('count-tec').textContent = i.countTec(state.data.tecnicas.length);
+  document.getElementById('count-dim').textContent = i.countDim(state.data.dimensiones.length);
+  document.getElementById('count-ins').textContent = i.countIns(state.data.instrumentos.length);
+  document.getElementById('count-her').textContent = i.countHer(state.data.herramientas.length);
 
   document.querySelectorAll('.cat-tab[data-cat]').forEach(tab => {
     tab.innerHTML = tabLabel(tab.dataset.cat);
@@ -174,48 +266,43 @@ function showCatalog(cat) {
   document.querySelector('.catalog-body').classList.remove('has-detail');
 
   const cfg = CAT_CONFIG[cat];
+  const i   = i18n();
+  const fvl = i.filterValLabels;
 
-  // Show tabs + count in top-bar
   document.getElementById('cat-tabs').style.display      = 'flex';
   document.getElementById('catalog-count').style.display = '';
 
-  // Active tab
   document.querySelectorAll('.cat-tab').forEach(t => {
     t.className = 'cat-tab' + (t.dataset.cat === cat ? ` active-${cfg.cls}` : '');
   });
 
-  // Count and search
   document.getElementById('search-input').value = '';
-  document.getElementById('search-input').placeholder = `Buscar ${cfg.label.toLowerCase()}...`;
+  document.getElementById('search-input').placeholder = i.searchPlaceholder(cfg.label);
 
-  // Active colour
   document.getElementById('filter-bar').style.setProperty('--active-color', `var(--c-${cfg.cls})`);
   document.getElementById('detail-panel').style.setProperty('--active-color', `var(--c-${cfg.cls})`);
 
-  // Render each filter group on its own line
   const extra2Row = cfg.extra2FilterLabel ? `
     <div class="filter-row">
       <span class="filter-label">${cfg.extra2FilterLabel}</span>
       <div class="filter-group" id="filter-extra2-chips">
-        <div class="chip active" data-extra2="">Todos</div>
-        ${cfg.extra2FilterVals.map(v => `<div class="chip" data-extra2="${v}">${v}</div>`).join('')}
+        <div class="chip active" data-extra2="">${cfg.extra2FilterAll}</div>
+        ${cfg.extra2FilterVals.map(v => `<div class="chip" data-extra2="${v}">${fvl[v] || v}</div>`).join('')}
       </div>
     </div>` : '';
   document.getElementById('filter-chips').innerHTML = `
     <div class="filter-row">
-      <span class="filter-label">Fase:</span>
+      <span class="filter-label">${i.filterPhaseLabel}</span>
       <div class="filter-group" id="filter-fase">
-        <div class="chip active" data-fase="">Todas</div>
-        <div class="chip" data-fase="Inicial">Inic.</div>
-        <div class="chip" data-fase="Proceso">Proc.</div>
-        <div class="chip" data-fase="Final">Final</div>
+        <div class="chip active" data-fase="">${i.filterPhaseAll}</div>
+        ${Object.entries(i.phases).map(([code, label]) => `<div class="chip" data-fase="${code}">${label}</div>`).join('')}
       </div>
     </div>
     <div class="filter-row">
       <span class="filter-label">${cfg.extraFilterLabel}</span>
       <div class="filter-group" id="filter-extra-chips">
-        <div class="chip active" data-extra="">Todos</div>
-        ${cfg.extraFilterVals.map(v => `<div class="chip" data-extra="${v}">${v}</div>`).join('')}
+        <div class="chip active" data-extra="">${cfg.extraFilterAll}</div>
+        ${cfg.extraFilterVals.map(v => `<div class="chip" data-extra="${v}">${fvl[v] || v}</div>`).join('')}
       </div>
     </div>
     ${extra2Row}`;
@@ -243,10 +330,11 @@ function matchSearch(item, nameKey, query) {
 /* ── Card list rendering ──────────────────────────────────── */
 function phaseBadges(fase) {
   if (!fase) return '';
+  const phases = i18n().phaseFull;
   return fase.split('/').map(f => {
     const t   = f.trim();
     const cls = t === 'Inicial' ? 'ini' : t === 'Proceso' ? 'pro' : 'fin';
-    return `<span class="badge badge-fase-${cls}">${t}</span>`;
+    return `<span class="badge badge-fase-${cls}">${phases[t] || t}</span>`;
   }).join('');
 }
 
@@ -277,7 +365,7 @@ function renderCards() {
     grid.innerHTML = `
       <div class="empty-state">
         <div class="empty-icon">🔍</div>
-        Sin resultados
+        ${i18n().noResults}
       </div>`;
     return;
   }
@@ -309,7 +397,7 @@ function findByCodes(codes, targetCat) {
 /* ── Detail panel ─────────────────────────────────────────── */
 function showDetailPanel(name, cat, pushHistory = true) {
   if (pushHistory) {
-    navHistory.splice(navIndex + 1);   // drop forward stack
+    navHistory.splice(navIndex + 1);
     navHistory.push({ name, cat });
     navIndex = navHistory.length - 1;
     navUpdateButtons();
@@ -321,13 +409,11 @@ function showDetailPanel(name, cat, pushHistory = true) {
   const item = (state.data[cat] || []).find(i => i[cfg.nameKey] === name);
   if (!item) return;
 
-  // Highlight selected card and scroll within list panel only
   const listPanel = document.getElementById('cards-grid');
   document.querySelectorAll('.cat-card').forEach(c => {
     c.className = c.className.replace(/\bselected-\w+\b/g, '').trim();
     if (c.dataset.name === name && c.dataset.cat === cat) {
       c.classList.add(`selected-${cfg.cls}`);
-      // Scroll within the list panel, not the whole page
       const top = c.offsetTop - listPanel.offsetTop;
       listPanel.scrollTo({ top: top - 40, behavior: 'smooth' });
     }
@@ -341,7 +427,6 @@ function showDetailPanel(name, cat, pushHistory = true) {
   document.querySelector('.catalog-body').classList.add('has-detail');
   if (window.innerWidth <= 720) setTimeout(graphResizeCanvas, 270);
 
-  // Switch to top/left anchoring once so CSS resize works from the start (desktop only)
   if (!cardPositionFixed && window.innerWidth > 720) {
     requestAnimationFrame(() => {
       if (window.innerWidth <= 720) return;
@@ -373,10 +458,9 @@ const G = {
   CENTER_R:   26,
   NODE_R:     17,
   NODE_R2:    13,
-  LABEL_H:    72,   // extra gap so text below nodes doesn't overlap
+  LABEL_H:    72,
 };
 
-// Canvas colour palette (CSS vars unavailable inside canvas 2D)
 const GPAL = {
   light: {
     tec: { bg: '#FFF7ED', edge: '#FED7AA', stroke: '#EA580C', text: '#C2410C' },
@@ -399,7 +483,7 @@ const GRAPH = {
   showOccasional: false,
   isPanning: false, panMoved: false,
   panStart: { x: 0, y: 0 }, camStart: { x: 0, y: 0 },
-  dragNode: -1,   // index of node being dragged, -1 = none
+  dragNode: -1,
 };
 
 function graphStop() {
@@ -410,9 +494,8 @@ function graphBuild(item, cat) {
   const cfg = CAT_CONFIG[cat];
   const nodes = [];
   const edges = [];
-  const codeToIdx = new Map(); // deduplicate shared nodes
+  const codeToIdx = new Map();
 
-  // Center node
   nodes.push({
     x: 0, y: 0, vx: 0, vy: 0,
     r: G.CENTER_R, cat, cls: cfg.cls,
@@ -435,8 +518,6 @@ function graphBuild(item, cat) {
     edges.push({ a: parentIdx, b: nodeIdx, kind, isTransversal });
   }
 
-  // Add connected items at targetX, linked from parentIdx.
-  // Returns array of { idx, dataItem, dataCat } for further expansion.
   function addConnected(srcItem, srcCat, relDef, parentIdx, targetX, r) {
     if (!relDef) return [];
     const ncfg     = CAT_CONFIG[relDef.cat];
@@ -469,7 +550,6 @@ function graphBuild(item, cat) {
   const L3 = G.COLUMN_X * 2.7;
 
   if (cat === 'instrumentos') {
-    // técnicas/dimensiones ← instrumento → herramientas
     addConnected(item, cat, RELATIONS[cat].left,  0, -L1, G.NODE_R);
     addConnected(item, cat, DIMENSION_RELATION,   0, -L1, G.NODE_R);
     const tools = addConnected(item, cat, RELATIONS[cat].right, 0,  L1, G.NODE_R);
@@ -479,7 +559,6 @@ function graphBuild(item, cat) {
       );
     }
   } else if (cat === 'tecnicas' || cat === 'dimensiones') {
-    // técnica/dimensión → instrumentos → herramientas, dimensiones a la izquierda
     addConnected(item, cat, DIMENSION_RELATION, 0, -L1, G.NODE_R);
     const l1 = addConnected(item, cat, RELATIONS[cat].right, 0, L1, G.NODE_R);
     l1.forEach(({ idx, dataItem, dataCat }) =>
@@ -492,7 +571,6 @@ function graphBuild(item, cat) {
       });
     }
   } else {
-    // dimensiones ← herramienta → instrumentos → técnicas
     addConnected(item, cat, DIMENSION_RELATION, 0, L1, G.NODE_R);
     const l1 = addConnected(item, cat, RELATIONS[cat].left, 0, -L1, G.NODE_R);
     l1.forEach(({ idx, dataItem, dataCat }) =>
@@ -594,8 +672,8 @@ function graphTick() {
 
   nodes.forEach((nd, i) => {
     if (i === 0 || nd.fixed) { nd.vx = 0; nd.vy = 0; return; }
-    nd.vx += (nd.targetX - nd.x) * G.STRATIFY; // column stratification
-    nd.vy -= nd.y * G.GRAVITY;                  // vertical centering
+    nd.vx += (nd.targetX - nd.x) * G.STRATIFY;
+    nd.vy -= nd.y * G.GRAVITY;
     nd.vx *= G.DAMPING; nd.vy *= G.DAMPING;
     nd.x  += nd.vx;    nd.y  += nd.vy;
   });
@@ -702,7 +780,6 @@ function graphHitTest(sx, sy) {
   const dpr = window.devicePixelRatio || 1;
   const w   = canvas.width / dpr, h = canvas.height / dpr;
   const cam = GRAPH.camera;
-  // Screen → world
   const wx = (sx - w / 2) / cam.scale + cam.x;
   const wy = (sy - h / 2) / cam.scale + cam.y;
   for (let i = GRAPH.nodes.length - 1; i >= 0; i--) {
@@ -720,29 +797,24 @@ function graphLoop() {
 }
 
 function graphCenterNodeScreen(cat) {
-  // Returns the desired screen position (px) for the center node (world 0,0),
-  // calculated so the graph branches expand into the free area away from the card.
   const canvas = GRAPH.canvas;
   if (!canvas) return { x: canvas ? canvas.clientWidth / 2 : 0, y: 0 };
   const cw = canvas.clientWidth;
   const ch = canvas.clientHeight;
 
-  // Find the left edge of the detail card relative to the canvas
   const card       = document.getElementById('detail-text');
   const canvasRect = canvas.getBoundingClientRect();
   const cardRect   = card ? card.getBoundingClientRect() : null;
   const cardLeft   = cardRect ? Math.max(0, cardRect.left - canvasRect.left) : cw;
-  const freeWidth  = cardLeft;  // usable horizontal space
+  const freeWidth  = cardLeft;
 
-  const PAD = 90; // margin from edges
+  const PAD = 90;
   const sy  = ch / 2;
 
   let sx;
   if (cat === 'tecnicas' || cat === 'dimensiones') {
-    // branches go right → place center node near left margin
     sx = PAD;
   } else {
-    // instrumentos y herramientas: branches can expand to both sides
     sx = freeWidth / 2;
   }
   return { x: sx, y: sy };
@@ -766,7 +838,6 @@ function renderGraph(item, cat) {
   graphBuild(item, cat);
   requestAnimationFrame(() => {
     graphResizeCanvas();
-    // Place center node (world 0,0) at the category-appropriate screen position
     const target   = graphCenterNodeScreen(cat);
     const cw       = canvas.clientWidth;
     const ch       = canvas.clientHeight;
@@ -798,7 +869,7 @@ function getRelationNames(item, relField, targetCat) {
 
 function groupedRelationSection(title, relations) {
   if (!relations.length) return '';
-  const labels = { principal: 'Principal', complementaria: 'Complementaria', ocasional: 'Ocasional' };
+  const labels = i18n().relKinds;
   const parts = ['principal', 'complementaria', 'ocasional'].map(kind => {
     const names = relations.filter(r => r.kind === kind).map(r => r.name);
     if (!names.length) return '';
@@ -810,49 +881,50 @@ function groupedRelationSection(title, relations) {
 function renderDetailText(item, cat) {
   const cfg  = CAT_CONFIG[cat];
   const name = item[cfg.nameKey];
+  const i    = i18n();
+  const h    = i.detailHeaders[cat];
+  const cl   = i.detailChipLabels;
 
-  // Metadata as inline chips
   const metaPairs = [];
-  if (item['Fase'])          metaPairs.push(['Fase',          item['Fase']]);
-  if (item['Participación']) metaPairs.push(['Participación', item['Participación']]);
-  if (item['Complejidad'])   metaPairs.push(['Complejidad',   item['Complejidad']]);
-  if (item['Tipo'])          metaPairs.push(['Tipo',          item['Tipo']]);
+  if (item['Fase'])          metaPairs.push([cl.Fase,          translateValue('Fase',          item['Fase'])]);
+  if (item['Participación']) metaPairs.push([cl.Participación, translateValue('Participación', item['Participación'])]);
+  if (item['Complejidad'])   metaPairs.push([cl.Complejidad,   translateValue('Complejidad',   item['Complejidad'])]);
+  if (item['Tipo'])          metaPairs.push([cl.Tipo,          item['Tipo']]);
   const metaChips = metaPairs.map(([k, v]) =>
     `<span class="detail-chip"><b>${k}:</b> ${v}</span>`
   ).join('');
 
-  // Short sections — 2-column grid
   let gridItems = '';
   if (cat === 'tecnicas') {
     gridItems =
-      gridSection('Finalidad',           item['Finalidad principal']) +
-      gridSection('Cuándo conviene',     item['Cuándo conviene']) +
-      gridSection('Evidencias',          item['Evidencias habituales']) +
-      gridSection('Limitaciones',        item['Limitaciones']) +
-      groupedRelationSection('Medios/evidencias relacionados', getRelationNames(item, 'rel_ins', 'instrumentos')) +
-      groupedRelationSection('Instrumentos de evaluación relacionados', getRelationNames(item, 'rel_her', 'herramientas'));
+      gridSection(h.gridLabel1, item[h.gridField1]) +
+      gridSection(h.gridLabel2, item[h.gridField2]) +
+      gridSection(h.gridLabel3, item[h.gridField3]) +
+      gridSection(h.gridLabel4, item[h.gridField4]) +
+      groupedRelationSection(h.rel_ins, getRelationNames(item, 'rel_ins', 'instrumentos')) +
+      groupedRelationSection(h.rel_her, getRelationNames(item, 'rel_her', 'herramientas'));
   } else if (cat === 'dimensiones') {
     gridItems =
-      gridSection('Función pedagógica',  item['Función pedagógica']) +
-      gridSection('Cuándo conviene',     item['Cuándo conviene']) +
-      gridSection('Evidencias',          item['Evidencias habituales']) +
-      gridSection('Precauciones',        item['Precauciones']) +
-      groupedRelationSection('Medios/evidencias relacionados', getRelationNames(item, 'rel_ins', 'instrumentos')) +
-      groupedRelationSection('Instrumentos de evaluación relacionados', getRelationNames(item, 'rel_her', 'herramientas'));
+      gridSection(h.gridLabel1, item[h.gridField1]) +
+      gridSection(h.gridLabel2, item[h.gridField2]) +
+      gridSection(h.gridLabel3, item[h.gridField3]) +
+      gridSection(h.gridLabel4, item[h.gridField4]) +
+      groupedRelationSection(h.rel_ins, getRelationNames(item, 'rel_ins', 'instrumentos')) +
+      groupedRelationSection(h.rel_her, getRelationNames(item, 'rel_her', 'herramientas'));
   } else if (cat === 'instrumentos') {
     gridItems =
-      gridSection('Adecuado para',       item['Adecuado para']) +
-      groupedRelationSection('Técnicas asociadas', getRelationNames(item, 'rel_tec', 'tecnicas')) +
-      groupedRelationSection('Dimensiones asociadas', getRelationNames(item, 'rel_dim', 'dimensiones')) +
-      groupedRelationSection('Instrumentos de evaluación recomendados', getRelationNames(item, 'rel_her', 'herramientas'));
+      gridSection(h.gridLabel1, item[h.gridField1]) +
+      groupedRelationSection(h.rel_tec, getRelationNames(item, 'rel_tec', 'tecnicas')) +
+      groupedRelationSection(h.rel_dim, getRelationNames(item, 'rel_dim', 'dimensiones')) +
+      groupedRelationSection(h.rel_her, getRelationNames(item, 'rel_her', 'herramientas'));
   } else {
     gridItems =
-      gridSection('Sirve para',          item['Sirve para']) +
-      gridSection('Adecuada para',       item['Adecuada para']) +
-      groupedRelationSection('Dimensiones asociadas', getRelationNames(item, 'rel_dim', 'dimensiones')) +
-      groupedRelationSection('Medios/evidencias compatibles', getRelationNames(item, 'rel_ins', 'instrumentos')) +
-      gridSection('Ventajas',            item['Ventajas']) +
-      gridSection('Limitaciones',        item['Limitaciones']);
+      gridSection(h.gridLabel1, item[h.gridField1]) +
+      gridSection(h.gridLabel2, item[h.gridField2]) +
+      groupedRelationSection(h.rel_dim, getRelationNames(item, 'rel_dim', 'dimensiones')) +
+      groupedRelationSection(h.rel_ins, getRelationNames(item, 'rel_ins', 'instrumentos')) +
+      gridSection(h.gridLabel3, item[h.gridField3]) +
+      gridSection(h.gridLabel4, item[h.gridField4]);
   }
 
   const detDesc = item['Descripción detallada'] || '';
@@ -869,20 +941,19 @@ function renderDetailText(item, cat) {
 
     ${detDesc ? `
       <div class="detail-desc-wrap">
-        <div class="ds-label">Descripción</div>
+        <div class="ds-label">${i.descriptionLabel}</div>
         <div class="detail-desc">${detDesc}</div>
       </div>` : ''}
 
     ${gridItems ? `<div class="detail-sections-grid">${gridItems}</div>` : ''}`;
-
 }
 
 /* ── Detail card export helpers ───────────────────────────── */
 let detailCurrentItem = null;
 let detailCurrentCat  = null;
-let cardPositionFixed = false; // true after first show (anchored to top/left for resize)
+let cardPositionFixed = false;
 
-const navHistory = [];   // [{name, cat}, ...]
+const navHistory = [];
 let   navIndex   = -1;
 
 function navUpdateButtons() {
@@ -893,55 +964,37 @@ function navUpdateButtons() {
 }
 
 function itemToMarkdown(item, cat) {
-  const cfg = CAT_CONFIG[cat];
+  const cfg  = CAT_CONFIG[cat];
   const name = item[cfg.nameKey];
+  const i    = i18n();
   let md = `# ${name}\n\n**${cfg.singularLabel}**\n\n`;
   if (item['Descripción breve']) md += `${item['Descripción breve']}\n\n`;
   const meta = [];
-  if (item['Fase'])          meta.push(`**Fase:** ${item['Fase']}`);
-  if (item['Participación']) meta.push(`**Participación:** ${item['Participación']}`);
-  if (item['Complejidad'])   meta.push(`**Complejidad:** ${item['Complejidad']}`);
-  if (item['Tipo'])          meta.push(`**Tipo:** ${item['Tipo']}`);
+  if (item['Fase'])          meta.push(`**${i.detailChipLabels.Fase}:** ${translateValue('Fase', item['Fase'])}`);
+  if (item['Participación']) meta.push(`**${i.detailChipLabels.Participación}:** ${translateValue('Participación', item['Participación'])}`);
+  if (item['Complejidad'])   meta.push(`**${i.detailChipLabels.Complejidad}:** ${translateValue('Complejidad', item['Complejidad'])}`);
+  if (item['Tipo'])          meta.push(`**${i.detailChipLabels.Tipo}:** ${item['Tipo']}`);
   if (meta.length) md += meta.join(' | ') + '\n\n';
-  if (item['Descripción detallada']) md += `## Descripción\n\n${item['Descripción detallada']}\n\n`;
-  const secs = cat === 'tecnicas'
-    ? [['Finalidad', item['Finalidad principal']], ['Cuándo conviene', item['Cuándo conviene']],
-       ['Evidencias habituales', item['Evidencias habituales']], ['Limitaciones', item['Limitaciones']]]
-    : cat === 'dimensiones'
-    ? [['Función pedagógica', item['Función pedagógica']], ['Cuándo conviene', item['Cuándo conviene']],
-       ['Evidencias habituales', item['Evidencias habituales']], ['Precauciones', item['Precauciones']]]
-    : cat === 'instrumentos'
-    ? [['Adecuado para', item['Adecuado para']], ['Técnicas asociadas', item['Técnicas asociadas']],
-       ['Dimensiones asociadas', item['Dimensiones asociadas']]]
-    : [['Sirve para', item['Sirve para']], ['Adecuada para', item['Adecuada para']],
-       ['Dimensiones asociadas', item['Dimensiones asociadas']], ['Ventajas', item['Ventajas']], ['Limitaciones', item['Limitaciones']]];
-  secs.forEach(([label, val]) => { if (val) md += `## ${label}\n\n${val}\n\n`; });
+  if (item['Descripción detallada']) md += `## ${i.descriptionLabel}\n\n${item['Descripción detallada']}\n\n`;
+  const secs = i.mdSectionLabels[cat] || [];
+  secs.forEach(([label, field]) => { if (item[field]) md += `## ${label}\n\n${item[field]}\n\n`; });
   return md.trim();
 }
 
 function buildPrintHtml(item, cat) {
-  const cfg = CAT_CONFIG[cat];
+  const cfg  = CAT_CONFIG[cat];
+  const i    = i18n();
   let body = `<h1>${item[cfg.nameKey]}</h1><p class="type">${cfg.singularLabel}</p>`;
   if (item['Descripción breve']) body += `<p class="brief">${item['Descripción breve']}</p>`;
   const meta = [];
-  if (item['Fase'])          meta.push(`<b>Fase:</b> ${item['Fase']}`);
-  if (item['Participación']) meta.push(`<b>Participación:</b> ${item['Participación']}`);
-  if (item['Complejidad'])   meta.push(`<b>Complejidad:</b> ${item['Complejidad']}`);
-  if (item['Tipo'])          meta.push(`<b>Tipo:</b> ${item['Tipo']}`);
+  if (item['Fase'])          meta.push(`<b>${i.detailChipLabels.Fase}:</b> ${translateValue('Fase', item['Fase'])}`);
+  if (item['Participación']) meta.push(`<b>${i.detailChipLabels.Participación}:</b> ${translateValue('Participación', item['Participación'])}`);
+  if (item['Complejidad'])   meta.push(`<b>${i.detailChipLabels.Complejidad}:</b> ${translateValue('Complejidad', item['Complejidad'])}`);
+  if (item['Tipo'])          meta.push(`<b>${i.detailChipLabels.Tipo}:</b> ${item['Tipo']}`);
   if (meta.length) body += `<p class="meta">${meta.join(' &nbsp;·&nbsp; ')}</p>`;
-  if (item['Descripción detallada']) body += `<h2>Descripción</h2><p>${item['Descripción detallada']}</p>`;
-  const secs = cat === 'tecnicas'
-    ? [['Finalidad', item['Finalidad principal']], ['Cuándo conviene', item['Cuándo conviene']],
-       ['Evidencias habituales', item['Evidencias habituales']], ['Limitaciones', item['Limitaciones']]]
-    : cat === 'dimensiones'
-    ? [['Función pedagógica', item['Función pedagógica']], ['Cuándo conviene', item['Cuándo conviene']],
-       ['Evidencias habituales', item['Evidencias habituales']], ['Precauciones', item['Precauciones']]]
-    : cat === 'instrumentos'
-    ? [['Adecuado para', item['Adecuado para']], ['Técnicas asociadas', item['Técnicas asociadas']],
-       ['Dimensiones asociadas', item['Dimensiones asociadas']]]
-    : [['Sirve para', item['Sirve para']], ['Adecuada para', item['Adecuada para']],
-       ['Dimensiones asociadas', item['Dimensiones asociadas']], ['Ventajas', item['Ventajas']], ['Limitaciones', item['Limitaciones']]];
-  secs.forEach(([label, val]) => { if (val) body += `<h2>${label}</h2><p>${val}</p>`; });
+  if (item['Descripción detallada']) body += `<h2>${i.descriptionLabel}</h2><p>${item['Descripción detallada']}</p>`;
+  const secs = i.mdSectionLabels[cat] || [];
+  secs.forEach(([label, field]) => { if (item[field]) body += `<h2>${label}</h2><p>${item[field]}</p>`; });
   return body;
 }
 
@@ -950,7 +1003,7 @@ let darkMode = false;
 function toggleTheme() {
   darkMode = !darkMode;
   document.documentElement.dataset.theme = darkMode ? 'dark' : '';
-  document.getElementById('btn-theme').textContent = darkMode ? '☀️ Claro' : '🌙 Oscuro';
+  document.getElementById('btn-theme').textContent = darkMode ? i18n().lightMode : i18n().darkMode;
 }
 
 /* ── Events ───────────────────────────────────────────────── */
@@ -1026,7 +1079,6 @@ function initEvents() {
     }
   });
 
-  // Card list clicks → show detail panel
   document.getElementById('cards-grid').addEventListener('click', e => {
     const card = e.target.closest('.cat-card[data-name]');
     if (card) showDetailPanel(card.dataset.name, card.dataset.cat);
@@ -1036,6 +1088,11 @@ function initEvents() {
     const card = e.target.closest('.cat-card[data-name]');
     if (card) showDetailPanel(card.dataset.name, card.dataset.cat);
   });
+
+  // Language switcher
+  document.querySelectorAll('.lang-btn[data-lang]').forEach(btn =>
+    btn.addEventListener('click', () => setLang(btn.dataset.lang))
+  );
 
   // Canvas — zoom (wheel), pan (drag), hover, click
   const hubCanvas = document.getElementById('hub-canvas');
@@ -1066,7 +1123,7 @@ function initEvents() {
       GRAPH.nodes[idx].fixed = true;
       GRAPH.alpha     = Math.max(GRAPH.alpha, 0.3);
       GRAPH.panMoved  = false;
-      GRAPH.panStart  = { x: e.clientX, y: e.clientY }; // track origin for move detection
+      GRAPH.panStart  = { x: e.clientX, y: e.clientY };
       hubCanvas.style.cursor = 'grabbing';
     } else {
       GRAPH.isPanning = true;
@@ -1162,12 +1219,11 @@ function initEvents() {
     }
   });
 
-  // Double-click to reset zoom/pan
   hubCanvas.addEventListener('dblclick', () => {
     GRAPH.camera = { x: 0, y: 0, scale: 1 };
   });
 
-  // ── Touch support for canvas (pan, pinch-zoom, tap) ──────────
+  // ── Touch support for canvas ─────────────────────────────
   let lastTouchDist = 0;
   let lastTouchMidX = 0, lastTouchMidY = 0;
 
@@ -1295,7 +1351,6 @@ function initEvents() {
   const dragHandle   = document.getElementById('detail-drag-handle');
   let cardDrag = null;
 
-  // Prevent buttons from starting card drag
   document.querySelectorAll('.detail-tool-btn').forEach(btn =>
     btn.addEventListener('mousedown', e => e.stopPropagation())
   );
@@ -1342,7 +1397,7 @@ p{margin:0 0 .6rem}.type{color:#64748b;font-style:italic}.brief{font-size:1.05re
     flashBtn(document.getElementById('btn-dl-card'));
   });
 
-  // Touch drag for detail card (resize bottom sheet on mobile, move on desktop)
+  // Touch drag for detail card
   let touchCardDrag = null;
   dragHandle.addEventListener('touchstart', e => {
     if (e.touches.length !== 1) return;
@@ -1386,7 +1441,6 @@ p{margin:0 0 .6rem}.type{color:#64748b;font-style:italic}.brief{font-size:1.05re
     if (e.button !== 0) return;
     const rect = detailCard.getBoundingClientRect();
     const panel = detailCard.parentElement.getBoundingClientRect();
-    // Switch from bottom/right anchoring to top/left
     detailCard.style.bottom = 'auto';
     detailCard.style.right  = 'auto';
     detailCard.style.top    = (rect.top  - panel.top)  + 'px';
@@ -1416,7 +1470,10 @@ p{margin:0 0 .6rem}.type{color:#64748b;font-style:italic}.brief{font-size:1.05re
 
 /* ── Init ─────────────────────────────────────────────────── */
 async function init() {
+  CAT_CONFIG = buildCatConfig(state.lang);
   initEvents();
+  renderHome();
+  updateStaticI18n();
   await loadData();
 }
 
