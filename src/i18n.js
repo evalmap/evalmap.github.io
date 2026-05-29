@@ -112,6 +112,16 @@ const I18N = {
     globalFiltersCatSep: 'Solo esta categoría',
     globalFiltersExcludedHint: 'El elemento seleccionado no aparece<br>con los filtros activos.<br>Selecciona otro o cambia los filtros.',
 
+    removeLabel: 'Quitar',
+    planItemCount: n => `${n} ítem${n !== 1 ? 's' : ''}`,
+    planEmptyTitle: 'Planificación de evaluación',
+    planEmptyDesc: 'Marca los instrumentos que usarás en tu unidad docente y comprueba qué <strong>dimensiones de evaluación</strong> quedan cubiertas y cuáles no.',
+    planEvidenceOnlyDim: 'Esta dimensión se activa a través de evidencias evaluables, no de instrumentos de evaluación.',
+    planAllSelectedForDim: 'Todos los instrumentos que cubren esta dimensión ya están seleccionados.',
+    planShowInstrumentsTitle: 'Ver instrumentos que cubren esta dimensión',
+    planTitle: 'Plan de evaluación',
+    planProgress: (covered, total) => `<strong>${covered}</strong> de ${total} dimensiones cubiertas`,
+
     searchPlaceholder: label => `Buscar ${label.toLowerCase()}...`,
     noResults: 'Sin resultados',
 
@@ -291,6 +301,16 @@ const I18N = {
     globalFiltersClear: 'Esborrar',
     globalFiltersCatSep: 'Només aquesta categoria',
     globalFiltersExcludedHint: "L'element seleccionat no apareix<br>amb els filtres actius.<br>Selecciona'n un altre o canvia els filtres.",
+
+    removeLabel: 'Treu',
+    planItemCount: n => `${n} ítem${n !== 1 ? 's' : ''}`,
+    planEmptyTitle: "Planificació de l'avaluació",
+    planEmptyDesc: "Marca els instruments que faràs servir en la teva unitat docent i comprova quines <strong>dimensions d'avaluació</strong> queden cobertes i quines no.",
+    planEvidenceOnlyDim: "Aquesta dimensió s'activa a través d'evidències avaluables, no d'instruments d'avaluació.",
+    planAllSelectedForDim: 'Tots els instruments que cobreixen aquesta dimensió ja estan seleccionats.',
+    planShowInstrumentsTitle: 'Veure instruments que cobreixen aquesta dimensió',
+    planTitle: "Pla d'avaluació",
+    planProgress: (covered, total) => `<strong>${covered}</strong> de ${total} dimensions cobertes`,
 
     searchPlaceholder: label => `Cerca ${label.toLowerCase()}...`,
     noResults: 'Sense resultats',
@@ -472,6 +492,16 @@ const I18N = {
     globalFiltersCatSep: 'This category only',
     localFiltersClear: 'Clear',
     globalFiltersExcludedHint: 'The selected element does not match<br>the active filters.<br>Select another one or change the filters.',
+
+    removeLabel: 'Remove',
+    planItemCount: n => `${n} item${n !== 1 ? 's' : ''}`,
+    planEmptyTitle: 'Assessment planning',
+    planEmptyDesc: 'Select the instruments you will use in your teaching unit and check which <strong>assessment dimensions</strong> are covered and which are not.',
+    planEvidenceOnlyDim: 'This dimension is activated through assessable evidence, not through assessment instruments.',
+    planAllSelectedForDim: 'All instruments that cover this dimension are already selected.',
+    planShowInstrumentsTitle: 'Show instruments that cover this dimension',
+    planTitle: 'Assessment plan',
+    planProgress: (covered, total) => `<strong>${covered}</strong> of ${total} dimensions covered`,
 
     searchPlaceholder: label => `Search ${label.toLowerCase()}...`,
     noResults: 'No results',

@@ -381,12 +381,12 @@ function renderGlobalFilters() {
     const val = state[GF_STATE[key]];
     if (!val) return '';
     const short = key === 'resistenciaIA' ? `IA: ${fvl[val] || val}` : (fvl[val] || val);
-    return `<span class="gf-pill"><span>${short}</span><button class="gf-pill-x" type="button" data-gf="${key}" aria-label="Quitar">×</button></span>`;
+    return `<span class="gf-pill"><span>${short}</span><button class="gf-pill-x" type="button" data-gf="${key}" aria-label="${i.removeLabel}">×</button></span>`;
   }).join('');
 
   const catCls = cfg ? CAT_CONFIG_BASE[state.cat]?.cls || cfg.cls : '';
   const extraPill = (cfg && cfg.extraFilterLabel && state.extra)
-    ? `<span class="gf-pill gf-pill--cat" style="--cat-color:var(--c-${catCls})"><span>${fvl[state.extra] || state.extra}</span><button class="gf-pill-x" type="button" data-gf="extra" aria-label="Quitar">×</button></span>`
+    ? `<span class="gf-pill gf-pill--cat" style="--cat-color:var(--c-${catCls})"><span>${fvl[state.extra] || state.extra}</span><button class="gf-pill-x" type="button" data-gf="extra" aria-label="${i.removeLabel}">×</button></span>`
     : '';
 
   const esc = val => String(val || '')
@@ -1765,10 +1765,11 @@ function exitPlanMode() {
 }
 
 function updatePlanToolbar() {
+  const i = i18n();
   const n = state.planSelected.size;
   const infoEl = document.getElementById('plan-info');
   const clearEl = document.getElementById('btn-plan-clear');
-  if (infoEl) infoEl.textContent = n > 0 ? `${n} ítem${n !== 1 ? 's' : ''}` : '';
+  if (infoEl) infoEl.textContent = n > 0 ? i.planItemCount(n) : '';
   if (clearEl) clearEl.style.display = n > 0 ? '' : 'none';
 }
 
@@ -1800,6 +1801,7 @@ function calcDimCoverage() {
 }
 
 function renderPlanCoverage() {
+  const i = i18n();
   const panel = document.getElementById('plan-coverage-panel');
   if (!panel) return;
   panel.style.display = '';
@@ -1812,8 +1814,8 @@ function renderPlanCoverage() {
     panel.innerHTML = `
       <div class="plan-empty-state">
         <div class="plan-empty-icon">🗂️</div>
-        <div class="plan-empty-title">Planificación de evaluación</div>
-        <div class="plan-empty-desc">Marca los instrumentos que usarás en tu unidad docente y comprueba qué <strong>dimensiones de evaluación</strong> quedan cubiertas — y cuáles no.</div>
+        <div class="plan-empty-title">${i.planEmptyTitle}</div>
+        <div class="plan-empty-desc">${i.planEmptyDesc}</div>
       </div>`;
     return;
   }
@@ -1839,8 +1841,8 @@ function renderPlanCoverage() {
       const allCovering = (state.data.herramientas || []).filter(h => h.rel_dim?.includes(d.code));
       const suggestions = allCovering.filter(h => !state.planSelected.has(h['Código']));
       const emptyMsg = allCovering.length === 0
-        ? 'Esta dimensión se activa a través de evidencias evaluables, no de instrumentos de evaluación.'
-        : 'Todos los instrumentos que cubren esta dimensión ya están seleccionados.';
+        ? i.planEvidenceOnlyDim
+        : i.planAllSelectedForDim;
       const suggestHtml = isExp ? `
         <div class="plan-suggest-list">
           ${suggestions.length
@@ -1852,7 +1854,7 @@ function renderPlanCoverage() {
           <div class="plan-dim-row-main">
             <span class="plan-dim-icon">–</span>
             <span class="plan-dim-name">${d.name}</span>
-            <span class="plan-dim-add" title="Ver instrumentos que cubren esta dimensión">${isExp ? '▲' : '+'}</span>
+            <span class="plan-dim-add" title="${i.planShowInstrumentsTitle}">${isExp ? '▲' : '+'}</span>
           </div>
           ${suggestHtml}
         </div>`;
@@ -1862,15 +1864,15 @@ function renderPlanCoverage() {
 
   const chipsHtml = [...state.planSelected.entries()].map(([code, v]) => `
     <span class="plan-her-chip">
-      ${v.name}<button class="plan-chip-remove" data-code="${code}" aria-label="Quitar">×</button>
+      ${v.name}<button class="plan-chip-remove" data-code="${code}" aria-label="${i.removeLabel}">×</button>
     </span>`).join('');
 
   panel.innerHTML = `
     <div class="plan-header-block">
-      <div class="plan-cov-title">Plan de evaluación</div>
+      <div class="plan-cov-title">${i.planTitle}</div>
       <div class="plan-progress-wrap">
         <div class="plan-progress-bar"><div class="plan-progress-fill" style="width:${pct}%"></div></div>
-        <span class="plan-progress-label"><strong>${coveredCount}</strong> de ${total} dimensiones cubiertas</span>
+        <span class="plan-progress-label">${i.planProgress(coveredCount, total)}</span>
       </div>
       <div class="plan-her-chips">${chipsHtml}</div>
     </div>
