@@ -4,10 +4,10 @@
 
 ## Índice
 
-1. [Técnicas de evaluación](#técnicas-de-evaluación)
-2. [Dimensiones transversales](#dimensiones-transversales)
-3. [Evidencias evaluables](#evidencias-evaluables)
-4. [Instrumentos de evaluación](#instrumentos-de-evaluación)
+1. [Técnicas de Evaluación](#técnicas-de-evaluación)
+2. [Dimensiones Transversales](#dimensiones-transversales)
+3. [Evidencias Evaluables](#evidencias-evaluables)
+4. [Instrumentos de Evaluación](#instrumentos-de-evaluación)
 
 ## Marco Conceptual
 
@@ -43,7 +43,7 @@ Es especialmente útil en actividades prácticas, debates, exposiciones, tallere
 
 **Limitaciones:** Puede ser subjetiva si no hay criterios claros.
 
-**Medios/evidencias asociados:** Debate, Exposición oral, Práctica de laboratorio, Taller, Trabajo cooperativo, Simulación, Trabajo individual en aula, Participación en clase, Asamblea, Dramatización, Prototipo
+**Medios/evidencias asociados:** Debate, Exposición oral, Práctica de laboratorio, Taller, Trabajo cooperativo, Simulación, Trabajo individual en aula, Participación en clase, Asamblea, Dramatización, Prototipo, Cuaderno de campo
 
 **Instrumentos de evaluación relacionados:** Lista de cotejo o control, Escala de observación, Rúbrica analítica, Registro anecdótico
 
@@ -101,7 +101,7 @@ Cuando el producto final no refleja todo el aprendizaje (porque el proceso fue c
 
 **Limitaciones:** No muestra todo el proceso si no se acompaña de seguimiento.
 
-**Medios/evidencias asociados:** Cuaderno de clase, Informe de laboratorio, Defensa de proyecto, Ensayo, Infografía, Vídeo, Podcast, Maqueta, Porfolio, Informe de investigación, Monografía, Comentario de texto, Comentario de gráfica o datos, Resumen, Esquema, Mapa conceptual, Mapa mental, Línea del tiempo, Glosario, Ficha de lectura, Reseña, Artículo divulgativo, Memoria de proyecto, Estudio de caso, Prueba con documentos, Póster académico, Presentación digital, Videotutorial, Cómic, Modelo digital, Prototipo, Página web, Entrada de blog, Documento colaborativo, Portfolio digital, Mapa conceptual inicial, Borrador, Entrega parcial
+**Medios/evidencias asociados:** Cuaderno de clase, Informe de laboratorio, Defensa de proyecto, Ensayo, Infografía, Vídeo, Podcast, Maqueta, Porfolio, Informe de investigación, Monografía, Comentario de texto, Comentario de gráfica o datos, Resumen, Esquema, Mapa conceptual, Mapa mental, Línea del tiempo, Glosario, Ficha de lectura, Reseña, Artículo divulgativo, Memoria de proyecto, Estudio de caso, Prueba con documentos, Póster académico, Presentación digital, Videotutorial, Cómic, Modelo digital, Prototipo, Página web, Entrada de blog, Documento colaborativo, Portfolio digital, Mapa conceptual inicial, Borrador, Entrega parcial, Cuaderno de campo, Microvídeo educativo
 
 **Instrumentos de evaluación relacionados:** Rúbrica analítica, Guía de corrección, Escala descriptiva, Ficha de retroalimentación
 
@@ -159,7 +159,7 @@ Permiten valorar comprensión profunda, argumentación, capacidad de síntesis, 
 
 **Limitaciones:** Puede depender de factores emocionales.
 
-**Medios/evidencias asociados:** Debate, Coloquio, Entrevista, Exposición oral, Defensa de proyecto, Asamblea, Juego de rol, Pregunta oral estructurada, Prueba oral, Presentación digital, Podcast, Foro de discusión, Lluvia de ideas
+**Medios/evidencias asociados:** Debate, Coloquio, Entrevista, Exposición oral, Defensa de proyecto, Asamblea, Juego de rol, Pregunta oral estructurada, Prueba oral, Presentación digital, Podcast, Foro de discusión, Lluvia de ideas, Microvídeo educativo
 
 **Instrumentos de evaluación relacionados:** Rúbrica oral, Escala de observación, Lista de cotejo o control, Registro anecdótico
 
@@ -213,9 +213,9 @@ Es especialmente útil en proyectos, portfolios, trabajos cooperativos y tareas 
 
 **Limitaciones:** Requiere seguimiento continuado y criterios claros para no convertirse en mera acumulación de documentos.
 
-**Medios/evidencias asociados:** Diario de aprendizaje, Ficha de reflexión, Autoinforme, Borrador, Entrega parcial, Bitácora de proyecto, Revisión por pares, Dos estrellas y un deseo, Semáforo de aprendizaje, Plan de trabajo, Acta de reunión, Contrato de aprendizaje, Documento colaborativo, Porfolio, Portfolio digital
+**Medios/evidencias asociados:** Diario de aprendizaje, Ficha de reflexión, Autoinforme, Borrador, Entrega parcial, Bitácora de proyecto, Revisión por pares, Dos estrellas y un deseo, Semáforo de aprendizaje, Plan de trabajo, Acta de reunión, Contrato de aprendizaje, Documento colaborativo, Porfolio, Portfolio digital, Bitácora de proceso con IA
 
-**Instrumentos de evaluación relacionados:** Rúbrica de proceso, Ficha de retroalimentación, Hoja de seguimiento individual, Registro de compromisos de mejora, Escala de autoevaluación, Historial de revisión, Panel de progreso
+**Instrumentos de evaluación relacionados:** Rúbrica de proceso, Ficha de retroalimentación, Hoja de seguimiento individual, Registro de compromisos de mejora, Escala de autoevaluación, Historial de revisión, Panel de progreso, Declaración de uso de IA y fuentes
 
 ---
 
@@ -294,9 +294,9 @@ Es una técnica útil para evaluación continua y criterial, especialmente cuand
 
 **Limitaciones:** Puede sobrevalorar lo que se documenta y dejar fuera actuaciones no registradas.
 
-**Medios/evidencias asociados:** Cuaderno de clase, Portfolio digital, Acta de reunión, Documento colaborativo
+**Medios/evidencias asociados:** Cuaderno de clase, Portfolio digital, Acta de reunión, Documento colaborativo, Bitácora de proceso con IA
 
-**Instrumentos de evaluación relacionados:** Mapa de evidencias por criterio, Historial de revisión, Banco digital de evidencias
+**Instrumentos de evaluación relacionados:** Mapa de evidencias por criterio, Historial de revisión, Banco digital de evidencias, Declaración de uso de IA y fuentes
 
 ---
 
@@ -321,7 +321,7 @@ Es especialmente útil en proyectos colaborativos y portfolios digitales.
 
 **Limitaciones:** Las trazas digitales requieren interpretación pedagógica y respeto a la privacidad.
 
-**Medios/evidencias asociados:** Foro de discusión, Documento colaborativo, Cuaderno digital, Portfolio digital
+**Medios/evidencias asociados:** Foro de discusión, Documento colaborativo, Cuaderno digital, Portfolio digital, Bitácora de proceso con IA
 
 **Instrumentos de evaluación relacionados:** Historial de revisión, Analíticas de aprendizaje, Panel de progreso
 
@@ -348,9 +348,9 @@ Es clave en evaluación competencial y criterial, porque evita decidir a partir 
 
 **Limitaciones:** Requiere decidir qué evidencias pesan más y evitar duplicar la misma evidencia.
 
-**Medios/evidencias asociados:** Tarea competencial integrada, E-portfolio con evidencias seleccionadas, Prueba competencial contextualizada
+**Medios/evidencias asociados:** Tarea competencial integrada, E-portfolio con evidencias seleccionadas, Prueba competencial contextualizada, Bitácora de proceso con IA
 
-**Instrumentos de evaluación relacionados:** Mapa de evidencias por criterio, Tabla de calificación por criterios, Perfil de logro
+**Instrumentos de evaluación relacionados:** Mapa de evidencias por criterio, Tabla de calificación por criterios, Perfil de logro, Declaración de uso de IA y fuentes
 
 ---
 
@@ -493,7 +493,7 @@ La evaluación formativa requiere tiempo y planificación, pero es la que más i
 
 **Precauciones:** Requiere tiempo para devolver información útil.
 
-**Medios/evidencias asociados:** Trabajo individual en aula, Participación en clase, Coloquio, Asamblea, Entrevista, Pregunta oral estructurada, Cuaderno de clase, Diario de aprendizaje, Porfolio, Resumen, Esquema, Mapa mental, Glosario, Ficha de lectura, Plan de trabajo, Contrato de aprendizaje, Ficha de reflexión, Prueba de respuesta corta, Documento colaborativo, Lluvia de ideas, Borrador, Entrega parcial, Bitácora de proyecto, Revisión por pares, Dos estrellas y un deseo, Semáforo de aprendizaje, Billete de salida, Trabajo cooperativo, Seminario socrático, Checklist de laboratorio
+**Medios/evidencias asociados:** Trabajo individual en aula, Participación en clase, Coloquio, Asamblea, Entrevista, Pregunta oral estructurada, Cuaderno de clase, Diario de aprendizaje, Porfolio, Resumen, Esquema, Mapa mental, Glosario, Ficha de lectura, Plan de trabajo, Contrato de aprendizaje, Ficha de reflexión, Prueba de respuesta corta, Documento colaborativo, Lluvia de ideas, Borrador, Entrega parcial, Bitácora de proyecto, Revisión por pares, Dos estrellas y un deseo, Semáforo de aprendizaje, Billete de salida, Trabajo cooperativo, Seminario socrático, Checklist de laboratorio, Cuaderno de campo, Bitácora de proceso con IA
 
 **Instrumentos de evaluación recomendados:** Ficha de retroalimentación, Lista de cotejo o control, Escala de observación, Escala de valoración, Registro descriptivo, Diario del profesor, Hoja de seguimiento grupal, Registro de participación, Notas de campo, Ficha de valoración, Semáforo de evaluación, Registro de compromisos de mejora, Escala verbal, Historial de revisión, Panel de progreso, Analíticas de aprendizaje, Banco digital de evidencias, Escala de progreso, Guía de observación, Plantilla de feedback/feedforward, Contrato de grupo, Sociograma
 
@@ -551,7 +551,7 @@ La evaluación competencial implica evaluar de forma integrada varios saberes y 
 
 **Precauciones:** Requiere buenos contextos y criterios observables.
 
-**Medios/evidencias asociados:** Ensayo, Comentario de texto, Línea del tiempo, Reseña, Artículo divulgativo, Estudio de caso, Prueba competencial contextualizada, Prueba con documentos, Infografía, Póster académico, Cómic, Prueba de libro abierto, Tarea competencial integrada, Situación-problema
+**Medios/evidencias asociados:** Ensayo, Comentario de texto, Línea del tiempo, Reseña, Artículo divulgativo, Estudio de caso, Prueba competencial contextualizada, Prueba con documentos, Infografía, Póster académico, Cómic, Prueba de libro abierto, Tarea competencial integrada, Situación-problema, Cuaderno de campo, Microvídeo educativo, Bitácora de proceso con IA
 
 **Instrumentos de evaluación recomendados:** Rúbrica competencial, Perfil de logro, Matriz de valoración, Banco de descriptores, Tabla de calificación por criterios, Lista de indicadores por criterio, Mapa de evidencias por criterio
 
@@ -580,7 +580,7 @@ Es especialmente útil en ciencias experimentales, educación física, artes, FP
 
 **Precauciones:** Puede requerir evidencias complementarias.
 
-**Medios/evidencias asociados:** Participación en clase, Coloquio, Taller, Simulación, Exposición oral, Defensa de proyecto, Entrevista, Pregunta oral estructurada, Prueba oral, Prueba práctica, Presentación digital, Videotutorial, Maqueta, Prototipo, Trabajo cooperativo, Seminario socrático, Checklist de laboratorio
+**Medios/evidencias asociados:** Participación en clase, Coloquio, Taller, Simulación, Exposición oral, Defensa de proyecto, Entrevista, Pregunta oral estructurada, Prueba oral, Prueba práctica, Presentación digital, Videotutorial, Maqueta, Prototipo, Trabajo cooperativo, Seminario socrático, Checklist de laboratorio, Microvídeo educativo
 
 **Instrumentos de evaluación recomendados:** Escala de observación, Lista de cotejo o control, Rúbrica de producto, Rúbrica oral, Registro descriptivo, Registro de participación, Guía de observación
 
@@ -638,7 +638,7 @@ Es especialmente adecuada en ciencias naturales, ciencias sociales y proyectos d
 
 **Precauciones:** Puede requerir andamiaje y fuentes adecuadas.
 
-**Medios/evidencias asociados:** Práctica de laboratorio, Informe de laboratorio, Informe de investigación
+**Medios/evidencias asociados:** Práctica de laboratorio, Informe de laboratorio, Informe de investigación, Cuaderno de campo
 
 **Instrumentos de evaluación recomendados:** Guía de corrección, Lista de cotejo o control
 
@@ -754,9 +754,9 @@ Las evidencias digitales permiten evaluar la competencia digital de forma autén
 
 **Precauciones:** Las analíticas no sustituyen al juicio pedagógico.
 
-**Medios/evidencias asociados:** Cuestionario digital, Infografía, Presentación digital, Vídeo, Podcast, Modelo digital, Página web, Entrada de blog, Foro de discusión, Documento colaborativo, Portfolio digital, Cuaderno digital
+**Medios/evidencias asociados:** Cuestionario digital, Infografía, Presentación digital, Vídeo, Podcast, Modelo digital, Página web, Entrada de blog, Foro de discusión, Documento colaborativo, Portfolio digital, Cuaderno digital, Microvídeo educativo, Bitácora de proceso con IA
 
-**Instrumentos de evaluación recomendados:** Rúbrica digital, Historial de revisión, Panel de progreso, Hoja de cálculo de evaluación, Formulario digital, Analíticas de aprendizaje, Banco digital de evidencias
+**Instrumentos de evaluación recomendados:** Rúbrica digital, Historial de revisión, Panel de progreso, Hoja de cálculo de evaluación, Formulario digital, Analíticas de aprendizaje, Banco digital de evidencias, Declaración de uso de IA y fuentes
 
 ---
 
@@ -783,7 +783,7 @@ Es especialmente importante en enfoques competenciales, porque permite justifica
 
 **Medios/evidencias asociados:** Tarea competencial integrada, Situación-problema, E-portfolio con evidencias seleccionadas, Prueba de libro abierto
 
-**Instrumentos de evaluación recomendados:** Lista de indicadores por criterio, Mapa de evidencias por criterio, Rúbrica competencial, Tabla de calificación por criterios
+**Instrumentos de evaluación recomendados:** Lista de indicadores por criterio, Mapa de evidencias por criterio, Rúbrica competencial, Tabla de calificación por criterios, Declaración de uso de IA y fuentes
 
 ---
 
@@ -862,9 +862,9 @@ Tiene más impacto cuando llega durante el proceso, se centra en criterios concr
 
 **Precauciones:** Debe ser específica, oportuna y accionable; una nota sola no es retroalimentación suficiente.
 
-**Medios/evidencias asociados:** Borrador, Revisión por pares, Dos estrellas y un deseo, Entrega parcial, E-portfolio con evidencias seleccionadas
+**Medios/evidencias asociados:** Borrador, Revisión por pares, Dos estrellas y un deseo, Entrega parcial, E-portfolio con evidencias seleccionadas, Bitácora de proceso con IA
 
-**Instrumentos de evaluación recomendados:** Plantilla de feedback/feedforward, Ficha de retroalimentación, Registro de compromisos de mejora
+**Instrumentos de evaluación recomendados:** Plantilla de feedback/feedforward, Ficha de retroalimentación, Registro de compromisos de mejora, Declaración de uso de IA y fuentes
 
 ---
 
@@ -972,9 +972,9 @@ Es especialmente útil en trabajos de investigación, proyectos, documentos cola
 
 **Precauciones:** No debe convertirse en burocracia; la trazabilidad debe aportar evidencias reales sobre decisiones, revisión y autoría.
 
-**Medios/evidencias asociados:** Bitácora de proceso con IA, Diario de aprendizaje, Porfolio, Informe de investigación, Monografía, Ensayo, Memoria de proyecto, Documento colaborativo, Portfolio digital, Presentación digital, Página web, Entrada de blog, Vídeo, Microvídeo educativo
+**Medios/evidencias asociados:** Diario de aprendizaje, Porfolio, Informe de investigación, Monografía, Ensayo, Artículo divulgativo, Memoria de proyecto, Plan de trabajo, Documento colaborativo, Portfolio digital, Bitácora de proyecto, Cuaderno digital, E-portfolio con evidencias seleccionadas, Presentación digital, Página web, Entrada de blog, Vídeo, Videotutorial, Microvídeo educativo, Comentario de texto, Comentario de gráfica o datos, Reseña, Resolución de problemas, Estudio de caso, Prueba competencial contextualizada, Infografía, Póster académico, Podcast, Modelo digital, Foro de discusión, Borrador, Entrega parcial, Revisión por pares, Cuaderno de campo, Resumen, Esquema, Mapa conceptual, Mapa mental, Línea del tiempo, Glosario, Ficha de lectura, Acta de reunión, Ficha de reflexión, Autoinforme, Tarea competencial integrada, Situación-problema, Bitácora de proceso con IA
 
-**Instrumentos de evaluación recomendados:** Declaración de uso de IA y fuentes, Historial de revisión, Mapa de evidencias por criterio, Banco digital de evidencias, Rúbrica de proceso, Ficha de retroalimentación
+**Instrumentos de evaluación recomendados:** Declaración de uso de IA y fuentes, Historial de revisión, Mapa de evidencias por criterio, Banco digital de evidencias, Rúbrica de proceso, Ficha de retroalimentación, Analíticas de aprendizaje
 
 ---
 
@@ -1399,9 +1399,9 @@ Es una actividad de gran potencial para el desarrollo de la metacognición y la 
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Instrumentos de evaluación recomendados:** Diana de evaluación, Escala de autoevaluación, Escala verbal, Ficha de retroalimentación
+**Instrumentos de evaluación recomendados:** Diana de evaluación, Escala de autoevaluación, Escala verbal, Ficha de retroalimentación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Autoevaluación, Finalidad formativa
+**Dimensiones asociadas:** Autoevaluación, Finalidad formativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1424,9 +1424,9 @@ Permite una evaluación longitudinal y auténtica. Desarrolla la autonomía, la 
 
 **Técnicas asociadas:** Análisis de producciones, Análisis de procesos y reflexiones
 
-**Instrumentos de evaluación recomendados:** Banco de descriptores, Escala descriptiva, Escala verbal, Hoja de cálculo de evaluación, Hoja de seguimiento individual, Matriz de ponderación
+**Instrumentos de evaluación recomendados:** Banco de descriptores, Escala descriptiva, Escala verbal, Hoja de cálculo de evaluación, Hoja de seguimiento individual, Matriz de ponderación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Finalidad formativa, Autoevaluación, Heteroevaluación
+**Dimensiones asociadas:** Finalidad formativa, Autoevaluación, Heteroevaluación, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1474,9 +1474,9 @@ Es la evidencia más adecuada para evaluar competencias de investigación en ESO
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Guía de corrección, Tabla de calificación por criterios
+**Instrumentos de evaluación recomendados:** Guía de corrección, Tabla de calificación por criterios, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Indagación, Heteroevaluación
+**Dimensiones asociadas:** Indagación, Heteroevaluación, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1499,9 +1499,9 @@ Es especialmente útil en Bachillerato y FP para desarrollar y evaluar la escrit
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Finalidad sumativa, Heteroevaluación
+**Dimensiones asociadas:** Finalidad sumativa, Heteroevaluación, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1524,9 +1524,9 @@ Es una tarea especialmente adecuada para evaluar pensamiento crítico, argumenta
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Guía de corrección, Tabla de calificación por criterios
+**Instrumentos de evaluación recomendados:** Guía de corrección, Tabla de calificación por criterios, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Finalidad sumativa, Enfoque competencial, Heteroevaluación
+**Dimensiones asociadas:** Finalidad sumativa, Enfoque competencial, Heteroevaluación, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1549,9 +1549,9 @@ Es una de las evidencias evaluables más habituales en lengua y literatura, hist
 
 **Técnicas asociadas:** Análisis de producciones, Pruebas específicas
 
-**Instrumentos de evaluación recomendados:** Guía de corrección, Rúbrica analítica
+**Instrumentos de evaluación recomendados:** Guía de corrección, Rúbrica analítica, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Enfoque competencial, Finalidad sumativa
+**Dimensiones asociadas:** Enfoque competencial, Finalidad sumativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1574,9 +1574,9 @@ Es una tarea clave en matemáticas, ciencias, geografía, economía y cualquier 
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala de observación
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala de observación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Resolución de problemas
+**Dimensiones asociadas:** Resolución de problemas, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1599,9 +1599,9 @@ Es una tarea muy accesible para evaluar la comprensión lectora y la capacidad d
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Escala descriptiva
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Escala descriptiva, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Finalidad formativa
+**Dimensiones asociadas:** Finalidad formativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1624,9 +1624,9 @@ Es especialmente útil para evaluar la comprensión y la organización del conoc
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Escala de observación
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Escala de observación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Finalidad formativa
+**Dimensiones asociadas:** Finalidad formativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1649,9 +1649,9 @@ Permite evaluar la estructura del conocimiento de un alumno: no solo si sabe los
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Lista de cotejo o control, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Finalidad diagnóstica
+**Dimensiones asociadas:** Finalidad diagnóstica, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1674,9 +1674,9 @@ Es especialmente útil para explorar ideas previas, hacer lluvias de ideas estru
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Escala de observación, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Escala de observación, Lista de cotejo o control, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Finalidad formativa
+**Dimensiones asociadas:** Finalidad formativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1699,9 +1699,9 @@ Es una tarea clave en historia, biología (evolución), literatura (movimientos 
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Enfoque competencial
+**Dimensiones asociadas:** Enfoque competencial, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1724,9 +1724,9 @@ Es útil como tarea continua a lo largo de una unidad y como herramienta de estu
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Guía de corrección
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Guía de corrección, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Finalidad formativa
+**Dimensiones asociadas:** Finalidad formativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1749,9 +1749,9 @@ Es especialmente útil en lengua y literatura, filosofía, ciencias sociales y c
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Escala de observación
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Escala de observación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Finalidad formativa
+**Dimensiones asociadas:** Finalidad formativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1774,9 +1774,9 @@ Es una tarea excelente para evaluar pensamiento crítico, escritura argumentativ
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Enfoque competencial, Finalidad sumativa
+**Dimensiones asociadas:** Enfoque competencial, Finalidad sumativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1799,9 +1799,9 @@ Desarrolla la competencia comunicativa escrita, la comprensión profunda de la m
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala descriptiva
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala descriptiva, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Enfoque competencial, Finalidad sumativa
+**Dimensiones asociadas:** Enfoque competencial, Finalidad sumativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1824,9 +1824,9 @@ Es la evidencia evaluable principal en proyectos de aprendizaje-servicio, proyec
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Conversor de niveles a calificación, Hoja de cálculo de evaluación, Hoja de seguimiento individual, Matriz de ponderación
+**Instrumentos de evaluación recomendados:** Conversor de niveles a calificación, Hoja de cálculo de evaluación, Hoja de seguimiento individual, Matriz de ponderación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Trabajo por proyectos
+**Dimensiones asociadas:** Trabajo por proyectos, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1849,9 +1849,9 @@ Es una actividad formativa que ayuda al alumnado al alumnado a desarrollar compe
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Hoja de seguimiento individual
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Hoja de seguimiento individual, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Finalidad formativa, Trabajo por proyectos
+**Dimensiones asociadas:** Finalidad formativa, Trabajo por proyectos, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1874,9 +1874,9 @@ Desarrolla habilidades de comunicación formal, organización y responsabilidad 
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones, Análisis documental
 
-**Instrumentos de evaluación recomendados:** Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Lista de cotejo o control, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Coevaluación
+**Dimensiones asociadas:** Coevaluación, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1924,9 +1924,9 @@ Es una actividad de cierre muy eficaz para sesiones, unidades o proyectos. Convi
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Instrumentos de evaluación recomendados:** Diana de evaluación, Escala de observación, Escala verbal, Ficha de retroalimentación
+**Instrumentos de evaluación recomendados:** Diana de evaluación, Escala de observación, Escala verbal, Ficha de retroalimentación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Autoevaluación, Finalidad formativa
+**Dimensiones asociadas:** Autoevaluación, Finalidad formativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1949,9 +1949,9 @@ Es una evidencia de alto valor metacognitivo, especialmente en portfolios, proye
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Instrumentos de evaluación recomendados:** Rúbrica de autoevaluación, Escala de observación
+**Instrumentos de evaluación recomendados:** Rúbrica de autoevaluación, Escala de observación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Autoevaluación, Finalidad sumativa
+**Dimensiones asociadas:** Autoevaluación, Finalidad sumativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1974,9 +1974,9 @@ Es la evidencia central de la evaluación competencial en matemáticas, física,
 
 **Técnicas asociadas:** Pruebas específicas
 
-**Instrumentos de evaluación recomendados:** Guía de corrección, Rúbrica competencial
+**Instrumentos de evaluación recomendados:** Guía de corrección, Rúbrica competencial, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Resolución de problemas
+**Dimensiones asociadas:** Resolución de problemas, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -1999,9 +1999,9 @@ Es especialmente adecuado en ciencias de la salud, ciencias sociales, derecho, h
 
 **Técnicas asociadas:** Pruebas específicas, Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección, Rúbrica competencial
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección, Rúbrica competencial, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Estudio de casos, Enfoque competencial
+**Dimensiones asociadas:** Estudio de casos, Enfoque competencial, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2174,9 +2174,9 @@ Es la evidencia que mejor articula la calificación con la evaluación por crite
 
 **Técnicas asociadas:** Pruebas específicas, Triangulación de evidencias
 
-**Instrumentos de evaluación recomendados:** Guía de corrección, Rúbrica competencial, Tabla de calificación por criterios
+**Instrumentos de evaluación recomendados:** Guía de corrección, Rúbrica competencial, Tabla de calificación por criterios, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Enfoque competencial, Heteroevaluación, Calificación y acreditación
+**Dimensiones asociadas:** Enfoque competencial, Heteroevaluación, Calificación y acreditación, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2249,9 +2249,9 @@ Desarrolla la competencia comunicativa visual, la capacidad de síntesis y la cr
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Lista de cotejo o control, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Enfoque competencial, Evidencias digitales
+**Dimensiones asociadas:** Enfoque competencial, Evidencias digitales, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2274,9 +2274,9 @@ Es especialmente adecuado en ciencias, tecnología y proyectos de investigación
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Escala de observación
+**Instrumentos de evaluación recomendados:** Escala de observación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Enfoque competencial
+**Dimensiones asociadas:** Enfoque competencial, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2299,9 +2299,9 @@ Es una tarea muy habitual pero que requiere orientación explícita sobre qué h
 
 **Técnicas asociadas:** Análisis de producciones, Intercambios orales
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Lista de cotejo o control, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Evidencias digitales, Evidencia de desempeño
+**Dimensiones asociadas:** Evidencias digitales, Evidencia de desempeño, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2324,9 +2324,9 @@ Desarrolla la competencia digital, la comunicación audiovisual y la creatividad
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica de producto, Escala de valoración
+**Instrumentos de evaluación recomendados:** Rúbrica de producto, Escala de valoración, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Evidencias digitales
+**Dimensiones asociadas:** Evidencias digitales, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2349,9 +2349,9 @@ Es una excelente evidencia para evaluar comprensión procedimental y la capacida
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Lista de cotejo o control, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Evidencia de desempeño
+**Dimensiones asociadas:** Evidencia de desempeño, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2374,9 +2374,9 @@ Favorece la expresión oral en un formato diferente al de la exposición presenc
 
 **Técnicas asociadas:** Intercambios orales, Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica oral, Escala de valoración
+**Instrumentos de evaluación recomendados:** Rúbrica oral, Escala de valoración, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Evidencias digitales
+**Dimensiones asociadas:** Evidencias digitales, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2449,9 +2449,9 @@ Desarrolla la competencia digital y el pensamiento espacial. Es especialmente ad
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala de observación
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala de observación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Evidencias digitales
+**Dimensiones asociadas:** Evidencias digitales, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2499,9 +2499,9 @@ Desarrolla competencia digital, comunicación multimodal y comprensión de la ma
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica digital, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Rúbrica digital, Lista de cotejo o control, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Evidencias digitales
+**Dimensiones asociadas:** Evidencias digitales, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2524,9 +2524,9 @@ Es una buena actividad para trabajar la escritura con una audiencia real y desar
 
 **Técnicas asociadas:** Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala de observación
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala de observación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Evidencias digitales
+**Dimensiones asociadas:** Evidencias digitales, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2549,9 +2549,9 @@ Permite la participación de alumnos que no intervienen fácilmente en debates p
 
 **Técnicas asociadas:** Intercambios orales, Análisis de interacciones digitales
 
-**Instrumentos de evaluación recomendados:** Registro de participación, Rúbrica oral
+**Instrumentos de evaluación recomendados:** Registro de participación, Rúbrica oral, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Evidencias digitales
+**Dimensiones asociadas:** Evidencias digitales, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2574,9 +2574,9 @@ Es especialmente útil para proyectos grupales donde la contribución individual
 
 **Técnicas asociadas:** Análisis de producciones, Análisis de procesos y reflexiones, Análisis documental, Análisis de interacciones digitales
 
-**Instrumentos de evaluación recomendados:** Historial de revisión, Rúbrica analítica, Hoja de seguimiento individual
+**Instrumentos de evaluación recomendados:** Historial de revisión, Rúbrica analítica, Hoja de seguimiento individual, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Evidencias digitales, Coevaluación, Finalidad formativa
+**Dimensiones asociadas:** Evidencias digitales, Coevaluación, Finalidad formativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2599,9 +2599,9 @@ Es la evidencia más completa para la evaluación por competencias y el seguimie
 
 **Técnicas asociadas:** Análisis de producciones, Análisis de procesos y reflexiones, Entrevista evaluativa, Análisis documental, Análisis de interacciones digitales
 
-**Instrumentos de evaluación recomendados:** Panel de progreso, Banco digital de evidencias
+**Instrumentos de evaluación recomendados:** Panel de progreso, Banco digital de evidencias, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Evidencias digitales
+**Dimensiones asociadas:** Evidencias digitales, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2699,9 +2699,9 @@ El ciclo borrador → retroalimentación → revisión → entrega final es uno 
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones, Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Ficha de retroalimentación, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Ficha de retroalimentación, Lista de cotejo o control, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Finalidad formativa, Evaluación continua, Retroalimentación y feedforward
+**Dimensiones asociadas:** Finalidad formativa, Evaluación continua, Retroalimentación y feedforward, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2724,9 +2724,9 @@ Evita la acumulación de trabajo al final y permite detectar problemas de compre
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones, Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Hoja de seguimiento individual, Rúbrica de proceso, Ficha de retroalimentación
+**Instrumentos de evaluación recomendados:** Hoja de seguimiento individual, Rúbrica de proceso, Ficha de retroalimentación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Finalidad formativa, Evaluación continua, Retroalimentación y feedforward
+**Dimensiones asociadas:** Finalidad formativa, Evaluación continua, Retroalimentación y feedforward, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2749,9 +2749,9 @@ Hace visible el proceso de aprendizaje, que de otro modo solo se conoce por el p
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Instrumentos de evaluación recomendados:** Hoja de seguimiento individual, Escala de observación, Rúbrica de proceso
+**Instrumentos de evaluación recomendados:** Hoja de seguimiento individual, Escala de observación, Rúbrica de proceso, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Trabajo por proyectos, Finalidad formativa
+**Dimensiones asociadas:** Trabajo por proyectos, Finalidad formativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2774,9 +2774,9 @@ Es una de las evidencias evaluables formativas con mayor impacto en la calidad d
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Instrumentos de evaluación recomendados:** Ficha de coevaluación, Rúbrica de coevaluación, Ficha de retroalimentación
+**Instrumentos de evaluación recomendados:** Ficha de coevaluación, Rúbrica de coevaluación, Ficha de retroalimentación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Coevaluación, Finalidad formativa, Retroalimentación y feedforward, Evaluación compartida y participativa
+**Dimensiones asociadas:** Coevaluación, Finalidad formativa, Retroalimentación y feedforward, Evaluación compartida y participativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2899,9 +2899,9 @@ Es una de las formas más potentes de evaluación competencial, siempre que la s
 
 **Técnicas asociadas:** Análisis de producciones, Observación sistemática, Triangulación de evidencias
 
-**Instrumentos de evaluación recomendados:** Rúbrica competencial, Mapa de evidencias por criterio, Lista de indicadores por criterio
+**Instrumentos de evaluación recomendados:** Rúbrica competencial, Mapa de evidencias por criterio, Lista de indicadores por criterio, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Enfoque competencial, Evaluación criterial, Evaluación inclusiva y DUA, Calificación y acreditación
+**Dimensiones asociadas:** Enfoque competencial, Evaluación criterial, Evaluación inclusiva y DUA, Calificación y acreditación, Evaluación gamificada, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2924,9 +2924,9 @@ Es especialmente adecuada para matemáticas, ciencias, tecnología y materias do
 
 **Técnicas asociadas:** Pruebas específicas, Análisis de producciones
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección, Lista de indicadores por criterio
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección, Lista de indicadores por criterio, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Resolución de problemas, Enfoque competencial, Evaluación criterial
+**Dimensiones asociadas:** Resolución de problemas, Enfoque competencial, Evaluación criterial, Evaluación gamificada, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -2951,7 +2951,7 @@ Conviene usarlo con criterios claros, porque la motivación del juego puede ocul
 
 **Instrumentos de evaluación recomendados:** Guía de observación, Rúbrica de trabajo cooperativo, Registro anecdótico
 
-**Dimensiones asociadas:** Simulación, Resolución de problemas, Evaluación compartida y participativa
+**Dimensiones asociadas:** Simulación, Resolución de problemas, Evaluación compartida y participativa, Evaluación gamificada
 
 ---
 
@@ -3024,9 +3024,9 @@ Es útil para evaluación continua y competencia digital, siempre que haya crite
 
 **Técnicas asociadas:** Análisis documental, Análisis de interacciones digitales, Análisis de procesos y reflexiones
 
-**Instrumentos de evaluación recomendados:** Historial de revisión, Panel de progreso, Banco digital de evidencias
+**Instrumentos de evaluación recomendados:** Historial de revisión, Panel de progreso, Banco digital de evidencias, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Evidencias digitales, Evaluación continua, Evaluación inclusiva y DUA
+**Dimensiones asociadas:** Evidencias digitales, Evaluación continua, Evaluación inclusiva y DUA, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -3049,9 +3049,9 @@ Es especialmente adecuado para evaluación continua, criterial y competencial.
 
 **Técnicas asociadas:** Análisis documental, Análisis de procesos y reflexiones, Triangulación de evidencias
 
-**Instrumentos de evaluación recomendados:** Mapa de evidencias por criterio, Banco digital de evidencias, Escala de progreso
+**Instrumentos de evaluación recomendados:** Mapa de evidencias por criterio, Banco digital de evidencias, Escala de progreso, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Evaluación criterial, Evaluación continua, Retroalimentación y feedforward, Calificación y acreditación, Evaluación compartida y participativa, Evaluación inclusiva y DUA
+**Dimensiones asociadas:** Evaluación criterial, Evaluación continua, Retroalimentación y feedforward, Calificación y acreditación, Evaluación compartida y participativa, Evaluación inclusiva y DUA, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -3074,9 +3074,9 @@ Es especialmente útil en ciencias naturales, geografía, educación ambiental, 
 
 **Técnicas asociadas:** Observación sistemática, Análisis de producciones, Análisis de procesos y reflexiones
 
-**Instrumentos de evaluación recomendados:** Guía de corrección, Lista de cotejo o control, Notas de campo, Rúbrica analítica
+**Instrumentos de evaluación recomendados:** Guía de corrección, Lista de cotejo o control, Notas de campo, Rúbrica analítica, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Indagación, Enfoque competencial, Finalidad formativa
+**Dimensiones asociadas:** Indagación, Enfoque competencial, Finalidad formativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -3099,9 +3099,9 @@ Es motivador para alumnado que aprende mejor mediante formatos visuales y orales
 
 **Técnicas asociadas:** Análisis de producciones, Intercambios orales
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Rúbrica de producto, Lista de cotejo o control, Ficha de coevaluación
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Rúbrica de producto, Lista de cotejo o control, Ficha de coevaluación, Declaración de uso de IA y fuentes
 
-**Dimensiones asociadas:** Evidencias digitales, Enfoque competencial, Evidencia de desempeño
+**Dimensiones asociadas:** Evidencias digitales, Enfoque competencial, Evidencia de desempeño, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -3155,7 +3155,7 @@ Es el instrumento de evaluación más adecuado para tareas complejas donde impor
 
 **Técnicas asociadas:** Observación sistemática, Análisis de producciones, Pruebas específicas
 
-**Medios/evidencias compatibles:** Informe de laboratorio, Defensa de proyecto, Exposición oral, Debate, Vídeo, Práctica de laboratorio, Taller, Simulación, Juego de rol, Monografía, Comentario de texto, Comentario de gráfica o datos, Mapa conceptual, Reseña, Artículo divulgativo, Estudio de caso, Prueba escrita de desarrollo, Prueba con documentos, Infografía, Presentación digital, Videotutorial, Cómic, Maqueta, Modelo digital, Entrada de blog, Documento colaborativo, Prueba de libro abierto, Situación-problema
+**Medios/evidencias compatibles:** Informe de laboratorio, Defensa de proyecto, Exposición oral, Debate, Vídeo, Práctica de laboratorio, Taller, Simulación, Juego de rol, Monografía, Comentario de texto, Comentario de gráfica o datos, Mapa conceptual, Reseña, Artículo divulgativo, Estudio de caso, Prueba escrita de desarrollo, Prueba con documentos, Infografía, Presentación digital, Videotutorial, Cómic, Maqueta, Modelo digital, Entrada de blog, Documento colaborativo, Prueba de libro abierto, Situación-problema, Microvídeo educativo
 
 **Dimensiones asociadas:** Heteroevaluación, Finalidad sumativa, Estudio de casos, Simulación
 
@@ -3211,9 +3211,9 @@ Es fundamental en proyectos de larga duración, investigaciones y portfolios, do
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones
 
-**Medios/evidencias compatibles:** Defensa de proyecto, Portfolio digital, Bitácora de proyecto, Entrega parcial
+**Medios/evidencias compatibles:** Defensa de proyecto, Portfolio digital, Bitácora de proyecto, Entrega parcial, Bitácora de proceso con IA
 
-**Dimensiones asociadas:** Trabajo por proyectos
+**Dimensiones asociadas:** Trabajo por proyectos, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -3238,7 +3238,7 @@ Se complementa con la rúbrica de proceso en proyectos extensos. Usada sola, pue
 
 **Limitaciones:** Puede dejar fuera el proceso si se usa sola.
 
-**Medios/evidencias compatibles:** Infografía, Informe de laboratorio, Maqueta, Vídeo, Página web, Prototipo
+**Medios/evidencias compatibles:** Infografía, Informe de laboratorio, Maqueta, Vídeo, Página web, Prototipo, Microvídeo educativo
 
 **Dimensiones asociadas:** Finalidad sumativa, Evidencia de desempeño
 
@@ -3464,7 +3464,7 @@ Aumenta la consistencia de la corrección entre distintas correcciones del mismo
 
 **Técnicas asociadas:** Análisis de producciones, Pruebas específicas, Entrevista evaluativa
 
-**Medios/evidencias compatibles:** Prueba escrita de desarrollo, Resolución de problemas, Comentario de texto, Informe de laboratorio, Informe de investigación, Monografía, Ensayo, Glosario, Reseña, Estudio de caso, Prueba de respuesta corta, Prueba competencial contextualizada, Prueba con documentos, Prueba de libro abierto, Situación-problema
+**Medios/evidencias compatibles:** Prueba escrita de desarrollo, Resolución de problemas, Comentario de texto, Informe de laboratorio, Informe de investigación, Monografía, Ensayo, Glosario, Reseña, Estudio de caso, Prueba de respuesta corta, Prueba competencial contextualizada, Prueba con documentos, Prueba de libro abierto, Situación-problema, Cuaderno de campo
 
 **Dimensiones asociadas:** Heteroevaluación, Finalidad sumativa, Indagación, Resolución de problemas
 
@@ -3748,7 +3748,7 @@ Son la base de la observación incidental y del registro anecdótico. Con el tie
 
 **Técnicas asociadas:** Observación incidental
 
-**Medios/evidencias compatibles:** Billete de salida, Informe de investigación, Práctica de laboratorio, Lluvia de ideas
+**Medios/evidencias compatibles:** Billete de salida, Informe de investigación, Práctica de laboratorio, Lluvia de ideas, Cuaderno de campo
 
 **Dimensiones asociadas:** Finalidad formativa
 
@@ -3804,9 +3804,9 @@ La retroalimentación es más efectiva cuando es específica, oportuna y orienta
 
 **Técnicas asociadas:** Análisis de producciones, Análisis de procesos y reflexiones
 
-**Medios/evidencias compatibles:** Dos estrellas y un deseo, Borrador, Defensa de proyecto, Entrega parcial, Informe de laboratorio, Diario de aprendizaje, Ficha de reflexión, Revisión por pares, Billete de salida
+**Medios/evidencias compatibles:** Dos estrellas y un deseo, Borrador, Defensa de proyecto, Entrega parcial, Informe de laboratorio, Diario de aprendizaje, Ficha de reflexión, Revisión por pares, Billete de salida, Bitácora de proceso con IA
 
-**Dimensiones asociadas:** Finalidad formativa, Retroalimentación y feedforward
+**Dimensiones asociadas:** Finalidad formativa, Retroalimentación y feedforward, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -4439,9 +4439,9 @@ Es una evidencia de proceso muy valiosa en trabajos grupales digitales, ya que h
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones, Análisis documental, Análisis de interacciones digitales
 
-**Medios/evidencias compatibles:** Documento colaborativo, Defensa de proyecto, Cuaderno digital
+**Medios/evidencias compatibles:** Documento colaborativo, Defensa de proyecto, Cuaderno digital, Bitácora de proceso con IA
 
-**Dimensiones asociadas:** Evidencias digitales, Finalidad formativa
+**Dimensiones asociadas:** Evidencias digitales, Finalidad formativa, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -4497,9 +4497,9 @@ Son especialmente útiles para identificar tendencias grupales e individuales de
 
 **Técnicas asociadas:** Análisis de interacciones digitales
 
-**Medios/evidencias compatibles:** Cuestionario digital, Foro de discusión
+**Medios/evidencias compatibles:** Cuestionario digital, Foro de discusión, Bitácora de proceso con IA
 
-**Dimensiones asociadas:** Evidencias digitales, Finalidad formativa
+**Dimensiones asociadas:** Evidencias digitales, Finalidad formativa, Evaluación gamificada, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -4526,9 +4526,9 @@ Es la base del portfolio digital. Permite la evaluación continua, la reflexión
 
 **Técnicas asociadas:** Análisis documental
 
-**Medios/evidencias compatibles:** Portfolio digital, Defensa de proyecto, Cuaderno digital, E-portfolio con evidencias seleccionadas
+**Medios/evidencias compatibles:** Portfolio digital, Defensa de proyecto, Cuaderno digital, E-portfolio con evidencias seleccionadas, Bitácora de proceso con IA
 
-**Dimensiones asociadas:** Evidencias digitales, Finalidad formativa, Evaluación continua
+**Dimensiones asociadas:** Evidencias digitales, Finalidad formativa, Evaluación continua, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -4719,9 +4719,9 @@ Es un instrumento de evaluación clave para la evaluación criterial y triangula
 
 **Técnicas asociadas:** Análisis documental, Triangulación de evidencias
 
-**Medios/evidencias compatibles:** Tarea competencial integrada, E-portfolio con evidencias seleccionadas, Prueba competencial contextualizada
+**Medios/evidencias compatibles:** Tarea competencial integrada, E-portfolio con evidencias seleccionadas, Prueba competencial contextualizada, Bitácora de proceso con IA
 
-**Dimensiones asociadas:** Evaluación criterial, Enfoque competencial, Calificación y acreditación, Evaluación inclusiva y DUA
+**Dimensiones asociadas:** Evaluación criterial, Enfoque competencial, Calificación y acreditación, Evaluación inclusiva y DUA, Trazabilidad, autoría y uso de IA
 
 ---
 
@@ -4748,7 +4748,7 @@ No sustituye a una rúbrica ni demuestra por sí sola el aprendizaje, pero ayuda
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones, Análisis documental, Triangulación de evidencias
 
-**Medios/evidencias compatibles:** Bitácora de proceso con IA, Informe de investigación, Monografía, Ensayo, Artículo divulgativo, Memoria de proyecto, Documento colaborativo, Portfolio digital, Presentación digital, Página web, Entrada de blog, Vídeo, Microvídeo educativo
+**Medios/evidencias compatibles:** Diario de aprendizaje, Porfolio, Informe de investigación, Monografía, Ensayo, Artículo divulgativo, Memoria de proyecto, Plan de trabajo, Documento colaborativo, Portfolio digital, Bitácora de proyecto, Cuaderno digital, E-portfolio con evidencias seleccionadas, Presentación digital, Página web, Entrada de blog, Vídeo, Videotutorial, Microvídeo educativo, Comentario de texto, Comentario de gráfica o datos, Reseña, Resolución de problemas, Estudio de caso, Prueba competencial contextualizada, Infografía, Póster académico, Podcast, Modelo digital, Foro de discusión, Borrador, Entrega parcial, Revisión por pares, Cuaderno de campo, Resumen, Esquema, Mapa conceptual, Mapa mental, Línea del tiempo, Glosario, Ficha de lectura, Acta de reunión, Ficha de reflexión, Autoinforme, Tarea competencial integrada, Situación-problema, Bitácora de proceso con IA
 
 **Dimensiones asociadas:** Trazabilidad, autoría y uso de IA, Evidencias digitales, Evaluación criterial, Retroalimentación y feedforward
 

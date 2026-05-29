@@ -17,7 +17,9 @@ python3 -m http.server 8080
 ```
 /
 ├── index.html                  # Aplicación principal
-├── mapa_evaluacion.md          # Mapa completo generado en Markdown
+├── mapa_evaluacion.md          # Mapa completo generado en Markdown (castellano)
+├── mapa_avaluacio.md           # Mapa completo generado en Markdown (catalán)
+├── assessment_map.md           # Mapa completo generado en Markdown (inglés)
 ├── css/
 │   └── styles.css              # Estilos (modo claro/oscuro/sistema)
 ├── src/
@@ -29,7 +31,7 @@ python3 -m http.server 8080
 │   ├── ca/                     # Datos traducidos al catalán
 │   └── en/                     # Datos traducidos al inglés
 └── scripts/
-    ├── generate_mapa_evaluacion.py  # Genera mapa_evaluacion.md desde data/es/
+    ├── generate_mapa_evaluacion.py  # Genera los mapas Markdown desde data/{es,ca,en}/
     └── *.py                         # Scripts auxiliares de mantenimiento de datos
 ```
 
@@ -42,13 +44,19 @@ Los catálogos principales están en `data/es/`:
 
 ## Generar el mapa en Markdown
 
-`mapa_evaluacion.md` se genera a partir de los JSON en castellano:
+Los mapas Markdown se generan a partir de los JSON de cada idioma:
 
 ```bash
 python3 scripts/generate_mapa_evaluacion.py
 ```
 
-La introducción y la estructura general del Markdown están definidas en ese script; el contenido de cada ficha sale de `data/es/`.
+El script genera:
+
+- `mapa_evaluacion.md` desde `data/es/`
+- `mapa_avaluacio.md` desde `data/ca/`
+- `assessment_map.md` desde `data/en/`
+
+La introducción, las cabeceras y las etiquetas del Markdown están definidas en ese script; el contenido de cada ficha sale de los JSON del idioma correspondiente.
 
 ## Vistas de la aplicación
 
