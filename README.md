@@ -16,21 +16,39 @@ python3 -m http.server 8080
 
 ```
 /
-├── index.html              # Aplicación principal
+├── index.html                  # Aplicación principal
+├── mapa_evaluacion.md          # Mapa completo generado en Markdown
 ├── css/
-│   └── styles.css          # Estilos (modo claro/oscuro/sistema)
+│   └── styles.css              # Estilos (modo claro/oscuro/sistema)
 ├── src/
-│   ├── app.js              # Lógica principal: catálogo, grafo de relaciones, filtros
-│   ├── recommendationEngine.js  # Motor de recomendación
-│   ├── generator.js        # Generador de herramientas
-│   ├── parser.js           # Parser de texto libre
-│   └── export.js           # Exportación de resultados
-└── data/
-    ├── tecnicas.json        # Catálogo de técnicas (12 registros)
-    ├── instrumentos.json    # Catálogo de evidencias evaluables (86 registros)
-    ├── herramientas.json    # Catálogo de instrumentos de evaluación (58 registros)
-    └── dimensiones.json     # Dimensiones transversales de evaluación (22 registros)
+│   ├── app.js                  # Lógica principal: catálogo, grafo, filtros y planificador
+│   ├── i18n.js                 # Textos de interfaz en castellano, catalán e inglés
+│   └── legacy/                 # Motor, parser, generador y exportación antiguos
+├── data/
+│   ├── es/                     # Datos principales en castellano
+│   ├── ca/                     # Datos traducidos al catalán
+│   └── en/                     # Datos traducidos al inglés
+└── scripts/
+    ├── generate_mapa_evaluacion.py  # Genera mapa_evaluacion.md desde data/es/
+    └── *.py                         # Scripts auxiliares de mantenimiento de datos
 ```
+
+Los catálogos principales están en `data/es/`:
+
+- `tecnicas.json`: técnicas de evaluación (12 registros)
+- `dimensiones.json`: dimensiones transversales de evaluación (22 registros)
+- `instrumentos.json`: evidencias evaluables (86 registros)
+- `herramientas.json`: instrumentos de evaluación (58 registros)
+
+## Generar el mapa en Markdown
+
+`mapa_evaluacion.md` se genera a partir de los JSON en castellano:
+
+```bash
+python3 scripts/generate_mapa_evaluacion.py
+```
+
+La introducción y la estructura general del Markdown están definidas en ese script; el contenido de cada ficha sale de `data/es/`.
 
 ## Vistas de la aplicación
 
