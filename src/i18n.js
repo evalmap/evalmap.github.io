@@ -121,6 +121,9 @@ const I18N = {
     planShowInstrumentsTitle: 'Ver instrumentos que cubren esta dimensión',
     planTitle: 'Plan de evaluación',
     planProgress: (covered, total) => `<strong>${covered}</strong> de ${total} dimensiones cubiertas`,
+    planButtonLabel: '📊 Planificación',
+    planButtonTooltip: 'Marca los instrumentos de evaluación que usarás en tu unidad y comprueba qué dimensiones cubre tu plan y cuáles quedan sin atender.',
+    planClearLabel: '✕ Limpiar',
 
     searchPlaceholder: label => `Buscar ${label.toLowerCase()}...`,
     noResults: 'Sin resultados',
@@ -311,6 +314,9 @@ const I18N = {
     planShowInstrumentsTitle: 'Veure instruments que cobreixen aquesta dimensió',
     planTitle: "Pla d'avaluació",
     planProgress: (covered, total) => `<strong>${covered}</strong> de ${total} dimensions cobertes`,
+    planButtonLabel: '📊 Planificació',
+    planButtonTooltip: "Marca els instruments d'avaluació que faràs servir en la teva unitat i comprova quines dimensions cobreix el teu pla i quines queden sense atendre.",
+    planClearLabel: '✕ Esborra',
 
     searchPlaceholder: label => `Cerca ${label.toLowerCase()}...`,
     noResults: 'Sense resultats',
@@ -502,6 +508,9 @@ const I18N = {
     planShowInstrumentsTitle: 'Show instruments that cover this dimension',
     planTitle: 'Assessment plan',
     planProgress: (covered, total) => `<strong>${covered}</strong> of ${total} dimensions covered`,
+    planButtonLabel: '📊 Planning',
+    planButtonTooltip: 'Select the assessment instruments you will use in your unit and check which dimensions your plan covers and which remain unattended.',
+    planClearLabel: '✕ Clear',
 
     searchPlaceholder: label => `Search ${label.toLowerCase()}...`,
     noResults: 'No results',

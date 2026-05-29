@@ -148,6 +148,14 @@ function updateStaticI18n() {
   const btnTheme = document.getElementById('btn-theme');
   if (btnTheme) btnTheme.textContent = darkMode ? i.lightMode : i.darkMode;
 
+  const btnPlan = document.getElementById('btn-plan-mode');
+  if (btnPlan) {
+    btnPlan.textContent = i.planButtonLabel;
+    btnPlan.dataset.tooltip = i.planButtonTooltip;
+  }
+  const btnPlanClear = document.getElementById('btn-plan-clear');
+  if (btnPlanClear) btnPlanClear.textContent = i.planClearLabel;
+
   const aiSpan = document.querySelector('.notebooklm-btn span:last-child');
   if (aiSpan) aiSpan.textContent = i.aiAssistant;
   const aiBtn = document.querySelector('.notebooklm-btn');
