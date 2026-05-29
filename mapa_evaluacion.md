@@ -11,7 +11,13 @@
 
 ## Marco Conceptual
 
-Las **técnicas** son procedimientos de recogida, análisis o contraste de evidencias de aprendizaje. Las **dimensiones** sitúan pedagógicamente la evaluación: finalidad, momento, agente evaluador, enfoque curricular, tipo de evidencia, soporte o contexto metodológico. Las **evidencias evaluables** son las tareas, actividades, productos, actuaciones o respuestas mediante las cuales el alumnado hace visible su aprendizaje. Los **instrumentos de evaluación** permiten registrar, valorar, retroalimentar, calificar o comunicar esas evidencias.
+Este mapa no pretende ofrecer una clasificación cerrada, sino una ayuda práctica para diseñar evaluaciones más coherentes, variadas y útiles en el aula. En evaluación educativa conviene distinguir entre lo que el alumnado hace o produce, cómo se recoge esa información, con qué criterios se interpreta y qué decisión docente se toma a partir de ella.
+
+Las **técnicas** son procedimientos de recogida, análisis o contraste de evidencias de aprendizaje. Las **dimensiones transversales** sitúan pedagógicamente la evaluación según el agente, la finalidad, el momento, el enfoque curricular, el tipo de evidencia, el soporte y el contexto metodológico. Las **evidencias evaluables** son las tareas, actividades, productos, actuaciones o respuestas mediante las cuales el alumnado hace visible su aprendizaje. Los **instrumentos de evaluación** permiten registrar, valorar, retroalimentar, calificar o comunicar esas evidencias, aunque no todos los instrumentos tienen por qué usarse para calificar.
+
+La utilidad pedagógica del mapa depende de su uso docente: las evidencias deben estar alineadas con los criterios de evaluación, ser suficientes y variadas, y tener en cuenta el contexto real del aula, la diversidad del alumnado y la carga de trabajo asumible. Una misma actividad puede cumplir funciones distintas según el momento y la finalidad: diagnóstica, formativa, sumativa, competencial, inclusiva o acreditativa.
+
+Por tanto, las relaciones entre técnicas, dimensiones, evidencias e instrumentos deben entenderse como orientaciones para tomar decisiones, no como recetas automáticas. Evaluar bien implica seleccionar evidencias relevantes, interpretarlas con criterios claros, ofrecer retroalimentación útil y, cuando corresponda, traducirlas en una calificación justificable.
 
 ## Técnicas de Evaluación
 
@@ -43,6 +49,7 @@ Es especialmente útil en actividades prácticas, debates, exposiciones, tallere
 
 ---
 
+
 ### 2. Observación incidental
 
 _Registro de hechos relevantes surgidos de forma no prevista._
@@ -70,6 +77,7 @@ No sustituye a la observación sistemática, sino que la complementa aportando e
 **Instrumentos de evaluación relacionados:** Registro anecdótico, Notas de campo, Diario del profesor
 
 ---
+
 
 ### 3. Análisis de producciones
 
@@ -99,6 +107,7 @@ Cuando el producto final no refleja todo el aprendizaje (porque el proceso fue c
 
 ---
 
+
 ### 4. Pruebas específicas
 
 _Situaciones diseñadas expresamente para comprobar aprendizajes._
@@ -126,6 +135,7 @@ Son útiles para acreditar logros y para comparar resultados, pero no deben ser 
 **Instrumentos de evaluación relacionados:** Guía de corrección, Baremo, Plantilla de corrección, Rúbrica analítica, Escala numérica
 
 ---
+
 
 ### 5. Intercambios orales
 
@@ -155,6 +165,7 @@ Permiten valorar comprensión profunda, argumentación, capacidad de síntesis, 
 
 ---
 
+
 ### 6. Sondeo y cuestionamiento
 
 _Recogida rápida de respuestas, ideas previas o comprensión mediante preguntas breves._
@@ -180,6 +191,7 @@ Es especialmente útil en evaluación diagnóstica y formativa, porque proporcio
 **Instrumentos de evaluación relacionados:** Formulario digital, Escala de autoevaluación, Lista de cotejo o control, Registro descriptivo, Hoja de seguimiento individual
 
 ---
+
 
 ### 7. Análisis de procesos y reflexiones
 
@@ -207,6 +219,7 @@ Es especialmente útil en proyectos, portfolios, trabajos cooperativos y tareas 
 
 ---
 
+
 ### 8. Entrevista evaluativa
 
 _Conversación planificada para explorar comprensión, razonamiento o proceso._
@@ -232,6 +245,7 @@ Es útil para obtener evidencias profundas, pero debe planificarse para evitar i
 **Instrumentos de evaluación relacionados:** Guía de corrección, Rúbrica oral, Registro anecdótico, Guía de observación
 
 ---
+
 
 ### 9. Encuesta y cuestionario
 
@@ -259,6 +273,7 @@ Son útiles por su rapidez y comparabilidad, pero no deben sustituir a evidencia
 
 ---
 
+
 ### 10. Análisis documental
 
 _Revisión de documentos, registros y evidencias acumuladas._
@@ -284,6 +299,7 @@ Es una técnica útil para evaluación continua y criterial, especialmente cuand
 **Instrumentos de evaluación relacionados:** Mapa de evidencias por criterio, Historial de revisión, Banco digital de evidencias
 
 ---
+
 
 ### 11. Análisis de interacciones digitales
 
@@ -311,6 +327,7 @@ Es especialmente útil en proyectos colaborativos y portfolios digitales.
 
 ---
 
+
 ### 12. Triangulación de evidencias
 
 _Contraste de varias evidencias para tomar una decisión evaluativa más sólida._
@@ -336,6 +353,7 @@ Es clave en evaluación competencial y criterial, porque evita decidir a partir 
 **Instrumentos de evaluación relacionados:** Mapa de evidencias por criterio, Tabla de calificación por criterios, Perfil de logro
 
 ---
+
 
 ## Dimensiones Transversales
 
@@ -363,9 +381,10 @@ Su valor principal es metacognitivo: obliga al alumnado a reflexionar sobre lo q
 
 **Medios/evidencias asociados:** Diario de aprendizaje, Porfolio, Contrato de aprendizaje, Ficha de reflexión, Autoinforme, KPSI, Semáforo de aprendizaje, Billete de salida, Checklist de laboratorio
 
-**Instrumentos de evaluación relacionados:** Escala de autoevaluación, Diana de evaluación, Rúbrica de autoevaluación, Lista de cotejo o control, Semáforo de evaluación, Lista de cotejo de autoevaluación, Registro de compromisos de mejora
+**Instrumentos de evaluación recomendados:** Escala de autoevaluación, Diana de evaluación, Rúbrica de autoevaluación, Lista de cotejo o control, Semáforo de evaluación, Lista de cotejo de autoevaluación, Registro de compromisos de mejora
 
 ---
+
 
 ### 2. Coevaluación
 
@@ -391,9 +410,10 @@ Su función principal es formativa: los comentarios de los compañeros, combinad
 
 **Medios/evidencias asociados:** Trabajo cooperativo, Debate, Asamblea, Exposición oral, Acta de reunión, Documento colaborativo, Revisión por pares, Dos estrellas y un deseo
 
-**Instrumentos de evaluación relacionados:** Rúbrica de coevaluación, Escala de observación, Formulario digital, Rúbrica oral, Rúbrica de trabajo cooperativo, Registro de trabajo cooperativo, Ficha de coevaluación
+**Instrumentos de evaluación recomendados:** Rúbrica de coevaluación, Escala de observación, Formulario digital, Rúbrica oral, Rúbrica de trabajo cooperativo, Registro de trabajo cooperativo, Ficha de coevaluación
 
 ---
+
 
 ### 3. Heteroevaluación
 
@@ -419,9 +439,10 @@ No debe ser la única forma de evaluación: combinarla con autoevaluación y coe
 
 **Medios/evidencias asociados:** Práctica de laboratorio, Exposición oral, Defensa de proyecto, Porfolio, Informe de laboratorio, Informe de investigación, Monografía, Ensayo, Prueba escrita de desarrollo, Prueba objetiva, Prueba tipo test, Prueba de respuesta corta, Prueba oral, Prueba práctica, Prueba competencial contextualizada, Prueba con documentos, Trabajo cooperativo, Prueba de libro abierto
 
-**Instrumentos de evaluación relacionados:** Rúbrica analítica, Guía de corrección, Lista de cotejo o control, Escala de observación, Cuaderno de calificaciones, Acta de evaluación
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección, Lista de cotejo o control, Escala de observación, Cuaderno de calificaciones, Acta de evaluación
 
 ---
+
 
 ### 4. Finalidad diagnóstica
 
@@ -449,6 +470,7 @@ Una buena evaluación diagnóstica permite al docente partir de donde está el a
 
 ---
 
+
 ### 5. Finalidad formativa
 
 _Evaluación durante el proceso para mejorar el aprendizaje._
@@ -473,9 +495,10 @@ La evaluación formativa requiere tiempo y planificación, pero es la que más i
 
 **Medios/evidencias asociados:** Trabajo individual en aula, Participación en clase, Coloquio, Asamblea, Entrevista, Pregunta oral estructurada, Cuaderno de clase, Diario de aprendizaje, Porfolio, Resumen, Esquema, Mapa mental, Glosario, Ficha de lectura, Plan de trabajo, Contrato de aprendizaje, Ficha de reflexión, Prueba de respuesta corta, Documento colaborativo, Lluvia de ideas, Borrador, Entrega parcial, Bitácora de proyecto, Revisión por pares, Dos estrellas y un deseo, Semáforo de aprendizaje, Billete de salida, Trabajo cooperativo, Seminario socrático, Checklist de laboratorio
 
-**Instrumentos de evaluación relacionados:** Ficha de retroalimentación, Lista de cotejo o control, Escala de observación, Escala de valoración, Registro descriptivo, Diario del profesor, Hoja de seguimiento grupal, Registro de participación, Notas de campo, Ficha de valoración, Semáforo de evaluación, Registro de compromisos de mejora, Escala verbal, Historial de revisión, Panel de progreso, Analíticas de aprendizaje, Banco digital de evidencias, Escala de progreso, Guía de observación, Plantilla de feedback/feedforward, Contrato de grupo, Sociograma
+**Instrumentos de evaluación recomendados:** Ficha de retroalimentación, Lista de cotejo o control, Escala de observación, Escala de valoración, Registro descriptivo, Diario del profesor, Hoja de seguimiento grupal, Registro de participación, Notas de campo, Ficha de valoración, Semáforo de evaluación, Registro de compromisos de mejora, Escala verbal, Historial de revisión, Panel de progreso, Analíticas de aprendizaje, Banco digital de evidencias, Escala de progreso, Guía de observación, Plantilla de feedback/feedforward, Contrato de grupo, Sociograma
 
 ---
+
 
 ### 6. Finalidad sumativa
 
@@ -501,9 +524,10 @@ Cuando se combina con evaluación formativa a lo largo del proceso, la nota fina
 
 **Medios/evidencias asociados:** Exposición oral, Monografía, Ensayo, Comentario de texto, Reseña, Artículo divulgativo, Autoinforme, Prueba escrita de desarrollo, Prueba objetiva, Prueba tipo test, Prueba oral, Prueba con documentos
 
-**Instrumentos de evaluación relacionados:** Rúbrica analítica, Guía de corrección, Baremo, Cuaderno de calificaciones, Rúbrica global u holística, Rúbrica de producto, Rúbrica oral, Escala de valoración, Plantilla de corrección, Ficha de valoración, Matriz de valoración, Tabla de calificación por criterios, Matriz de ponderación, Escala numérica, Escala verbal, Conversor de niveles a calificación, Hoja de cálculo de evaluación, Informe individual de evaluación, Acta de evaluación, Rúbrica digital
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Guía de corrección, Baremo, Cuaderno de calificaciones, Rúbrica global u holística, Rúbrica de producto, Rúbrica oral, Escala de valoración, Plantilla de corrección, Ficha de valoración, Matriz de valoración, Tabla de calificación por criterios, Matriz de ponderación, Escala numérica, Escala verbal, Conversor de niveles a calificación, Hoja de cálculo de evaluación, Informe individual de evaluación, Acta de evaluación, Rúbrica digital
 
 ---
+
 
 ### 7. Enfoque competencial
 
@@ -529,9 +553,10 @@ La evaluación competencial implica evaluar de forma integrada varios saberes y 
 
 **Medios/evidencias asociados:** Ensayo, Comentario de texto, Línea del tiempo, Reseña, Artículo divulgativo, Estudio de caso, Prueba competencial contextualizada, Prueba con documentos, Infografía, Póster académico, Cómic, Prueba de libro abierto, Tarea competencial integrada, Situación-problema
 
-**Instrumentos de evaluación relacionados:** Rúbrica competencial, Perfil de logro, Matriz de valoración, Banco de descriptores, Tabla de calificación por criterios, Lista de indicadores por criterio, Mapa de evidencias por criterio
+**Instrumentos de evaluación recomendados:** Rúbrica competencial, Perfil de logro, Matriz de valoración, Banco de descriptores, Tabla de calificación por criterios, Lista de indicadores por criterio, Mapa de evidencias por criterio
 
 ---
+
 
 ### 8. Evidencia de desempeño
 
@@ -557,9 +582,10 @@ Es especialmente útil en ciencias experimentales, educación física, artes, FP
 
 **Medios/evidencias asociados:** Participación en clase, Coloquio, Taller, Simulación, Exposición oral, Defensa de proyecto, Entrevista, Pregunta oral estructurada, Prueba oral, Prueba práctica, Presentación digital, Videotutorial, Maqueta, Prototipo, Trabajo cooperativo, Seminario socrático, Checklist de laboratorio
 
-**Instrumentos de evaluación relacionados:** Escala de observación, Lista de cotejo o control, Rúbrica de producto, Rúbrica oral, Registro descriptivo, Registro de participación, Guía de observación
+**Instrumentos de evaluación recomendados:** Escala de observación, Lista de cotejo o control, Rúbrica de producto, Rúbrica oral, Registro descriptivo, Registro de participación, Guía de observación
 
 ---
+
 
 ### 9. Trabajo por proyectos
 
@@ -585,9 +611,10 @@ Permite evaluar de forma integrada múltiples competencias y criterios a la vez,
 
 **Medios/evidencias asociados:** Memoria de proyecto, Plan de trabajo, Prototipo, Bitácora de proyecto, Trabajo cooperativo
 
-**Instrumentos de evaluación relacionados:** Hoja de seguimiento individual, Rúbrica de proceso, Rúbrica de trabajo cooperativo, Hoja de seguimiento grupal, Registro de trabajo cooperativo, Contrato de grupo
+**Instrumentos de evaluación recomendados:** Hoja de seguimiento individual, Rúbrica de proceso, Rúbrica de trabajo cooperativo, Hoja de seguimiento grupal, Registro de trabajo cooperativo, Contrato de grupo
 
 ---
+
 
 ### 10. Indagación
 
@@ -613,9 +640,10 @@ Es especialmente adecuada en ciencias naturales, ciencias sociales y proyectos d
 
 **Medios/evidencias asociados:** Práctica de laboratorio, Informe de laboratorio, Informe de investigación
 
-**Instrumentos de evaluación relacionados:** Guía de corrección, Lista de cotejo o control
+**Instrumentos de evaluación recomendados:** Guía de corrección, Lista de cotejo o control
 
 ---
+
 
 ### 11. Resolución de problemas
 
@@ -641,9 +669,10 @@ Adecuada en matemáticas, física, química, tecnología, economía y cualquier 
 
 **Medios/evidencias asociados:** Comentario de gráfica o datos, Resolución de problemas, Situación-problema, Escape room o reto gamificado
 
-**Instrumentos de evaluación relacionados:** Guía de corrección, Escala descriptiva
+**Instrumentos de evaluación recomendados:** Guía de corrección, Escala descriptiva
 
 ---
+
 
 ### 12. Estudio de casos
 
@@ -669,9 +698,10 @@ Especialmente útil en ciencias sociales, salud, derecho, economía, historia y 
 
 **Medios/evidencias asociados:** Estudio de caso
 
-**Instrumentos de evaluación relacionados:** Rúbrica analítica, Escala descriptiva
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala descriptiva
 
 ---
+
 
 ### 13. Simulación
 
@@ -697,9 +727,10 @@ Adecuada para evaluar comunicación, toma de decisiones, resolución de conflict
 
 **Medios/evidencias asociados:** Simulación, Juego de rol, Dramatización, Escape room o reto gamificado
 
-**Instrumentos de evaluación relacionados:** Rúbrica analítica, Escala de observación, Registro anecdótico
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Escala de observación, Registro anecdótico
 
 ---
+
 
 ### 14. Evidencias digitales
 
@@ -725,9 +756,10 @@ Las evidencias digitales permiten evaluar la competencia digital de forma autén
 
 **Medios/evidencias asociados:** Cuestionario digital, Infografía, Presentación digital, Vídeo, Podcast, Modelo digital, Página web, Entrada de blog, Foro de discusión, Documento colaborativo, Portfolio digital, Cuaderno digital
 
-**Instrumentos de evaluación relacionados:** Rúbrica digital, Historial de revisión, Panel de progreso, Hoja de cálculo de evaluación, Formulario digital, Analíticas de aprendizaje, Banco digital de evidencias
+**Instrumentos de evaluación recomendados:** Rúbrica digital, Historial de revisión, Panel de progreso, Hoja de cálculo de evaluación, Formulario digital, Analíticas de aprendizaje, Banco digital de evidencias
 
 ---
+
 
 ### 15. Evaluación criterial
 
@@ -751,9 +783,10 @@ Es especialmente importante en enfoques competenciales, porque permite justifica
 
 **Medios/evidencias asociados:** Tarea competencial integrada, Situación-problema, E-portfolio con evidencias seleccionadas, Prueba de libro abierto
 
-**Instrumentos de evaluación relacionados:** Lista de indicadores por criterio, Mapa de evidencias por criterio, Rúbrica competencial, Tabla de calificación por criterios
+**Instrumentos de evaluación recomendados:** Lista de indicadores por criterio, Mapa de evidencias por criterio, Rúbrica competencial, Tabla de calificación por criterios
 
 ---
+
 
 ### 16. Evaluación inclusiva y DUA
 
@@ -775,11 +808,12 @@ Su finalidad es aumentar la validez de la evaluación: que el resultado refleje 
 
 **Precauciones:** La flexibilidad no debe rebajar los criterios, sino diversificar caminos y apoyos para evidenciarlos.
 
-**Medios/evidencias asociados:** Tarea competencial integrada, Cuaderno digital, E-portfolio con evidencias seleccionadas
+**Medios/evidencias asociados:** Tarea competencial integrada, Cuaderno digital, E-portfolio con evidencias seleccionadas, Exposición oral, Vídeo, Podcast, Infografía, Mapa conceptual, Prueba práctica, Práctica de laboratorio, Entrevista, Porfolio, Documento colaborativo, Ficha de reflexión, Billete de salida, Semáforo de aprendizaje
 
-**Instrumentos de evaluación relacionados:** Escala de progreso, Plantilla de feedback/feedforward, Mapa de evidencias por criterio
+**Instrumentos de evaluación recomendados:** Escala de progreso, Plantilla de feedback/feedforward, Mapa de evidencias por criterio
 
 ---
+
 
 ### 17. Evaluación continua
 
@@ -803,9 +837,10 @@ Bien usada, permite que la evaluación sea parte del aprendizaje y no solo una c
 
 **Medios/evidencias asociados:** Cuaderno digital, E-portfolio con evidencias seleccionadas, Entrega parcial, Borrador
 
-**Instrumentos de evaluación relacionados:** Escala de progreso, Panel de progreso, Banco digital de evidencias, Hoja de seguimiento individual
+**Instrumentos de evaluación recomendados:** Escala de progreso, Panel de progreso, Banco digital de evidencias, Hoja de seguimiento individual
 
 ---
+
 
 ### 18. Retroalimentación y feedforward
 
@@ -829,9 +864,10 @@ Tiene más impacto cuando llega durante el proceso, se centra en criterios concr
 
 **Medios/evidencias asociados:** Borrador, Revisión por pares, Dos estrellas y un deseo, Entrega parcial, E-portfolio con evidencias seleccionadas
 
-**Instrumentos de evaluación relacionados:** Plantilla de feedback/feedforward, Ficha de retroalimentación, Registro de compromisos de mejora
+**Instrumentos de evaluación recomendados:** Plantilla de feedback/feedforward, Ficha de retroalimentación, Registro de compromisos de mejora
 
 ---
+
 
 ### 19. Calificación y acreditación
 
@@ -855,9 +891,10 @@ Es una función necesaria del sistema educativo, pero debe distinguirse de la re
 
 **Medios/evidencias asociados:** Prueba competencial contextualizada, Tarea competencial integrada, E-portfolio con evidencias seleccionadas
 
-**Instrumentos de evaluación relacionados:** Tabla de calificación por criterios, Matriz de ponderación, Informe individual de evaluación, Acta de evaluación, Mapa de evidencias por criterio
+**Instrumentos de evaluación recomendados:** Tabla de calificación por criterios, Matriz de ponderación, Informe individual de evaluación, Acta de evaluación, Mapa de evidencias por criterio
 
 ---
+
 
 ### 20. Evaluación compartida y participativa
 
@@ -881,9 +918,10 @@ Es especialmente valiosa porque hace visibles los criterios y convierte la evalu
 
 **Medios/evidencias asociados:** Trabajo cooperativo, Revisión por pares, Contrato de aprendizaje, E-portfolio con evidencias seleccionadas, Escape room o reto gamificado, Seminario socrático
 
-**Instrumentos de evaluación relacionados:** Contrato de grupo, Ficha de coevaluación, Rúbrica de coevaluación, Registro de compromisos de mejora, Sociograma
+**Instrumentos de evaluación recomendados:** Contrato de grupo, Ficha de coevaluación, Rúbrica de coevaluación, Registro de compromisos de mejora, Sociograma
 
 ---
+
 
 ### 21. Evaluación gamificada
 
@@ -891,9 +929,13 @@ _Uso de mecánicas de juego para recoger evidencias de aprendizaje._
 
 **Categoría:** Contexto metodológico · **Fase:** Proceso/Final · **Participación:** Docente/Alumno/Iguales
 
-La evaluación gamificada incorpora mecánicas propias del juego (retos, puntos, insignias, contrarreloj, cooperación o competición regulada) para recoger evidencias de aprendizaje en un entorno de alta motivación.
+Esta dimensión describe el formato o situación didáctica en la que se genera la evidencia. Puede combinar varios procedimientos de recogida.
 
-Cómo aplicarla: se diseñan tareas o retos con reglas claras, criterios de logro visibles y retroalimentación inmediata. Los puntos o insignias pueden usarse como evidencia del nivel alcanzado si están alineados con criterios de evaluación reales.
+La evaluación gamificada incorpora mecánicas propias del juego (retos, puntos, insignias, contrarreloj, cooperación o competición regulada) para recoger evidencias de aprendizaje en un entorno de alta motivación. No es sinónimo de un instrumento concreto como el escape room (INS_ESCAPE), sino el enfoque metodológico que engloba cualquier estrategia que usa el juego con propósito evaluativo.
+
+Cómo aplicarla: se diseñan tareas o retos con reglas claras, criterios de logro visibles y retroalimentación inmediata. Los puntos o insignias pueden usarse como evidencia del nivel alcanzado si están alineados con criterios de evaluación reales. Las analíticas de la plataforma gamificada (tiempo, intentos, aciertos) complementan la observación docente, pero no la sustituyen.
+
+Es especialmente adecuada para la evaluación formativa, la consolidación y la evaluación diagnóstica, ya que el contexto lúdico reduce la ansiedad evaluativa y favorece la participación de alumnado con dificultades de motivación.
 
 **Función pedagógica:** Aumentar motivación e implicación, y obtener retroalimentación inmediata sobre el aprendizaje.
 
@@ -905,9 +947,10 @@ Cómo aplicarla: se diseñan tareas o retos con reglas claras, criterios de logr
 
 **Medios/evidencias asociados:** Escape room o reto gamificado, Resolución de problemas, Situación-problema, Tarea competencial integrada, Cuestionario digital
 
-**Instrumentos de evaluación relacionados:** Escala de observación, Lista de cotejo o control, Rúbrica competencial, Analíticas de aprendizaje
+**Instrumentos de evaluación recomendados:** Escala de observación, Lista de cotejo o control, Rúbrica competencial, Analíticas de aprendizaje
 
 ---
+
 
 ### 22. Trazabilidad, autoría y uso de IA
 
@@ -917,7 +960,9 @@ _Documentación del proceso, las fuentes, las ayudas externas y el uso de IA en 
 
 Esta dimensión sitúa la evaluación en contextos donde el proceso de elaboración puede quedar oculto o apoyarse en herramientas externas, incluida la IA generativa.
 
-Cómo aplicarla: el alumnado documenta qué fuentes, ayudas, herramientas o sistemas de IA ha usado, para qué los ha usado y qué decisiones propias ha tomado. Puede conservar versiones, prompts relevantes, cambios realizados, comprobaciones de fuentes y justificaciones breves.
+Cómo aplicarla: el alumnado documenta qué fuentes, ayudas, herramientas o sistemas de IA ha usado, para qué los ha usado y qué decisiones propias ha tomado. Puede conservar versiones, prompts relevantes, cambios realizados, comprobaciones de fuentes y justificaciones breves. El docente valora la calidad del proceso, la revisión crítica y la correspondencia entre la producción final y el aprendizaje demostrado.
+
+Es especialmente útil en trabajos de investigación, proyectos, documentos colaborativos, portfolios, productos digitales y tareas realizadas parcialmente fuera del aula. No pretende penalizar el uso de IA, sino hacerlo transparente y evaluable.
 
 **Función pedagógica:** Hacer visible cómo se ha elaborado una producción y distinguir el aprendizaje demostrado de las ayudas utilizadas.
 
@@ -929,9 +974,10 @@ Cómo aplicarla: el alumnado documenta qué fuentes, ayudas, herramientas o sist
 
 **Medios/evidencias asociados:** Bitácora de proceso con IA, Diario de aprendizaje, Porfolio, Informe de investigación, Monografía, Ensayo, Memoria de proyecto, Documento colaborativo, Portfolio digital, Presentación digital, Página web, Entrada de blog, Vídeo, Microvídeo educativo
 
-**Instrumentos de evaluación relacionados:** Declaración de uso de IA y fuentes, Historial de revisión, Mapa de evidencias por criterio, Banco digital de evidencias, Rúbrica de proceso, Ficha de retroalimentación
+**Instrumentos de evaluación recomendados:** Declaración de uso de IA y fuentes, Historial de revisión, Mapa de evidencias por criterio, Banco digital de evidencias, Rúbrica de proceso, Ficha de retroalimentación
 
 ---
+
 
 ## Evidencias Evaluables
 
@@ -945,7 +991,7 @@ El trabajo individual en aula es una actividad que el alumno realiza de forma au
 
 Cómo usarlo para evaluar: mientras el alumnado trabaja, el docente circula por el aula y observa con una escala de observación o lista de cotejo. Registra quién avanza con soltura, quién se bloquea y en qué punto. También puede recoger el resultado final (ejercicio, tarea, esquema) y valorarlo con una guía de corrección.
 
-Es uno de los instrumentos más habituales porque permite información tanto del proceso como del resultado, en condiciones controladas y sin interferencia de otros alumnos.
+Es una de las evidencias evaluables más habituales porque permite información tanto del proceso como del resultado, en condiciones controladas y sin interferencia de otros alumnos.
 
 **Evidencia:** Actuación observable
 
@@ -958,6 +1004,7 @@ Es uno de los instrumentos más habituales porque permite información tanto del
 **Dimensiones asociadas:** Finalidad formativa
 
 ---
+
 
 ### 2. Trabajo cooperativo
 
@@ -983,6 +1030,7 @@ Para que la evaluación sea justa, no debe reducirse al producto final: dos grup
 
 ---
 
+
 ### 3. Participación en clase
 
 _Intervenciones y aportaciones del alumnado en el aula._
@@ -1006,6 +1054,7 @@ Debe valorarse la calidad de las aportaciones, no solo la cantidad. Un alumno qu
 **Dimensiones asociadas:** Finalidad formativa, Evidencia de desempeño
 
 ---
+
 
 ### 4. Debate
 
@@ -1031,6 +1080,7 @@ El debate permite evaluar competencias que no son visibles en pruebas escritas: 
 
 ---
 
+
 ### 5. Coloquio
 
 _Conversación guiada para contrastar ideas._
@@ -1055,6 +1105,7 @@ Es especialmente adecuado para evaluar comprensión lectora, análisis de textos
 
 ---
 
+
 ### 6. Asamblea
 
 _Situación colectiva para tomar decisiones o comentar procesos._
@@ -1065,7 +1116,7 @@ La asamblea es una reunión del grupo-clase donde se toman decisiones colectivas
 
 Cómo usarla para evaluar: permite observar competencias sociales y comunicativas: respeto al turno, escucha, argumentación, propuesta de soluciones. Un registro anecdótico o una escala de participación recogen las evidencias más significativas.
 
-No es un instrumento de evaluación académica en sentido estricto, pero sí permite evaluar competencias cívicas, de comunicación y de resolución de conflictos.
+No es una evidencia de evaluación académica formal en sentido estricto, pero sí permite evaluar competencias cívicas, de comunicación y de resolución de conflictos.
 
 **Evidencia:** Actuación oral/grupal
 
@@ -1079,6 +1130,7 @@ No es un instrumento de evaluación académica en sentido estricto, pero sí per
 
 ---
 
+
 ### 7. Práctica de laboratorio
 
 _Actividad experimental o manipulativa en laboratorio._
@@ -1089,7 +1141,7 @@ La práctica de laboratorio es una actividad experimental en la que el alumnado 
 
 Cómo usarla para evaluar: permite evaluar tanto el proceso (cómo aplica el protocolo, cómo maneja el material, cómo registra observaciones) como el producto (informe de laboratorio). El docente observa con una lista de cotejo de proceso y después valora el informe con una rúbrica.
 
-Es uno de los instrumentos más ricos para la evaluación competencial en ciencias, ya que integra conocimientos, procedimientos y actitudes en una sola actividad.
+Es una de las evidencias evaluables más ricas para la evaluación competencial en ciencias, ya que integra conocimientos, procedimientos y actitudes en una sola actividad.
 
 **Evidencia:** Actuación práctica
 
@@ -1102,6 +1154,7 @@ Es uno de los instrumentos más ricos para la evaluación competencial en cienci
 **Dimensiones asociadas:** Indagación, Heteroevaluación
 
 ---
+
 
 ### 8. Taller
 
@@ -1127,6 +1180,7 @@ Es especialmente adecuado para evaluar procedimientos, creatividad y aplicación
 
 ---
 
+
 ### 9. Simulación
 
 _Recreación de una situación real o verosímil._
@@ -1150,6 +1204,7 @@ Permite evaluar habilidades difíciles de observar en otras situaciones: toma de
 **Dimensiones asociadas:** Simulación, Evidencia de desempeño
 
 ---
+
 
 ### 10. Juego de rol
 
@@ -1175,6 +1230,7 @@ Es especialmente útil en historia, ciencias sociales, ética, idiomas y educaci
 
 ---
 
+
 ### 11. Dramatización
 
 _Representación escénica de una situación o contenido._
@@ -1185,7 +1241,7 @@ La dramatización es la representación escénica de una situación, texto o his
 
 Cómo usarla para evaluar: se valora la expresión oral y corporal, la comprensión del texto o situación representada, la memorización, la cooperación en el ensayo y la calidad de la presentación. Una rúbrica oral y de desempeño, aplicada por el docente o como coevaluación, recoge estas dimensiones.
 
-Es un instrumento especialmente rico para lengua y literatura, idiomas extranjeros y educación artística, ya que integra comprensión, expresión, creatividad y trabajo en equipo.
+Es una evidencia especialmente rica para lengua y literatura, idiomas extranjeros y educación artística, ya que integra comprensión, expresión, creatividad y trabajo en equipo.
 
 **Evidencia:** Actuación oral/corporal
 
@@ -1198,6 +1254,7 @@ Es un instrumento especialmente rico para lengua y literatura, idiomas extranjer
 **Dimensiones asociadas:** Simulación
 
 ---
+
 
 ### 12. Exposición oral
 
@@ -1223,6 +1280,7 @@ Permite evaluar competencia comunicativa oral, capacidad de síntesis y dominio 
 
 ---
 
+
 ### 13. Defensa de proyecto
 
 _Justificación oral de un proyecto o producto._
@@ -1246,6 +1304,7 @@ Añade valor al proyecto porque obliga al alumnado a comprender realmente lo que
 **Dimensiones asociadas:** Evidencia de desempeño, Heteroevaluación
 
 ---
+
 
 ### 14. Entrevista
 
@@ -1271,6 +1330,7 @@ Es especialmente útil para alumnos con dificultades de expresión escrita o cua
 
 ---
 
+
 ### 15. Pregunta oral estructurada
 
 _Pregunta planificada para comprobar comprensión._
@@ -1294,6 +1354,7 @@ Es una de las formas más inmediatas y frecuentes de evaluación formativa: perm
 **Dimensiones asociadas:** Finalidad formativa, Evidencia de desempeño
 
 ---
+
 
 ### 16. Cuaderno de clase
 
@@ -1319,6 +1380,7 @@ Es una ventana al proceso de aprendizaje del alumno que no dejan otras evidencia
 
 ---
 
+
 ### 17. Diario de aprendizaje
 
 _Registro reflexivo sobre aprendizajes y dificultades._
@@ -1329,7 +1391,7 @@ El diario de aprendizaje es un registro personal donde el alumno anota periódic
 
 Cómo usarlo para evaluar: el docente puede proporcionar preguntas guía ('¿qué aprendí hoy?', '¿qué todavía no entiendo bien?', '¿qué cambiaría de cómo estudié?'). Se valora la profundidad de la reflexión, la honestidad y la conexión entre lo aprendido y la experiencia personal.
 
-Es un instrumento poderoso para el desarrollo de la metacognición y la autonomía. Su evaluación debe valorar la reflexión, no la calidad de redacción ni si las respuestas son 'correctas'.
+Es una actividad de gran potencial para el desarrollo de la metacognición y la autonomía. Su evaluación debe valorar la reflexión, no la calidad de redacción ni si las respuestas son 'correctas'.
 
 **Evidencia:** Reflexión escrita
 
@@ -1342,6 +1404,7 @@ Es un instrumento poderoso para el desarrollo de la metacognición y la autonom�
 **Dimensiones asociadas:** Autoevaluación, Finalidad formativa
 
 ---
+
 
 ### 18. Porfolio
 
@@ -1367,6 +1430,7 @@ Permite una evaluación longitudinal y auténtica. Desarrolla la autonomía, la 
 
 ---
 
+
 ### 19. Informe de laboratorio
 
 _Documento con objetivo, procedimiento, datos, análisis y conclusiones._
@@ -1391,6 +1455,7 @@ Combina la evaluación del proceso (qué hicieron en el laboratorio) con la del 
 
 ---
 
+
 ### 20. Informe de investigación
 
 _Documento que comunica una indagación o investigación._
@@ -1401,7 +1466,7 @@ El informe de investigación documenta el proceso y resultados de una indagació
 
 Cómo usarlo para evaluar: una rúbrica analítica que valore cada sección por separado permite retroalimentación precisa. Especial atención a la calidad de las fuentes usadas, la coherencia entre la pregunta y la metodología, y la capacidad de interpretar los resultados críticamente.
 
-Es el instrumento más adecuado para evaluar competencias de investigación en ESO, Bachillerato y FP. Puede complementarse con la defensa oral del informe.
+Es la evidencia más adecuada para evaluar competencias de investigación en ESO, Bachillerato y FP. Puede complementarse con la defensa oral del informe.
 
 **Evidencia:** Producción escrita
 
@@ -1414,6 +1479,7 @@ Es el instrumento más adecuado para evaluar competencias de investigación en E
 **Dimensiones asociadas:** Indagación, Heteroevaluación
 
 ---
+
 
 ### 21. Monografía
 
@@ -1439,6 +1505,7 @@ Es especialmente útil en Bachillerato y FP para desarrollar y evaluar la escrit
 
 ---
 
+
 ### 22. Ensayo
 
 _Texto argumentativo que desarrolla una tesis._
@@ -1449,7 +1516,7 @@ El ensayo es un texto argumentativo en el que el alumno defiende una tesis o pos
 
 Cómo usarlo para evaluar: se valora la claridad de la tesis, la calidad de los argumentos, el uso de evidencias, la cohesión del texto y la corrección lingüística. Una rúbrica analítica permite retroalimentación específica sobre cada dimensión.
 
-Es un instrumento especialmente adecuado para evaluar pensamiento crítico, argumentación y escritura académica en lengua, filosofía, ciencias sociales y humanidades.
+Es una tarea especialmente adecuada para evaluar pensamiento crítico, argumentación y escritura académica en lengua, filosofía, ciencias sociales y humanidades.
 
 **Evidencia:** Producción escrita
 
@@ -1463,6 +1530,7 @@ Es un instrumento especialmente adecuado para evaluar pensamiento crítico, argu
 
 ---
 
+
 ### 23. Comentario de texto
 
 _Análisis e interpretación de un texto._
@@ -1473,7 +1541,7 @@ El comentario de texto es un análisis crítico de un fragmento (literario, hist
 
 Cómo usarlo para evaluar: se valora la comprensión global del texto, la identificación de ideas principales, la contextualización adecuada, la calidad del análisis y la coherencia de la valoración. La guía de corrección o rúbrica debe adaptarse al tipo de texto y a la etapa.
 
-Es uno de los instrumentos más habituales en lengua y literatura, historia y filosofía. Permite evaluar comprensión lectora en profundidad, análisis y escritura.
+Es una de las evidencias evaluables más habituales en lengua y literatura, historia y filosofía. Permite evaluar comprensión lectora en profundidad, análisis y escritura.
 
 **Evidencia:** Producción escrita
 
@@ -1487,6 +1555,7 @@ Es uno de los instrumentos más habituales en lengua y literatura, historia y fi
 
 ---
 
+
 ### 24. Comentario de gráfica o datos
 
 _Interpretación de gráficos, tablas o datos._
@@ -1497,7 +1566,7 @@ El comentario de gráfica o datos consiste en interpretar y explicar la informac
 
 Cómo usarlo para evaluar: se valora si el alumno identifica correctamente las variables, describe tendencias y patrones, interpreta los datos en contexto y extrae conclusiones justificadas. Una guía de corrección por etapas (descripción → análisis → conclusión) orienta tanto la corrección como la realización de la tarea.
 
-Es un instrumento clave en matemáticas, ciencias, geografía, economía y cualquier área que trabaje con datos cuantitativos.
+Es una tarea clave en matemáticas, ciencias, geografía, economía y cualquier área que trabaje con datos cuantitativos.
 
 **Evidencia:** Producción escrita/datos
 
@@ -1511,6 +1580,7 @@ Es un instrumento clave en matemáticas, ciencias, geografía, economía y cualq
 
 ---
 
+
 ### 25. Resumen
 
 _Síntesis de ideas principales._
@@ -1521,7 +1591,7 @@ El resumen es la síntesis de un texto o contenido, recogiendo las ideas princip
 
 Cómo usarlo para evaluar: se valora si el alumno identifica las ideas principales (no las secundarias o los ejemplos), si prescinde de información irrelevante, si usa sus propias palabras y si el resumen es coherente y bien proporcionado. Una guía de corrección o lista de cotejo sencilla es suficiente.
 
-Es un instrumento muy accesible para evaluar la comprensión lectora y la capacidad de síntesis en cualquier etapa y materia.
+Es una tarea muy accesible para evaluar la comprensión lectora y la capacidad de síntesis en cualquier etapa y materia.
 
 **Evidencia:** Producción escrita
 
@@ -1534,6 +1604,7 @@ Es un instrumento muy accesible para evaluar la comprensión lectora y la capaci
 **Dimensiones asociadas:** Finalidad formativa
 
 ---
+
 
 ### 26. Esquema
 
@@ -1559,6 +1630,7 @@ Es especialmente útil para evaluar la comprensión y la organización del conoc
 
 ---
 
+
 ### 27. Mapa conceptual
 
 _Representación de conceptos y relaciones._
@@ -1582,6 +1654,7 @@ Permite evaluar la estructura del conocimiento de un alumno: no solo si sabe los
 **Dimensiones asociadas:** Finalidad diagnóstica
 
 ---
+
 
 ### 28. Mapa mental
 
@@ -1607,6 +1680,7 @@ Es especialmente útil para explorar ideas previas, hacer lluvias de ideas estru
 
 ---
 
+
 ### 29. Línea del tiempo
 
 _Representación cronológica de hechos o procesos._
@@ -1617,7 +1691,7 @@ La línea del tiempo es una representación gráfica cronológica de hechos, per
 
 Cómo usarla para evaluar: se valora la selección de hechos relevantes, la precisión de las fechas, la proporcionalidad de los intervalos temporales, la inclusión de información contextual y la claridad de la presentación. Una lista de cotejo o rúbrica sencilla es suficiente.
 
-Es un instrumento clave en historia, biología (evolución), literatura (movimientos literarios) y cualquier área con dimensión temporal.
+Es una tarea clave en historia, biología (evolución), literatura (movimientos literarios) y cualquier área con dimensión temporal.
 
 **Evidencia:** Producción visual
 
@@ -1630,6 +1704,7 @@ Es un instrumento clave en historia, biología (evolución), literatura (movimie
 **Dimensiones asociadas:** Enfoque competencial
 
 ---
+
 
 ### 30. Glosario
 
@@ -1655,13 +1730,14 @@ Es útil como tarea continua a lo largo de una unidad y como herramienta de estu
 
 ---
 
+
 ### 31. Ficha de lectura
 
 _Registro estructurado de una lectura._
 
 **Tipo:** Producción escrita · **Fase:** Proceso/Final · **Complejidad:** Media · **Participación:** Docente
 
-La ficha de lectura recoge información estructurada sobre una lectura: identificación del texto (autor, título, género), resumen, ideas principales, opinión personal y valoración crítica. Es una herramienta de mediación entre la lectura y la escritura académica.
+La ficha de lectura recoge información estructurada sobre una lectura: identificación del texto (autor, título, género), resumen, ideas principales, opinión personal y valoración crítica. Es una actividad de mediación entre la lectura y la escritura académica.
 
 Cómo usarla para evaluar: se valora la comprensión del texto, la capacidad de síntesis, la profundidad del comentario personal y la conexión entre el texto y el conocimiento previo o el contexto del alumno. Una plantilla estructurada con criterios claros facilita la corrección.
 
@@ -1679,6 +1755,7 @@ Es especialmente útil en lengua y literatura, filosofía, ciencias sociales y c
 
 ---
 
+
 ### 32. Reseña
 
 _Texto crítico breve sobre obra, recurso o actividad._
@@ -1689,7 +1766,7 @@ La reseña es un texto que describe, analiza y valora críticamente una obra (li
 
 Cómo usarla para evaluar: se valora la descripción precisa del objeto reseñado, la calidad del análisis, la solidez de los argumentos valorativos y la coherencia del texto. Una rúbrica que diferencie descripción, análisis y valoración permite retroalimentación específica.
 
-Es un instrumento excelente para evaluar pensamiento crítico, escritura argumentativa y capacidad de emitir juicios fundamentados. Adecuado en lengua, literatura, arte y ciencias.
+Es una tarea excelente para evaluar pensamiento crítico, escritura argumentativa y capacidad de emitir juicios fundamentados. Adecuado en lengua, literatura, arte y ciencias.
 
 **Evidencia:** Producción escrita
 
@@ -1702,6 +1779,7 @@ Es un instrumento excelente para evaluar pensamiento crítico, escritura argumen
 **Dimensiones asociadas:** Enfoque competencial, Finalidad sumativa
 
 ---
+
 
 ### 33. Artículo divulgativo
 
@@ -1727,6 +1805,7 @@ Desarrolla la competencia comunicativa escrita, la comprensión profunda de la m
 
 ---
 
+
 ### 34. Memoria de proyecto
 
 _Documento que recoge planificación, proceso y resultados._
@@ -1737,7 +1816,7 @@ La memoria de proyecto es el documento escrito que recoge todo el proceso y resu
 
 Cómo usarla para evaluar: se valora tanto la calidad del proceso documentado como la del resultado. Una rúbrica que diferencie secciones (planificación, desarrollo, producto, reflexión) permite retroalimentación específica. La reflexión final sobre lo aprendido tiene especial valor metacognitivo.
 
-Es el instrumento de evaluación principal en proyectos de aprendizaje-servicio, proyectos interdisciplinares y trabajos de investigación de Bachillerato.
+Es la evidencia evaluable principal en proyectos de aprendizaje-servicio, proyectos interdisciplinares y trabajos de investigación de Bachillerato.
 
 **Evidencia:** Producción escrita
 
@@ -1751,6 +1830,7 @@ Es el instrumento de evaluación principal en proyectos de aprendizaje-servicio,
 
 ---
 
+
 ### 35. Plan de trabajo
 
 _Documento de organización de tareas y tiempos._
@@ -1761,7 +1841,7 @@ El plan de trabajo es un documento previo al inicio de un proyecto en el que el 
 
 Cómo usarlo para evaluar: se valora la claridad de los objetivos, el realismo de los plazos, la distribución equitativa de tareas y la previsión de dificultades. Al finalizar el proyecto, puede compararse el plan inicial con lo que realmente sucedió, lo que añade valor reflexivo.
 
-Es una herramienta formativa que ayuda al alumnado a desarrollar competencias de organización y gestión del tiempo, fundamentales para la autonomía.
+Es una actividad formativa que ayuda al alumnado al alumnado a desarrollar competencias de organización y gestión del tiempo, fundamentales para la autonomía.
 
 **Evidencia:** Producción escrita
 
@@ -1775,13 +1855,14 @@ Es una herramienta formativa que ayuda al alumnado a desarrollar competencias de
 
 ---
 
+
 ### 36. Acta de reunión
 
 _Registro de acuerdos, tareas y decisiones de grupo._
 
 **Tipo:** Proceso · **Fase:** Proceso · **Complejidad:** Media · **Participación:** Grupo
 
-El acta de reunión es el registro escrito de lo que ocurrió en una reunión del grupo: quién asistió, qué se debatió, qué acuerdos se tomaron y qué tareas se asignaron. Es un instrumento habitual en trabajo cooperativo y proyectos grupales.
+El acta de reunión es el registro escrito de lo que ocurrió en una reunión del grupo: quién asistió, qué se debatió, qué acuerdos se tomaron y qué tareas se asignaron. Es una evidencia habitual en trabajo cooperativo y proyectos grupales.
 
 Cómo usarla para evaluar: el docente puede revisar las actas para comprobar que el grupo funciona de forma organizada, que los roles rotan, que los acuerdos se cumplen y que la reflexión sobre el trabajo es genuina. También puede usarse como evidencia de proceso.
 
@@ -1798,6 +1879,7 @@ Desarrolla habilidades de comunicación formal, organización y responsabilidad 
 **Dimensiones asociadas:** Coevaluación
 
 ---
+
 
 ### 37. Contrato de aprendizaje
 
@@ -1823,6 +1905,7 @@ Favorece la autonomía, la motivación intrínseca y la responsabilidad. Es espe
 
 ---
 
+
 ### 38. Ficha de reflexión
 
 _Documento breve para analizar aprendizaje y mejoras._
@@ -1833,7 +1916,7 @@ La ficha de reflexión es un documento breve donde el alumno responde a pregunta
 
 Cómo usarla para evaluar: se valora la profundidad de la reflexión, la capacidad de identificar dificultades propias y la conexión entre el aprendizaje y la experiencia personal. No debe valorarse si las respuestas son 'correctas', sino si son honestas y reflexivas.
 
-Es un instrumento de cierre muy eficaz para sesiones, unidades o proyectos. Convierte la evaluación en un momento de aprendizaje sobre el propio aprendizaje.
+Es una actividad de cierre muy eficaz para sesiones, unidades o proyectos. Convierte la evaluación en un momento de aprendizaje sobre el propio aprendizaje.
 
 **Evidencia:** Reflexión escrita
 
@@ -1847,6 +1930,7 @@ Es un instrumento de cierre muy eficaz para sesiones, unidades o proyectos. Conv
 
 ---
 
+
 ### 39. Autoinforme
 
 _Texto donde el alumnado describe y justifica su desempeño._
@@ -1857,7 +1941,7 @@ El autoinforme es un documento más extenso que la ficha de reflexión, donde el
 
 Cómo usarlo para evaluar: se valora la honestidad, la profundidad, la capacidad de identificar patrones propios y la conexión entre la reflexión y las evidencias del portfolio. Puede complementar la calificación del docente en la evaluación sumativa.
 
-Es un instrumento de alto valor metacognitivo, especialmente en portfolios, proyectos de larga duración y evaluación por competencias.
+Es una evidencia de alto valor metacognitivo, especialmente en portfolios, proyectos de larga duración y evaluación por competencias.
 
 **Evidencia:** Reflexión escrita
 
@@ -1871,17 +1955,18 @@ Es un instrumento de alto valor metacognitivo, especialmente en portfolios, proy
 
 ---
 
+
 ### 40. Resolución de problemas
 
 _Situaciones que requieren análisis, procedimiento y justificación._
 
 **Tipo:** Prueba/desempeño · **Fase:** Proceso/Final · **Complejidad:** Media/Alta · **Participación:** Docente
 
-La resolución de problemas como instrumento consiste en presentar al alumno una situación problemática real o contextualizada que debe analizar, planificar, resolver y justificar. Va más allá del ejercicio mecánico: requiere razonamiento y aplicación.
+La resolución de problemas como evidencia evaluable consiste en presentar al alumno una situación problemática real o contextualizada que debe analizar, planificar, resolver y justificar. Va más allá del ejercicio mecánico: requiere razonamiento y aplicación.
 
 Cómo usarla para evaluar: se valora el proceso completo (comprensión del problema, planificación, ejecución, verificación) además del resultado. Pedir al alumno que explique su razonamiento (por escrito o verbalmente) añade información sobre su pensamiento. Una guía de corrección por etapas es la herramienta más adecuada.
 
-Es el instrumento central de la evaluación competencial en matemáticas, física, química, tecnología y economía.
+Es la evidencia central de la evaluación competencial en matemáticas, física, química, tecnología y economía.
 
 **Evidencia:** Respuesta escrita/procedimental
 
@@ -1894,6 +1979,7 @@ Es el instrumento central de la evaluación competencial en matemáticas, físic
 **Dimensiones asociadas:** Resolución de problemas
 
 ---
+
 
 ### 41. Estudio de caso
 
@@ -1919,6 +2005,7 @@ Es especialmente adecuado en ciencias de la salud, ciencias sociales, derecho, h
 
 ---
 
+
 ### 42. Prueba escrita de desarrollo
 
 _Preguntas abiertas de explicación o argumentación._
@@ -1942,6 +2029,7 @@ Permite evaluar comprensión profunda, capacidad de síntesis y escritura acadé
 **Dimensiones asociadas:** Finalidad sumativa, Heteroevaluación
 
 ---
+
 
 ### 43. Prueba objetiva
 
@@ -1967,6 +2055,7 @@ Es eficiente para comprobar conocimientos declarativos y algunas aplicaciones o 
 
 ---
 
+
 ### 44. Prueba tipo test
 
 _Cuestionario con opciones de respuesta._
@@ -1977,7 +2066,7 @@ La prueba tipo test presenta ítems de opción múltiple con una respuesta corre
 
 Cómo usarla para evaluar: los distractores deben ser plausibles pero claramente incorrectos para quien ha aprendido el contenido. Evitar respuestas como 'todas las anteriores' o 'ninguna de las anteriores', que facilitan el acierto por eliminación. El baremo debe especificar si hay penalización por error para desincentivar las respuestas al azar.
 
-Es muy eficiente para evaluar grandes cantidades de contenido en poco tiempo, pero no debe ser el único instrumento de evaluación.
+Es muy eficiente para evaluar grandes cantidades de contenido en poco tiempo, pero no debe ser la única evidencia de evaluación.
 
 **Evidencia:** Respuesta cerrada
 
@@ -1990,6 +2079,7 @@ Es muy eficiente para evaluar grandes cantidades de contenido en poco tiempo, pe
 **Dimensiones asociadas:** Finalidad sumativa, Finalidad diagnóstica, Heteroevaluación
 
 ---
+
 
 ### 45. Prueba de respuesta corta
 
@@ -2015,6 +2105,7 @@ Equilibra la eficiencia de la prueba objetiva con la necesidad de que el alumno 
 
 ---
 
+
 ### 46. Prueba oral
 
 _Evaluación mediante preguntas o tareas orales._
@@ -2039,6 +2130,7 @@ Permite valorar comprensión real (no memorización de texto) y expresión oral.
 
 ---
 
+
 ### 47. Prueba práctica
 
 _Ejecución de un procedimiento o tarea aplicada._
@@ -2049,7 +2141,7 @@ La prueba práctica es una evaluación en la que el alumno demuestra una habilid
 
 Cómo usarla para evaluar: el docente observa la ejecución con una lista de cotejo de proceso o rúbrica de desempeño. Si el producto es valorable (resultado del análisis, circuito funcionando), puede añadirse una valoración del resultado final.
 
-Es el instrumento más adecuado para evaluar saber hacer: procedimientos técnicos, habilidades artísticas, prácticas de laboratorio y competencias profesionales en FP.
+Es la tarea más adecuada para evaluar el saber hacer: procedimientos técnicos, habilidades artísticas, prácticas de laboratorio y competencias profesionales en FP.
 
 **Evidencia:** Actuación práctica
 
@@ -2063,6 +2155,7 @@ Es el instrumento más adecuado para evaluar saber hacer: procedimientos técnic
 
 ---
 
+
 ### 48. Prueba competencial contextualizada
 
 _Tarea evaluativa en contexto real o verosímil._
@@ -2073,7 +2166,7 @@ La prueba competencial contextualizada es una prueba escrita u oral que presenta
 
 Cómo usarla para evaluar: cada tarea de la prueba está asociada a un criterio de evaluación y a una competencia específica. Se valora con rúbricas o guías de corrección que contemplan el razonamiento y la aplicación, no solo el resultado correcto.
 
-Es la herramienta que mejor articula la calificación con la evaluación por criterios y competencias exigida por el marco curricular actual.
+Es la evidencia que mejor articula la calificación con la evaluación por criterios y competencias exigida por el marco curricular actual.
 
 **Evidencia:** Respuesta aplicada
 
@@ -2086,6 +2179,7 @@ Es la herramienta que mejor articula la calificación con la evaluación por cri
 **Dimensiones asociadas:** Enfoque competencial, Heteroevaluación, Calificación y acreditación
 
 ---
+
 
 ### 49. Prueba con documentos
 
@@ -2111,6 +2205,7 @@ Es el formato de prueba más habitual en historia, geografía, ciencias sociales
 
 ---
 
+
 ### 50. Cuestionario digital
 
 _Formulario o cuestionario realizado en línea._
@@ -2134,6 +2229,7 @@ Ahorra tiempo de corrección, permite retroalimentación inmediata y facilita el
 **Dimensiones asociadas:** Evidencias digitales
 
 ---
+
 
 ### 51. Infografía
 
@@ -2159,6 +2255,7 @@ Desarrolla la competencia comunicativa visual, la capacidad de síntesis y la cr
 
 ---
 
+
 ### 52. Póster académico
 
 _Presentación visual estructurada de una investigación o proyecto._
@@ -2183,6 +2280,7 @@ Es especialmente adecuado en ciencias, tecnología y proyectos de investigación
 
 ---
 
+
 ### 53. Presentación digital
 
 _Diapositivas u otro soporte para comunicar información._
@@ -2193,7 +2291,7 @@ La presentación digital (PowerPoint, Google Slides, Canva, Prezi, etc.) es un s
 
 Cómo usarla para evaluar: conviene valorar por separado el diseño de la presentación (organización, legibilidad, uso de imágenes) y la calidad de la exposición oral que la acompaña. Una rúbrica que contempla ambas dimensiones evita confundir una presentación visualmente atractiva con un discurso de calidad.
 
-Es un instrumento muy habitual pero que requiere orientación explícita sobre qué hace una buena presentación (texto mínimo, imágenes relevantes, legibilidad).
+Es una tarea muy habitual pero que requiere orientación explícita sobre qué hace una buena presentación (texto mínimo, imágenes relevantes, legibilidad).
 
 **Evidencia:** Producto digital
 
@@ -2206,6 +2304,7 @@ Es un instrumento muy habitual pero que requiere orientación explícita sobre q
 **Dimensiones asociadas:** Evidencias digitales, Evidencia de desempeño
 
 ---
+
 
 ### 54. Vídeo
 
@@ -2231,6 +2330,7 @@ Desarrolla la competencia digital, la comunicación audiovisual y la creatividad
 
 ---
 
+
 ### 55. Videotutorial
 
 _Vídeo que explica un procedimiento o concepto paso a paso._
@@ -2241,7 +2341,7 @@ El videotutorial es un vídeo en el que el alumno explica paso a paso cómo hace
 
 Cómo usarlo para evaluar: se valora la claridad y precisión de la explicación, el orden lógico de los pasos, la corrección del contenido y la calidad de la producción. Si el alumno puede explicar algo de forma que otro lo entienda, demuestra comprensión profunda.
 
-Es un excelente instrumento para evaluar comprensión procedimental y la capacidad de comunicar conocimiento. La enseñanza entre iguales (peer teaching) tiene un alto valor de aprendizaje.
+Es una excelente evidencia para evaluar comprensión procedimental y la capacidad de comunicar conocimiento. La enseñanza entre iguales (peer teaching) tiene un alto valor de aprendizaje.
 
 **Evidencia:** Producto audiovisual
 
@@ -2254,6 +2354,7 @@ Es un excelente instrumento para evaluar comprensión procedimental y la capacid
 **Dimensiones asociadas:** Evidencia de desempeño
 
 ---
+
 
 ### 56. Podcast
 
@@ -2279,6 +2380,7 @@ Favorece la expresión oral en un formato diferente al de la exposición presenc
 
 ---
 
+
 ### 57. Cómic
 
 _Narración gráfica con texto e imagen._
@@ -2302,6 +2404,7 @@ Es especialmente útil en lengua y literatura, historia, ciencias y educación a
 **Dimensiones asociadas:** Enfoque competencial
 
 ---
+
 
 ### 58. Maqueta
 
@@ -2327,6 +2430,7 @@ Es especialmente útil en tecnología, arquitectura, geografía, historia y cien
 
 ---
 
+
 ### 59. Modelo digital
 
 _Representación digital de fenómeno, estructura o sistema._
@@ -2351,6 +2455,7 @@ Desarrolla la competencia digital y el pensamiento espacial. Es especialmente ad
 
 ---
 
+
 ### 60. Prototipo
 
 _Versión inicial o funcional de una solución._
@@ -2361,7 +2466,7 @@ El prototipo es una versión funcional (aunque incompleta o simplificada) de un 
 
 Cómo usarlo para evaluar: se valora la funcionalidad (¿cumple su función?), la adecuación a los requisitos, la calidad del diseño y la reflexión sobre lo que funciona y lo que habría que mejorar. El proceso de iteración (probar → mejorar → probar) es tan valioso como el prototipo final.
 
-Es el instrumento central en proyectos de design thinking, tecnología, FP y cualquier proceso de diseño centrado en el usuario.
+Es la evidencia central en proyectos de design thinking, tecnología, FP y cualquier proceso de diseño centrado en el usuario.
 
 **Evidencia:** Producto aplicado
 
@@ -2374,6 +2479,7 @@ Es el instrumento central en proyectos de design thinking, tecnología, FP y cua
 **Dimensiones asociadas:** Trabajo por proyectos, Evidencia de desempeño
 
 ---
+
 
 ### 61. Página web
 
@@ -2399,6 +2505,7 @@ Desarrolla competencia digital, comunicación multimodal y comprensión de la ma
 
 ---
 
+
 ### 62. Entrada de blog
 
 _Publicación digital reflexiva, explicativa o divulgativa._
@@ -2409,7 +2516,7 @@ La entrada de blog es un texto de divulgación personal o académica publicado e
 
 Cómo usarla para evaluar: se valora la adecuación al destinatario, la precisión del contenido, la originalidad del enfoque, la calidad de la escritura y el uso de recursos digitales (imágenes, enlaces). Una rúbrica que diferencie contenido y formato es adecuada.
 
-Es un buen instrumento para trabajar la escritura con una audiencia real y desarrollar la voz propia del alumno. El hecho de que sea publicado añade motivación y responsabilidad.
+Es una buena actividad para trabajar la escritura con una audiencia real y desarrollar la voz propia del alumno. El hecho de que sea publicado añade motivación y responsabilidad.
 
 **Evidencia:** Producto escrito digital
 
@@ -2422,6 +2529,7 @@ Es un buen instrumento para trabajar la escritura con una audiencia real y desar
 **Dimensiones asociadas:** Evidencias digitales
 
 ---
+
 
 ### 63. Foro de discusión
 
@@ -2447,6 +2555,7 @@ Permite la participación de alumnos que no intervienen fácilmente en debates p
 
 ---
 
+
 ### 64. Documento colaborativo
 
 _Documento compartido elaborado por varios alumnos._
@@ -2471,6 +2580,7 @@ Es especialmente útil para proyectos grupales donde la contribución individual
 
 ---
 
+
 ### 65. Portfolio digital
 
 _Colección digital de evidencias y reflexiones._
@@ -2481,7 +2591,7 @@ El portfolio digital es una colección organizada de evidencias de aprendizaje a
 
 Cómo usarlo para evaluar: se valoran la selección de evidencias (¿muestra lo más significativo?), la calidad de las reflexiones (¿qué aprendí con esto?, ¿cómo lo haría diferente?) y la organización general. El portfolio digital permite compartirlo con familias y otros docentes.
 
-Es la herramienta más completa para la evaluación por competencias y el seguimiento longitudinal del aprendizaje. Desarrolla la autonomía y la metacognición del alumno.
+Es la evidencia más completa para la evaluación por competencias y el seguimiento longitudinal del aprendizaje. Desarrolla la autonomía y la metacognición del alumno.
 
 **Evidencia:** Producción acumulativa
 
@@ -2495,17 +2605,18 @@ Es la herramienta más completa para la evaluación por competencias y el seguim
 
 ---
 
+
 ### 66. KPSI
 
-_Cuestionario de percepción de conocimientos o habilidades._
+_Actividad diagnóstica en la que el alumno indica su grado de conocimiento previo sobre cada concepto._
 
 **Tipo:** Diagnóstico/autoevaluación · **Fase:** Inicial/Final · **Complejidad:** Baja · **Participación:** Alumno
 
-El KPSI (Knowledge and Prior Study Inventory) es un cuestionario de evaluación diagnóstica en el que el alumno indica, para cada concepto o habilidad del tema, si lo sabe (y puede explicarlo), cree que lo sabe, no lo sabe o no lo entiende.
+El KPSI (Knowledge and Prior Study Inventory) es una actividad de diagnóstico en la que el alumno indica, para cada concepto o habilidad del tema, si lo sabe (y puede explicarlo), cree que lo sabe, no lo sabe o no lo entiende. La evidencia que genera es la autopercepción declarada del propio alumno sobre su conocimiento previo.
 
-Cómo usarlo para evaluar: se aplica al inicio de una unidad o proyecto para detectar conocimientos previos y concepciones erróneas. No tiene función calificadora. Al finalizar la unidad, puede repetirse para que el alumno vea su propio progreso.
+Cómo usarlo: se aplica al inicio de una unidad o proyecto para detectar conocimientos previos y concepciones erróneas. No tiene función calificadora. Al finalizar la unidad puede repetirse para que el alumno compare sus respuestas iniciales con las finales y vea su propio progreso.
 
-Es una herramienta de diagnóstico rápida y valiosa que permite al docente ajustar la planificación y al alumno tomar conciencia de lo que ya sabe y lo que necesita aprender.
+Como actividad genera evidencia diagnóstica de autopercepción que permite al docente ajustar la planificación y al alumno tomar conciencia de lo que ya sabe y lo que necesita aprender. El instrumento de registro habitual es una escala de autoevaluación o un formulario digital.
 
 **Evidencia:** Autopercepción
 
@@ -2518,6 +2629,7 @@ Es una herramienta de diagnóstico rápida y valiosa que permite al docente ajus
 **Dimensiones asociadas:** Finalidad diagnóstica, Autoevaluación
 
 ---
+
 
 ### 67. Mapa conceptual inicial
 
@@ -2543,6 +2655,7 @@ Permite al docente detectar concepciones previas, tanto correctas como erróneas
 
 ---
 
+
 ### 68. Lluvia de ideas
 
 _Generación rápida de ideas iniciales._
@@ -2553,7 +2666,7 @@ La lluvia de ideas (brainstorming) es una actividad en la que el alumnado genera
 
 Cómo usarla para evaluar: no tiene función calificadora en sí misma, pero permite al docente detectar qué saben y cómo piensan los alumnos sobre el tema antes de empezar. Las ideas generadas pueden clasificarse, debatirse y revisarse al final de la unidad.
 
-Es una herramienta diagnóstica y motivadora. En grupos, puede revelar la riqueza colectiva de conocimientos previos y las ideas más y menos extendidas.
+Es una actividad diagnóstica y motivadora. En grupos, puede revelar la riqueza colectiva de conocimientos previos y las ideas más y menos extendidas.
 
 **Evidencia:** Intervenciones breves
 
@@ -2567,13 +2680,14 @@ Es una herramienta diagnóstica y motivadora. En grupos, puede revelar la riquez
 
 ---
 
+
 ### 69. Borrador
 
 _Versión inicial o intermedia de un producto._
 
 **Tipo:** Proceso · **Fase:** Proceso · **Complejidad:** Media · **Participación:** Docente/Iguales
 
-El borrador es una versión preliminar de un trabajo, no terminada ni pulida, que el alumno entrega para recibir retroalimentación antes de la entrega final. Es el instrumento central de la evaluación formativa en tareas escritas.
+El borrador es una versión preliminar de un trabajo, no terminada ni pulida, que el alumno entrega para recibir retroalimentación antes de la entrega final. Es la evidencia central de la evaluación formativa en tareas escritas.
 
 Cómo usarlo para evaluar: el docente (o los compañeros en coevaluación) lee el borrador y ofrece retroalimentación específica sobre qué está bien y qué debe mejorar. No se califica el borrador; se califica la versión final después de la revisión.
 
@@ -2590,6 +2704,7 @@ El ciclo borrador → retroalimentación → revisión → entrega final es uno 
 **Dimensiones asociadas:** Finalidad formativa, Evaluación continua, Retroalimentación y feedforward
 
 ---
+
 
 ### 70. Entrega parcial
 
@@ -2615,6 +2730,7 @@ Evita la acumulación de trabajo al final y permite detectar problemas de compre
 
 ---
 
+
 ### 71. Bitácora de proyecto
 
 _Registro continuado de decisiones, problemas y avances._
@@ -2639,6 +2755,7 @@ Hace visible el proceso de aprendizaje, que de otro modo solo se conoce por el p
 
 ---
 
+
 ### 72. Revisión por pares
 
 _Análisis y mejora de trabajos entre compañeros._
@@ -2649,7 +2766,7 @@ La revisión por pares es el proceso en que un alumno lee y comenta el trabajo d
 
 Cómo usarla para evaluar: se proporciona una ficha de revisión o rúbrica de coevaluación con criterios concretos. El revisor debe dar retroalimentación específica y accionable, no solo decir 'está bien' o 'mejora la redacción'. El proceso mismo de revisar el trabajo ajeno es una poderosa experiencia de aprendizaje.
 
-Es uno de los instrumentos de evaluación formativa con mayor impacto en la calidad del trabajo final. Desarrolla pensamiento crítico, comprensión de los criterios y empatía.
+Es una de las evidencias evaluables formativas con mayor impacto en la calidad del trabajo final. Desarrolla pensamiento crítico, comprensión de los criterios y empatía.
 
 **Evidencia:** Comentarios y revisión
 
@@ -2663,17 +2780,18 @@ Es uno de los instrumentos de evaluación formativa con mayor impacto en la cali
 
 ---
 
+
 ### 73. Dos estrellas y un deseo
 
-_Dos aspectos positivos y una propuesta de mejora._
+_Actividad de coevaluación: dos aspectos positivos y una propuesta de mejora._
 
 **Tipo:** Coevaluación · **Fase:** Proceso · **Complejidad:** Baja · **Participación:** Iguales
 
-Las 'dos estrellas y un deseo' es una técnica de retroalimentación formativa en la que el evaluador (docente o compañero) señala dos aspectos positivos del trabajo (las estrellas) y una sugerencia de mejora concreta (el deseo).
+'Dos estrellas y un deseo' es una actividad breve de coevaluación o retroalimentación entre iguales en la que el evaluador (docente o compañero) señala dos aspectos positivos del trabajo y una sugerencia de mejora concreta. La evidencia producida son los comentarios de revisión generados durante la actividad.
 
-Cómo usarla para evaluar: se entrega una tarjeta o formulario con tres apartados ('Lo que está muy bien:', 'Otra cosa que funciona:', 'Una cosa que podrías mejorar:'). Es estructuralmente sencilla pero requiere que los comentarios sean específicos y concretos, no genéricos ('está bien escrito').
+Cómo usarla: se entrega una tarjeta o formulario con tres apartados ('Lo que está muy bien:', 'Otra cosa que funciona:', 'Una cosa que podrías mejorar:'). Es estructuralmente sencilla pero requiere que los comentarios sean específicos y concretos, no genéricos ('está bien escrito').
 
-Es una herramienta especialmente adecuada para introducir la coevaluación con grupos que no tienen práctica en ella, por su formato accesible y su balance entre lo positivo y lo mejorable.
+Es especialmente adecuada para introducir la coevaluación con grupos sin práctica en ella, por su formato accesible y su balance entre lo positivo y lo mejorable. El instrumento de registro suele ser una ficha de coevaluación o ficha de retroalimentación.
 
 **Evidencia:** Comentarios breves
 
@@ -2687,17 +2805,18 @@ Es una herramienta especialmente adecuada para introducir la coevaluación con g
 
 ---
 
+
 ### 74. Semáforo de aprendizaje
 
-_Indicación visual del grado de comprensión._
+_Actividad breve de autoevaluación en la que el alumno señala su nivel de comprensión con tres colores._
 
 **Tipo:** Autoevaluación · **Fase:** Proceso · **Complejidad:** Baja · **Participación:** Alumno
 
-El semáforo de aprendizaje es una técnica de autoevaluación rápida en la que el alumno indica su nivel de comprensión de un contenido usando tres colores: verde (lo entiendo bien), amarillo (tengo algunas dudas), rojo (no lo entiendo o estoy perdido).
+El semáforo de aprendizaje es una actividad breve de autoevaluación formativa en la que el alumno indica su nivel de comprensión de un contenido usando tres colores: verde (lo entiendo bien), amarillo (tengo algunas dudas), rojo (no lo entiendo o estoy perdido). La evidencia que genera es la autopercepción declarada por el alumno sobre su comprensión en ese momento.
 
-Cómo usarlo para evaluar: puede hacerse con tarjetas de colores físicas, con post-its, con un formulario digital o con una paleta en la pizarra. Al final de una explicación o sesión, el docente ve de un vistazo cuántos alumnos están en verde, amarillo o rojo y ajusta la siguiente sesión.
+Cómo usarlo: puede hacerse con tarjetas de colores físicas, con post-its, con un formulario digital o con una paleta en la pizarra. Al final de una explicación o sesión, el docente ve de un vistazo cuántos alumnos están en verde, amarillo o rojo y ajusta la siguiente sesión en consecuencia.
 
-Es una herramienta de evaluación formativa instantánea que permite al docente regular el ritmo de la enseñanza en tiempo real. Requiere un clima de confianza para que los alumnos sean honestos.
+Permite regular el ritmo de la enseñanza en tiempo real a partir de evidencias de autopercepción. Requiere un clima de confianza para que los alumnos sean honestos. El instrumento de evaluación que suele acompañarlo es el semáforo de evaluación o una lista de cotejo.
 
 **Evidencia:** Autopercepción
 
@@ -2710,6 +2829,7 @@ Es una herramienta de evaluación formativa instantánea que permite al docente 
 **Dimensiones asociadas:** Autoevaluación, Finalidad formativa
 
 ---
+
 
 ### 75. Billete de salida
 
@@ -2735,6 +2855,7 @@ Es una de las estrategias de evaluación formativa más sencillas y efectivas. C
 
 ---
 
+
 ### 76. Prueba de libro abierto
 
 _Prueba en la que el alumnado puede consultar materiales autorizados._
@@ -2758,6 +2879,7 @@ Es adecuada para evaluar comprensión profunda, manejo de fuentes y aplicación 
 **Dimensiones asociadas:** Enfoque competencial, Evaluación criterial, Heteroevaluación
 
 ---
+
 
 ### 77. Tarea competencial integrada
 
@@ -2783,6 +2905,7 @@ Es una de las formas más potentes de evaluación competencial, siempre que la s
 
 ---
 
+
 ### 78. Situación-problema
 
 _Situación contextualizada que exige analizar un problema y proponer una solución._
@@ -2806,6 +2929,7 @@ Es especialmente adecuada para matemáticas, ciencias, tecnología y materias do
 **Dimensiones asociadas:** Resolución de problemas, Enfoque competencial, Evaluación criterial
 
 ---
+
 
 ### 79. Escape room o reto gamificado
 
@@ -2831,6 +2955,7 @@ Conviene usarlo con criterios claros, porque la motivación del juego puede ocul
 
 ---
 
+
 ### 80. Seminario socrático
 
 _Diálogo estructurado a partir de preguntas abiertas y evidencias._
@@ -2855,17 +2980,18 @@ Permite evaluar pensamiento crítico y comprensión profunda, pero requiere entr
 
 ---
 
+
 ### 81. Checklist de laboratorio
 
-_Lista de comprobación de procedimientos, seguridad y registro de datos en laboratorio._
+_Actividad de observación y autorregistro de procedimientos, seguridad y datos en el laboratorio._
 
 **Tipo:** Observación · **Fase:** Proceso · **Complejidad:** Baja/Media · **Participación:** Docente/Alumno
 
-El checklist de laboratorio recoge indicadores observables sobre seguridad, manejo de material, seguimiento del protocolo, limpieza y toma de datos.
+El checklist de laboratorio es una actividad práctica en la que el alumno sigue, documenta y verifica sus propios procedimientos de laboratorio paso a paso. La evidencia que genera es la actuación práctica observable y el registro completado durante la sesión.
 
-Cómo usarlo para evaluar: se usa durante la práctica o al finalizarla, marcando si cada conducta o requisito aparece. Puede ser docente, de autoevaluación o de coevaluación en parejas.
+Cómo usarlo: se entrega al inicio de la práctica con los indicadores de seguridad, uso de material, procedimiento y toma de datos. El alumno lo va completando a medida que avanza. El docente puede revisarlo junto con el informe de laboratorio.
 
-Es útil porque hace visibles procedimientos que un informe final no muestra.
+Nota: en sentido estricto, un checklist es también un instrumento de evaluación (lista de cotejo). Aquí se recoge como evidencia evaluable porque el alumno lo completa como parte activa de la práctica. Cuando lo usa el docente para observar al alumno desde fuera, actúa como instrumento de evaluación (lista de cotejo de laboratorio).
 
 **Evidencia:** Actuación práctica
 
@@ -2878,6 +3004,7 @@ Es útil porque hace visibles procedimientos que un informe final no muestra.
 **Dimensiones asociadas:** Evidencia de desempeño, Finalidad formativa, Autoevaluación
 
 ---
+
 
 ### 82. Cuaderno digital
 
@@ -2903,6 +3030,7 @@ Es útil para evaluación continua y competencia digital, siempre que haya crite
 
 ---
 
+
 ### 83. E-portfolio con evidencias seleccionadas
 
 _Portfolio digital donde el alumnado selecciona y justifica evidencias de aprendizaje._
@@ -2927,49 +3055,56 @@ Es especialmente adecuado para evaluación continua, criterial y competencial.
 
 ---
 
+
 ### 84. Cuaderno de campo
 
 _Registro de observaciones, datos y reflexiones durante actividades en el exterior o entorno real._
 
 **Tipo:** Producción escrita/observacional · **Fase:** Proceso · **Complejidad:** Media · **Participación:** Docente/Alumno
 
-El cuaderno de campo es el registro que elabora el alumno durante actividades realizadas fuera del aula: salidas de campo, visitas, estudios del entorno o actividades en espacios naturales.
+El cuaderno de campo es el registro que elabora el alumno durante actividades realizadas fuera del aula: salidas de campo, visitas, estudios del entorno o actividades en espacios naturales. A diferencia del cuaderno de clase (INS_CUADERNO), documenta observaciones en tiempo real en contextos no controlados; a diferencia del informe de laboratorio (INS_INFO_LAB), no sigue una estructura experimental cerrada, sino que recoge notas, croquis, medidas y reflexiones sobre la marcha.
 
-Cómo usarlo para evaluar: el alumno registra observaciones directas, datos medidos, dibujos o croquis, preguntas emergentes y reflexiones iniciales. El docente evalúa la precisión y completitud de las observaciones, la capacidad de registrar datos relevantes y la calidad de la reflexión sobre lo observado.
+Cómo usarlo para evaluar: el alumno registra observaciones directas, datos medidos, dibujos o croquis, preguntas emergentes y reflexiones iniciales. El docente evalúa la precisión y completitud de las observaciones, la capacidad de registrar datos relevantes y la calidad de la reflexión sobre lo observado. Una guía de corrección con los elementos esperados orienta la evaluación de forma coherente.
+
+Es especialmente útil en ciencias naturales, geografía, educación ambiental, historia local y cualquier materia que trabaje con el entorno como fuente de aprendizaje. Su valor radica en que la evidencia se genera en el lugar de los hechos, lo que aporta autenticidad y contextualización difícilmente reproducibles en el aula.
 
 **Evidencia:** Producción escrita
 
-**Adecuado para:** Observación in situ, registro de datos, conexión con el entorno natural o social.
+**Adecuado para:** Observación in situ; registro de datos; conexión con el entorno natural o social.
 
 **Técnicas asociadas:** Observación sistemática, Análisis de producciones, Análisis de procesos y reflexiones
 
-**Instrumentos de evaluación recomendados:** Guía de corrección, Lista de cotejo o control, Notas de campo, Rúbrica analítica, Declaración de uso de IA y fuentes
+**Instrumentos de evaluación recomendados:** Guía de corrección, Lista de cotejo o control, Notas de campo, Rúbrica analítica
 
-**Dimensiones asociadas:** Indagación, Enfoque competencial, Finalidad formativa, Trazabilidad, autoría y uso de IA
+**Dimensiones asociadas:** Indagación, Enfoque competencial, Finalidad formativa
 
 ---
+
 
 ### 85. Microvídeo educativo
 
-_Vídeo breve que explica, divulga o argumenta sobre un tema._
+_Vídeo breve (60–90 s) que explica, divulga o argumenta sobre un tema._
 
 **Tipo:** Producción audiovisual · **Fase:** Final · **Complejidad:** Media · **Participación:** Docente/Iguales
 
-El microvídeo educativo es una producción audiovisual de corta duración en la que el alumno explica un concepto, argumenta una posición, resume un tema o comunica resultados de forma sintética y directa.
+El microvídeo educativo es una producción audiovisual de corta duración (habitualmente entre 60 y 90 segundos) en la que el alumno explica un concepto, argumenta una posición, resume un tema o comunica resultados de forma sintética y directa. Se diferencia del vídeo convencional (INS_VIDEO) por la exigencia de condensar el mensaje al máximo; y del videotutorial (INS_TUTORIAL) en que no sigue necesariamente una estructura procedimental paso a paso.
 
-Cómo usarlo para evaluar: se valoran la claridad y precisión del mensaje, la adecuación al destinatario, la estructura narrativa dentro del tiempo reducido, la corrección del contenido y la calidad técnica básica.
+Cómo usarlo para evaluar: se valoran la claridad y precisión del mensaje, la adecuación al destinatario, la estructura narrativa dentro del tiempo reducido, la corrección del contenido y la calidad técnica básica (imagen, sonido). Una rúbrica analítica que diferencie contenido y producción permite retroalimentación específica. La coevaluación entre compañeros es especialmente natural en este formato.
+
+Es motivador para alumnado que aprende mejor mediante formatos visuales y orales que escritos. Desarrolla la competencia digital, la comunicación y la capacidad de síntesis.
 
 **Evidencia:** Producto audiovisual
 
-**Adecuado para:** Síntesis, comunicación concisa, creatividad y competencia digital.
+**Adecuado para:** Síntesis; comunicación concisa; creatividad; competencia digital.
 
 **Técnicas asociadas:** Análisis de producciones, Intercambios orales
 
-**Instrumentos de evaluación recomendados:** Rúbrica analítica, Rúbrica de producto, Lista de cotejo o control, Ficha de coevaluación, Declaración de uso de IA y fuentes
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Rúbrica de producto, Lista de cotejo o control, Ficha de coevaluación
 
-**Dimensiones asociadas:** Evidencias digitales, Enfoque competencial, Evidencia de desempeño, Trazabilidad, autoría y uso de IA
+**Dimensiones asociadas:** Evidencias digitales, Enfoque competencial, Evidencia de desempeño
 
 ---
+
 
 ### 86. Bitácora de proceso con IA
 
@@ -2979,11 +3114,13 @@ _Registro del proceso de trabajo, uso de IA, fuentes, versiones y decisiones tom
 
 La bitácora de proceso con IA es una evidencia en la que el alumno documenta cómo ha elaborado una tarea cuando ha podido usar herramientas digitales, fuentes externas o IA generativa. Recoge el recorrido de trabajo, no solo el producto final.
 
-Cómo usarla para evaluar: se pide al alumnado que registre los pasos relevantes, fuentes consultadas, prompts o instrucciones usadas, respuestas aprovechadas o descartadas, cambios entre versiones, comprobaciones realizadas y decisiones propias.
+Cómo usarla para evaluar: se pide al alumnado que registre los pasos relevantes, fuentes consultadas, prompts o instrucciones usadas, respuestas aprovechadas o descartadas, cambios entre versiones, comprobaciones realizadas y decisiones propias. No es necesario guardar todo, sino las evidencias suficientes para explicar el proceso.
+
+Permite valorar autoría, pensamiento crítico, revisión, mejora y uso responsable de la IA. Conviene vincularla a criterios concretos para que no se reduzca a una declaración formal sin valor evaluativo.
 
 **Evidencia:** Registro de proceso
 
-**Adecuado para:** Proyectos, investigaciones, producciones digitales, tareas con ayuda de IA y trabajo fuera del aula.
+**Adecuado para:** Proyectos; investigaciones; producciones digitales; tareas con ayuda de IA; trabajo fuera del aula.
 
 **Técnicas asociadas:** Análisis de procesos y reflexiones, Análisis documental, Análisis de interacciones digitales, Triangulación de evidencias
 
@@ -2992,6 +3129,7 @@ Cómo usarla para evaluar: se pide al alumnado que registre los pasos relevantes
 **Dimensiones asociadas:** Trazabilidad, autoría y uso de IA, Evidencias digitales, Finalidad formativa, Retroalimentación y feedforward, Enfoque competencial
 
 ---
+
 
 ## Instrumentos de Evaluación
 
@@ -3005,11 +3143,11 @@ La rúbrica analítica es una matriz que desglosa la tarea en criterios separado
 
 Cómo usarla: se diseña una tabla donde las filas son los criterios (p. ej., 'estructura', 'argumentación', 'corrección lingüística') y las columnas son los niveles (p. ej., 'excelente', 'satisfactorio', 'en proceso', 'inicial'). Cada celda contiene un descriptor que explica cómo es el desempeño en ese nivel para ese criterio. Al evaluar, el docente lee cada fila y marca el nivel que mejor describe lo observado.
 
-Es la herramienta más adecuada para tareas complejas donde importa dar retroalimentación detallada. Requiere tiempo de diseño, pero una vez creada puede reutilizarse y compartirse con el alumnado como guía.
+Es el instrumento de evaluación más adecuado para tareas complejas donde importa dar retroalimentación detallada. Requiere tiempo de diseño, pero una vez creada puede reutilizarse y compartirse con el alumnado como guía.
 
 **Sirve para:** Valorar tareas complejas con varios aspectos.
 
-**Adecuada para:** Proyectos; informes; exposiciones; debates; productos digitales.
+**Adecuada para:** Proyectos, informes, exposiciones, debates, productos digitales.
 
 **Ventajas:** Clarifica expectativas y permite retroalimentación precisa.
 
@@ -3022,6 +3160,7 @@ Es la herramienta más adecuada para tareas complejas donde importa dar retroali
 **Dimensiones asociadas:** Heteroevaluación, Finalidad sumativa, Estudio de casos, Simulación
 
 ---
+
 
 ### 2. Rúbrica global u holística
 
@@ -3037,7 +3176,7 @@ Adecuada cuando el tiempo es limitado, cuando la tarea es corta o cuando se quie
 
 **Sirve para:** Valorar una tarea completa sin separar todos los criterios.
 
-**Adecuada para:** Productos globales; actuaciones breves; valoraciones finales.
+**Adecuada para:** Productos globales, actuaciones breves, valoraciones finales.
 
 **Ventajas:** Es más rápida que una rúbrica analítica.
 
@@ -3048,6 +3187,7 @@ Adecuada cuando el tiempo es limitado, cuando la tarea es corta o cuando se quie
 **Dimensiones asociadas:** Finalidad sumativa
 
 ---
+
 
 ### 3. Rúbrica de proceso
 
@@ -3063,7 +3203,7 @@ Es fundamental en proyectos de larga duración, investigaciones y portfolios, do
 
 **Sirve para:** Valorar cómo se desarrolla una tarea.
 
-**Adecuada para:** Proyectos; investigaciones; portfolios; bitácoras.
+**Adecuada para:** Proyectos, investigaciones, portfolios, bitácoras.
 
 **Ventajas:** Hace visible el proceso y no solo el resultado.
 
@@ -3076,6 +3216,7 @@ Es fundamental en proyectos de larga duración, investigaciones y portfolios, do
 **Dimensiones asociadas:** Trabajo por proyectos
 
 ---
+
 
 ### 4. Rúbrica de producto
 
@@ -3102,6 +3243,7 @@ Se complementa con la rúbrica de proceso en proyectos extensos. Usada sola, pue
 **Dimensiones asociadas:** Finalidad sumativa, Evidencia de desempeño
 
 ---
+
 
 ### 5. Rúbrica oral
 
@@ -3131,6 +3273,7 @@ Compartirla antes de la actuación permite al alumnado prepararse con mayor orie
 
 ---
 
+
 ### 6. Rúbrica de trabajo cooperativo
 
 _Rúbrica para valorar colaboración y funcionamiento grupal._
@@ -3157,6 +3300,7 @@ Es especialmente útil para evitar que el trabajo grupal diluya la responsabilid
 
 ---
 
+
 ### 7. Rúbrica competencial
 
 _Matriz vinculada a criterios y niveles de desempeño competencial._
@@ -3167,7 +3311,7 @@ La rúbrica competencial está diseñada para valorar el grado de desarrollo de 
 
 Cómo usarla: los criterios reflejan los elementos clave de la competencia (p. ej., para la competencia comunicativa: 'comprende textos complejos', 'produce textos adecuados al contexto', 'argumenta con evidencias'). Cada criterio tiene 3-4 niveles descritos. Puede usarse para valorar una sola tarea o como perfil acumulado a lo largo del curso.
 
-Es la herramienta más adecuada para la evaluación por competencias que exige el marco curricular actual.
+Es el instrumento de evaluación más adecuado para la evaluación por competencias que exige el marco curricular actual.
 
 **Sirve para:** Valorar movilización de saberes en contextos.
 
@@ -3183,13 +3327,14 @@ Es la herramienta más adecuada para la evaluación por competencias que exige e
 
 ---
 
+
 ### 8. Lista de cotejo o control
 
 _Lista de indicadores con presencia o ausencia._
 
 **Tipo:** Registro/valoración · **Fase:** Inicial/Proceso/Final · **Complejidad:** Baja · **Participación:** Docente/Alumno/Iguales
 
-La lista de cotejo es una herramienta de verificación que enumera los elementos, pasos o comportamientos que deben estar presentes en una tarea o actuación. Para cada ítem, el evaluador marca simplemente si está presente (sí/no) o si se ha cumplido.
+La lista de cotejo es un instrumento de evaluación que verifica que enumera los elementos, pasos o comportamientos que deben estar presentes en una tarea o actuación. Para cada ítem, el evaluador marca simplemente si está presente (sí/no) o si se ha cumplido.
 
 Cómo usarla: se elabora una lista de indicadores concretos y observables (p. ej., 'incluye introducción', 'cita las fuentes', 'usa el material de seguridad'). Durante o después de la actividad, se marca cada ítem. No hay niveles intermedios; es una verificación binaria.
 
@@ -3210,6 +3355,7 @@ Es rápida de aplicar y muy útil para actividades con requisitos claros y cerra
 **Dimensiones asociadas:** Autoevaluación, Heteroevaluación, Finalidad formativa, Evidencia de desempeño, Indagación
 
 ---
+
 
 ### 9. Escala de observación
 
@@ -3239,6 +3385,7 @@ Cómo usarla: se definen los indicadores que se van a observar y se elige una es
 
 ---
 
+
 ### 10. Escala de valoración
 
 _Escala graduada para valorar grado de logro._
@@ -3264,6 +3411,7 @@ Adecuada cuando el docente tiene suficiente experiencia para aplicar criterios i
 **Dimensiones asociadas:** Finalidad formativa, Finalidad sumativa
 
 ---
+
 
 ### 11. Escala descriptiva
 
@@ -3293,6 +3441,7 @@ Es un buen punto de partida para docentes que quieren introducir criterios más 
 
 ---
 
+
 ### 12. Guía de corrección
 
 _Documento con criterios, respuestas esperadas o pautas de corrección._
@@ -3320,6 +3469,7 @@ Aumenta la consistencia de la corrección entre distintas correcciones del mismo
 **Dimensiones asociadas:** Heteroevaluación, Finalidad sumativa, Indagación, Resolución de problemas
 
 ---
+
 
 ### 13. Plantilla de corrección
 
@@ -3349,6 +3499,7 @@ Es especialmente útil cuando hay muchas pruebas que corregir o cuando varios do
 
 ---
 
+
 ### 14. Baremo
 
 _Distribución de puntos entre apartados o indicadores._
@@ -3376,6 +3527,7 @@ Un baremo bien diseñado refleja la importancia relativa de cada contenido o com
 **Dimensiones asociadas:** Finalidad sumativa
 
 ---
+
 
 ### 15. Registro anecdótico
 
@@ -3405,13 +3557,14 @@ Es especialmente útil en etapas sin calificación numérica, para completar bol
 
 ---
 
+
 ### 16. Registro descriptivo
 
 _Registro detallado de actuaciones, procesos o comportamientos._
 
 **Tipo:** Registro cualitativo · **Fase:** Proceso · **Complejidad:** Media · **Participación:** Docente
 
-El registro descriptivo es una herramienta narrativa en la que el docente describe con cierto detalle el desempeño de un alumno o grupo durante una actividad o periodo, sin reducirlo a una puntuación.
+El registro descriptivo es un instrumento de evaluación narrativo en la que el docente describe con cierto detalle el desempeño de un alumno o grupo durante una actividad o periodo, sin reducirlo a una puntuación.
 
 Cómo usarlo: se redacta una descripción cualitativa que explica qué hizo el alumno, cómo lo hizo y qué evidencias se observaron. Puede estructurarse por criterios o por momentos de la actividad. Es más elaborado que el registro anecdótico y más apropiado para informes periódicos.
 
@@ -3433,6 +3586,7 @@ Permite comunicar a las familias y al propio alumno una imagen rica y matizada d
 
 ---
 
+
 ### 17. Diario del profesor
 
 _Cuaderno o documento con observaciones y decisiones pedagógicas._
@@ -3443,7 +3597,7 @@ El diario del profesor es un cuaderno o documento digital donde el docente regis
 
 Cómo usarlo: conviene escribir en él con regularidad (al final de cada sesión o semana) y de forma reflexiva, no solo descriptiva. Preguntas como '¿qué evidencias de aprendizaje observé hoy?', '¿qué alumnos me preocupan y por qué?' o '¿qué ajustaría?' orientan la reflexión.
 
-No es solo un registro de lo que ocurrió, sino una herramienta de mejora de la práctica docente. Con el tiempo, se convierte en una fuente valiosa de información para ajustar la planificación.
+No es solo un registro de lo que ocurrió, sino un instrumento de mejora de la práctica docente. Con el tiempo, se convierte en una fuente valiosa de información para ajustar la planificación.
 
 **Sirve para:** Registrar seguimiento, incidencias y ajustes.
 
@@ -3460,6 +3614,7 @@ No es solo un registro de lo que ocurrió, sino una herramienta de mejora de la 
 **Dimensiones asociadas:** Finalidad formativa
 
 ---
+
 
 ### 18. Hoja de seguimiento individual
 
@@ -3489,6 +3644,7 @@ Es especialmente útil para el seguimiento personalizado en grupos con necesidad
 
 ---
 
+
 ### 19. Hoja de seguimiento grupal
 
 _Registro del progreso y funcionamiento de un grupo._
@@ -3499,7 +3655,7 @@ La hoja de seguimiento grupal es una versión colectiva de la hoja de seguimient
 
 Cómo usarla: cada fila es un alumno y cada columna es un criterio, tarea o momento de observación. El docente la actualiza periódicamente. Una ojeada al conjunto permite identificar qué alumnos necesitan más atención, qué criterios el grupo en general no ha alcanzado y qué aspectos han mejorado.
 
-Es una herramienta de gestión de aula muy útil para docentes con varios grupos, ya que permite mantener una visión global del estado del aprendizaje.
+Es un instrumento de seguimiento de aula muy útil para docentes con varios grupos, ya que permite mantener una visión global del estado del aprendizaje.
 
 **Sirve para:** Valorar coordinación, tareas y acuerdos.
 
@@ -3514,6 +3670,7 @@ Es una herramienta de gestión de aula muy útil para docentes con varios grupos
 **Dimensiones asociadas:** Finalidad formativa, Trabajo por proyectos
 
 ---
+
 
 ### 20. Registro de participación
 
@@ -3541,6 +3698,7 @@ Permite dar retroalimentación objetiva sobre la participación, detectar quién
 
 ---
 
+
 ### 21. Registro de trabajo cooperativo
 
 _Documento para anotar roles, aportaciones y cumplimiento grupal._
@@ -3566,6 +3724,7 @@ Es especialmente útil en proyectos y actividades grupales extensas, donde el fu
 **Dimensiones asociadas:** Coevaluación, Trabajo por proyectos
 
 ---
+
 
 ### 22. Notas de campo
 
@@ -3595,6 +3754,7 @@ Son la base de la observación incidental y del registro anecdótico. Con el tie
 
 ---
 
+
 ### 23. Ficha de valoración
 
 _Documento breve para valorar una tarea concreta._
@@ -3620,6 +3780,7 @@ Es más flexible que una rúbrica fija y más informativa que una nota sola. Ade
 **Dimensiones asociadas:** Finalidad sumativa, Finalidad formativa
 
 ---
+
 
 ### 24. Ficha de retroalimentación
 
@@ -3649,6 +3810,7 @@ La retroalimentación es más efectiva cuando es específica, oportuna y orienta
 
 ---
 
+
 ### 25. Matriz de valoración
 
 _Tabla que relaciona criterios, indicadores y niveles._
@@ -3675,6 +3837,7 @@ Es un término genérico que engloba las rúbricas analíticas. La diferencia pr
 
 ---
 
+
 ### 26. Banco de descriptores
 
 _Colección de frases para describir niveles de desempeño._
@@ -3685,7 +3848,7 @@ El banco de descriptores es una colección de frases descriptivas listas para us
 
 Cómo usarlo: se organiza por criterios, competencias o áreas, con descriptores para distintos niveles de desempeño. Al diseñar una rúbrica, el docente selecciona y adapta los descriptores del banco en lugar de redactarlos desde cero.
 
-Es una herramienta de eficiencia que reduce el tiempo de diseño de instrumentos de evaluación y favorece la coherencia terminológica entre distintas asignaturas o docentes del mismo departamento.
+Es un instrumento de eficiencia que reduce el tiempo de diseño de instrumentos de evaluación y favorece la coherencia terminológica entre distintas asignaturas o docentes del mismo departamento.
 
 **Sirve para:** Redactar rúbricas e informes.
 
@@ -3700,6 +3863,7 @@ Es una herramienta de eficiencia que reduce el tiempo de diseño de instrumentos
 **Dimensiones asociadas:** Enfoque competencial
 
 ---
+
 
 ### 27. Perfil de logro
 
@@ -3729,6 +3893,7 @@ En el marco de la evaluación por competencias (LOMLOE), el perfil de logro es l
 
 ---
 
+
 ### 28. Diana de evaluación
 
 _Representación radial de varios aspectos evaluados._
@@ -3754,6 +3919,7 @@ Es especialmente útil para la autoevaluación, la coevaluación y la comunicaci
 **Dimensiones asociadas:** Autoevaluación
 
 ---
+
 
 ### 29. Semáforo de evaluación
 
@@ -3781,13 +3947,14 @@ Adecuado para el seguimiento formativo rápido, la comunicación a familias y la
 
 ---
 
+
 ### 30. Escala de autoevaluación
 
 _Escala para que el alumnado valore su propio logro._
 
 **Tipo:** Autoevaluación · **Fase:** Inicial/Proceso/Final · **Complejidad:** Baja/Media · **Participación:** Alumno
 
-La escala de autoevaluación es una herramienta que el propio alumno usa para valorar su desempeño, proceso o producto según criterios predefinidos. Puede ser numérica, de frecuencia o cualitativa.
+La escala de autoevaluación es un instrumento de evaluación que el propio alumno usa para valorar su desempeño, proceso o producto según criterios predefinidos. Puede ser numérica, de frecuencia o cualitativa.
 
 Cómo usarla: se proporciona al alumno una lista de indicadores y una escala para cada uno. El alumno la completa de forma individual y honesta. Para que sea efectiva, los criterios deben haber sido trabajados previamente y el alumno debe comprender qué significa cada nivel.
 
@@ -3808,6 +3975,7 @@ Su valor es principalmente metacognitivo: obliga al alumno a reflexionar sobre s
 **Dimensiones asociadas:** Autoevaluación
 
 ---
+
 
 ### 31. Rúbrica de autoevaluación
 
@@ -3835,6 +4003,7 @@ Es especialmente útil en portfolios, proyectos y tareas complejas donde el alum
 
 ---
 
+
 ### 32. Rúbrica de coevaluación
 
 _Rúbrica para valorar trabajos de compañeros._
@@ -3860,6 +4029,7 @@ Para que sea efectiva, los alumnos deben haber practicado aplicar los criterios 
 **Dimensiones asociadas:** Coevaluación, Evaluación compartida y participativa
 
 ---
+
 
 ### 33. Ficha de coevaluación
 
@@ -3887,6 +4057,7 @@ Es una buena introducción a la coevaluación para grupos que no tienen práctic
 
 ---
 
+
 ### 34. Lista de cotejo de autoevaluación
 
 _Checklist que usa el alumno para revisar requisitos._
@@ -3912,6 +4083,7 @@ Es especialmente útil para tareas con requisitos claros y cerrados (formato de 
 **Dimensiones asociadas:** Autoevaluación
 
 ---
+
 
 ### 35. Registro de compromisos de mejora
 
@@ -3941,6 +4113,7 @@ Cierra el ciclo de la evaluación formativa: recogida de evidencias → retroali
 
 ---
 
+
 ### 36. Cuaderno de calificaciones
 
 _Registro organizado de resultados, tareas y criterios._
@@ -3966,6 +4139,7 @@ Más allá de ser un registro administrativo, puede usarse para detectar tendenc
 **Dimensiones asociadas:** Heteroevaluación, Finalidad sumativa
 
 ---
+
 
 ### 37. Tabla de calificación por criterios
 
@@ -3995,6 +4169,7 @@ Permite al alumnado y a las familias conocer exactamente en qué criterios está
 
 ---
 
+
 ### 38. Matriz de ponderación
 
 _Tabla de pesos relativos de criterios, evidencias o herramientas._
@@ -4020,6 +4195,7 @@ Una buena matriz de ponderación refleja las prioridades pedagógicas: si el pro
 **Dimensiones asociadas:** Finalidad sumativa, Calificación y acreditación
 
 ---
+
 
 ### 39. Escala numérica
 
@@ -4049,6 +4225,7 @@ Su ventaja es la facilidad de comunicación y cálculo. Su limitación es que no
 
 ---
 
+
 ### 40. Escala verbal
 
 _Categorías como inicial, en proceso, adecuado, avanzado._
@@ -4074,6 +4251,7 @@ Tiene la ventaja de ser más descriptiva que una nota numérica y comunicar mejo
 **Dimensiones asociadas:** Finalidad formativa, Finalidad sumativa
 
 ---
+
 
 ### 41. Conversor de niveles a calificación
 
@@ -4101,6 +4279,7 @@ Permite combinar una evaluación cualitativa y orientada al aprendizaje con la o
 
 ---
 
+
 ### 42. Hoja de cálculo de evaluación
 
 _Libro digital para registrar, calcular y analizar datos._
@@ -4111,7 +4290,7 @@ La hoja de cálculo de evaluación (Excel, Google Sheets, etc.) es un registro d
 
 Cómo usarla: se organiza con alumnos en filas y tareas o criterios en columnas. Las fórmulas calculan automáticamente las medias ponderadas. Puede incluir gráficos de progreso, filtros por alumno o criterio y exportación a informes.
 
-Es la herramienta más eficiente para gestionar la calificación de grupos grandes. Con macros o complementos específicos, puede generar informes personalizados para cada alumno automáticamente.
+Es el instrumento de evaluación más eficiente para gestionar la calificación de grupos grandes. Con macros o complementos específicos, puede generar informes personalizados para cada alumno automáticamente.
 
 **Sirve para:** Organizar datos y aplicar reglas de cálculo.
 
@@ -4126,6 +4305,7 @@ Es la herramienta más eficiente para gestionar la calificación de grupos grand
 **Dimensiones asociadas:** Evidencias digitales, Finalidad sumativa
 
 ---
+
 
 ### 43. Informe individual de evaluación
 
@@ -4153,6 +4333,7 @@ Es el documento de comunicación más completo entre el centro y la familia. Su 
 
 ---
 
+
 ### 44. Acta de evaluación
 
 _Registro formal de decisiones y resultados._
@@ -4178,6 +4359,7 @@ Es el registro final del proceso evaluativo. Su cumplimentación correcta es una
 **Dimensiones asociadas:** Finalidad sumativa, Heteroevaluación, Calificación y acreditación
 
 ---
+
 
 ### 45. Formulario digital
 
@@ -4207,6 +4389,7 @@ Ahorra tiempo de corrección en evaluaciones cerradas, facilita el análisis de 
 
 ---
 
+
 ### 46. Rúbrica digital
 
 _Rúbrica integrada en una plataforma digital._
@@ -4232,6 +4415,7 @@ Reduce el tiempo de corrección, facilita la coherencia entre correcciones y per
 **Dimensiones asociadas:** Evidencias digitales, Finalidad sumativa
 
 ---
+
 
 ### 47. Historial de revisión
 
@@ -4261,6 +4445,7 @@ Es una evidencia de proceso muy valiosa en trabajos grupales digitales, ya que h
 
 ---
 
+
 ### 48. Panel de progreso
 
 _Vista del avance en tareas, criterios o competencias._
@@ -4288,6 +4473,7 @@ Favorece la transparencia, la autorregulación y la motivación. En versiones di
 **Dimensiones asociadas:** Evidencias digitales, Finalidad formativa, Evaluación continua
 
 ---
+
 
 ### 49. Analíticas de aprendizaje
 
@@ -4317,6 +4503,7 @@ Son especialmente útiles para identificar tendencias grupales e individuales de
 
 ---
 
+
 ### 50. Banco digital de evidencias
 
 _Carpeta o espacio digital con evidencias evaluativas._
@@ -4345,6 +4532,7 @@ Es la base del portfolio digital. Permite la evaluación continua, la reflexión
 
 ---
 
+
 ### 51. Lista de indicadores por criterio
 
 _Desglose de un criterio en indicadores observables._
@@ -4371,6 +4559,7 @@ Es útil para hacer más transparente la evaluación criterial.
 
 ---
 
+
 ### 52. Escala de progreso
 
 _Escala que describe avances sucesivos hacia un aprendizaje._
@@ -4396,6 +4585,7 @@ Es muy útil para evaluación continua y autorregulación, porque ayuda a entend
 **Dimensiones asociadas:** Evaluación continua, Evaluación inclusiva y DUA, Finalidad formativa
 
 ---
+
 
 ### 53. Guía de observación
 
@@ -4425,6 +4615,7 @@ Es especialmente útil cuando varios docentes observan o cuando la actividad es 
 
 ---
 
+
 ### 54. Plantilla de feedback/feedforward
 
 _Plantilla para indicar logro actual, mejora necesaria y siguiente paso._
@@ -4450,6 +4641,7 @@ Su fuerza está en que desplaza la corrección desde el juicio final hacia la me
 **Dimensiones asociadas:** Retroalimentación y feedforward, Finalidad formativa, Evaluación inclusiva y DUA
 
 ---
+
 
 ### 55. Contrato de grupo
 
@@ -4477,6 +4669,7 @@ Es útil para evaluar y regular el proceso cooperativo con mayor justicia.
 
 ---
 
+
 ### 56. Sociograma
 
 _Representación de relaciones, elecciones o dinámicas dentro del grupo._
@@ -4487,7 +4680,7 @@ El sociograma representa relaciones dentro del grupo: preferencias de trabajo, a
 
 Cómo usarlo: se recoge información mediante preguntas cuidadosas, se analiza de forma confidencial y se usa para mejorar agrupamientos o convivencia, no para etiquetar al alumnado.
 
-Es una herramienta de evaluación del contexto social del aprendizaje más que de rendimiento académico.
+Es un instrumento de evaluación del contexto social del aprendizaje más que de rendimiento académico.
 
 **Sirve para:** Comprender integración, liderazgo, aislamiento o estructura social del aula.
 
@@ -4503,17 +4696,18 @@ Es una herramienta de evaluación del contexto social del aprendizaje más que d
 
 ---
 
+
 ### 57. Mapa de evidencias por criterio
 
 _Tabla que vincula criterios con tareas, evidencias e instrumentos de valoración._
 
 **Tipo:** Apoyo a valoración · **Fase:** Diseño/Proceso/Final · **Complejidad:** Alta · **Participación:** Docente
 
-El mapa de evidencias por criterio relaciona cada criterio de evaluación con las tareas que lo evidencian, los instrumentos usados y las herramientas de valoración.
+El mapa de evidencias por criterio relaciona cada criterio de evaluación con las tareas que lo evidencian, los medios/evidencias usados y los instrumentos de evaluación aplicados.
 
 Cómo usarlo: se construye como tabla de planificación y seguimiento. Permite detectar criterios sobrerrepresentados, criterios sin evidencias y decisiones de calificación poco justificadas.
 
-Es una herramienta clave para evaluación criterial y triangulación de evidencias.
+Es un instrumento de evaluación clave para la evaluación criterial y triangulación de evidencias.
 
 **Sirve para:** Comprobar cobertura y trazabilidad de la evaluación.
 
@@ -4531,6 +4725,7 @@ Es una herramienta clave para evaluación criterial y triangulación de evidenci
 
 ---
 
+
 ### 58. Declaración de uso de IA y fuentes
 
 _Plantilla para declarar ayudas, fuentes, herramientas de IA y decisiones propias en una tarea._
@@ -4539,7 +4734,7 @@ _Plantilla para declarar ayudas, fuentes, herramientas de IA y decisiones propia
 
 La declaración de uso de IA y fuentes es una plantilla breve que acompaña a una tarea para explicar qué apoyos externos se han utilizado y qué parte del trabajo corresponde a decisiones propias del alumno.
 
-Cómo usarla: puede incluir apartados sobre fuentes consultadas, herramientas de IA empleadas, finalidad de cada ayuda, fragmentos revisados, errores detectados, cambios realizados y responsabilidad final sobre el contenido.
+Cómo usarla: puede incluir apartados sobre fuentes consultadas, herramientas de IA empleadas, finalidad de cada ayuda, fragmentos revisados, errores detectados, cambios realizados y responsabilidad final sobre el contenido. Es más útil si se pide junto con borradores, historial de revisión o una breve defensa del trabajo.
 
 No sustituye a una rúbrica ni demuestra por sí sola el aprendizaje, pero ayuda a convertir el uso de IA en una práctica transparente, revisable y educativamente aprovechable.
 

@@ -389,8 +389,14 @@ function renderGlobalFilters() {
     ? `<span class="gf-pill gf-pill--cat" style="--cat-color:var(--c-${catCls})"><span>${fvl[state.extra] || state.extra}</span><button class="gf-pill-x" type="button" data-gf="extra" aria-label="Quitar">×</button></span>`
     : '';
 
+  const esc = val => String(val || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+
   const infoIcon = desc => desc
-    ? `<span class="gf-info" title="${desc.replace(/"/g, '&quot;')}">?</span>` : '';
+    ? `<span class="gf-info" title="${esc(desc)}">?</span>` : '';
 
   const popoverRows = Object.entries(gf).map(([key, gcfg]) => {
     const cur = state[GF_STATE[key]];
