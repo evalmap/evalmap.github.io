@@ -286,7 +286,8 @@
       "INS_BILLETE",
       "INS_TRAB_COOP",
       "INS_SEMINARIO",
-      "INS_CHECK_LAB"
+      "INS_CHECK_LAB",
+      "INS_CUAD_CAMPO"
     ],
     "rel_her": [
       "HER_FICHA_RETRO",
@@ -343,7 +344,8 @@
         "INS_BILLETE": "principal",
         "INS_TRAB_COOP": "principal",
         "INS_SEMINARIO": "complementaria",
-        "INS_CHECK_LAB": "complementaria"
+        "INS_CHECK_LAB": "complementaria",
+        "INS_CUAD_CAMPO": "complementaria"
       },
       "rel_her": {
         "HER_LISTA": "complementaria",
@@ -500,7 +502,9 @@
       "INS_COMIC",
       "INS_LIBRO_ABIERTO",
       "INS_TAREA_COMP_INT",
-      "INS_SIT_PROB"
+      "INS_SIT_PROB",
+      "INS_CUAD_CAMPO",
+      "INS_MICROVIDEO"
     ],
     "rel_her": [
       "HER_RUB_COMP",
@@ -526,7 +530,9 @@
         "INS_COMIC": "principal",
         "INS_LIBRO_ABIERTO": "principal",
         "INS_TAREA_COMP_INT": "principal",
-        "INS_SIT_PROB": "complementaria"
+        "INS_SIT_PROB": "complementaria",
+        "INS_CUAD_CAMPO": "complementaria",
+        "INS_MICROVIDEO": "complementaria"
       },
       "rel_her": {
         "HER_RUB_COMP": "principal",
@@ -576,7 +582,8 @@
       "INS_PROTOTIPO",
       "INS_TRAB_COOP",
       "INS_SEMINARIO",
-      "INS_CHECK_LAB"
+      "INS_CHECK_LAB",
+      "INS_MICROVIDEO"
     ],
     "rel_her": [
       "HER_ESC_OBS",
@@ -605,7 +612,8 @@
         "INS_PROTOTIPO": "complementaria",
         "INS_TRAB_COOP": "principal",
         "INS_SEMINARIO": "principal",
-        "INS_CHECK_LAB": "principal"
+        "INS_CHECK_LAB": "principal",
+        "INS_MICROVIDEO": "complementaria"
       },
       "rel_her": {
         "HER_RUB_PROD": "complementaria",
@@ -694,7 +702,8 @@
     "rel_ins": [
       "INS_LAB",
       "INS_INFO_LAB",
-      "INS_INFO_INV"
+      "INS_INFO_INV",
+      "INS_CUAD_CAMPO"
     ],
     "rel_her": [
       "HER_GUIA_CORR",
@@ -704,7 +713,8 @@
       "rel_ins": {
         "INS_LAB": "complementaria",
         "INS_INFO_LAB": "principal",
-        "INS_INFO_INV": "principal"
+        "INS_INFO_INV": "principal",
+        "INS_CUAD_CAMPO": "principal"
       },
       "rel_her": {
         "HER_LISTA": "ocasional",
@@ -869,7 +879,8 @@
       "INS_FORO",
       "INS_DOC_COL",
       "INS_PORT_DIG",
-      "INS_CUAD_DIG"
+      "INS_CUAD_DIG",
+      "INS_MICROVIDEO"
     ],
     "rel_her": [
       "HER_RUB_DIG",
@@ -893,7 +904,8 @@
         "INS_FORO": "principal",
         "INS_DOC_COL": "principal",
         "INS_PORT_DIG": "principal",
-        "INS_CUAD_DIG": "principal"
+        "INS_CUAD_DIG": "principal",
+        "INS_MICROVIDEO": "principal"
       },
       "rel_her": {
         "HER_HOJA_CALC": "principal",
@@ -1222,5 +1234,54 @@
     "Lugar": "Aula / Virtual",
     "Agrupamiento": "Individual / Gran grupo",
     "Resistencia IA": "Media"
+  },
+  {
+    "Código": "DIM_GAMIF",
+    "Categoría": "Contexto metodológico",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno/Iguales",
+    "rel_ins": [
+      "INS_ESCAPE",
+      "INS_PROB",
+      "INS_SIT_PROB",
+      "INS_TAREA_COMP_INT",
+      "INS_CUEST_DIG"
+    ],
+    "rel_her": [
+      "HER_ESC_OBS",
+      "HER_LISTA",
+      "HER_RUB_COMP",
+      "HER_ANALITICAS"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_ESCAPE": "principal",
+        "INS_PROB": "complementaria",
+        "INS_SIT_PROB": "complementaria",
+        "INS_TAREA_COMP_INT": "complementaria",
+        "INS_CUEST_DIG": "complementaria"
+      },
+      "rel_her": {
+        "HER_ESC_OBS": "complementaria",
+        "HER_LISTA": "complementaria",
+        "HER_RUB_COMP": "complementaria",
+        "HER_ANALITICAS": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Modalidad": "Presencial / Online",
+    "Resistencia IA": "Media",
+    "Dimensión": "Gamified assessment",
+    "Descripción breve": "Use of game mechanics to collect evidence of learning.",
+    "Función pedagógica": "Increase motivation and engagement, and obtain immediate feedback on learning.",
+    "Evidencias habituales": "Challenges, escape rooms, timed rounds, badges, leaderboards, cooperative quests.",
+    "Cuándo conviene": "When high motivation is sought, when consolidating learning, or when conducting active diagnostic assessment.",
+    "Precauciones": "Game mechanics must not distort assessment; participation must be distinguished from demonstrated learning.",
+    "Etiquetas": "gamification; game-based; escape room; challenge; badges",
+    "Descripción detallada": "This dimension describes the didactic format or situation in which evidence is generated. It can combine several collection procedures.\n\nGamified assessment incorporates game mechanics (challenges, points, badges, countdowns, regulated cooperation or competition) to collect evidence of learning in a highly motivating environment. It is not synonymous with a specific instrument such as an escape room (INS_ESCAPE), but rather the methodological approach that encompasses any strategy using games for assessment purposes.\n\nHow to apply it: tasks or challenges are designed with clear rules, visible achievement criteria and immediate feedback. Points or badges can be used as evidence of the level reached if they are aligned with real assessment criteria. Analytics from the gamified platform (time, attempts, correct answers) complement the teacher's observation but do not replace it.\n\nIt is especially suitable for formative assessment, consolidation and diagnostic assessment, as the playful context reduces assessment anxiety and encourages participation from students who struggle with motivation.",
+    "Medios/evidencias asociados": "Escape room or gamified challenge; Problem solving; Problem situation; Integrated competency task; Digital questionnaire",
+    "Instrumentos de evaluación recomendados": "Observation scale; Checklist; Competency rubric; Learning analytics",
+    "Lugar": "Classroom / Virtual",
+    "Agrupamiento": "Individual / Small group / Whole class"
   }
 ]

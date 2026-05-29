@@ -22,7 +22,8 @@
       "INS_PART",
       "INS_ASAM",
       "INS_DRAMA",
-      "INS_PROTOTIPO"
+      "INS_PROTOTIPO",
+      "INS_CUAD_CAMPO"
     ],
     "rel_her": [
       "HER_LISTA",
@@ -42,7 +43,8 @@
         "INS_SIM": "principal",
         "INS_DRAMA": "principal",
         "INS_EXPO": "complementaria",
-        "INS_PROTOTIPO": "complementaria"
+        "INS_PROTOTIPO": "complementaria",
+        "INS_CUAD_CAMPO": "complementaria"
       },
       "rel_her": {
         "HER_LISTA": "principal",
@@ -151,7 +153,9 @@
       "INS_PORT_DIG",
       "INS_MAP_INI",
       "INS_BORR",
-      "INS_ENT_PAR"
+      "INS_ENT_PAR",
+      "INS_CUAD_CAMPO",
+      "INS_MICROVIDEO"
     ],
     "rel_her": [
       "HER_RUB_ANA",
@@ -198,7 +202,9 @@
         "INS_BORR": "complementaria",
         "INS_ENT_PAR": "complementaria",
         "INS_DEF_PROY": "complementaria",
-        "INS_PODCAST": "complementaria"
+        "INS_PODCAST": "complementaria",
+        "INS_CUAD_CAMPO": "complementaria",
+        "INS_MICROVIDEO": "complementaria"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
@@ -304,7 +310,8 @@
       "INS_PRESENT_DIG",
       "INS_PODCAST",
       "INS_FORO",
-      "INS_LLUVIA"
+      "INS_LLUVIA",
+      "INS_MICROVIDEO"
     ],
     "rel_her": [
       "HER_RUB_ORAL",
@@ -326,7 +333,8 @@
         "INS_PRESENT_DIG": "complementaria",
         "INS_PODCAST": "principal",
         "INS_FORO": "principal",
-        "INS_LLUVIA": "complementaria"
+        "INS_LLUVIA": "complementaria",
+        "INS_MICROVIDEO": "complementaria"
       },
       "rel_her": {
         "HER_RUB_ORAL": "principal",

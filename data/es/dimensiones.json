@@ -286,7 +286,8 @@
       "INS_BILLETE",
       "INS_TRAB_COOP",
       "INS_SEMINARIO",
-      "INS_CHECK_LAB"
+      "INS_CHECK_LAB",
+      "INS_CUAD_CAMPO"
     ],
     "rel_her": [
       "HER_FICHA_RETRO",
@@ -343,7 +344,8 @@
         "INS_BILLETE": "principal",
         "INS_TRAB_COOP": "principal",
         "INS_SEMINARIO": "complementaria",
-        "INS_CHECK_LAB": "complementaria"
+        "INS_CHECK_LAB": "complementaria",
+        "INS_CUAD_CAMPO": "complementaria"
       },
       "rel_her": {
         "HER_LISTA": "complementaria",
@@ -500,7 +502,9 @@
       "INS_COMIC",
       "INS_LIBRO_ABIERTO",
       "INS_TAREA_COMP_INT",
-      "INS_SIT_PROB"
+      "INS_SIT_PROB",
+      "INS_CUAD_CAMPO",
+      "INS_MICROVIDEO"
     ],
     "rel_her": [
       "HER_RUB_COMP",
@@ -526,7 +530,9 @@
         "INS_COMIC": "principal",
         "INS_LIBRO_ABIERTO": "principal",
         "INS_TAREA_COMP_INT": "principal",
-        "INS_SIT_PROB": "complementaria"
+        "INS_SIT_PROB": "complementaria",
+        "INS_CUAD_CAMPO": "complementaria",
+        "INS_MICROVIDEO": "complementaria"
       },
       "rel_her": {
         "HER_RUB_COMP": "principal",
@@ -576,7 +582,8 @@
       "INS_PROTOTIPO",
       "INS_TRAB_COOP",
       "INS_SEMINARIO",
-      "INS_CHECK_LAB"
+      "INS_CHECK_LAB",
+      "INS_MICROVIDEO"
     ],
     "rel_her": [
       "HER_ESC_OBS",
@@ -605,7 +612,8 @@
         "INS_PROTOTIPO": "complementaria",
         "INS_TRAB_COOP": "principal",
         "INS_SEMINARIO": "principal",
-        "INS_CHECK_LAB": "principal"
+        "INS_CHECK_LAB": "principal",
+        "INS_MICROVIDEO": "complementaria"
       },
       "rel_her": {
         "HER_RUB_PROD": "complementaria",
@@ -694,7 +702,8 @@
     "rel_ins": [
       "INS_LAB",
       "INS_INFO_LAB",
-      "INS_INFO_INV"
+      "INS_INFO_INV",
+      "INS_CUAD_CAMPO"
     ],
     "rel_her": [
       "HER_GUIA_CORR",
@@ -704,7 +713,8 @@
       "rel_ins": {
         "INS_LAB": "complementaria",
         "INS_INFO_LAB": "principal",
-        "INS_INFO_INV": "principal"
+        "INS_INFO_INV": "principal",
+        "INS_CUAD_CAMPO": "principal"
       },
       "rel_her": {
         "HER_LISTA": "ocasional",
@@ -869,7 +879,8 @@
       "INS_FORO",
       "INS_DOC_COL",
       "INS_PORT_DIG",
-      "INS_CUAD_DIG"
+      "INS_CUAD_DIG",
+      "INS_MICROVIDEO"
     ],
     "rel_her": [
       "HER_RUB_DIG",
@@ -893,7 +904,8 @@
         "INS_FORO": "principal",
         "INS_DOC_COL": "principal",
         "INS_PORT_DIG": "principal",
-        "INS_CUAD_DIG": "principal"
+        "INS_CUAD_DIG": "principal",
+        "INS_MICROVIDEO": "principal"
       },
       "rel_her": {
         "HER_HOJA_CALC": "principal",
@@ -1222,5 +1234,54 @@
     "Lugar": "Aula / Virtual",
     "Agrupamiento": "Individual / Gran grupo",
     "Resistencia IA": "Media"
+  },
+  {
+    "Código": "DIM_GAMIF",
+    "Categoría": "Contexto metodológico",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno/Iguales",
+    "rel_ins": [
+      "INS_ESCAPE",
+      "INS_PROB",
+      "INS_SIT_PROB",
+      "INS_TAREA_COMP_INT",
+      "INS_CUEST_DIG"
+    ],
+    "rel_her": [
+      "HER_ESC_OBS",
+      "HER_LISTA",
+      "HER_RUB_COMP",
+      "HER_ANALITICAS"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_ESCAPE": "principal",
+        "INS_PROB": "complementaria",
+        "INS_SIT_PROB": "complementaria",
+        "INS_TAREA_COMP_INT": "complementaria",
+        "INS_CUEST_DIG": "complementaria"
+      },
+      "rel_her": {
+        "HER_ESC_OBS": "complementaria",
+        "HER_LISTA": "complementaria",
+        "HER_RUB_COMP": "complementaria",
+        "HER_ANALITICAS": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Modalidad": "Presencial / Online",
+    "Resistencia IA": "Media",
+    "Dimensión": "Evaluación gamificada",
+    "Descripción breve": "Uso de mecánicas de juego para recoger evidencias de aprendizaje.",
+    "Función pedagógica": "Aumentar motivación e implicación, y obtener retroalimentación inmediata sobre el aprendizaje.",
+    "Evidencias habituales": "Retos, escape rooms, rondas cronometradas, insignias, marcadores, desafíos cooperativos.",
+    "Cuándo conviene": "Cuando se quiere evaluar con alta motivación, consolidar aprendizajes o hacer evaluación diagnóstica de forma activa.",
+    "Precauciones": "Las mecánicas de juego no deben distorsionar la evaluación; hay que distinguir entre participación y aprendizaje demostrado.",
+    "Etiquetas": "gamificacion; juego; escape room; reto; insignias",
+    "Descripción detallada": "Esta dimensión describe el formato o situación didáctica en la que se genera la evidencia. Puede combinar varios procedimientos de recogida.\n\nLa evaluación gamificada incorpora mecánicas propias del juego (retos, puntos, insignias, contrarreloj, cooperación o competición regulada) para recoger evidencias de aprendizaje en un entorno de alta motivación. No es sinónimo de un instrumento concreto como el escape room (INS_ESCAPE), sino el enfoque metodológico que engloba cualquier estrategia que usa el juego con propósito evaluativo.\n\nCómo aplicarla: se diseñan tareas o retos con reglas claras, criterios de logro visibles y retroalimentación inmediata. Los puntos o insignias pueden usarse como evidencia del nivel alcanzado si están alineados con criterios de evaluación reales. Las analíticas de la plataforma gamificada (tiempo, intentos, aciertos) complementan la observación docente, pero no la sustituyen.\n\nEs especialmente adecuada para la evaluación formativa, la consolidación y la evaluación diagnóstica, ya que el contexto lúdico reduce la ansiedad evaluativa y favorece la participación de alumnado con dificultades de motivación.",
+    "Medios/evidencias asociados": "Escape room o reto gamificado; Resolución de problemas; Situación-problema; Tarea competencial integrada; Cuestionario digital",
+    "Instrumentos de evaluación recomendados": "Escala de observación; Lista de cotejo o control; Rúbrica competencial; Analíticas de aprendizaje",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño / Gran grupo"
   }
 ]

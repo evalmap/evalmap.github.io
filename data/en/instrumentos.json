@@ -3592,7 +3592,8 @@
       "DIM_COMP",
       "DIM_CRIT",
       "DIM_INCL",
-      "DIM_CAL_ACRED"
+      "DIM_CAL_ACRED",
+      "DIM_GAMIF"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3604,7 +3605,8 @@
         "DIM_COMP": "principal",
         "DIM_CRIT": "principal",
         "DIM_INCL": "principal",
-        "DIM_CAL_ACRED": "complementaria"
+        "DIM_CAL_ACRED": "complementaria",
+        "DIM_GAMIF": "complementaria"
       },
       "rel_her": {
         "HER_RUB_COMP": "principal",
@@ -3645,7 +3647,8 @@
     "rel_dim": [
       "DIM_PROB",
       "DIM_COMP",
-      "DIM_CRIT"
+      "DIM_CRIT",
+      "DIM_GAMIF"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3655,7 +3658,8 @@
       "rel_dim": {
         "DIM_PROB": "principal",
         "DIM_COMP": "complementaria",
-        "DIM_CRIT": "principal"
+        "DIM_CRIT": "principal",
+        "DIM_GAMIF": "complementaria"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
@@ -3696,7 +3700,8 @@
     "rel_dim": [
       "DIM_SIM",
       "DIM_PROB",
-      "DIM_COMPART"
+      "DIM_COMPART",
+      "DIM_GAMIF"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3706,7 +3711,8 @@
       "rel_dim": {
         "DIM_SIM": "principal",
         "DIM_PROB": "complementaria",
-        "DIM_COMPART": "complementaria"
+        "DIM_COMPART": "complementaria",
+        "DIM_GAMIF": "principal"
       },
       "rel_her": {
         "HER_GUIA_OBS": "principal",
@@ -3933,5 +3939,113 @@
     "Lugar": "Virtual / Domicilio",
     "Agrupamiento": "Individual",
     "Resistencia IA": "Media"
+  },
+  {
+    "Código": "INS_CUAD_CAMPO",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Docente/Alumno",
+    "rel_tec": [
+      "TEC_OBS_SIS",
+      "TEC_PROD",
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_LISTA",
+      "HER_NOTAS_CAMPO",
+      "HER_RUB_ANA"
+    ],
+    "rel_dim": [
+      "DIM_INDAG",
+      "DIM_COMP",
+      "DIM_FORM"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal",
+        "TEC_PROD": "complementaria",
+        "TEC_PROC_REFLEX": "ocasional"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "principal",
+        "HER_LISTA": "complementaria",
+        "HER_NOTAS_CAMPO": "complementaria",
+        "HER_RUB_ANA": "ocasional"
+      },
+      "rel_dim": {
+        "DIM_INDAG": "principal",
+        "DIM_COMP": "complementaria",
+        "DIM_FORM": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Modalidad": "Presencial",
+    "Resistencia IA": "Alta",
+    "Instrumento": "Field notebook",
+    "Tipo": "Written/observational production",
+    "Descripción breve": "Record of observations, data and reflections during outdoor or real-world activities.",
+    "Técnicas asociadas": "Systematic observation; Analysis of productions; Analysis of processes and reflections",
+    "Evidencia": "Written production",
+    "Adecuado para": "In situ observation; data recording; connection with the natural or social environment.",
+    "Etiquetas": "field notebook; outdoor; observation; nature",
+    "Descripción detallada": "The field notebook is the record produced by the student during activities carried out outside the classroom: field trips, visits, environmental studies or activities in natural spaces. Unlike the classroom notebook (INS_CUADERNO), it documents real-time observations in uncontrolled contexts; unlike the laboratory report (INS_INFO_LAB), it does not follow a closed experimental structure, but collects notes, sketches, measurements and on-the-spot reflections.\n\nHow to use it for assessment: the student records direct observations, measured data, drawings or sketches, emerging questions and initial reflections. The teacher assesses the accuracy and completeness of observations, the ability to record relevant data, and the quality of reflection on what was observed. A correction guide listing the expected elements supports consistent assessment.\n\nIt is especially useful in natural sciences, geography, environmental education, local history and any subject that uses the environment as a source of learning. Its value lies in the fact that evidence is generated on the spot, providing authenticity and contextualisation that are hard to replicate in the classroom.",
+    "Dimensiones asociadas": "Inquiry; Competency-based approach; Formative purpose",
+    "Instrumentos de evaluación recomendados": "Correction guide; Checklist; Field notes; Analytical rubric",
+    "Lugar": "Outdoors / Laboratory / Classroom",
+    "Agrupamiento": "Individual / Small group"
+  },
+  {
+    "Código": "INS_MICROVIDEO",
+    "Complejidad": "Media",
+    "Fase": "Final",
+    "Participación": "Docente/Iguales",
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_ORAL"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_RUB_PROD",
+      "HER_LISTA",
+      "HER_FICHA_COEV"
+    ],
+    "rel_dim": [
+      "DIM_DIG",
+      "DIM_COMP",
+      "DIM_DESEMP"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal",
+        "TEC_ORAL": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_RUB_PROD": "complementaria",
+        "HER_LISTA": "complementaria",
+        "HER_FICHA_COEV": "ocasional"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal",
+        "DIM_COMP": "complementaria",
+        "DIM_DESEMP": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Modalidad": "Presencial / Online",
+    "Resistencia IA": "Alta",
+    "Instrumento": "Educational micro-video",
+    "Tipo": "Audiovisual production",
+    "Descripción breve": "Short video (60–90 s) that explains, communicates or argues about a topic.",
+    "Técnicas asociadas": "Analysis of productions; Oral exchanges",
+    "Evidencia": "Audiovisual product",
+    "Adecuado para": "Synthesis; concise communication; creativity; digital competence.",
+    "Etiquetas": "micro-video; short; reel; educational; digital",
+    "Descripción detallada": "An educational micro-video is a short audiovisual production (usually between 60 and 90 seconds) in which the student explains a concept, argues a position, summarises a topic or communicates results in a concise and direct way. It differs from a conventional video (INS_VIDEO) in that it requires maximum condensation of the message; and from a video tutorial (INS_TUTORIAL) in that it does not necessarily follow a step-by-step procedural structure.\n\nHow to use it for assessment: clarity and accuracy of the message, suitability for the intended audience, narrative structure within the limited duration, correctness of content and basic technical quality (image, sound) are all assessed. An analytical rubric that distinguishes between content and production allows specific feedback. Peer assessment is particularly natural for this format.\n\nIt is motivating for students who learn better through visual and oral formats than through writing. It develops digital competence, communication skills and the ability to synthesise.",
+    "Dimensiones asociadas": "Digital evidence; Competency-based approach; Performance evidence",
+    "Instrumentos de evaluación recomendados": "Analytical rubric; Product rubric; Checklist; Peer assessment form",
+    "Lugar": "Classroom / Virtual / Home / Outdoors",
+    "Agrupamiento": "Individual / Pairs"
   }
 ]

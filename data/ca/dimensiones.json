@@ -286,7 +286,8 @@
       "INS_BILLETE",
       "INS_TRAB_COOP",
       "INS_SEMINARIO",
-      "INS_CHECK_LAB"
+      "INS_CHECK_LAB",
+      "INS_CUAD_CAMPO"
     ],
     "rel_her": [
       "HER_FICHA_RETRO",
@@ -343,7 +344,8 @@
         "INS_BILLETE": "principal",
         "INS_TRAB_COOP": "principal",
         "INS_SEMINARIO": "complementaria",
-        "INS_CHECK_LAB": "complementaria"
+        "INS_CHECK_LAB": "complementaria",
+        "INS_CUAD_CAMPO": "complementaria"
       },
       "rel_her": {
         "HER_LISTA": "complementaria",
@@ -500,7 +502,9 @@
       "INS_COMIC",
       "INS_LIBRO_ABIERTO",
       "INS_TAREA_COMP_INT",
-      "INS_SIT_PROB"
+      "INS_SIT_PROB",
+      "INS_CUAD_CAMPO",
+      "INS_MICROVIDEO"
     ],
     "rel_her": [
       "HER_RUB_COMP",
@@ -526,7 +530,9 @@
         "INS_COMIC": "principal",
         "INS_LIBRO_ABIERTO": "principal",
         "INS_TAREA_COMP_INT": "principal",
-        "INS_SIT_PROB": "complementaria"
+        "INS_SIT_PROB": "complementaria",
+        "INS_CUAD_CAMPO": "complementaria",
+        "INS_MICROVIDEO": "complementaria"
       },
       "rel_her": {
         "HER_RUB_COMP": "principal",
@@ -576,7 +582,8 @@
       "INS_PROTOTIPO",
       "INS_TRAB_COOP",
       "INS_SEMINARIO",
-      "INS_CHECK_LAB"
+      "INS_CHECK_LAB",
+      "INS_MICROVIDEO"
     ],
     "rel_her": [
       "HER_ESC_OBS",
@@ -605,7 +612,8 @@
         "INS_PROTOTIPO": "complementaria",
         "INS_TRAB_COOP": "principal",
         "INS_SEMINARIO": "principal",
-        "INS_CHECK_LAB": "principal"
+        "INS_CHECK_LAB": "principal",
+        "INS_MICROVIDEO": "complementaria"
       },
       "rel_her": {
         "HER_RUB_PROD": "complementaria",
@@ -694,7 +702,8 @@
     "rel_ins": [
       "INS_LAB",
       "INS_INFO_LAB",
-      "INS_INFO_INV"
+      "INS_INFO_INV",
+      "INS_CUAD_CAMPO"
     ],
     "rel_her": [
       "HER_GUIA_CORR",
@@ -704,7 +713,8 @@
       "rel_ins": {
         "INS_LAB": "complementaria",
         "INS_INFO_LAB": "principal",
-        "INS_INFO_INV": "principal"
+        "INS_INFO_INV": "principal",
+        "INS_CUAD_CAMPO": "principal"
       },
       "rel_her": {
         "HER_LISTA": "ocasional",
@@ -869,7 +879,8 @@
       "INS_FORO",
       "INS_DOC_COL",
       "INS_PORT_DIG",
-      "INS_CUAD_DIG"
+      "INS_CUAD_DIG",
+      "INS_MICROVIDEO"
     ],
     "rel_her": [
       "HER_RUB_DIG",
@@ -893,7 +904,8 @@
         "INS_FORO": "principal",
         "INS_DOC_COL": "principal",
         "INS_PORT_DIG": "principal",
-        "INS_CUAD_DIG": "principal"
+        "INS_CUAD_DIG": "principal",
+        "INS_MICROVIDEO": "principal"
       },
       "rel_her": {
         "HER_HOJA_CALC": "principal",
@@ -1222,5 +1234,54 @@
     "Lugar": "Aula / Virtual",
     "Agrupamiento": "Individual / Gran grupo",
     "Resistencia IA": "Media"
+  },
+  {
+    "Código": "DIM_GAMIF",
+    "Categoría": "Contexto metodológico",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno/Iguales",
+    "rel_ins": [
+      "INS_ESCAPE",
+      "INS_PROB",
+      "INS_SIT_PROB",
+      "INS_TAREA_COMP_INT",
+      "INS_CUEST_DIG"
+    ],
+    "rel_her": [
+      "HER_ESC_OBS",
+      "HER_LISTA",
+      "HER_RUB_COMP",
+      "HER_ANALITICAS"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_ESCAPE": "principal",
+        "INS_PROB": "complementaria",
+        "INS_SIT_PROB": "complementaria",
+        "INS_TAREA_COMP_INT": "complementaria",
+        "INS_CUEST_DIG": "complementaria"
+      },
+      "rel_her": {
+        "HER_ESC_OBS": "complementaria",
+        "HER_LISTA": "complementaria",
+        "HER_RUB_COMP": "complementaria",
+        "HER_ANALITICAS": "complementaria"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Modalidad": "Presencial / Online",
+    "Resistencia IA": "Media",
+    "Dimensión": "Avaluació gamificada",
+    "Descripción breve": "Ús de mecàniques de joc per recollir evidències d'aprenentatge.",
+    "Función pedagógica": "Augmentar la motivació i la implicació, i obtenir retroalimentació immediata sobre l'aprenentatge.",
+    "Evidencias habituales": "Reptes, escape rooms, rondes cronometrades, insígnies, marcadors, desafiaments cooperatius.",
+    "Cuándo conviene": "Quan es vol avaluar amb alta motivació, consolidar aprenentatges o fer avaluació diagnòstica de forma activa.",
+    "Precauciones": "Les mecàniques de joc no han de distorsionar l'avaluació; cal distingir entre participació i aprenentatge demostrat.",
+    "Etiquetas": "gamificacio; joc; escape room; repte; insignies",
+    "Descripción detallada": "Aquesta dimensió descriu el format o situació didàctica en la qual es genera l'evidència. Pot combinar diversos procediments de recollida.\n\nL'avaluació gamificada incorpora mecàniques pròpies del joc (reptes, punts, insígnies, contrarellotge, cooperació o competició regulada) per recollir evidències d'aprenentatge en un entorn d'alta motivació. No és sinònim d'un instrument concret com l'escape room (INS_ESCAPE), sinó l'enfocament metodològic que engloba qualsevol estratègia que utilitza el joc amb propòsit avaluatiu.\n\nCom aplicar-la: es dissenyen tasques o reptes amb regles clares, criteris d'assoliment visibles i retroalimentació immediata. Els punts o insígnies es poden usar com a evidència del nivell assolit si estan alineats amb criteris d'avaluació reals. Les analítiques de la plataforma gamificada (temps, intents, encerts) complementen l'observació docent, però no la substitueixen.\n\nÉs especialment adequada per a l'avaluació formativa, la consolidació i l'avaluació diagnòstica, ja que el context lúdic redueix l'ansietat avaluativa i afavoreix la participació de l'alumnat amb dificultats de motivació.",
+    "Medios/evidencias asociados": "Escape room o repte gamificat; Resolució de problemes; Situació-problema; Tasca competencial integrada; Qüestionari digital",
+    "Instrumentos de evaluación recomendados": "Escala d'observació; Llista de verificació o control; Rúbrica competencial; Analítiques d'aprenentatge",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grup petit / Grup gran"
   }
 ]

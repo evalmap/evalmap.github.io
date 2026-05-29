@@ -3592,7 +3592,8 @@
       "DIM_COMP",
       "DIM_CRIT",
       "DIM_INCL",
-      "DIM_CAL_ACRED"
+      "DIM_CAL_ACRED",
+      "DIM_GAMIF"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3604,7 +3605,8 @@
         "DIM_COMP": "principal",
         "DIM_CRIT": "principal",
         "DIM_INCL": "principal",
-        "DIM_CAL_ACRED": "complementaria"
+        "DIM_CAL_ACRED": "complementaria",
+        "DIM_GAMIF": "complementaria"
       },
       "rel_her": {
         "HER_RUB_COMP": "principal",
@@ -3645,7 +3647,8 @@
     "rel_dim": [
       "DIM_PROB",
       "DIM_COMP",
-      "DIM_CRIT"
+      "DIM_CRIT",
+      "DIM_GAMIF"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3655,7 +3658,8 @@
       "rel_dim": {
         "DIM_PROB": "principal",
         "DIM_COMP": "complementaria",
-        "DIM_CRIT": "principal"
+        "DIM_CRIT": "principal",
+        "DIM_GAMIF": "complementaria"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
@@ -3696,7 +3700,8 @@
     "rel_dim": [
       "DIM_SIM",
       "DIM_PROB",
-      "DIM_COMPART"
+      "DIM_COMPART",
+      "DIM_GAMIF"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3706,7 +3711,8 @@
       "rel_dim": {
         "DIM_SIM": "principal",
         "DIM_PROB": "complementaria",
-        "DIM_COMPART": "complementaria"
+        "DIM_COMPART": "complementaria",
+        "DIM_GAMIF": "principal"
       },
       "rel_her": {
         "HER_GUIA_OBS": "principal",
@@ -3933,5 +3939,113 @@
     "Lugar": "Virtual / Domicilio",
     "Agrupamiento": "Individual",
     "Resistencia IA": "Media"
+  },
+  {
+    "Código": "INS_CUAD_CAMPO",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Docente/Alumno",
+    "rel_tec": [
+      "TEC_OBS_SIS",
+      "TEC_PROD",
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_LISTA",
+      "HER_NOTAS_CAMPO",
+      "HER_RUB_ANA"
+    ],
+    "rel_dim": [
+      "DIM_INDAG",
+      "DIM_COMP",
+      "DIM_FORM"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal",
+        "TEC_PROD": "complementaria",
+        "TEC_PROC_REFLEX": "ocasional"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "principal",
+        "HER_LISTA": "complementaria",
+        "HER_NOTAS_CAMPO": "complementaria",
+        "HER_RUB_ANA": "ocasional"
+      },
+      "rel_dim": {
+        "DIM_INDAG": "principal",
+        "DIM_COMP": "complementaria",
+        "DIM_FORM": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Modalidad": "Presencial",
+    "Resistencia IA": "Alta",
+    "Instrumento": "Cuaderno de campo",
+    "Tipo": "Producción escrita/observacional",
+    "Descripción breve": "Registro de observaciones, datos y reflexiones durante actividades en el exterior o entorno real.",
+    "Técnicas asociadas": "Observación sistemática; Análisis de producciones; Análisis de procesos y reflexiones",
+    "Evidencia": "Producción escrita",
+    "Adecuado para": "Observación in situ; registro de datos; conexión con el entorno natural o social.",
+    "Etiquetas": "campo; exterior; observacion; naturaleza",
+    "Descripción detallada": "El cuaderno de campo es el registro que elabora el alumno durante actividades realizadas fuera del aula: salidas de campo, visitas, estudios del entorno o actividades en espacios naturales. A diferencia del cuaderno de clase (INS_CUADERNO), documenta observaciones en tiempo real en contextos no controlados; a diferencia del informe de laboratorio (INS_INFO_LAB), no sigue una estructura experimental cerrada, sino que recoge notas, croquis, medidas y reflexiones sobre la marcha.\n\nCómo usarlo para evaluar: el alumno registra observaciones directas, datos medidos, dibujos o croquis, preguntas emergentes y reflexiones iniciales. El docente evalúa la precisión y completitud de las observaciones, la capacidad de registrar datos relevantes y la calidad de la reflexión sobre lo observado. Una guía de corrección con los elementos esperados orienta la evaluación de forma coherente.\n\nEs especialmente útil en ciencias naturales, geografía, educación ambiental, historia local y cualquier materia que trabaje con el entorno como fuente de aprendizaje. Su valor radica en que la evidencia se genera en el lugar de los hechos, lo que aporta autenticidad y contextualización difícilmente reproducibles en el aula.",
+    "Dimensiones asociadas": "Indagación; Enfoque competencial; Finalidad formativa",
+    "Instrumentos de evaluación recomendados": "Guía de corrección; Lista de cotejo o control; Notas de campo; Rúbrica analítica",
+    "Lugar": "Exterior / Laboratorio / Aula",
+    "Agrupamiento": "Individual / Grupo pequeño"
+  },
+  {
+    "Código": "INS_MICROVIDEO",
+    "Complejidad": "Media",
+    "Fase": "Final",
+    "Participación": "Docente/Iguales",
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_ORAL"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_RUB_PROD",
+      "HER_LISTA",
+      "HER_FICHA_COEV"
+    ],
+    "rel_dim": [
+      "DIM_DIG",
+      "DIM_COMP",
+      "DIM_DESEMP"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal",
+        "TEC_ORAL": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_RUB_PROD": "complementaria",
+        "HER_LISTA": "complementaria",
+        "HER_FICHA_COEV": "ocasional"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal",
+        "DIM_COMP": "complementaria",
+        "DIM_DESEMP": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Modalidad": "Presencial / Online",
+    "Resistencia IA": "Alta",
+    "Instrumento": "Microvídeo educativo",
+    "Tipo": "Producción audiovisual",
+    "Descripción breve": "Vídeo breve (60–90 s) que explica, divulga o argumenta sobre un tema.",
+    "Técnicas asociadas": "Análisis de producciones; Intercambios orales",
+    "Evidencia": "Producto audiovisual",
+    "Adecuado para": "Síntesis; comunicación concisa; creatividad; competencia digital.",
+    "Etiquetas": "video; corto; reel; divulgacion; digital",
+    "Descripción detallada": "El microvídeo educativo es una producción audiovisual de corta duración (habitualmente entre 60 y 90 segundos) en la que el alumno explica un concepto, argumenta una posición, resume un tema o comunica resultados de forma sintética y directa. Se diferencia del vídeo convencional (INS_VIDEO) por la exigencia de condensar el mensaje al máximo; y del videotutorial (INS_TUTORIAL) en que no sigue necesariamente una estructura procedimental paso a paso.\n\nCómo usarlo para evaluar: se valoran la claridad y precisión del mensaje, la adecuación al destinatario, la estructura narrativa dentro del tiempo reducido, la corrección del contenido y la calidad técnica básica (imagen, sonido). Una rúbrica analítica que diferencie contenido y producción permite retroalimentación específica. La coevaluación entre compañeros es especialmente natural en este formato.\n\nEs motivador para alumnado que aprende mejor mediante formatos visuales y orales que escritos. Desarrolla la competencia digital, la comunicación y la capacidad de síntesis.",
+    "Dimensiones asociadas": "Evidencias digitales; Enfoque competencial; Evidencia de desempeño",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Rúbrica de producto; Lista de cotejo o control; Ficha de coevaluación",
+    "Lugar": "Aula / Virtual / Domicilio / Exterior",
+    "Agrupamiento": "Individual / Parejas"
   }
 ]

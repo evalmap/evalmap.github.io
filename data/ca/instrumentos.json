@@ -3592,7 +3592,8 @@
       "DIM_COMP",
       "DIM_CRIT",
       "DIM_INCL",
-      "DIM_CAL_ACRED"
+      "DIM_CAL_ACRED",
+      "DIM_GAMIF"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3604,7 +3605,8 @@
         "DIM_COMP": "principal",
         "DIM_CRIT": "principal",
         "DIM_INCL": "principal",
-        "DIM_CAL_ACRED": "complementaria"
+        "DIM_CAL_ACRED": "complementaria",
+        "DIM_GAMIF": "complementaria"
       },
       "rel_her": {
         "HER_RUB_COMP": "principal",
@@ -3645,7 +3647,8 @@
     "rel_dim": [
       "DIM_PROB",
       "DIM_COMP",
-      "DIM_CRIT"
+      "DIM_CRIT",
+      "DIM_GAMIF"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3655,7 +3658,8 @@
       "rel_dim": {
         "DIM_PROB": "principal",
         "DIM_COMP": "complementaria",
-        "DIM_CRIT": "principal"
+        "DIM_CRIT": "principal",
+        "DIM_GAMIF": "complementaria"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
@@ -3696,7 +3700,8 @@
     "rel_dim": [
       "DIM_SIM",
       "DIM_PROB",
-      "DIM_COMPART"
+      "DIM_COMPART",
+      "DIM_GAMIF"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3706,7 +3711,8 @@
       "rel_dim": {
         "DIM_SIM": "principal",
         "DIM_PROB": "complementaria",
-        "DIM_COMPART": "complementaria"
+        "DIM_COMPART": "complementaria",
+        "DIM_GAMIF": "principal"
       },
       "rel_her": {
         "HER_GUIA_OBS": "principal",
@@ -3933,5 +3939,113 @@
     "Lugar": "Virtual / Domicilio",
     "Agrupamiento": "Individual",
     "Resistencia IA": "Media"
+  },
+  {
+    "Código": "INS_CUAD_CAMPO",
+    "Complejidad": "Media",
+    "Fase": "Proceso",
+    "Participación": "Docente/Alumno",
+    "rel_tec": [
+      "TEC_OBS_SIS",
+      "TEC_PROD",
+      "TEC_PROC_REFLEX"
+    ],
+    "rel_her": [
+      "HER_GUIA_CORR",
+      "HER_LISTA",
+      "HER_NOTAS_CAMPO",
+      "HER_RUB_ANA"
+    ],
+    "rel_dim": [
+      "DIM_INDAG",
+      "DIM_COMP",
+      "DIM_FORM"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_OBS_SIS": "principal",
+        "TEC_PROD": "complementaria",
+        "TEC_PROC_REFLEX": "ocasional"
+      },
+      "rel_her": {
+        "HER_GUIA_CORR": "principal",
+        "HER_LISTA": "complementaria",
+        "HER_NOTAS_CAMPO": "complementaria",
+        "HER_RUB_ANA": "ocasional"
+      },
+      "rel_dim": {
+        "DIM_INDAG": "principal",
+        "DIM_COMP": "complementaria",
+        "DIM_FORM": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Modalidad": "Presencial",
+    "Resistencia IA": "Alta",
+    "Instrumento": "Quadern de camp",
+    "Tipo": "Producció escrita/observacional",
+    "Descripción breve": "Registre d'observacions, dades i reflexions durant activitats a l'exterior o entorn real.",
+    "Técnicas asociadas": "Observació sistemàtica; Anàlisi de produccions; Anàlisi de processos i reflexions",
+    "Evidencia": "Producció escrita",
+    "Adecuado para": "Observació in situ; registre de dades; connexió amb l'entorn natural o social.",
+    "Etiquetas": "camp; exterior; observacio; natura",
+    "Descripción detallada": "El quadern de camp és el registre que elabora l'alumne durant activitats realitzades fora de l'aula: sortides de camp, visites, estudis de l'entorn o activitats en espais naturals. A diferència del quadern de classe (INS_CUADERNO), documenta observacions en temps real en contextos no controlats; a diferència de l'informe de laboratori (INS_INFO_LAB), no segueix una estructura experimental tancada, sinó que recull notes, croquis, mesures i reflexions sobre la marxa.\n\nCom usar-lo per avaluar: l'alumne registra observacions directes, dades mesurades, dibuixos o croquis, preguntes emergents i reflexions inicials. El docent avalua la precisió i la completesa de les observacions, la capacitat de registrar dades rellevants i la qualitat de la reflexió sobre allò observat. Una guia de correcció amb els elements esperats orienta l'avaluació de forma coherent.\n\nÉs especialment útil en ciències naturals, geografia, educació ambiental, història local i qualsevol matèria que treballi amb l'entorn com a font d'aprenentatge. El seu valor rau en el fet que l'evidència es genera al lloc dels fets, cosa que aporta autenticitat i contextualització difícilment reproduïbles a l'aula.",
+    "Dimensiones asociadas": "Indagació; Enfocament competencial; Finalitat formativa",
+    "Instrumentos de evaluación recomendados": "Guia de correcció; Llista de verificació o control; Notes de camp; Rúbrica analítica",
+    "Lugar": "Exterior / Laboratori / Aula",
+    "Agrupamiento": "Individual / Grup petit"
+  },
+  {
+    "Código": "INS_MICROVIDEO",
+    "Complejidad": "Media",
+    "Fase": "Final",
+    "Participación": "Docente/Iguales",
+    "rel_tec": [
+      "TEC_PROD",
+      "TEC_ORAL"
+    ],
+    "rel_her": [
+      "HER_RUB_ANA",
+      "HER_RUB_PROD",
+      "HER_LISTA",
+      "HER_FICHA_COEV"
+    ],
+    "rel_dim": [
+      "DIM_DIG",
+      "DIM_COMP",
+      "DIM_DESEMP"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROD": "principal",
+        "TEC_ORAL": "complementaria"
+      },
+      "rel_her": {
+        "HER_RUB_ANA": "principal",
+        "HER_RUB_PROD": "complementaria",
+        "HER_LISTA": "complementaria",
+        "HER_FICHA_COEV": "ocasional"
+      },
+      "rel_dim": {
+        "DIM_DIG": "principal",
+        "DIM_COMP": "complementaria",
+        "DIM_DESEMP": "complementaria"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Modalidad": "Presencial / Online",
+    "Resistencia IA": "Alta",
+    "Instrumento": "Microvídeo educatiu",
+    "Tipo": "Producció audiovisual",
+    "Descripción breve": "Vídeo breu (60–90 s) que explica, divulga o argumenta sobre un tema.",
+    "Técnicas asociadas": "Anàlisi de produccions; Intercanvis orals",
+    "Evidencia": "Producte audiovisual",
+    "Adecuado para": "Síntesi; comunicació concisa; creativitat; competència digital.",
+    "Etiquetas": "video; curt; reel; divulgacio; digital",
+    "Descripción detallada": "El microvídeo educatiu és una producció audiovisual de curta durada (habitualment entre 60 i 90 segons) en la qual l'alumne explica un concepte, argumenta una posició, resumeix un tema o comunica resultats de forma sintètica i directa. Es diferencia del vídeo convencional (INS_VIDEO) per l'exigència de condensar el missatge al màxim; i del videotutorial (INS_TUTORIAL) en el fet que no segueix necessàriament una estructura procedimental pas a pas.\n\nCom usar-lo per avaluar: es valoren la claredat i precisió del missatge, l'adequació al destinatari, l'estructura narrativa dins del temps reduït, la correcció del contingut i la qualitat tècnica bàsica (imatge, so). Una rúbrica analítica que diferenciï contingut i producció permet una retroalimentació específica. La coavaluació entre companys és especialment natural en aquest format.\n\nÉs motivador per a l'alumnat que aprèn millor mitjançant formats visuals i orals que escrits. Desenvolupa la competència digital, la comunicació i la capacitat de síntesi.",
+    "Dimensiones asociadas": "Evidències digitals; Enfocament competencial; Evidència de desempenys",
+    "Instrumentos de evaluación recomendados": "Rúbrica analítica; Rúbrica de producte; Llista de verificació o control; Fitxa de coavaluació",
+    "Lugar": "Aula / Virtual / Domicili / Exterior",
+    "Agrupamiento": "Individual / Parelles"
   }
 ]
