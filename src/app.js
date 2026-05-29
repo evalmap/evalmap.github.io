@@ -2,10 +2,10 @@
 
 /* ── Structural CAT_CONFIG (keys stay fixed across languages) */
 const CAT_CONFIG_BASE = {
-  tecnicas:     { cls: 'tec', icon: '🔬', nameKey: 'Técnica',     extraFilterKey: 'Participación', extra2FilterKey: null },
-  dimensiones:  { cls: 'dim', icon: '🧭', nameKey: 'Dimensión',   extraFilterKey: 'Categoría',     extra2FilterKey: 'Participación' },
-  instrumentos: { cls: 'ins', icon: '📄', nameKey: 'Instrumento', extraFilterKey: 'Complejidad',   extra2FilterKey: 'Participación' },
-  herramientas: { cls: 'her', icon: '🛠️', nameKey: 'Herramienta', extraFilterKey: 'Participación', extra2FilterKey: 'Complejidad' },
+  tecnicas:     { cls: 'tec', icon: '🔬', nameKey: 'Técnica',     extraFilterKey: null,          extra2FilterKey: null },
+  dimensiones:  { cls: 'dim', icon: '🧭', nameKey: 'Dimensión',   extraFilterKey: 'Categoría',   extra2FilterKey: null },
+  instrumentos: { cls: 'ins', icon: '📄', nameKey: 'Instrumento', extraFilterKey: 'Complejidad', extra2FilterKey: null },
+  herramientas: { cls: 'her', icon: '🛠️', nameKey: 'Herramienta', extraFilterKey: 'Complejidad', extra2FilterKey: null },
 };
 
 function buildCatConfig(lang) {
@@ -29,15 +29,15 @@ const REL_PRIORITY = { principal: 3, complementaria: 2, ocasional: 1 };
 const state = {
   data:         {},
   cat:          null,
-  fase:         '',
   extra:        '',
-  extra2:       '',
   search:       '',
   selectedName: null,
   lang:         localStorage.getItem('evalmap_lang') || 'es',
   planMode:       false,
   planSelected:   new Map(), // code → { name, cat, item }
   planExpandedDim: null,     // dimension code currently expanded
+  gFase:         '',
+  gParticipacion: '',
   gModalidad:    '',
   gLugar:        '',
   gAgrupamiento: '',
@@ -182,13 +182,14 @@ async function setLang(lang) {
   state.lang = lang;
   localStorage.setItem('evalmap_lang', lang);
   CAT_CONFIG = buildCatConfig(lang);
+  state.gFase = ''; state.gParticipacion = '';
   state.gModalidad = ''; state.gLugar = ''; state.gAgrupamiento = ''; state.gResIA = '';
   renderHome();
   updateStaticI18n();
   renderGlobalFilters();
   await loadData();
   if (state.cat) {
-    state.fase = ''; state.extra = ''; state.extra2 = ''; state.search = '';
+    state.extra = ''; state.search = '';
     showCatalog(state.cat);
     if (state.selectedName) showDetailPanel(state.selectedName, state.cat, false);
   }
@@ -273,17 +274,14 @@ function showHome() {
 }
 
 function showCatalog(cat) {
-  state.cat    = cat;
-  state.fase   = '';
-  state.extra  = '';
-  state.extra2 = '';
+  state.cat   = cat;
+  state.extra = '';
   state.search = '';
   resetDetailEmpty();
   document.querySelector('.catalog-body').classList.remove('has-detail');
 
   const cfg = CAT_CONFIG[cat];
   const i   = i18n();
-  const fvl = i.filterValLabels;
 
   document.getElementById('cat-tabs').style.display      = 'flex';
   document.getElementById('catalog-count').style.display = '';
@@ -298,30 +296,7 @@ function showCatalog(cat) {
   document.getElementById('filter-bar').style.setProperty('--active-color', `var(--c-${cfg.cls})`);
   document.getElementById('detail-panel').style.setProperty('--active-color', `var(--c-${cfg.cls})`);
 
-  const extra2Row = cfg.extra2FilterLabel ? `
-    <div class="filter-row">
-      <span class="filter-label">${cfg.extra2FilterLabel}</span>
-      <div class="filter-group" id="filter-extra2-chips">
-        <div class="chip active" data-extra2="">${cfg.extra2FilterAll}</div>
-        ${cfg.extra2FilterVals.map(v => `<div class="chip" data-extra2="${v}">${fvl[v] || v}</div>`).join('')}
-      </div>
-    </div>` : '';
-  document.getElementById('filter-chips').innerHTML = `
-    <div class="filter-row">
-      <span class="filter-label">${i.filterPhaseLabel}</span>
-      <div class="filter-group" id="filter-fase">
-        <div class="chip active" data-fase="">${i.filterPhaseAll}</div>
-        ${Object.entries(i.phases).map(([code, label]) => `<div class="chip" data-fase="${code}">${label}</div>`).join('')}
-      </div>
-    </div>
-    <div class="filter-row">
-      <span class="filter-label">${cfg.extraFilterLabel}</span>
-      <div class="filter-group" id="filter-extra-chips">
-        <div class="chip active" data-extra="">${cfg.extraFilterAll}</div>
-        ${cfg.extraFilterVals.map(v => `<div class="chip" data-extra="${v}">${fvl[v] || v}</div>`).join('')}
-      </div>
-    </div>
-    ${extra2Row}`;
+  renderGlobalFilters();
 
   const planToolbar = document.getElementById('plan-toolbar');
   if (cat === 'herramientas') {
@@ -337,6 +312,7 @@ function showCatalog(cat) {
 
 /* ── Global filters ───────────────────────────────────────── */
 const GF_STATE = {
+  fase: 'gFase', participacion: 'gParticipacion',
   modalidad: 'gModalidad', lugar: 'gLugar',
   agrupamiento: 'gAgrupamiento', resistenciaIA: 'gResIA',
 };
@@ -354,11 +330,16 @@ function resetDetailEmpty() {
 function applyGlobalFilterToGraph() {
   if (!detailCurrentItem) return;
   if (matchGlobalFilters(detailCurrentItem)) {
-    renderGraph(detailCurrentItem, detailCurrentCat);
+    // Item passes filters: restore full detail panel if it was hidden by a filter
+    if (document.getElementById('detail-content').style.display === 'none') {
+      showDetailPanel(detailCurrentItem[CAT_CONFIG[detailCurrentCat].nameKey], detailCurrentCat, false);
+    } else {
+      renderGraph(detailCurrentItem, detailCurrentCat);
+    }
   } else {
     graphStop();
     GRAPH.nodes = []; GRAPH.edges = [];
-    state.selectedName = null;
+    // Keep state.selectedName so the item can be restored when filters change back
     document.querySelectorAll('.cat-card').forEach(c =>
       c.className = c.className.replace(/\bselected-\w+\b/g, '').trim());
     document.getElementById('detail-content').style.display = 'none';
@@ -372,6 +353,8 @@ function applyGlobalFilterToGraph() {
 function matchGlobalFilters(item) {
   const gf = i18n().globalFilters;
   return (
+    matchField(item, gf.fase.field,          state.gFase) &&
+    matchField(item, gf.participacion.field, state.gParticipacion) &&
     matchField(item, gf.modalidad.field,     state.gModalidad) &&
     matchField(item, gf.lugar.field,         state.gLugar) &&
     matchField(item, gf.agrupamiento.field,  state.gAgrupamiento) &&
@@ -380,57 +363,91 @@ function matchGlobalFilters(item) {
 }
 
 function renderGlobalFilters() {
-  const wasOpen = document.getElementById('gf-popover')?.style.display !== 'none';
+  const pop0 = document.getElementById('gf-popover');
+  const wasOpen = pop0 ? pop0.style.display === '' : false;
   const i   = i18n();
   const fvl = i.filterValLabels;
   const gf  = i.globalFilters;
   const bar = document.getElementById('global-filter-bar');
+  const cfg = state.cat ? CAT_CONFIG[state.cat] : null;
 
-  const activeCount = [state.gModalidad, state.gLugar, state.gAgrupamiento, state.gResIA]
-    .filter(Boolean).length;
+  const activeCount = [
+    state.gFase, state.gParticipacion,
+    state.gModalidad, state.gLugar, state.gAgrupamiento, state.gResIA,
+    state.extra,
+  ].filter(Boolean).length;
 
-  const pills = Object.entries(gf).map(([key, cfg]) => {
+  const globalPills = Object.entries(gf).map(([key, gcfg]) => {
     const val = state[GF_STATE[key]];
     if (!val) return '';
     const short = key === 'resistenciaIA' ? `IA: ${fvl[val] || val}` : (fvl[val] || val);
     return `<span class="gf-pill"><span>${short}</span><button class="gf-pill-x" type="button" data-gf="${key}" aria-label="Quitar">×</button></span>`;
   }).join('');
 
-  const popoverRows = Object.entries(gf).map(([key, cfg]) => {
+  const catCls = cfg ? CAT_CONFIG_BASE[state.cat]?.cls || cfg.cls : '';
+  const extraPill = (cfg && cfg.extraFilterLabel && state.extra)
+    ? `<span class="gf-pill gf-pill--cat" style="--cat-color:var(--c-${catCls})"><span>${fvl[state.extra] || state.extra}</span><button class="gf-pill-x" type="button" data-gf="extra" aria-label="Quitar">×</button></span>`
+    : '';
+
+  const infoIcon = desc => desc
+    ? `<span class="gf-info" title="${desc.replace(/"/g, '&quot;')}">?</span>` : '';
+
+  const popoverRows = Object.entries(gf).map(([key, gcfg]) => {
     const cur = state[GF_STATE[key]];
     return `
       <div class="gf-group">
-        <span class="gf-group-label">${cfg.label}</span>
+        <span class="gf-group-label">${gcfg.label}${infoIcon(gcfg.desc)}</span>
         <div class="gf-chips">
-          <button class="chip${cur === '' ? ' active' : ''}" type="button" data-gf="${key}" data-gv="">${cfg.all}</button>
-          ${cfg.vals.map(v => `<button class="chip${cur === v ? ' active' : ''}" type="button" data-gf="${key}" data-gv="${v}">${fvl[v] || v}</button>`).join('')}
+          <button class="chip${cur === '' ? ' active' : ''}" type="button" data-gf="${key}" data-gv="">${gcfg.all}</button>
+          ${gcfg.vals.map(v => `<button class="chip${cur === v ? ' active' : ''}" type="button" data-gf="${key}" data-gv="${v}">${fvl[v] || v}</button>`).join('')}
         </div>
       </div>`;
   }).join('');
+
+  const catSection = (cfg && cfg.extraFilterLabel) ? `
+    <div class="gf-cat-sep"><span>${i.globalFiltersCatSep}</span></div>
+    <div class="gf-group" style="--active-color:var(--c-${catCls})">
+      <span class="gf-group-label">${cfg.extraFilterLabel.replace(':', '')}${infoIcon(cfg.extraFilterDesc)}</span>
+      <div class="gf-chips">
+        <button class="chip${!state.extra ? ' active' : ''}" type="button" data-gf="extra" data-gv="">${cfg.extraFilterAll}</button>
+        ${cfg.extraFilterVals.map(v => `<button class="chip${state.extra === v ? ' active' : ''}" type="button" data-gf="extra" data-gv="${v}">${fvl[v] || v}</button>`).join('')}
+      </div>
+    </div>` : '';
 
   bar.innerHTML = `
     <div class="gf-row">
       <button class="gf-btn${activeCount ? ' gf-btn--on' : ''}" id="gf-trigger" type="button"
               title="${i.globalFiltersBtnTitle}">
-        <svg class="gf-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M2 4h12M4 8h8M6 12h4"/></svg>
+        <svg class="gf-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><line x1="3" y1="4" x2="13" y2="4"/><line x1="5" y1="8" x2="11" y2="8"/><line x1="7" y1="12" x2="9" y2="12"/></svg>
         ${i.globalFiltersBtnLabel}${activeCount ? `<span class="gf-badge">${activeCount}</span>` : ''}
         <span class="gf-arrow">▾</span>
       </button>
-      <div class="gf-pills">${pills}</div>
-      ${activeCount ? `<button class="gf-clear" id="gf-clear" type="button">${i.globalFiltersClear}</button>` : ''}
     </div>
     <div class="gf-popover" id="gf-popover" style="display:none">
-      <div class="gf-pop-head">
-        <strong>${i.globalFiltersPopoverTitle}</strong>
-        <span>${i.globalFiltersPopoverSub}</span>
-      </div>
-      ${popoverRows}
+      ${activeCount ? `<div class="gf-reset-row"><button class="gf-reset-btn" id="gf-clear" type="button">↺ ${i.globalFiltersClear}</button></div>` : ''}
+      ${popoverRows}${catSection}
     </div>`;
+
+  const pBar = document.getElementById('gf-pills-bar');
+  if (pBar) {
+    pBar.innerHTML = activeCount
+      ? `<div class="gf-pills">${globalPills}${extraPill}</div>
+         <button class="gf-clear" id="gf-clear-ext" type="button">${i.globalFiltersClear}</button>`
+      : '';
+  }
 
   if (wasOpen) {
     document.getElementById('gf-popover').style.display = '';
     document.getElementById('gf-trigger')?.classList.add('gf-btn--open');
+    document.getElementById('gf-backdrop')?.classList.add('open');
   }
+}
+
+function closeGfPopover() {
+  const pop = document.getElementById('gf-popover');
+  if (pop) pop.style.display = 'none';
+  document.getElementById('gf-trigger')?.classList.remove('gf-btn--open');
+  document.getElementById('gf-backdrop')?.classList.remove('open');
 }
 
 /* ── Filtering helpers ────────────────────────────────────── */
@@ -469,9 +486,7 @@ function renderCards() {
   const items = state.data[cat] || [];
 
   const filtered = items.filter(item =>
-    matchField(item, 'Fase', state.fase) &&
-    matchField(item, cfg.extraFilterKey,  state.extra) &&
-    matchField(item, cfg.extra2FilterKey, state.extra2) &&
+    matchField(item, cfg.extraFilterKey, state.extra) &&
     matchGlobalFilters(item) &&
     matchSearch(item, cfg.nameKey, state.search)
   );
@@ -1210,21 +1225,28 @@ function initEvents() {
   });
 
   document.getElementById('global-filter-bar').addEventListener('click', e => {
-    e.stopPropagation(); // prevent document close-handler from firing on re-render
+    e.stopPropagation();
     // Toggle popover
     if (e.target.closest('#gf-trigger')) {
       const pop = document.getElementById('gf-popover');
       if (!pop) return;
       const open = pop.style.display !== 'none';
-      pop.style.display = open ? 'none' : '';
-      document.getElementById('gf-trigger').classList.toggle('gf-btn--open', !open);
+      if (open) {
+        closeGfPopover();
+      } else {
+        pop.style.display = '';
+        document.getElementById('gf-trigger').classList.add('gf-btn--open');
+        document.getElementById('gf-backdrop')?.classList.add('open');
+      }
       return;
     }
     // Chip inside popover
     const chip = e.target.closest('.gf-popover [data-gf]');
     if (chip) {
-      state[GF_STATE[chip.dataset.gf]] = chip.dataset.gv;
-      renderGlobalFilters();       // re-render keeping popover open
+      const key = chip.dataset.gf;
+      if (key === 'extra') state.extra = chip.dataset.gv;
+      else state[GF_STATE[key]] = chip.dataset.gv;
+      renderGlobalFilters();
       applyGlobalFilterToGraph();
       if (state.cat) renderCards();
       return;
@@ -1232,51 +1254,51 @@ function initEvents() {
     // × pill remove
     const pillX = e.target.closest('.gf-pill-x');
     if (pillX) {
-      state[GF_STATE[pillX.dataset.gf]] = '';
+      const key = pillX.dataset.gf;
+      if (key === 'extra') state.extra = '';
+      else state[GF_STATE[key]] = '';
       renderGlobalFilters();
       applyGlobalFilterToGraph();
       if (state.cat) renderCards();
       return;
     }
     // Clear all
-    if (e.target.closest('#gf-clear')) {
+    if (e.target.closest('#gf-clear') || e.target.closest('#gf-clear-ext')) {
+      state.gFase = ''; state.gParticipacion = '';
       state.gModalidad = ''; state.gLugar = ''; state.gAgrupamiento = ''; state.gResIA = '';
+      state.extra = '';
       renderGlobalFilters();
       applyGlobalFilterToGraph();
       if (state.cat) renderCards();
     }
   });
 
-  // Close popover on outside click
-  document.addEventListener('click', e => {
-    if (!e.target.closest('#global-filter-bar')) {
-      const pop = document.getElementById('gf-popover');
-      if (pop) pop.style.display = 'none';
-      document.getElementById('gf-trigger')?.classList.remove('gf-btn--open');
+  document.getElementById('gf-pills-bar').addEventListener('click', e => {
+    const pillX = e.target.closest('.gf-pill-x');
+    if (pillX) {
+      const key = pillX.dataset.gf;
+      if (key === 'extra') state.extra = '';
+      else state[GF_STATE[key]] = '';
+      renderGlobalFilters();
+      applyGlobalFilterToGraph();
+      if (state.cat) renderCards();
+      return;
+    }
+    if (e.target.closest('#gf-clear-ext')) {
+      state.gFase = ''; state.gParticipacion = '';
+      state.gModalidad = ''; state.gLugar = ''; state.gAgrupamiento = ''; state.gResIA = '';
+      state.extra = '';
+      renderGlobalFilters();
+      applyGlobalFilterToGraph();
+      if (state.cat) renderCards();
     }
   });
 
-  document.getElementById('filter-bar').addEventListener('click', e => {
-    const faseChip   = e.target.closest('#filter-fase .chip');
-    const extraChip  = e.target.closest('#filter-extra-chips .chip');
-    const extra2Chip = e.target.closest('#filter-extra2-chips .chip');
-    if (faseChip) {
-      state.fase = faseChip.dataset.fase;
-      document.querySelectorAll('#filter-fase .chip').forEach(c =>
-        c.classList.toggle('active', c === faseChip));
-      renderCards();
-    } else if (extraChip) {
-      state.extra = extraChip.dataset.extra;
-      document.querySelectorAll('#filter-extra-chips .chip').forEach(c =>
-        c.classList.toggle('active', c === extraChip));
-      renderCards();
-    } else if (extra2Chip) {
-      state.extra2 = extra2Chip.dataset.extra2;
-      document.querySelectorAll('#filter-extra2-chips .chip').forEach(c =>
-        c.classList.toggle('active', c === extra2Chip));
-      renderCards();
-    }
+  // Close popover on outside click or backdrop click
+  document.addEventListener('click', e => {
+    if (!e.target.closest('#global-filter-bar')) closeGfPopover();
   });
+  document.getElementById('gf-backdrop').addEventListener('click', closeGfPopover);
 
   document.getElementById('cards-grid').addEventListener('click', e => {
     const card = e.target.closest('.cat-card[data-name]');

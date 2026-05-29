@@ -98,13 +98,15 @@
 
       <!-- Left: filter + card list -->
       <div class="catalog-list-panel">
-        <div class="global-filter-bar" id="global-filter-bar"></div>
         <div class="filter-bar" id="filter-bar">
-          <div class="search-wrap">
-            <span class="search-icon">🔍</span>
-            <input type="search" class="search-input" id="search-input" placeholder="Buscar...">
+          <div class="filter-top-row">
+            <div id="global-filter-bar"></div>
+            <div class="search-wrap">
+              <span class="search-icon">🔍</span>
+              <input type="search" class="search-input" id="search-input" placeholder="Buscar...">
+            </div>
           </div>
-          <div class="filter-row" id="filter-chips"></div>
+          <div id="gf-pills-bar"></div>
         </div>
         <div class="plan-toolbar" id="plan-toolbar" style="display:none">
           <button class="plan-toggle-btn" id="btn-plan-mode" type="button" data-tooltip="Marca los instrumentos de evaluación que usarás en tu unidad y comprueba qué dimensiones cubre tu plan — y cuáles quedan sin atender.">📊 Planificación</button>
@@ -188,6 +190,7 @@
   </div>
 </footer>
 
+<div id="gf-backdrop" class="gf-backdrop"></div>
 <script src="src/i18n.js"></script>
 <script src="src/app.js"></script>
 </body>
