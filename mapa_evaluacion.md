@@ -885,6 +885,54 @@ Es especialmente valiosa porque hace visibles los criterios y convierte la evalu
 
 ---
 
+### 21. Evaluación gamificada
+
+_Uso de mecánicas de juego para recoger evidencias de aprendizaje._
+
+**Categoría:** Contexto metodológico · **Fase:** Proceso/Final · **Participación:** Docente/Alumno/Iguales
+
+La evaluación gamificada incorpora mecánicas propias del juego (retos, puntos, insignias, contrarreloj, cooperación o competición regulada) para recoger evidencias de aprendizaje en un entorno de alta motivación.
+
+Cómo aplicarla: se diseñan tareas o retos con reglas claras, criterios de logro visibles y retroalimentación inmediata. Los puntos o insignias pueden usarse como evidencia del nivel alcanzado si están alineados con criterios de evaluación reales.
+
+**Función pedagógica:** Aumentar motivación e implicación, y obtener retroalimentación inmediata sobre el aprendizaje.
+
+**Cuándo conviene:** Cuando se quiere evaluar con alta motivación, consolidar aprendizajes o hacer evaluación diagnóstica de forma activa.
+
+**Evidencias habituales:** Retos, escape rooms, rondas cronometradas, insignias, marcadores, desafíos cooperativos.
+
+**Precauciones:** Las mecánicas de juego no deben distorsionar la evaluación; hay que distinguir entre participación y aprendizaje demostrado.
+
+**Medios/evidencias asociados:** Escape room o reto gamificado, Resolución de problemas, Situación-problema, Tarea competencial integrada, Cuestionario digital
+
+**Instrumentos de evaluación relacionados:** Escala de observación, Lista de cotejo o control, Rúbrica competencial, Analíticas de aprendizaje
+
+---
+
+### 22. Trazabilidad, autoría y uso de IA
+
+_Documentación del proceso, las fuentes, las ayudas externas y el uso de IA en una evidencia._
+
+**Categoría:** Soporte de evidencias · **Fase:** Proceso/Final · **Participación:** Docente/Alumno
+
+Esta dimensión sitúa la evaluación en contextos donde el proceso de elaboración puede quedar oculto o apoyarse en herramientas externas, incluida la IA generativa.
+
+Cómo aplicarla: el alumnado documenta qué fuentes, ayudas, herramientas o sistemas de IA ha usado, para qué los ha usado y qué decisiones propias ha tomado. Puede conservar versiones, prompts relevantes, cambios realizados, comprobaciones de fuentes y justificaciones breves.
+
+**Función pedagógica:** Hacer visible cómo se ha elaborado una producción y distinguir el aprendizaje demostrado de las ayudas utilizadas.
+
+**Cuándo conviene:** Cuando una tarea permite ayuda externa, edición digital, trabajo fuera del aula o uso de IA generativa.
+
+**Evidencias habituales:** Versiones, prompts, fuentes, historial de revisión, decisiones justificadas, declaración de uso de IA.
+
+**Precauciones:** No debe convertirse en burocracia; la trazabilidad debe aportar evidencias reales sobre decisiones, revisión y autoría.
+
+**Medios/evidencias asociados:** Bitácora de proceso con IA, Diario de aprendizaje, Porfolio, Informe de investigación, Monografía, Ensayo, Memoria de proyecto, Documento colaborativo, Portfolio digital, Presentación digital, Página web, Entrada de blog, Vídeo, Microvídeo educativo
+
+**Instrumentos de evaluación relacionados:** Declaración de uso de IA y fuentes, Historial de revisión, Mapa de evidencias por criterio, Banco digital de evidencias, Rúbrica de proceso, Ficha de retroalimentación
+
+---
+
 ## Evidencias Evaluables
 
 ### 1. Trabajo individual en aula
@@ -2879,6 +2927,72 @@ Es especialmente adecuado para evaluación continua, criterial y competencial.
 
 ---
 
+### 84. Cuaderno de campo
+
+_Registro de observaciones, datos y reflexiones durante actividades en el exterior o entorno real._
+
+**Tipo:** Producción escrita/observacional · **Fase:** Proceso · **Complejidad:** Media · **Participación:** Docente/Alumno
+
+El cuaderno de campo es el registro que elabora el alumno durante actividades realizadas fuera del aula: salidas de campo, visitas, estudios del entorno o actividades en espacios naturales.
+
+Cómo usarlo para evaluar: el alumno registra observaciones directas, datos medidos, dibujos o croquis, preguntas emergentes y reflexiones iniciales. El docente evalúa la precisión y completitud de las observaciones, la capacidad de registrar datos relevantes y la calidad de la reflexión sobre lo observado.
+
+**Evidencia:** Producción escrita
+
+**Adecuado para:** Observación in situ, registro de datos, conexión con el entorno natural o social.
+
+**Técnicas asociadas:** Observación sistemática, Análisis de producciones, Análisis de procesos y reflexiones
+
+**Instrumentos de evaluación recomendados:** Guía de corrección, Lista de cotejo o control, Notas de campo, Rúbrica analítica, Declaración de uso de IA y fuentes
+
+**Dimensiones asociadas:** Indagación, Enfoque competencial, Finalidad formativa, Trazabilidad, autoría y uso de IA
+
+---
+
+### 85. Microvídeo educativo
+
+_Vídeo breve que explica, divulga o argumenta sobre un tema._
+
+**Tipo:** Producción audiovisual · **Fase:** Final · **Complejidad:** Media · **Participación:** Docente/Iguales
+
+El microvídeo educativo es una producción audiovisual de corta duración en la que el alumno explica un concepto, argumenta una posición, resume un tema o comunica resultados de forma sintética y directa.
+
+Cómo usarlo para evaluar: se valoran la claridad y precisión del mensaje, la adecuación al destinatario, la estructura narrativa dentro del tiempo reducido, la corrección del contenido y la calidad técnica básica.
+
+**Evidencia:** Producto audiovisual
+
+**Adecuado para:** Síntesis, comunicación concisa, creatividad y competencia digital.
+
+**Técnicas asociadas:** Análisis de producciones, Intercambios orales
+
+**Instrumentos de evaluación recomendados:** Rúbrica analítica, Rúbrica de producto, Lista de cotejo o control, Ficha de coevaluación, Declaración de uso de IA y fuentes
+
+**Dimensiones asociadas:** Evidencias digitales, Enfoque competencial, Evidencia de desempeño, Trazabilidad, autoría y uso de IA
+
+---
+
+### 86. Bitácora de proceso con IA
+
+_Registro del proceso de trabajo, uso de IA, fuentes, versiones y decisiones tomadas._
+
+**Tipo:** Digital/proceso · **Fase:** Proceso/Final · **Complejidad:** Media · **Participación:** Docente/Alumno
+
+La bitácora de proceso con IA es una evidencia en la que el alumno documenta cómo ha elaborado una tarea cuando ha podido usar herramientas digitales, fuentes externas o IA generativa. Recoge el recorrido de trabajo, no solo el producto final.
+
+Cómo usarla para evaluar: se pide al alumnado que registre los pasos relevantes, fuentes consultadas, prompts o instrucciones usadas, respuestas aprovechadas o descartadas, cambios entre versiones, comprobaciones realizadas y decisiones propias.
+
+**Evidencia:** Registro de proceso
+
+**Adecuado para:** Proyectos, investigaciones, producciones digitales, tareas con ayuda de IA y trabajo fuera del aula.
+
+**Técnicas asociadas:** Análisis de procesos y reflexiones, Análisis documental, Análisis de interacciones digitales, Triangulación de evidencias
+
+**Instrumentos de evaluación recomendados:** Declaración de uso de IA y fuentes, Historial de revisión, Mapa de evidencias por criterio, Rúbrica de proceso, Ficha de retroalimentación, Banco digital de evidencias
+
+**Dimensiones asociadas:** Trazabilidad, autoría y uso de IA, Evidencias digitales, Finalidad formativa, Retroalimentación y feedforward, Enfoque competencial
+
+---
+
 ## Instrumentos de Evaluación
 
 ### 1. Rúbrica analítica
@@ -4417,3 +4531,30 @@ Es una herramienta clave para evaluación criterial y triangulación de evidenci
 
 ---
 
+### 58. Declaración de uso de IA y fuentes
+
+_Plantilla para declarar ayudas, fuentes, herramientas de IA y decisiones propias en una tarea._
+
+**Tipo:** Trazabilidad/autoría · **Fase:** Proceso/Final · **Complejidad:** Baja/Media · **Participación:** Alumno/Docente
+
+La declaración de uso de IA y fuentes es una plantilla breve que acompaña a una tarea para explicar qué apoyos externos se han utilizado y qué parte del trabajo corresponde a decisiones propias del alumno.
+
+Cómo usarla: puede incluir apartados sobre fuentes consultadas, herramientas de IA empleadas, finalidad de cada ayuda, fragmentos revisados, errores detectados, cambios realizados y responsabilidad final sobre el contenido.
+
+No sustituye a una rúbrica ni demuestra por sí sola el aprendizaje, pero ayuda a convertir el uso de IA en una práctica transparente, revisable y educativamente aprovechable.
+
+**Sirve para:** Documentar autoría, uso de IA, verificación de fuentes y responsabilidad sobre la producción final.
+
+**Adecuada para:** Producciones escritas, proyectos, portfolios, productos digitales y tareas realizadas fuera del aula.
+
+**Ventajas:** Hace transparente el proceso y facilita conversaciones de retroalimentación sobre autoría y calidad del trabajo.
+
+**Limitaciones:** Depende de la honestidad del alumnado y debe combinarse con revisión del proceso o defensa oral cuando sea necesario.
+
+**Técnicas asociadas:** Análisis de procesos y reflexiones, Análisis documental, Triangulación de evidencias
+
+**Medios/evidencias compatibles:** Bitácora de proceso con IA, Informe de investigación, Monografía, Ensayo, Artículo divulgativo, Memoria de proyecto, Documento colaborativo, Portfolio digital, Presentación digital, Página web, Entrada de blog, Vídeo, Microvídeo educativo
+
+**Dimensiones asociadas:** Trazabilidad, autoría y uso de IA, Evidencias digitales, Evaluación criterial, Retroalimentación y feedforward
+
+---

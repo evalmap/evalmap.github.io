@@ -287,7 +287,8 @@
       "INS_TRAB_COOP",
       "INS_SEMINARIO",
       "INS_CHECK_LAB",
-      "INS_CUAD_CAMPO"
+      "INS_CUAD_CAMPO",
+      "INS_BIT_IA"
     ],
     "rel_her": [
       "HER_FICHA_RETRO",
@@ -345,7 +346,8 @@
         "INS_TRAB_COOP": "principal",
         "INS_SEMINARIO": "complementaria",
         "INS_CHECK_LAB": "complementaria",
-        "INS_CUAD_CAMPO": "complementaria"
+        "INS_CUAD_CAMPO": "complementaria",
+        "INS_BIT_IA": "complementaria"
       },
       "rel_her": {
         "HER_LISTA": "complementaria",
@@ -504,7 +506,8 @@
       "INS_TAREA_COMP_INT",
       "INS_SIT_PROB",
       "INS_CUAD_CAMPO",
-      "INS_MICROVIDEO"
+      "INS_MICROVIDEO",
+      "INS_BIT_IA"
     ],
     "rel_her": [
       "HER_RUB_COMP",
@@ -532,7 +535,8 @@
         "INS_TAREA_COMP_INT": "principal",
         "INS_SIT_PROB": "complementaria",
         "INS_CUAD_CAMPO": "complementaria",
-        "INS_MICROVIDEO": "complementaria"
+        "INS_MICROVIDEO": "complementaria",
+        "INS_BIT_IA": "ocasional"
       },
       "rel_her": {
         "HER_RUB_COMP": "principal",
@@ -880,7 +884,8 @@
       "INS_DOC_COL",
       "INS_PORT_DIG",
       "INS_CUAD_DIG",
-      "INS_MICROVIDEO"
+      "INS_MICROVIDEO",
+      "INS_BIT_IA"
     ],
     "rel_her": [
       "HER_RUB_DIG",
@@ -889,7 +894,8 @@
       "HER_HOJA_CALC",
       "HER_FORM_DIG",
       "HER_ANALITICAS",
-      "HER_BANCO_EVID"
+      "HER_BANCO_EVID",
+      "HER_DECL_IA"
     ],
     "rel_meta": {
       "rel_ins": {
@@ -905,7 +911,8 @@
         "INS_DOC_COL": "principal",
         "INS_PORT_DIG": "principal",
         "INS_CUAD_DIG": "principal",
-        "INS_MICROVIDEO": "principal"
+        "INS_MICROVIDEO": "principal",
+        "INS_BIT_IA": "principal"
       },
       "rel_her": {
         "HER_HOJA_CALC": "principal",
@@ -914,7 +921,8 @@
         "HER_HIST_REV": "principal",
         "HER_PANEL": "principal",
         "HER_ANALITICAS": "principal",
-        "HER_BANCO_EVID": "principal"
+        "HER_BANCO_EVID": "principal",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "dimension",
@@ -948,7 +956,8 @@
       "HER_IND_CRIT",
       "HER_MAP_EVID",
       "HER_RUB_COMP",
-      "HER_TAB_CRIT"
+      "HER_TAB_CRIT",
+      "HER_DECL_IA"
     ],
     "rel_meta": {
       "rel_ins": {
@@ -961,7 +970,8 @@
         "HER_IND_CRIT": "principal",
         "HER_MAP_EVID": "principal",
         "HER_RUB_COMP": "complementaria",
-        "HER_TAB_CRIT": "complementaria"
+        "HER_TAB_CRIT": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "dimension",
@@ -1106,12 +1116,14 @@
       "INS_REV_PARES",
       "INS_2E1D",
       "INS_ENT_PAR",
-      "INS_EPORT_SEL"
+      "INS_EPORT_SEL",
+      "INS_BIT_IA"
     ],
     "rel_her": [
       "HER_PLANT_FF",
       "HER_FICHA_RETRO",
-      "HER_REG_COMP"
+      "HER_REG_COMP",
+      "HER_DECL_IA"
     ],
     "rel_meta": {
       "rel_ins": {
@@ -1119,12 +1131,14 @@
         "INS_REV_PARES": "principal",
         "INS_2E1D": "principal",
         "INS_ENT_PAR": "complementaria",
-        "INS_EPORT_SEL": "complementaria"
+        "INS_EPORT_SEL": "complementaria",
+        "INS_BIT_IA": "complementaria"
       },
       "rel_her": {
         "HER_PLANT_FF": "principal",
         "HER_FICHA_RETRO": "principal",
-        "HER_REG_COMP": "complementaria"
+        "HER_REG_COMP": "complementaria",
+        "HER_DECL_IA": "ocasional"
       }
     },
     "tipo_entidad": "dimension",
@@ -1283,5 +1297,144 @@
     "Instrumentos de evaluación recomendados": "Observation scale; Checklist; Competency rubric; Learning analytics",
     "Lugar": "Classroom / Virtual",
     "Agrupamiento": "Individual / Small group / Whole class"
+  },
+  {
+    "Código": "DIM_TRAZ_IA",
+    "Categoría": "Soporte de evidencias",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "rel_ins": [
+      "INS_DIARIO",
+      "INS_PORT",
+      "INS_INFO_INV",
+      "INS_MONO",
+      "INS_ENSAYO",
+      "INS_ART_DIV",
+      "INS_MEM_PROY",
+      "INS_PLAN_TRAB",
+      "INS_DOC_COL",
+      "INS_PORT_DIG",
+      "INS_BIT",
+      "INS_CUAD_DIG",
+      "INS_EPORT_SEL",
+      "INS_PRESENT_DIG",
+      "INS_WEB",
+      "INS_BLOG",
+      "INS_VIDEO",
+      "INS_TUTORIAL",
+      "INS_MICROVIDEO",
+      "INS_COM_TEXT",
+      "INS_COM_GRAF",
+      "INS_RESEÑA",
+      "INS_PROB",
+      "INS_CASO",
+      "INS_PR_COMP",
+      "INS_INFOG",
+      "INS_POSTER",
+      "INS_PODCAST",
+      "INS_MODELO_DIG",
+      "INS_FORO",
+      "INS_BORR",
+      "INS_ENT_PAR",
+      "INS_REV_PARES",
+      "INS_CUAD_CAMPO",
+      "INS_RESUMEN",
+      "INS_ESQUEMA",
+      "INS_MAP_CONC",
+      "INS_MAP_MENT",
+      "INS_LINEA",
+      "INS_GLOS",
+      "INS_FICHA_LECT",
+      "INS_ACTA",
+      "INS_F_REFLEX",
+      "INS_AUTOINF",
+      "INS_TAREA_COMP_INT",
+      "INS_SIT_PROB",
+      "INS_BIT_IA"
+    ],
+    "rel_her": [
+      "HER_DECL_IA",
+      "HER_HIST_REV",
+      "HER_MAP_EVID",
+      "HER_BANCO_EVID",
+      "HER_RUB_PROC",
+      "HER_FICHA_RETRO",
+      "HER_ANALITICAS"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_DIARIO": "principal",
+        "INS_PORT": "principal",
+        "INS_INFO_INV": "principal",
+        "INS_MONO": "principal",
+        "INS_ENSAYO": "principal",
+        "INS_ART_DIV": "principal",
+        "INS_MEM_PROY": "principal",
+        "INS_PLAN_TRAB": "principal",
+        "INS_DOC_COL": "principal",
+        "INS_PORT_DIG": "principal",
+        "INS_BIT": "principal",
+        "INS_CUAD_DIG": "principal",
+        "INS_EPORT_SEL": "principal",
+        "INS_PRESENT_DIG": "principal",
+        "INS_WEB": "principal",
+        "INS_BLOG": "principal",
+        "INS_VIDEO": "principal",
+        "INS_TUTORIAL": "principal",
+        "INS_MICROVIDEO": "principal",
+        "INS_COM_TEXT": "complementaria",
+        "INS_COM_GRAF": "complementaria",
+        "INS_RESEÑA": "complementaria",
+        "INS_PROB": "complementaria",
+        "INS_CASO": "complementaria",
+        "INS_PR_COMP": "complementaria",
+        "INS_INFOG": "complementaria",
+        "INS_POSTER": "complementaria",
+        "INS_PODCAST": "complementaria",
+        "INS_MODELO_DIG": "complementaria",
+        "INS_FORO": "complementaria",
+        "INS_BORR": "complementaria",
+        "INS_ENT_PAR": "complementaria",
+        "INS_REV_PARES": "complementaria",
+        "INS_CUAD_CAMPO": "complementaria",
+        "INS_RESUMEN": "ocasional",
+        "INS_ESQUEMA": "ocasional",
+        "INS_MAP_CONC": "ocasional",
+        "INS_MAP_MENT": "ocasional",
+        "INS_LINEA": "ocasional",
+        "INS_GLOS": "ocasional",
+        "INS_FICHA_LECT": "ocasional",
+        "INS_ACTA": "ocasional",
+        "INS_F_REFLEX": "ocasional",
+        "INS_AUTOINF": "ocasional",
+        "INS_TAREA_COMP_INT": "ocasional",
+        "INS_SIT_PROB": "ocasional",
+        "INS_BIT_IA": "principal"
+      },
+      "rel_her": {
+        "HER_DECL_IA": "principal",
+        "HER_HIST_REV": "principal",
+        "HER_MAP_EVID": "principal",
+        "HER_BANCO_EVID": "complementaria",
+        "HER_RUB_PROC": "complementaria",
+        "HER_FICHA_RETRO": "complementaria",
+        "HER_ANALITICAS": "ocasional"
+      }
+    },
+    "tipo_entidad": "dimension",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta",
+    "Dimensión": "Traceability, authorship and AI use",
+    "Descripción breve": "Documentation of the process, sources, external support and AI use behind a piece of evidence.",
+    "Función pedagógica": "Make the production process visible and distinguish demonstrated learning from the support used.",
+    "Evidencias habituales": "Versions, prompts, sources, revision history, justified decisions, AI-use declaration.",
+    "Cuándo conviene": "When a task allows external help, digital editing, work outside the classroom or generative AI use.",
+    "Precauciones": "It should not become bureaucracy; traceability must provide real evidence about decisions, review and authorship.",
+    "Etiquetas": "ai; authorship; traceability; sources; process",
+    "Descripción detallada": "This dimension places assessment in contexts where the production process may be hidden or supported by external tools, including generative AI.\n\nHow to apply it: students document which sources, supports, tools or AI systems they used, what they used them for and which decisions were their own. They may keep versions, relevant prompts, changes made, source checks and brief justifications. The teacher assesses the quality of the process, critical review and the match between the final product and the learning demonstrated.\n\nIt is especially useful in research tasks, projects, collaborative documents, portfolios, digital products and tasks completed partly outside the classroom. Its purpose is not to penalise AI use, but to make it transparent and assessable.",
+    "Medios/evidencias asociados": "AI process log; Learning journal; Portfolio; Research report; Monograph; Essay; Project report; Collaborative document; Digital portfolio; Digital presentation; Web page; Blog post; Video; Educational microvideo",
+    "Instrumentos de evaluación recomendados": "AI and sources use declaration; Revision history; Evidence map by criterion; Digital evidence bank; Process rubric; Feedback/feedforward template"
   }
 ]

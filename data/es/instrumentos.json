@@ -799,11 +799,13 @@
       "HER_DIANA",
       "HER_ESC_AUTO",
       "HER_ESC_VERB",
-      "HER_FICHA_RETRO"
+      "HER_FICHA_RETRO",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_AUTO",
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Autoevaluación; Finalidad formativa",
     "rel_meta": {
@@ -812,13 +814,15 @@
       },
       "rel_dim": {
         "DIM_AUTO": "principal",
-        "DIM_FORM": "complementaria"
+        "DIM_FORM": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_DIANA": "principal",
         "HER_ESC_AUTO": "complementaria",
         "HER_ESC_VERB": "complementaria",
-        "HER_FICHA_RETRO": "ocasional"
+        "HER_FICHA_RETRO": "ocasional",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -851,12 +855,14 @@
       "HER_ESC_VERB",
       "HER_HOJA_CALC",
       "HER_HOJA_IND",
-      "HER_MATRIZ_POND"
+      "HER_MATRIZ_POND",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_FORM",
       "DIM_AUTO",
-      "DIM_HET"
+      "DIM_HET",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Finalidad formativa; Autoevaluación; Heteroevaluación",
     "rel_meta": {
@@ -867,7 +873,8 @@
       "rel_dim": {
         "DIM_FORM": "principal",
         "DIM_AUTO": "complementaria",
-        "DIM_HET": "complementaria"
+        "DIM_HET": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_BANCO_DESC": "principal",
@@ -875,7 +882,8 @@
         "HER_ESC_VERB": "complementaria",
         "HER_HOJA_CALC": "ocasional",
         "HER_HOJA_IND": "ocasional",
-        "HER_MATRIZ_POND": "ocasional"
+        "HER_MATRIZ_POND": "ocasional",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -950,11 +958,13 @@
     ],
     "rel_her": [
       "HER_GUIA_CORR",
-      "HER_TAB_CRIT"
+      "HER_TAB_CRIT",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_INDAG",
-      "DIM_HET"
+      "DIM_HET",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Indagación; Heteroevaluación",
     "rel_meta": {
@@ -963,11 +973,13 @@
       },
       "rel_dim": {
         "DIM_INDAG": "principal",
-        "DIM_HET": "complementaria"
+        "DIM_HET": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_GUIA_CORR": "principal",
-        "HER_TAB_CRIT": "complementaria"
+        "HER_TAB_CRIT": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -995,11 +1007,13 @@
     ],
     "rel_her": [
       "HER_RUB_ANA",
-      "HER_GUIA_CORR"
+      "HER_GUIA_CORR",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_SUM",
-      "DIM_HET"
+      "DIM_HET",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Finalidad sumativa; Heteroevaluación",
     "rel_meta": {
@@ -1008,11 +1022,13 @@
       },
       "rel_dim": {
         "DIM_SUM": "principal",
-        "DIM_HET": "complementaria"
+        "DIM_HET": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
-        "HER_GUIA_CORR": "complementaria"
+        "HER_GUIA_CORR": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1040,12 +1056,14 @@
     ],
     "rel_her": [
       "HER_GUIA_CORR",
-      "HER_TAB_CRIT"
+      "HER_TAB_CRIT",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_SUM",
       "DIM_COMP",
-      "DIM_HET"
+      "DIM_HET",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Finalidad sumativa; Enfoque competencial; Heteroevaluación",
     "rel_meta": {
@@ -1055,11 +1073,13 @@
       "rel_dim": {
         "DIM_SUM": "principal",
         "DIM_COMP": "complementaria",
-        "DIM_HET": "complementaria"
+        "DIM_HET": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_GUIA_CORR": "principal",
-        "HER_TAB_CRIT": "complementaria"
+        "HER_TAB_CRIT": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1088,11 +1108,13 @@
     ],
     "rel_her": [
       "HER_GUIA_CORR",
-      "HER_RUB_ANA"
+      "HER_RUB_ANA",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_COMP",
-      "DIM_SUM"
+      "DIM_SUM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Enfoque competencial; Finalidad sumativa",
     "rel_meta": {
@@ -1102,11 +1124,13 @@
       },
       "rel_dim": {
         "DIM_COMP": "principal",
-        "DIM_SUM": "complementaria"
+        "DIM_SUM": "complementaria",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
         "HER_GUIA_CORR": "principal",
-        "HER_RUB_ANA": "complementaria"
+        "HER_RUB_ANA": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1134,10 +1158,12 @@
     ],
     "rel_her": [
       "HER_RUB_ANA",
-      "HER_ESC_OBS"
+      "HER_ESC_OBS",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_PROB"
+      "DIM_PROB",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Resolución de problemas",
     "rel_meta": {
@@ -1145,11 +1171,13 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_PROB": "principal"
+        "DIM_PROB": "principal",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
-        "HER_ESC_OBS": "complementaria"
+        "HER_ESC_OBS": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1177,10 +1205,12 @@
     ],
     "rel_her": [
       "HER_LISTA",
-      "HER_ESC_DESC"
+      "HER_ESC_DESC",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Finalidad formativa",
     "rel_meta": {
@@ -1188,11 +1218,13 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_FORM": "principal"
+        "DIM_FORM": "principal",
+        "DIM_TRAZ_IA": "ocasional"
       },
       "rel_her": {
         "HER_LISTA": "principal",
-        "HER_ESC_DESC": "complementaria"
+        "HER_ESC_DESC": "complementaria",
+        "HER_DECL_IA": "ocasional"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1220,10 +1252,12 @@
     ],
     "rel_her": [
       "HER_LISTA",
-      "HER_ESC_OBS"
+      "HER_ESC_OBS",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Finalidad formativa",
     "rel_meta": {
@@ -1231,11 +1265,13 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_FORM": "principal"
+        "DIM_FORM": "principal",
+        "DIM_TRAZ_IA": "ocasional"
       },
       "rel_her": {
         "HER_LISTA": "principal",
-        "HER_ESC_OBS": "complementaria"
+        "HER_ESC_OBS": "complementaria",
+        "HER_DECL_IA": "ocasional"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1263,10 +1299,12 @@
     ],
     "rel_her": [
       "HER_RUB_ANA",
-      "HER_LISTA"
+      "HER_LISTA",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_DIAG"
+      "DIM_DIAG",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Finalidad diagnóstica",
     "rel_meta": {
@@ -1274,11 +1312,13 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_DIAG": "principal"
+        "DIM_DIAG": "principal",
+        "DIM_TRAZ_IA": "ocasional"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
-        "HER_LISTA": "complementaria"
+        "HER_LISTA": "complementaria",
+        "HER_DECL_IA": "ocasional"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1306,10 +1346,12 @@
     ],
     "rel_her": [
       "HER_ESC_OBS",
-      "HER_LISTA"
+      "HER_LISTA",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Finalidad formativa",
     "rel_meta": {
@@ -1317,11 +1359,13 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_FORM": "principal"
+        "DIM_FORM": "principal",
+        "DIM_TRAZ_IA": "ocasional"
       },
       "rel_her": {
         "HER_ESC_OBS": "principal",
-        "HER_LISTA": "complementaria"
+        "HER_LISTA": "complementaria",
+        "HER_DECL_IA": "ocasional"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1348,10 +1392,12 @@
       "TEC_PROD"
     ],
     "rel_her": [
-      "HER_LISTA"
+      "HER_LISTA",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_COMP"
+      "DIM_COMP",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Enfoque competencial",
     "rel_meta": {
@@ -1359,10 +1405,12 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_COMP": "principal"
+        "DIM_COMP": "principal",
+        "DIM_TRAZ_IA": "ocasional"
       },
       "rel_her": {
-        "HER_LISTA": "principal"
+        "HER_LISTA": "principal",
+        "HER_DECL_IA": "ocasional"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1390,10 +1438,12 @@
     ],
     "rel_her": [
       "HER_LISTA",
-      "HER_GUIA_CORR"
+      "HER_GUIA_CORR",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Finalidad formativa",
     "rel_meta": {
@@ -1401,11 +1451,13 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_FORM": "principal"
+        "DIM_FORM": "principal",
+        "DIM_TRAZ_IA": "ocasional"
       },
       "rel_her": {
         "HER_LISTA": "principal",
-        "HER_GUIA_CORR": "complementaria"
+        "HER_GUIA_CORR": "complementaria",
+        "HER_DECL_IA": "ocasional"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1433,10 +1485,12 @@
     ],
     "rel_her": [
       "HER_LISTA",
-      "HER_ESC_OBS"
+      "HER_ESC_OBS",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Finalidad formativa",
     "rel_meta": {
@@ -1444,11 +1498,13 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_FORM": "principal"
+        "DIM_FORM": "principal",
+        "DIM_TRAZ_IA": "ocasional"
       },
       "rel_her": {
         "HER_LISTA": "principal",
-        "HER_ESC_OBS": "complementaria"
+        "HER_ESC_OBS": "complementaria",
+        "HER_DECL_IA": "ocasional"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1476,11 +1532,13 @@
     ],
     "rel_her": [
       "HER_RUB_ANA",
-      "HER_GUIA_CORR"
+      "HER_GUIA_CORR",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_COMP",
-      "DIM_SUM"
+      "DIM_SUM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Enfoque competencial; Finalidad sumativa",
     "rel_meta": {
@@ -1489,11 +1547,13 @@
       },
       "rel_dim": {
         "DIM_COMP": "principal",
-        "DIM_SUM": "complementaria"
+        "DIM_SUM": "complementaria",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
-        "HER_GUIA_CORR": "complementaria"
+        "HER_GUIA_CORR": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1521,11 +1581,13 @@
     ],
     "rel_her": [
       "HER_RUB_ANA",
-      "HER_ESC_DESC"
+      "HER_ESC_DESC",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_COMP",
-      "DIM_SUM"
+      "DIM_SUM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Enfoque competencial; Finalidad sumativa",
     "rel_meta": {
@@ -1534,11 +1596,13 @@
       },
       "rel_dim": {
         "DIM_COMP": "principal",
-        "DIM_SUM": "complementaria"
+        "DIM_SUM": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
-        "HER_ESC_DESC": "complementaria"
+        "HER_ESC_DESC": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1568,10 +1632,12 @@
       "HER_CONV",
       "HER_HOJA_CALC",
       "HER_HOJA_IND",
-      "HER_MATRIZ_POND"
+      "HER_MATRIZ_POND",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_PROY"
+      "DIM_PROY",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Trabajo por proyectos",
     "rel_meta": {
@@ -1579,13 +1645,15 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_PROY": "principal"
+        "DIM_PROY": "principal",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_CONV": "principal",
         "HER_HOJA_CALC": "complementaria",
         "HER_HOJA_IND": "complementaria",
-        "HER_MATRIZ_POND": "ocasional"
+        "HER_MATRIZ_POND": "ocasional",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1613,11 +1681,13 @@
     ],
     "rel_her": [
       "HER_LISTA",
-      "HER_HOJA_IND"
+      "HER_HOJA_IND",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_FORM",
-      "DIM_PROY"
+      "DIM_PROY",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Finalidad formativa; Trabajo por proyectos",
     "rel_meta": {
@@ -1626,11 +1696,13 @@
       },
       "rel_dim": {
         "DIM_FORM": "principal",
-        "DIM_PROY": "complementaria"
+        "DIM_PROY": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_LISTA": "principal",
-        "HER_HOJA_IND": "complementaria"
+        "HER_HOJA_IND": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1658,10 +1730,12 @@
       "TEC_ANAL_DOC"
     ],
     "rel_her": [
-      "HER_LISTA"
+      "HER_LISTA",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_COEV"
+      "DIM_COEV",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Coevaluación",
     "rel_meta": {
@@ -1670,10 +1744,12 @@
         "TEC_ANAL_DOC": "complementaria"
       },
       "rel_dim": {
-        "DIM_COEV": "principal"
+        "DIM_COEV": "principal",
+        "DIM_TRAZ_IA": "ocasional"
       },
       "rel_her": {
-        "HER_LISTA": "principal"
+        "HER_LISTA": "principal",
+        "HER_DECL_IA": "ocasional"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1748,11 +1824,13 @@
       "HER_DIANA",
       "HER_ESC_OBS",
       "HER_ESC_VERB",
-      "HER_FICHA_RETRO"
+      "HER_FICHA_RETRO",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_AUTO",
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Autoevaluación; Finalidad formativa",
     "rel_meta": {
@@ -1761,13 +1839,15 @@
       },
       "rel_dim": {
         "DIM_AUTO": "principal",
-        "DIM_FORM": "complementaria"
+        "DIM_FORM": "complementaria",
+        "DIM_TRAZ_IA": "ocasional"
       },
       "rel_her": {
         "HER_DIANA": "principal",
         "HER_ESC_OBS": "complementaria",
         "HER_ESC_VERB": "complementaria",
-        "HER_FICHA_RETRO": "ocasional"
+        "HER_FICHA_RETRO": "ocasional",
+        "HER_DECL_IA": "ocasional"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1795,11 +1875,13 @@
     ],
     "rel_her": [
       "HER_RUB_AUTO",
-      "HER_ESC_OBS"
+      "HER_ESC_OBS",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_AUTO",
-      "DIM_SUM"
+      "DIM_SUM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Autoevaluación; Finalidad sumativa",
     "rel_meta": {
@@ -1808,11 +1890,13 @@
       },
       "rel_dim": {
         "DIM_AUTO": "principal",
-        "DIM_SUM": "complementaria"
+        "DIM_SUM": "complementaria",
+        "DIM_TRAZ_IA": "ocasional"
       },
       "rel_her": {
         "HER_RUB_AUTO": "principal",
-        "HER_ESC_OBS": "complementaria"
+        "HER_ESC_OBS": "complementaria",
+        "HER_DECL_IA": "ocasional"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1840,10 +1924,12 @@
     ],
     "rel_her": [
       "HER_GUIA_CORR",
-      "HER_RUB_COMP"
+      "HER_RUB_COMP",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_PROB"
+      "DIM_PROB",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Resolución de problemas",
     "rel_meta": {
@@ -1851,11 +1937,13 @@
         "TEC_PRUEBA": "principal"
       },
       "rel_dim": {
-        "DIM_PROB": "principal"
+        "DIM_PROB": "principal",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
         "HER_GUIA_CORR": "principal",
-        "HER_RUB_COMP": "complementaria"
+        "HER_RUB_COMP": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -1885,11 +1973,13 @@
     "rel_her": [
       "HER_RUB_ANA",
       "HER_GUIA_CORR",
-      "HER_RUB_COMP"
+      "HER_RUB_COMP",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_CASO",
-      "DIM_COMP"
+      "DIM_COMP",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Estudio de casos; Enfoque competencial",
     "rel_meta": {
@@ -1899,12 +1989,14 @@
       },
       "rel_dim": {
         "DIM_CASO": "principal",
-        "DIM_COMP": "complementaria"
+        "DIM_COMP": "complementaria",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
         "HER_GUIA_CORR": "complementaria",
-        "HER_RUB_COMP": "complementaria"
+        "HER_RUB_COMP": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -2226,12 +2318,14 @@
     "rel_her": [
       "HER_GUIA_CORR",
       "HER_RUB_COMP",
-      "HER_TAB_CRIT"
+      "HER_TAB_CRIT",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_COMP",
       "DIM_HET",
-      "DIM_CAL_ACRED"
+      "DIM_CAL_ACRED",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Enfoque competencial; Heteroevaluación; Calificación y acreditación",
     "rel_meta": {
@@ -2242,12 +2336,14 @@
       "rel_dim": {
         "DIM_COMP": "principal",
         "DIM_HET": "complementaria",
-        "DIM_CAL_ACRED": "principal"
+        "DIM_CAL_ACRED": "principal",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
         "HER_GUIA_CORR": "principal",
         "HER_RUB_COMP": "complementaria",
-        "HER_TAB_CRIT": "complementaria"
+        "HER_TAB_CRIT": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -2371,11 +2467,13 @@
     ],
     "rel_her": [
       "HER_RUB_ANA",
-      "HER_LISTA"
+      "HER_LISTA",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_COMP",
-      "DIM_DIG"
+      "DIM_DIG",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Enfoque competencial; Evidencias digitales",
     "rel_meta": {
@@ -2384,11 +2482,13 @@
       },
       "rel_dim": {
         "DIM_COMP": "principal",
-        "DIM_DIG": "complementaria"
+        "DIM_DIG": "complementaria",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
-        "HER_LISTA": "complementaria"
+        "HER_LISTA": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -2415,10 +2515,12 @@
       "TEC_PROD"
     ],
     "rel_her": [
-      "HER_ESC_OBS"
+      "HER_ESC_OBS",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_COMP"
+      "DIM_COMP",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Enfoque competencial",
     "rel_meta": {
@@ -2426,10 +2528,12 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_COMP": "principal"
+        "DIM_COMP": "principal",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
-        "HER_ESC_OBS": "principal"
+        "HER_ESC_OBS": "principal",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -2458,11 +2562,13 @@
     ],
     "rel_her": [
       "HER_RUB_ANA",
-      "HER_LISTA"
+      "HER_LISTA",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_DIG",
-      "DIM_DESEMP"
+      "DIM_DESEMP",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Evidencias digitales; Evidencia de desempeño",
     "rel_meta": {
@@ -2472,11 +2578,13 @@
       },
       "rel_dim": {
         "DIM_DIG": "principal",
-        "DIM_DESEMP": "complementaria"
+        "DIM_DESEMP": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
-        "HER_LISTA": "complementaria"
+        "HER_LISTA": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -2504,10 +2612,12 @@
     ],
     "rel_her": [
       "HER_RUB_PROD",
-      "HER_ESC_VAL"
+      "HER_ESC_VAL",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_DIG"
+      "DIM_DIG",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Evidencias digitales",
     "rel_meta": {
@@ -2515,11 +2625,13 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_DIG": "principal"
+        "DIM_DIG": "principal",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_RUB_PROD": "principal",
-        "HER_ESC_VAL": "complementaria"
+        "HER_ESC_VAL": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -2547,10 +2659,12 @@
     ],
     "rel_her": [
       "HER_RUB_ANA",
-      "HER_LISTA"
+      "HER_LISTA",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_DESEMP"
+      "DIM_DESEMP",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Evidencia de desempeño",
     "rel_meta": {
@@ -2558,11 +2672,13 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_DESEMP": "principal"
+        "DIM_DESEMP": "principal",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
-        "HER_LISTA": "complementaria"
+        "HER_LISTA": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -2591,10 +2707,12 @@
     ],
     "rel_her": [
       "HER_RUB_ORAL",
-      "HER_ESC_VAL"
+      "HER_ESC_VAL",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_DIG"
+      "DIM_DIG",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Evidencias digitales",
     "rel_meta": {
@@ -2603,11 +2721,13 @@
         "TEC_PROD": "complementaria"
       },
       "rel_dim": {
-        "DIM_DIG": "principal"
+        "DIM_DIG": "principal",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
         "HER_RUB_ORAL": "principal",
-        "HER_ESC_VAL": "complementaria"
+        "HER_ESC_VAL": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -2721,10 +2841,12 @@
     ],
     "rel_her": [
       "HER_RUB_ANA",
-      "HER_ESC_OBS"
+      "HER_ESC_OBS",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_DIG"
+      "DIM_DIG",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Evidencias digitales",
     "rel_meta": {
@@ -2732,11 +2854,13 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_DIG": "principal"
+        "DIM_DIG": "principal",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
-        "HER_ESC_OBS": "complementaria"
+        "HER_ESC_OBS": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -2811,10 +2935,12 @@
     ],
     "rel_her": [
       "HER_RUB_DIG",
-      "HER_LISTA"
+      "HER_LISTA",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_DIG"
+      "DIM_DIG",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Evidencias digitales",
     "rel_meta": {
@@ -2822,11 +2948,13 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_DIG": "principal"
+        "DIM_DIG": "principal",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_RUB_DIG": "principal",
-        "HER_LISTA": "complementaria"
+        "HER_LISTA": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -2854,10 +2982,12 @@
     ],
     "rel_her": [
       "HER_RUB_ANA",
-      "HER_ESC_OBS"
+      "HER_ESC_OBS",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_DIG"
+      "DIM_DIG",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Evidencias digitales",
     "rel_meta": {
@@ -2865,11 +2995,13 @@
         "TEC_PROD": "principal"
       },
       "rel_dim": {
-        "DIM_DIG": "principal"
+        "DIM_DIG": "principal",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
-        "HER_ESC_OBS": "complementaria"
+        "HER_ESC_OBS": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -2898,10 +3030,12 @@
     ],
     "rel_her": [
       "HER_REG_PART",
-      "HER_RUB_ORAL"
+      "HER_RUB_ORAL",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_DIG"
+      "DIM_DIG",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Evidencias digitales",
     "rel_meta": {
@@ -2910,11 +3044,13 @@
         "TEC_INTER_DIG": "principal"
       },
       "rel_dim": {
-        "DIM_DIG": "principal"
+        "DIM_DIG": "principal",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
         "HER_REG_PART": "principal",
-        "HER_RUB_ORAL": "complementaria"
+        "HER_RUB_ORAL": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -2946,12 +3082,14 @@
     "rel_her": [
       "HER_HIST_REV",
       "HER_RUB_ANA",
-      "HER_HOJA_IND"
+      "HER_HOJA_IND",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_DIG",
       "DIM_COEV",
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Evidencias digitales; Coevaluación; Finalidad formativa",
     "rel_meta": {
@@ -2964,12 +3102,14 @@
       "rel_dim": {
         "DIM_DIG": "principal",
         "DIM_COEV": "complementaria",
-        "DIM_FORM": "complementaria"
+        "DIM_FORM": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_HIST_REV": "principal",
         "HER_RUB_ANA": "complementaria",
-        "HER_HOJA_IND": "complementaria"
+        "HER_HOJA_IND": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -3001,10 +3141,12 @@
     ],
     "rel_her": [
       "HER_PANEL",
-      "HER_BANCO_EVID"
+      "HER_BANCO_EVID",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
-      "DIM_DIG"
+      "DIM_DIG",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Evidencias digitales",
     "rel_meta": {
@@ -3016,11 +3158,13 @@
         "TEC_INTER_DIG": "complementaria"
       },
       "rel_dim": {
-        "DIM_DIG": "principal"
+        "DIM_DIG": "principal",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_PANEL": "principal",
-        "HER_BANCO_EVID": "complementaria"
+        "HER_BANCO_EVID": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -3194,12 +3338,14 @@
     ],
     "rel_her": [
       "HER_FICHA_RETRO",
-      "HER_LISTA"
+      "HER_LISTA",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_FORM",
       "DIM_CONT",
-      "DIM_FEED"
+      "DIM_FEED",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Finalidad formativa; Evaluación continua; Retroalimentación y feedforward",
     "rel_meta": {
@@ -3210,11 +3356,13 @@
       "rel_dim": {
         "DIM_FORM": "principal",
         "DIM_CONT": "principal",
-        "DIM_FEED": "principal"
+        "DIM_FEED": "principal",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
         "HER_FICHA_RETRO": "principal",
-        "HER_LISTA": "complementaria"
+        "HER_LISTA": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -3244,12 +3392,14 @@
     "rel_her": [
       "HER_HOJA_IND",
       "HER_RUB_PROC",
-      "HER_FICHA_RETRO"
+      "HER_FICHA_RETRO",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_FORM",
       "DIM_CONT",
-      "DIM_FEED"
+      "DIM_FEED",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Finalidad formativa; Evaluación continua; Retroalimentación y feedforward",
     "rel_meta": {
@@ -3260,12 +3410,14 @@
       "rel_dim": {
         "DIM_FORM": "principal",
         "DIM_CONT": "principal",
-        "DIM_FEED": "complementaria"
+        "DIM_FEED": "complementaria",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
         "HER_HOJA_IND": "principal",
         "HER_RUB_PROC": "complementaria",
-        "HER_FICHA_RETRO": "complementaria"
+        "HER_FICHA_RETRO": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -3294,11 +3446,13 @@
     "rel_her": [
       "HER_HOJA_IND",
       "HER_ESC_OBS",
-      "HER_RUB_PROC"
+      "HER_RUB_PROC",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_PROY",
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Trabajo por proyectos; Finalidad formativa",
     "rel_meta": {
@@ -3307,12 +3461,14 @@
       },
       "rel_dim": {
         "DIM_PROY": "principal",
-        "DIM_FORM": "complementaria"
+        "DIM_FORM": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_HOJA_IND": "principal",
         "HER_ESC_OBS": "complementaria",
-        "HER_RUB_PROC": "complementaria"
+        "HER_RUB_PROC": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -3341,13 +3497,15 @@
     "rel_her": [
       "HER_FICHA_COEV",
       "HER_RUB_COEV",
-      "HER_FICHA_RETRO"
+      "HER_FICHA_RETRO",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_COEV",
       "DIM_FORM",
       "DIM_FEED",
-      "DIM_COMPART"
+      "DIM_COMPART",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Coevaluación; Finalidad formativa; Retroalimentación y feedforward; Evaluación compartida y participativa",
     "rel_meta": {
@@ -3358,12 +3516,14 @@
         "DIM_COEV": "principal",
         "DIM_FORM": "complementaria",
         "DIM_FEED": "principal",
-        "DIM_COMPART": "principal"
+        "DIM_COMPART": "principal",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_her": {
         "HER_FICHA_COEV": "principal",
         "HER_RUB_COEV": "complementaria",
-        "HER_FICHA_RETRO": "complementaria"
+        "HER_FICHA_RETRO": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -3586,14 +3746,16 @@
     "rel_her": [
       "HER_RUB_COMP",
       "HER_MAP_EVID",
-      "HER_IND_CRIT"
+      "HER_IND_CRIT",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_COMP",
       "DIM_CRIT",
       "DIM_INCL",
       "DIM_CAL_ACRED",
-      "DIM_GAMIF"
+      "DIM_GAMIF",
+      "DIM_TRAZ_IA"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3606,12 +3768,14 @@
         "DIM_CRIT": "principal",
         "DIM_INCL": "principal",
         "DIM_CAL_ACRED": "complementaria",
-        "DIM_GAMIF": "complementaria"
+        "DIM_GAMIF": "complementaria",
+        "DIM_TRAZ_IA": "ocasional"
       },
       "rel_her": {
         "HER_RUB_COMP": "principal",
         "HER_MAP_EVID": "principal",
-        "HER_IND_CRIT": "principal"
+        "HER_IND_CRIT": "principal",
+        "HER_DECL_IA": "ocasional"
       }
     },
     "Dimensiones asociadas": "Enfoque competencial; Evaluación criterial; Evaluación inclusiva y DUA; Calificación y acreditación",
@@ -3642,13 +3806,15 @@
     "rel_her": [
       "HER_RUB_ANA",
       "HER_GUIA_CORR",
-      "HER_IND_CRIT"
+      "HER_IND_CRIT",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_PROB",
       "DIM_COMP",
       "DIM_CRIT",
-      "DIM_GAMIF"
+      "DIM_GAMIF",
+      "DIM_TRAZ_IA"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3659,12 +3825,14 @@
         "DIM_PROB": "principal",
         "DIM_COMP": "complementaria",
         "DIM_CRIT": "principal",
-        "DIM_GAMIF": "complementaria"
+        "DIM_GAMIF": "complementaria",
+        "DIM_TRAZ_IA": "ocasional"
       },
       "rel_her": {
         "HER_RUB_ANA": "principal",
         "HER_GUIA_CORR": "complementaria",
-        "HER_IND_CRIT": "complementaria"
+        "HER_IND_CRIT": "complementaria",
+        "HER_DECL_IA": "ocasional"
       }
     },
     "Dimensiones asociadas": "Resolución de problemas; Enfoque competencial; Evaluación criterial",
@@ -3849,12 +4017,14 @@
     "rel_her": [
       "HER_HIST_REV",
       "HER_PANEL",
-      "HER_BANCO_EVID"
+      "HER_BANCO_EVID",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_DIG",
       "DIM_CONT",
-      "DIM_INCL"
+      "DIM_INCL",
+      "DIM_TRAZ_IA"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3865,12 +4035,14 @@
       "rel_dim": {
         "DIM_DIG": "principal",
         "DIM_CONT": "principal",
-        "DIM_INCL": "complementaria"
+        "DIM_INCL": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_HIST_REV": "principal",
         "HER_PANEL": "complementaria",
-        "HER_BANCO_EVID": "complementaria"
+        "HER_BANCO_EVID": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "Dimensiones asociadas": "Evidencias digitales; Evaluación continua; Evaluación inclusiva y DUA",
@@ -3902,7 +4074,8 @@
     "rel_her": [
       "HER_MAP_EVID",
       "HER_BANCO_EVID",
-      "HER_ESC_PROG"
+      "HER_ESC_PROG",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_CRIT",
@@ -3910,7 +4083,8 @@
       "DIM_FEED",
       "DIM_CAL_ACRED",
       "DIM_COMPART",
-      "DIM_INCL"
+      "DIM_INCL",
+      "DIM_TRAZ_IA"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3924,12 +4098,14 @@
         "DIM_FEED": "complementaria",
         "DIM_CAL_ACRED": "complementaria",
         "DIM_COMPART": "complementaria",
-        "DIM_INCL": "principal"
+        "DIM_INCL": "principal",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_her": {
         "HER_MAP_EVID": "principal",
         "HER_BANCO_EVID": "principal",
-        "HER_ESC_PROG": "complementaria"
+        "HER_ESC_PROG": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "Dimensiones asociadas": "Evaluación criterial; Evaluación continua; Retroalimentación y feedforward; Calificación y acreditación; Evaluación compartida y participativa; Evaluación inclusiva y DUA",
@@ -3954,12 +4130,14 @@
       "HER_GUIA_CORR",
       "HER_LISTA",
       "HER_NOTAS_CAMPO",
-      "HER_RUB_ANA"
+      "HER_RUB_ANA",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_INDAG",
       "DIM_COMP",
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_TRAZ_IA"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -3971,12 +4149,14 @@
         "HER_GUIA_CORR": "principal",
         "HER_LISTA": "complementaria",
         "HER_NOTAS_CAMPO": "complementaria",
-        "HER_RUB_ANA": "ocasional"
+        "HER_RUB_ANA": "ocasional",
+        "HER_DECL_IA": "complementaria"
       },
       "rel_dim": {
         "DIM_INDAG": "principal",
         "DIM_COMP": "complementaria",
-        "DIM_FORM": "complementaria"
+        "DIM_FORM": "complementaria",
+        "DIM_TRAZ_IA": "complementaria"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -4008,12 +4188,14 @@
       "HER_RUB_ANA",
       "HER_RUB_PROD",
       "HER_LISTA",
-      "HER_FICHA_COEV"
+      "HER_FICHA_COEV",
+      "HER_DECL_IA"
     ],
     "rel_dim": [
       "DIM_DIG",
       "DIM_COMP",
-      "DIM_DESEMP"
+      "DIM_DESEMP",
+      "DIM_TRAZ_IA"
     ],
     "rel_meta": {
       "rel_tec": {
@@ -4024,12 +4206,14 @@
         "HER_RUB_ANA": "principal",
         "HER_RUB_PROD": "complementaria",
         "HER_LISTA": "complementaria",
-        "HER_FICHA_COEV": "ocasional"
+        "HER_FICHA_COEV": "ocasional",
+        "HER_DECL_IA": "principal"
       },
       "rel_dim": {
         "DIM_DIG": "principal",
         "DIM_COMP": "complementaria",
-        "DIM_DESEMP": "complementaria"
+        "DIM_DESEMP": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       }
     },
     "tipo_entidad": "medio_evidencia",
@@ -4047,5 +4231,70 @@
     "Instrumentos de evaluación recomendados": "Rúbrica analítica; Rúbrica de producto; Lista de cotejo o control; Ficha de coevaluación",
     "Lugar": "Aula / Virtual / Domicilio / Exterior",
     "Agrupamiento": "Individual / Parejas"
+  },
+  {
+    "Código": "INS_BIT_IA",
+    "Tipo": "Digital/proceso",
+    "Complejidad": "Media",
+    "Fase": "Proceso/Final",
+    "Participación": "Docente/Alumno",
+    "rel_tec": [
+      "TEC_PROC_REFLEX",
+      "TEC_ANAL_DOC",
+      "TEC_INTER_DIG",
+      "TEC_TRIANG"
+    ],
+    "rel_dim": [
+      "DIM_TRAZ_IA",
+      "DIM_DIG",
+      "DIM_FORM",
+      "DIM_FEED",
+      "DIM_COMP"
+    ],
+    "rel_her": [
+      "HER_DECL_IA",
+      "HER_HIST_REV",
+      "HER_MAP_EVID",
+      "HER_RUB_PROC",
+      "HER_FICHA_RETRO",
+      "HER_BANCO_EVID"
+    ],
+    "rel_meta": {
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal",
+        "TEC_ANAL_DOC": "principal",
+        "TEC_INTER_DIG": "complementaria",
+        "TEC_TRIANG": "ocasional"
+      },
+      "rel_dim": {
+        "DIM_TRAZ_IA": "principal",
+        "DIM_DIG": "principal",
+        "DIM_FORM": "complementaria",
+        "DIM_FEED": "complementaria",
+        "DIM_COMP": "ocasional"
+      },
+      "rel_her": {
+        "HER_DECL_IA": "principal",
+        "HER_HIST_REV": "principal",
+        "HER_MAP_EVID": "complementaria",
+        "HER_RUB_PROC": "complementaria",
+        "HER_FICHA_RETRO": "complementaria",
+        "HER_BANCO_EVID": "ocasional"
+      }
+    },
+    "tipo_entidad": "medio_evidencia",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual / Domicilio",
+    "Agrupamiento": "Individual",
+    "Resistencia IA": "Alta",
+    "Instrumento": "Bitácora de proceso con IA",
+    "Descripción breve": "Registro del proceso de trabajo, uso de IA, fuentes, versiones y decisiones tomadas.",
+    "Técnicas asociadas": "Análisis de procesos y reflexiones; Análisis documental; Análisis de interacciones digitales; Triangulación de evidencias",
+    "Evidencia": "Registro de proceso",
+    "Adecuado para": "Proyectos; investigaciones; producciones digitales; tareas con ayuda de IA; trabajo fuera del aula.",
+    "Etiquetas": "ia; prompts; proceso; autoria; fuentes; versiones",
+    "Descripción detallada": "La bitácora de proceso con IA es una evidencia en la que el alumno documenta cómo ha elaborado una tarea cuando ha podido usar herramientas digitales, fuentes externas o IA generativa. Recoge el recorrido de trabajo, no solo el producto final.\n\nCómo usarla para evaluar: se pide al alumnado que registre los pasos relevantes, fuentes consultadas, prompts o instrucciones usadas, respuestas aprovechadas o descartadas, cambios entre versiones, comprobaciones realizadas y decisiones propias. No es necesario guardar todo, sino las evidencias suficientes para explicar el proceso.\n\nPermite valorar autoría, pensamiento crítico, revisión, mejora y uso responsable de la IA. Conviene vincularla a criterios concretos para que no se reduzca a una declaración formal sin valor evaluativo.",
+    "Dimensiones asociadas": "Trazabilidad, autoría y uso de IA; Evidencias digitales; Finalidad formativa; Retroalimentación y feedforward; Enfoque competencial",
+    "Instrumentos de evaluación recomendados": "Declaración de uso de IA y fuentes; Historial de revisión; Mapa de evidencias por criterio; Rúbrica de proceso; Ficha de retroalimentación; Banco digital de evidencias"
   }
 ]

@@ -436,7 +436,8 @@
       "INS_CONTRATO",
       "INS_DOC_COL",
       "INS_PORT",
-      "INS_PORT_DIG"
+      "INS_PORT_DIG",
+      "INS_BIT_IA"
     ],
     "rel_her": [
       "HER_RUB_PROC",
@@ -445,7 +446,8 @@
       "HER_REG_COMP",
       "HER_ESC_AUTO",
       "HER_HIST_REV",
-      "HER_PANEL"
+      "HER_PANEL",
+      "HER_DECL_IA"
     ],
     "rel_meta": {
       "rel_ins": {
@@ -463,7 +465,8 @@
         "INS_2E1D": "principal",
         "INS_SEMAF": "principal",
         "INS_PORT": "complementaria",
-        "INS_PORT_DIG": "complementaria"
+        "INS_PORT_DIG": "complementaria",
+        "INS_BIT_IA": "principal"
       },
       "rel_her": {
         "HER_RUB_PROC": "principal",
@@ -472,7 +475,8 @@
         "HER_REG_COMP": "complementaria",
         "HER_ESC_AUTO": "complementaria",
         "HER_HIST_REV": "complementaria",
-        "HER_PANEL": "complementaria"
+        "HER_PANEL": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "tecnica",
@@ -585,24 +589,28 @@
       "INS_CUADERNO",
       "INS_PORT_DIG",
       "INS_ACTA",
-      "INS_DOC_COL"
+      "INS_DOC_COL",
+      "INS_BIT_IA"
     ],
     "rel_her": [
       "HER_MAP_EVID",
       "HER_HIST_REV",
-      "HER_BANCO_EVID"
+      "HER_BANCO_EVID",
+      "HER_DECL_IA"
     ],
     "rel_meta": {
       "rel_ins": {
         "INS_CUADERNO": "principal",
         "INS_PORT_DIG": "principal",
         "INS_ACTA": "complementaria",
-        "INS_DOC_COL": "complementaria"
+        "INS_DOC_COL": "complementaria",
+        "INS_BIT_IA": "principal"
       },
       "rel_her": {
         "HER_MAP_EVID": "principal",
         "HER_HIST_REV": "complementaria",
-        "HER_BANCO_EVID": "complementaria"
+        "HER_BANCO_EVID": "complementaria",
+        "HER_DECL_IA": "principal"
       }
     },
     "tipo_entidad": "tecnica",
@@ -629,7 +637,8 @@
       "INS_FORO",
       "INS_DOC_COL",
       "INS_CUAD_DIG",
-      "INS_PORT_DIG"
+      "INS_PORT_DIG",
+      "INS_BIT_IA"
     ],
     "rel_her": [
       "HER_HIST_REV",
@@ -641,7 +650,8 @@
         "INS_FORO": "principal",
         "INS_DOC_COL": "principal",
         "INS_CUAD_DIG": "complementaria",
-        "INS_PORT_DIG": "complementaria"
+        "INS_PORT_DIG": "complementaria",
+        "INS_BIT_IA": "complementaria"
       },
       "rel_her": {
         "HER_HIST_REV": "principal",
@@ -672,23 +682,27 @@
     "rel_ins": [
       "INS_TAREA_COMP_INT",
       "INS_EPORT_SEL",
-      "INS_PR_COMP"
+      "INS_PR_COMP",
+      "INS_BIT_IA"
     ],
     "rel_her": [
       "HER_MAP_EVID",
       "HER_TAB_CRIT",
-      "HER_PERFIL_LOGRO"
+      "HER_PERFIL_LOGRO",
+      "HER_DECL_IA"
     ],
     "rel_meta": {
       "rel_ins": {
         "INS_TAREA_COMP_INT": "principal",
         "INS_EPORT_SEL": "principal",
-        "INS_PR_COMP": "complementaria"
+        "INS_PR_COMP": "complementaria",
+        "INS_BIT_IA": "ocasional"
       },
       "rel_her": {
         "HER_MAP_EVID": "principal",
         "HER_TAB_CRIT": "complementaria",
-        "HER_PERFIL_LOGRO": "complementaria"
+        "HER_PERFIL_LOGRO": "complementaria",
+        "HER_DECL_IA": "complementaria"
       }
     },
     "tipo_entidad": "tecnica",

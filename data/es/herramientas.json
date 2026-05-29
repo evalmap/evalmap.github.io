@@ -168,21 +168,25 @@
       "INS_DEF_PROY",
       "INS_PORT_DIG",
       "INS_BIT",
-      "INS_ENT_PAR"
+      "INS_ENT_PAR",
+      "INS_BIT_IA"
     ],
     "rel_dim": [
-      "DIM_PROY"
+      "DIM_PROY",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Trabajo por proyectos",
     "rel_meta": {
       "rel_dim": {
-        "DIM_PROY": "complementaria"
+        "DIM_PROY": "complementaria",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_ins": {
         "INS_DEF_PROY": "principal",
         "INS_PORT_DIG": "principal",
         "INS_BIT": "complementaria",
-        "INS_ENT_PAR": "complementaria"
+        "INS_ENT_PAR": "complementaria",
+        "INS_BIT_IA": "complementaria"
       },
       "rel_tec": {
         "TEC_PROC_REFLEX": "principal"
@@ -1407,17 +1411,20 @@
       "INS_DIARIO",
       "INS_F_REFLEX",
       "INS_REV_PARES",
-      "INS_BILLETE"
+      "INS_BILLETE",
+      "INS_BIT_IA"
     ],
     "rel_dim": [
       "DIM_FORM",
-      "DIM_FEED"
+      "DIM_FEED",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Finalidad formativa; Retroalimentación y feedforward",
     "rel_meta": {
       "rel_dim": {
         "DIM_FORM": "principal",
-        "DIM_FEED": "principal"
+        "DIM_FEED": "principal",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_ins": {
         "INS_2E1D": "principal",
@@ -1428,7 +1435,8 @@
         "INS_DIARIO": "ocasional",
         "INS_F_REFLEX": "ocasional",
         "INS_REV_PARES": "complementaria",
-        "INS_BILLETE": "complementaria"
+        "INS_BILLETE": "complementaria",
+        "INS_BIT_IA": "complementaria"
       },
       "rel_tec": {
         "TEC_PROD": "complementaria",
@@ -2463,22 +2471,26 @@
     "rel_ins": [
       "INS_DOC_COL",
       "INS_DEF_PROY",
-      "INS_CUAD_DIG"
+      "INS_CUAD_DIG",
+      "INS_BIT_IA"
     ],
     "rel_dim": [
       "DIM_DIG",
-      "DIM_FORM"
+      "DIM_FORM",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Evidencias digitales; Finalidad formativa",
     "rel_meta": {
       "rel_dim": {
         "DIM_DIG": "principal",
-        "DIM_FORM": "complementaria"
+        "DIM_FORM": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_ins": {
         "INS_DOC_COL": "principal",
         "INS_DEF_PROY": "principal",
-        "INS_CUAD_DIG": "principal"
+        "INS_CUAD_DIG": "principal",
+        "INS_BIT_IA": "principal"
       },
       "rel_tec": {
         "TEC_PROC_REFLEX": "complementaria",
@@ -2570,23 +2582,27 @@
     "Descripción detallada": "Las analíticas de aprendizaje son datos recogidos automáticamente por plataformas educativas (LMS, aplicaciones, juegos educativos) sobre el comportamiento y rendimiento del alumnado: tiempo de acceso, intentos, errores, patrones de navegación, puntuaciones.\n\nCómo usarlas: la plataforma genera informes automáticos que el docente puede revisar para detectar quién no accede a los materiales, qué contenidos generan más errores o qué alumnos necesitan apoyo. No deben usarse como única fuente de valoración.\n\nSon especialmente útiles para identificar tendencias grupales e individuales de forma eficiente. El juicio pedagógico del docente es imprescindible para interpretar los datos y no reducir el aprendizaje a métricas.",
     "rel_ins": [
       "INS_CUEST_DIG",
-      "INS_FORO"
+      "INS_FORO",
+      "INS_BIT_IA"
     ],
     "rel_dim": [
       "DIM_DIG",
       "DIM_FORM",
-      "DIM_GAMIF"
+      "DIM_GAMIF",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Evidencias digitales; Finalidad formativa",
     "rel_meta": {
       "rel_dim": {
         "DIM_DIG": "principal",
         "DIM_FORM": "complementaria",
-        "DIM_GAMIF": "complementaria"
+        "DIM_GAMIF": "complementaria",
+        "DIM_TRAZ_IA": "ocasional"
       },
       "rel_ins": {
         "INS_CUEST_DIG": "complementaria",
-        "INS_FORO": "principal"
+        "INS_FORO": "principal",
+        "INS_BIT_IA": "complementaria"
       },
       "rel_tec": {
         "TEC_INTER_DIG": "complementaria"
@@ -2622,25 +2638,29 @@
       "INS_PORT_DIG",
       "INS_DEF_PROY",
       "INS_CUAD_DIG",
-      "INS_EPORT_SEL"
+      "INS_EPORT_SEL",
+      "INS_BIT_IA"
     ],
     "rel_dim": [
       "DIM_DIG",
       "DIM_FORM",
-      "DIM_CONT"
+      "DIM_CONT",
+      "DIM_TRAZ_IA"
     ],
     "Dimensiones asociadas": "Evidencias digitales; Finalidad formativa; Evaluación continua",
     "rel_meta": {
       "rel_dim": {
         "DIM_DIG": "principal",
         "DIM_FORM": "complementaria",
-        "DIM_CONT": "complementaria"
+        "DIM_CONT": "complementaria",
+        "DIM_TRAZ_IA": "complementaria"
       },
       "rel_ins": {
         "INS_PORT_DIG": "complementaria",
         "INS_DEF_PROY": "principal",
         "INS_CUAD_DIG": "complementaria",
-        "INS_EPORT_SEL": "principal"
+        "INS_EPORT_SEL": "principal",
+        "INS_BIT_IA": "ocasional"
       },
       "rel_tec": {
         "TEC_ANAL_DOC": "complementaria"
@@ -2950,25 +2970,29 @@
     "rel_ins": [
       "INS_TAREA_COMP_INT",
       "INS_EPORT_SEL",
-      "INS_PR_COMP"
+      "INS_PR_COMP",
+      "INS_BIT_IA"
     ],
     "rel_dim": [
       "DIM_CRIT",
       "DIM_COMP",
       "DIM_CAL_ACRED",
-      "DIM_INCL"
+      "DIM_INCL",
+      "DIM_TRAZ_IA"
     ],
     "rel_meta": {
       "rel_dim": {
         "DIM_CRIT": "principal",
         "DIM_COMP": "principal",
         "DIM_CAL_ACRED": "complementaria",
-        "DIM_INCL": "complementaria"
+        "DIM_INCL": "complementaria",
+        "DIM_TRAZ_IA": "principal"
       },
       "rel_ins": {
         "INS_TAREA_COMP_INT": "principal",
         "INS_EPORT_SEL": "principal",
-        "INS_PR_COMP": "complementaria"
+        "INS_PR_COMP": "complementaria",
+        "INS_BIT_IA": "complementaria"
       },
       "rel_tec": {
         "TEC_ANAL_DOC": "principal",
@@ -2988,5 +3012,151 @@
     "Lugar": "Aula / Virtual",
     "Agrupamiento": "Individual",
     "Resistencia IA": "Media"
+  },
+  {
+    "Código": "HER_DECL_IA",
+    "Tipo": "Trazabilidad/autoría",
+    "Complejidad": "Baja/Media",
+    "Fase": "Proceso/Final",
+    "Participación": "Alumno/Docente",
+    "rel_ins": [
+      "INS_DIARIO",
+      "INS_PORT",
+      "INS_INFO_INV",
+      "INS_MONO",
+      "INS_ENSAYO",
+      "INS_ART_DIV",
+      "INS_MEM_PROY",
+      "INS_PLAN_TRAB",
+      "INS_DOC_COL",
+      "INS_PORT_DIG",
+      "INS_BIT",
+      "INS_CUAD_DIG",
+      "INS_EPORT_SEL",
+      "INS_PRESENT_DIG",
+      "INS_WEB",
+      "INS_BLOG",
+      "INS_VIDEO",
+      "INS_TUTORIAL",
+      "INS_MICROVIDEO",
+      "INS_COM_TEXT",
+      "INS_COM_GRAF",
+      "INS_RESEÑA",
+      "INS_PROB",
+      "INS_CASO",
+      "INS_PR_COMP",
+      "INS_INFOG",
+      "INS_POSTER",
+      "INS_PODCAST",
+      "INS_MODELO_DIG",
+      "INS_FORO",
+      "INS_BORR",
+      "INS_ENT_PAR",
+      "INS_REV_PARES",
+      "INS_CUAD_CAMPO",
+      "INS_RESUMEN",
+      "INS_ESQUEMA",
+      "INS_MAP_CONC",
+      "INS_MAP_MENT",
+      "INS_LINEA",
+      "INS_GLOS",
+      "INS_FICHA_LECT",
+      "INS_ACTA",
+      "INS_F_REFLEX",
+      "INS_AUTOINF",
+      "INS_TAREA_COMP_INT",
+      "INS_SIT_PROB",
+      "INS_BIT_IA"
+    ],
+    "rel_dim": [
+      "DIM_TRAZ_IA",
+      "DIM_DIG",
+      "DIM_CRIT",
+      "DIM_FEED"
+    ],
+    "rel_tec": [
+      "TEC_PROC_REFLEX",
+      "TEC_ANAL_DOC",
+      "TEC_TRIANG"
+    ],
+    "rel_meta": {
+      "rel_ins": {
+        "INS_DIARIO": "principal",
+        "INS_PORT": "principal",
+        "INS_INFO_INV": "principal",
+        "INS_MONO": "principal",
+        "INS_ENSAYO": "principal",
+        "INS_ART_DIV": "principal",
+        "INS_MEM_PROY": "principal",
+        "INS_PLAN_TRAB": "principal",
+        "INS_DOC_COL": "principal",
+        "INS_PORT_DIG": "principal",
+        "INS_BIT": "principal",
+        "INS_CUAD_DIG": "principal",
+        "INS_EPORT_SEL": "principal",
+        "INS_PRESENT_DIG": "principal",
+        "INS_WEB": "principal",
+        "INS_BLOG": "principal",
+        "INS_VIDEO": "principal",
+        "INS_TUTORIAL": "principal",
+        "INS_MICROVIDEO": "principal",
+        "INS_COM_TEXT": "complementaria",
+        "INS_COM_GRAF": "complementaria",
+        "INS_RESEÑA": "complementaria",
+        "INS_PROB": "complementaria",
+        "INS_CASO": "complementaria",
+        "INS_PR_COMP": "complementaria",
+        "INS_INFOG": "complementaria",
+        "INS_POSTER": "complementaria",
+        "INS_PODCAST": "complementaria",
+        "INS_MODELO_DIG": "complementaria",
+        "INS_FORO": "complementaria",
+        "INS_BORR": "complementaria",
+        "INS_ENT_PAR": "complementaria",
+        "INS_REV_PARES": "complementaria",
+        "INS_CUAD_CAMPO": "complementaria",
+        "INS_RESUMEN": "ocasional",
+        "INS_ESQUEMA": "ocasional",
+        "INS_MAP_CONC": "ocasional",
+        "INS_MAP_MENT": "ocasional",
+        "INS_LINEA": "ocasional",
+        "INS_GLOS": "ocasional",
+        "INS_FICHA_LECT": "ocasional",
+        "INS_ACTA": "ocasional",
+        "INS_F_REFLEX": "ocasional",
+        "INS_AUTOINF": "ocasional",
+        "INS_TAREA_COMP_INT": "ocasional",
+        "INS_SIT_PROB": "ocasional",
+        "INS_BIT_IA": "principal"
+      },
+      "rel_dim": {
+        "DIM_TRAZ_IA": "principal",
+        "DIM_DIG": "complementaria",
+        "DIM_CRIT": "complementaria",
+        "DIM_FEED": "ocasional"
+      },
+      "rel_tec": {
+        "TEC_PROC_REFLEX": "principal",
+        "TEC_ANAL_DOC": "principal",
+        "TEC_TRIANG": "complementaria"
+      }
+    },
+    "tipo_entidad": "instrumento_evaluacion",
+    "Modalidad": "Presencial / Online",
+    "Lugar": "Aula / Virtual",
+    "Agrupamiento": "Individual / Grupo pequeño",
+    "Resistencia IA": "Alta",
+    "Herramienta": "Declaración de uso de IA y fuentes",
+    "Descripción breve": "Plantilla para declarar ayudas, fuentes, herramientas de IA y decisiones propias en una tarea.",
+    "Sirve para": "Documentar autoría, uso de IA, verificación de fuentes y responsabilidad sobre la producción final.",
+    "Adecuada para": "Producciones escritas, proyectos, portfolios, productos digitales y tareas realizadas fuera del aula.",
+    "Ventajas": "Hace transparente el proceso y facilita conversaciones de retroalimentación sobre autoría y calidad del trabajo.",
+    "Limitaciones": "Depende de la honestidad del alumnado y debe combinarse con revisión del proceso o defensa oral cuando sea necesario.",
+    "Etiquetas": "ia; autoria; fuentes; declaracion; trazabilidad",
+    "Descripción detallada": "La declaración de uso de IA y fuentes es una plantilla breve que acompaña a una tarea para explicar qué apoyos externos se han utilizado y qué parte del trabajo corresponde a decisiones propias del alumno.\n\nCómo usarla: puede incluir apartados sobre fuentes consultadas, herramientas de IA empleadas, finalidad de cada ayuda, fragmentos revisados, errores detectados, cambios realizados y responsabilidad final sobre el contenido. Es más útil si se pide junto con borradores, historial de revisión o una breve defensa del trabajo.\n\nNo sustituye a una rúbrica ni demuestra por sí sola el aprendizaje, pero ayuda a convertir el uso de IA en una práctica transparente, revisable y educativamente aprovechable.",
+    "Dimensiones asociadas": "Trazabilidad, autoría y uso de IA; Evidencias digitales; Evaluación criterial; Retroalimentación y feedforward",
+    "Medios/evidencias compatibles": "Bitácora de proceso con IA; Informe de investigación; Monografía; Ensayo; Artículo divulgativo; Memoria de proyecto; Documento colaborativo; Portfolio digital; Presentación digital; Página web; Entrada de blog; Vídeo; Microvídeo educativo",
+    "Medios/evidencias asociados": "Bitácora de proceso con IA; Informe de investigación; Monografía; Ensayo; Artículo divulgativo; Memoria de proyecto; Documento colaborativo; Portfolio digital; Presentación digital; Página web; Entrada de blog; Vídeo; Microvídeo educativo",
+    "Técnicas asociadas": "Análisis de procesos y reflexiones; Análisis documental; Triangulación de evidencias"
   }
 ]
