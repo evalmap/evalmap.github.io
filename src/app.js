@@ -1180,7 +1180,8 @@ function buildPrintHtml(item, cat) {
 }
 
 /* ── Theme ────────────────────────────────────────────────── */
-let darkMode = false;
+let darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+document.documentElement.dataset.theme = darkMode ? 'dark' : '';
 function toggleTheme() {
   darkMode = !darkMode;
   document.documentElement.dataset.theme = darkMode ? 'dark' : '';
