@@ -2,195 +2,20 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mapa de Evaluación</title>
-  <meta name="description" content="Explora técnicas, evidencias evaluables, instrumentos de evaluación y dimensiones de la evaluación educativa, incluyendo trazabilidad y uso de IA">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/styles.css">
+  <meta http-equiv="refresh" content="0; url=https://metaceval.github.io">
+  <title>Redirigiendo a Metaceval…</title>
+  <style>
+    body { font-family: system-ui, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background: #f8fafc; color: #1e293b; }
+    .box { text-align: center; padding: 40px; }
+    a { color: #4f46e5; font-weight: 600; }
+  </style>
 </head>
 <body>
-<div id="app">
-
-  <header class="top-bar">
-    <button class="top-bar-brand" id="btn-home" title="Inicio">
-      <img src="favicon.svg" class="logo-icon" alt="" width="24" height="24">
-      <span>Mapa de Evaluación</span>
-    </button>
-    <div class="cat-tabs" id="cat-tabs" style="display:none">
-      <button class="cat-tab" data-cat="tecnicas">🔬 Técnicas</button>
-      <button class="cat-tab" data-cat="instrumentos">📄 Evidencias evaluables</button>
-      <button class="cat-tab" data-cat="herramientas">🛠️ Instrumentos de evaluación</button>
-      <span class="cat-tab-separator" aria-hidden="true"></span>
-      <button class="cat-tab cat-tab-transversal" data-cat="dimensiones">🧭 Dimensiones transversales</button>
-    </div>
-    <div class="top-bar-actions">
-      <div class="catalog-count" id="catalog-count" style="display:none"></div>
-      <a class="notebooklm-btn" href="https://notebooklm.google.com/notebook/8f83f2de-08e0-4d1e-8015-8a47901cd124/preview" target="_blank" rel="noopener noreferrer" title="Asistente de IA">
-        <span class="notebooklm-icon-wrap" aria-hidden="true">
-          <img src="notebooklm-icon.webp" alt="">
-        </span>
-        <span>Asistente de IA</span>
-      </a>
-      <div class="lang-switcher" aria-label="Idioma / Langue / Language">
-        <button class="lang-btn active" data-lang="es" type="button">ES</button>
-        <button class="lang-btn" data-lang="ca" type="button">CA</button>
-        <button class="lang-btn" data-lang="en" type="button">EN</button>
-      </div>
-      <button class="theme-btn" id="btn-theme">🌙 Oscuro</button>
-    </div>
-  </header>
-
-  <!-- ── HOME VIEW ─────────────────────────────────────── -->
-  <div id="view-home" class="view active">
-    <div class="home-hero">
-      <h1>Mapa de Evaluación</h1>
-      <p>Un explorador único e interconectado de la evaluación educativa. Elige cualquier categoría como punto de partida: desde todas ellas puedes navegar por el contenido completo del mapa.</p>
-    </div>
-    <div class="home-map">
-      <div class="home-flow">
-
-        <div class="home-card tec" data-cat="tecnicas">
-          <div class="home-card-icon">🔬</div>
-          <div class="home-card-count" id="count-tec">12 técnicas</div>
-          <h2>Técnicas</h2>
-          <p>Procedimientos para recoger evidencias. Conectadas con evidencias evaluables, instrumentos de evaluación y dimensiones.</p>
-          <div class="home-card-btn">Empezar desde aquí →</div>
-        </div>
-
-        <div class="home-card ins" data-cat="instrumentos">
-          <div class="home-card-icon">📄</div>
-          <div class="home-card-count" id="count-ins">86 evidencias evaluables</div>
-          <h2>Evidencias evaluables</h2>
-          <p>Tareas, actividades y producciones mediante las cuales el alumnado hace visible su aprendizaje. Conectadas con técnicas e instrumentos de evaluación.</p>
-          <div class="home-card-btn">Empezar desde aquí →</div>
-        </div>
-
-        <div class="home-card her" data-cat="herramientas">
-          <div class="home-card-icon">🛠️</div>
-          <div class="home-card-count" id="count-her">58 instrumentos de evaluación</div>
-          <h2>Instrumentos de evaluación</h2>
-          <p>Rúbricas, listas, escalas y registros para valorar, calificar y retroalimentar las evidencias. Conectados con evidencias evaluables y dimensiones.</p>
-          <div class="home-card-feature">📊 Incluye planificador de cobertura de dimensiones</div>
-          <div class="home-card-btn">Empezar desde aquí →</div>
-        </div>
-
-      </div>
-
-      <div class="home-card dim home-transversal" data-cat="dimensiones">
-        <div class="home-card-icon">🧭</div>
-        <div>
-          <div class="home-card-count" id="count-dim">22 dimensiones</div>
-          <h2>Dimensiones</h2>
-          <div class="home-card-kicker">Eje transversal del mapa</div>
-          <p>Finalidad, agente, momento, enfoque y soporte cruzan técnicas, evidencias evaluables e instrumentos de evaluación para dar sentido pedagógico a la evaluación.</p>
-        </div>
-        <div class="home-card-btn">Empezar desde aquí →</div>
-      </div>
-
-    </div>
+  <div class="box">
+    <p>Esta página se ha trasladado a</p>
+    <p><a href="https://metaceval.github.io">metaceval.github.io</a></p>
+    <p style="font-size:.85rem;color:#64748b">Si no eres redirigido automáticamente, haz clic en el enlace.</p>
   </div>
-
-  <!-- ── CATALOG VIEW ───────────────────────────────────── -->
-  <div id="view-catalog" class="view">
-
-    <div class="catalog-body">
-
-      <!-- Left: filter + card list -->
-      <div class="catalog-list-panel">
-        <div class="filter-bar" id="filter-bar">
-          <div class="filter-top-row">
-            <div id="global-filter-bar"></div>
-            <div class="search-wrap">
-              <span class="search-icon">🔍</span>
-              <input type="search" class="search-input" id="search-input" placeholder="Buscar...">
-            </div>
-          </div>
-          <div id="gf-pills-bar"></div>
-        </div>
-        <div class="plan-toolbar" id="plan-toolbar" style="display:none">
-          <button class="plan-toggle-btn" id="btn-plan-mode" type="button" data-tooltip="">📊</button>
-          <span class="plan-info" id="plan-info"></span>
-          <button class="plan-clear-btn" id="btn-plan-clear" type="button" style="display:none">✕</button>
-        </div>
-        <div class="cards-list" id="cards-grid"></div>
-      </div>
-
-      <!-- Right: detail panel -->
-      <div class="catalog-detail-panel" id="detail-panel">
-        <div class="plan-coverage-panel" id="plan-coverage-panel" style="display:none"></div>
-        <div class="detail-empty" id="detail-empty">
-          <div class="empty-icon">👈</div>
-          <p>Selecciona un elemento<br>para ver sus relaciones</p>
-        </div>
-        <div class="detail-content" id="detail-content" style="display:none">
-          <canvas id="hub-canvas" aria-hidden="true"></canvas>
-          <div id="graph-tooltip" class="graph-tooltip" aria-hidden="true"></div>
-          <div class="graph-controls">
-            <button class="graph-nav-btn" id="btn-nav-back" type="button" title="Atrás" disabled aria-label="Atrás">&#8249;</button>
-            <button class="graph-nav-btn" id="btn-nav-fwd"  type="button" title="Adelante" disabled aria-label="Adelante">&#8250;</button>
-            <button class="graph-toggle-btn" id="btn-toggle-graph" type="button" title="Nodos de 2.º nivel: relaciones de los nodos ya visibles">2.º nivel</button>
-            <button class="graph-toggle-btn" id="btn-toggle-essential" type="button" title="Relaciones ocasionales: conexiones de baja frecuencia">Ocasionales</button>
-            <div class="graph-cat-filters" aria-label="Categorías visibles en el grafo">
-              <span class="graph-cat-label">Ver:</span>
-              <button class="graph-cat-chip tec" data-graph-cat="tecnicas" type="button" aria-label="Técnicas">🔬</button>
-              <button class="graph-cat-chip ins" data-graph-cat="instrumentos" type="button" aria-label="Evidencias evaluables">📄</button>
-              <button class="graph-cat-chip her" data-graph-cat="herramientas" type="button" aria-label="Instrumentos de evaluación">🛠️</button>
-              <button class="graph-cat-chip dim" data-graph-cat="dimensiones" type="button" aria-label="Dimensiones transversales">🧭</button>
-            </div>
-          </div>
-          <div class="graph-legend" aria-hidden="true">
-            <span><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true" style="flex-shrink:0"><circle cx="7" cy="7" r="7" fill="currentColor"/></svg>Principal</span>
-            <span><svg width="9" height="9" viewBox="0 0 9 9" aria-hidden="true" style="flex-shrink:0"><circle cx="4.5" cy="4.5" r="4.5" fill="currentColor"/></svg>Complementaria</span>
-            <span><svg width="4" height="4" viewBox="0 0 4 4" aria-hidden="true" style="flex-shrink:0"><circle cx="2" cy="2" r="2" fill="currentColor"/></svg>Ocasional</span>
-            <span><i class="legend-line transversal"></i>Dimensión</span>
-          </div>
-          <div class="detail-text" id="detail-text">
-            <div class="detail-card-header" id="detail-drag-handle" title="Arrastrar para mover">
-              <div class="detail-card-actions">
-                <button class="detail-tool-btn" id="btn-copy-card" title="Copiar como Markdown">
-                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="9" height="10" rx="1.5"/><path d="M11 4V3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h2"/></svg>
-                </button>
-                <button class="detail-tool-btn" id="btn-print-card" title="Imprimir">
-                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="10" height="7" rx="1"/><path d="M5 6V3h6v3"/><rect x="5.5" y="10" width="5" height="1.5" rx="0.5" fill="currentColor" stroke="none"/><circle cx="11.5" cy="8.5" r="0.6" fill="currentColor" stroke="none"/></svg>
-                </button>
-                <button class="detail-tool-btn" id="btn-dl-card" title="Descargar Markdown">
-                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v8"/><path d="M5 7l3 3 3-3"/><path d="M2 13h12"/></svg>
-                </button>
-              </div>
-            </div>
-            <div id="detail-text-body"></div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <footer class="site-footer">
-  <div class="footer-row">
-    <img src="github-profile.png" class="footer-avatar" alt="">
-    <span>© <a href="https://bilateria.org" target="_blank" rel="noopener noreferrer">Juan José de Haro</a></span>
-    <span class="footer-sep">·</span>
-    <a id="footer-gh-project" href="https://github.com/evalmap/evalmap.github.io" target="_blank" rel="noopener noreferrer">Proyecto en GitHub</a>
-    <span class="footer-sep">·</span>
-    <a id="footer-gh-issues" href="https://github.com/evalmap/evalmap.github.io/issues" target="_blank" rel="noopener noreferrer">Sugerencias y problemas</a>
-  </div>
-  <div class="footer-licenses">
-    <span class="footer-badge" title="Contenido bajo licencia Creative Commons BY-SA 4.0">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-      <span id="footer-content-lic">Contenido:</span> <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>
-    </span>
-    <span class="footer-badge" title="Código fuente bajo licencia AGPLv3">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-      <span id="footer-code-lic">Código:</span> <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" rel="noopener noreferrer">AGPLv3</a>
-    </span>
-  </div>
-</footer>
-</div>
-
-<div id="gf-backdrop" class="gf-backdrop"></div>
-<script src="src/i18n.js"></script>
-<script src="src/app.js"></script>
+  <script>window.location.replace('https://metaceval.github.io');</script>
 </body>
 </html>
